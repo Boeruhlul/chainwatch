@@ -1,0 +1,204 @@
+#!/usr/bin/env node
+import { activeSources } from './sources/index.js';
+import { loadState, saveSeen, saveNames, saveChains, saveHealth } from './store.js';
+import { notify, formatChain, summaryMessage, notifyError } from './notify.js';
+import { buildDashboard } from './dashboard.js';
+import { nowIso } from './util.js';
+
+const argv = new Set(process.argv.slice(2));
+const DRY_RUN = argv.has('--dry-run');
+const FORCE_BOOTSTRAP = argv.has('--bootstrap');
+
+/** Hoe lang we zwijgen over een bron die al kapot is, zodat je niet 288x/dag gepingd wordt. */
+const ERROR_SILENCE_MS = 6 * 60 * 60 * 1000;
+
+const cfg = {
+  token: process.env.TELEGRAM_BOT_TOKEN,
+  chatId: process.env.TELEGRAM_CHAT_ID,
+  kinds: new Set(
+    (process.env.WATCH_KINDS || 'mainnet,testnet,devnet,upcoming,proposal')
+      .split(',').map((s) => s.trim()).filter(Boolean)
+  ),
+  crossListing: process.env.NOTIFY_CROSS_LISTING === 'true',
+  disabled: (process.env.DISABLED_SOURCES || '').split(','),
+  maxAlerts: Number(process.env.MAX_ALERTS_PER_RUN || 25),
+};
+
+async function main() {
+  const sources = activeSources(cfg.disabled);
+  const state = await loadState(sources.map((s) => s.id));
+  const startedAt = nowIso();
+
+  console.log(`[chainwatch] ${startedAt} — ${sources.length} bronnen, dry-run=${DRY_RUN}`);
+
+  const results = await Promise.allSettled(
+    sources.map(async (s) => ({ source: s, records: await s.fetchAll() }))
+  );
+
+  const health = {};
+  const perSource = []; // { src, allKeys, detected[], anomaly }
+  // nameKeys die deze run NIEUW zijn, met de chain-keys die ze introduceerden.
+  // Komt een alert niet aan, dan moet ook zijn nameKey weer weg: anders geldt de
+  // chain bij de hervatting als "al bekend via andere bron" en verdwijnt hij stil.
+  const newNames = new Map();
+
+  for (const [i, res] of results.entries()) {
+    const src = sources[i];
+    const prevHealth = state.health[src.id] || {};
+
+    if (res.status === 'rejected') {
+      const error = String(res.reason?.message || res.reason).slice(0, 300);
+      health[src.id] = {
+        ok: false,
+        error,
+        failingSince: prevHealth.ok === false ? prevHealth.failingSince : startedAt,
+        lastNotifiedAt: prevHealth.lastNotifiedAt,
+      };
+      console.error(`[${src.id}] FOUT: ${error}`);
+      continue; // seen-set NIET aanraken: volgende run pakt het op
+    }
+
+    const { records } = res.value;
+    const previous = state.seen[src.id];
+    const isFirstRun = previous === null || FORCE_BOOTSTRAP;
+    const seen = previous || new Set();
+    const fresh = records.filter((r) => !seen.has(r.key));
+
+    health[src.id] = { ok: true, wasFailing: prevHealth.ok === false };
+    console.log(`[${src.id}] ${records.length} records, ${fresh.length} nieuw${isFirstRun ? ' (bootstrap)' : ''}`);
+
+    const entry = { src, allKeys: records.map((r) => r.key), detected: [], anomaly: false };
+
+    if (isFirstRun) {
+      for (const r of records) state.names.add(r.nameKey);
+      perSource.push(entry);
+      continue;
+    }
+
+    // Anomalie is PER BRON: een bron die van formaat verandert mag geen echte
+    // mainnet-alert van een gezonde bron degraderen tot een regel in een lijstje.
+    if (fresh.length > cfg.maxAlerts * 2) {
+      entry.anomaly = true;
+      console.warn(`[${src.id}] ANOMALIE: ${fresh.length} nieuwe keys — waarschijnlijk formaatwijziging`);
+    }
+
+    // Sommige bronnen halen pas details op voor wat nieuw is (scheelt API-calls).
+    let enriched = fresh;
+    if (typeof src.enrich === 'function' && fresh.length && !entry.anomaly) {
+      try {
+        enriched = await src.enrich(fresh);
+        console.log(`[${src.id}] na verrijking: ${enriched.length} relevant`);
+      } catch (e) {
+        console.warn(`[${src.id}] verrijking mislukt (${e.message}), gebruik ruwe records`);
+      }
+    }
+
+    for (const r of enriched) {
+      const crossListing = state.names.has(r.nameKey);
+      if (!crossListing) {
+        if (!newNames.has(r.nameKey)) newNames.set(r.nameKey, new Set());
+        newNames.get(r.nameKey).add(r.key);
+      }
+      state.names.add(r.nameKey);
+      entry.detected.push({ ...r, crossListing, detectedAt: nowIso() });
+    }
+    perSource.push(entry);
+  }
+
+  // ---- Berichtgroepen bouwen -------------------------------------------------
+  const groups = [];
+  const allDetected = [];
+  let alertableCount = 0;
+
+  for (const entry of perSource) {
+    const alertable = entry.detected
+      .filter((c) => cfg.kinds.has(c.kind))
+      .filter((c) => cfg.crossListing || !c.crossListing)
+      .sort((a, b) => rank(a) - rank(b));
+
+    allDetected.push(...entry.detected);
+    alertableCount += alertable.length;
+    if (alertable.length === 0) continue;
+
+    if (entry.anomaly || alertable.length > cfg.maxAlerts) {
+      const reason = entry.anomaly
+        ? `bron ${entry.src.id} leverde ongewoon veel nieuwe records — mogelijk formaatwijziging`
+        : `bron ${entry.src.id}`;
+      groups.push({ text: summaryMessage(alertable, reason), keys: alertable.map((c) => c.key) });
+    } else {
+      for (const c of alertable) groups.push({ text: formatChain(c), keys: [c.key] });
+    }
+  }
+
+  console.log(`[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig`);
+
+  const { delivered, failed, errors, sent } = await notify(groups, { ...cfg, dryRun: DRY_RUN });
+
+  // ---- State wegschrijven ----------------------------------------------------
+  // Keys waarvan de alert NIET aankwam blijven buiten de seen-set, zodat de
+  // volgende run het opnieuw probeert. Zonder dit zou één Telegram-hik de
+  // detectie permanent inslikken.
+  if (!DRY_RUN) {
+    for (const entry of perSource) {
+      const seen = state.seen[entry.src.id] || new Set();
+      for (const key of entry.allKeys) {
+        if (!failed.has(key)) seen.add(key);
+      }
+      state.seen[entry.src.id] = seen;
+      await saveSeen(entry.src.id, seen);
+    }
+    if (failed.size) {
+      console.warn(`[chainwatch] ${failed.size} chain(s) niet afgeleverd, worden volgende run opnieuw geprobeerd`);
+      // nameKey terugdraaien als élke chain die hem introduceerde is mislukt
+      for (const [nk, keys] of newNames) {
+        if ([...keys].every((k) => failed.has(k))) state.names.delete(nk);
+      }
+    }
+
+    await saveNames(state.names);
+    const kept = allDetected.filter((c) => !failed.has(c.key));
+    const history = await saveChains([...kept, ...state.chains]);
+    await saveHealth(health);
+    await buildDashboard(history, { health });
+  }
+
+  // ---- Bronfouten melden, met stilteperiode ----------------------------------
+  const toReport = [];
+  for (const [id, h] of Object.entries(health)) {
+    if (h.ok) {
+      if (h.wasFailing) console.log(`[${id}] hersteld`);
+      continue;
+    }
+    const last = h.lastNotifiedAt ? Date.parse(h.lastNotifiedAt) : 0;
+    if (Date.now() - last > ERROR_SILENCE_MS) {
+      toReport.push(`${id}: ${h.error}`);
+      h.lastNotifiedAt = startedAt;
+    }
+  }
+  if (toReport.length) {
+    await notifyError(
+      `${toReport.length} bron(nen) falen:\n${toReport.join('\n')}\n(volgende melding pas over 6 uur)`,
+      { ...cfg, dryRun: DRY_RUN }
+    );
+    if (!DRY_RUN) await saveHealth(health);
+  }
+
+  if (errors.length) {
+    // Bewust GEEN exit 1: de workflow moet de state kunnen committen. De
+    // mislukte chains staan al buiten de seen-set en komen vanzelf terug.
+    console.error(`[chainwatch] ${errors.length} verzendfout(en); wordt volgende run hervat`);
+  }
+  console.log(`[chainwatch] klaar — ${sent} bericht(en) verstuurd`);
+}
+
+/** Sorteervolgorde in de alertstroom: mainnets eerst, ruis achteraan. */
+function rank(c) {
+  const order = { mainnet: 0, testnet: 1, upcoming: 2, devnet: 3, proposal: 4 };
+  return (order[c.kind] ?? 9) + (c.crossListing ? 10 : 0);
+}
+
+main().catch(async (e) => {
+  console.error('[chainwatch] fatale fout:', e);
+  await notifyError(`Run gecrasht: ${e.message}`, { ...cfg, dryRun: DRY_RUN });
+  process.exit(1);
+});
