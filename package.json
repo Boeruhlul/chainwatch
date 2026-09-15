@@ -1,0 +1,14 @@
+{
+  "name": "chainwatch",
+  "version": "1.0.0",
+  "description": "Detecteert nieuwe crypto chains (mainnet, testnet, devnet, pre-launch) en pingt je op Telegram",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "watch": "node src/index.js",
+    "bootstrap": "node src/index.js --bootstrap",
+    "dry": "node src/index.js --dry-run",
+    "test": "node test/run.js"
+  },
+  "license": "MIT"
+}
