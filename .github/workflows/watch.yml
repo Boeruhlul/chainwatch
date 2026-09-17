@@ -1,0 +1,66 @@
+name: chainwatch
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: 'Reset de baseline (stuurt geen alerts)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: chainwatch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Detecteer nieuwe chains
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WATCH_KINDS: ${{ vars.WATCH_KINDS || 'mainnet,testnet,devnet,upcoming,proposal' }}
+          NOTIFY_CROSS_LISTING: ${{ vars.NOTIFY_CROSS_LISTING || 'false' }}
+          DISABLED_SOURCES: ${{ vars.DISABLED_SOURCES }}
+          MAX_ALERTS_PER_RUN: ${{ vars.MAX_ALERTS_PER_RUN || '25' }}
+        run: |
+          if [ "${{ inputs.bootstrap }}" = "true" ]; then
+            node src/index.js --bootstrap
+          else
+            node src/index.js
+          fi
+
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name  "chainwatch"
+          git config user.email "chainwatch@users.noreply.github.com"
+          git add data docs
+          if git diff --staged --quiet; then
+            echo "geen wijzigingen"
+            exit 0
+          fi
+          git commit -m "chainwatch: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "push poging $i mislukt, opnieuw..."
+            sleep 5
+          done
+          echo "::error::state kon niet gepusht worden"
+          exit 1
