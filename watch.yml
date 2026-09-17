@@ -1,0 +1,77 @@
+name: chainwatch
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: 'Reset de baseline (stuurt geen alerts)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: chainwatch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Detecteer nieuwe chains
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WATCH_KINDS: ${{ vars.WATCH_KINDS || 'mainnet,testnet,devnet,upcoming,proposal' }}
+          NOTIFY_CROSS_LISTING: ${{ vars.NOTIFY_CROSS_LISTING || 'false' }}
+          DISABLED_SOURCES: ${{ vars.DISABLED_SOURCES }}
+          MAX_ALERTS_PER_RUN: ${{ vars.MAX_ALERTS_PER_RUN || '25' }}
+        run: |
+          if [ "${{ inputs.bootstrap }}" = "true" ]; then
+            node src/index.js --bootstrap
+          else
+            node src/index.js
+          fi
+
+      # always(): ook als de vorige stap faalde moet bewaard blijven wat er wel is.
+      - name: Commit state
+        if: always()
+        run: |
+          # Beide mappen bestaan misschien nog niet (eerste run, of de detectie
+          # brak af voordat het dashboard geschreven was). Zonder dit faalt
+          # 'git add' met exit 128 en verlies je ook de state die er wel is.
+          mkdir -p data docs
+
+          git config user.name  "chainwatch"
+          git config user.email "chainwatch@users.noreply.github.com"
+          git add -A data docs
+
+          if git diff --staged --quiet; then
+            echo "geen wijzigingen, niets te committen"
+            exit 0
+          fi
+
+          git commit -m "chainwatch: $(date -u +%Y-%m-%dT%H:%MZ)"
+
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+              echo "state gepusht"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "push poging $i mislukt, opnieuw..."
+            sleep 5
+          done
+
+          echo "::error::State kon niet gepusht worden. Controleer Settings -> Actions -> General -> Workflow permissions: die moet op 'Read and write permissions' staan."
+          exit 1
