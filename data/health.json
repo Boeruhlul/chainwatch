@@ -1,0 +1,26 @@
+{
+  "chainlist": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "ethlists-pr": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "defillama": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "l2beat": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "cosmos": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "coingecko": {
+    "ok": true,
+    "wasFailing": false
+  }
+}
