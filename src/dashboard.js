@@ -1,6 +1,24 @@
 import fs from 'node:fs/promises';
 import { esc } from './util.js';
 
+const LINE_SEP = String.fromCharCode(0x2028);
+const PARA_SEP = String.fromCharCode(0x2029);
+
+/**
+ * Maakt JSON veilig om binnen een <script>-blok te zetten.
+ * - '<' wordt geescaped zodat een chain-naam met een sluitende script-tag
+ *   het blok niet voortijdig afbreekt (XSS via PR-titels en chain-namen).
+ * - U+2028 en U+2029 zijn regeleindes in oudere JS-parsers.
+ * Bewust geen enkele backslash-u-escapes in deze broncode: die overleven
+ * kopieren tussen systemen niet altijd.
+ */
+function jsonForScript(rows) {
+  return JSON.stringify(rows)
+    .split('<').join('\\u003c')
+    .split(LINE_SEP).join('\\u2028')
+    .split(PARA_SEP).join('\\u2029');
+}
+
 /**
  * Genereert een statische, self-contained pagina met de detectiegeschiedenis.
  * Bedoeld voor GitHub Pages (Settings -> Pages -> branch main, map /docs).
@@ -80,9 +98,7 @@ ${['mainnet', 'testnet', 'upcoming', 'devnet', 'proposal']
 <footer>Gegenereerd door chainwatch · ${rows.length} detecties bewaard</footer>
 </div>
 <script>
-// '<' escapen: een chain-naam met een sluitende script-tag zou dit blok
-// anders voortijdig afbreken (XSS via PR-titels en chain-namen).
-const DATA = ${JSON.stringify(rows).replace(/</g, '\\u003c').replace(/ | /g, (m) => (m === ' ' ? '\\u2028' : '\\u2029'))};
+const DATA = ${jsonForScript(rows)};
 const list = document.getElementById('list'), q = document.getElementById('q');
 let filter = 'all';
 const fmt = d => { try { return new Date(d).toLocaleString('nl-NL',{dateStyle:'medium',timeStyle:'short'}); } catch { return d; } };
