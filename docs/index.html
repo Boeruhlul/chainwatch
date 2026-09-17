@@ -45,9 +45,9 @@ background:color-mix(in srgb,var(--main) 15%,transparent);color:var(--main)}
 footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 </style></head><body><div class="wrap">
 <h1>chainwatch</h1>
-<div class="sub">Laatste detectie: <span id="lastchange" data-ts="">—</span> · bronnen: <span class="pill ok">chainlist</span><span class="pill ok">ethlists-pr</span><span class="pill ok">defillama</span><span class="pill ok">l2beat</span><span class="pill ok">cosmos</span><span class="pill ok">coingecko</span></div>
+<div class="sub">Laatste detectie: <span id="lastchange" data-ts="2026-09-17T14:26:31.801Z">—</span> · bronnen: <span class="pill ok">chainlist</span><span class="pill ok">ethlists-pr</span><span class="pill ok">defillama</span><span class="pill ok">l2beat</span><span class="pill ok">cosmos</span><span class="pill ok">coingecko</span></div>
 <div class="stats">
-<div class="stat"><b>0</b><span>mainnet</span></div><div class="stat"><b>0</b><span>testnet</span></div><div class="stat"><b>0</b><span>upcoming</span></div><div class="stat"><b>0</b><span>devnet</span></div><div class="stat"><b>0</b><span>proposal</span></div>
+<div class="stat"><b>0</b><span>mainnet</span></div><div class="stat"><b>0</b><span>testnet</span></div><div class="stat"><b>2</b><span>upcoming</span></div><div class="stat"><b>0</b><span>devnet</span></div><div class="stat"><b>0</b><span>proposal</span></div>
 </div>
 <div class="filters">
 <button data-f="all" aria-pressed="true">Alles</button>
@@ -58,10 +58,10 @@ footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 <input type="search" id="q" placeholder="Zoek op naam of chain ID…">
 </div>
 <div class="list" id="list"></div>
-<footer>Gegenereerd door chainwatch · 0 detecties bewaard</footer>
+<footer>Gegenereerd door chainwatch · 2 detecties bewaard</footer>
 </div>
 <script>
-const DATA = [];
+const DATA = [{"key":"l2beat:zcash-near-intents","source":"l2beat","name":"zcash-near-intents","nameKey":"zcashnearintents:main","kind":"upcoming","ecosystem":"L2 / rollup","chainId":null,"rpc":[],"explorers":[],"faucets":[],"url":"https://l2beat.com/scaling/projects/zcash-near-intents","crossListing":false,"detectedAt":"2026-09-17T14:26:31.801Z"},{"key":"l2beat:zcash","source":"l2beat","name":"zcash","nameKey":"zcash:main","kind":"upcoming","ecosystem":"L2 / rollup","chainId":null,"rpc":[],"explorers":[],"faucets":[],"url":"https://l2beat.com/scaling/projects/zcash","crossListing":true,"detectedAt":"2026-09-17T14:26:31.801Z"}];
 const list = document.getElementById('list'), q = document.getElementById('q');
 let filter = 'all';
 const fmt = d => { try { return new Date(d).toLocaleString('nl-NL',{dateStyle:'medium',timeStyle:'short'}); } catch { return d; } };

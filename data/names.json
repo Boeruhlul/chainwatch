@@ -3446,6 +3446,7 @@
   "zamagateway:main",
   "zano:main",
   "zcash:main",
+  "zcashnearintents:main",
   "zchain:main",
   "zchains:main",
   "zcore:test",
