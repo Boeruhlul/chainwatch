@@ -14,9 +14,9 @@ import { nowIso, hourIso, uniq, nameKey } from './util.js';
 const TIMEOUT_MS = 8000;
 
 /** Eén JSON-RPC call. Geen retries: dit is een levensteken, geen databron. */
-async function rpcCall(url, method, params = []) {
+async function rpcCall(url, method, params = [], timeoutMs = TIMEOUT_MS) {
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
     const res = await fetch(url, {
       method: 'POST',
@@ -33,9 +33,9 @@ async function rpcCall(url, method, params = []) {
   }
 }
 
-async function tendermintStatus(url) {
+async function tendermintStatus(url, timeoutMs = TIMEOUT_MS) {
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
     const res = await fetch(`${url.replace(/\/+$/, '')}/status`, {
       signal: ctrl.signal,
@@ -53,15 +53,15 @@ async function tendermintStatus(url) {
  * meeste pre-launch detecties EVM zijn en een POST naar een Tendermint-node
  * goedkoop faalt.
  */
-export async function probeRpc(url) {
+export async function probeRpc(url, { timeoutMs = TIMEOUT_MS } = {}) {
   if (typeof url !== 'string' || !/^https?:\/\//i.test(url)) return { live: false };
 
   try {
-    const hex = await rpcCall(url, 'eth_chainId');
+    const hex = await rpcCall(url, 'eth_chainId', [], timeoutMs);
     if (typeof hex === 'string' && /^0x[0-9a-f]+$/i.test(hex)) {
       let block = null;
       try {
-        const b = await rpcCall(url, 'eth_blockNumber');
+        const b = await rpcCall(url, 'eth_blockNumber', [], timeoutMs);
         if (typeof b === 'string') block = Number.parseInt(b, 16);
       } catch { /* chainId alleen is genoeg bewijs dat hij leeft */ }
       return { live: true, flavor: 'evm', chainId: Number.parseInt(hex, 16), block, rpc: url };
@@ -69,7 +69,7 @@ export async function probeRpc(url) {
   } catch { /* geen EVM-node; probeer Tendermint */ }
 
   try {
-    const res = await tendermintStatus(url);
+    const res = await tendermintStatus(url, timeoutMs);
     const r = res?.result || res;
     const height = Number(r?.sync_info?.latest_block_height);
     if (Number.isFinite(height)) {

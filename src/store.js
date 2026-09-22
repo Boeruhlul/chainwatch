@@ -8,6 +8,7 @@ const NAMES_FILE = path.join(DATA, 'names.json');
 const HEALTH_FILE = path.join(DATA, 'health.json');
 const PENDING_FILE = path.join(DATA, 'pending.json');
 const HEARTBEAT_FILE = path.join(DATA, 'heartbeat.json');
+const BLOCKS_FILE = path.join(DATA, 'blocks.json');
 
 const HISTORY_LIMIT = 800;
 
@@ -111,8 +112,24 @@ export async function saveHeartbeat(beat) {
   await writeJson(HEARTBEAT_FILE, beat);
 }
 
+/**
+ * Tot welk blok elke moederketen al afgezocht is. Zonder dit zou elke run
+ * opnieuw vanaf het begin moeten scannen, en dat weigeren publieke endpoints.
+ */
+export async function loadBlocks() {
+  const obj = await readJson(BLOCKS_FILE, {});
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
+    throw new Error(`${BLOCKS_FILE} bevat geen object`);
+  }
+  return obj;
+}
+
+export async function saveBlocks(blocks) {
+  await writeJson(BLOCKS_FILE, blocks);
+}
+
 export async function saveHealth(health) {
   await writeJson(HEALTH_FILE, health);
 }
 
-export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE, HEARTBEAT_FILE };
+export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE, HEARTBEAT_FILE, BLOCKS_FILE };

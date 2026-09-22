@@ -14,13 +14,21 @@ const KIND_LABEL = {
   upcoming: '🔭 NIEUW GETRACKT PROJECT',
   proposal: '📝 CHAIN ID AANGEVRAAGD (pre-launch)',
   launched: '🚀 CHAIN IS LIVE — RPC ANTWOORDT',
+  stealth: '🕵️ ONAANGEKONDIGDE CHAIN',
+};
+
+/** Binnen 'stealth' maakt het nogal uit hoe we hem gevonden hebben. */
+const STEALTH_LABEL = {
+  hostname: '🕵️ ONAANGEKONDIGDE CHAIN — RPC ANTWOORDT AL',
+  factory: '🛰 NIEUWE ROLLUP UITGEROLD — nog nergens gemeld',
+  blob: '🛰 NAAMLOZE ROLLUP POST DATA NAAR ETHEREUM',
 };
 
 export function formatChain(c) {
   const badge = badgeFor(c.score ?? 0);
-  const lines = [
-    `${badge.icon} <b>${KIND_LABEL[c.kind] || 'NIEUW'}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`,
-  ];
+  const label =
+    (c.kind === 'stealth' && STEALTH_LABEL[c.stealthKind]) || KIND_LABEL[c.kind] || 'NIEUW';
+  const lines = [`${badge.icon} <b>${label}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`];
 
   const facts = [];
   if (c.chainId != null) facts.push(`Chain ID: <code>${esc(c.chainId)}</code>`);
@@ -40,6 +48,17 @@ export function formatChain(c) {
     if (c.chainIdMismatch) {
       lines.push(`⚠️ RPC meldt chain ID <code>${esc(c.chainId)}</code>, verwacht was <code>${esc(c.expectedChainId)}</code>`);
     }
+    if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
+  }
+
+  if (c.kind === 'stealth') {
+    const bits = [];
+    if (c.parentLabel) bits.push(`moederketen: ${c.parentLabel}`);
+    if (typeof c.block === 'number') bits.push(`blok ${c.block.toLocaleString('nl-NL')}`);
+    if (typeof c.batchCount === 'number') bits.push(`${c.batchCount} batches in het venster`);
+    if (bits.length) lines.push(`⏱ ${esc(bits.join(' · '))}`);
+    if (c.contract) lines.push(`📄 Contract: <code>${esc(c.contract)}</code>`);
+    if (c.deployTx) lines.push(`🧾 Transactie: ${esc(clamp(c.deployTx, 200))}`);
     if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
   }
 

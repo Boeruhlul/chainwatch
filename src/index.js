@@ -15,6 +15,16 @@ const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
 const FORCE_BOOTSTRAP = argv.has('--bootstrap');
 
+/**
+ * Fasen die altijd alerten, ongeacht WATCH_KINDS.
+ *
+ * 'launched' en 'stealth' zijn precies de gebeurtenissen waarvoor de tool
+ * bestaat: een chain die live gaat, en een chain die al draait zonder dat
+ * iemand het heeft gezegd. Die wil je nooit per ongeluk wegfilteren met een
+ * instelling die je maanden geleden hebt gezet.
+ */
+const ALWAYS_ALERT = new Set(['launched', 'stealth']);
+
 /** Deze fasen komen op de wachtlijst: er is een RPC, maar nog geen leven. */
 const PRELAUNCH_KINDS = new Set(['proposal', 'upcoming']);
 
@@ -151,7 +161,7 @@ async function main() {
     alertableBySource.set(
       entry,
       entry.detected
-        .filter((c) => cfg.kinds.has(c.kind))
+        .filter((c) => ALWAYS_ALERT.has(c.kind) || cfg.kinds.has(c.kind))
         .filter((c) => cfg.crossListing || !c.crossListing)
     );
   }

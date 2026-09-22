@@ -12,10 +12,15 @@ import lifi from './lifi.js';
 import viem from './viem.js';
 import keplrPr from './keplr-pr.js';
 import ethlistsCommit from './ethlists-commit.js';
+import rollupFactory from './rollup-factory.js';
+import ctHostnames from './ct-hostnames.js';
+import blobSubmitters from './blob-submitters.js';
 
 // Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
 // Pre-launch-bronnen eerst, brede registers daarna.
 const REAL_SOURCES = [
+  // Stealth-detectie eerst: deze zien een chain die niemand heeft aangekondigd.
+  rollupFactory, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
 ];
@@ -35,10 +40,13 @@ function fixtureSource(file) {
       if (raw === 'BOOM') throw new Error('gesimuleerde bronfout');
       const { classify, nameKey, uniq } = await import('../util.js');
       return raw.map((c) => {
-        const kind = c.status === 'incubating' ? 'upcoming' : classify(c.name, { faucets: c.faucets });
+        // c.kind laat een test een fase forceren die geen enkele echte bron
+        // via classify() zou opleveren, zoals 'stealth'.
+        const kind = c.kind || (c.status === 'incubating' ? 'upcoming' : classify(c.name, { faucets: c.faucets }));
         return {
           key: `evm:${c.chainId}`, source: 'fixture', name: c.name,
-          nameKey: nameKey(c.name, kind), kind, ecosystem: 'EVM', chainId: c.chainId,
+          nameKey: nameKey(c.name, kind), kind, stealthKind: c.stealthKind,
+          ecosystem: 'EVM', chainId: c.chainId,
           rpc: uniq(c.rpc || []), explorers: [], faucets: uniq(c.faucets || []),
           url: `https://chainlist.org/chain/${c.chainId}`, status: c.status,
         };
