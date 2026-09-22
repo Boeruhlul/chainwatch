@@ -1,70 +1,55 @@
 {
   "rollup-factory": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
-    "wasFailing": true
+    "ok": false,
+    "error": "crt.sh onbereikbaar — testnet-rpc.%: fetch failed; rpc-mainnet.%: fetch failed",
+    "failingSince": "2026-09-22T18:40:28.897Z"
   },
   "blob-submitters": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "ethlists-pr": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "ethlists-commit": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "keplr-pr": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "superchain": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "viem": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "l2beat": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "cosmos": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "chainlist": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "hyperlane": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "blockscout": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "glacier": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "lifi": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "defillama": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   },
   "coingecko": {
-    "ok": true,
-    "wasFailing": false
+    "ok": true
   }
 }
