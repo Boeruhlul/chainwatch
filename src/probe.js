@@ -13,7 +13,7 @@ import { nowIso, hourIso, uniq, nameKey } from './util.js';
 
 const TIMEOUT_MS = 8000;
 
-/** Één JSON-RPC call. Geen retries: dit is een levensteken, geen databron. */
+/** Eén JSON-RPC call. Geen retries: dit is een levensteken, geen databron. */
 async function rpcCall(url, method, params = []) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
