@@ -31,6 +31,7 @@ async function watch(fixture, env = {}) {
       CHAINWATCH_DOCS: `${TMP}/docs`,
       CHAINWATCH_FIXTURE: `${TMP}/fixture.json`,
       TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '',
+      PROBE_ENABLED: 'false',
       ...env,
     },
   });
@@ -83,7 +84,8 @@ async function watchTg(fixture, tg, env = {}) {
         ...process.env,
         CHAINWATCH_DATA: `${TMP}/data`, CHAINWATCH_DOCS: `${TMP}/docs`,
         CHAINWATCH_FIXTURE: `${TMP}/fixture.json`, CHAINWATCH_TG_API: tg.url,
-        TELEGRAM_BOT_TOKEN: 'testtoken', TELEGRAM_CHAT_ID: '123', ...env,
+        TELEGRAM_BOT_TOKEN: 'testtoken', TELEGRAM_CHAT_ID: '123',
+        PROBE_ENABLED: 'false', ...env,
       },
     });
     return r.stdout + r.stderr;
@@ -501,6 +503,190 @@ await t('E13: hyperlane-YAML wordt in blokken per chain gesplitst', async () => 
   assert.equal(blocks.size, 2);
   assert.match(blocks.get('somenewchain'), /chainId: 987654/);
   assert.doesNotMatch(blocks.get('abstract'), /987654/, 'blokken mogen niet in elkaar lekken');
+});
+
+
+// ---------------------------------------------------------------------------
+// Launch-detectie: RPC-polling op de wachtlijst.
+// ---------------------------------------------------------------------------
+
+const { probeRpc, toPendingEntry, restorePending, probePending } = await import('../src/probe.js');
+
+/** Mini-node. `state.alive` bepaalt of hij antwoordt; `state.flavor` welk soort. */
+function rpcServer(state = { alive: true, flavor: 'evm', chainId: 7777, block: 3 }) {
+  const server = http.createServer((req, res) => {
+    if (!state.alive) { res.writeHead(503); return res.end('not yet'); }
+    if (state.flavor === 'cosmos') {
+      if (!req.url.startsWith('/status')) { res.writeHead(404); return res.end(); }
+      res.writeHead(200, { 'content-type': 'application/json' });
+      return res.end(JSON.stringify({
+        result: { node_info: { network: 'newchain-1' }, sync_info: { latest_block_height: String(state.block) } },
+      }));
+    }
+    let body = '';
+    req.on('data', (c) => (body += c));
+    req.on('end', () => {
+      let method = '';
+      try { method = JSON.parse(body).method; } catch { /* leeg */ }
+      const result =
+        method === 'eth_chainId' ? '0x' + state.chainId.toString(16) :
+        method === 'eth_blockNumber' ? '0x' + state.block.toString(16) : null;
+      res.writeHead(200, { 'content-type': 'application/json' });
+      res.end(JSON.stringify(result === null ? { jsonrpc: '2.0', id: 1, error: { message: 'unsupported' } }
+                                              : { jsonrpc: '2.0', id: 1, result }));
+    });
+  });
+  return new Promise((resolve) => {
+    server.listen(0, '127.0.0.1', () =>
+      resolve({ state, url: `http://127.0.0.1:${server.address().port}`, close: () => server.close() })
+    );
+  });
+}
+
+await t('P1: EVM-node wordt herkend met chain ID en blokhoogte', async () => {
+  const s = await rpcServer({ alive: true, flavor: 'evm', chainId: 3318, block: 42 });
+  const r = await probeRpc(s.url);
+  s.close();
+  assert.equal(r.live, true);
+  assert.equal(r.flavor, 'evm');
+  assert.equal(r.chainId, 3318);
+  assert.equal(r.block, 42);
+});
+
+await t('P2: Tendermint-node wordt herkend via /status', async () => {
+  const s = await rpcServer({ alive: true, flavor: 'cosmos', block: 128 });
+  const r = await probeRpc(s.url);
+  s.close();
+  assert.equal(r.live, true);
+  assert.equal(r.flavor, 'cosmos');
+  assert.equal(r.chainId, 'newchain-1');
+  assert.equal(r.block, 128);
+});
+
+await t('P3: een dode of onzinnige RPC levert nooit een launch op', async () => {
+  const s = await rpcServer({ alive: false, flavor: 'evm', chainId: 1, block: 1 });
+  assert.equal((await probeRpc(s.url)).live, false, '503 mag niet als live tellen');
+  s.close();
+  assert.equal((await probeRpc('ftp://nope')).live, false);
+  assert.equal((await probeRpc('')).live, false);
+  assert.equal((await probeRpc(null)).live, false);
+});
+
+await t('P4: chain zonder RPC komt niet op de wachtlijst', async () => {
+  assert.equal(toPendingEntry({ key: 'a', name: 'X', rpc: [] }), null);
+  assert.equal(toPendingEntry({ key: 'a', name: 'X', rpc: ['${INFURA_KEY}'] }), null);
+  const e = toPendingEntry({ key: 'a', name: 'X', kind: 'proposal', rpc: ['https://rpc.x.test'] });
+  assert.equal(e.key, 'a');
+  assert.ok(e.liveNameKey.endsWith(':main'), 'liveNameKey moet de main-bucket zijn');
+});
+
+await t('P5: verlopen wachtlijst-items vallen af zonder bericht', async () => {
+  const oud = { key: 'oud', name: 'Oud', kind: 'proposal', rpc: ['http://127.0.0.1:1/'], addedAt: '2020-01-01T00:00:00.000Z' };
+  const { launched, keep } = await probePending([oud], { ttlDays: 30, budgetMs: 2000 });
+  assert.equal(launched.length, 0);
+  assert.equal(keep.length, 0, 'verlopen item blijft op de lijst staan');
+});
+
+await t('P6: launch-record is terug te draaien naar zijn wachtlijst-entry', async () => {
+  const e = toPendingEntry({ key: 'evm:9', name: 'Later', kind: 'upcoming', chainId: 9, rpc: ['https://rpc.x.test'] });
+  const launched = { ...e, key: `launch:${e.key}`, kind: 'launched', pendingKey: e.key, pendingKind: e.kind,
+                     expectedChainId: 9, block: 1, flavor: 'evm', score: 95, reasons: [], detectedAt: 'nu' };
+  const back = restorePending(launched);
+  assert.equal(back.key, 'evm:9');
+  assert.equal(back.kind, 'upcoming');
+  assert.equal(back.chainId, 9);
+  assert.ok(!('block' in back) && !('score' in back), 'launch-velden lekken terug de wachtlijst in');
+});
+
+await t('P7: end-to-end — pre-launch chain komt op de lijst en alerteert zodra de RPC antwoordt', async () => {
+  await reset();
+  const node = await rpcServer({ alive: false, flavor: 'evm', chainId: 7777, block: 5 });
+  const tg = await tgServer();
+  const probeOn = { PROBE_ENABLED: 'true' };
+
+  await watchTg([chain(1, 'Ethereum')], tg, probeOn); // bootstrap
+
+  // Chain wordt als pre-launch gedetecteerd; de RPC leeft nog niet.
+  await watchTg(
+    [chain(1, 'Ethereum'), { chainId: 7777, name: 'Sluipchain', status: 'incubating', rpc: [node.url] }],
+    tg, probeOn
+  );
+  assert.equal(tg.sent.length, 1, 'pre-launch signaal ontbreekt');
+  assert.match(tg.sent[0].text, /NIEUW GETRACKT PROJECT[\s\S]*Sluipchain/);
+  const pending = JSON.parse(await fs.readFile(`${TMP}/data/pending.json`, 'utf8'));
+  assert.equal(pending.length, 1, 'pre-launch chain niet op de wachtlijst gezet');
+  assert.equal(pending[0].rpc[0], node.url);
+
+  // Genesis: dezelfde RPC antwoordt nu.
+  node.state.alive = true;
+  const out3 = await watchTg(
+    [chain(1, 'Ethereum'), { chainId: 7777, name: 'Sluipchain', status: 'incubating', rpc: [node.url] }],
+    tg, probeOn
+  );
+  node.close();
+  tg.close();
+
+  assert.match(out3, /0 gedetecteerd/, 'bron leverde onterecht een nieuwe detectie');
+  assert.match(out3, /1 live gegaan/);
+  assert.equal(tg.sent.length, 2, 'launch-alert niet verstuurd');
+  const msg = tg.sent[1].text;
+  assert.match(msg, /CHAIN IS LIVE/);
+  assert.match(msg, /Sluipchain/);
+  assert.match(msg, /blok 5/);
+  assert.match(msg, /Werkende RPC/);
+  const pending2 = JSON.parse(await fs.readFile(`${TMP}/data/pending.json`, 'utf8'));
+  assert.equal(pending2.length, 0, 'live gegane chain blijft op de wachtlijst staan');
+});
+
+await t('P8: niet-afgeleverde launch-alert blijft op de wachtlijst staan', async () => {
+  await reset();
+  const node = await rpcServer({ alive: false, flavor: 'evm', chainId: 8888, block: 2 });
+  const probeOn = { PROBE_ENABLED: 'true' };
+
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg, probeOn);
+  await watchTg(
+    [chain(1, 'Ethereum'), { chainId: 8888, name: 'Hikchain', status: 'incubating', rpc: [node.url] }],
+    tg, probeOn
+  );
+  tg.close();
+
+  // Telegram valt uit op precies het moment dat de chain live gaat.
+  node.state.alive = true;
+  const bad = await tgServer({ failAll: true });
+  const out = await watchTg(
+    [chain(1, 'Ethereum'), { chainId: 8888, name: 'Hikchain', status: 'incubating', rpc: [node.url] }],
+    bad, probeOn
+  );
+  bad.close();
+  assert.match(out, /1 live gegaan/);
+  const pending = JSON.parse(await fs.readFile(`${TMP}/data/pending.json`, 'utf8'));
+  assert.equal(pending.length, 1, 'chain van de lijst gehaald terwijl de alert niet aankwam');
+  assert.equal(pending[0].key, 'evm:8888');
+
+  // Telegram werkt weer: de alert moet alsnog komen.
+  const good = await tgServer();
+  await watchTg(
+    [chain(1, 'Ethereum'), { chainId: 8888, name: 'Hikchain', status: 'incubating', rpc: [node.url] }],
+    good, probeOn
+  );
+  node.close();
+  good.close();
+  assert.equal(good.sent.length, 1, 'launch-alert niet hervat na herstel');
+  assert.match(good.sent[0].text, /CHAIN IS LIVE[\s\S]*Hikchain/);
+  const pending2 = JSON.parse(await fs.readFile(`${TMP}/data/pending.json`, 'utf8'));
+  assert.equal(pending2.length, 0);
+});
+
+await t('P9: chain ID dat afwijkt van de aanvraag wordt gemeld, niet verzwegen', async () => {
+  const text = formatChain({
+    kind: 'launched', name: 'Mismatch Chain', source: 'ethlists-pr', url: 'https://x.test',
+    chainId: 1, expectedChainId: 4242, chainIdMismatch: true, block: 21000000,
+    liveRpc: 'https://rpc.mismatch.test', waitedDays: 3, score: 95, reasons: [],
+  });
+  assert.match(text, /RPC meldt chain ID/);
+  assert.match(text, /4242/);
+  assert.match(text, /3 dagen na detectie/);
 });
 
 await fs.rm(TMP, { recursive: true, force: true });
