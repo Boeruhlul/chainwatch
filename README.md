@@ -102,9 +102,9 @@ Elke bron levert genormaliseerde records met een stabiele `key`. Per bron staat 
 
 De hele opzet is gebouwd rond één vraag: *wanneer zou dit een chain kunnen missen?* Een gemiste launch weegt veel zwaarder dan een alert te veel, dus elke twijfelachtige stap kiest de kant van "toch melden".
 
-- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níet dubbel. Daarom commit de workflow de state ook met `if: always()`.
+- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níét dubbel. Daarom commit de workflow de state ook met `if: always()`.
 - **Een kapotte bron raakt de state niet aan.** Mislukt een fetch, dan wordt die `seen`-set niet bijgewerkt. `seen` is append-only: er verdwijnt nooit iets uit.
-- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níet als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
+- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níét als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
 - **Pre-launch en live zijn aparte gebeurtenissen.** Een project dat je via L2BEAT of een chain-ID-aanvraag al zag, alerteert opnieuw zodra het echt live gaat. Dat is meestal het moment waar het je om gaat.
 - **Anomalie-rem, per bron.** Levert één bron ineens meer dan 2× `MAX_ALERTS_PER_RUN` nieuwe keys, dan is waarschijnlijk het formaat veranderd; je krijgt één samenvatting voor díé bron. Andere bronnen blijven gewoon losse, volledige alerts sturen.
 - **Cross-bron dedupe.** Een chain die binnen dezelfde levensfase al via een andere bron bekend is krijgt `crossListing: true` en wordt standaard onderdrukt — anders alert je zes keer over dezelfde chain.
