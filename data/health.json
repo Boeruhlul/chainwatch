@@ -1,13 +1,21 @@
 {
-  "chainlist": {
-    "ok": true,
-    "wasFailing": false
-  },
   "ethlists-pr": {
     "ok": true,
     "wasFailing": false
   },
-  "defillama": {
+  "ethlists-commit": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "keplr-pr": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "superchain": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "viem": {
     "ok": true,
     "wasFailing": false
   },
@@ -16,6 +24,30 @@
     "wasFailing": false
   },
   "cosmos": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "chainlist": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "hyperlane": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "blockscout": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "glacier": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "lifi": {
+    "ok": true,
+    "wasFailing": false
+  },
+  "defillama": {
     "ok": true,
     "wasFailing": false
   },
