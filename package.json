@@ -9,7 +9,7 @@
     "bootstrap": "node src/index.js --bootstrap",
     "dry": "node src/index.js --dry-run",
     "backfill": "node src/backfill.js",
-    "test": "node test/run.js && node test/blob-veterans.js"
+    "test": "node test/run.js && node test/blob-veterans.js && node test/flaky-sources.js"
   },
   "license": "MIT"
 }

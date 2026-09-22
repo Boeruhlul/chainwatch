@@ -82,6 +82,8 @@ async function main() {
   );
 
   const health = {};
+  const currentErrors = new Map(); // verse fouttekst per bron, alleen voor de melding
+  const recovered = new Set();
   const perSource = []; // { src, allKeys, detected[], anomaly }
   // nameKeys die deze run NIEUW zijn, met de chain-keys die ze introduceerden.
   // Komt een alert niet aan, dan moet ook zijn nameKey weer weg: anders geldt de
@@ -100,12 +102,18 @@ async function main() {
 
     if (res.status === 'rejected') {
       const error = String(res.reason?.message || res.reason).slice(0, 300);
+      const stillFailing = prevHealth.ok === false;
       health[src.id] = {
         ok: false,
-        error,
-        failingSince: prevHealth.ok === false ? prevHealth.failingSince : startedAt,
-        lastNotifiedAt: prevHealth.lastNotifiedAt,
+        // De fouttekst van het BEGIN van de storing blijft staan. Zou elke run
+        // zijn eigen tekst wegschrijven (andere statuscode, ander patroon),
+        // dan verandert health.json bij elke run en commit de workflow
+        // ~288x per dag. De verse tekst gaat wel mee in de melding.
+        error: stillFailing && prevHealth.error ? prevHealth.error : error,
+        failingSince: stillFailing ? prevHealth.failingSince : startedAt,
+        ...(prevHealth.lastNotifiedAt && { lastNotifiedAt: prevHealth.lastNotifiedAt }),
       };
+      currentErrors.set(src.id, error);
       console.error(`[${src.id}] FOUT: ${error}`);
       continue; // seen-set NIET aanraken: volgende run pakt het op
     }
@@ -116,7 +124,15 @@ async function main() {
     const seen = previous || new Set();
     const fresh = records.filter((r) => !seen.has(r.key));
 
-    health[src.id] = { ok: true, wasFailing: prevHealth.ok === false };
+    // lastNotifiedAt blijft bewaard na herstel. Anders begint een bron die
+    // afwisselend faalt en slaagt bij elke storing met een schone lei, en
+    // breekt hij de stilteperiode van 6 uur (gezien bij crt.sh: vier meldingen
+    // binnen een uur). wasFailing is alleen voor de log en gaat niet de state in.
+    health[src.id] = {
+      ok: true,
+      ...(prevHealth.lastNotifiedAt && { lastNotifiedAt: prevHealth.lastNotifiedAt }),
+    };
+    if (prevHealth.ok === false) recovered.add(src.id);
     console.log(`[${src.id}] ${records.length} records, ${fresh.length} nieuw${isFirstRun ? ' (bootstrap)' : ''}`);
 
     const entry = { src, allKeys: records.map((r) => r.key), detected: [], anomaly: false };
@@ -334,14 +350,24 @@ async function main() {
 
   // ---- Bronfouten melden, met stilteperiode ----------------------------------
   const toReport = [];
+  const byId = new Map(sources.map((s) => [s.id, s]));
   for (const [id, h] of Object.entries(health)) {
     if (h.ok) {
-      if (h.wasFailing) console.log(`[${id}] hersteld`);
+      if (recovered.has(id)) console.log(`[${id}] hersteld`);
+      continue;
+    }
+    // Sommige bronnen zijn van nature wankel en verliezen niets bij een
+    // gemiste run (crt.sh). Die melden pas na een ononderbroken storing.
+    const graceH = Number(byId.get(id)?.alertAfterHours) || 0;
+    const downH = (Date.now() - Date.parse(h.failingSince)) / 3600000;
+    if (graceH > 0 && downH < graceH) {
+      console.warn(`[${id}] faalt sinds ${downH.toFixed(1)} uur; melding pas na ${graceH} uur`);
       continue;
     }
     const last = h.lastNotifiedAt ? Date.parse(h.lastNotifiedAt) : 0;
     if (Date.now() - last > ERROR_SILENCE_MS) {
-      toReport.push(`${id}: ${h.error}`);
+      const sinds = graceH > 0 ? ` (sinds ${Math.floor(downH)} uur)` : '';
+      toReport.push(`${id}${sinds}: ${currentErrors.get(id) || h.error}`);
       h.lastNotifiedAt = startedAt;
     }
   }

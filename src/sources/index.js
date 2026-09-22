@@ -34,6 +34,7 @@ function fixtureSource(file) {
     id: 'fixture',
     label: 'fixture',
     url: 'file://' + file,
+    alertAfterHours: Number(process.env.FIXTURE_ALERT_AFTER_HOURS || 0),
     async fetchAll() {
       const { readFile } = await import('node:fs/promises');
       const raw = JSON.parse(await readFile(file, 'utf8'));
