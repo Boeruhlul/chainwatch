@@ -37,6 +37,21 @@ async function watch(fixture, env = {}) {
   return stdout + stderr;
 }
 
+/** Mini webserver die vaste paginas serveert, voor de verrijkingstests. */
+function htmlServer(routes) {
+  const server = http.createServer((req, res) => {
+    const body = routes[req.url.split('?')[0]];
+    if (body === undefined) { res.writeHead(404); return res.end('nope'); }
+    res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
+    res.end(body);
+  });
+  return new Promise((resolve) => {
+    server.listen(0, '127.0.0.1', () =>
+      resolve({ url: `http://127.0.0.1:${server.address().port}`, close: () => server.close() })
+    );
+  });
+}
+
 /** Mini Telegram-server: verzamelt berichten of faalt op commando. */
 function tgServer({ failAll = false } = {}) {
   const sent = [];
@@ -328,6 +343,164 @@ await t('S6: bronfout wordt niet elke run opnieuw gemeld', async () => {
   await watchTg('BOOM', tg);
   tg.close();
   assert.equal(tg.sent.length, n1, 'zelfde bronfout opnieuw gemeld binnen de stilteperiode');
+});
+
+
+// ---------------------------------------------------------------------------
+// Verrijking, scoring en de nieuwe bronparsers.
+// ---------------------------------------------------------------------------
+
+const { apexOf, parseSocials, websiteCandidates, enrichOne } = await import('../src/enrich.js');
+const { scoreChain, badgeFor } = await import('../src/score.js');
+const { parseBlocks } = await import('../src/sources/hyperlane.js');
+const { formatChain } = await import('../src/notify.js');
+
+await t('E1: apex-afleiding kent meerledige TLDs en negeert IPs', async () => {
+  assert.equal(apexOf('https://rpc-os.avicoin.org/v1'), 'avicoin.org');
+  assert.equal(apexOf('explorer.foo.co.uk'), 'foo.co.uk');
+  assert.equal(apexOf('https://WWW.Example.COM/'), 'example.com');
+  assert.equal(apexOf('http://127.0.0.1:8545'), null, 'IP is geen domein');
+  assert.equal(apexOf('localhost'), null);
+  assert.equal(apexOf(''), null);
+  assert.equal(apexOf(null), null);
+});
+
+await t('E2: infra-domeinen worden niet als projectsite aangezien', async () => {
+  const c = {
+    website: null,
+    explorers: ['https://eth.blockscout.com/'],
+    rpc: ['https://foo.llamarpc.com', 'https://rpc.mychain.xyz'],
+  };
+  assert.deepEqual(websiteCandidates(c), ['mychain.xyz']);
+});
+
+await t('E3: socials worden uit ruwe HTML gehaald, ruislinks niet', async () => {
+  const html = `<html><head><title>Numen Chain</title>
+    <meta property="og:description" content="Een snelle L2 voor betalingen">
+    </head><body>
+    <a href="https://twitter.com/intent/tweet?text=hi">tweet</a>
+    <a href="https://x.com/numenchain">X</a>
+    <a href="https://t.me/numenchain">TG</a>
+    <a href="https://discord.gg/abc123XY">Discord</a>
+    <a href="https://github.com/features/actions">actions</a>
+    <a href="https://github.com/numenlabs">GitHub</a>
+    <a href="https://docs.numen.xyz/start">Docs</a>
+    </body></html>`;
+  const s = parseSocials(html, { apex: 'numen.xyz' });
+  assert.equal(s.x, 'https://x.com/numenchain', 'intent-link mag niet als handle tellen');
+  assert.equal(s.telegram, 'https://t.me/numenchain');
+  assert.equal(s.discord, 'https://discord.gg/abc123XY');
+  assert.equal(s.github, 'https://github.com/numenlabs', 'github.com/features is geen org');
+  assert.equal(s.docs, 'https://docs.numen.xyz/start');
+  assert.equal(s.title, 'Numen Chain');
+  assert.equal(s.description, 'Een snelle L2 voor betalingen');
+});
+
+await t('E4: meest voorkomende handle wint van een losse vermelding', async () => {
+  const html = `
+    <a href="https://x.com/randomguy">via</a>
+    <a href="https://x.com/therealchain">header</a>
+    <a href="https://x.com/therealchain">footer</a>`;
+  assert.equal(parseSocials(html).x, 'https://x.com/therealchain');
+});
+
+await t('E5: HTML-entities in titel en omschrijving worden gedecodeerd', async () => {
+  const s = parseSocials('<title>Foo &amp; Bar</title>');
+  assert.equal(s.title, 'Foo & Bar');
+});
+
+await t('E6: verrijking is uit te zetten en respecteert de limiet', async () => {
+  const { enrichChains } = await import('../src/enrich.js');
+  const chains = Array.from({ length: 5 }, (_, i) => ({ name: `c${i}`, website: 'https://x.invalid', rpc: [], explorers: [] }));
+  process.env.ENRICH_SOCIALS = 'false';
+  const same = await enrichChains(chains, { limit: 5, budgetMs: 1000 });
+  delete process.env.ENRICH_SOCIALS;
+  assert.equal(same, chains, 'uitgeschakelde verrijking geeft de lijst ongewijzigd terug');
+  assert.ok(chains.every((c) => !c.socials && !c.domain));
+
+  // Met een verlopen budget mag er geen enkele netwerkpoging meer gedaan worden.
+  const t0 = Date.now();
+  await enrichChains(chains, { limit: 5, budgetMs: -1 });
+  assert.ok(Date.now() - t0 < 2000, 'verlopen budget moet meteen stoppen');
+});
+
+await t('E7: verrijking faalt nooit hard op een onbereikbare site', async () => {
+  const c = { name: 'Dood', website: 'https://dit-domein-bestaat-niet-xyzzy.invalid', rpc: [], explorers: [] };
+  const extra = await enrichOne(c, { deadline: Date.now() + 3000 });
+  assert.equal(typeof extra, 'object');
+});
+
+await t('E8: score zet pre-launch met vers domein boven een bekende cross-listing', async () => {
+  const vers = scoreChain({
+    kind: 'proposal', source: 'ethlists-pr', domain: { ageDays: 5 }, github: { ageDays: 20 },
+  });
+  const oud = scoreChain({
+    kind: 'mainnet', source: 'coingecko', crossListing: true, domain: { ageDays: 2000 }, tvl: 5e6,
+  });
+  assert.ok(vers.score > oud.score, `${vers.score} moet hoger zijn dan ${oud.score}`);
+  assert.equal(badgeFor(vers.score).icon, '🔥');
+  assert.ok(vers.reasons.includes('pre-launch'));
+  assert.ok(vers.reasons.some((r) => r.includes('domein')));
+});
+
+await t('E9: score blijft binnen 0 en 100', async () => {
+  for (const c of [
+    { kind: 'proposal', source: 'ethlists-pr', domain: { ageDays: 0 }, github: { ageDays: 0 } },
+    { kind: 'devnet', source: 'coingecko', crossListing: true, tvl: 1e9, domain: { ageDays: 4000 } },
+    {},
+  ]) {
+    const { score } = scoreChain(c);
+    assert.ok(score >= 0 && score <= 100, `score buiten bereik: ${score}`);
+  }
+});
+
+await t('E10: bericht toont socials, domeinleeftijd en prioriteit', async () => {
+  const text = formatChain({
+    kind: 'proposal', name: 'VORA Chain', chainId: 3318, ecosystem: 'EVM',
+    source: 'ethlists-pr', url: 'https://github.com/ethereum-lists/chains/pull/8737',
+    website: 'https://vora.xyz', socials: { x: 'https://x.com/vorachain', telegram: 'https://t.me/vora' },
+    domain: { ageDays: 6 }, score: 78, reasons: ['pre-launch', 'domein 6d oud'],
+  });
+  assert.match(text, /x\.com\/vorachain/);
+  assert.match(text, /t\.me\/vora/);
+  assert.match(text, /6 dagen oud/);
+  assert.match(text, /prioriteit 78\/100/);
+  assert.match(text, /🔥/);
+});
+
+await t('E11: bericht zonder verrijking blijft geldig en binnen de limiet', async () => {
+  const text = formatChain({
+    kind: 'mainnet', name: 'X'.repeat(400), source: 'chainlist', url: 'https://chainlist.org/chain/1',
+  });
+  assert.ok(text.length <= 3800, `te lang: ${text.length}`);
+  assert.match(text, /prioriteit 0\/100/);
+  assert.doesNotMatch(text, /undefined/);
+});
+
+await t('E12: HTML in chain-naam wordt geescaped in het bericht', async () => {
+  const text = formatChain({
+    kind: 'mainnet', name: '<b>pwn</b>', source: 'chainlist', url: 'https://x.test',
+    socials: { x: 'https://x.com/<script>' },
+  });
+  assert.doesNotMatch(text.replace(/<\/?(b|i|code)>/g, ''), /<script|<b>pwn/);
+});
+
+await t('E13: hyperlane-YAML wordt in blokken per chain gesplitst', async () => {
+  const yaml = [
+    'abstract:',
+    '  chainId: 2741',
+    '  displayName: Abstract',
+    '  protocol: ethereum',
+    'somenewchain:',
+    '  chainId: 987654',
+    '  displayName: Some New Chain',
+    '  isTestnet: true',
+    '  protocol: ethereum',
+  ].join('\n');
+  const blocks = parseBlocks(yaml);
+  assert.equal(blocks.size, 2);
+  assert.match(blocks.get('somenewchain'), /chainId: 987654/);
+  assert.doesNotMatch(blocks.get('abstract'), /987654/, 'blokken mogen niet in elkaar lekken');
 });
 
 await fs.rm(TMP, { recursive: true, force: true });
