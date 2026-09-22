@@ -24,6 +24,9 @@ const ERROR_SILENCE_MS = 6 * 60 * 60 * 1000;
 const cfg = {
   token: process.env.TELEGRAM_BOT_TOKEN,
   chatId: process.env.TELEGRAM_CHAT_ID,
+  // Optioneel: aparte bestemming voor storingsmeldingen. Handig zodra de
+  // alerts naar een publiek kanaal gaan en de foutmeldingen niet.
+  adminChatId: process.env.TELEGRAM_ADMIN_CHAT_ID || null,
   kinds: new Set(
     (process.env.WATCH_KINDS || 'mainnet,testnet,devnet,upcoming,proposal')
       .split(',').map((s) => s.trim()).filter(Boolean)
