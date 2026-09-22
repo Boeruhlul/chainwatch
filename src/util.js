@@ -54,6 +54,21 @@ export function nowIso() {
   return new Date().toISOString();
 }
 
+/**
+ * Tijdstempel afgerond naar beneden op het hele uur.
+ *
+ * Bestaat om commit-ruis te voorkomen: elk veld in de state dat bij elke run
+ * verandert dwingt de workflow tot een commit, ook als er niets gebeurd is.
+ * Bij een poll elke 5 minuten zou dat ~288 commits per dag zijn. Op het uur
+ * afgerond zijn het er hoogstens 24, en voor "wanneer draaide dit voor het
+ * laatst" is een uur nauwkeurig genoeg.
+ */
+export function hourIso(d = new Date()) {
+  const t = new Date(d);
+  t.setUTCMinutes(0, 0, 0);
+  return t.toISOString();
+}
+
 /** Kapt een string af op een woordgrens; houdt Telegram-berichten binnen de limiet. */
 export function clamp(s, max) {
   const str = String(s ?? '');

@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 import { activeSources } from './sources/index.js';
-import { loadState, saveSeen, saveNames, saveChains, saveHealth, loadPending, savePending } from './store.js';
+import {
+  loadState, saveSeen, saveNames, saveChains, saveHealth,
+  loadPending, savePending, loadHeartbeat, saveHeartbeat,
+} from './store.js';
 import { notify, formatChain, summaryMessage, notifyError } from './notify.js';
 import { buildDashboard } from './dashboard.js';
 import { enrichChains } from './enrich.js';
 import { scoreChain } from './score.js';
 import { probePending, toPendingEntry, restorePending } from './probe.js';
-import { nowIso } from './util.js';
+import { nowIso, hourIso } from './util.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
@@ -36,12 +39,22 @@ const cfg = {
   probeLimit: Number(process.env.PROBE_LIMIT || 40),
   probeBudgetMs: Number(process.env.PROBE_BUDGET_SECONDS || 60) * 1000,
   probeTtlDays: Number(process.env.PROBE_TTL_DAYS || 120),
+  // Waarschuwen als er een gat in de dekking zat. Drempel ruim boven de
+  // afrondfout van een uur in de hartslag, zodat er geen vals alarm komt.
+  staleHours: Number(process.env.STALE_ALERT_HOURS || 3),
 };
 
 async function main() {
   const sources = activeSources(cfg.disabled);
   const state = await loadState(sources.map((s) => s.id));
   const startedAt = nowIso();
+
+  // Hartslag: stond de tool stil, dan is dat zelf het belangrijkste nieuws.
+  // Zonder deze check lijkt een stilstand van uren op "geen nieuwe chains".
+  const beat = await loadHeartbeat();
+  const gapHours = beat?.lastRunAt
+    ? (Date.now() - Date.parse(beat.lastRunAt)) / 3600000
+    : null;
 
   console.log(`[chainwatch] ${startedAt} — ${sources.length} bronnen, dry-run=${DRY_RUN}`);
 
@@ -231,6 +244,11 @@ async function main() {
       const entry = toPendingEntry(c);
       if (entry) newPending.push(entry);
     }
+    // Op het uur afgerond: hoogstens 24 commits per dag in plaats van een
+    // commit bij elke run.
+    const stamp = hourIso();
+    if (beat?.lastRunAt !== stamp) await saveHeartbeat({ lastRunAt: stamp });
+
     const saved = await savePending(newPending);
     console.log(`[chainwatch] wachtlijst: ${saved.length} pre-launch chain(s)`);
 
@@ -239,6 +257,17 @@ async function main() {
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });
+  }
+
+  // ---- Dekkingsgat melden ----------------------------------------------------
+  if (Number.isFinite(gapHours) && gapHours > cfg.staleHours) {
+    const uren = gapHours.toFixed(1).replace('.', ',');
+    await notifyError(
+      `De watcher heeft ${uren} uur stilgestaan (laatste run ${beat.lastRunAt}).\n` +
+        `GitHub Actions knijpt cron-schedules af; een externe trigger op workflow_dispatch ` +
+        `lost dat op. Zie het kopje "Echt elke 5 minuten draaien" in de README.`,
+      { ...cfg, dryRun: DRY_RUN }
+    );
   }
 
   // ---- Bronfouten melden, met stilteperiode ----------------------------------

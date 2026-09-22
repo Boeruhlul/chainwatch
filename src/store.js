@@ -7,6 +7,7 @@ const CHAINS_FILE = path.join(DATA, 'chains.json');
 const NAMES_FILE = path.join(DATA, 'names.json');
 const HEALTH_FILE = path.join(DATA, 'health.json');
 const PENDING_FILE = path.join(DATA, 'pending.json');
+const HEARTBEAT_FILE = path.join(DATA, 'heartbeat.json');
 
 const HISTORY_LIMIT = 800;
 
@@ -97,8 +98,21 @@ export async function savePending(entries) {
   return sorted;
 }
 
+/**
+ * Hartslag: wanneer draaide de watcher voor het laatst, op het uur af.
+ * Hiermee merkt de volgende run dat er een gat in de dekking zat — anders
+ * staat de tool stil en denk jij dat er simpelweg geen nieuwe chains waren.
+ */
+export async function loadHeartbeat() {
+  return readJson(HEARTBEAT_FILE, null);
+}
+
+export async function saveHeartbeat(beat) {
+  await writeJson(HEARTBEAT_FILE, beat);
+}
+
 export async function saveHealth(health) {
   await writeJson(HEALTH_FILE, health);
 }
 
-export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE };
+export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE, HEARTBEAT_FILE };

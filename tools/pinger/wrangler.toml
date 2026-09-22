@@ -1,0 +1,16 @@
+name = "chainwatch-pinger"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+# De cadans die de GitHub-cron had moeten geven.
+# Cloudflare voert cron triggers wel gewoon uit; de ondergrens is 1 minuut.
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+REPO = "Boeruhlul/chainwatch"
+WORKFLOW = "watch.yml"
+BRANCH = "main"
+
+# GITHUB_TOKEN is een secret, geen var:
+#   wrangler secret put GITHUB_TOKEN

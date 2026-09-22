@@ -1,4 +1,4 @@
-import { nowIso, uniq, nameKey } from './util.js';
+import { nowIso, hourIso, uniq, nameKey } from './util.js';
 
 /**
  * Levensteken-check op chains die we als pre-launch gezien hebben.
@@ -13,7 +13,7 @@ import { nowIso, uniq, nameKey } from './util.js';
 
 const TIMEOUT_MS = 8000;
 
-/** Eén JSON-RPC call. Geen retries: dit is een levensteken, geen databron. */
+/** Één JSON-RPC call. Geen retries: dit is een levensteken, geen databron. */
 async function rpcCall(url, method, params = []) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -102,7 +102,6 @@ export function toPendingEntry(c) {
     socials: c.socials || null,
     domain: c.domain || null,
     addedAt: nowIso(),
-    checks: 0,
   };
 }
 
@@ -134,8 +133,9 @@ export async function probePending(pending, { limit = 40, budgetMs = 60000, ttlD
     while (i < toCheck.length) {
       const e = toCheck[i++];
       if (Date.now() > deadline) { keep.push(e); continue; }
-      e.checks = (e.checks || 0) + 1;
-      e.lastCheckedAt = nowIso();
+      // Op het uur afgerond, anders verschilt pending.json bij elke run en
+      // commit de workflow zichzelf suf zonder dat er iets veranderd is.
+      e.lastCheckedAt = hourIso();
 
       let hit = null;
       for (const url of e.rpc) {
