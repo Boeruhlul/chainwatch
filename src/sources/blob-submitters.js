@@ -1,5 +1,6 @@
 import { getJson } from '../http.js';
 import { nameKey } from '../util.js';
+import { evmCall, hexToNum } from '../evm.js';
 
 /**
  * Nieuwe, nog naamloze afzenders van blob-data op Ethereum.
@@ -21,6 +22,17 @@ const API = 'https://api.blobscan.com/transactions';
 const MIN_TXS = Number(process.env.BLOB_MIN_TXS || 3);
 const PAGE_SIZE = Number(process.env.BLOB_PAGE_SIZE || 100);
 
+/**
+ * Boven dit aantal verstuurde transacties is een afzender geen nieuwkomer.
+ *
+ * Aanleiding: Aztec heeft gedecentraliseerde sequencers die elk vanaf een eigen
+ * adres posten, en Blobscan labelt die niet. Zo'n proposer had al 26.000+
+ * transacties op zijn naam en kwam hier toch binnen als "naamloze rollup".
+ * Een echte nieuwe batcher begint vrijwel altijd op een vers adres. Ook een
+ * snelle (één batch per minuut) zit pas na ~17 uur op 1000.
+ */
+const MAX_NONCE = Number(process.env.BLOB_MAX_NONCE || 1000);
+
 /** Telt afzenders zonder rollup-label en houdt de regelmatige over. */
 export function unlabelledSubmitters(transactions, { minTxs = MIN_TXS } = {}) {
   const byAddress = new Map();
@@ -41,6 +53,33 @@ export function unlabelledSubmitters(transactions, { minTxs = MIN_TXS } = {}) {
   }
   return [...byAddress.values()].filter((e) => e.count >= minTxs);
 }
+
+/**
+ * Laat afzenders met een lange geschiedenis vallen.
+ *
+ * getNonce is injecteerbaar voor de tests. Faalt de opvraag, dan blijft het
+ * record staan: een gemiste chain weegt zwaarder dan een alert te veel.
+ */
+export async function dropVeterans(records, getNonce, { maxNonce = MAX_NONCE } = {}) {
+  const out = [];
+  for (const r of records) {
+    let nonce = null;
+    try {
+      nonce = await getNonce(r.contract);
+    } catch (e) {
+      console.warn(`[blob-submitters] nonce van ${r.contract} onbekend (${e.message}), record blijft staan`);
+    }
+    if (Number.isFinite(nonce) && nonce > maxNonce) {
+      console.log(`[blob-submitters] ${r.contract} overgeslagen: al ${nonce} transacties`);
+      continue;
+    }
+    out.push(Number.isFinite(nonce) ? { ...r, senderNonce: nonce } : r);
+  }
+  return out;
+}
+
+const rpcNonce = async (address) =>
+  hexToNum(await evmCall('ethereum', 'eth_getTransactionCount', [address, 'latest'], { timeout: 10000 }));
 
 export default {
   id: 'blob-submitters',
@@ -71,5 +110,10 @@ export default {
       deployTx: e.hash ? `https://etherscan.io/tx/${e.hash}` : null,
       url: `https://blobscan.com/address/${e.from}`,
     }));
+  },
+
+  /** Alleen voor nieuwe adressen: één RPC-call per afzender, ooit. */
+  async enrich(fresh) {
+    return dropVeterans(fresh, rpcNonce);
   },
 };
