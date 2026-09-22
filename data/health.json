@@ -4,10 +4,8 @@
     "wasFailing": false
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — rpc-mainnet.%: HTTP 404 voor https://crt.sh/?q=rpc-mainnet.%25&output=json; sequencer.%: HTTP 404 voor https://crt.sh/?q=sequencer.%25&output=json",
-    "failingSince": "2026-09-22T12:25:29.538Z",
-    "lastNotifiedAt": "2026-09-22T12:25:29.538Z"
+    "ok": true,
+    "wasFailing": true
   },
   "blob-submitters": {
     "ok": true,
