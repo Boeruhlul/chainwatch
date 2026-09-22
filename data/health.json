@@ -3,7 +3,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true
+    "ok": false,
+    "error": "crt.sh onbereikbaar — rpc.testnet.%: HTTP 404 voor https://crt.sh/?q=rpc.testnet.%25&output=json; mainnet-rpc.%: This operation was aborted",
+    "failingSince": "2026-09-22T22:40:26.461Z"
   },
   "blob-submitters": {
     "ok": true
