@@ -7,9 +7,17 @@ Detecteert nieuwe crypto-netwerken — mainnet, testnet, devnet en pre-launch �
 | Bron | Wat je ermee vangt | Hoe vroeg |
 |---|---|---|
 | **ethereum-lists open PRs** | Een team registreert zijn EVM chain ID | Dagen tot weken vóór launch |
+| **ethereum-lists commits** | Het moment dat die registratie gemerged wordt | Vóór chainid.network opnieuw gebouwd is |
+| **Keplr chain-registry PRs** | Het Cosmos-equivalent: chains die nooit een EVM chain ID aanvragen | Rond genesis |
+| **Superchain registry** | Elke OP Stack rollup, inclusief `sepolia/`-varianten | Vaak weken vóór mainnet |
+| **viem chain-definities** | Ontwikkelaarssignaal: iemand bouwt ergens tegenaan | Zodra er code voor bestaat |
 | **L2BEAT config-repo** | Nieuw rollup/L2-project in tracking | Vaak vóór mainnet |
-| **Chainlist** (chainid.network) | Elke EVM chain, mainnet + testnet, met RPC's en faucets | Bij registratie |
 | **Cosmos chain-registry** | Cosmos SDK chains, incl. `testnets/` en `devnets/` | Bij genesis-readiness |
+| **Chainlist** (chainid.network) | Elke EVM chain, mainnet + testnet, met RPC's en faucets | Bij registratie |
+| **Hyperlane registry** | Chains waar de interop-laag op uitgerold is, ook non-EVM | Rond deploy |
+| **Blockscout** | Netwerken die een explorer neerzetten — met `website`-veld | Vaak vóór registratie |
+| **Avalanche Glacier** | L1's en subnets die nergens anders systematisch staan | Bij deploy |
+| **LI.FI** | Chains zodra er liquiditeit en een brug is | Bij bruikbaarheid |
 | **DefiLlama** | Non-EVM chains zodra er TVL op staat | Bij eerste protocol |
 | **CoinGecko asset platforms** | L1's zodra er tokens genoteerd worden | Later, goede kruiscontrole |
 
@@ -58,6 +66,9 @@ Onder **Settings → Secrets and variables → Actions → Variables**:
 | `NOTIFY_CROSS_LISTING` | `false` | `true` = ook alerten als een bekende chain op een nieuwe bron verschijnt |
 | `DISABLED_SOURCES` | leeg | Bv. `coingecko,defillama` |
 | `MAX_ALERTS_PER_RUN` | `25` | Daarboven één samenvatting i.p.v. losse berichten |
+| `ENRICH_SOCIALS` | `true` | `false` zet het opzoeken van socials en domeinleeftijd uit |
+| `ENRICH_LIMIT` | `12` | Aantal chains per run dat verrijkt wordt, hoogste prioriteit eerst |
+| `ENRICH_BUDGET_SECONDS` | `150` | Harde tijdslimiet voor alle verrijking samen |
 
 ## Lokaal draaien
 
@@ -87,9 +98,9 @@ Elke bron levert genormaliseerde records met een stabiele `key`. Per bron staat 
 
 De hele opzet is gebouwd rond één vraag: *wanneer zou dit een chain kunnen missen?* Een gemiste launch weegt veel zwaarder dan een alert te veel, dus elke twijfelachtige stap kiest de kant van "toch melden".
 
-- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níét dubbel. Daarom commit de workflow de state ook met `if: always()`.
+- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níet dubbel. Daarom commit de workflow de state ook met `if: always()`.
 - **Een kapotte bron raakt de state niet aan.** Mislukt een fetch, dan wordt die `seen`-set niet bijgewerkt. `seen` is append-only: er verdwijnt nooit iets uit.
-- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níét als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
+- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níet als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
 - **Pre-launch en live zijn aparte gebeurtenissen.** Een project dat je via L2BEAT of een chain-ID-aanvraag al zag, alerteert opnieuw zodra het echt live gaat. Dat is meestal het moment waar het je om gaat.
 - **Anomalie-rem, per bron.** Levert één bron ineens meer dan 2× `MAX_ALERTS_PER_RUN` nieuwe keys, dan is waarschijnlijk het formaat veranderd; je krijgt één samenvatting voor díé bron. Andere bronnen blijven gewoon losse, volledige alerts sturen.
 - **Cross-bron dedupe.** Een chain die binnen dezelfde levensfase al via een andere bron bekend is krijgt `crossListing: true` en wordt standaard onderdrukt — anders alert je zes keer over dezelfde chain.
@@ -97,6 +108,23 @@ De hele opzet is gebouwd rond één vraag: *wanneer zou dit een chain kunnen mis
 - **Faucets en RPC's zitten in de alert**, zodat je direct kunt handelen zonder eerst te gaan zoeken.
 
 De PR-bron filtert bewust niet op titel. PR-titels zijn te divers (`Add Lisk Sepolia`, `feat: add Monad`, `Foobar chain addition`) en een regex laat er gegarandeerd doorheen glippen. In plaats daarvan wordt elke open PR meegenomen en via de files-API bevestigd of er echt een `_data/chains/*.json` bij zit — alleen voor PR's die nog niet gezien zijn, dus na de bootstrap een handvol per run.
+
+## Verrijking: socials en "zijn we vroeg"
+
+Een chain-ID-aanvraag geeft je een naam, een ID en een RPC — te weinig om iets mee te doen. Daarom zoekt de tool er zelf omheen:
+
+1. **Website afleiden.** Uit `infoURL` (ethereum-lists), het `website`-veld (Blockscout), of anders het registreerbare domein achter de explorer of de RPC. Infra-domeinen (`blockscout.com`, `llamarpc.com`, `vercel.app`, …) vallen af, want dat is nooit de site van het project zelf.
+2. **Socials uit de homepage.** X, Telegram, Discord, GitHub en docs. Bewust regex op de hele broncode en niet alleen op `<a href>`: veel chain-sites zijn SPA's waar de links pas in een JS-bundel staan. Bij meerdere kandidaten wint de handle die het vaakst voorkomt — navigatie staat in header én footer, een toevallige link maar één keer.
+3. **Domeinleeftijd via RDAP.** Gratis, geen sleutel, en het sterkste "ben ik vroeg"-signaal dat er is: een chain met een domein van elf dagen oud is nog nergens rondgegaan.
+4. **Leeftijd van de GitHub-org** achter de gevonden repo-link.
+
+Alles is best-effort en zit achter een harde tijdslimiet: verrijking mag nooit een detectie tegenhouden of de run van twaalf minuten opeten. Een chain zonder vindbare socials is nog steeds een alert.
+
+## Prioriteit
+
+Elke detectie krijgt een score van 0 tot 100 (`src/score.js`) die het bericht labelt met 🔥, ⭐ of ℹ️. Er wordt niets weggefilterd — de score bepaalt alleen de volgorde en het label, en gaat in het bericht mee met de reden erbij.
+
+Wat telt: pre-launch weegt zwaarder dan live, een bron die van nature vroeg is telt mee, een vers domein of een nieuwe GitHub-org geeft een flinke plus, en een chain die al via een andere bron bekend was of al TVL heeft zakt. De verrijkingsbudget gaat naar de hoogste prioriteiten eerst.
 
 ## Structuur
 
@@ -107,6 +135,8 @@ src/
   store.js        append-only state, atomische writes
   notify.js       Telegram-formatting en rate limiting
   dashboard.js    genereert docs/index.html
+  enrich.js       socials, domeinleeftijd (RDAP), GitHub-org — best-effort
+  score.js        prioriteit 0-100 per detectie
 data/
   seen/*.json     gezien-keys per bron (git-vriendelijke gesorteerde arrays)
   names.json      cross-bron dedupe-sleutels

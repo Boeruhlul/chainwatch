@@ -76,6 +76,15 @@ background:color-mix(in srgb,var(--fg) 7%,transparent);padding:1px 5px;border-ra
 .pill{display:inline-block;font-size:.6875rem;padding:2px 8px;border-radius:999px;margin-right:4px;
 background:color-mix(in srgb,var(--main) 15%,transparent);color:var(--main)}
 .pill.bad{background:color-mix(in srgb,#d4183d 15%,transparent);color:#d4183d}
+.desc{color:var(--mut);font-size:.8125rem;margin:0 0 4px}
+.soc{margin-top:6px}
+.soc a{color:var(--up);text-decoration:none;font-size:.8125rem}
+.soc a:hover{text-decoration:underline}
+.score{display:inline-block;min-width:26px;text-align:center;font-size:.6875rem;font-weight:700;
+padding:2px 6px;border-radius:6px;margin-right:6px;vertical-align:1px;
+background:color-mix(in srgb,var(--mut) 18%,transparent);color:var(--mut)}
+.score.hi{background:color-mix(in srgb,#d4183d 16%,transparent);color:#d4183d}
+.score.mid{background:color-mix(in srgb,var(--test) 18%,transparent);color:var(--test)}
 .empty{color:var(--mut);padding:32px;text-align:center}
 footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 </style></head><body><div class="wrap">
@@ -88,6 +97,7 @@ ${['mainnet', 'testnet', 'upcoming', 'devnet', 'proposal']
 </div>
 <div class="filters">
 <button data-f="all" aria-pressed="true">Alles</button>
+<button data-f="hot" aria-pressed="false">🔥 Hoog</button>
 <button data-f="mainnet" aria-pressed="false">Mainnet</button>
 <button data-f="testnet" aria-pressed="false">Testnet</button>
 <button data-f="upcoming" aria-pressed="false">Upcoming</button>
@@ -106,7 +116,7 @@ const escape = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&
 function render(){
   const term = q.value.trim().toLowerCase();
   const rows = DATA.filter(c =>
-    (filter === 'all' || c.kind === filter) &&
+    (filter === 'all' ? true : filter === 'hot' ? (c.score || 0) >= 62 : c.kind === filter) &&
     (!term || (c.name||'').toLowerCase().includes(term) || String(c.chainId||'').includes(term))
   );
   if (!rows.length) { list.innerHTML = '<div class="empty">Niets gevonden.</div>'; return; }
@@ -116,12 +126,29 @@ function render(){
     if (c.ecosystem && c.ecosystem !== 'onbekend') bits.push(escape(c.ecosystem));
     if (c.nativeCurrency) bits.push(escape(c.nativeCurrency));
     if (c.faucets && c.faucets.length) bits.push('<a href="' + escape(c.faucets[0]) + '">faucet</a>');
+    if (c.domain && typeof c.domain.ageDays === 'number') bits.push('domein ' + c.domain.ageDays + 'd');
     bits.push('bron: ' + escape(c.source));
     bits.push(fmt(c.detectedAt));
-    return '<div class="row" data-kind="' + escape(c.kind) + '">' +
-      '<h2><a href="' + escape(c.url) + '" target="_blank" rel="noopener">' + escape(c.name) + '</a></h2>' +
+    const soc = c.socials || {};
+    const links = [];
+    if (c.website) links.push(['site', c.website]);
+    if (soc.x) links.push(['X', soc.x]);
+    if (soc.telegram) links.push(['Telegram', soc.telegram]);
+    if (soc.discord) links.push(['Discord', soc.discord]);
+    if (soc.github) links.push(['GitHub', soc.github]);
+    if (soc.docs) links.push(['docs', soc.docs]);
+    const socHtml = links.length
+      ? '<div class="meta soc">' + links.map(l =>
+          '<a href="' + escape(l[1]) + '" target="_blank" rel="noopener">' + escape(l[0]) + '</a>').join('') + '</div>'
+      : '';
+    const sc = typeof c.score === 'number' ? c.score : 0;
+    const badge = sc >= 62 ? 'hi' : sc >= 38 ? 'mid' : 'lo';
+    return '<div class="row" data-kind="' + escape(c.kind) + '" data-score="' + sc + '">' +
+      '<h2><span class="score ' + badge + '" title="prioriteit">' + sc + '</span>' +
+      '<a href="' + escape(c.url) + '" target="_blank" rel="noopener">' + escape(c.name) + '</a></h2>' +
+      (c.description ? '<div class="desc">' + escape(c.description) + '</div>' : '') +
       '<div class="meta"><span class="k ' + escape(c.kind) + '">' + escape(c.kind) + '</span>' +
-      bits.map(b => '<span>' + b + '</span>').join('') + '</div></div>';
+      bits.map(b => '<span>' + b + '</span>').join('') + '</div>' + socHtml + '</div>';
   }).join('');
 }
 document.querySelectorAll('button[data-f]').forEach(b => b.addEventListener('click', () => {
