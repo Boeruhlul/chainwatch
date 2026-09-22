@@ -759,6 +759,28 @@ await t('H5: een normale cadans waarschuwt niet', async () => {
   assert.ok(!tg.sent.some((m) => /stilgestaan/.test(m.text)), 'vals alarm bij een normale run');
 });
 
+await t('A2: end-to-end — bronfout landt in de beheerderschat, niet in het kanaal', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg, { TELEGRAM_ADMIN_CHAT_ID: '4242' });
+  await watchTg('BOOM', tg, { TELEGRAM_ADMIN_CHAT_ID: '4242' });
+  tg.close();
+  const storing = tg.sent.find((m) => /falen/.test(m.text));
+  assert.ok(storing, 'bronfout niet gemeld');
+  assert.equal(String(storing.chat_id), '4242', 'storing ging naar het kanaal i.p.v. de beheerder');
+});
+
+await t('A3: zonder beheerderschat blijft alles naar het gewone kanaal gaan', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg);
+  await watchTg('BOOM', tg);
+  tg.close();
+  const storing = tg.sent.find((m) => /falen/.test(m.text));
+  assert.ok(storing);
+  assert.equal(String(storing.chat_id), '123', 'bestaand gedrag veranderd');
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);
