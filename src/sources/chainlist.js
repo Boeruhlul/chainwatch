@@ -32,6 +32,8 @@ export default {
           rpc: uniq((c.rpc || []).filter((u) => typeof u === 'string' && !u.includes('${'))).slice(0, 4),
           explorers: uniq((c.explorers || []).map((e) => e?.url)).slice(0, 2),
           faucets: uniq(c.faucets || []).slice(0, 3),
+          // infoURL is het startpunt voor de socials-verrijking.
+          website: typeof c.infoURL === 'string' ? c.infoURL : null,
           url: `https://chainlist.org/chain/${c.chainId}`,
           parent: c.parent?.chain || null,
         };

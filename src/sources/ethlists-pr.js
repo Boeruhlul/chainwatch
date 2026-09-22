@@ -1,5 +1,5 @@
 import { gh } from '../http.js';
-import { classify, nameKey, clamp } from '../util.js';
+import { classify, nameKey, clamp, uniq } from '../util.js';
 
 /**
  * Open pull requests op ethereum-lists/chains.
@@ -91,21 +91,26 @@ export default {
       if (!chainFile) continue;
 
       const idMatch = chainFile.filename.match(/eip155-(\d+)\.json$/i);
-      let name = rec.name;
-      let faucets = [];
-      // De patch bevat de nieuwe JSON; daar staat de echte naam in.
-      const patch = chainFile.patch || '';
-      const nameInPatch = patch.match(/^\+\s*"name"\s*:\s*"([^"]{1,80})"/m);
-      if (nameInPatch) name = nameInPatch[1];
-      for (const m of patch.matchAll(/^\+\s*"(https?:\/\/[^"]*faucet[^"]*)"/gim)) faucets.push(m[1]);
+
+      // De patch is een diff van een NIEUW bestand, dus alle '+'-regels samen
+      // zijn de complete JSON. Die parsen we liever dan er regex op los te
+      // laten: zo krijgen we in een klap infoURL, RPC, explorer en token mee.
+      const chain = parseAddedJson(chainFile.patch || '');
+      const name = chain?.name || rec.name;
+      const faucets = uniq(chain?.faucets || fallbackFaucets(chainFile.patch || ''));
 
       out.push({
         ...rec,
         name,
         nameKey: nameKey(name, 'proposal'),
-        chainId: rec.chainId ?? (idMatch ? Number(idMatch[1]) : null),
+        chainId: chain?.chainId ?? rec.chainId ?? (idMatch ? Number(idMatch[1]) : null),
         likelyKind: classify(name, { faucets }),
+        nativeCurrency: chain?.nativeCurrency?.symbol || null,
+        rpc: uniq((chain?.rpc || []).filter((u) => typeof u === 'string' && !u.includes('${'))).slice(0, 3),
+        explorers: uniq((chain?.explorers || []).map((e) => e?.url)).slice(0, 2),
         faucets: faucets.slice(0, 2),
+        website: chain?.infoURL || null,
+        parent: chain?.parent?.chain || null,
       });
     }
     if (fresh.length > MAX_ENRICH) {
@@ -115,3 +120,25 @@ export default {
     return out;
   },
 };
+
+/** Alle toegevoegde regels van een nieuw-bestand-diff samen zijn de hele JSON. */
+function parseAddedJson(patch) {
+  const body = patch
+    .split('\n')
+    .filter((l) => l.startsWith('+') && !l.startsWith('+++'))
+    .map((l) => l.slice(1))
+    .join('\n');
+  if (!body.trim().startsWith('{')) return null;
+  try {
+    const parsed = JSON.parse(body);
+    return parsed?.chainId != null || parsed?.name ? parsed : null;
+  } catch {
+    // GitHub kapt patches af boven ~1 MB, en een PR die een bestaand bestand
+    // wijzigt geeft geen contigue JSON. Dan valt de caller terug op de titel.
+    return null;
+  }
+}
+
+function fallbackFaucets(patch) {
+  return [...patch.matchAll(/^\+\s*"(https?:\/\/[^"]*faucet[^"]*)"/gim)].map((m) => m[1]);
+}

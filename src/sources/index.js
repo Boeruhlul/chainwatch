@@ -4,8 +4,21 @@ import defillama from './defillama.js';
 import l2beat from './l2beat.js';
 import cosmos from './cosmos.js';
 import coingecko from './coingecko.js';
+import superchain from './superchain.js';
+import hyperlane from './hyperlane.js';
+import blockscout from './blockscout.js';
+import glacier from './glacier.js';
+import lifi from './lifi.js';
+import viem from './viem.js';
+import keplrPr from './keplr-pr.js';
+import ethlistsCommit from './ethlists-commit.js';
 
-const REAL_SOURCES = [chainlist, ethlistsPr, defillama, l2beat, cosmos, coingecko];
+// Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
+// Pre-launch-bronnen eerst, brede registers daarna.
+const REAL_SOURCES = [
+  ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
+  chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
+];
 
 /**
  * Testhaak: met CHAINWATCH_FIXTURE=<pad> draait de watcher tegen een lokaal

@@ -50,3 +50,49 @@ export function gh(path, opts = {}) {
   if (token) headers.authorization = `Bearer ${token}`;
   return getJson(`https://api.github.com${path}`, { ...opts, headers });
 }
+
+/**
+ * Haalt tekst/HTML op met timeout en een harde byte-limiet.
+ * De limiet is er omdat we alleen de <head> en de links nodig hebben; sommige
+ * chain-landingspaginas zijn single-page-apps van megabytes en die willen we
+ * niet volledig door een runner heen trekken.
+ * Gooit niet met retries: dit is best-effort verrijking, geen bron.
+ */
+export async function getText(url, { timeout = 12000, maxBytes = 400000, headers = {} } = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    const res = await fetch(url, {
+      signal: ctrl.signal,
+      redirect: 'follow',
+      headers: {
+        'user-agent': UA,
+        accept: 'text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.8',
+        ...headers,
+      },
+    });
+    if (!res.ok) {
+      const err = new Error(`HTTP ${res.status} voor ${url}`);
+      err.status = res.status;
+      throw err;
+    }
+    // Stream met limiet i.p.v. res.text(): anders lezen we alsnog alles in.
+    const reader = res.body?.getReader();
+    if (!reader) return { text: (await res.text()).slice(0, maxBytes), finalUrl: res.url || url };
+    const chunks = [];
+    let total = 0;
+    while (total < maxBytes) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      total += value.length;
+    }
+    try { await reader.cancel(); } catch { /* al klaar */ }
+    return {
+      text: Buffer.concat(chunks).toString('utf8').slice(0, maxBytes),
+      finalUrl: res.url || url,
+    };
+  } finally {
+    clearTimeout(timer);
+  }
+}

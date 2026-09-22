@@ -33,6 +33,19 @@ const voorbeeld = {
   faucets: ['https://faucet.testchain.example'],
   url: 'https://github.com/Boeruhlul/chainwatch',
   detectedAt: nowIso(),
+  // Zo ziet een verrijkte alert eruit: socials en leeftijdssignalen erbij.
+  website: 'https://testchain.example',
+  socials: {
+    x: 'https://x.com/testchain',
+    telegram: 'https://t.me/testchain',
+    discord: 'https://discord.gg/testchain',
+    github: 'https://github.com/testchain',
+    docs: 'https://docs.testchain.example',
+  },
+  domain: { apex: 'testchain.example', ageDays: 6 },
+  github: { login: 'testchain', ageDays: 21, repos: 3 },
+  score: 74,
+  reasons: ['domein 6d oud', 'nieuwe GitHub-org'],
 };
 
 const tekst =
