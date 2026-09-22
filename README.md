@@ -85,6 +85,21 @@ node --env-file=.env src/index.js --dry-run     # tonen zonder versturen of opsl
 node test/run.js                                # 23 tests, geen netwerk nodig
 ```
 
+## Naar een Telegram-kanaal
+
+`TELEGRAM_CHAT_ID` mag ook een kanaal zijn in plaats van een persoonlijke chat.
+Zet de bot als **administrator** in het kanaal met het recht om berichten te
+plaatsen, en vul dan in:
+
+- publiek kanaal: `@kanaalnaam` — verder niets nodig
+- privékanaal: het numerieke ID, dat begint met `-100`
+
+Zet in dat geval ook `TELEGRAM_ADMIN_CHAT_ID` op je eigen chat-ID. Storingen —
+falende bronnen, dekkingsgaten, crashes — gaan dan naar jou en niet naar het
+kanaal. Lezers hebben niets aan "bron coingecko faalt", en jij wilt het juist
+wél weten. Laat je hem leeg, dan gaat alles naar dezelfde bestemming; dat is
+het oude gedrag.
+
 ## Echt elke 5 minuten draaien
 
 `watch.yml` staat op `*/5`, maar **GitHub voert dat niet uit.** Gemeten op deze
