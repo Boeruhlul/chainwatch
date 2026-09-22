@@ -5,7 +5,7 @@
   },
   "ct-hostnames": {
     "ok": true,
-    "wasFailing": true
+    "wasFailing": false
   },
   "blob-submitters": {
     "ok": true,
