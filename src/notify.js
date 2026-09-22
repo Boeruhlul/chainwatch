@@ -1,5 +1,6 @@
 import { sleep } from './http.js';
 import { esc, clamp } from './util.js';
+import { badgeFor } from './score.js';
 
 const TG_LIMIT = 4096;
 /** Marge onder de harde limiet, zodat HTML-entities er nooit overheen duwen. */
@@ -15,7 +16,10 @@ const KIND_LABEL = {
 };
 
 export function formatChain(c) {
-  const lines = [`<b>${KIND_LABEL[c.kind] || '🔔 NIEUW'}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`];
+  const badge = badgeFor(c.score ?? 0);
+  const lines = [
+    `${badge.icon} <b>${KIND_LABEL[c.kind] || 'NIEUW'}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`,
+  ];
 
   const facts = [];
   if (c.chainId != null) facts.push(`Chain ID: <code>${esc(c.chainId)}</code>`);
@@ -25,7 +29,26 @@ export function formatChain(c) {
   if (typeof c.tvl === 'number' && c.tvl > 0) facts.push(`TVL: $${c.tvl.toLocaleString('nl-NL')}`);
   if (facts.length) lines.push(facts.join(' · '));
 
+  if (c.description) lines.push(`<i>${esc(clamp(c.description, 220))}</i>`);
   if (c.wasTrackedAs) lines.push(`♻️ Eerder gezien als <i>${esc(c.wasTrackedAs)}</i> — nu live`);
+
+  // Leeftijdssignalen: hieraan zie je of je echt vroeg bent.
+  const age = [];
+  if (typeof c.domain?.ageDays === 'number') age.push(`domein ${humanAge(c.domain.ageDays)}`);
+  if (typeof c.github?.ageDays === 'number') age.push(`GitHub-org ${humanAge(c.github.ageDays)}`);
+  if (age.length) lines.push(`⏳ ${esc(age.join(' · '))}`);
+
+  // Socials: het deel waar je zelf verder mee kunt.
+  const soc = c.socials || {};
+  const links = [];
+  if (c.website) links.push(`🌐 ${esc(clamp(c.website, 120))}`);
+  if (soc.x) links.push(`𝕏 ${esc(soc.x)}`);
+  if (soc.telegram) links.push(`✈️ ${esc(soc.telegram)}`);
+  if (soc.discord) links.push(`💬 ${esc(soc.discord)}`);
+  if (soc.github) links.push(`⚙️ ${esc(soc.github)}`);
+  if (soc.docs) links.push(`📚 ${esc(clamp(soc.docs, 120))}`);
+  if (links.length) lines.push(links.join('\n'));
+
   for (const f of (c.faucets || []).slice(0, 2)) lines.push(`💧 Faucet: ${esc(clamp(f, 200))}`);
   if (c.rpc?.length) {
     lines.push(`🔌 RPC: <code>${esc(clamp(c.rpc[0], 200))}</code>${c.rpc.length > 1 ? ` (+${c.rpc.length - 1})` : ''}`);
@@ -33,8 +56,18 @@ export function formatChain(c) {
   if (c.explorers?.length) lines.push(`🔍 Explorer: ${esc(clamp(c.explorers[0], 200))}`);
 
   lines.push(`🔗 ${esc(clamp(c.url, 300))}`);
-  lines.push(`<i>bron: ${esc(c.source)}${c.crossListing ? ' · ook bekend via andere bron' : ''}</i>`);
+
+  const why = (c.reasons || []).length ? ` · ${c.reasons.join(', ')}` : '';
+  lines.push(`<i>bron: ${esc(c.source)} · prioriteit ${c.score ?? 0}/100${esc(why)}</i>`);
   return clamp(lines.join('\n'), SAFE_LEN);
+}
+
+/** Leeftijd in mensentaal; hoe verser, hoe preciezer. */
+function humanAge(days) {
+  if (days < 1) return 'vandaag geregistreerd';
+  if (days < 45) return `${days} dagen oud`;
+  if (days < 730) return `${Math.round(days / 30)} maanden oud`;
+  return `${Math.round(days / 365)} jaar oud`;
 }
 
 /** Samenvatting voor als één bron ineens honderden records oplevert. */
@@ -51,7 +84,7 @@ export function summaryMessage(chains, reason = '') {
   let used = head.length + 2;
   let shown = 0;
   for (const c of chains) {
-    const line = `• ${esc(clamp(c.name, 80))}${c.chainId != null ? ` (${esc(c.chainId)})` : ''} — ${esc(c.source)}`;
+    const line = `${badgeFor(c.score ?? 0).icon} ${esc(clamp(c.name, 80))}${c.chainId != null ? ` (${esc(c.chainId)})` : ''} — ${esc(c.source)}`;
     if (used + line.length + 60 > SAFE_LEN) break;
     lines.push(line);
     used += line.length + 1;

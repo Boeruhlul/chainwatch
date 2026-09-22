@@ -3,6 +3,8 @@ import { activeSources } from './sources/index.js';
 import { loadState, saveSeen, saveNames, saveChains, saveHealth } from './store.js';
 import { notify, formatChain, summaryMessage, notifyError } from './notify.js';
 import { buildDashboard } from './dashboard.js';
+import { enrichChains } from './enrich.js';
+import { scoreChain } from './score.js';
 import { nowIso } from './util.js';
 
 const argv = new Set(process.argv.slice(2));
@@ -22,6 +24,9 @@ const cfg = {
   crossListing: process.env.NOTIFY_CROSS_LISTING === 'true',
   disabled: (process.env.DISABLED_SOURCES || '').split(','),
   maxAlerts: Number(process.env.MAX_ALERTS_PER_RUN || 25),
+  // Verrijking is best-effort en mag de run van 10 minuten nooit opeten.
+  enrichLimit: Number(process.env.ENRICH_LIMIT || 12),
+  enrichBudgetMs: Number(process.env.ENRICH_BUDGET_SECONDS || 150) * 1000,
 };
 
 async function main() {
@@ -105,18 +110,44 @@ async function main() {
     perSource.push(entry);
   }
 
+  const allDetected = perSource.flatMap((e) => e.detected);
+
+  // ---- Verrijking en scoring -------------------------------------------------
+  // Eerst bepalen wat uberhaupt een alert wordt: alleen daarvoor loont het om
+  // websites, RDAP en GitHub te bevragen.
+  const alertableBySource = new Map();
+  for (const entry of perSource) {
+    alertableBySource.set(
+      entry,
+      entry.detected
+        .filter((c) => cfg.kinds.has(c.kind))
+        .filter((c) => cfg.crossListing || !c.crossListing)
+    );
+  }
+
+  // Een bron in anomalie levert honderden records; die gaan als samenvatting de
+  // deur uit, dus verrijken heeft daar geen zin.
+  const enrichQueue = [...alertableBySource.entries()]
+    .filter(([entry]) => !entry.anomaly)
+    .flatMap(([, list]) => list)
+    .sort((a, b) => rank(a) - rank(b)); // pre-launch en mainnet eerst in de wachtrij
+
+  await enrichChains(enrichQueue, { limit: cfg.enrichLimit, budgetMs: cfg.enrichBudgetMs });
+
+  for (const c of allDetected) {
+    const { score, reasons } = scoreChain(c);
+    c.score = score;
+    c.reasons = reasons;
+  }
+
   // ---- Berichtgroepen bouwen -------------------------------------------------
   const groups = [];
-  const allDetected = [];
   let alertableCount = 0;
 
   for (const entry of perSource) {
-    const alertable = entry.detected
-      .filter((c) => cfg.kinds.has(c.kind))
-      .filter((c) => cfg.crossListing || !c.crossListing)
-      .sort((a, b) => rank(a) - rank(b));
-
-    allDetected.push(...entry.detected);
+    const alertable = (alertableBySource.get(entry) || []).sort(
+      (a, b) => (b.score ?? 0) - (a.score ?? 0) || rank(a) - rank(b)
+    );
     alertableCount += alertable.length;
     if (alertable.length === 0) continue;
 
