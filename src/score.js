@@ -20,6 +20,14 @@ export function scoreChain(c) {
 
   if (EARLY_SOURCES.has(c.source)) s += 12;
 
+  // Een project dat je al als testnet of aankondiging kende en nu live gaat,
+  // is het interessantste reguliere signaal dat er is: je weet al wie het is,
+  // en dit is het moment waarop het begint.
+  if (c.promotedFrom) {
+    s += 22;
+    reasons.push(c.promotedFrom === 'testnet' ? 'was al testnet' : 'was aangekondigd');
+  }
+
   const age = c.domain?.ageDays;
   if (typeof age === 'number') {
     if (age <= 30) { s += 24; reasons.push(`domein ${age}d oud`); }
