@@ -74,6 +74,12 @@ Onder **Settings → Secrets and variables → Actions → Variables**:
 | `PROBE_BUDGET_SECONDS` | `60` | Harde tijdslimiet voor al het pollen samen |
 | `PROBE_TTL_DAYS` | `120` | Daarna valt een item van de wachtlijst, zonder bericht |
 | `STALE_ALERT_HOURS` | `3` | Waarschuw als de vorige run langer dan dit geleden was |
+| `CT_PATTERNS` | zeven patronen | Waar in Certificate Transparency op gezocht wordt |
+| `BLOB_MIN_TXS` | `3` | Zoveel batches moet een naamloos adres posten voordat het telt |
+| `BLOB_PAGE_SIZE` | `100` | Hoeveel blob-transacties per run opgehaald worden |
+| `EVM_RPC_ETHEREUM` | publieke endpoints | Komma-gescheiden eigen RPC's, bv. een Alchemy-sleutel |
+| `EVM_RPC_ARBITRUM` | publieke endpoints | Idem voor Arbitrum One |
+| `EVM_RPC_BASE` | publieke endpoints | Idem voor Base |
 
 ## Lokaal draaien
 
@@ -156,6 +162,49 @@ De hele opzet is gebouwd rond één vraag: *wanneer zou dit een chain kunnen mis
 
 De PR-bron filtert bewust niet op titel. PR-titels zijn te divers (`Add Lisk Sepolia`, `feat: add Monad`, `Foobar chain addition`) en een regex laat er gegarandeerd doorheen glippen. In plaats daarvan wordt elke open PR meegenomen en via de files-API bevestigd of er echt een `_data/chains/*.json` bij zit — alleen voor PR's die nog niet gezien zijn, dus na de bootstrap een handvol per run.
 
+## Stealth: chains die draaien zonder aankondiging
+
+De registerbronnen hierboven vinden een chain pas als iemand hem ergens
+aanmeldt. Maar een chain kan maandenlang draaien zonder dat er een woord over
+gezegd is — Robinhood Chain deed precies dat. Die was te vinden door
+`rpc.mainnet.chain.robinhood.com` simpelweg om zijn chain ID te vragen; hij
+antwoordde, met duizenden transacties al verwerkt.
+
+Drie bronnen dekken dat af, en ze vullen elkaar aan.
+
+**`ct-hostnames`** — elk TLS-certificaat wordt publiek gelogd. Zet een team een
+sequencer of publieke RPC in de lucht, dan staat die hostnaam binnen minuten in
+Certificate Transparency, ook zonder aankondiging. We zoeken op smalle patronen
+(`rpc.mainnet.%`, `sequencer.%`, …) en kloppen bij elke nieuwe hostnaam aan met
+`eth_chainId`. De ruis lost zichzelf op: wie niet antwoordt verdwijnt stil, wie
+wel antwoordt *is* een draaiende chain. Instelbaar met `CT_PATTERNS`.
+
+**`rollup-factory`** — een Arbitrum-chain kan niet bestaan zonder via het
+fabriekscontract op zijn moederketen te worden aangemaakt, en dat laat een
+openbaar logbericht achter. Stil uitrollen verandert daar niets aan. We lezen
+de fabrieken op Ethereum, Arbitrum One en Base en halen waar mogelijk het chain
+ID op bij het nieuwe rollup-contract. Er wordt bewust niet op de handtekening
+van de gebeurtenis gefilterd: die verschilt per versie van de fabriek, en een
+verkeerde hash zou stil nul resultaten geven.
+
+**`blob-submitters`** — een rollup die écht draait moet zijn data naar Ethereum
+schrijven. Blobscan plakt een naam op de adressen die dat doen zodra bekend is
+van wie ze zijn. Een adres dat regelmatig blobs post en nog naamloos is, is een
+chain die niemand heeft thuisgebracht. De drempel staat op `BLOB_MIN_TXS`
+batches binnen het opgehaalde venster, zodat een eenmalige blob geen alert
+wordt.
+
+Alle drie leveren de fase `stealth`, en die gaat — net als `launched` — bewust
+**buiten `WATCH_KINDS` om**. Dit zijn precies de gebeurtenissen waarvoor de
+tool bestaat; die wil je niet kwijtraken aan een instelling van maanden
+geleden.
+
+De blokstand per moederketen staat in `data/blocks.json`, naar beneden afgerond
+op een grof veelvoud. Zou daar het exacte blok in staan, dan verandert het
+bestand bij elke run en commit de workflow zichzelf suf; door grof af te ronden
+wordt een stukje opnieuw afgezocht, en die dubbele treffers vangt de seen-set
+gratis op.
+
 ## Verrijking: socials en "zijn we vroeg"
 
 Een chain-ID-aanvraag geeft je een naam, een ID en een RPC — te weinig om iets mee te doen. Daarom zoekt de tool er zelf omheen:
@@ -209,6 +258,7 @@ src/
   dashboard.js    genereert docs/index.html
   enrich.js       socials, domeinleeftijd (RDAP), GitHub-org — best-effort
   score.js        prioriteit 0-100 per detectie
+  evm.js          JSON-RPC naar de moederketens, met uitwijk per endpoint
   probe.js        RPC-polling op de wachtlijst: detecteert het launchmoment
   backfill.js     eenmalig: al bekende pre-launch chains op de wachtlijst
 data/
@@ -217,6 +267,7 @@ data/
   chains.json     laatste 800 detecties met volledige details
   health.json     status per bron + stilteperiode voor foutmeldingen
   pending.json    pre-launch chains waarvan de RPC nog gepollt wordt
+  blocks.json     tot welk blok elke moederketen afgezocht is (grof afgerond)
   heartbeat.json  wanneer de watcher voor het laatst draaide (op het uur af)
 tools/pinger/     Cloudflare Worker die de workflow echt elke 5 minuten start
 ```

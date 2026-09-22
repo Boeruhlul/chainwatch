@@ -823,6 +823,120 @@ await t('P12: testnet en mainnet in dezelfde run tellen niet als promotie', asyn
   assert.ok(!tg.sent.some((m) => /Kenden we al als/.test(m.text)), 'valse promotie binnen dezelfde run');
 });
 
+
+// ---------------------------------------------------------------------------
+// Stealth-detectie: chains die draaien zonder dat iemand het gezegd heeft.
+// ---------------------------------------------------------------------------
+
+const { hostsFromCrtSh } = await import('../src/sources/ct-hostnames.js');
+const { unlabelledSubmitters } = await import('../src/sources/blob-submitters.js');
+const { topicToAddress, hexToNum, endpointsFor } = await import('../src/evm.js');
+
+await t('T1: crt.sh-parser pakt verse hostnamen en laat wildcards en oude certs liggen', async () => {
+  const now = Date.parse('2026-09-22T12:00:00Z');
+  const rows = [
+    { entry_timestamp: '2026-09-21T10:00:00', name_value: 'rpc.mainnet.chain.robinhood.com' },
+    { entry_timestamp: '2026-09-20T10:00:00', name_value: '*.mainnet.foo.com\nrpc.mainnet.foo.com' },
+    { entry_timestamp: '2026-01-01T10:00:00', name_value: 'rpc.mainnet.oud.com' },
+    { entry_timestamp: '2026-09-21T11:00:00', name_value: '' },
+  ];
+  const hosts = hostsFromCrtSh(rows, { maxAgeDays: 7, now });
+  assert.ok(hosts.includes('rpc.mainnet.chain.robinhood.com'));
+  assert.ok(hosts.includes('rpc.mainnet.foo.com'));
+  assert.ok(!hosts.some((h) => h.startsWith('*')), 'wildcard-certificaat levert geen aanklopbaar adres');
+  assert.ok(!hosts.includes('rpc.mainnet.oud.com'), 'cert van maanden geleden is geen nieuws');
+});
+
+await t('T2: crt.sh-parser overleeft rommel zonder te klappen', async () => {
+  assert.deepEqual(hostsFromCrtSh(null), []);
+  assert.deepEqual(hostsFromCrtSh([{}, { name_value: null }, 'kapot']), []);
+});
+
+await t('T3: blob-afzenders — alleen naamloze adressen die regelmatig posten', async () => {
+  const txs = [
+    { from: '0xAAA0000000000000000000000000000000000001', rollup: null, blockTimestamp: '2026-09-22T11:00:00.000Z', blockNumber: 10, hash: '0x1' },
+    { from: '0xaaa0000000000000000000000000000000000001', rollup: null, blockTimestamp: '2026-09-22T11:05:00.000Z', blockNumber: 11, hash: '0x2' },
+    { from: '0xAAA0000000000000000000000000000000000001', rollup: null, blockTimestamp: '2026-09-22T11:10:00.000Z', blockNumber: 12, hash: '0x3' },
+    { from: '0xbbb0000000000000000000000000000000000002', rollup: 'base', blockTimestamp: '2026-09-22T11:06:00.000Z' },
+    { from: '0xbbb0000000000000000000000000000000000002', rollup: 'base', blockTimestamp: '2026-09-22T11:07:00.000Z' },
+    { from: '0xbbb0000000000000000000000000000000000002', rollup: 'base', blockTimestamp: '2026-09-22T11:08:00.000Z' },
+    { from: '0xccc0000000000000000000000000000000000003', rollup: null, blockTimestamp: '2026-09-22T11:09:00.000Z' },
+    { from: 'geen-adres', rollup: null },
+  ];
+  const found = unlabelledSubmitters(txs, { minTxs: 3 });
+  assert.equal(found.length, 1, 'verwacht precies één naamloze regelmatige afzender');
+  assert.equal(found[0].from, '0xaaa0000000000000000000000000000000000001', 'hoofdletters moeten samenvallen');
+  assert.equal(found[0].count, 3);
+  assert.equal(found[0].newest, '2026-09-22T11:10:00.000Z', 'nieuwste transactie niet bewaard');
+  assert.equal(found[0].blockNumber, 12);
+});
+
+await t('T4: een afzender met een naam is geen vondst', async () => {
+  const txs = Array.from({ length: 9 }, (_, i) => ({
+    from: '0xddd0000000000000000000000000000000000004', rollup: 'arbitrum',
+    blockTimestamp: `2026-09-22T11:0${i}:00.000Z`,
+  }));
+  assert.deepEqual(unlabelledSubmitters(txs, { minTxs: 3 }), []);
+});
+
+await t('T5: EVM-hulpjes decoderen topics en respecteren een eigen endpoint', async () => {
+  assert.equal(
+    topicToAddress('0x000000000000000000000000ebdc18a1000000000000000000000000000024b7'),
+    '0xebdc18a1000000000000000000000000000024b7'
+  );
+  assert.equal(topicToAddress(undefined), null);
+  assert.equal(topicToAddress('0x1234'), null);
+  assert.equal(hexToNum('0x17cc'), 6092);
+  assert.equal(hexToNum(undefined), null);
+
+  const standaard = endpointsFor('ethereum');
+  assert.ok(standaard.length > 1, 'meerdere endpoints nodig om uit te kunnen wijken');
+  process.env.EVM_RPC_ETHEREUM = 'https://mijn-eigen.example/v2/sleutel';
+  assert.deepEqual(endpointsFor('ethereum'), ['https://mijn-eigen.example/v2/sleutel']);
+  delete process.env.EVM_RPC_ETHEREUM;
+  assert.deepEqual(endpointsFor('onbekendeketen'), []);
+});
+
+await t('T6: een stealth-vondst komt door WATCH_KINDS heen', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg, { WATCH_KINDS: 'mainnet' });
+
+  // WATCH_KINDS staat op alleen mainnet; een stealth-vondst hoort toch te komen,
+  // want dat is precies waar de tool voor bestaat.
+  await watchTg(
+    [chain(1, 'Ethereum'),
+     { chainId: 4663, name: 'Onaangekondigde chain 4663', kind: 'stealth', stealthKind: 'hostname' },
+     chain(77, 'Zomaar Testnet')],
+    tg, { WATCH_KINDS: 'mainnet' }
+  );
+  tg.close();
+  const stealth = tg.sent.find((m) => /ONAANGEKONDIGDE CHAIN/.test(m.text));
+  assert.ok(stealth, 'stealth-vondst weggefilterd door WATCH_KINDS');
+  assert.match(stealth.text, /4663/);
+  assert.ok(!tg.sent.some((m) => /Zomaar Testnet/.test(m.text)), 'WATCH_KINDS werkt niet meer voor gewone fasen');
+});
+
+await t('T7: stealth scoort boven alles wat via een register binnenkomt', async () => {
+  const { scoreChain } = await import('../src/score.js');
+  const stealth = scoreChain({ kind: 'stealth', stealthKind: 'hostname', source: 'ct-hostnames', chainId: 4663 });
+  const aanvraag = scoreChain({ kind: 'proposal', source: 'ethlists-pr' });
+  assert.ok(stealth.score > aanvraag.score, `${stealth.score} moet boven ${aanvraag.score} liggen`);
+  assert.ok(stealth.reasons.some((r) => /nergens aangekondigd/.test(r)));
+});
+
+
+await t('T8: blokstand wordt grof bewaard zodat blocks.json niet elke run verandert', async () => {
+  const { checkpoint } = await import('../src/sources/rollup-factory.js');
+  // Binnen dezelfde duizend blokken blijft de bewaarde stand gelijk.
+  assert.equal(checkpoint(21500123, 1000), 21500000);
+  assert.equal(checkpoint(21500999, 1000), 21500000);
+  assert.equal(checkpoint(21501000, 1000), 21501000, 'grens passeren moet de stand wel opschuiven');
+  assert.equal(checkpoint(123, 20000), 0);
+  assert.equal(checkpoint(NaN, 1000), 0);
+  assert.equal(checkpoint(5000, 0), 0, 'grofheid nul mag niet tot een deling door nul leiden');
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);
