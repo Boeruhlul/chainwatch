@@ -689,6 +689,76 @@ await t('P9: chain ID dat afwijkt van de aanvraag wordt gemeld, niet verzwegen',
   assert.match(text, /3 dagen na detectie/);
 });
 
+
+// ---------------------------------------------------------------------------
+// Commit-ruis en stilstanddetectie.
+// ---------------------------------------------------------------------------
+
+const { hourIso } = await import('../src/util.js');
+
+await t('H1: uurstempel rondt naar beneden af en is stabiel binnen het uur', async () => {
+  assert.equal(hourIso(new Date('2026-09-22T08:59:59.999Z')), '2026-09-22T08:00:00.000Z');
+  assert.equal(hourIso(new Date('2026-09-22T08:00:00.000Z')), '2026-09-22T08:00:00.000Z');
+  assert.notEqual(hourIso(new Date('2026-09-22T09:00:00.000Z')), hourIso(new Date('2026-09-22T08:00:00.000Z')));
+});
+
+await t('H2: pollen van de wachtlijst verandert pending.json niet elke run', async () => {
+  await reset();
+  const node = await rpcServer({ alive: false, flavor: 'evm', chainId: 4242, block: 1 });
+  const tg = await tgServer();
+  const probeOn = { PROBE_ENABLED: 'true' };
+
+  await watchTg([chain(1, 'Ethereum')], tg, probeOn);
+  const fixture = [chain(1, 'Ethereum'), { chainId: 4242, name: 'Wachtchain', status: 'incubating', rpc: [node.url] }];
+  await watchTg(fixture, tg, probeOn);   // zet hem op de wachtlijst
+  await watchTg(fixture, tg, probeOn);   // eerste poll: zet lastCheckedAt
+  const a = await fs.readFile(`${TMP}/data/pending.json`, 'utf8');
+
+  // Vanaf hier is er niets meer veranderd: de chain leeft nog niet. Twee
+  // verdere runs binnen hetzelfde uur moeten het bestand byte-identiek laten.
+  // Anders commit de workflow zichzelf suf — bij een poll elke 5 minuten zou
+  // dat ~288 commits per dag zijn zonder dat er iets gebeurd is.
+  await watchTg(fixture, tg, probeOn);
+  await watchTg(fixture, tg, probeOn);
+  node.close();
+  tg.close();
+  const b = await fs.readFile(`${TMP}/data/pending.json`, 'utf8');
+  assert.equal(a, b, 'pending.json verandert bij elke run -> commit-ruis');
+  assert.match(a, /"lastCheckedAt":"[^"]+T\d\d:00:00\.000Z"/, 'lastCheckedAt niet op het uur afgerond');
+  assert.doesNotMatch(b, /"checks"/, 'teller die elke run oploopt hoort niet in de state');
+});
+
+await t('H3: hartslag wordt vastgelegd en blijft binnen het uur ongewijzigd', async () => {
+  const beat = JSON.parse(await fs.readFile(`${TMP}/data/heartbeat.json`, 'utf8'));
+  assert.equal(beat.lastRunAt, hourIso(), 'hartslag staat niet op het huidige uur');
+});
+
+await t('H4: een gat in de dekking levert een waarschuwing op', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg);
+
+  // Doe alsof de vorige run ruim zes uur geleden was.
+  const zesUurGeleden = new Date(Date.now() - 6 * 3600 * 1000);
+  await fs.writeFile(`${TMP}/data/heartbeat.json`, JSON.stringify({ lastRunAt: hourIso(zesUurGeleden) }));
+
+  await watchTg([chain(1, 'Ethereum')], tg, { STALE_ALERT_HOURS: '3' });
+  tg.close();
+  const waarschuwing = tg.sent.find((m) => /stilgestaan/.test(m.text));
+  assert.ok(waarschuwing, 'geen waarschuwing bij een gat van zes uur');
+  assert.match(waarschuwing.text, /uur stilgestaan/);
+  assert.match(waarschuwing.text, /workflow_dispatch/);
+});
+
+await t('H5: een normale cadans waarschuwt niet', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg);
+  await watchTg([chain(1, 'Ethereum')], tg, { STALE_ALERT_HOURS: '3' });
+  tg.close();
+  assert.ok(!tg.sent.some((m) => /stilgestaan/.test(m.text)), 'vals alarm bij een normale run');
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);

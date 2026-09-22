@@ -73,6 +73,7 @@ Onder **Settings → Secrets and variables → Actions → Variables**:
 | `PROBE_LIMIT` | `40` | Max. wachtlijst-items dat per run gepollt wordt |
 | `PROBE_BUDGET_SECONDS` | `60` | Harde tijdslimiet voor al het pollen samen |
 | `PROBE_TTL_DAYS` | `120` | Daarna valt een item van de wachtlijst, zonder bericht |
+| `STALE_ALERT_HOURS` | `3` | Waarschuw als de vorige run langer dan dit geleden was |
 
 ## Lokaal draaien
 
@@ -83,6 +84,33 @@ node --env-file=.env src/index.js               # daarna
 node --env-file=.env src/index.js --dry-run     # tonen zonder versturen of opslaan
 node test/run.js                                # 23 tests, geen netwerk nodig
 ```
+
+## Echt elke 5 minuten draaien
+
+`watch.yml` staat op `*/5`, maar **GitHub voert dat niet uit.** Gemeten op deze
+repo in september 2026: de workflow draaide in de praktijk elke 3 tot 5 uur —
+40 runs in een week waar er ~2.000 hadden moeten staan. Dat is bekend gedrag.
+GitHub knijpt `schedule`-triggers af op repo's met weinig activiteit en slaat
+ze soms helemaal over.
+
+Daarmee is de cron de traagste schakel in de hele keten: het heeft weinig zin
+om bronnen te gebruiken die dagen eerder zijn als er aan het eind vier uur
+wachttijd bij komt.
+
+`workflow_dispatch` heeft die beperking niet. In [`tools/pinger`](tools/pinger)
+staat een Cloudflare Worker van tien regels die dat elke 5 minuten aanroept,
+met de opzetstappen en het token dat je ervoor nodig hebt. Elke cron-dienst die
+een POST kan doen werkt ook; dat staat er ook bij. De `concurrency`-groep in de
+workflow zorgt dat een trigger tijdens een lopende run gewoon wacht in plaats
+van een dubbele run op te leveren.
+
+De `schedule`-trigger blijft staan als vangnet voor als de pinger zelf uitvalt.
+
+**Je merkt het nu ook als het misgaat.** Elke run legt in `data/heartbeat.json`
+vast wanneer hij draaide, afgerond op het uur. Zat er meer dan
+`STALE_ALERT_HOURS` tussen twee runs, dan krijg je daar een Telegram-bericht
+over. Zonder die check ziet stilstand eruit als "er waren geen nieuwe chains",
+en dat is precies het soort storing dat je maanden niet opmerkt.
 
 ## Hoe snel is het echt
 
@@ -161,6 +189,8 @@ data/
   chains.json     laatste 800 detecties met volledige details
   health.json     status per bron + stilteperiode voor foutmeldingen
   pending.json    pre-launch chains waarvan de RPC nog gepollt wordt
+  heartbeat.json  wanneer de watcher voor het laatst draaide (op het uur af)
+tools/pinger/     Cloudflare Worker die de workflow echt elke 5 minuten start
 ```
 
 ## Een bron toevoegen
