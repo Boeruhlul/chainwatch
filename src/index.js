@@ -72,6 +72,12 @@ async function main() {
   // chain bij de hervatting als "al bekend via andere bron" en verdwijnt hij stil.
   const newNames = new Map();
 
+  // Momentopname vóór de detectie: alleen hiermee kun je zien of een project
+  // al in een EERDERE fase bekend was. Zou je state.names zelf gebruiken, dan
+  // telt een chain die deze run zowel als testnet als als mainnet binnenkomt
+  // ten onrechte als promotie.
+  const namesAtStart = new Set(state.names);
+
   for (const [i, res] of results.entries()) {
     const src = sources[i];
     const prevHealth = state.health[src.id] || {};
@@ -130,7 +136,7 @@ async function main() {
         newNames.get(r.nameKey).add(r.key);
       }
       state.names.add(r.nameKey);
-      entry.detected.push({ ...r, crossListing, detectedAt: nowIso() });
+      entry.detected.push({ ...r, crossListing, ...promotionOf(r, namesAtStart), detectedAt: nowIso() });
     }
     perSource.push(entry);
   }
@@ -300,6 +306,22 @@ async function main() {
     console.error(`[chainwatch] ${errors.length} verzendfout(en); wordt volgende run hervat`);
   }
   console.log(`[chainwatch] klaar — ${sent} bericht(en) verstuurd`);
+}
+
+/**
+ * Kenden we dit project al in een eerdere levensfase?
+ *
+ * Een chain die je al als testnet of als aankondiging zag en nu mainnet gaat,
+ * is iets heel anders dan een wildvreemde nieuwe chain: het is een project met
+ * een geschiedenis dat nu echt begint. Dat verdient een eigen vermelding in
+ * het bericht en een hogere prioriteit.
+ */
+function promotionOf(r, namesAtStart) {
+  if (r.kind !== 'mainnet') return {};
+  const slug = String(r.nameKey).split(':')[0];
+  if (namesAtStart.has(`${slug}:test`)) return { promotedFrom: 'testnet', wasTrackedAs: 'testnet' };
+  if (namesAtStart.has(`${slug}:pre`)) return { promotedFrom: 'pre-launch', wasTrackedAs: 'aangekondigd project' };
+  return {};
 }
 
 /** Sorteervolgorde in de alertstroom: mainnets eerst, ruis achteraan. */
