@@ -981,6 +981,110 @@ await t('T11: bericht toont de sequencer-inbox en wie het uitgerold heeft', asyn
   assert.match(text, /0xdead000000000000000000000000000000000001/);
 });
 
+
+// ---------------------------------------------------------------------------
+// Sequencer-inbox volgen tot de eerste batch.
+// ---------------------------------------------------------------------------
+
+const { toInboxEntry, restoreInbox, watchInboxes } = await import('../src/inbox.js');
+
+/** Doet een eth_call naar batchCount() af met een vaste uitkomst per inbox. */
+function fakeChain(counts) {
+  const server = http.createServer((req, res) => {
+    let body = '';
+    req.on('data', (c) => (body += c));
+    req.on('end', () => {
+      let to = '';
+      try { to = JSON.parse(body).params[0].to; } catch { /* leeg */ }
+      const n = counts[to];
+      res.writeHead(200, { 'content-type': 'application/json' });
+      if (n === undefined) return res.end(JSON.stringify({ jsonrpc: '2.0', id: 1, error: { message: 'geen contract' } }));
+      res.end(JSON.stringify({ jsonrpc: '2.0', id: 1, result: '0x' + n.toString(16) }));
+    });
+  });
+  return new Promise((resolve) => {
+    server.listen(0, '127.0.0.1', () =>
+      resolve({ url: `http://127.0.0.1:${server.address().port}`, close: () => server.close() })
+    );
+  });
+}
+
+await t('I1: alleen een fabrieksvondst met sequencer-inbox komt op de volglijst', async () => {
+  assert.equal(toInboxEntry({ key: 'a', name: 'X' }, 0), null, 'zonder inbox valt er niets te volgen');
+  assert.equal(toInboxEntry({ key: 'a', name: 'X', sequencerInbox: '0x1' }, 0), null, 'zonder keten ook niet');
+  const e = toInboxEntry(
+    { key: 'factory:x', name: 'Nieuwe rollup', sequencerInbox: '0x6666', evmChain: 'ethereum',
+      contract: '0xabc', chainId: 4663, deployer: '0xdead', url: 'https://etherscan.io/address/0xabc' },
+    0
+  );
+  assert.equal(e.sequencerInbox, '0x6666');
+  assert.equal(e.chain, 'ethereum');
+  assert.equal(e.baseline, 0);
+  assert.ok(e.addedAt);
+});
+
+await t('I2: de teller moet boven de beginstand uitkomen, niet boven nul', async () => {
+  // Sommige inboxen staan bij de uitrol al op 1. Zou "groter dan nul" gelden,
+  // dan was dat meteen vals alarm voor een chain die nog niets gedaan heeft.
+  const inbox = '0x0000000000000000000000000000000000000111';
+  const chainSrv = await fakeChain({ [inbox]: 1 });
+  process.env.EVM_RPC_ETHEREUM = chainSrv.url;
+
+  const stil = [{ key: 'k1', chain: 'ethereum', sequencerInbox: inbox, baseline: 1, addedAt: new Date().toISOString() }];
+  const r1 = await watchInboxes(stil, { budgetMs: 5000 });
+  assert.equal(r1.produced.length, 0, 'gelijk aan de beginstand is geen productie');
+  assert.equal(r1.keep.length, 1);
+
+  const gestart = [{ key: 'k2', chain: 'ethereum', sequencerInbox: inbox, baseline: 0, addedAt: new Date().toISOString() }];
+  const r2 = await watchInboxes(gestart, { budgetMs: 5000 });
+  chainSrv.close();
+  delete process.env.EVM_RPC_ETHEREUM;
+  assert.equal(r2.produced.length, 1, 'boven de beginstand hoort een melding te geven');
+  assert.equal(r2.produced[0].batches, 1);
+  assert.equal(r2.produced[0].kind, 'launched');
+  assert.equal(r2.produced[0].liveVia, 'batch');
+  assert.equal(r2.keep.length, 0);
+});
+
+await t('I3: een onbereikbare keten laat de inbox op de lijst staan', async () => {
+  process.env.EVM_RPC_ETHEREUM = 'http://127.0.0.1:1';
+  const entries = [{ key: 'k3', chain: 'ethereum', sequencerInbox: '0xdead', baseline: 0, addedAt: new Date().toISOString() }];
+  const r = await watchInboxes(entries, { budgetMs: 4000 });
+  delete process.env.EVM_RPC_ETHEREUM;
+  assert.equal(r.produced.length, 0);
+  assert.equal(r.keep.length, 1, 'bij een storing mag een rollup niet van de lijst vallen');
+});
+
+await t('I4: verlopen items vallen stil af, en een melding is terug te draaien', async () => {
+  const oud = [{ key: 'k4', chain: 'ethereum', sequencerInbox: '0x1', baseline: 0, addedAt: '2020-01-01T00:00:00.000Z' }];
+  const r = await watchInboxes(oud, { ttlDays: 30, budgetMs: 3000 });
+  assert.equal(r.keep.length, 0);
+  assert.equal(r.produced.length, 0);
+
+  const melding = { key: 'batch:k5', pendingKey: 'k5', kind: 'launched', liveVia: 'batch', batches: 3,
+                    waitedDays: 2, detectedAt: 'nu', score: 92, reasons: [], chain: 'ethereum',
+                    sequencerInbox: '0x9', baseline: 0, addedAt: '2026-09-20T00:00:00.000Z' };
+  const terug = restoreInbox(melding);
+  assert.equal(terug.key, 'k5');
+  assert.ok(!('batches' in terug) && !('score' in terug), 'meldingsvelden lekken terug de volglijst in');
+});
+
+await t('I5: het bericht benoemt de eerste batch als iets anders dan een RPC-launch', async () => {
+  const { formatChain } = await import('../src/notify.js');
+  const text = formatChain({
+    kind: 'launched', liveVia: 'batch', name: 'Nieuwe rollup (chain ID 4663)', chainId: 4663,
+    source: 'rollup-factory', url: 'https://etherscan.io/address/0xabc', batches: 1, waitedDays: 6,
+    sequencerInbox: '0x6666666666666666666666666666666666666666',
+    deployer: '0xdead000000000000000000000000000000000001',
+    score: 92, reasons: ['eerste batch op de moederketen'],
+  });
+  assert.match(text, /ROLLUP PRODUCEERT/);
+  assert.doesNotMatch(text, /RPC ANTWOORDT/, 'dit is een ander signaal dan de RPC-poller');
+  assert.match(text, /1 batch/);
+  assert.match(text, /6 dagen na de uitrol/);
+  assert.match(text, /Sequencer-inbox/);
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);
