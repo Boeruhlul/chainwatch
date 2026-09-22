@@ -179,6 +179,19 @@ Launch-alerts gaan buiten `WATCH_KINDS` om en staan bovenaan de berichtenstroom.
 
 **Eenmalig na het aanzetten:** `npm run backfill` (of de workflow met `backfill: true`) zet de al bekende openstaande pre-launch chains alsnog op de wachtlijst. Zonder die stap worden alleen nieuwe detecties gevolgd en missen de chains waarvan je de aanvraag al gezien hebt hun launch.
 
+## Promotie: testnet wordt mainnet
+
+Het moment dat een project dat je al kende naar mainnet gaat, is iets anders
+dan een wildvreemde chain die opduikt. De dedupe-buckets (`pre` / `test` /
+`main`) zorgden er al voor dat zo'n overgang een eigen alert krijgt in plaats
+van als duplicaat te worden weggefilterd. Nu wordt hij ook als zodanig
+benoemd: het bericht zegt *"kenden we al als testnet — gaat nu mainnet"* en de
+prioriteit gaat met 22 punten omhoog.
+
+De vergelijking gebeurt tegen een momentopname van vóór de run. Komt een chain
+in dezelfde run zowel als testnet als als mainnet binnen, dan is er geen
+geschiedenis om naar terug te wijzen en is het dus geen promotie.
+
 ## Prioriteit
 
 Elke detectie krijgt een score van 0 tot 100 (`src/score.js`) die het bericht labelt met 🔥, ⭐ of ℹ️. Er wordt niets weggefilterd — de score bepaalt alleen de volgorde en het label, en gaat in het bericht mee met de reden erbij.
