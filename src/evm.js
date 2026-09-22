@@ -85,4 +85,21 @@ export function topicToAddress(topic) {
   return `0x${topic.slice(-40)}`.toLowerCase();
 }
 
+/**
+ * Splitst het data-veld van een logbericht in 32-byte woorden en leest die als
+ * adressen. Defensief: oudere versies van een contract hebben minder velden,
+ * en dan willen we de velden die er wél zijn, niet een uitzondering.
+ */
+export function addressWords(data) {
+  const hex = String(data || '').replace(/^0x/, '');
+  const out = [];
+  for (let i = 0; i + 64 <= hex.length; i += 64) {
+    const word = hex.slice(i, i + 64);
+    // Een adres staat rechts uitgelijnd; de eerste 24 tekens horen nul te zijn.
+    if (!/^0{24}/.test(word)) { out.push(null); continue; }
+    out.push(`0x${word.slice(24)}`.toLowerCase());
+  }
+  return out;
+}
+
 export const _test = { DEFAULT_ENDPOINTS };

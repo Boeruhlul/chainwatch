@@ -937,6 +937,50 @@ await t('T8: blokstand wordt grof bewaard zodat blocks.json niet elke run verand
   assert.equal(checkpoint(5000, 0), 0, 'grofheid nul mag niet tot een deling door nul leiden');
 });
 
+
+await t('T9: fabrieksgebeurtenis levert de sequencer-inbox en de overige contracten', async () => {
+  const { addressWords } = await import('../src/evm.js');
+  const addrs = [
+    '0x1111111111111111111111111111111111111111', // inbox
+    '0x2222222222222222222222222222222222222222', // outbox
+    '0x3333333333333333333333333333333333333333', // rollupEventInbox
+    '0x4444444444444444444444444444444444444444', // challengeManager
+    '0x5555555555555555555555555555555555555555', // adminProxy
+    '0x6666666666666666666666666666666666666666', // sequencerInbox
+    '0x7777777777777777777777777777777777777777', // bridge
+  ];
+  const data = '0x' + addrs.map((a) => '0'.repeat(24) + a.slice(2)).join('');
+  const words = addressWords(data);
+  assert.equal(words.length, 7, 'oudere fabrieksversies hebben minder velden en dat mag');
+  assert.equal(words[5], '0x6666666666666666666666666666666666666666', 'sequencer-inbox staat op plek 6');
+  assert.equal(words[0], '0x1111111111111111111111111111111111111111');
+});
+
+await t('T10: rommel in het data-veld levert geen adressen maar ook geen uitzondering', async () => {
+  const { addressWords } = await import('../src/evm.js');
+  assert.deepEqual(addressWords(''), []);
+  assert.deepEqual(addressWords(null), []);
+  assert.deepEqual(addressWords('0x1234'), [], 'een half woord telt niet mee');
+  // Een woord dat geen adres is (linkerhelft niet nul) wordt null, niet onzin.
+  assert.deepEqual(addressWords('0x' + 'f'.repeat(64)), [null]);
+});
+
+await t('T11: bericht toont de sequencer-inbox en wie het uitgerold heeft', async () => {
+  const { formatChain } = await import('../src/notify.js');
+  const text = formatChain({
+    kind: 'stealth', stealthKind: 'factory', source: 'rollup-factory',
+    name: 'Nieuwe rollup (chain ID 4663)', chainId: 4663, url: 'https://etherscan.io/address/0xabc',
+    contract: '0xabc0000000000000000000000000000000000001',
+    sequencerInbox: '0x6666666666666666666666666666666666666666',
+    deployer: '0xdead000000000000000000000000000000000001',
+    score: 70, reasons: [],
+  });
+  assert.match(text, /Sequencer-inbox/);
+  assert.match(text, /0x6666666666666666666666666666666666666666/);
+  assert.match(text, /Uitgerold door/);
+  assert.match(text, /0xdead000000000000000000000000000000000001/);
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);

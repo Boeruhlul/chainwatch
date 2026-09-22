@@ -57,7 +57,11 @@ export function formatChain(c) {
     if (typeof c.block === 'number') bits.push(`blok ${c.block.toLocaleString('nl-NL')}`);
     if (typeof c.batchCount === 'number') bits.push(`${c.batchCount} batches in het venster`);
     if (bits.length) lines.push(`⏱ ${esc(bits.join(' · '))}`);
-    if (c.contract) lines.push(`📄 Contract: <code>${esc(c.contract)}</code>`);
+    if (c.contract) lines.push(`📄 Rollup: <code>${esc(c.contract)}</code>`);
+    // De sequencer-inbox is de sleutel: daarmee lees je de hele chain vanaf de
+    // moederketen uit, zonder de RPC van het team.
+    if (c.sequencerInbox) lines.push(`📥 Sequencer-inbox: <code>${esc(c.sequencerInbox)}</code>`);
+    if (c.deployer) lines.push(`👤 Uitgerold door: <code>${esc(c.deployer)}</code>`);
     if (c.deployTx) lines.push(`🧾 Transactie: ${esc(clamp(c.deployTx, 200))}`);
     if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
   }

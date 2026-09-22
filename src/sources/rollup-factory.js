@@ -1,4 +1,4 @@
-import { evmCall, hexToNum, numToHex, topicToAddress } from '../evm.js';
+import { evmCall, hexToNum, numToHex, topicToAddress, addressWords } from '../evm.js';
 import { loadBlocks, saveBlocks } from '../store.js';
 import { nameKey } from '../util.js';
 
@@ -61,6 +61,41 @@ export function checkpoint(block, grain) {
   return Math.max(0, Math.floor(block / grain) * grain);
 }
 
+/**
+ * De niet-geindexeerde velden van RollupCreated, op volgorde:
+ *   inbox, outbox, rollupEventInbox, challengeManager, adminProxy,
+ *   sequencerInbox, bridge, upgradeExecutor, validatorWalletCreator
+ *
+ * De sequencerInbox is de belangrijkste: daarin staat elke batch die de chain
+ * ooit naar zijn moederketen heeft geschreven. Wie die heeft kan de chain
+ * volledig uitlezen — en zelfs een eigen node draaien — zonder ooit de RPC van
+ * het team nodig te hebben. Dat is precies het gat dat een aankondiging moet
+ * dichten, en dat hier al openligt.
+ */
+const EVENT_FIELDS = [
+  'inbox', 'outbox', 'rollupEventInbox', 'challengeManager', 'adminProxy',
+  'sequencerInbox', 'bridge', 'upgradeExecutor', 'validatorWalletCreator',
+];
+
+function contractsFrom(log) {
+  const words = addressWords(log?.data);
+  const out = {};
+  for (const [i, name] of EVENT_FIELDS.entries()) {
+    if (words[i]) out[name] = words[i];
+  }
+  return out;
+}
+
+/** Wie heeft dit uitgerold? Vaak het enige spoor naar wie erachter zit. */
+async function deployerOf(chain, txHash) {
+  try {
+    const tx = await evmCall(chain, 'eth_getTransactionByHash', [txHash]);
+    return typeof tx?.from === 'string' ? tx.from.toLowerCase() : null;
+  } catch {
+    return null;
+  }
+}
+
 /** chainId() op het rollup-contract; best-effort, want niet elke versie heeft het. */
 async function chainIdOf(chain, rollupAddress) {
   try {
@@ -113,6 +148,8 @@ export default {
           const rollup = topicToAddress(log.topics?.[1]);
           if (!rollup) continue;
           const chainId = await chainIdOf(f.chain, rollup);
+          const contracts = contractsFrom(log);
+          const deployer = await deployerOf(f.chain, log.transactionHash);
           const name = chainId ? `Nieuwe rollup (chain ID ${chainId})` : `Nieuwe rollup ${rollup.slice(0, 10)}…`;
           out.push({
             key: `factory:${f.key}:${log.transactionHash}:${log.logIndex}`,
@@ -128,6 +165,10 @@ export default {
             faucets: [],
             parentLabel: f.label,
             contract: rollup,
+            contracts,
+            sequencerInbox: contracts.sequencerInbox || null,
+            deployer,
+            deployerUrl: deployer ? `${f.explorer}/address/${deployer}` : null,
             deployTx: `${f.explorer}/tx/${log.transactionHash}`,
             url: `${f.explorer}/address/${rollup}`,
             block: hexToNum(log.blockNumber),

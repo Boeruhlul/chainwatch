@@ -187,6 +187,18 @@ ID op bij het nieuwe rollup-contract. Er wordt bewust niet op de handtekening
 van de gebeurtenis gefilterd: die verschilt per versie van de fabriek, en een
 verkeerde hash zou stil nul resultaten geven.
 
+Uit hetzelfde logbericht komen alle contractadressen van de nieuwe chain, en de
+belangrijkste daarvan is de **sequencer-inbox**. Daarin staat elke batch die de
+chain ooit naar zijn moederketen heeft geschreven. Wie dat adres heeft kan de
+chain volledig uitlezen — en er desgewenst een eigen node op draaien — zonder
+ooit de RPC van het team nodig te hebben. Een chain kan zijn RPC geheimhouden;
+zijn sequencer-inbox niet, want zonder die inbox is hij geen rollup.
+
+Het adres dat de uitrol betaalde staat er ook bij. Dat is vaak het enige spoor
+naar wie erachter zit: de financieringsgeschiedenis van zo'n adres leidt
+geregeld terug naar een herkenbare partij, lang voordat er een naam op de chain
+zit.
+
 **`blob-submitters`** — een rollup die écht draait moet zijn data naar Ethereum
 schrijven. Blobscan plakt een naam op de adressen die dat doen zodra bekend is
 van wie ze zijn. Een adres dat regelmatig blobs post en nog naamloos is, is een
