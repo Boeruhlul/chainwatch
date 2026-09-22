@@ -187,10 +187,18 @@ export async function notify(groups, { token, chatId, dryRun }) {
   return { delivered, failed, errors, sent };
 }
 
-export async function notifyError(text, { token, chatId, dryRun }) {
-  if (dryRun || !token || !chatId) return console.warn(`[notify:error] ${text}`);
+/**
+ * Storingsmeldingen: bronfouten, dekkingsgaten, crashes.
+ *
+ * Gaan naar TELEGRAM_ADMIN_CHAT_ID als die gezet is, anders naar het gewone
+ * kanaal. Dat onderscheid is er voor als de alerts naar een publiek kanaal
+ * gaan: "bron coingecko faalt" is iets voor de beheerder, niet voor de lezers.
+ */
+export async function notifyError(text, { token, chatId, adminChatId, dryRun }) {
+  const target = adminChatId || chatId;
+  if (dryRun || !token || !target) return console.warn(`[notify:error] ${text}`);
   try {
-    await tgSend(token, chatId, clamp(`⚠️ <b>chainwatch</b>\n${esc(text)}`, SAFE_LEN));
+    await tgSend(token, target, clamp(`⚠️ <b>chainwatch</b>\n${esc(text)}`, SAFE_LEN));
   } catch (e) {
     console.error(`[notify:error] kon fout niet melden: ${e.message}`);
   }
