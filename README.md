@@ -69,6 +69,10 @@ Onder **Settings → Secrets and variables → Actions → Variables**:
 | `ENRICH_SOCIALS` | `true` | `false` zet het opzoeken van socials en domeinleeftijd uit |
 | `ENRICH_LIMIT` | `12` | Aantal chains per run dat verrijkt wordt, hoogste prioriteit eerst |
 | `ENRICH_BUDGET_SECONDS` | `150` | Harde tijdslimiet voor alle verrijking samen |
+| `PROBE_ENABLED` | `true` | `false` zet de wachtlijst en het RPC-pollen uit |
+| `PROBE_LIMIT` | `40` | Max. wachtlijst-items dat per run gepollt wordt |
+| `PROBE_BUDGET_SECONDS` | `60` | Harde tijdslimiet voor al het pollen samen |
+| `PROBE_TTL_DAYS` | `120` | Daarna valt een item van de wachtlijst, zonder bericht |
 
 ## Lokaal draaien
 
@@ -98,9 +102,9 @@ Elke bron levert genormaliseerde records met een stabiele `key`. Per bron staat 
 
 De hele opzet is gebouwd rond één vraag: *wanneer zou dit een chain kunnen missen?* Een gemiste launch weegt veel zwaarder dan een alert te veel, dus elke twijfelachtige stap kiest de kant van "toch melden".
 
-- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níét dubbel. Daarom commit de workflow de state ook met `if: always()`.
+- **Een alert die niet aankwam telt niet als gezien.** Faalt Telegram halverwege, dan blijven precies die chains buiten de state en worden ze de volgende run opnieuw geprobeerd. De al verstuurde alerts komen níet dubbel. Daarom commit de workflow de state ook met `if: always()`.
 - **Een kapotte bron raakt de state niet aan.** Mislukt een fetch, dan wordt die `seen`-set niet bijgewerkt. `seen` is append-only: er verdwijnt nooit iets uit.
-- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níét als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
+- **Corrupte state faalt hard.** Een half geschreven `seen`-bestand wordt níet als "nog nooit gedraaid" opgevat — dat zou stilletjes alle openstaande detecties als gezien wegschrijven. Je krijgt een Telegram-waarschuwing en de run stopt.
 - **Pre-launch en live zijn aparte gebeurtenissen.** Een project dat je via L2BEAT of een chain-ID-aanvraag al zag, alerteert opnieuw zodra het echt live gaat. Dat is meestal het moment waar het je om gaat.
 - **Anomalie-rem, per bron.** Levert één bron ineens meer dan 2× `MAX_ALERTS_PER_RUN` nieuwe keys, dan is waarschijnlijk het formaat veranderd; je krijgt één samenvatting voor díé bron. Andere bronnen blijven gewoon losse, volledige alerts sturen.
 - **Cross-bron dedupe.** Een chain die binnen dezelfde levensfase al via een andere bron bekend is krijgt `crossListing: true` en wordt standaard onderdrukt — anders alert je zes keer over dezelfde chain.
@@ -120,6 +124,18 @@ Een chain-ID-aanvraag geeft je een naam, een ID en een RPC — te weinig om iets
 
 Alles is best-effort en zit achter een harde tijdslimiet: verrijking mag nooit een detectie tegenhouden of de run van twaalf minuten opeten. Een chain zonder vindbare socials is nog steeds een alert.
 
+## Launch-detectie
+
+Een registratie vertelt je dat een chain gáát komen. Dit vertelt je wanneer hij er ís.
+
+Elke `proposal`- en `upcoming`-detectie komt mét een RPC-URL uit de chain-definitie. Die URL gaat op een wachtlijst (`data/pending.json`) en wordt elke run gepollt met twee goedkope calls: `eth_chainId` en `eth_blockNumber`. Zolang er niets draait, antwoordt hij niet. Zodra hij wél antwoordt is genesis geweest — en dat is meestal uren tot dagen voordat een register de chain als "live" kent. Cosmos-nodes worden herkend aan `/status` (Tendermint), dus de truc werkt ook buiten EVM.
+
+Een RPC die antwoordt is per definitie geen ruis: daar draait iets. De alert bevat de blokhoogte (blok 3 betekent: dit is net gebeurd) en hoeveel dagen er tussen detectie en launch zaten. Meldt de RPC een ánder chain ID dan er is aangevraagd, dan staat dat er expliciet bij in plaats van dat het stilletjes wordt rechtgetrokken.
+
+Launch-alerts gaan buiten `WATCH_KINDS` om en staan bovenaan de berichtenstroom. Komt zo'n alert niet aan, dan blijft de chain op de wachtlijst staan en probeert de volgende run het opnieuw — dezelfde regel als bij gewone detecties. Chains die intussen al door een andere bron als live gemeld zijn, vallen van de lijst zonder tweede bericht. Na `PROBE_TTL_DAYS` dagen zonder levensteken valt een item er stilletjes af.
+
+**Eenmalig na het aanzetten:** `npm run backfill` (of de workflow met `backfill: true`) zet de al bekende openstaande pre-launch chains alsnog op de wachtlijst. Zonder die stap worden alleen nieuwe detecties gevolgd en missen de chains waarvan je de aanvraag al gezien hebt hun launch.
+
 ## Prioriteit
 
 Elke detectie krijgt een score van 0 tot 100 (`src/score.js`) die het bericht labelt met 🔥, ⭐ of ℹ️. Er wordt niets weggefilterd — de score bepaalt alleen de volgorde en het label, en gaat in het bericht mee met de reden erbij.
@@ -137,11 +153,14 @@ src/
   dashboard.js    genereert docs/index.html
   enrich.js       socials, domeinleeftijd (RDAP), GitHub-org — best-effort
   score.js        prioriteit 0-100 per detectie
+  probe.js        RPC-polling op de wachtlijst: detecteert het launchmoment
+  backfill.js     eenmalig: al bekende pre-launch chains op de wachtlijst
 data/
   seen/*.json     gezien-keys per bron (git-vriendelijke gesorteerde arrays)
   names.json      cross-bron dedupe-sleutels
   chains.json     laatste 800 detecties met volledige details
   health.json     status per bron + stilteperiode voor foutmeldingen
+  pending.json    pre-launch chains waarvan de RPC nog gepollt wordt
 ```
 
 ## Een bron toevoegen

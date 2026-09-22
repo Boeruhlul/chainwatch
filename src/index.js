@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 import { activeSources } from './sources/index.js';
-import { loadState, saveSeen, saveNames, saveChains, saveHealth } from './store.js';
+import { loadState, saveSeen, saveNames, saveChains, saveHealth, loadPending, savePending } from './store.js';
 import { notify, formatChain, summaryMessage, notifyError } from './notify.js';
 import { buildDashboard } from './dashboard.js';
 import { enrichChains } from './enrich.js';
 import { scoreChain } from './score.js';
+import { probePending, toPendingEntry, restorePending } from './probe.js';
 import { nowIso } from './util.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
 const FORCE_BOOTSTRAP = argv.has('--bootstrap');
+
+/** Deze fasen komen op de wachtlijst: er is een RPC, maar nog geen leven. */
+const PRELAUNCH_KINDS = new Set(['proposal', 'upcoming']);
 
 /** Hoe lang we zwijgen over een bron die al kapot is, zodat je niet 288x/dag gepingd wordt. */
 const ERROR_SILENCE_MS = 6 * 60 * 60 * 1000;
@@ -27,6 +31,11 @@ const cfg = {
   // Verrijking is best-effort en mag de run van 10 minuten nooit opeten.
   enrichLimit: Number(process.env.ENRICH_LIMIT || 12),
   enrichBudgetMs: Number(process.env.ENRICH_BUDGET_SECONDS || 150) * 1000,
+  // Launch-detectie: RPC's van pre-launch chains pollen tot ze antwoorden.
+  probe: process.env.PROBE_ENABLED !== 'false',
+  probeLimit: Number(process.env.PROBE_LIMIT || 40),
+  probeBudgetMs: Number(process.env.PROBE_BUDGET_SECONDS || 60) * 1000,
+  probeTtlDays: Number(process.env.PROBE_TTL_DAYS || 120),
 };
 
 async function main() {
@@ -161,7 +170,32 @@ async function main() {
     }
   }
 
-  console.log(`[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig`);
+  // ---- Launch-detectie op de wachtlijst --------------------------------------
+  // Elke pre-launch detectie levert een RPC-URL op. Die antwoordt pas na
+  // genesis, dus dit geeft het launchmoment op de minuut nauwkeurig — meestal
+  // ruim voordat een register de chain als 'live' kent.
+  const pendingBefore = await loadPending();
+  // Chains die een andere bron intussen al als live meldde hoeven we niet meer
+  // te pollen: dat bericht is dan al de deur uit.
+  const stillPending = pendingBefore.filter((e) => !e.liveNameKey || !state.names.has(e.liveNameKey));
+  let launched = [];
+  let keepPending = stillPending;
+
+  if (cfg.probe && stillPending.length) {
+    const res = await probePending(stillPending, {
+      limit: cfg.probeLimit,
+      budgetMs: cfg.probeBudgetMs,
+      ttlDays: cfg.probeTtlDays,
+    });
+    launched = res.launched;
+    keepPending = res.keep;
+  }
+
+  // Launch-alerts gaan bewust buiten WATCH_KINDS om en bovenaan: dit is het
+  // bericht waar de hele wachtlijst voor bestaat.
+  groups.unshift(...launched.map((l) => ({ text: formatChain(l), keys: [l.key] })));
+
+  console.log(`[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig, ${launched.length} live gegaan`);
 
   const { delivered, failed, errors, sent } = await notify(groups, { ...cfg, dryRun: DRY_RUN });
 
@@ -186,8 +220,22 @@ async function main() {
       }
     }
 
+    // Wachtlijst bijwerken. Een launch-alert die niet aankwam zet de chain
+    // terug op de lijst, zodat de volgende run het opnieuw probeert.
+    const newPending = [...keepPending];
+    for (const l of launched) {
+      if (failed.has(l.key)) newPending.push(restorePending(l));
+    }
+    for (const c of allDetected) {
+      if (!PRELAUNCH_KINDS.has(c.kind) || failed.has(c.key)) continue;
+      const entry = toPendingEntry(c);
+      if (entry) newPending.push(entry);
+    }
+    const saved = await savePending(newPending);
+    console.log(`[chainwatch] wachtlijst: ${saved.length} pre-launch chain(s)`);
+
     await saveNames(state.names);
-    const kept = allDetected.filter((c) => !failed.has(c.key));
+    const kept = [...launched, ...allDetected].filter((c) => !failed.has(c.key));
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });

@@ -39,9 +39,9 @@ export async function buildDashboard(chains, { health }) {
 <title>chainwatch</title>
 <style>
 :root{color-scheme:light dark;--bg:#fbfbfa;--fg:#1a1a18;--mut:#6b6b64;--line:#e4e4df;--card:#fff;
---main:#1a7f5a;--test:#8a5a00;--up:#2f5fa8;--dev:#6b4ea8;--prop:#8a8a80}
+--main:#1a7f5a;--test:#8a5a00;--up:#2f5fa8;--dev:#6b4ea8;--prop:#8a8a80;--live:#d4183d}
 @media(prefers-color-scheme:dark){:root{--bg:#141413;--fg:#f0efec;--mut:#9a9a92;--line:#2b2b28;--card:#1c1c1a;
---main:#4ec99a;--test:#e0a33a;--up:#7aa7e8;--dev:#b29ae8;--prop:#9a9a92}}
+--main:#4ec99a;--test:#e0a33a;--up:#7aa7e8;--dev:#b29ae8;--prop:#9a9a92;--live:#ff6b8a}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
 .wrap{max-width:1000px;margin:0 auto;padding:32px 16px 64px}
@@ -65,12 +65,13 @@ border-radius:10px;padding:12px 14px}
 .row[data-kind=upcoming]{border-left-color:var(--up)}
 .row[data-kind=devnet]{border-left-color:var(--dev)}
 .row[data-kind=proposal]{border-left-color:var(--prop)}
+.row[data-kind=launched]{border-left-color:var(--live)}
 .row h2{font-size:.9375rem;margin:0 0 3px;font-weight:600}
 .row h2 a{color:inherit;text-decoration:none}.row h2 a:hover{text-decoration:underline}
 .meta{color:var(--mut);font-size:.8125rem;display:flex;flex-wrap:wrap;gap:4px 10px}
 .k{font-size:.6875rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
 .k.mainnet{color:var(--main)}.k.testnet{color:var(--test)}.k.upcoming{color:var(--up)}
-.k.devnet{color:var(--dev)}.k.proposal{color:var(--prop)}
+.k.devnet{color:var(--dev)}.k.proposal{color:var(--prop)}.k.launched{color:var(--live)}
 code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8125em;
 background:color-mix(in srgb,var(--fg) 7%,transparent);padding:1px 5px;border-radius:4px}
 .pill{display:inline-block;font-size:.6875rem;padding:2px 8px;border-radius:999px;margin-right:4px;
@@ -91,13 +92,14 @@ footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 <h1>chainwatch</h1>
 <div class="sub">Laatste detectie: <span id="lastchange" data-ts="${esc(lastChange || '')}">—</span> · bronnen: ${sourceStatus}</div>
 <div class="stats">
-${['mainnet', 'testnet', 'upcoming', 'devnet', 'proposal']
+${['launched', 'mainnet', 'testnet', 'upcoming', 'devnet', 'proposal']
   .map((k) => `<div class="stat"><b>${counts[k] || 0}</b><span>${k}</span></div>`)
   .join('')}
 </div>
 <div class="filters">
 <button data-f="all" aria-pressed="true">Alles</button>
 <button data-f="hot" aria-pressed="false">🔥 Hoog</button>
+<button data-f="launched" aria-pressed="false">🚀 Live gegaan</button>
 <button data-f="mainnet" aria-pressed="false">Mainnet</button>
 <button data-f="testnet" aria-pressed="false">Testnet</button>
 <button data-f="upcoming" aria-pressed="false">Upcoming</button>
@@ -127,6 +129,8 @@ function render(){
     if (c.nativeCurrency) bits.push(escape(c.nativeCurrency));
     if (c.faucets && c.faucets.length) bits.push('<a href="' + escape(c.faucets[0]) + '">faucet</a>');
     if (c.domain && typeof c.domain.ageDays === 'number') bits.push('domein ' + c.domain.ageDays + 'd');
+    if (typeof c.block === 'number') bits.push('blok ' + c.block);
+    if (typeof c.waitedDays === 'number') bits.push(c.waitedDays + 'd na detectie');
     bits.push('bron: ' + escape(c.source));
     bits.push(fmt(c.detectedAt));
     const soc = c.socials || {};
