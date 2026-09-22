@@ -6,6 +6,7 @@ const SEEN_DIR = path.join(DATA, 'seen');
 const CHAINS_FILE = path.join(DATA, 'chains.json');
 const NAMES_FILE = path.join(DATA, 'names.json');
 const HEALTH_FILE = path.join(DATA, 'health.json');
+const PENDING_FILE = path.join(DATA, 'pending.json');
 
 const HISTORY_LIMIT = 800;
 
@@ -79,8 +80,25 @@ export async function saveChains(chains) {
   return trimmed;
 }
 
+/** Wachtlijst van pre-launch chains waarvan we de RPC pollen. */
+export async function loadPending() {
+  const arr = await readJson(PENDING_FILE, []);
+  if (!Array.isArray(arr)) throw new Error(`${PENDING_FILE} bevat geen array`);
+  return arr;
+}
+
+export async function savePending(entries) {
+  // Op key dedupliceren: een chain die via twee bronnen binnenkomt hoeft maar
+  // één keer gepollt te worden.
+  const byKey = new Map();
+  for (const e of entries) if (e?.key) byKey.set(e.key, e);
+  const sorted = [...byKey.values()].sort((a, b) => String(a.key).localeCompare(String(b.key)));
+  await writeJson(PENDING_FILE, sorted, true);
+  return sorted;
+}
+
 export async function saveHealth(health) {
   await writeJson(HEALTH_FILE, health);
 }
 
-export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE };
+export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE };

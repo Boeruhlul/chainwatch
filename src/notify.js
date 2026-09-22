@@ -13,6 +13,7 @@ const KIND_LABEL = {
   devnet: '🛠 NIEUWE DEVNET',
   upcoming: '🔭 NIEUW GETRACKT PROJECT',
   proposal: '📝 CHAIN ID AANGEVRAAGD (pre-launch)',
+  launched: '🚀 CHAIN IS LIVE — RPC ANTWOORDT',
 };
 
 export function formatChain(c) {
@@ -28,6 +29,19 @@ export function formatChain(c) {
   if (c.parent) facts.push(`L2 op: ${esc(c.parent)}`);
   if (typeof c.tvl === 'number' && c.tvl > 0) facts.push(`TVL: $${c.tvl.toLocaleString('nl-NL')}`);
   if (facts.length) lines.push(facts.join(' · '));
+
+  if (c.kind === 'launched') {
+    const bits = [];
+    if (typeof c.block === 'number') bits.push(`blok ${c.block.toLocaleString('nl-NL')}`);
+    if (typeof c.waitedDays === 'number') {
+      bits.push(c.waitedDays === 0 ? 'zelfde dag als de detectie' : `${c.waitedDays} dagen na detectie`);
+    }
+    if (bits.length) lines.push(`⏱ ${esc(bits.join(' · '))}`);
+    if (c.chainIdMismatch) {
+      lines.push(`⚠️ RPC meldt chain ID <code>${esc(c.chainId)}</code>, verwacht was <code>${esc(c.expectedChainId)}</code>`);
+    }
+    if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
+  }
 
   if (c.description) lines.push(`<i>${esc(clamp(c.description, 220))}</i>`);
   if (c.wasTrackedAs) lines.push(`♻️ Eerder gezien als <i>${esc(c.wasTrackedAs)}</i> — nu live`);

@@ -8,6 +8,7 @@
     "watch": "node src/index.js",
     "bootstrap": "node src/index.js --bootstrap",
     "dry": "node src/index.js --dry-run",
+    "backfill": "node src/backfill.js",
     "test": "node test/run.js"
   },
   "license": "MIT"
