@@ -5,7 +5,7 @@
   },
   "ct-hostnames": {
     "ok": false,
-    "error": "crt.sh onbereikbaar — rpc.mainnet.%: HTTP 502 voor https://crt.sh/?q=rpc.mainnet.%25&output=json; rpc.testnet.%: HTTP 502 voor https://crt.sh/?q=rpc.testnet.%25&output=json",
+    "error": "crt.sh onbereikbaar — rpc.mainnet.%: fetch failed; rpc.testnet.%: fetch failed",
     "failingSince": "2026-09-22T17:25:27.049Z",
     "lastNotifiedAt": "2026-09-22T17:25:27.049Z"
   },
