@@ -13,6 +13,10 @@ on:
         description: 'Vul de wachtlijst met al bekende pre-launch chains (eenmalig)'
         type: boolean
         default: false
+      selftest:
+        description: 'Stuur een testbericht via de echte alertweg'
+        type: boolean
+        default: false
  
 concurrency:
   group: chainwatch
@@ -35,6 +39,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WATCH_KINDS: ${{ vars.WATCH_KINDS || 'mainnet,testnet,devnet,upcoming,proposal' }}
           NOTIFY_CROSS_LISTING: ${{ vars.NOTIFY_CROSS_LISTING || 'false' }}
@@ -48,7 +53,9 @@ jobs:
           PROBE_BUDGET_SECONDS: ${{ vars.PROBE_BUDGET_SECONDS || '60' }}
           PROBE_TTL_DAYS: ${{ vars.PROBE_TTL_DAYS || '120' }}
         run: |
-          if [ "${{ inputs.backfill }}" = "true" ]; then
+          if [ "${{ inputs.selftest }}" = "true" ]; then
+            node src/selftest.js
+          elif [ "${{ inputs.backfill }}" = "true" ]; then
             node src/backfill.js
           elif [ "${{ inputs.bootstrap }}" = "true" ]; then
             node src/index.js --bootstrap
@@ -78,4 +85,5 @@ jobs:
           done
           echo "::error::state kon niet gepusht worden"
           exit 1
+ 
  
