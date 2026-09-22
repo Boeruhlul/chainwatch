@@ -27,7 +27,11 @@ const STEALTH_LABEL = {
 export function formatChain(c) {
   const badge = badgeFor(c.score ?? 0);
   const label =
-    (c.kind === 'stealth' && STEALTH_LABEL[c.stealthKind]) || KIND_LABEL[c.kind] || 'NIEUW';
+    (c.kind === 'stealth' && STEALTH_LABEL[c.stealthKind]) ||
+    (c.kind === 'launched' && c.liveVia === 'batch'
+      ? '🚀 ROLLUP PRODUCEERT — eerste batch op de moederketen'
+      : null) ||
+    KIND_LABEL[c.kind] || 'NIEUW';
   const lines = [`${badge.icon} <b>${label}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`];
 
   const facts = [];
@@ -41,14 +45,20 @@ export function formatChain(c) {
   if (c.kind === 'launched') {
     const bits = [];
     if (typeof c.block === 'number') bits.push(`blok ${c.block.toLocaleString('nl-NL')}`);
+    if (typeof c.batches === 'number') bits.push(`${c.batches} batch(es)`);
     if (typeof c.waitedDays === 'number') {
-      bits.push(c.waitedDays === 0 ? 'zelfde dag als de detectie' : `${c.waitedDays} dagen na detectie`);
+      const wat = c.liveVia === 'batch' ? 'na de uitrol' : 'na detectie';
+      bits.push(c.waitedDays === 0 ? `zelfde dag als de uitrol` : `${c.waitedDays} dagen ${wat}`);
     }
     if (bits.length) lines.push(`⏱ ${esc(bits.join(' · '))}`);
     if (c.chainIdMismatch) {
       lines.push(`⚠️ RPC meldt chain ID <code>${esc(c.chainId)}</code>, verwacht was <code>${esc(c.expectedChainId)}</code>`);
     }
     if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
+    // Bij een eerste batch is de inbox het bewijs én het gereedschap: hiermee
+    // lees je de chain uit zonder ooit zijn RPC nodig te hebben.
+    if (c.sequencerInbox) lines.push(`📥 Sequencer-inbox: <code>${esc(c.sequencerInbox)}</code>`);
+    if (c.deployer) lines.push(`👤 Uitgerold door: <code>${esc(c.deployer)}</code>`);
   }
 
   if (c.kind === 'stealth') {

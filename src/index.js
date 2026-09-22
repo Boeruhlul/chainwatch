@@ -3,12 +3,14 @@ import { activeSources } from './sources/index.js';
 import {
   loadState, saveSeen, saveNames, saveChains, saveHealth,
   loadPending, savePending, loadHeartbeat, saveHeartbeat,
+  loadInboxes, saveInboxes,
 } from './store.js';
 import { notify, formatChain, summaryMessage, notifyError } from './notify.js';
 import { buildDashboard } from './dashboard.js';
 import { enrichChains } from './enrich.js';
 import { scoreChain } from './score.js';
 import { probePending, toPendingEntry, restorePending } from './probe.js';
+import { watchInboxes, toInboxEntry, restoreInbox } from './inbox.js';
 import { nowIso, hourIso } from './util.js';
 
 const argv = new Set(process.argv.slice(2));
@@ -52,6 +54,10 @@ const cfg = {
   probeLimit: Number(process.env.PROBE_LIMIT || 40),
   probeBudgetMs: Number(process.env.PROBE_BUDGET_SECONDS || 60) * 1000,
   probeTtlDays: Number(process.env.PROBE_TTL_DAYS || 120),
+  // Sequencer-inboxen volgen tot hun eerste batch.
+  inboxTtlDays: Number(process.env.INBOX_TTL_DAYS || 180),
+  inboxLimit: Number(process.env.INBOX_LIMIT || 40),
+  inboxBudgetMs: Number(process.env.INBOX_BUDGET_SECONDS || 45) * 1000,
   // Waarschuwen als er een gat in de dekking zat. Drempel ruim boven de
   // afrondfout van een uur in de hartslag, zodat er geen vals alarm komt.
   staleHours: Number(process.env.STALE_ALERT_HOURS || 3),
@@ -223,11 +229,34 @@ async function main() {
     keepPending = res.keep;
   }
 
+  // ---- Rollups volgen tot hun eerste batch ----------------------------------
+  // Een rollup-contract uitrollen is niet hetzelfde als er een chain op
+  // draaien. De sequencer-inbox verraadt het verschil, rechtstreeks vanaf de
+  // moederketen en zonder de RPC van het team.
+  const inboxesBefore = await loadInboxes();
+  let produced = [];
+  let keepInboxes = inboxesBefore;
+
+  if (cfg.probe && inboxesBefore.length) {
+    const res = await watchInboxes(inboxesBefore, {
+      limit: cfg.inboxLimit,
+      budgetMs: cfg.inboxBudgetMs,
+      ttlDays: cfg.inboxTtlDays,
+    });
+    produced = res.produced;
+    keepInboxes = res.keep;
+  }
+
   // Launch-alerts gaan bewust buiten WATCH_KINDS om en bovenaan: dit is het
   // bericht waar de hele wachtlijst voor bestaat.
-  groups.unshift(...launched.map((l) => ({ text: formatChain(l), keys: [l.key] })));
+  groups.unshift(
+    ...[...produced, ...launched].map((l) => ({ text: formatChain(l), keys: [l.key] }))
+  );
 
-  console.log(`[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig, ${launched.length} live gegaan`);
+  console.log(
+    `[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig, ` +
+      `${launched.length} live gegaan, ${produced.length} eerste batch`
+  );
 
   const { delivered, failed, errors, sent } = await notify(groups, { ...cfg, dryRun: DRY_RUN });
 
@@ -271,8 +300,22 @@ async function main() {
     const saved = await savePending(newPending);
     console.log(`[chainwatch] wachtlijst: ${saved.length} pre-launch chain(s)`);
 
+    // Volglijst van sequencer-inboxen bijwerken. Nieuwe fabrieksvondsten erbij,
+    // rollups die begonnen te produceren eraf — tenzij hun alert niet aankwam.
+    const newInboxes = [...keepInboxes];
+    for (const p of produced) {
+      if (failed.has(p.key)) newInboxes.push(restoreInbox(p));
+    }
+    for (const c of allDetected) {
+      if (c.source !== 'rollup-factory' || failed.has(c.key)) continue;
+      const entry = toInboxEntry(c, 0);
+      if (entry) newInboxes.push(entry);
+    }
+    const inboxes = await saveInboxes(newInboxes);
+    if (inboxes.length) console.log(`[chainwatch] gevolgde inboxen: ${inboxes.length}`);
+
     await saveNames(state.names);
-    const kept = [...launched, ...allDetected].filter((c) => !failed.has(c.key));
+    const kept = [...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key));
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });

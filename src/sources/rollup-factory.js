@@ -164,6 +164,8 @@ export default {
             explorers: [],
             faucets: [],
             parentLabel: f.label,
+            evmChain: f.chain,
+            explorer: f.explorer,
             contract: rollup,
             contracts,
             sequencerInbox: contracts.sequencerInbox || null,

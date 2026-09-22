@@ -9,6 +9,7 @@ const HEALTH_FILE = path.join(DATA, 'health.json');
 const PENDING_FILE = path.join(DATA, 'pending.json');
 const HEARTBEAT_FILE = path.join(DATA, 'heartbeat.json');
 const BLOCKS_FILE = path.join(DATA, 'blocks.json');
+const INBOXES_FILE = path.join(DATA, 'inboxes.json');
 
 const HISTORY_LIMIT = 800;
 
@@ -128,8 +129,23 @@ export async function saveBlocks(blocks) {
   await writeJson(BLOCKS_FILE, blocks);
 }
 
+/** Sequencer-inboxen die we volgen tot hun eerste batch. */
+export async function loadInboxes() {
+  const arr = await readJson(INBOXES_FILE, []);
+  if (!Array.isArray(arr)) throw new Error(`${INBOXES_FILE} bevat geen array`);
+  return arr;
+}
+
+export async function saveInboxes(entries) {
+  const byKey = new Map();
+  for (const e of entries) if (e?.key) byKey.set(e.key, e);
+  const sorted = [...byKey.values()].sort((a, b) => String(a.key).localeCompare(String(b.key)));
+  await writeJson(INBOXES_FILE, sorted, true);
+  return sorted;
+}
+
 export async function saveHealth(health) {
   await writeJson(HEALTH_FILE, health);
 }
 
-export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE, HEARTBEAT_FILE, BLOCKS_FILE };
+export const paths = { DATA, SEEN_DIR, CHAINS_FILE, NAMES_FILE, HEALTH_FILE, PENDING_FILE, HEARTBEAT_FILE, BLOCKS_FILE, INBOXES_FILE };

@@ -73,6 +73,9 @@ Onder **Settings → Secrets and variables → Actions → Variables**:
 | `PROBE_LIMIT` | `40` | Max. wachtlijst-items dat per run gepollt wordt |
 | `PROBE_BUDGET_SECONDS` | `60` | Harde tijdslimiet voor al het pollen samen |
 | `PROBE_TTL_DAYS` | `120` | Daarna valt een item van de wachtlijst, zonder bericht |
+| `INBOX_LIMIT` | `40` | Sequencer-inboxen die per run gepollt worden |
+| `INBOX_BUDGET_SECONDS` | `45` | Tijdslimiet voor het pollen van inboxen |
+| `INBOX_TTL_DAYS` | `180` | Daarna stoppen we met wachten op een eerste batch |
 | `STALE_ALERT_HOURS` | `3` | Waarschuw als de vorige run langer dan dit geleden was |
 | `CT_PATTERNS` | zeven patronen | Waar in Certificate Transparency op gezocht wordt |
 | `BLOB_MIN_TXS` | `3` | Zoveel batches moet een naamloos adres posten voordat het telt |
@@ -194,6 +197,17 @@ chain volledig uitlezen — en er desgewenst een eigen node op draaien — zonde
 ooit de RPC van het team nodig te hebben. Een chain kan zijn RPC geheimhouden;
 zijn sequencer-inbox niet, want zonder die inbox is hij geen rollup.
 
+Elke fabrieksvondst komt daarna op een tweede volglijst (`data/inboxes.json`).
+Elke run wordt `batchCount()` op die inbox opgevraagd; gaat de teller boven de
+stand bij uitrol uit, dan **produceert de chain echt** en gaat er een aparte
+alert uit. Een rollup-contract uitrollen en er daadwerkelijk een chain op
+draaien zijn twee dingen, en het gat ertussen is precies de stille periode
+waarin een team alles klaarzet zonder iets te zeggen. Dit leest dat gat af van
+de moederketen, zonder ooit de RPC van het team aan te raken.
+
+De stand bij aanvang wordt bewust vastgelegd: sommige inboxen staan bij de
+uitrol al op 1, en "groter dan nul" zou dan meteen vals alarm geven.
+
 Het adres dat de uitrol betaalde staat er ook bij. Dat is vaak het enige spoor
 naar wie erachter zit: de financieringsgeschiedenis van zo'n adres leidt
 geregeld terug naar een herkenbare partij, lang voordat er een naam op de chain
@@ -271,6 +285,7 @@ src/
   enrich.js       socials, domeinleeftijd (RDAP), GitHub-org — best-effort
   score.js        prioriteit 0-100 per detectie
   evm.js          JSON-RPC naar de moederketens, met uitwijk per endpoint
+  inbox.js        volgt sequencer-inboxen tot de eerste batch
   probe.js        RPC-polling op de wachtlijst: detecteert het launchmoment
   backfill.js     eenmalig: al bekende pre-launch chains op de wachtlijst
 data/
@@ -280,6 +295,7 @@ data/
   health.json     status per bron + stilteperiode voor foutmeldingen
   pending.json    pre-launch chains waarvan de RPC nog gepollt wordt
   blocks.json     tot welk blok elke moederketen afgezocht is (grof afgerond)
+  inboxes.json    sequencer-inboxen die we volgen tot hun eerste batch
   heartbeat.json  wanneer de watcher voor het laatst draaide (op het uur af)
 tools/pinger/     Cloudflare Worker die de workflow echt elke 5 minuten start
 ```
