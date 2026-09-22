@@ -1,5 +1,5 @@
 name: chainwatch
-
+ 
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -9,24 +9,28 @@ on:
         description: 'Reset de baseline (stuurt geen alerts)'
         type: boolean
         default: false
-
+      backfill:
+        description: 'Vul de wachtlijst met al bekende pre-launch chains (eenmalig)'
+        type: boolean
+        default: false
+ 
 concurrency:
   group: chainwatch
   cancel-in-progress: false
-
+ 
 permissions:
   contents: write
-
+ 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
+ 
       - name: Detecteer nieuwe chains
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -36,18 +40,28 @@ jobs:
           NOTIFY_CROSS_LISTING: ${{ vars.NOTIFY_CROSS_LISTING || 'false' }}
           DISABLED_SOURCES: ${{ vars.DISABLED_SOURCES }}
           MAX_ALERTS_PER_RUN: ${{ vars.MAX_ALERTS_PER_RUN || '25' }}
+          ENRICH_SOCIALS: ${{ vars.ENRICH_SOCIALS || 'true' }}
+          ENRICH_LIMIT: ${{ vars.ENRICH_LIMIT || '12' }}
+          ENRICH_BUDGET_SECONDS: ${{ vars.ENRICH_BUDGET_SECONDS || '150' }}
+          PROBE_ENABLED: ${{ vars.PROBE_ENABLED || 'true' }}
+          PROBE_LIMIT: ${{ vars.PROBE_LIMIT || '40' }}
+          PROBE_BUDGET_SECONDS: ${{ vars.PROBE_BUDGET_SECONDS || '60' }}
+          PROBE_TTL_DAYS: ${{ vars.PROBE_TTL_DAYS || '120' }}
         run: |
-          if [ "${{ inputs.bootstrap }}" = "true" ]; then
+          if [ "${{ inputs.backfill }}" = "true" ]; then
+            node src/backfill.js
+          elif [ "${{ inputs.bootstrap }}" = "true" ]; then
             node src/index.js --bootstrap
           else
             node src/index.js
           fi
-
+ 
       - name: Commit state
         if: always()
         run: |
           git config user.name  "chainwatch"
           git config user.email "chainwatch@users.noreply.github.com"
+          mkdir -p data docs
           git add data docs
           if git diff --staged --quiet; then
             echo "geen wijzigingen"
@@ -64,3 +78,4 @@ jobs:
           done
           echo "::error::state kon niet gepusht worden"
           exit 1
+ 
