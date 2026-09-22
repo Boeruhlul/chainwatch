@@ -44,7 +44,7 @@ export function formatChain(c) {
   }
 
   if (c.description) lines.push(`<i>${esc(clamp(c.description, 220))}</i>`);
-  if (c.wasTrackedAs) lines.push(`♻️ Eerder gezien als <i>${esc(c.wasTrackedAs)}</i> — nu live`);
+  if (c.wasTrackedAs) lines.push(`♻️ Kenden we al als <i>${esc(c.wasTrackedAs)}</i> — gaat nu mainnet`);
 
   // Leeftijdssignalen: hieraan zie je of je echt vroeg bent.
   const age = [];
