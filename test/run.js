@@ -781,6 +781,48 @@ await t('A3: zonder beheerderschat blijft alles naar het gewone kanaal gaan', as
   assert.equal(String(storing.chat_id), '123', 'bestaand gedrag veranderd');
 });
 
+
+await t('P10: testnet dat mainnet gaat wordt als promotie gemeld en scoort hoger', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg);
+
+  // Eerst alleen een testnet.
+  await watchTg([chain(1, 'Ethereum'), chain(900, 'Robinhood Chain Testnet')], tg);
+  assert.match(tg.sent.at(-1).text, /NIEUWE TESTNET/);
+
+  // Later gaat hetzelfde project mainnet.
+  const out = await watchTg(
+    [chain(1, 'Ethereum'), chain(900, 'Robinhood Chain Testnet'), chain(901, 'Robinhood Chain')], tg);
+  tg.close();
+  assert.match(out, /1 gedetecteerd, 1 alertwaardig/, 'promotie stil weggefilterd als duplicaat');
+  const msg = tg.sent.at(-1).text;
+  assert.match(msg, /NIEUWE MAINNET/);
+  assert.match(msg, /Kenden we al als/, 'promotie niet benoemd in het bericht');
+  assert.match(msg, /testnet/);
+  assert.match(msg, /was al testnet/, 'promotie niet als reden meegegeven');
+});
+
+await t('P11: een wildvreemde mainnet is geen promotie', async () => {
+  const { scoreChain } = await import('../src/score.js');
+  const promo = scoreChain({ kind: 'mainnet', source: 'chainlist', promotedFrom: 'testnet' });
+  const vreemd = scoreChain({ kind: 'mainnet', source: 'chainlist' });
+  assert.ok(promo.score > vreemd.score, `${promo.score} moet boven ${vreemd.score} liggen`);
+  assert.ok(promo.reasons.includes('was al testnet'));
+  assert.equal(vreemd.reasons.length, 0);
+});
+
+await t('P12: testnet en mainnet in dezelfde run tellen niet als promotie', async () => {
+  await reset();
+  const tg = await tgServer();
+  await watchTg([chain(1, 'Ethereum')], tg);
+  // Beide fasen komen tegelijk binnen: dan is er geen geschiedenis om naar
+  // terug te wijzen, dus geen promotie.
+  await watchTg([chain(1, 'Ethereum'), chain(910, 'Verschchain Testnet'), chain(911, 'Verschchain')], tg);
+  tg.close();
+  assert.ok(!tg.sent.some((m) => /Kenden we al als/.test(m.text)), 'valse promotie binnen dezelfde run');
+});
+
 await fs.rm(TMP, { recursive: true, force: true });
 console.log(`\n${pass} geslaagd, ${fail} gefaald\n`);
 process.exit(fail ? 1 : 0);
