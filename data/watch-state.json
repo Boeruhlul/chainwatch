@@ -85,6 +85,11 @@
     "firedChainIds": [],
     "bypassed": []
   },
+  "dac": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  },
   "ecx": {
     "hosts": {},
     "firedChainIds": [],
