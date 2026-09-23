@@ -1,0 +1,17 @@
+{
+  "giwa": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  },
+  "rialo": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  },
+  "ritual": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  }
+}
