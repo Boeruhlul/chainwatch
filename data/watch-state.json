@@ -1,6 +1,14 @@
 {
   "giwa": {
-    "hosts": {},
+    "hosts": {
+      "giwa.io": [
+        "docs.giwa.io",
+        "giwa.io",
+        "sepolia-bridge.giwa.io",
+        "status.giwa.io",
+        "www.giwa.io"
+      ]
+    },
     "firedChainIds": [],
     "bypassed": []
   },
