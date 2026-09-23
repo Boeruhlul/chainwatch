@@ -24,8 +24,11 @@ const REAL_SOURCES = [
   rollupFactory, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
-  // Geen chain-detectie maar handel op bestaande chains: nieuwe pools.
-  dexPools,
+  // Nieuwe pools: standaard UIT. Gemeten op 2026-09-23: Robinhood Chain en Arc
+  // samen 55-76 nieuwe pools per run van 5 minuten, grotendeels launchpad-tokens.
+  // Een melding per pool is dan ruis, geen signaal. Aanzetten met
+  // DEX_POOLS_ENABLED=true (en een regel in watch.yml).
+  ...(process.env.DEX_POOLS_ENABLED === 'true' ? [dexPools] : []),
 ];
 
 /**

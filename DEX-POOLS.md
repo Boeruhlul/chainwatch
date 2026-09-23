@@ -1,5 +1,10 @@
 # dex-pools: nieuwe pools op gekozen chains
 
+> **Staat uit sinds 2026-09-23.** De eerste runs lieten 55-76 nieuwe pools per
+> 5 minuten zien op Robinhood Chain en Arc samen (Elysium: nul). Dat is geen
+> alertstroom maar een brandslang. Aanzetten met `DEX_POOLS_ENABLED=true`; zinvol
+> pas met een filter erop (bijvoorbeeld minimale liquiditeit).
+
 Geen chain-detectie maar handel: deze bron meldt elke nieuwe liquiditeitspool
 op Robinhood Chain (4663), Arc (5042) en Elysium (1339). GIWA staat klaar maar
 uit, tot de mainnet publiek is.
