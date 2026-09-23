@@ -86,7 +86,27 @@
     "bypassed": []
   },
   "dac": {
-    "hosts": {},
+    "hosts": {
+      "dachain.io": [
+        "backoffice.dachain.io",
+        "dachain.io",
+        "entropy.dachain.io",
+        "im.dachain.io",
+        "inception.dachain.io",
+        "interstellar.dachain.io",
+        "login.dachain.io",
+        "notarizer-api.dachain.io",
+        "notarizer.dachain.io",
+        "rpctest01.dachain.io",
+        "rpctest02.dachain.io",
+        "rpctest03.dachain.io",
+        "rpctest04.dachain.io",
+        "rpctest05.dachain.io",
+        "test-interstellar.dachain.io",
+        "waitlist.dachain.io",
+        "www.dachain.io"
+      ]
+    },
     "firedChainIds": [],
     "bypassed": []
   },
