@@ -15,6 +15,7 @@ const KIND_LABEL = {
   proposal: '📝 CHAIN ID AANGEVRAAGD (pre-launch)',
   launched: '🚀 CHAIN IS LIVE — RPC ANTWOORDT',
   stealth: '🕵️ ONAANGEKONDIGDE CHAIN',
+  pool: '💧 NIEUWE POOL',
 };
 
 /** Watchlist-signalen: welk soort bewijs we hebben. */
@@ -31,6 +32,7 @@ const STEALTH_LABEL = {
 };
 
 export function formatChain(c) {
+  if (c.kind === 'pool') return formatPool(c);
   const badge = badgeFor(c.score ?? 0);
   const label =
     (c.kind === 'watch' && WATCH_LABEL[c.watchKind]) ||
@@ -130,6 +132,33 @@ export function formatChain(c) {
   return clamp(lines.join('\n'), SAFE_LEN);
 }
 
+/**
+ * Een pool heeft niets van wat een chain-bericht vult (website, faucet, RPC),
+ * maar wel twee tokens, een pool-adres en een transactie. Symbolen komen van
+ * wie het token uitrolde en worden dus altijd ge-escaped.
+ */
+function formatPool(c) {
+  const badge = badgeFor(c.score ?? 0);
+  const lines = [`${badge.icon} <b>${KIND_LABEL.pool} op ${esc(c.ecosystem)}</b>\n<b>${esc(clamp(c.name, MAX_NAME))}</b>`];
+  const facts = [];
+  if (c.dex) facts.push(esc(c.dex));
+  if (typeof c.fee === 'number') facts.push(`fee ${(c.fee / 10000).toLocaleString('nl-NL')}%`);
+  if (typeof c.block === 'number') facts.push(`blok ${c.block.toLocaleString('nl-NL')}`);
+  if (facts.length) lines.push(facts.join(' · '));
+  const tok = (sym, addr, url) =>
+    `${esc(sym || '?')} <code>${esc(addr)}</code>${url ? `\n   ${esc(clamp(url, 200))}` : ''}`;
+  if (c.token0) lines.push(`🪙 ${tok(c.symbol0, c.token0, c.tokenUrl0)}`);
+  if (c.token1) lines.push(`🪙 ${tok(c.symbol1, c.token1, c.tokenUrl1)}`);
+  if (c.pool) lines.push(`🏊 Pool: <code>${esc(c.pool)}</code>`);
+  if (c.poolId) lines.push(`🏊 Pool-ID: <code>${esc(c.poolId)}</code>`);
+  if (c.hooks) lines.push(`🪝 Hook-contract: <code>${esc(c.hooks)}</code> — eerst bekijken`);
+  if (c.emitter) lines.push(`🏭 Fabriek: <code>${esc(c.emitter)}</code>`);
+  if (c.tx) lines.push(`🧾 ${esc(clamp(c.tx, 200))}`);
+  const why = (c.reasons || []).length ? ` · ${c.reasons.join(', ')}` : '';
+  lines.push(`<i>bron: ${esc(c.source)} · prioriteit ${c.score ?? 0}/100${esc(why)}</i>`);
+  return clamp(lines.join('\n'), SAFE_LEN);
+}
+
 /** Leeftijd in mensentaal; hoe verser, hoe preciezer. */
 function humanAge(days) {
   if (days < 1) return 'vandaag geregistreerd';
@@ -143,7 +172,7 @@ export function summaryMessage(chains, reason = '') {
   const byKind = {};
   for (const c of chains) byKind[c.kind] = (byKind[c.kind] || 0) + 1;
   const head =
-    `<b>🔔 ${chains.length} nieuwe netwerken gedetecteerd</b>${reason ? `\n<i>${esc(reason)}</i>` : ''}\n` +
+    `<b>🔔 ${chains.length} ${chains.every((c) => c.kind === 'pool') ? 'nieuwe pools' : 'nieuwe netwerken'} gedetecteerd</b>${reason ? `\n<i>${esc(reason)}</i>` : ''}\n` +
     Object.entries(byKind).map(([k, n]) => `${KIND_LABEL[k] || k}: ${n}`).join('\n');
 
   // Vul regels tot we tegen de limiet aanlopen i.p.v. blind op 40 te cappen:
@@ -152,7 +181,11 @@ export function summaryMessage(chains, reason = '') {
   let used = head.length + 2;
   let shown = 0;
   for (const c of chains) {
-    const line = `${badgeFor(c.score ?? 0).icon} ${esc(clamp(c.name, 80))}${c.chainId != null ? ` (${esc(c.chainId)})` : ''} — ${esc(c.source)}`;
+    // Zonder symbolen (verrijking overgeslagen) zijn de tokenadressen het enige houvast.
+    const extra = c.kind === 'pool' && !c.symbol0 && c.token0
+      ? ` <code>${esc(c.token0.slice(0, 10))}</code>/<code>${esc(c.token1.slice(0, 10))}</code>`
+      : '';
+    const line = `${badgeFor(c.score ?? 0).icon} ${esc(clamp(c.name, 80))}${extra}${c.chainId != null ? ` (${esc(c.chainId)})` : ''} — ${esc(c.source)}`;
     if (used + line.length + 60 > SAFE_LEN) break;
     lines.push(line);
     used += line.length + 1;

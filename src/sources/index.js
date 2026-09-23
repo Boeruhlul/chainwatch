@@ -15,6 +15,7 @@ import ethlistsCommit from './ethlists-commit.js';
 import rollupFactory from './rollup-factory.js';
 import ctHostnames from './ct-hostnames.js';
 import blobSubmitters from './blob-submitters.js';
+import dexPools from './dex-pools.js';
 
 // Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
 // Pre-launch-bronnen eerst, brede registers daarna.
@@ -23,6 +24,8 @@ const REAL_SOURCES = [
   rollupFactory, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
+  // Geen chain-detectie maar handel op bestaande chains: nieuwe pools.
+  dexPools,
 ];
 
 /**
