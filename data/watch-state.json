@@ -18,7 +18,29 @@
     "bypassed": []
   },
   "ritual": {
-    "hosts": {},
+    "hosts": {
+      "ritualfoundation.org": [
+        "agents.ritualfoundation.org",
+        "docs.ritualfoundation.org",
+        "explorer.ritualfoundation.org",
+        "faucet.ritualfoundation.org",
+        "realm.ritualfoundation.org",
+        "ritualfoundation.org",
+        "rpc-replica.ritualfoundation.org",
+        "rpc.ritualfoundation.org",
+        "scan.ritualfoundation.org",
+        "scanner-rpc-debug.ritualfoundation.org",
+        "scanner-rpc-peers.ritualfoundation.org",
+        "scanner-rpc-private.ritualfoundation.org",
+        "scanner-rpc.ritualfoundation.org",
+        "shrine.ritualfoundation.org",
+        "skills.ritualfoundation.org",
+        "verify.ritualfoundation.org",
+        "visualized.ritualfoundation.org",
+        "whitepaper.ritualfoundation.org",
+        "www.ritualfoundation.org"
+      ]
+    },
     "firedChainIds": [],
     "bypassed": []
   }
