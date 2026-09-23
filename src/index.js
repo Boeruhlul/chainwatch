@@ -11,6 +11,9 @@ import { enrichChains } from './enrich.js';
 import { scoreChain } from './score.js';
 import { probePending, toPendingEntry, restorePending } from './probe.js';
 import { watchInboxes, toInboxEntry, restoreInbox } from './inbox.js';
+import {
+  runWatchlist, matchRecord, isWatchWorthy, loadWatchlist, loadWatchState, saveWatchState,
+} from './watchlist.js';
 import { nowIso, hourIso } from './util.js';
 
 const argv = new Set(process.argv.slice(2));
@@ -61,12 +64,20 @@ const cfg = {
   // Waarschuwen als er een gat in de dekking zat. Drempel ruim boven de
   // afrondfout van een uur in de hartslag, zodat er geen vals alarm komt.
   staleHours: Number(process.env.STALE_ALERT_HOURS || 3),
+  // Watchlist: bekende projecten waarvan de mainnet nog moet komen.
+  watch: process.env.WATCH_ENABLED !== 'false',
+  watchBudgetMs: Number(process.env.WATCH_BUDGET_SECONDS || 30) * 1000,
+  watchCtPerRun: Number(process.env.WATCH_CT_PER_RUN || 1),
 };
 
 async function main() {
   const sources = activeSources(cfg.disabled);
   const state = await loadState(sources.map((s) => s.id));
   const startedAt = nowIso();
+  // Watchlist vroeg laden: een kapot bestand moet de run laten falen vóórdat
+  // er state weggeschreven wordt, net als bij de andere state-bestanden.
+  const watchProjects = cfg.watch ? await loadWatchlist() : [];
+  const watchState = cfg.watch ? await loadWatchState() : {};
 
   // Hartslag: stond de tool stil, dan is dat zelf het belangrijkste nieuws.
   // Zonder deze check lijkt een stilstand van uren op "geen nieuwe chains".
@@ -175,6 +186,33 @@ async function main() {
 
   const allDetected = perSource.flatMap((e) => e.detected);
 
+  // Hoort een detectie bij een project op de watchlist, dan gaat hij altijd
+  // door — ook als cross-listing of buiten WATCH_KINDS. Precies die gevallen
+  // worden anders weggefilterd: het project is al bekend, dus "niet nieuw".
+  //
+  // Maar één keer per fase: komt de GIWA-mainnet daarna via zes andere
+  // registers binnen, dan is dat geen nieuws meer. Welke nameKeys al zo'n
+  // doorbraak kregen staat in watch-state.json.
+  const bypassedNow = new Map(); // nameKey -> { id, key }
+  if (watchProjects.length) {
+    for (const c of allDetected) {
+      if (!isWatchWorthy(c.kind)) continue;
+      const p = matchRecord(c, watchProjects);
+      if (!p) continue;
+      c.watch = { id: p.id, name: p.name || p.id };
+      if (!c.crossListing) {
+        // Gaat als gewone nieuwe detectie de deur uit; wel onthouden, zodat
+        // dezelfde fase later niet via een ander register nog eens doorbreekt.
+        if (!bypassedNow.has(c.nameKey)) bypassedNow.set(c.nameKey, { id: p.id, key: c.key });
+        continue;
+      }
+      const done = new Set(watchState[p.id]?.bypassed || []);
+      if (done.has(c.nameKey) || bypassedNow.has(c.nameKey)) continue;
+      c.watchBypass = true;
+      bypassedNow.set(c.nameKey, { id: p.id, key: c.key });
+    }
+  }
+
   // ---- Verrijking en scoring -------------------------------------------------
   // Eerst bepalen wat uberhaupt een alert wordt: alleen daarvoor loont het om
   // websites, RDAP en GitHub te bevragen.
@@ -183,8 +221,8 @@ async function main() {
     alertableBySource.set(
       entry,
       entry.detected
-        .filter((c) => ALWAYS_ALERT.has(c.kind) || cfg.kinds.has(c.kind))
-        .filter((c) => cfg.crossListing || !c.crossListing)
+        .filter((c) => c.watch || ALWAYS_ALERT.has(c.kind) || cfg.kinds.has(c.kind))
+        .filter((c) => c.watchBypass || cfg.crossListing || !c.crossListing)
     );
   }
 
@@ -201,6 +239,11 @@ async function main() {
     const { score, reasons } = scoreChain(c);
     c.score = score;
     c.reasons = reasons;
+    if (c.watch) {
+      // Hier heb je zelf om gevraagd; de cross-listing-aftrek geldt niet.
+      c.score = Math.min(100, score + 25 + (c.watchBypass ? 26 : 0));
+      c.reasons = ['watchlist', ...(c.watchBypass ? reasons.filter((r) => r !== 'al bekend via andere bron') : reasons)];
+    }
   }
 
   // ---- Berichtgroepen bouwen -------------------------------------------------
@@ -263,15 +306,28 @@ async function main() {
     keepInboxes = res.keep;
   }
 
+  // ---- Watchlist: gerichte signalen voor bekende projecten -------------------
+  let watchRun = null;
+  if (cfg.watch && watchProjects.length) {
+    watchRun = await runWatchlist(watchProjects, watchState, {
+      budgetMs: cfg.watchBudgetMs,
+      crtPerRun: cfg.watchCtPerRun,
+      baselineOnly: FORCE_BOOTSTRAP,
+    });
+  }
+  const watchEvents = watchRun?.events || [];
+
   // Launch-alerts gaan bewust buiten WATCH_KINDS om en bovenaan: dit is het
-  // bericht waar de hele wachtlijst voor bestaat.
+  // bericht waar de hele wachtlijst voor bestaat. Watchlist-signalen staan
+  // daar nog boven: die heb je zelf aangewezen.
   groups.unshift(
-    ...[...produced, ...launched].map((l) => ({ text: formatChain(l), keys: [l.key] }))
+    ...[...watchEvents, ...produced, ...launched].map((l) => ({ text: formatChain(l), keys: [l.key] }))
   );
 
   console.log(
     `[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig, ` +
-      `${launched.length} live gegaan, ${produced.length} eerste batch`
+      `${launched.length} live gegaan, ${produced.length} eerste batch, ` +
+      `${watchEvents.length} watchlist-signaal/signalen`
   );
 
   const { delivered, failed, errors, sent } = await notify(groups, { ...cfg, dryRun: DRY_RUN });
@@ -330,8 +386,16 @@ async function main() {
     const inboxes = await saveInboxes(newInboxes);
     if (inboxes.length) console.log(`[chainwatch] gevolgde inboxen: ${inboxes.length}`);
 
+    if (watchRun) watchRun.commit(failed);
+    for (const [nk, { id, key }] of bypassedNow) {
+      if (failed.has(key)) continue;
+      watchState[id] ||= {};
+      (watchState[id].bypassed ||= []).push(nk);
+    }
+    if (watchRun || bypassedNow.size) await saveWatchState(watchState);
+
     await saveNames(state.names);
-    const kept = [...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key));
+    const kept = [...watchEvents, ...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key));
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });

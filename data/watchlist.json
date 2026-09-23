@@ -1,0 +1,45 @@
+{
+  "_uitleg": [
+    "Projecten die je al kent maar waarvan de mainnet nog moet komen. Dit bestand is van jou; de bot schrijft alleen in watch-state.json.",
+    "aliases: namen waarop een detectie uit elke bron wordt herkend (heel woord, of begin van de naam vanaf 5 tekens).",
+    "domains: projectdomeinen. Nieuwe certificaten (crt.sh) op rpc./mainnet./explorer. enz. worden gemeld en aangeklopt.",
+    "knownChainIds: chain IDs die je al kent (testnets). Een RPC die iets ANDERS antwoordt is een nieuwe chain.",
+    "rpc: kandidaat-URL's die elke run om hun chain ID gevraagd worden. Gokken mag: wat niet bestaat antwoordt gewoon niet.",
+    "enabled: false zet een project tijdelijk uit zonder het te verwijderen."
+  ],
+  "projects": [
+    {
+      "id": "giwa",
+      "name": "GIWA",
+      "aliases": ["giwa"],
+      "ecosystem": "EVM · OP Stack L2 op Ethereum",
+      "website": "https://giwa.io",
+      "domains": ["giwa.io"],
+      "knownChainIds": [91342],
+      "rpc": ["https://rpc.giwa.io", "https://mainnet-rpc.giwa.io"],
+      "note": "Upbit/Dunamu. Testnet GIWA Sepolia (91342) sinds sep 2025; besloten whitelist-mainnet voor GASOK-teams. KBW 29 sep – 1 okt 2026 met Upbit als hoofdsponsor. RPC-URL's hierboven zijn afgeleid van sepolia-rpc.giwa.io, niet bevestigd."
+    },
+    {
+      "id": "ritual",
+      "name": "Ritual",
+      "aliases": ["ritual"],
+      "ecosystem": "EVM · AI-chain",
+      "website": "https://ritual.net",
+      "domains": ["ritual.net", "ritualfoundation.org"],
+      "knownChainIds": [1979],
+      "rpc": ["https://rpc.ritualfoundation.org"],
+      "note": "Publiek testnet sinds juni 2026 (chain ID 1979). 10 mld RITUAL; community-airdrop komt vrij bij mainnet. De RPC is de testnet-URL: antwoordt die ooit met een ander chain ID, dan is dat de switch."
+    },
+    {
+      "id": "rialo",
+      "name": "Rialo",
+      "aliases": ["rialo"],
+      "ecosystem": "L1 · RISC-V / Solana VM-compatibel",
+      "website": "https://rialo.io",
+      "domains": ["rialo.io"],
+      "knownChainIds": [],
+      "rpc": [],
+      "note": "Subzero Labs (ex-Mysten/Sui), $20M seed o.l.v. Pantera. Mainnet volgens roadmap in 2026. Geen EVM- of Cosmos-RPC, dus alleen naam- en domeinsignalen."
+    }
+  ]
+}
