@@ -3,7 +3,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true
+    "ok": false,
+    "error": "crt.sh onbereikbaar — testnet-rpc.%: This operation was aborted; rpc-mainnet.%: tijdsbudget op",
+    "failingSince": "2026-09-23T08:05:25.999Z"
   },
   "blob-submitters": {
     "ok": true
