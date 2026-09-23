@@ -40,6 +40,50 @@
       "knownChainIds": [],
       "rpc": [],
       "note": "Subzero Labs (ex-Mysten/Sui), $20M seed o.l.v. Pantera. Mainnet volgens roadmap in 2026. Geen EVM- of Cosmos-RPC, dus alleen naam- en domeinsignalen."
+    },
+    {
+      "id": "robinhood-chain",
+      "name": "Robinhood Chain",
+      "aliases": ["robinhood chain", "robinhood"],
+      "ecosystem": "EVM · Arbitrum Orbit L2 op Ethereum",
+      "website": "https://docs.robinhood.com/chain/",
+      "domains": ["chain.robinhood.com"],
+      "knownChainIds": [4663, 46630],
+      "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://rpc.testnet.chain.robinhood.com"],
+      "note": "Mainnet 4663 en testnet 46630 zijn al publiek. Volgt nieuwe chains van dit team: een ander chain ID op deze RPC's of een nieuw subdomein onder chain.robinhood.com. Het CT-domein is bewust chain.robinhood.com en niet robinhood.com, anders telt elk bedrijfssubdomein mee."
+    },
+    {
+      "id": "arc",
+      "name": "Arc (Circle)",
+      "aliases": ["arc network"],
+      "ecosystem": "EVM · L1 met USDC als gas",
+      "website": "https://arc.network",
+      "domains": ["arc.network", "arc.io"],
+      "knownChainIds": [5042, 5042001, 5042002],
+      "rpc": ["https://rpc.mainnet.arc.io", "https://rpc.testnet.arc.network"],
+      "note": "Mainnet 5042 live sinds 16 sep 2026 (RPC volgens Circle nog permissioned), testnet 5042002, devnet 5042001. Alias bewust niet kaal 'arc': dat raakt ook het oude, ongerelateerde ARC-project (1243/1244). De domeinen vangen de rest."
+    },
+    {
+      "id": "ecx",
+      "name": "eCash (ECX)",
+      "aliases": ["ecx", "drivechain"],
+      "ecosystem": "Bitcoin-hardfork · Drivechain L1 (BIP300/301)",
+      "website": "https://ecash.com",
+      "domains": ["ecash.com", "drivechain.info"],
+      "knownChainIds": [],
+      "rpc": [],
+      "note": "LayerTwo Labs (Paul Sztorc). Alpha 23 aug, Beta 20 sep, volledige release 31 okt 2026. Geen EVM, dus alleen naam- en domeinsignalen. Alias bewust niet 'ecash': dat is ook de bestaande XEC-chain."
+    },
+    {
+      "id": "bitassets",
+      "name": "BitAssets",
+      "aliases": ["bitassets"],
+      "ecosystem": "Drivechain L2 op eCash (ECX)",
+      "website": "https://ecash.com",
+      "domains": [],
+      "knownChainIds": [],
+      "rpc": [],
+      "note": "Een van de zeven drivechains van LayerTwo Labs (tokens, NFT's, memecoins). Draait niet als EVM; alleen naamsignalen. Domeinsignalen komen via het ECX-project."
     }
   ]
 }

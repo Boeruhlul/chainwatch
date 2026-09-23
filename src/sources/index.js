@@ -15,7 +15,6 @@ import ethlistsCommit from './ethlists-commit.js';
 import rollupFactory from './rollup-factory.js';
 import ctHostnames from './ct-hostnames.js';
 import blobSubmitters from './blob-submitters.js';
-import dexPools from './dex-pools.js';
 
 // Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
 // Pre-launch-bronnen eerst, brede registers daarna.
@@ -24,11 +23,6 @@ const REAL_SOURCES = [
   rollupFactory, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
-  // Nieuwe pools: standaard UIT. Gemeten op 2026-09-23: Robinhood Chain en Arc
-  // samen 55-76 nieuwe pools per run van 5 minuten, grotendeels launchpad-tokens.
-  // Een melding per pool is dan ruis, geen signaal. Aanzetten met
-  // DEX_POOLS_ENABLED=true (en een regel in watch.yml).
-  ...(process.env.DEX_POOLS_ENABLED === 'true' ? [dexPools] : []),
 ];
 
 /**

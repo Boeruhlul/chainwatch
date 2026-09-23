@@ -21,22 +21,12 @@ const BASE_BY_KIND = {
   mainnet: 28,
   testnet: 20,
   devnet: 12,
-  // Nieuwe pool op een chain die je zelf gekozen hebt: altijd minstens een ster.
-  pool: 45,
 };
 
 export function scoreChain(c) {
   const reasons = [];
   let s = BASE_BY_KIND[c.kind] ?? 10;
   if (c.kind === 'proposal' || c.kind === 'upcoming') reasons.push('pre-launch');
-
-  if (c.kind === 'pool') {
-    reasons.push(c.dex || 'nieuwe pool');
-    // Een v4-pool met een eigen hook-contract kan zich anders gedragen dan een
-    // gewone pool (belasting, blokkades). Geen plus of min, wel vermelden.
-    if (c.hooks) reasons.push('v4-hook');
-    return { score: BASE_BY_KIND.pool, reasons };
-  }
 
   if (c.kind === 'stealth') {
     reasons.push(

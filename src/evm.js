@@ -26,13 +26,6 @@ const DEFAULT_ENDPOINTS = {
     'https://base-rpc.publicnode.com',
     'https://base.drpc.org',
   ],
-  // Chains waarop dex-pools nieuwe pools zoekt (geen moederketens).
-  robinhood: ['https://rpc.mainnet.chain.robinhood.com'],
-  // Circle noemt de mainnet-RPC nog "permissioned"; weigert hij, dan logt
-  // dex-pools een waarschuwing en gaan de andere chains gewoon door.
-  arc: ['https://rpc.mainnet.arc.io'],
-  elysium: ['https://rpc.elysiumchain.tech', 'https://rpc.elysiumchain.us'],
-  giwa: ['https://rpc.giwa.io', 'https://mainnet-rpc.giwa.io'],
 };
 
 /**
