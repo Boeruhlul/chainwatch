@@ -10,6 +10,9 @@ const PENDING_FILE = path.join(DATA, 'pending.json');
 const HEARTBEAT_FILE = path.join(DATA, 'heartbeat.json');
 const BLOCKS_FILE = path.join(DATA, 'blocks.json');
 const INBOXES_FILE = path.join(DATA, 'inboxes.json');
+// Eigen bestand voor dex-pools: bronnen draaien parallel, en twee bronnen die
+// hetzelfde blocks.json lezen en wegschrijven overschrijven elkaars stand.
+const POOL_BLOCKS_FILE = path.join(DATA, 'pool-blocks.json');
 
 const HISTORY_LIMIT = 800;
 
@@ -127,6 +130,19 @@ export async function loadBlocks() {
 
 export async function saveBlocks(blocks) {
   await writeJson(BLOCKS_FILE, blocks);
+}
+
+/** Blokstand per chain voor dex-pools. Zelfde regels als blocks.json. */
+export async function loadPoolBlocks() {
+  const obj = await readJson(POOL_BLOCKS_FILE, {});
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
+    throw new Error(`${POOL_BLOCKS_FILE} bevat geen object`);
+  }
+  return obj;
+}
+
+export async function savePoolBlocks(blocks) {
+  await writeJson(POOL_BLOCKS_FILE, blocks);
 }
 
 /** Sequencer-inboxen die we volgen tot hun eerste batch. */
