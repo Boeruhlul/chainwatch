@@ -92,6 +92,31 @@
   },
   "ecx": {
     "hosts": {
+      "drivechain.info": [
+        "aikicu.drivechain.info",
+        "ceighaizui.drivechain.info",
+        "cheuye.drivechain.info",
+        "coinnews.mainnet.drivechain.info",
+        "coinnews.signet.drivechain.info",
+        "drivechain.info",
+        "esplora.mainnet.drivechain.info",
+        "esplora.signet.drivechain.info",
+        "explorer.drivechain.info",
+        "explorer.forknet.drivechain.info",
+        "explorer.mainnet.drivechain.info",
+        "explorer.signet.drivechain.info",
+        "fw1.drivechain.info",
+        "fw1.signet.drivechain.info",
+        "fw2.drivechain.info",
+        "node.drivechain.info",
+        "node.forknet.drivechain.info",
+        "node.mainnet.drivechain.info",
+        "node.signet.drivechain.info",
+        "pool.drivechain.info",
+        "releases.drivechain.info",
+        "wohch.drivechain.info",
+        "www.drivechain.info"
+      ],
       "ecash.com": [
         "archive.ecash.com",
         "buy.ecash.com",
