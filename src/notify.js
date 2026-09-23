@@ -17,6 +17,12 @@ const KIND_LABEL = {
   stealth: '🕵️ ONAANGEKONDIGDE CHAIN',
 };
 
+/** Watchlist-signalen: welk soort bewijs we hebben. */
+const WATCH_LABEL = {
+  rpc: '👀 WATCHLIST — NIEUWE CHAIN VAN DIT TEAM, RPC ANTWOORDT',
+  host: '👀 WATCHLIST — NIEUW SUBDOMEIN OP HET PROJECTDOMEIN',
+};
+
 /** Binnen 'stealth' maakt het nogal uit hoe we hem gevonden hebben. */
 const STEALTH_LABEL = {
   hostname: '🕵️ ONAANGEKONDIGDE CHAIN — RPC ANTWOORDT AL',
@@ -27,6 +33,7 @@ const STEALTH_LABEL = {
 export function formatChain(c) {
   const badge = badgeFor(c.score ?? 0);
   const label =
+    (c.kind === 'watch' && WATCH_LABEL[c.watchKind]) ||
     (c.kind === 'stealth' && STEALTH_LABEL[c.stealthKind]) ||
     (c.kind === 'launched' && c.liveVia === 'batch'
       ? '🚀 ROLLUP PRODUCEERT — eerste batch op de moederketen'
@@ -74,6 +81,20 @@ export function formatChain(c) {
     if (c.deployer) lines.push(`👤 Uitgerold door: <code>${esc(c.deployer)}</code>`);
     if (c.deployTx) lines.push(`🧾 Transactie: ${esc(clamp(c.deployTx, 200))}`);
     if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
+  }
+
+  if (c.kind === 'watch') {
+    const bits = [];
+    if (typeof c.block === 'number') bits.push(`blok ${c.block.toLocaleString('nl-NL')}`);
+    if (c.via) bits.push(`via ${c.via}`);
+    if (bits.length) lines.push(`⏱ ${esc(bits.join(' · '))}`);
+    if (c.liveRpc) lines.push(`✅ Werkende RPC: <code>${esc(clamp(c.liveRpc, 200))}</code>`);
+    if (c.watchKind === 'host' && c.host) {
+      lines.push(`🔐 Certificaat voor <code>${esc(c.host)}</code> — antwoordt (nog) niet als RPC`);
+    }
+  } else if (c.watch) {
+    // Gewone detectie die bij een watchlist-project hoort.
+    lines.push(`👀 <b>Op je watchlist: ${esc(c.watch.name)}</b>`);
   }
 
   if (c.description) lines.push(`<i>${esc(clamp(c.description, 220))}</i>`);
