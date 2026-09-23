@@ -91,7 +91,20 @@
     "bypassed": []
   },
   "ecx": {
-    "hosts": {},
+    "hosts": {
+      "ecash.com": [
+        "archive.ecash.com",
+        "buy.ecash.com",
+        "ecash.com",
+        "explorer.ecash.com",
+        "forum.ecash.com",
+        "hidden.ecash.com",
+        "media.archive.ecash.com",
+        "news.ecash.com",
+        "releases.ecash.com",
+        "www.ecash.com"
+      ]
+    },
     "firedChainIds": [],
     "bypassed": []
   },
