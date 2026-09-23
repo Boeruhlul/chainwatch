@@ -1,4 +1,37 @@
 {
+  "arc": {
+    "hosts": {
+      "arc.network": [
+        "arc.network",
+        "blockdaemon.testnet.arc.network",
+        "community.arc.network",
+        "docs.arc.network",
+        "drpc.testnet.arc.network",
+        "quicknode.testnet.arc.network",
+        "rpc.blockdaemon.testnet.arc.network",
+        "rpc.quicknode.testnet.arc.network",
+        "rpc.testnet.arc.network",
+        "rpc2.quicknode.testnet.arc.network",
+        "staging.arc.network",
+        "status.arc.network",
+        "testnet.arc.network",
+        "www.arc.network",
+        "www.rpc.blockdaemon.testnet.arc.network"
+      ]
+    },
+    "firedChainIds": [],
+    "bypassed": []
+  },
+  "bitassets": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  },
+  "ecx": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
+  },
   "giwa": {
     "hosts": {
       "giwa.io": [
@@ -124,6 +157,11 @@
         "www.ritualfoundation.org"
       ]
     },
+    "firedChainIds": [],
+    "bypassed": []
+  },
+  "robinhood-chain": {
+    "hosts": {},
     "firedChainIds": [],
     "bypassed": []
   }
