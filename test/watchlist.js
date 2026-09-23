@@ -76,6 +76,9 @@ await t('W3: subdomeinen — productie-infra telt, test-infra niet', async () =>
   assert.equal(classifyHost('rpc.giwa.io'), 'interesting');
   assert.equal(classifyHost('mainnet-explorer.giwa.io'), 'interesting');
   assert.equal(classifyHost('rpc2.giwa.io'), 'interesting');
+  assert.equal(classifyHost('swap.dachain.io'), 'interesting', 'een swap-subdomein is een DEX-signaal');
+  assert.equal(classifyHost('dex.dachain.io'), 'interesting');
+  assert.equal(classifyHost('swap-test.dachain.io'), null);
   assert.equal(classifyHost('sepolia-rpc.giwa.io'), null);
   assert.equal(classifyHost('dev-rpc.giwa.io'), null);
   assert.equal(classifyHost('www.giwa.io'), null);
