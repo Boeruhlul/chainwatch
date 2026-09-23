@@ -28,14 +28,7 @@ const FORCE_BOOTSTRAP = argv.has('--bootstrap');
  * iemand het heeft gezegd. Die wil je nooit per ongeluk wegfilteren met een
  * instelling die je maanden geleden hebt gezet.
  */
-const ALWAYS_ALERT = new Set(['launched', 'stealth', 'pool']);
-
-/**
- * Pools zijn geen chains. Ze tellen niet mee in names.json (de dedupe tussen
- * bronnen), niet in de verrijking (websites, RDAP) en niet in de historie van
- * het dashboard: een drukke chain zou die anders binnen een dag volschrijven.
- */
-const isChain = (r) => r.kind !== 'pool';
+const ALWAYS_ALERT = new Set(['launched', 'stealth']);
 
 /** Deze fasen komen op de wachtlijst: er is een RPC, maar nog geen leven. */
 const PRELAUNCH_KINDS = new Set(['proposal', 'upcoming']);
@@ -156,7 +149,7 @@ async function main() {
     const entry = { src, allKeys: records.map((r) => r.key), detected: [], anomaly: false };
 
     if (isFirstRun) {
-      for (const r of records) if (isChain(r)) state.names.add(r.nameKey);
+      for (const r of records) state.names.add(r.nameKey);
       perSource.push(entry);
       continue;
     }
@@ -180,10 +173,6 @@ async function main() {
     }
 
     for (const r of enriched) {
-      if (!isChain(r)) {
-        entry.detected.push({ ...r, crossListing: false, detectedAt: nowIso() });
-        continue;
-      }
       const crossListing = state.names.has(r.nameKey);
       if (!crossListing) {
         if (!newNames.has(r.nameKey)) newNames.set(r.nameKey, new Set());
@@ -207,8 +196,7 @@ async function main() {
   const bypassedNow = new Map(); // nameKey -> { id, key }
   if (watchProjects.length) {
     for (const c of allDetected) {
-      // Een pool is geen chain: een token dat "giwa" heet is geen watchlist-signaal.
-      if (!isChain(c) || !isWatchWorthy(c.kind)) continue;
+      if (!isWatchWorthy(c.kind)) continue;
       const p = matchRecord(c, watchProjects);
       if (!p) continue;
       c.watch = { id: p.id, name: p.name || p.id };
@@ -243,7 +231,6 @@ async function main() {
   const enrichQueue = [...alertableBySource.entries()]
     .filter(([entry]) => !entry.anomaly)
     .flatMap(([, list]) => list)
-    .filter(isChain)
     .sort((a, b) => rank(a) - rank(b)); // pre-launch en mainnet eerst in de wachtrij
 
   await enrichChains(enrichQueue, { limit: cfg.enrichLimit, budgetMs: cfg.enrichBudgetMs });
@@ -408,8 +395,7 @@ async function main() {
     if (watchRun || bypassedNow.size) await saveWatchState(watchState);
 
     await saveNames(state.names);
-    const kept = [...watchEvents, ...produced, ...launched, ...allDetected]
-      .filter((c) => !failed.has(c.key) && isChain(c));
+    const kept = [...watchEvents, ...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key));
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });
