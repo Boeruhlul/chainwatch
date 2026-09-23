@@ -30,6 +30,11 @@ const FORCE_BOOTSTRAP = argv.has('--bootstrap');
  */
 const ALWAYS_ALERT = new Set(['launched', 'stealth']);
 
+/** Testnet of devnet uit een bron in MUTED_TESTNET_SOURCES: wel opslaan, niet alerten. */
+function isMutedTestnet(c) {
+  return (c.kind === 'testnet' || c.kind === 'devnet') && cfg.mutedTestnetSources.has(c.source);
+}
+
 /** Deze fasen komen op de wachtlijst: er is een RPC, maar nog geen leven. */
 const PRELAUNCH_KINDS = new Set(['proposal', 'upcoming']);
 
@@ -47,6 +52,13 @@ const cfg = {
       .split(',').map((s) => s.trim()).filter(Boolean)
   ),
   crossListing: process.env.NOTIFY_CROSS_LISTING === 'true',
+  // Bronnen waarvan testnets/devnets wel in de state en op het dashboard komen,
+  // maar geen alert geven. Glacier: elke Builder-Console-klik is een testnet-L1
+  // (namen als 'QR0923Q1TS'), vrijwel altijd wegwerp. Leeg zetten = alles alerten.
+  mutedTestnetSources: new Set(
+    (process.env.MUTED_TESTNET_SOURCES ?? 'glacier')
+      .split(',').map((s) => s.trim()).filter(Boolean)
+  ),
   disabled: (process.env.DISABLED_SOURCES || '').split(','),
   maxAlerts: Number(process.env.MAX_ALERTS_PER_RUN || 25),
   // Verrijking is best-effort en mag de run van 10 minuten nooit opeten.
@@ -222,6 +234,7 @@ async function main() {
       entry,
       entry.detected
         .filter((c) => c.watch || ALWAYS_ALERT.has(c.kind) || cfg.kinds.has(c.kind))
+        .filter((c) => c.watch || !isMutedTestnet(c))
         .filter((c) => c.watchBypass || cfg.crossListing || !c.crossListing)
     );
   }

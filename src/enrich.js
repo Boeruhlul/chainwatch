@@ -48,6 +48,9 @@ const INFRA_DOMAINS = new Set([
   'amazonaws.com', 'cloudfront.net', 'vercel.app', 'netlify.app', 'notion.site',
   'medium.com', 'substack.com', 'x.com', 'twitter.com', 't.me', 'discord.gg',
   'thirdweb.com', 'safe.global', 'omniatech.io', 'rpc.org', 'dwellir.com',
+  // Ecosysteem-hosting: RPC en explorer van elke Avalanche-L1 hangen hieronder,
+  // maar het is de site van Avalanche zelf, niet van het project.
+  'avax.network',
 ]);
 
 /** Kandidaat-websites, beste eerst: expliciet veld > explorer > rpc. */
