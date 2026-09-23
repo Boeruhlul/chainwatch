@@ -19,6 +19,18 @@
   },
   "ritual": {
     "hosts": {
+      "ritual.net": [
+        "docs.ritual.net",
+        "infernet-cli.docs.ritual.net",
+        "infernet-client.docs.ritual.net",
+        "infernet-ml.docs.ritual.net",
+        "infernet-services.docs.ritual.net",
+        "ritual-arweave.docs.ritual.net",
+        "ritual.net",
+        "www.discord.ritual.net",
+        "www.docs.ritual.net",
+        "www.ritual.net"
+      ],
       "ritualfoundation.org": [
         "agents.ritualfoundation.org",
         "docs.ritualfoundation.org",
