@@ -3,9 +3,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — sequencer.%: fetch failed; rpc.chain.%: fetch failed",
-    "failingSince": "2026-09-23T07:35:27.247Z"
+    "ok": true
   },
   "blob-submitters": {
     "ok": true
