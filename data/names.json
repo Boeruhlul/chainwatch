@@ -1782,6 +1782,7 @@
   "hypranetwork:main",
   "hyve:main",
   "hyvechain:main",
+  "hyvechain:pre",
   "icb:test",
   "icbnetwork:main",
   "ichain:test",
