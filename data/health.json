@@ -3,9 +3,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — rpc.mainnet.%: fetch failed; rpc.testnet.%: fetch failed",
-    "failingSince": "2026-09-23T21:40:26.396Z"
+    "ok": true
   },
   "blob-submitters": {
     "ok": true
