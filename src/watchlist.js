@@ -30,7 +30,7 @@ import { slug, nowIso, uniq } from './util.js';
 
 // Hostnamen die op productie-infra wijzen. Alles met test/sepolia/staging
 // erin wordt stil vastgelegd: dat is geen mainnet-signaal.
-const INTERESTING_HOST = /(^|[.-])(mainnet|rpc|explorer|scan|bridge|sequencer|node|api|ws|wss|app|portal)\d*([.-]|$)/;
+const INTERESTING_HOST = /(^|[.-])(mainnet|rpc|explorer|scan|bridge|swap|dex|sequencer|node|api|ws|wss|app|portal)\d*([.-]|$)/;
 const TEST_HOST = /(^|[.-])(test|testnet|sepolia|holesky|hoodi|goerli|devnet|dev|staging|stage|preview|qa|demo|faucet)([.-]|\d|$)/;
 
 const RPC_TIMEOUT_MS = 6000;

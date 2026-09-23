@@ -84,6 +84,17 @@
       "knownChainIds": [],
       "rpc": [],
       "note": "Een van de zeven drivechains van LayerTwo Labs (tokens, NFT's, memecoins). Draait niet als EVM; alleen naamsignalen. Domeinsignalen komen via het ECX-project."
+    },
+    {
+      "id": "dac",
+      "name": "DAC Quantum Chain",
+      "aliases": ["dac interstellar", "dac inception", "dac quantum"],
+      "ecosystem": "EVM · quantum-resistant L1",
+      "website": "https://dachain.tech",
+      "domains": ["dachain.io", "dachain.tech"],
+      "knownChainIds": [21892, 21894],
+      "rpc": [],
+      "note": "DAC Labs (Zwitserland). Interstellar Mainnet 21892 live sinds ~22 sep 2026, maar gated achter de Interstellar Pass; Inception-testnet 21894. Op 23 sep nog geen wrapped DACC, LP-tokens of gebridgede stablecoin op dacscan.io: geen DEX of bridge in gebruik. Gevolgd voor bridge./swap./dex./app.-subdomeinen. Alias bewust niet kaal 'dac'."
     }
   ]
 }
