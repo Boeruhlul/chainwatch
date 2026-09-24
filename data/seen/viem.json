@@ -496,6 +496,7 @@
   "viem:ql1.ts",
   "viem:quai.ts",
   "viem:quaiTestnet.ts",
+  "viem:rabbitChainTestnet.ts",
   "viem:radius.ts",
   "viem:radiusTestnet.ts",
   "viem:reactiveTestnet.ts",
