@@ -3681,6 +3681,7 @@
   "synternet:main",
   "synternet:test",
   "syraxchain:pre",
+  "syraxchain:test",
   "syscoin:main",
   "syscoin:test",
   "syscoinnevm:main",
