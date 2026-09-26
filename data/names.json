@@ -1456,6 +1456,7 @@
   "foundry:main",
   "foundrychain:test",
   "foxtestnetnetwork:test",
+  "fractalai:pre",
   "fractalaichain62124:pre",
   "fractalconfluence:main",
   "frame:test",
