@@ -3358,6 +3358,7 @@
   "satuchain:test",
   "scalind:main",
   "scalind:test",
+  "scdoshard0:pre",
   "scenium:main",
   "scolcoin:main",
   "scolcoinweichain:test",
