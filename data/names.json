@@ -359,6 +359,7 @@
   "bandchain:main",
   "banktest:test",
   "bantengchain:test",
+  "baradur:pre",
   "barretenberg:main",
   "barrontrumpeip1557717:pre",
   "base:main",
