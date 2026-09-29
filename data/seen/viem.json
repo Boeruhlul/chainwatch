@@ -341,6 +341,7 @@
   "viem:klaytn.ts",
   "viem:klaytnBaobab.ts",
   "viem:koi.ts",
+  "viem:kortana.ts",
   "viem:kroma.ts",
   "viem:kromaSepolia.ts",
   "viem:krown.ts",
