@@ -2466,6 +2466,7 @@
   "mon:test",
   "monad:main",
   "monad:test",
+  "monerocakewallet:main",
   "monolythium:main",
   "monolythium:test",
   "monolythiumsprintnet:test",
