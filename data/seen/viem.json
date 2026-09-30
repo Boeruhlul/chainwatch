@@ -136,6 +136,8 @@
   "viem:cronoszkEVMTestnet.ts",
   "viem:crossbell.ts",
   "viem:crossfi.ts",
+  "viem:crymad.ts",
+  "viem:crymadL2.ts",
   "viem:curtis.ts",
   "viem:cyber.ts",
   "viem:cyberTestnet.ts",
