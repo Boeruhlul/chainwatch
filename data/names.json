@@ -3381,6 +3381,7 @@
   "scalind:main",
   "scalind:test",
   "scdoshard0:pre",
+  "scdoshard0evm:pre",
   "scenium:main",
   "scolcoin:main",
   "scolcoinweichain:test",
