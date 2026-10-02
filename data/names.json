@@ -1582,6 +1582,7 @@
   "genesys:main",
   "genesyscode:main",
   "genesysnetwork:main",
+  "genlayer:pre",
   "genshiro:main",
   "gensyn:main",
   "gensyn:test",
