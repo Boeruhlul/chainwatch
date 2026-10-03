@@ -448,6 +448,7 @@
   "bitcoinchain:main",
   "bitcoinevm:main",
   "bitcoinprotocol:test",
+  "bitcoinswap:pre",
   "bitfinityevm:test",
   "bitfinitynetwork:main",
   "bitfinitynetwork:test",
