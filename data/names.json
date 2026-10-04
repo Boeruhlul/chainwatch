@@ -2423,6 +2423,7 @@
   "mfenx:main",
   "mfevchain:main",
   "mfxnetwork:main",
+  "miamachain202610:pre",
   "microtick:main",
   "midas:pre",
   "midas:test",
