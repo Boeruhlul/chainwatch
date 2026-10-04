@@ -3,9 +3,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — rpc.chain.%: HTTP 502 voor https://crt.sh/?q=rpc.chain.%25&output=json; rpc.mainnet.%: This operation was aborted",
-    "failingSince": "2026-10-04T17:30:39.905Z",
+    "ok": true,
     "lastNotifiedAt": "2026-09-25T16:10:27.765Z"
   },
   "blob-submitters": {
