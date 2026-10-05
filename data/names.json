@@ -2085,6 +2085,7 @@
   "konet:main",
   "konstellation:main",
   "konstellation:pre",
+  "konstellation:test",
   "kopi:main",
   "koplireactive:test",
   "kortana:main",
