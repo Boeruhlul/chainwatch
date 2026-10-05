@@ -3407,6 +3407,7 @@
   "satuchain:test",
   "scalind:main",
   "scalind:test",
+  "scdoshard0:main",
   "scdoshard0:pre",
   "scdoshard0evm:pre",
   "scenium:main",
