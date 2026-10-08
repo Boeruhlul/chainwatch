@@ -9,9 +9,7 @@
     "lastNotifiedAt": "2026-09-25T16:10:27.765Z"
   },
   "blob-submitters": {
-    "ok": false,
-    "error": "HTTP 503 voor https://api.blobscan.com/transactions?ps=100",
-    "failingSince": "2026-10-08T04:31:09.870Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-08T04:06:08.744Z"
   },
   "ethlists-pr": {
