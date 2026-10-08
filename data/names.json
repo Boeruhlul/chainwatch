@@ -2688,6 +2688,7 @@
   "noble:main",
   "noble:test",
   "nodeflarepublicrpcendpointsfor15chains:pre",
+  "noion:pre",
   "nois:main",
   "nois:test",
   "nollieskatechain:test",
