@@ -4134,6 +4134,7 @@
   "vorachain:pre",
   "vordium:main",
   "vordium:pre",
+  "vordium:test",
   "vrcscan:main",
   "vultureevmbeta:main",
   "vyvosmartchain:main",
