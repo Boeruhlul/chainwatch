@@ -1236,6 +1236,7 @@
   "edollar:main",
   "educhain:main",
   "educhain:test",
+  "efikchain:pre",
   "efikcoinmainnet20488:pre",
   "eggychain:pre",
   "egmtester:test",
