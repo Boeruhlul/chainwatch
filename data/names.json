@@ -3184,6 +3184,7 @@
   "ql1:main",
   "ql1:pre",
   "qms:pre",
+  "qms:test",
   "qomone:main",
   "qorechain9801andqorechaintestnet9800:pre",
   "qorechain:main",
