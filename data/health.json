@@ -3,14 +3,14 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — testnet-rpc.%: HTTP 502 voor https://crt.sh/?q=testnet-rpc.%25&output=json; rpc-mainnet.%: HTTP 502 voor https://crt.sh/?q=rpc-mainnet.%25&output=json",
-    "failingSince": "2026-10-12T22:16:11.919Z",
+    "ok": true,
     "lastNotifiedAt": "2026-09-25T16:10:27.765Z"
   },
   "blob-submitters": {
-    "ok": true,
-    "lastNotifiedAt": "2026-10-08T04:06:08.744Z"
+    "ok": false,
+    "error": "HTTP 503 voor https://api.blobscan.com/transactions?ps=100",
+    "failingSince": "2026-10-12T22:26:09.578Z",
+    "lastNotifiedAt": "2026-10-12T22:26:09.578Z"
   },
   "ethlists-pr": {
     "ok": true
