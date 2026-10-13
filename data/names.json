@@ -2899,6 +2899,7 @@
   "osmosis:test",
   "osmosistestnet4:test",
   "otc:main",
+  "otckas:pre",
   "otim:test",
   "outbe:test",
   "outsidegraytapir:test",
