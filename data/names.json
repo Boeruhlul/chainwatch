@@ -3962,6 +3962,7 @@
   "tombchain:main",
   "ton:main",
   "tonsquare:test",
+  "toogchain:pre",
   "toolglobal:main",
   "toolglobal:test",
   "top:main",
