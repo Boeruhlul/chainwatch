@@ -4223,6 +4223,7 @@
   "winrchain:main",
   "winrprotocol:main",
   "winrprotocol:test",
+  "wirefluid:pre",
   "wireshapefloripa:test",
   "wirex:main",
   "wirexpay:main",
