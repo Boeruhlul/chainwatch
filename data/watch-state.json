@@ -88,6 +88,7 @@
   "dac": {
     "hosts": {
       "dachain.io": [
+        "account.dachain.io",
         "backoffice.dachain.io",
         "dachain.io",
         "entropy.dachain.io",
@@ -105,6 +106,7 @@
         "studio.dachain.io",
         "test-interstellar.dachain.io",
         "vehicle-api.dachain.io",
+        "vehicle.dachain.io",
         "waitlist.dachain.io",
         "www.dachain.io"
       ],
