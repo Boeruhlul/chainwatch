@@ -3691,6 +3691,7 @@
   "spotlightsepolia:pre",
   "sps:main",
   "sps:test",
+  "srcchain:pre",
   "srichain:main",
   "stability:test",
   "stabilityglobaltrustnetwork:main",
