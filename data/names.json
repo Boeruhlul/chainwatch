@@ -1119,6 +1119,7 @@
   "divchain:main",
   "divine:main",
   "divine:test",
+  "divinewhitecockroach:test",
   "djt:test",
   "dkargowarehouse:test",
   "dkpchain:main",
