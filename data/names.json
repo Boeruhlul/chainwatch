@@ -1402,6 +1402,7 @@
   "etica:main",
   "etica:test",
   "etndchainmainnets:main",
+  "etotest:test",
   "etp:main",
   "ettest:test",
   "euphoria:test",
