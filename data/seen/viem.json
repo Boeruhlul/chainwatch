@@ -528,6 +528,8 @@
   "viem:rootstockTestnet.ts",
   "viem:rss3.ts",
   "viem:rss3Sepolia.ts",
+  "viem:rwaChain.ts",
+  "viem:rwaChainSepolia.ts",
   "viem:saakuru.ts",
   "viem:saga.ts",
   "viem:saigon.ts",
