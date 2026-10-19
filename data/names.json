@@ -380,6 +380,7 @@
   "basesolbridge:main",
   "battlechain:main",
   "battlechain:test",
+  "bb84:main",
   "bb84:pre",
   "bcflabinnovation:test",
   "bchain:main",
