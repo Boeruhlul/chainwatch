@@ -6,7 +6,7 @@
     "ok": false,
     "error": "crt.sh onbereikbaar — rpc.testnet.%: HTTP 502 voor https://crt.sh/?q=rpc.testnet.%25&output=json; mainnet-rpc.%: HTTP 502 voor https://crt.sh/?q=mainnet-rpc.%25&output=json",
     "failingSince": "2026-10-19T14:01:53.359Z",
-    "lastNotifiedAt": "2026-10-20T14:00:49.663Z"
+    "lastNotifiedAt": "2026-10-20T20:00:42.437Z"
   },
   "blob-submitters": {
     "ok": true,
