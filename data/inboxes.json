@@ -1,1 +1,1 @@
-[]
+[{"key":"factory:orbit-ethereum:0x8db0181c103fc835c7259a5c85bc55ca49c1c499ebe7335d7351bd55d0e2e5b4:0x292","chain":"ethereum","sequencerInbox":"0x5fd4f8c159162d31aebdc4c2ebe190246585d4c4","rollup":"0xb349cadbd040f0097a02df120be14d3a5cda541a","chainId":42424242,"name":"Nieuwe rollup (chain ID 42424242)","deployer":"0x933198df3ed28084f3876b0b1fc5caf337b03643","url":"https://etherscan.io/address/0xb349cadbd040f0097a02df120be14d3a5cda541a","explorer":"https://etherscan.io","baseline":0,"addedAt":"2026-10-20T23:37:47.389Z"}]
