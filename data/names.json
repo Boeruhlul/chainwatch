@@ -4477,6 +4477,7 @@
   "zksync2:main",
   "zksync:main",
   "zksyncera:main",
+  "zksyncera:pre",
   "zksyncerasepolia:test",
   "zksyncinmemorynode:main",
   "zksynclite:main",
