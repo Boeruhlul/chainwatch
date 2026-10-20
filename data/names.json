@@ -2697,6 +2697,7 @@
   "neutrinos:test",
   "neutron:main",
   "neutron:test",
+  "neutronx:pre",
   "newrealityblockchain:pre",
   "newton:main",
   "newton:test",
