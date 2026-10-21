@@ -52,9 +52,7 @@
     "ok": true
   },
   "coingecko": {
-    "ok": false,
-    "error": "HTTP 429 voor https://api.coingecko.com/api/v3/asset_platforms",
-    "failingSince": "2026-10-21T13:40:42.834Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
   }
 }
