@@ -1690,6 +1690,7 @@
   "gmnetwork:main",
   "gmnetwork:test",
   "gnodi:main",
+  "gnoland:main",
   "gnosis:main",
   "gnosis:test",
   "gnosischain:main",
