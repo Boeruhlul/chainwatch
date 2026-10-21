@@ -2616,6 +2616,7 @@
   "mpcq:main",
   "mst:main",
   "mst:test",
+  "mstcoral:pre",
   "mtgbp:main",
   "mttnetwork:main",
   "mucoin:main",
