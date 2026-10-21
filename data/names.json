@@ -2416,6 +2416,7 @@
   "maxxchain:main",
   "maxxchain:test",
   "mayachain:main",
+  "mayachain:pre",
   "mayan:main",
   "mazze:test",
   "mbank:test",
