@@ -334,6 +334,7 @@
   "robinhood-chain": {
     "hosts": {
       "chain.robinhood.com": [
+        "delayed-feed.mainnet.chain.robinhood.com",
         "explorer.mainnet.chain.robinhood.com",
         "explorer.testnet.chain.robinhood.com",
         "faucet.testnet.chain.robinhood.com",
