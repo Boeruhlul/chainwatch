@@ -3,9 +3,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — sequencer.%: HTTP 502 voor https://crt.sh/?q=sequencer.%25&output=json; rpc.chain.%: HTTP 502 voor https://crt.sh/?q=rpc.chain.%25&output=json",
-    "failingSince": "2026-10-22T04:00:41.588Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -37,7 +35,10 @@
     "ok": true
   },
   "hyperlane": {
-    "ok": true
+    "ok": false,
+    "error": "This operation was aborted",
+    "failingSince": "2026-10-22T04:05:40.064Z",
+    "lastNotifiedAt": "2026-10-22T04:05:40.064Z"
   },
   "blockscout": {
     "ok": true
