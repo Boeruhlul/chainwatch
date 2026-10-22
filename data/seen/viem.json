@@ -707,6 +707,7 @@
   "viem:zkXPLA.ts",
   "viem:zkXPLATestnet.ts",
   "viem:zksync.ts",
+  "viem:zksyncEraTestnet.ts",
   "viem:zksyncInMemoryNode.ts",
   "viem:zksyncLocalCustomHyperchain.ts",
   "viem:zksyncLocalHyperchain.ts",
