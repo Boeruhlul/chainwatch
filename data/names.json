@@ -4507,6 +4507,7 @@
   "zksync:main",
   "zksyncera:main",
   "zksyncera:pre",
+  "zksyncera:test",
   "zksyncerasepolia:test",
   "zksyncinmemorynode:main",
   "zksynclite:main",
