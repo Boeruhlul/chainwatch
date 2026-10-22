@@ -3051,6 +3051,7 @@
   "pharosjsonicon:pre",
   "phase:main",
   "phase:pre",
+  "phasefabric:pre",
   "phasefabric:test",
   "phinetworkv1:main",
   "phinetworkv2:main",
