@@ -163,6 +163,7 @@
         "coinnews.mainnet.drivechain.info",
         "coinnews.signet.drivechain.info",
         "drivechain.info",
+        "enforcer.signet.drivechain.info",
         "esplora.mainnet.drivechain.info",
         "esplora.signet.drivechain.info",
         "explorer.drivechain.info",
