@@ -644,6 +644,8 @@
   "viem:uniqueOpal.ts",
   "viem:uniqueQuartz.ts",
   "viem:unreal.ts",
+  "viem:valuechain.ts",
+  "viem:valuechainTestnet.ts",
   "viem:valygoNft.ts",
   "viem:valygoSmartchain.ts",
   "viem:vana.ts",
