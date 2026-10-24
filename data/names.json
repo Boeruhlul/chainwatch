@@ -1352,6 +1352,7 @@
   "eomainnetchain:main",
   "eon:main",
   "eonchain:main",
+  "eoraptor:pre",
   "eos:main",
   "eos:test",
   "eosevm:main",
