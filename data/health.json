@@ -7,7 +7,9 @@
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": true,
+    "ok": false,
+    "error": "This operation was aborted",
+    "failingSince": "2026-10-25T07:00:58.776Z",
     "lastNotifiedAt": "2026-10-25T06:45:58.449Z"
   },
   "ethlists-pr": {
