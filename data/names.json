@@ -1976,6 +1976,7 @@
   "injective:test",
   "injectiveevm:main",
   "ink:main",
+  "inkgsovereignevm:pre",
   "inksepolia:test",
   "innbcchain:main",
   "innovatorchain:main",
