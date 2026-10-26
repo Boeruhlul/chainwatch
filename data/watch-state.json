@@ -329,7 +329,9 @@
         "www.ritualfoundation.org"
       ]
     },
-    "firedChainIds": [],
+    "firedChainIds": [
+      "784"
+    ],
     "bypassed": []
   },
   "robinhood-chain": {
