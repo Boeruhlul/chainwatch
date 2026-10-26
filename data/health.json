@@ -3,7 +3,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — sequencer.%: HTTP 502 voor https://crt.sh/?q=sequencer.%25&output=json; rpc.chain.%: HTTP 502 voor https://crt.sh/?q=rpc.chain.%25&output=json",
+    "failingSince": "2026-10-26T08:55:56.856Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
