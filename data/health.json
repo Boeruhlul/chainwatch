@@ -3,7 +3,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — testnet-rpc.%: HTTP 502 voor https://crt.sh/?q=testnet-rpc.%25&output=json; rpc-mainnet.%: tijdsbudget op",
+    "failingSince": "2026-10-26T22:15:18.559Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
