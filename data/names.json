@@ -345,6 +345,7 @@
   "aztec:main",
   "aztecconnect:main",
   "aztecnetwork:main",
+  "aztecnetworkv6:main",
   "aztecv1prover:main",
   "b20:test",
   "b2:main",
