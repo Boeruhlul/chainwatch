@@ -4509,6 +4509,7 @@
   "zigchain:main",
   "zigchain:pre",
   "zigchain:test",
+  "zigchaintestnetevm:pre",
   "zillionsepolia:test",
   "zilliqa2:main",
   "zilliqa2:test",
