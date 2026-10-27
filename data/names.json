@@ -3278,6 +3278,7 @@
   "qomone:main",
   "qorechain9801andqorechaintestnet9800:pre",
   "qorechain:main",
+  "qorechain:pre",
   "qorechain:test",
   "qorechaineip1559801:pre",
   "qprotocol:main",
