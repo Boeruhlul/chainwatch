@@ -417,6 +417,7 @@
   "viem:mizuhikiTestnetAwaji.ts",
   "viem:mode.ts",
   "viem:modeTestnet.ts",
+  "viem:molibra.ts",
   "viem:monad.ts",
   "viem:monadTestnet.ts",
   "viem:moonbaseAlpha.ts",

@@ -3,7 +3,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — mainnet-rpc.%: HTTP 404 voor https://crt.sh/?q=mainnet-rpc.%25&output=json; testnet-rpc.%: tijdsbudget op",
+    "failingSince": "2026-10-27T07:15:18.988Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
