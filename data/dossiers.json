@@ -1672,6 +1672,53 @@
     "register"
    ]
   },
+  "bluechain": {
+   "id": "bluechain",
+   "name": "BlueChain",
+   "aliases": [
+    "BlueChain"
+   ],
+   "keys": [
+    "d:org.mx",
+    "id:2583",
+    "n:bluechain"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 2583",
+     "url": "https://github.com/ethereum-lists/chains/pull/8940",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "2583"
+   ],
+   "website": "https://chain.blue.org.mx",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.chain.blue.org.mx"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
    "name": "BNB Chain NewL1",
