@@ -1358,6 +1358,20 @@
    "date": "2026-10-28"
   },
   {
+   "key": "forum:delvingbitcoin.org:3008",
+   "title": "Bitcoin Core v32.1 Released",
+   "url": "https://delvingbitcoin.org/t/bitcoin-core-v32-1-released/3008",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30082",
    "title": "FOCIL Breakout #45, October 27, 2026",
    "url": "https://ethereum-magicians.org/t/focil-breakout-45-october-27-2026/30082",
@@ -1750,6 +1764,20 @@
    "date": "2026-10-28"
   },
   {
+   "key": "forum:forum.zknation.io:1248",
+   "title": "zkysnc eth lost ,need help",
+   "url": "https://forum.zknation.io/t/zkysnc-eth-lost-need-help/1248",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
    "key": "forum:gov.optimism.io:10939",
    "title": "Maintenance Upgrade Proposal: OP Mainnet Proposer Rotation",
    "url": "https://gov.optimism.io/t/maintenance-upgrade-proposal-op-mainnet-proposer-rotation/10939",
@@ -2065,6 +2093,7 @@
    "forum:delvingbitcoin.org:2985",
    "forum:delvingbitcoin.org:2987",
    "forum:delvingbitcoin.org:3007",
+   "forum:delvingbitcoin.org:3008",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -2120,6 +2149,7 @@
    "forum:forum.zknation.io:1234",
    "forum:forum.zknation.io:1240",
    "forum:forum.zknation.io:1241",
+   "forum:forum.zknation.io:1248",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939"
