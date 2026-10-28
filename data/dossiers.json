@@ -4341,6 +4341,15 @@
     },
     {
      "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0x60e5921a…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x60e5921aacc5d6360ca1540197bb721669c3f133",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -4418,6 +4427,11 @@
      {
       "addr": "0x9ab150a7e487fbdc1094077c8a18898297118784",
       "type": "Uniswap v2-fork",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0x60e5921aacc5d6360ca1540197bb721669c3f133",
+      "type": "Uniswap v3-fork",
       "date": "2026-10-28"
      }
     ],
