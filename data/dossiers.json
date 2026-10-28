@@ -391,6 +391,15 @@
    "evidence": [
     {
      "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x8366a39c…",
+     "url": "https://explorer.arc.io/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -454,12 +463,24 @@
    "mainnetSince": "2026-10-28",
    "confidence": "A",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel A"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v4) 0x8366a39c…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
+    "onchain",
     "onderzoek"
-   ]
+   ],
+   "liveRpc": "https://rpc.mainnet.arc.io",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "type": "Uniswap v4",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "armoniaevachain": {
    "id": "armoniaevachain",
@@ -472,7 +493,7 @@
     "n:armoniaevachain"
    ],
    "firstSeen": "2026-09-22",
-   "lastActivity": "2026-09-22",
+   "lastActivity": "2026-10-28",
    "stage": "draait",
    "stageHistory": [
     {
@@ -489,6 +510,15 @@
      "what": "chainlist: RPC antwoordt · ID 2248",
      "url": "https://chainlist.org/chain/160",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x5dc090c9…",
+     "url": null,
+     "strength": "running"
     }
    ],
    "website": "https://amax.network",
@@ -499,11 +529,23 @@
    "liveRpc": "https://evascan.io/api/eth-rpc/",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (chainlist: RPC antwoordt · ID 2248)"
+    "draaiend netwerk aangetoond (chainlist: RPC antwoordt · ID 2248)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x5dc090c9d7af7898e623f075b18a412a17c3911d",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "asentum": {
    "id": "asentum",
@@ -13756,7 +13798,8 @@
    "families": [
     "register",
     "code"
-   ]
+   ],
+   "liveRpc": "https://rpc.zksync-era-testnet.zksync.dev"
   }
  },
  "outbox": [],
