@@ -3,9 +3,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — rpc-mainnet.%: HTTP 502 voor https://crt.sh/?q=rpc-mainnet.%25&output=json; sequencer.%: HTTP 502 voor https://crt.sh/?q=sequencer.%25&output=json",
-    "failingSince": "2026-10-28T10:11:19.779Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -55,5 +53,8 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
+  },
+  "research": {
+    "ok": true
   }
 }
