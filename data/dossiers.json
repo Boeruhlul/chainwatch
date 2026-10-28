@@ -8732,6 +8732,45 @@
     "register"
    ]
   },
+  "nicolasholmanfuinzcash": {
+   "id": "nicolasholmanfuinzcash",
+   "name": "nicolasholman/fuin-zcash",
+   "aliases": [
+    "nicolasholman/fuin-zcash"
+   ],
+   "keys": [
+    "gh:nicolasholman"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/nicolasholman/fuin-zcash",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://fuin-landing.vercel.app",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "nieuwerollupchainid14204": {
    "id": "nieuwerollupchainid14204",
    "name": "Nieuwe rollup (chain ID 14204)",
@@ -8782,6 +8821,45 @@
    "families": [
     "onchain",
     "overig"
+   ]
+  },
+  "niveshgajengifuinzcash": {
+   "id": "niveshgajengifuinzcash",
+   "name": "niveshgajengi/fuin-zcash",
+   "aliases": [
+    "niveshgajengi/fuin-zcash"
+   ],
+   "keys": [
+    "gh:niveshgajengi"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/niveshgajengi/fuin-zcash",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://fuin-landing.vercel.app",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "noion": {
