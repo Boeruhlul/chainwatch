@@ -10587,6 +10587,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x93afd9ac…",
      "url": "https://testnet.qmsscan.io/address/0x93afd9ac50822f82c7c4f2ec8ec2463b086fb878",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/anjaswi/qms-mini-registry",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -10605,7 +10614,8 @@
    ],
    "families": [
     "code",
-    "onchain"
+    "onchain",
+    "github"
    ],
    "liveRpc": "https://rpc.testnet.qms.finance",
    "eco": {
