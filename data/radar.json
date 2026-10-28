@@ -517,6 +517,102 @@
     "addr": "0xbf1de0140e364146e171153995ed688dad3bb100"
    },
    "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV3Pool op Incentiv",
+   "url": "https://explorer.incentiv.io/address/0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
+   "meta": {
+    "chain": "Incentiv",
+    "addr": "0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "JackpotPool op Midas",
+   "url": "https://explorer.testnet.onmidas.xyz/address/0x3a89e725ad72659cd3134d78da1979514721b7ba",
+   "meta": {
+    "chain": "Midas",
+    "addr": "0x3a89e725ad72659cd3134d78da1979514721b7ba"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleAdapter op Midas",
+   "url": "https://explorer.testnet.onmidas.xyz/address/0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
+   "meta": {
+    "chain": "Midas",
+    "addr": "0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "TotePool op Midas",
+   "url": "https://explorer.testnet.onmidas.xyz/address/0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
+   "meta": {
+    "chain": "Midas",
+    "addr": "0xc968b1667f5b0a6392b793b55dab81ad20dc445b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:mstcoral:0x0000000000000000000000000000000000002003",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StakeCredit op MST Coral",
+   "url": "https://coral.mstscan.com/address/0x0000000000000000000000000000000000002003",
+   "meta": {
+    "chain": "MST Coral",
+    "addr": "0x0000000000000000000000000000000000002003"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "EscrowFactory op MST Coral",
+   "url": "https://coral.mstscan.com/address/0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
+   "meta": {
+    "chain": "MST Coral",
+    "addr": "0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ValidatorNodeFactory op MST Coral",
+   "url": "https://coral.mstscan.com/address/0x89bef065692ea84d91265eccd85435fb7c8f2e93",
+   "meta": {
+    "chain": "MST Coral",
+    "addr": "0x89bef065692ea84d91265eccd85435fb7c8f2e93"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ValidatorNodesRewardsVault op MST Coral",
+   "url": "https://coral.mstscan.com/address/0xfffdc1e38496892851f318571ca5106b771941b3",
+   "meta": {
+    "chain": "MST Coral",
+    "addr": "0xfffdc1e38496892851f318571ca5106b771941b3"
+   },
+   "date": "2026-10-28"
   }
  ],
  "seen": {
@@ -563,7 +659,15 @@
    "chaincontract:gridmind:0x916cad216f7d88878f1075515537a59d25dfeb89",
    "chaincontract:gridmind:0xa269c6831636af8c492e0862684eb518737c44a5",
    "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
-   "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100"
+   "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100",
+   "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
+   "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
+   "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
+   "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
+   "chaincontract:mstcoral:0x0000000000000000000000000000000000002003",
+   "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
+   "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
+   "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3"
   ]
  }
 }
