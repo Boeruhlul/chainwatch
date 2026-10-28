@@ -6,6 +6,15 @@
   },
   "forums": {
    "ok": true
+  },
+  "audit-sherlock": {
+   "ok": true
+  },
+  "audit-repos": {
+   "ok": true
+  },
+  "proposals": {
+   "ok": true
   }
  },
  "airdrops": [
@@ -1753,9 +1762,191 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12589",
+   "title": "Add EIP: Batched KZG Point Evaluation via EIP-2537",
+   "url": "https://github.com/ethereum/EIPs/pull/12589",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12590",
+   "title": "Update EIP-8288: Validate recursive inputs and mempool wrappers",
+   "url": "https://github.com/ethereum/EIPs/pull/12590",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12592",
+   "title": "Update EIP-8450: Update EIP-8450 ",
+   "url": "https://github.com/ethereum/EIPs/pull/12592",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2115",
+   "title": "Update ERC-7963: Move to Last Call",
+   "url": "https://github.com/ethereum/ERCs/pull/2115",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2116",
+   "title": "Update ERC-8330: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2116",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2117",
+   "title": "Update ERC-8376: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2117",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2118",
+   "title": "Update ERC-8048: Simplify the spec and examples",
+   "url": "https://github.com/ethereum/ERCs/pull/2118",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2119",
+   "title": "Update ERC-8048: Fix the sidecar address wording in the Rationale",
+   "url": "https://github.com/ethereum/ERCs/pull/2119",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2120",
+   "title": "test: verify organization-managed PR workflow (do not merge)",
+   "url": "https://github.com/ethereum/ERCs/pull/2120",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2121",
+   "title": "Add ERC: Launch Observations",
+   "url": "https://github.com/ethereum/ERCs/pull/2121",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2122",
+   "title": "Update ERC-7943: fix duplicate-id batch freeze bypass in uRWA1155",
+   "url": "https://github.com/ethereum/ERCs/pull/2122",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#706",
+   "title": "SIMD-0706: disable `sol_alloc_free_` again",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/706",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#707",
+   "title": "Amend 0529: charge a flat cu first before execution",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/707",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#709",
+   "title": "SIMD-0709: Process for SIMDs that add cryptographic syscalls",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/709",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#710",
+   "title": "Mark SIMDs as Activated",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/710",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
   }
  ],
  "seen": {
+  "audit-repos": [],
+  "audit-sherlock": [],
   "chain-contracts": [
    "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
    "chaincontract:dogeos:0x00094197a82fade614c214cfe27719deda898686",
@@ -1932,6 +2123,56 @@
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939"
+  ],
+  "proposals": [
+   "pr:bitcoin/bips#2336",
+   "pr:bitcoin/bips#2337",
+   "pr:bitcoin/bips#2338",
+   "pr:bitcoin/bips#2339",
+   "pr:ethereum/eips#12572",
+   "pr:ethereum/eips#12573",
+   "pr:ethereum/eips#12574",
+   "pr:ethereum/eips#12575",
+   "pr:ethereum/eips#12576",
+   "pr:ethereum/eips#12577",
+   "pr:ethereum/eips#12578",
+   "pr:ethereum/eips#12579",
+   "pr:ethereum/eips#12580",
+   "pr:ethereum/eips#12581",
+   "pr:ethereum/eips#12582",
+   "pr:ethereum/eips#12583",
+   "pr:ethereum/eips#12584",
+   "pr:ethereum/eips#12585",
+   "pr:ethereum/eips#12586",
+   "pr:ethereum/eips#12587",
+   "pr:ethereum/eips#12588",
+   "pr:ethereum/eips#12589",
+   "pr:ethereum/eips#12590",
+   "pr:ethereum/eips#12592",
+   "pr:ethereum/ercs#2103",
+   "pr:ethereum/ercs#2104",
+   "pr:ethereum/ercs#2105",
+   "pr:ethereum/ercs#2106",
+   "pr:ethereum/ercs#2107",
+   "pr:ethereum/ercs#2108",
+   "pr:ethereum/ercs#2109",
+   "pr:ethereum/ercs#2110",
+   "pr:ethereum/ercs#2111",
+   "pr:ethereum/ercs#2112",
+   "pr:ethereum/ercs#2113",
+   "pr:ethereum/ercs#2114",
+   "pr:ethereum/ercs#2115",
+   "pr:ethereum/ercs#2116",
+   "pr:ethereum/ercs#2117",
+   "pr:ethereum/ercs#2118",
+   "pr:ethereum/ercs#2119",
+   "pr:ethereum/ercs#2120",
+   "pr:ethereum/ercs#2121",
+   "pr:ethereum/ercs#2122",
+   "pr:solana-foundation/solana-improvement-documents#706",
+   "pr:solana-foundation/solana-improvement-documents#707",
+   "pr:solana-foundation/solana-improvement-documents#709",
+   "pr:solana-foundation/solana-improvement-documents#710"
   ],
   "verified-contracts": []
  }
