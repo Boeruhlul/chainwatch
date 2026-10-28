@@ -1,0 +1,1413 @@
+[
+  {
+    "name": "BNB Chain NewL1",
+    "aliases": [
+      "New L1",
+      "NewL1",
+      "BNB next-gen L1"
+    ],
+    "org": "BNB Chain (Binance ecosystem)",
+    "architecture": "L1 · EVM-compatible, parallel execution, no public mempool (TxStream)",
+    "stage": "devnet",
+    "confidence": "A",
+    "why": "Fourth chain in the BNB stack, still unnamed; only an internal multi-validator devnet exists and public testnet is due end-2026 — prime window to prepare tooling before first DEX/launchpads appear.",
+    "facts": [
+      {
+        "claim": "BNB Chain is building a new Layer 1 alongside BSC, opBNB and Greenfield; testnet end of 2026, mainnet early 2027; sub-50ms preconfirmation, 200ms leader rotation, >100k TPS target, native bridge to BSC",
+        "url": "https://theblock.co/post/407406/bnb-chain-builds-new-layer-1-for-agentic-trading-targets-2027-mainnet",
+        "date": "2026-07-08"
+      },
+      {
+        "claim": "Official H2 2026 roadmap describes 'a next-generation L1 architecture' with testnet by end of 2026 and mainnet early 2027",
+        "url": "https://www.bnbchain.org/en/blog/bnb-chain-h2-2026-tech-roadmap-doubling-down-on-speed",
+        "date": "2026-07-08"
+      },
+      {
+        "claim": "Forum category 'BNBChain NewL1' opened: fully EVM-compatible, BNB is native token, no new token, threads on TxOrder, Consensus, P2P, VM, Storage, Privacy, Post-Quantum",
+        "url": "https://forum.bnbchain.org/t/about-the-bnbchain-newl1-category/5437",
+        "date": "2026-07-14"
+      },
+      {
+        "claim": "No official name yet; only an internal multi-validator devnet is running; BNB docs updated Oct 22; CZ: 'Multiple chains, one coin'",
+        "url": "https://crypto.news/cz-bnb-chain-new-l1-no-separate-token/",
+        "date": "2026-10-26"
+      }
+    ],
+    "hypotheses": [
+      "Final brand name likely revealed together with public testnet (Dec 2026).",
+      "Because BNB is gas token, BSC-native launchpads (four.meme style) and PancakeSwap are likely first movers via the native bridge.",
+      "Testnet chain ID will probably appear in ethereum-lists/chains or BNB docs shortly before launch."
+    ],
+    "chainIds": [],
+    "website": "https://forum.bnbchain.org/t/about-the-bnbchain-newl1-category/5437",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "Testnet end of 2026; mainnet early 2027 (official roadmap)",
+    "nextSignals": [
+      "Name announcement",
+      "Testnet chain ID / RPC in docs.bnbchain.org",
+      "New GitHub repo under bnb-chain org",
+      "PancakeSwap / four.meme deployment announcements",
+      "Forum posts in NewL1 category by core devs"
+    ]
+  },
+  {
+    "name": "FLOP Network",
+    "aliases": [
+      "Flop Labs",
+      "FLOP"
+    ],
+    "org": "Flop Labs (CEO: Arthur Hayes)",
+    "architecture": "L1 · proof-of-useful-inference (GPU miners run AI inference)",
+    "stage": "development",
+    "confidence": "B",
+    "why": "High-profile founder, explicit airdrop, testnet said to be weeks away as of mid-October — likely to attract early launchpads/DEXes immediately at testnet.",
+    "facts": [
+      {
+        "claim": "Arthur Hayes leads Flop Labs as CEO; 'proof-of-useful-inference protocol'; massive airdrop teased for Q4 2026; genesis expected early 2027",
+        "url": "https://cointelegraph.com/news/arthur-hayes-ceo-role-flop-labs-q4-airdrop",
+        "date": "2026-08-19"
+      },
+      {
+        "claim": "Testnet scheduled to launch in October, running ~90 days; mainnet targeted Q1 next year",
+        "url": "https://pro.edgex.exchange/en-US/news/article/arthur-hayes-flop-labs-testnet-q1-mainnet",
+        "date": "2026-10-07"
+      },
+      {
+        "claim": "Hayes said testnet ships in 'a few weeks'; no exact date; mainnet genesis targeted Q1 2027; no presale or VC allocation",
+        "url": "https://www.coingabbar.com/en/flop-testnet-launch-weeks-arthur-hayes-ai-blockchain",
+        "date": "2026-10-12"
+      }
+    ],
+    "hypotheses": [
+      "Testnet may launch any day (late Oct / Nov 2026).",
+      "An HTLC-based market for testnet FLOP tokens has reportedly been enabled (phemex headline) — implies early trading venue before mainnet."
+    ],
+    "chainIds": [],
+    "website": "https://x.com/flop_labs",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "Testnet Oct/Nov 2026; mainnet Q1 2027 (team statements)",
+    "nextSignals": [
+      "Testnet RPC / chain ID publication",
+      "Yellow paper final version",
+      "Airdrop eligibility rules",
+      "First DEX/launchpad on testnet"
+    ]
+  },
+  {
+    "name": "Elysium",
+    "aliases": [
+      "Kinetiq Elysium",
+      "Hyperliquid L2"
+    ],
+    "org": "Kinetiq",
+    "architecture": "EVM L2 · Arbitrum Orbit, settles to HyperEVM, HYPE gas",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Known to user, but mainnet is set for Nov 9 with named launchpads and DEXes live from block one — the most immediately actionable launch in the next two weeks.",
+    "facts": [
+      {
+        "claim": "Kinetiq announced Elysium on Aug 24, 2026",
+        "url": "https://forklog.com/en/kinetiq-team-announces-elysium-l2-network-for-hyperliquid/?flv=777",
+        "date": "2026-08-25"
+      },
+      {
+        "claim": "Testnet opened Sept 22, 2026; testnet chain ID 99801; parent HyperEVM 998/999; Conduit runs sequencer; viem 'elysiumTestnet' export points to a different chain (1338)",
+        "url": "https://www.dwellir.com/blog/what-is-elysium",
+        "date": "2026-10"
+      },
+      {
+        "claim": "Mainnet Nov 9; Nest DEX live from first block; Dawn DEX and Speculate committed; Montra and Citadel launchpads in inaugural lineup; no token/points",
+        "url": "https://www.bankless.com/read/news/kinetiqs-elysium-l2-sets-nov-9-mainnet-launch",
+        "date": "2026-10"
+      }
+    ],
+    "hypotheses": [
+      "Mainnet chain ID likely published only days before Nov 9."
+    ],
+    "chainIds": [
+      99801
+    ],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "Nest (day one), Dawn (committed)",
+      "launchpad": "Montra, Citadel",
+      "bridge": "HYPE 1:1 bridge from HyperEVM"
+    },
+    "expectedLaunch": "2026-11-09 (team announcement)",
+    "nextSignals": [
+      "Mainnet chain ID",
+      "Montra/Citadel contract deployments",
+      "HyperCore read access ~4 weeks post-mainnet"
+    ]
+  },
+  {
+    "name": "Zero (LayerZero)",
+    "aliases": [
+      "LayerZero Zero",
+      "Zero L1",
+      "lzATLAS"
+    ],
+    "org": "LayerZero Labs (with Citadel Securities, DTCC, ICE, ARK)",
+    "architecture": "L1 · ZK-verified heterogeneous 'Atomicity Zones'",
+    "stage": "development",
+    "confidence": "A",
+    "why": "New L1 from a top-tier infra team with a hard mainnet date one month out; first app (lzATLAS exchange engine) plus a dozen trading venues expected at launch.",
+    "facts": [
+      {
+        "claim": "LayerZero announced Zero blockchain with Citadel Securities and others",
+        "url": "https://www.enidnews.com/region/layerzero-announces-zero-blockchain-to-build-global-market-infrastructure-in-collaboration-with-citadel-securities-the/article_d438094d-c029-593a-8b8b-117fa26e9141.html",
+        "date": "2026-02-10"
+      },
+      {
+        "claim": "ATLAS exchange infrastructure announced, built on Zero; collaborators Citadel Securities, DTCC, ARK Invest, ICE",
+        "url": "https://theblock.co/news/ecosystems/2026-08-25-zro-token-layerzero-atlas-exchange-infrastructure-zero-blockchain-412736",
+        "date": "2026-08-25"
+      },
+      {
+        "claim": "Zero mainnet and lzATLAS scheduled for Nov 30, 2026 (announced Oct 20/21)",
+        "url": "https://www.bittime.com/en/blog/layerzero-zero-mainnet",
+        "date": "2026-10-21"
+      }
+    ],
+    "hypotheses": [
+      "Probably not EVM-first; launchpad/meme activity may be limited at launch given institutional focus.",
+      "Open ATLAS venues could double as first DEXes."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "2026-11-30 (LayerZero announcement)",
+    "nextSignals": [
+      "Developer docs / RPC for Zero",
+      "Names of the 'dozen+' launch venues",
+      "Testnet or devnet access for builders"
+    ]
+  },
+  {
+    "name": "DogeOS",
+    "aliases": [
+      "Dogecoin app layer"
+    ],
+    "org": "DogeOS (MyDoge team, CEO Jordan Jefferson)",
+    "architecture": "Rollup on Dogecoin · zkVM, EVM-compatible, DOGE gas",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Fresh public testnet (Sep 30) with two launchpads already building — classic pre-mainnet window for meme-launchpad discovery.",
+    "facts": [
+      {
+        "claim": "Public testnet opened Sept 30, 2026; zkVM, EVM-compatible; fees in DOGE; no mainnet date",
+        "url": "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet",
+        "date": "2026-09-30"
+      },
+      {
+        "claim": "Projects building: Barkswap (liquidity engine), Derps (perps), Anoncoin and Starbase (launchpads), Superposition (lending), USDoge; website dogeos.com",
+        "url": "https://www.globenewswire.com/news-release/2026/09/30/3372073/0/en/dogeos-opens-public-testnet-as-builders-bring-new-apps-to-dogecoin.html",
+        "date": "2026-09-30"
+      },
+      {
+        "claim": "DogeOS Testnet chain ID 6281971, RPC https://dogeos-testnet.drpc.org (third-party)",
+        "url": "https://drpc.org/chainlist/dogeos-testnet-rpc",
+        "date": "2026-10"
+      }
+    ],
+    "hypotheses": [
+      "Mainnet plausibly in H1 2027; meme culture fit makes launchpads the first breakout apps."
+    ],
+    "chainIds": [
+      6281971
+    ],
+    "website": "https://dogeos.com",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "Barkswap (liquidity engine, building)",
+      "launchpad": "Anoncoin, Starbase (building)",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "Anoncoin/Starbase testnet deployments",
+      "Official explorer URL"
+    ]
+  },
+  {
+    "name": "Bitpanda Vision Chain",
+    "aliases": [
+      "Vision Chain",
+      "VSN chain"
+    ],
+    "org": "Bitpanda",
+    "architecture": "EVM L2 · OP Stack (first fully managed OP Enterprise chain)",
+    "stage": "development",
+    "confidence": "A",
+    "why": "European broker chain targeting mainnet 'later this year' with retail distribution via the Bitpanda app — not yet live and barely covered.",
+    "facts": [
+      {
+        "claim": "Bitpanda to launch Vision Chain as first fully managed OP Enterprise chain; targeting mainnet later this year; rollout: institutional issuance (RWA, EUR stablecoin), then ecosystem, then retail",
+        "url": "https://optimism.io/blog/bitpanda-launches-vision-chain-as-the-first-fully-managed-op-enterprise-chain",
+        "date": "2026-03-24"
+      }
+    ],
+    "hypotheses": [
+      "VSN token likely becomes gas or ecosystem token.",
+      "Late Q4 2026 mainnet possible; could slip to 2027."
+    ],
+    "chainIds": [],
+    "website": "https://www.bitpanda.com/web3/vision-chain",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "'Later this year' (2026) per Optimism blog",
+    "nextSignals": [
+      "Testnet chain ID in superchain-registry",
+      "EUR stablecoin deployment",
+      "Bitpanda app integration announcement"
+    ]
+  },
+  {
+    "name": "Starknet independent L1",
+    "aliases": [
+      "Starknet L1",
+      "post-quantum Starknet"
+    ],
+    "org": "StarkWare / Starknet Foundation",
+    "architecture": "L1 (proposed) · Cairo/STARK, post-quantum",
+    "stage": "rumor",
+    "confidence": "B",
+    "why": "A major L2 voting to research leaving Ethereum to become its own post-quantum L1; draft whitepaper due November.",
+    "facts": [
+      {
+        "claim": "StarkWare floated the independent L1 idea Oct 8; Snapshot vote opened Oct 15",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673",
+        "date": "2026-10-15"
+      },
+      {
+        "claim": "93.52% voted yes to research; non-binding; working group to draft whitepaper; Ben-Sasson hopes to publish draft in November; STRK remains token",
+        "url": "https://thecurrencyanalytics.com/altcoins/starknets-93-52-vote-backs-ethereum-exit-research-as-quantum-deadline-looms-305606",
+        "date": "2026-10-23"
+      }
+    ],
+    "hypotheses": [
+      "Actual transition likely 2027+, requires binding vote."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Whitepaper draft (Nov 2026)",
+      "Binding governance vote",
+      "Devnet for L1 mode"
+    ]
+  },
+  {
+    "name": "Strium",
+    "aliases": [
+      "Strium Network"
+    ],
+    "org": "SBI Holdings + Startale Group",
+    "architecture": "L1 · tokenized securities / RWA trading",
+    "stage": "development",
+    "confidence": "B",
+    "why": "Japanese megagroup L1 with Sony-linked Startale; testnet promised 'soon' since February but little coverage since.",
+    "facts": [
+      {
+        "claim": "SBI Holdings and Startale unveiled Strium L1 proof of concept for tokenized stocks; testnet expected to roll out soon",
+        "url": "https://research.4pillars.io/en/research/sbi-holdings-startale-unveil-purpose-built-layer-1-strium-for-asias-onchain-securities-market",
+        "date": "2026-02-18"
+      },
+      {
+        "claim": "Bitget Web3 dApp listing links strium.org and states testnet is the next development phase",
+        "url": "https://web3.bitget.com/dapp/strium-network-32439",
+        "date": "2026"
+      }
+    ],
+    "hypotheses": [
+      "Testnet may be delayed or permissioned; probably not EVM-meme friendly at first."
+    ],
+    "chainIds": [],
+    "website": "https://strium.org",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Testnet launch announcement",
+      "Developer docs",
+      "Startale/Soneium bridging plans"
+    ]
+  },
+  {
+    "name": "Toss chain (Viva Republica)",
+    "aliases": [
+      "Toss L2",
+      "Toss L1"
+    ],
+    "org": "Viva Republica (Toss)",
+    "architecture": "Undecided L1 or L2 · OP Stack PoC",
+    "stage": "rumor",
+    "confidence": "C",
+    "why": "Korean super-app (30M users) weighing its own chain plus token; OP Stack PoC due to report around late 2026.",
+    "facts": [
+      {
+        "claim": "Toss considering custom blockchain and native token; L1 vs L2 undecided",
+        "url": "https://crypto.news/toss-weighs-custom-blockchain-and-token-amid-koreas-digital-asset-reset/",
+        "date": "2026-04-06"
+      },
+      {
+        "claim": "Optimism, Viva Republica and Sunnyside Labs MOU: 3-month OP Stack payments PoC with KRW stablecoin; results around late 2026",
+        "url": "https://www.kucoin.com/news/flash/optimism-signs-mou-with-toss-to-explore-onchain-payments-for-30-million-users-in-south-korea",
+        "date": "2026-07-08"
+      },
+      {
+        "claim": "Toss (with KOMSCO) tested a local-currency voucher flow on OP Stack; no go-live date",
+        "url": "https://crypto-economy.com/?p=337984",
+        "date": "2026-10-14"
+      }
+    ],
+    "hypotheses": [
+      "Korea's tokenized-securities rollout (Feb 4, 2027) may be the trigger for a public chain announcement."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "PoC results",
+      "Superchain registry entry",
+      "Toss token news"
+    ]
+  },
+  {
+    "name": "DB Securities Jeju chain",
+    "aliases": [
+      "DB Securities OP Stack"
+    ],
+    "org": "DB Securities",
+    "architecture": "EVM · OP Stack (STO/RWA)",
+    "stage": "development",
+    "confidence": "C",
+    "why": "Korean securities firm building STO/RWA infra on OP Stack for Jeju-linked assets — unnamed, two-year build.",
+    "facts": [
+      {
+        "claim": "DB Securities signs MOU to build STO and RWA infrastructure for Jeju on the OP Stack",
+        "url": "https://optimism.io/blog/db-securities-signs-mou-to-build-sto-and-rwa-infrastructure-for-jeju-on-the-op-stack",
+        "date": "2026-07-15"
+      },
+      {
+        "claim": "Outlined a two-year build; chain not named; not in production",
+        "url": "https://crypto-economy.com/?p=337984",
+        "date": "2026-10-14"
+      }
+    ],
+    "hypotheses": [
+      "Likely permissioned; low meme/launchpad relevance."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Chain name",
+      "Testnet announcement around Feb 2027 Korean STO start"
+    ]
+  },
+  {
+    "name": "GIWA",
+    "aliases": [
+      "GIWA Chain",
+      "Upbit L2"
+    ],
+    "org": "Dunamu (Upbit) / Naver Financial",
+    "architecture": "EVM L2 · OP Stack (Self Managed OP Enterprise)",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: mainnet still not live, RPC-leak rumors denied, ~100M testnet tx; Korea STO timeline (Feb 2027) is a plausible anchor.",
+    "facts": [
+      {
+        "claim": "GIWA denied mainnet RPC leak; mainnet not launched; docs mark mainnet sections 'under development'; Sepolia RPC sepolia-rpc.giwa.io; 1s blocks; ETH gas, no native token",
+        "url": "https://crypto.news/upbit-backed-giwa-says-mainnet-is-not-live-denies-rpc-leak/",
+        "date": "2026-09-27"
+      },
+      {
+        "claim": "GIWA Sepolia chain ID 91342",
+        "url": "https://www.alchemy.com/rpc/giwa-sepolia.md",
+        "date": "2026"
+      },
+      {
+        "claim": "GIWA reportedly ~100M testnet transactions; not in production",
+        "url": "https://crypto-economy.com/?p=337984",
+        "date": "2026-10-14"
+      }
+    ],
+    "hypotheses": [
+      "A Robinhood Chain token is titled 'GIWA - launchpad for upcoming Upbit's L2' on DexScreener — likely unofficial; treat as impersonation risk (https://dexscreener.com/robinhood/0xd215650cb628113a64d938164ee5cd72293f9ea6)."
+    ],
+    "chainIds": [
+      91342
+    ],
+    "website": "https://giwa.io",
+    "rpc": [
+      "https://sepolia-rpc.giwa.io"
+    ],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet Flashblocks endpoint going live",
+      "Upbit listing of GIWA-native assets",
+      "Mainnet chain ID in superchain-registry"
+    ]
+  },
+  {
+    "name": "Polymarket POLY chain",
+    "aliases": [
+      "POLY L2"
+    ],
+    "org": "Polymarket",
+    "architecture": "EVM L2 (rumored) · custom",
+    "stage": "rumor",
+    "confidence": "C",
+    "why": "Largest Polygon app has 'chain migration' on its roadmap; a custom L2 named POLY is the most-cited destination, likely timed with a TGE.",
+    "facts": [
+      {
+        "claim": "Report (via PANews) that Polymarket will migrate from Polygon to a custom Ethereum L2 named POLY, likely timed with TGE",
+        "url": "https://www.kucoin.com/news/flash/polymarket-to-migrate-from-polygon-launches-ethereum-l2-network",
+        "date": "2025-12-24"
+      },
+      {
+        "claim": "VP Eng Josh Stevens listed 'chain migration' as a roadmap priority (Apr 24); destination not announced",
+        "url": "https://ourcryptotalk.com/news/polymarket-chain-migration-from-polygon",
+        "date": "2026-04-27"
+      }
+    ],
+    "hypotheses": [
+      "Destination could still be an existing chain (Base, Solana) rather than own L2."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Official destination announcement",
+      "POLY token TGE news",
+      "RaaS partner (Conduit/Caldera/OP) announcement"
+    ]
+  },
+  {
+    "name": "Asentum",
+    "aliases": [
+      "ASE"
+    ],
+    "org": "Asentum",
+    "architecture": "L1 · post-quantum (ML-DSA-65), JavaScript smart contracts",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "Small-team PQ L1 with incentivized testnet and its first native DEX already live — early-ecosystem pattern the user tracks.",
+    "facts": [
+      {
+        "claim": "Public testnet with global validators; $ASE ERC-20 launched May 13, 2026 on Ethereum, migrates 1:1 at mainnet",
+        "url": "https://www.wboc.com/online_features/press_releases/asentum-nears-ase-launch-as-global-validator-participation-accelerates-across-its-post-quantum-blockchain/article_bfea286a-e2a3-51d7-8109-1402f55c10ba.html",
+        "date": "2026-05-12"
+      },
+      {
+        "claim": "Auras.finance native DEX launched; incentivized testnet started Sept 17, 2026; no mainnet date",
+        "url": "https://pro.edgex.exchange/en-US/news/article/asentum-launches-auras-dex-post-quantum-blockchain",
+        "date": "2026-09-16"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://www.asentum.com",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "Auras.finance",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "Testnet XP → token conversion",
+      "Second native DEX/launchpad"
+    ]
+  },
+  {
+    "name": "Frame",
+    "aliases": [
+      "Frame network"
+    ],
+    "org": "The Crypto Company (OTC: CRCW)",
+    "architecture": "L1 · post-quantum (ML-DSA-87), native cross-chain validators",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "Public-company PQ L1 in private beta — still invite-only, so very early.",
+    "facts": [
+      {
+        "claim": "Frame testnet live in private beta Sept 30, 2026; >7M test transactions signed with ML-DSA-87; mainnet later phase, no date",
+        "url": "https://www.nasdaq.com/press-release/crypto-companys-frame-testnet-goes-live-private-beta-post-quantum-layer-1-blockchain",
+        "date": "2026-09-30"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://frame.community",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Public testnet",
+      "Token announcement",
+      "SEC filings (8-K/FD) with timelines"
+    ]
+  },
+  {
+    "name": "Quantus Network",
+    "aliases": [
+      "QTC"
+    ],
+    "org": "Quantus",
+    "architecture": "L1 · post-quantum PoW (ML-DSA), 21M cap",
+    "stage": "mainnet",
+    "confidence": "B",
+    "why": "Fresh PQ PoW mainnet with open mining — ecosystem (DEX/bridges) still unformed.",
+    "facts": [
+      {
+        "claim": "Public testnet launched",
+        "url": "https://chainwire.org/2025/11/11/quantus-network-launches-quantum-secure-public-testnet-to-safeguard-digital-wealth/",
+        "date": "2025-11-11"
+      },
+      {
+        "claim": "Mainnet launch shared; ML-DSA-65/87, 12s blocks, QTC 21M cap, open mining; audits by Neodyme, Eiger, Hashcloak, V12",
+        "url": "https://finbold.com/quantus-launches-mainnet-with-post-quantum-cryptography-from-block-one-as-quantum-threat-grows/",
+        "date": "2026-09-10"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "First DEX / wrapped QTC",
+      "CEX listings"
+    ]
+  },
+  {
+    "name": "Zenith",
+    "aliases": [
+      "Zenith Network",
+      "Canton EVM"
+    ],
+    "org": "Zenith (Canton Super Validator)",
+    "architecture": "EVM execution layer on Canton Network (SVM planned)",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "First public EVM environment on institutional Canton Network; opens Canton to Solidity devs — potential early DeFi venue discovery.",
+    "facts": [
+      {
+        "claim": "Zenith publicly launched an Ethereum execution environment for Canton after stealth; Tier-1 Super Validator",
+        "url": "https://mpost.io/zenith-goes-live-as-evm-layer-for-canton-network-integrating-ethereum-developer-tools-with-institutional-blockchain-infrastructure/",
+        "date": "2026-03-09"
+      },
+      {
+        "claim": "Zenith EVM Testnet is live and open to the public",
+        "url": "https://www.kucoin.com/news/insight/ETH/6aba6f223cb6a100071ab905",
+        "date": "2026-09-28"
+      }
+    ],
+    "hypotheses": [
+      "Mainnet likely 2027; token possible."
+    ],
+    "chainIds": [],
+    "website": "https://zenith.network",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "Chain ID publication",
+      "First DEX on Zenith"
+    ]
+  },
+  {
+    "name": "LitVM",
+    "aliases": [
+      "LiteForge testnet",
+      "Litecoin EVM"
+    ],
+    "org": "LitVM project",
+    "architecture": "EVM L2 · Arbitrum Orbit (Nitro) with BitcoinOS Grail LTC bridge",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "Litecoin's EVM layer on testnet with zkLTC gas — under-covered, mainnet undated.",
+    "facts": [
+      {
+        "claim": "LiteForge testnet chain ID 4441; Arbitrum Orbit/Nitro; zkLTC gas; LITVM governance token; no mainnet date",
+        "url": "https://litecoin.watch/articles/litvm-testnet-hands-on-what-works-what-does-not-and-when-to-expect-mainnet",
+        "date": "2026-09-18"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [
+      4441
+    ],
+    "website": "https://testnet.litvm.com",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "First DEX/launchpad",
+      "Team identity disclosure"
+    ]
+  },
+  {
+    "name": "Push Chain",
+    "aliases": [
+      "Push Protocol L1"
+    ],
+    "org": "Push Protocol",
+    "architecture": "L1 · universal EVM PoS (cross-chain users from ETH/SOL)",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "Universal L1 still on testnet with quests/points and airdrop allocation — mainnet launch would be an early-ecosystem moment.",
+    "facts": [
+      {
+        "claim": "Push Protocol to launch its own Layer 1, Push Chain",
+        "url": "https://theblock.co/post/330507/protocol-push-layer-1",
+        "date": "2024-12-12"
+      },
+      {
+        "claim": "Push Chain focused on expanding testnet and developer ecosystem; no mainnet date",
+        "url": "https://www.kucoin.com/news/insight/ETH/6a9c8cabcc8a20000790b5d5",
+        "date": "2026-09-05"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "Token/airdrop"
+    ]
+  },
+  {
+    "name": "Real Finance",
+    "aliases": [
+      "REAL",
+      "REUR"
+    ],
+    "org": "Real Finance",
+    "architecture": "L1 · RWA, dual validator model (hybrid EVM/Cosmos)",
+    "stage": "development",
+    "confidence": "C",
+    "why": "RWA L1 that targeted Q2 2026 testnet; no confirmation found that it shipped.",
+    "facts": [
+      {
+        "claim": "Testnet targeted Q2 2026 with mainnet shortly after; euro stablecoin REUR as settlement layer",
+        "url": "https://defillama.com/research/interview/real-finance-vp-on-why-rwas-need-a-purpose-built-l1",
+        "date": "2026"
+      }
+    ],
+    "hypotheses": [
+      "Testnet may have slipped."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Testnet launch",
+      "Token (ASSET/REAL) TGE"
+    ]
+  },
+  {
+    "name": "NVNM Chain",
+    "aliases": [
+      "Inveniam chain"
+    ],
+    "org": "Inveniam (acquirer of MANTRA)",
+    "architecture": "L2 on MANTRA Chain → reported L1 testnet",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "AI-agent 'receipts layer'; October headline says it opened a Layer 1 testnet — architecture shift worth verifying.",
+    "facts": [
+      {
+        "claim": "NVNM Chain launched May 2026 as first L2 on MANTRA Chain; NVNM token launch targeted Q4 2026",
+        "url": "https://www.inveniam.io/resources/insights/nvnm-chain-announces-upcoming-launch-of-nvnm-token-and-mantra-community-early-access-initiative",
+        "date": "2026-06-10"
+      },
+      {
+        "claim": "Headline: 'NVNM Chain Opens Layer 1 Testnet to Deliver Accountability Infrastructure for AI Agentic Activity' (body not retrieved)",
+        "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/nvnm-chain-opens-layer-1-testnet-to-deliver-accountability-infrastructure-for-ai-agentic-activity/2446526",
+        "date": "2026-10-15"
+      }
+    ],
+    "hypotheses": [
+      "Possibly migrating off MANTRA to its own L1."
+    ],
+    "chainIds": [],
+    "website": "https://www.inveniam.io/solutions/nvnm-chain",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "NVNM token launch",
+      "Testnet chain ID"
+    ]
+  },
+  {
+    "name": "Bulk",
+    "aliases": [
+      "BULK",
+      "Bulk Trade"
+    ],
+    "org": "Bulk",
+    "architecture": "Solana validator-embedded perps network (matching/risk run by Solana validators)",
+    "stage": "private-mainnet",
+    "confidence": "B",
+    "why": "Not a classic chain but an appchain-like parallel network on Solana validators; invite-only mainnet since Sept 5.",
+    "facts": [
+      {
+        "claim": "Invite-only mainnet since Sept 5, 2026; matching, risk and consensus run in a parallel network operated by Solana validators; app.bulk.trade",
+        "url": "https://hackmd.io/@gustofinance/bulk-perps-vs-hyperliquid-2026",
+        "date": "2026-09-12"
+      }
+    ],
+    "hypotheses": [
+      "Token/points likely; public opening soon."
+    ],
+    "chainIds": [],
+    "website": "https://app.bulk.trade",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Public access",
+      "Token announcement"
+    ]
+  },
+  {
+    "name": "Cari Network",
+    "aliases": [
+      "Cari tokenized deposits"
+    ],
+    "org": "Cari Network (Gene Ludwig) with Huntington, First Horizon, M&T, KeyCorp, Old National",
+    "architecture": "Permissioned · ZKsync Prividium",
+    "stage": "development",
+    "confidence": "B",
+    "why": "US regional-bank tokenized-deposit network aiming for 2026 rollout; permissioned, but a signal of bank-chain wave.",
+    "facts": [
+      {
+        "claim": "Cari Network chose Matter Labs' Prividium; five banks designing/testing; aims for 2026 rollout",
+        "url": "https://whale-alert.io/stories/c29801116eea71/Cari-Network-building-tokenized-deposit-platform-on-ZKsyncs-Prividium-aims-for-2026-rollout-as-alternative-to-stablecoins",
+        "date": "2026-03-17"
+      }
+    ],
+    "hypotheses": [
+      "No public DEX/launchpad relevance."
+    ],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "2026 rollout (reported)",
+    "nextSignals": [
+      "Go-live announcement"
+    ]
+  },
+  {
+    "name": "BankChain",
+    "aliases": [
+      "BankChain Alliance"
+    ],
+    "org": "39 US state banking associations (interim chair Kathy Kraninger)",
+    "architecture": "Bank-owned network · tech partner not chosen",
+    "stage": "rumor",
+    "confidence": "B",
+    "why": "Industry-owned US bank chain announced for 2027; technology vendor selection is the next tell.",
+    "facts": [
+      {
+        "claim": "BankChain Alliance announced Aug 25, 2026; expected operational in 2027; still selecting technology partner",
+        "url": "https://bitcoinfoundation.org/news/regulation/bankchain-targets-2027-u-s-blockchain-launch-as-39-banking-groups-join-forces/",
+        "date": "2026-08-26"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://bankchainalliance.com",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "2027 (reported)",
+    "nextSignals": [
+      "Technology partner selection (OP/Arbitrum/ZKsync/Canton/etc.)"
+    ]
+  },
+  {
+    "name": "The Clearing House tokenized deposit network",
+    "aliases": [
+      "TCH deposit network"
+    ],
+    "org": "The Clearing House (JPMorgan, BofA, Citi, Wells Fargo et al.)",
+    "architecture": "Blockchain-based tokenized deposit network · vendor not selected",
+    "stage": "development",
+    "confidence": "B",
+    "why": "Big-bank network targeting H1 2027 launch; vendor choice not yet made.",
+    "facts": [
+      {
+        "claim": "Big banks plan tokenized deposit network via The Clearing House; launch planned H1 2027; no blockchain vendor selected",
+        "url": "https://www.pymnts.com/blockchain/2026/big-banks-launch-tokenized-deposit-network-to-fight-off-stablecoin-threat/",
+        "date": "2026-06-04"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": "H1 2027 (reported)",
+    "nextSignals": [
+      "Vendor selection",
+      "Pilot announcement"
+    ]
+  },
+  {
+    "name": "Google Cloud Universal Ledger",
+    "aliases": [
+      "GCUL"
+    ],
+    "org": "Google Cloud (anchor client CME Group)",
+    "architecture": "Permissioned L1 · Python smart contracts, ledger-as-a-service",
+    "stage": "development",
+    "confidence": "B",
+    "why": "Big-tech L1 with CME tokenized cash product expected later in 2026.",
+    "facts": [
+      {
+        "claim": "GCUL permissioned L1; Python contracts; CME tokenized cash product on GCUL 'later in 2026' per CME Q4 2025 call",
+        "url": "https://blockeden.xyz/blog/2026/03/11/gcul-google-cloud-universal-ledger-wall-street-permissioned-l1/",
+        "date": "2026-03-11"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "CME product launch",
+      "Additional participants"
+    ]
+  },
+  {
+    "name": "Ritual",
+    "aliases": [
+      "Ritual Chain"
+    ],
+    "org": "Ritual (Niraj Pant, Akilesh Potti)",
+    "architecture": "L1 · EVM, AI precompiles, sub-300ms blocks",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: mainnet launched Oct 26, 2026 — ecosystem DEX/launchpads not yet identified, so first-mover window is now.",
+    "facts": [
+      {
+        "claim": "Ritual Chain mainnet launched; testnet since June processed >40M tx; partners Phala, Nous, LayerZero, Stargate; explorer explorer.ritualfoundation.org; docs docs.ritualfoundation.org",
+        "url": "https://cryptopotato.com/ritual-launches-ai-native-layer-1-for-autonomous-agents/",
+        "date": "2026-10-26"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://ritual.net",
+    "rpc": [],
+    "explorer": "https://explorer.ritualfoundation.org",
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "Stargate (USDC), LayerZero"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "First DEX/launchpad deployments",
+      "Chain ID on chainlist",
+      "Token"
+    ]
+  },
+  {
+    "name": "Arc",
+    "aliases": [
+      "Arc Network"
+    ],
+    "org": "Circle",
+    "architecture": "L1 · EVM, USDC gas",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: public mainnet Sept 16; launchpad scene already active.",
+    "facts": [
+      {
+        "claim": "Public mainnet opened Sept 16, 2026; 10B ARC minted, public launch undecided; PoS move explored for 2027",
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-16-circle-launches-arc-mainnet-blackrock-and-visa-among-validators-mints-10-billion-arc-tokens-415250",
+        "date": "2026-09-16"
+      },
+      {
+        "claim": "Mainnet chain ID 5042, testnet 5042002; RPC rpc.mainnet.arc.io; explorer explorer.arc.io",
+        "url": "https://docs.arc.io/arc/references/rpc-endpoints.md",
+        "date": "2026"
+      },
+      {
+        "claim": "Launchpads: Tolly, ArcPad, Warp, Flipt, Archemist, ubi.fun, Minara, Long.supply, act.fun",
+        "url": "https://www.kucoin.com/news/flash/arc-mainnet-launches-on-september-16-highlighting-key-launchpads-and-platform-tokens",
+        "date": "2026-09"
+      },
+      {
+        "claim": "ARCLaunch building arclaunch.fun launchpad for Arc",
+        "url": "https://smb.state-journal.com/article/ARCLaunch-Prepares-New-Arc-Launchpad-for-Arc-Chains-Memecoin-Ecosystem/6a7d7bb025d6ee0002cab512",
+        "date": "2026-08-13"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [
+      5042,
+      5042002
+    ],
+    "website": "https://arc.io",
+    "rpc": [
+      "https://rpc.mainnet.arc.io",
+      "https://rpc.testnet.arc.io"
+    ],
+    "explorer": "https://explorer.arc.io",
+    "ecosystem": {
+      "dex": "Uniswap V3/V4 (used by launchpads)",
+      "launchpad": "Tolly, Warp, ArcPad, Archemist, act.fun, Long.supply, ubi.fun, Minara, Flipt, arclaunch.fun",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "ARC token public launch decision",
+      "PoS transition"
+    ]
+  },
+  {
+    "name": "Robinhood Chain",
+    "aliases": [],
+    "org": "Robinhood",
+    "architecture": "EVM L2 · Arbitrum Orbit",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: Noxa shut down in July; Pons now dominates launchpad fees.",
+    "facts": [
+      {
+        "claim": "Public mainnet launched July 1, 2026",
+        "url": "https://www.pymnts.com/blockchain/2026/robinhood-launches-blockchain-designed-for-real-world-assets/",
+        "date": "2026-07-01"
+      },
+      {
+        "claim": "Noxa stopped new launches July 11 and went offline ~July 13 after ~$12M fees",
+        "url": "https://brokerchooser.com/news/robinhood-chains-premier-token-launchpad-shuts-down-after-raking-in-12-million--baa080df",
+        "date": "2026-07-14"
+      },
+      {
+        "claim": "Pons took about two-thirds of launchpad fees",
+        "url": "https://thedefiant.io/news/blockchains/robinhood-chain-dex-volume-hits-usd1-49-billion-as-pons-takes-two-thirds-of-launchpad-fees",
+        "date": "2026-09"
+      },
+      {
+        "claim": "Mainnet chain ID 4663; Blockscout explorer",
+        "url": "https://www.dwellir.com/docs/robinhood",
+        "date": "2026"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [
+      4663
+    ],
+    "website": null,
+    "rpc": [],
+    "explorer": "https://robinhoodchain.blockscout.com/",
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "Pons (dominant); Noxa (shut down); vladfun (halted)",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Launchpad churn"
+    ]
+  },
+  {
+    "name": "Tempo",
+    "aliases": [],
+    "org": "Stripe + Paradigm",
+    "architecture": "L1 · EVM-compatible payments chain, no native gas token",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Mainnet since March 18; meme/launchpad scene appears thin — possible gap.",
+    "facts": [
+      {
+        "claim": "Public testnet launched",
+        "url": "https://www.fxleaders.com/news/2025/12/10/stripes-tempo-blockchain-launches-public-testnet-with-major-global-partners/",
+        "date": "2025-12-10"
+      },
+      {
+        "claim": "Mainnet live March 18, 2026; partners include Anthropic, DoorDash, Mastercard, Nubank, OpenAI, Revolut, Shopify, Visa",
+        "url": "https://tempo.xyz/blog/mainnet.md",
+        "date": "2026-03-18"
+      },
+      {
+        "claim": "Testnet Moderato chain ID 42431, RPC rpc.moderato.tempo.xyz; mainnet RPC rpc.tempo.xyz",
+        "url": "https://tempo.xyz/developers/docs/quickstart/connection-details",
+        "date": "2026"
+      },
+      {
+        "claim": "Uniswap is live on Tempo",
+        "url": "https://blog.uniswap.org/uniswap-is-live-on-tempo",
+        "date": "2026-03-18"
+      },
+      {
+        "claim": "Chainlist entry for chain 4217 (Tempo mainnet)",
+        "url": "https://chainlist.org/chain/4217",
+        "date": "2026"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [
+      4217,
+      42431
+    ],
+    "website": "https://tempo.xyz",
+    "rpc": [
+      "https://rpc.tempo.xyz",
+      "https://rpc.moderato.tempo.xyz"
+    ],
+    "explorer": "https://explore.tempo.xyz/",
+    "ecosystem": {
+      "dex": "Uniswap; Tempo Stablecoin DEX (native)",
+      "launchpad": "unknown",
+      "bridge": "Garden Finance"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Token launch",
+      "First launchpad"
+    ]
+  },
+  {
+    "name": "Pharos Network",
+    "aliases": [
+      "Pacific Ocean Mainnet"
+    ],
+    "org": "Pharos (ex-Ant Group team)",
+    "architecture": "L1 · EVM, RWA/RealFi",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Recent mainnet (Apr 28) with USDC/CCTP; mid-tier, ecosystem still forming.",
+    "facts": [
+      {
+        "claim": "Pacific Ocean Mainnet launched Apr 28, 2026 with 50+ dApps",
+        "url": "https://ourcryptotalk.com/news/pharos-pacific-ocean-mainnet-launch",
+        "date": "2026-04-28"
+      },
+      {
+        "claim": "Mainnet chain ID 1672; explorer pharos.socialscan.io",
+        "url": "https://www.alchemy.com/rpc/pharos.md",
+        "date": "2026"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [
+      1672
+    ],
+    "website": null,
+    "rpc": [],
+    "explorer": "https://pharos.socialscan.io/",
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Token/TGE"
+    ]
+  },
+  {
+    "name": "Igra Network",
+    "aliases": [
+      "IGRA",
+      "Kaspa EVM"
+    ],
+    "org": "Igra Labs",
+    "architecture": "Based rollup on Kaspa BlockDAG · EVM, iKAS gas",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Kaspa's EVM layer, mainnet since March with native DEX/launchpad partners.",
+    "facts": [
+      {
+        "claim": "Igra public mainnet Mar 19, 2026; based rollup; Hyperlane bridging; Kaspa.com DEX/launchpad partner; ZealousSwap; Dagscan explorer",
+        "url": "https://www.tradingview.com/news/chainwire:48fbb241f094b:0-igra-network-launches-public-mainnet-as-decentralized-evm-layer-on-kaspa-s-proof-of-work-blockdag/",
+        "date": "2026-03-19"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://igralabs.com",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "ZealousSwap; Kaspa.com",
+      "launchpad": "Kaspa.com",
+      "bridge": "Hyperlane"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Block-STM engine H2 2026"
+    ]
+  },
+  {
+    "name": "Aster Chain",
+    "aliases": [],
+    "org": "Aster (perp DEX)",
+    "architecture": "L1 · privacy perps chain",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Perp-DEX-owned L1 launched March 2026.",
+    "facts": [
+      {
+        "claim": "Aster mainnet launched March 2026 in phases",
+        "url": "https://www.bitrue.com/blog/aster-chain-mainnet-introduction",
+        "date": "2026-03-18"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Third-party DEX/launchpads"
+    ]
+  },
+  {
+    "name": "Kite AI",
+    "aliases": [
+      "Kite Chain"
+    ],
+    "org": "Kite AI",
+    "architecture": "L1 · agentic payments",
+    "stage": "mainnet",
+    "confidence": "B",
+    "why": "Agent-payments chain with x402/Stripe MPP integration, mainnet ~April 2026.",
+    "facts": [
+      {
+        "claim": "Kite AI mainnet launch reported",
+        "url": "https://blockchain.news/flashnews/kite-ai-mainnet-launches",
+        "date": "2026-04-29"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Ecosystem DEX"
+    ]
+  },
+  {
+    "name": "Rialo",
+    "aliases": [],
+    "org": "Subzero Labs",
+    "architecture": "L1",
+    "stage": "devnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: points program Aug 21, 2026; mainnet 'targeted for 2026' still undated.",
+    "facts": [
+      {
+        "claim": "Public devnet/playground; points program launched Aug 21, 2026; mainnet targeted 2026 without date",
+        "url": "https://usethebitcoin.com/airdrop/rialo/",
+        "date": "2026-08-23"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": "https://playground.rialo.io",
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Mainnet date",
+      "Token"
+    ]
+  },
+  {
+    "name": "Linera",
+    "aliases": [],
+    "org": "Linera",
+    "architecture": "L1 · microchains",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Known to user. Fresh: team winding down after failed Sonar sale — deprioritize.",
+    "facts": [
+      {
+        "claim": "Sonar sale failed minimum; team shutting down app and Discord; still hopes to finish protocol",
+        "url": "https://www.kucoin.com/news/flash/linera-to-cease-operations-due-to-funding-shortfall-despite-12m-raised",
+        "date": "2026-09-19"
+      }
+    ],
+    "hypotheses": [],
+    "chainIds": [],
+    "website": null,
+    "rpc": [],
+    "explorer": null,
+    "ecosystem": {
+      "dex": "unknown",
+      "launchpad": "unknown",
+      "bridge": "unknown"
+    },
+    "expectedLaunch": null,
+    "nextSignals": [
+      "Any revival announcement"
+    ]
+  }
+]
