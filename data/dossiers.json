@@ -10235,12 +10235,16 @@
     "n:qms"
    ],
    "firstSeen": "2026-10-11",
-   "lastActivity": "2026-10-11",
-   "stage": "testnet",
+   "lastActivity": "2026-10-28",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-10-11"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-10-28"
     }
    ],
    "evidence": [
@@ -10251,6 +10255,15 @@
      "kind": "testnet",
      "what": "viem: testnet · ID 19480",
      "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/qmsTestnet.ts",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x93afd9ac…",
+     "url": "https://testnet.qmsscan.io/address/0x93afd9ac50822f82c7c4f2ec8ec2463b086fb878",
      "strength": "running"
     }
    ],
@@ -10265,11 +10278,24 @@
    "explorer": "https://testnet.qmsscan.io",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (viem: testnet · ID 19480)"
+    "draaiend netwerk aangetoond (viem: testnet · ID 19480)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "code"
-   ]
+    "code",
+    "onchain"
+   ],
+   "liveRpc": "https://rpc.testnet.qms.finance",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x93afd9ac50822f82c7c4f2ec8ec2463b086fb878",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "qorechain": {
    "id": "qorechain",
@@ -10359,7 +10385,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://evm-testnet.qore.host"
   },
   "qr0923q1ms": {
    "id": "qr0923q1ms",
