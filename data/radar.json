@@ -8,6 +8,63 @@
    "ok": true
   }
  },
+ "airdrops": [
+  {
+   "id": "asentum",
+   "name": "Asentum",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (testnet)"
+   ],
+   "stage": "testnet",
+   "website": "https://www.asentum.com"
+  },
+  {
+   "id": "bulk",
+   "name": "Bulk",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (draait (status onduidelijk))"
+   ],
+   "stage": "draait",
+   "website": "https://app.bulk.trade"
+  },
+  {
+   "id": "elysium",
+   "name": "Elysium",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (testnet)"
+   ],
+   "stage": "testnet",
+   "website": null
+  },
+  {
+   "id": "pushchain",
+   "name": "Push Chain",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (testnet)"
+   ],
+   "stage": "testnet",
+   "website": null
+  },
+  {
+   "id": "rialo",
+   "name": "Rialo",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (devnet)"
+   ],
+   "stage": "devnet",
+   "website": "https://rialo.io"
+  }
+ ],
  "items": [
   {
    "key": "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",

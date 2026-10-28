@@ -52,9 +52,36 @@ background:color-mix(in srgb,var(--mut) 18%,transparent);color:var(--mut)}
 .score.hi{background:color-mix(in srgb,#d4183d 16%,transparent);color:#d4183d}
 .score.mid{background:color-mix(in srgb,var(--test) 18%,transparent);color:var(--test)}
 .empty{color:var(--mut);padding:32px;text-align:center}
+nav.tabs{display:flex;gap:4px;margin:0 0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav.tabs a{padding:8px 14px;color:var(--mut);text-decoration:none;font-size:.875rem;font-weight:600;
+border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+nav.tabs a[aria-current=page]{color:var(--fg);border-bottom-color:var(--fg)}
+section[hidden]{display:none}
+.conf{display:inline-block;min-width:22px;text-align:center;font-size:.6875rem;font-weight:700;padding:2px 6px;
+border-radius:6px;margin-right:6px;vertical-align:1px}
+.conf.A{background:color-mix(in srgb,var(--main) 18%,transparent);color:var(--main)}
+.conf.B{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
+.conf.C{background:color-mix(in srgb,var(--test) 18%,transparent);color:var(--test)}
+.conf.D{background:color-mix(in srgb,var(--mut) 18%,transparent);color:var(--mut)}
+.warn{color:var(--live);font-size:.8125rem;font-weight:600;margin:2px 0 4px}
+details{margin-top:6px;font-size:.8125rem}
+details summary{cursor:pointer;color:var(--up)}
+details ul{margin:6px 0 0;padding-left:18px;color:var(--mut)}
+details li{margin:2px 0}
+details a,.row a.x{color:var(--up);text-decoration:none}
+.fact{color:var(--fg)}.hyp{color:var(--mut);font-style:italic}
+.tag{display:inline-block;font-size:.6875rem;padding:1px 7px;border-radius:999px;border:1px solid var(--line);margin-right:4px}
+.note{color:var(--mut);font-size:.8125rem;margin:-8px 0 16px}
 footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 </style></head><body><div class="wrap">
 <h1>chainwatch</h1>
+<nav class="tabs">
+<a href="#chains" data-tab="chains">Chains</a>
+<a href="#dossiers" data-tab="dossiers">Dossiers</a>
+<a href="#radar" data-tab="radar">Radar</a>
+<a href="#airdrops" data-tab="airdrops">🪂 Airdrops</a>
+</nav>
+<section id="tab-chains">
 <div class="sub">Laatste detectie: <span id="lastchange" data-ts="2026-10-28T15:02:03.818Z">—</span> · bronnen: <span class="pill ok">funding-rss</span><span class="pill ok">rollup-factory</span><span class="pill ok">zk-bridgehub</span><span class="pill ok">ct-hostnames</span><span class="pill ok">blob-submitters</span><span class="pill ok">ethlists-pr</span><span class="pill ok">ethlists-commit</span><span class="pill ok">keplr-pr</span><span class="pill ok">superchain</span><span class="pill ok">viem</span><span class="pill ok">l2beat</span><span class="pill ok">cosmos</span><span class="pill ok">chainlist</span><span class="pill ok">hyperlane</span><span class="pill ok">blockscout</span><span class="pill ok">glacier</span><span class="pill ok">lifi</span><span class="pill ok">defillama</span><span class="pill ok">coingecko</span><span class="pill ok">github-discovery</span><span class="pill ok">research</span></div>
 <div class="stats">
 <div class="stat"><b>53</b><span>launched</span></div><div class="stat"><b>101</b><span>mainnet</span></div><div class="stat"><b>125</b><span>testnet</span></div><div class="stat"><b>33</b><span>upcoming</span></div><div class="stat"><b>4</b><span>devnet</span></div><div class="stat"><b>87</b><span>proposal</span></div>
@@ -70,6 +97,45 @@ footer{margin-top:32px;color:var(--mut);font-size:.75rem}
 <input type="search" id="q" placeholder="Zoek op naam of chain ID…">
 </div>
 <div class="list" id="list"></div>
+</section>
+
+<section id="tab-dossiers" hidden>
+<p class="note">Eén dossier per project, met al het bewijs dat chainwatch verzamelde. A = draait aantoonbaar, B = meerdere onafhankelijke bronnen, C = één technisch signaal, D = alleen nieuws of hypothese.</p>
+<div class="filters" id="dfilters">
+<button data-c="all" aria-pressed="true">Alles</button>
+<button data-c="A" aria-pressed="false">A</button>
+<button data-c="B" aria-pressed="false">B</button>
+<button data-c="C" aria-pressed="false">C</button>
+<button data-c="D" aria-pressed="false">D</button>
+<button data-c="eco" aria-pressed="false">🏪 DEX/launchpad</button>
+<button data-c="pre" aria-pressed="false">Nog geen mainnet</button>
+<button data-c="suspect" aria-pressed="false">⚠️ Verdacht</button>
+<button data-c="blocked" aria-pressed="false">🚫 Geblokkeerd</button>
+<input type="search" id="dq" placeholder="Zoek op naam, alias, chain ID of domein…">
+</div>
+<div class="list" id="dlist"><div class="empty">Laden…</div></div>
+</section>
+
+<section id="tab-radar" hidden>
+<p class="note">Wat er vóór lanceringen zichtbaar werd, laatste 14 dagen.</p>
+<div class="filters" id="rfilters">
+<button data-r="all" aria-pressed="true">Alles</button>
+<button data-r="audit" aria-pressed="false">🔐 Audits</button>
+<button data-r="contracten" aria-pressed="false">🧱 Contracten</button>
+<button data-r="vacature" aria-pressed="false">💼 Vacatures</button>
+<button data-r="techniek" aria-pressed="false">🧪 Techniek</button>
+<button data-r="bounty" aria-pressed="false">🛡 Bounties</button>
+<button data-r="sdk" aria-pressed="false">📦 SDK's</button>
+<input type="search" id="rq" placeholder="Zoek…">
+</div>
+<div class="list" id="rlist"><div class="empty">Laden…</div></div>
+</section>
+
+<section id="tab-airdrops" hidden>
+<p class="note">Projecten waar genoeg signalen samenkomen die in het verleden aan een airdrop voorafgingen: verse funding, nog geen mainnet, points of testnet, audit-contest, DEX/launchpad. Optelsom, geen garantie.</p>
+<div class="list" id="alist"><div class="empty">Laden…</div></div>
+</section>
+
 <footer>Gegenereerd door chainwatch · 500 detecties bewaard</footer>
 </div>
 <script>
@@ -124,7 +190,158 @@ document.querySelectorAll('button[data-f]').forEach(b => b.addEventListener('cli
   render();
 }));
 q.addEventListener('input', render);
+// ---- Tabs ----------------------------------------------------------------
+const RAW = "https://raw.githubusercontent.com/Boeruhlul/chainwatch/main/data";
+const tabs = ['chains','dossiers','radar','airdrops'];
+let DOS = null, RAD = null;
+async function load(name){
+  try {
+    const r = await fetch(RAW + '/' + name + '.json', { cache: 'no-cache' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return await r.json();
+  } catch (e) { return { error: String(e.message || e) }; }
+}
+async function show(){
+  const t = (location.hash || '#chains').slice(1);
+  const tab = tabs.includes(t) ? t : 'chains';
+  tabs.forEach(x => { document.getElementById('tab-' + x).hidden = x !== tab; });
+  document.querySelectorAll('nav.tabs a').forEach(a => a.setAttribute('aria-current', a.dataset.tab === tab ? 'page' : 'false'));
+  if ((tab === 'dossiers' || tab === 'airdrops') && !DOS) { DOS = await load('dossiers'); }
+  if ((tab === 'radar' || tab === 'airdrops') && !RAD) { RAD = await load('radar'); }
+  if (tab === 'dossiers') renderDos();
+  if (tab === 'radar') renderRad();
+  if (tab === 'airdrops') renderAir();
+}
+window.addEventListener('hashchange', show);
+const day = d => { try { return new Date(d + 'T12:00:00Z').toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'}); } catch { return d; } };
+const link = (u, t) => u ? '<a class="x" href="' + escape(u) + '" target="_blank" rel="noopener">' + escape(t || u) + '</a>' : '';
+const trimSlash = (u) => { let x = String(u || ''); while (x.endsWith('/')) x = x.slice(0, -1); return x; };
+const STAGE = {lead:'losse aanwijzing',aangekondigd:'aangekondigd',devnet:'devnet',testnet:'testnet',draait:'draait',mainnet:'mainnet'};
+
+// ---- Dossiers ------------------------------------------------------------
+let dfilter = 'all';
+const dq = document.getElementById('dq'), dlist = document.getElementById('dlist');
+function renderDos(){
+  if (!DOS || DOS.error) { dlist.innerHTML = '<div class="empty">Dossiers niet te laden' + (DOS && DOS.error ? ' (' + escape(DOS.error) + ')' : '') + '.</div>'; return; }
+  const term = dq.value.trim().toLowerCase();
+  const all = Object.values(DOS.dossiers || {});
+  const rows = all.filter(d => {
+    if (dfilter === 'blocked') { if (!d.blocked) return false; }
+    else if (d.blocked) return false;
+    if (dfilter === 'suspect' && !d.suspect) return false;
+    if (['A','B','C','D'].includes(dfilter) && d.confidence !== dfilter) return false;
+    if (dfilter === 'eco' && !(d.eco && ((d.eco.dex||[]).length || (d.eco.launchpad||[]).length))) return false;
+    if (dfilter === 'pre' && d.stage === 'mainnet') return false;
+    if (!term) return true;
+    const hay = [d.name, d.id, ...(d.aliases||[]), ...(d.chainIds||[]), d.website, ...(d.keys||[])].join(' ').toLowerCase();
+    return hay.includes(term);
+  }).sort((a,b) => String(b.lastActivity||'').localeCompare(String(a.lastActivity||'')) || a.id.localeCompare(b.id));
+  if (!rows.length) { dlist.innerHTML = '<div class="empty">Niets gevonden.</div>'; return; }
+  const shown = rows.slice(0, 200);
+  dlist.innerHTML = '<div class="note">' + rows.length + ' dossiers' + (rows.length > 200 ? ', eerste 200 getoond' : '') + '</div>' + shown.map(d => {
+    const meta = [];
+    meta.push('<span class="k">' + escape(STAGE[d.stage] || d.stage || '?') + '</span>');
+    if ((d.chainIds||[]).length) meta.push('<code>' + escape(d.chainIds.slice(0,3).join(', ')) + '</code>');
+    if (d.architecture) meta.push(escape(d.architecture));
+    meta.push('eerst ' + day(d.firstSeen));
+    meta.push('laatst ' + day(d.lastActivity));
+    const links = [];
+    if (d.website) links.push(link(d.website, 'site'));
+    if (d.explorer) links.push(link(d.explorer, 'explorer'));
+    if (d.github) links.push(link(d.github, 'GitHub'));
+    if (d.liveRpc) links.push('<span title="RPC antwoordt">✅ <code>' + escape(d.liveRpc) + '</code></span>');
+    const eco = d.eco || {};
+    const ecoBits = [];
+    (eco.dex||[]).forEach(x => ecoBits.push('<li>🏪 DEX (' + escape(x.type) + '): ' + link(d.explorer ? trimSlash(d.explorer) + '/address/' + x.addr : null, x.addr) + (d.explorer ? '' : ' <code>' + escape(x.addr) + '</code>') + ' · ' + day(x.date) + '</li>'));
+    (eco.launchpad||[]).forEach(x => ecoBits.push('<li>🚀 Launchpad-kandidaat: ' + link(d.explorer ? trimSlash(d.explorer) + '/address/' + x.addr : null, x.addr) + (d.explorer ? '' : ' <code>' + escape(x.addr) + '</code>') + ' · ' + day(x.date) + '</li>'));
+    const rs = d.research || {};
+    const facts = (rs.facts||[]).map(f => '<li class="fact">✔︎ ' + escape(f.claim) + (f.url ? ' — ' + link(f.url, 'bron') : '') + '</li>');
+    const hyps = (rs.hypotheses||[]).map(h => '<li class="hyp">❓ ' + escape(h) + '</li>');
+    const ev = (d.evidence||[]).slice().reverse().map(e => '<li>' + day(e.date) + ' — ' + escape(e.what) + (e.url ? ' ' + link(e.url, '↗') : '') + '</li>');
+    const alias = (d.aliases||[]).filter(a => a.toLowerCase() !== String(d.name).toLowerCase()).slice(0,5);
+    return '<div class="row" data-kind="' + (d.stage === 'mainnet' ? 'mainnet' : d.stage === 'testnet' ? 'testnet' : d.stage === 'draait' ? 'launched' : 'proposal') + '">' +
+      '<h2><span class="conf ' + escape(d.confidence) + '">' + escape(d.confidence) + '</span>' + escape(d.name) +
+      (alias.length ? ' <span class="desc">(' + escape(alias.join(', ')) + ')</span>' : '') + '</h2>' +
+      (d.suspect ? '<div class="warn">⚠️ ' + (d.suspect.type === 'imitatie' ? 'Mogelijke imitatie van ' : 'Chain ID botst met ') + escape(d.suspect.other) + '</div>' : '') +
+      (d.blocked ? '<div class="warn">🚫 Op je blocklist</div>' : '') +
+      (rs.why ? '<div class="desc">' + escape(rs.why) + '</div>' : '') +
+      '<div class="meta">' + meta.map(m => '<span>' + m + '</span>').join('') + '</div>' +
+      ((d.reasons||[]).length ? '<div class="desc" style="margin-top:4px">' + escape(d.reasons.join(' · ')) + '</div>' : '') +
+      (links.length ? '<div class="meta soc">' + links.join('') + '</div>' : '') +
+      (ecoBits.length ? '<details open><summary>Vroege infrastructuur</summary><ul>' + ecoBits.join('') + '</ul></details>' : '') +
+      (facts.length || hyps.length ? '<details><summary>Onderzoek: feiten en hypothesen</summary><ul>' + facts.join('') + hyps.join('') + (rs.expectedLaunch ? '<li>📅 ' + escape(rs.expectedLaunch) + '</li>' : '') + '</ul></details>' : '') +
+      '<details><summary>Bewijs (' + ev.length + ')</summary><ul>' + ev.join('') + '</ul></details>' +
+      '</div>';
+  }).join('');
+}
+document.querySelectorAll('button[data-c]').forEach(b => b.addEventListener('click', () => {
+  dfilter = b.dataset.c;
+  document.querySelectorAll('button[data-c]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  renderDos();
+}));
+dq.addEventListener('input', renderDos);
+
+// ---- Radar ---------------------------------------------------------------
+let rfilter = 'all';
+const rq = document.getElementById('rq'), rlist = document.getElementById('rlist');
+const CAT = {audit:'🔐 audit',contracten:'🧱 contract',vacature:'💼 vacature',techniek:'🧪 techniek',bounty:'🛡 bounty',sdk:'📦 sdk'};
+function renderRad(){
+  if (!RAD || RAD.error) { rlist.innerHTML = '<div class="empty">Radar niet te laden' + (RAD && RAD.error ? ' (' + escape(RAD.error) + ')' : '') + '.</div>'; return; }
+  const term = rq.value.trim().toLowerCase();
+  const rows = (RAD.items||[]).filter(it => (rfilter === 'all' || it.cat === rfilter) &&
+    (!term || (String(it.title) + ' ' + JSON.stringify(it.meta||{})).toLowerCase().includes(term)))
+    .sort((a,b) => String(b.date).localeCompare(String(a.date)) || String(a.cat).localeCompare(String(b.cat)));
+  const down = Object.entries(RAD.health||{}).filter(e => e[1] && e[1].ok === false).map(e => e[0]);
+  const head = down.length ? '<div class="warn">⚠️ In storing: ' + escape(down.join(', ')) + '</div>' : '';
+  if (!rows.length) { rlist.innerHTML = head + '<div class="empty">Niets gevonden.</div>'; return; }
+  rlist.innerHTML = head + '<div class="note">' + rows.length + ' items</div>' + rows.slice(0, 400).map(it => {
+    const m = it.meta || {};
+    const bits = ['<span class="k">' + escape(CAT[it.cat] || it.cat) + '</span>', day(it.date)];
+    if (m.forum) bits.push(escape(m.forum));
+    if (m.repo) bits.push(escape(m.repo));
+    if (m.chain) bits.push(escape(m.chain));
+    if (m.company) bits.push(escape(m.company));
+    if (m.starts) bits.push('start ' + escape(m.starts));
+    if (m.ends) bits.push('eind ' + escape(m.ends));
+    if (m.prize) bits.push(escape(Number(m.prize).toLocaleString('nl-NL')) + ' ' + escape(m.token || ''));
+    if (m.type) bits.push(escape(m.type));
+    if (m.ecosystem) bits.push(escape(m.ecosystem));
+    if (m.version) bits.push('v' + escape(m.version));
+    return '<div class="row"><h2>' + link(it.url, it.title) + '</h2>' +
+      (m.about ? '<div class="desc">' + escape(m.about) + '</div>' : '') +
+      '<div class="meta">' + bits.map(b => '<span>' + b + '</span>').join('') + '</div></div>';
+  }).join('');
+}
+document.querySelectorAll('button[data-r]').forEach(b => b.addEventListener('click', () => {
+  rfilter = b.dataset.r;
+  document.querySelectorAll('button[data-r]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  renderRad();
+}));
+rq.addEventListener('input', renderRad);
+
+// ---- Airdrops ------------------------------------------------------------
+const alist = document.getElementById('alist');
+function renderAir(){
+  if (!RAD || RAD.error) { alist.innerHTML = '<div class="empty">Niet te laden.</div>'; return; }
+  const rows = RAD.airdrops || [];
+  if (!rows.length) { alist.innerHTML = '<div class="empty">Op dit moment geen kandidaten met genoeg signalen.</div>'; return; }
+  alist.innerHTML = rows.map(a => '<div class="row" data-kind="launched"><h2><span class="score hi">' + escape(a.score) + '</span>' +
+    '<a href="#dossiers" data-open="' + escape(a.id) + '">' + escape(a.name) + '</a></h2>' +
+    '<div class="meta"><span class="k">' + escape(STAGE[a.stage] || a.stage || '') + '</span><span>' + escape((a.why||[]).join(' · ')) + '</span>' +
+    (a.website ? '<span>' + link(a.website, 'site') + '</span>' : '') + '</div></div>').join('');
+}
+
+// Klik op een airdrop-kandidaat: open het dossier, gefilterd op dat project.
+alist.addEventListener('click', (e) => {
+  const a = e.target.closest('a[data-open]');
+  if (!a) return;
+  dq.value = a.dataset.open;
+  dfilter = 'all';
+  document.querySelectorAll('button[data-c]').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.c === 'all')));
+});
+
 const lc = document.getElementById('lastchange');
 if (lc && lc.dataset.ts) lc.textContent = fmt(lc.dataset.ts);
 render();
+show();
 </script></body></html>
