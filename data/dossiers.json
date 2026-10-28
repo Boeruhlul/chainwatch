@@ -3733,7 +3733,7 @@
     "n:eninetwork"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-10-16",
+   "lastActivity": "2026-10-28",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -3777,6 +3777,15 @@
      "what": "ethlists-commit: mainnet · ID 263",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-263.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x128be4d9…",
+     "url": "https://scan.eni.top/address/0x128be4d9ddaa73ef829fb046fbedf212536424cd",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3792,11 +3801,23 @@
    "mainnetSince": "2026-10-16",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 263)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 263)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x128be4d9ddaa73ef829fb046fbedf212536424cd",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "eoraptor": {
    "id": "eoraptor",
