@@ -1613,6 +1613,20 @@
    "date": "2026-10-28"
   },
   {
+   "key": "forum:ethereum-magicians.org:30121",
+   "title": "Draft ERC: AI Dispute Resolution Framework (ADRF) — admitting, resolving and ruling on claims about bound objects within pre-committed authority",
+   "url": "https://ethereum-magicians.org/t/draft-erc-ai-dispute-resolution-framework-adrf-admitting-resolving-and-ruling-on-claims-about-bound-objects-within-pre-committed-authority/30121",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 16
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
    "key": "forum:ethresear.ch:26178",
    "title": "ゼロ知識証明における疑問点とこれからのこと",
    "url": "https://ethresear.ch/t/topic/26178",
@@ -1761,6 +1775,20 @@
     "created": "2026-10-28",
     "posts": 1,
     "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17515",
+   "title": "ATOM needs a tokenomics overhaul, and it needs it now",
+   "url": "https://forum.cosmos.network/t/atom-needs-a-tokenomics-overhaul-and-it-needs-it-now/17515",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-28",
+    "posts": 2,
+    "views": 9
    },
    "cat": "techniek",
    "src": "forums",
@@ -2255,6 +2283,7 @@
    "forum:ethereum-magicians.org:30112",
    "forum:ethereum-magicians.org:30116",
    "forum:ethereum-magicians.org:30120",
+   "forum:ethereum-magicians.org:30121",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -2276,6 +2305,7 @@
    "forum:forum.cosmos.network:17509",
    "forum:forum.cosmos.network:17510",
    "forum:forum.cosmos.network:17514",
+   "forum:forum.cosmos.network:17515",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
