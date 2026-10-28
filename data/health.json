@@ -2,10 +2,10 @@
   "github-discovery": {
     "ok": true
   },
-  "funding-rss": {
+  "rollup-factory": {
     "ok": true
   },
-  "rollup-factory": {
+  "zk-bridgehub": {
     "ok": true
   },
   "ct-hostnames": {
@@ -59,6 +59,9 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
+  },
+  "funding-rss": {
+    "ok": true
   },
   "research": {
     "ok": true
