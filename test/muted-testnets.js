@@ -31,7 +31,7 @@ async function watch(fixture, env = {}) {
       CHAINWATCH_DOCS: `${TMP}/docs`,
       CHAINWATCH_FIXTURE: `${TMP}/fixture.json`,
       TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '',
-      PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false',
+      PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', RADAR_ENABLED: 'false',
       ...env,
     },
   });

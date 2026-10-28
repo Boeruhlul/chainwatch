@@ -31,7 +31,7 @@ async function watch(fixture, env = {}) {
       CHAINWATCH_DOCS: `${TMP}/docs`,
       CHAINWATCH_FIXTURE: `${TMP}/fixture.json`,
       TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '',
-      PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false',
+      PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', RADAR_ENABLED: 'false',
       ...env,
     },
   });
@@ -85,7 +85,7 @@ async function watchTg(fixture, tg, env = {}) {
         CHAINWATCH_DATA: `${TMP}/data`, CHAINWATCH_DOCS: `${TMP}/docs`,
         CHAINWATCH_FIXTURE: `${TMP}/fixture.json`, CHAINWATCH_TG_API: tg.url,
         TELEGRAM_BOT_TOKEN: 'testtoken', TELEGRAM_CHAT_ID: '123',
-        PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', ...env,
+        PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', RADAR_ENABLED: 'false', ...env,
       },
     });
     return r.stdout + r.stderr;
