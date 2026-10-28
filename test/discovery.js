@@ -102,6 +102,18 @@ await t('D5: generieke namen knopen geen projecten aan elkaar', async () => {
   assert.equal(n, 2, `alleen de twee GitHub-orgs krijgen een dossier (kreeg ${n})`);
 });
 
+await t('D5b: hosting- en stackplatforms knopen geen projecten aan elkaar', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [
+    rec({ key: 'a', source: 'ethlists-pr', kind: 'proposal', name: 'Eerste', chainId: 7100001, website: 'https://foo.workers.dev', socials: { github: 'https://github.com/matter-labs' }, url: '1' }),
+    rec({ key: 'b', source: 'ethlists-pr', kind: 'proposal', name: 'Tweede', chainId: 7100002, website: 'https://bar.workers.dev', socials: { github: 'https://github.com/matter-labs' }, url: '2' }),
+  ], { quiet: true });
+  assert.equal(Object.keys(db.dossiers).length, 2);
+  db.dossiers.eerste.keys.push('gh:cloudflare');
+  D.ingest(db, [], { quiet: true });
+  assert.ok(!db.dossiers.eerste.keys.includes('gh:cloudflare'), 'oude platformsleutel opgeruimd');
+});
+
 await t('D6: intensief tot mainnet + 14 dagen, daarna gewone monitoring', async () => {
   const d = { stage: 'mainnet', mainnetSince: '2026-10-01', lastActivity: '2026-10-01' };
   assert.equal(D.isIntensive(d, '2026-10-10'), true);
@@ -365,6 +377,45 @@ await t('X1: runner bouwt dossiers op, geeft context mee en stuurt het dagoverzi
     assert.match(tg.sent.at(-1).text, /dagoverzicht/);
     await runner([...base, { chainId: 900002, name: 'Bravo Testnet', faucets: ['https://f'] }], tg, { DIGEST_ENABLED: 'true', DIGEST_HOUR: '0' });
     assert.equal(tg.sent.length, before + 1, 'niet nog eens dezelfde dag');
+  } finally {
+    tg.close();
+  }
+});
+
+const { buildBlocklist } = await import('../src/blocklist.js');
+
+await t('K1: blocklist herkent op naam, chain ID, domein en org, ook onder een andere naam', async () => {
+  const bl = buildBlocklist({ projects: [
+    { name: 'Gully Chain', chainIds: [485590], domains: ['gullychain.xyz'] },
+    { name: 'OneX Smart Chain', github: ['onex-chain'] },
+    { name: 'Uit', chainIds: [1], enabled: false },
+  ] });
+  assert.equal(bl.match(rec({ name: 'Gully Chain Testnet', chainId: 999 })), true, 'naam');
+  assert.equal(bl.match(rec({ name: 'Iets Anders', chainId: 485590 })), true, 'chain ID');
+  assert.equal(bl.match(rec({ name: 'Nieuwe Naam', website: 'https://app.gullychain.xyz' })), true, 'domein');
+  assert.equal(bl.match(rec({ name: 'X', rpc: ['https://rpc.gullychain.xyz'] })), true, 'RPC-domein');
+  assert.equal(bl.match(rec({ name: 'OneX v2', website: 'https://github.com/onex-chain' })), true, 'org');
+  assert.equal(bl.match(rec({ name: 'Ethereum', chainId: 1 })), false, 'uitgezette regel');
+  assert.equal(bl.match(rec({ name: 'Ritual', chainId: 784 })), false);
+  assert.equal(bl.matchDossier({ keys: ['id:485590'] }), true);
+});
+
+await t('K2: runner meldt een geblokkeerde chain niet en zet hem niet op de wachtlijst', async () => {
+  await fs.rm(`${TMP}/e2e`, { recursive: true, force: true });
+  await fs.mkdir(`${TMP}/e2e/data`, { recursive: true });
+  await fs.writeFile(`${TMP}/e2e/data/blocklist.json`, JSON.stringify({ projects: [{ name: 'Scamchain', chainIds: [910001] }] }));
+  const tg = await tgServer();
+  try {
+    const base = [{ chainId: 900001, name: 'Alpha Chain' }];
+    await runner(base, tg, { DIGEST_ENABLED: 'false' });
+    await runner([...base, { chainId: 910001, name: 'Scamchain' }, { chainId: 910002, name: 'Echtchain' }], tg, { DIGEST_ENABLED: 'false' });
+    assert.ok(tg.sent.some((m) => /Echtchain/.test(m.text)), 'gewone chain wel gemeld');
+    assert.ok(!tg.sent.some((m) => /Scamchain/.test(m.text)), 'geblokkeerde chain niet gemeld');
+    const db = JSON.parse(await fs.readFile(`${TMP}/e2e/data/dossiers.json`, 'utf8'));
+    assert.ok(Object.values(db.dossiers).some((d) => d.blocked), 'dossier gemarkeerd');
+    const n = tg.sent.length;
+    await runner([...base, { chainId: 910001, name: 'Scamchain' }, { chainId: 910002, name: 'Echtchain' }], tg, { DIGEST_ENABLED: 'false' });
+    assert.equal(tg.sent.length, n, 'ook later niet');
   } finally {
     tg.close();
   }

@@ -160,7 +160,7 @@ async function scanOne(d) {
 export async function scanEcosystems(db, { limit = 12, budgetMs = 40000, now = Date.now() } = {}) {
   const day = new Date(now).toISOString().slice(0, 10);
   const candidates = Object.values(db.dossiers)
-    .filter((d) => isIntensive(d, day) && (d.liveRpc || d.rpc?.length))
+    .filter((d) => !d.blocked && isIntensive(d, day) && (d.liveRpc || d.rpc?.length))
     .sort((a, b) => a.id.localeCompare(b.id));
   if (!candidates.length) return { findings: [], scanned: 0, candidates: 0 };
 

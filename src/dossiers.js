@@ -133,13 +133,48 @@ function addNameKey(keys, name) {
   if (s.length >= 3 && !GENERIC.has(s) && !/^\d+$/.test(s)) keys.add(`n:${s}`);
 }
 
+/**
+ * Hosting-platforms en stack-leveranciers. Een chain die op workers.dev draait
+ * of naar matter-labs linkt is daarmee niet hetzelfde project als elke andere
+ * chain die dat doet: zulke sleutels zouden alles aan elkaar knopen.
+ */
+const PLATFORM_DOMAINS = new Set([
+  'workers.dev', 'pages.dev', 'cloudflare.com', 'herokuapp.com', 'onrender.com', 'railway.app',
+  'fly.dev', 'web.app', 'firebaseapp.com', 'netlify.com', 'vercel.com', 'wixsite.com', 'carrd.co',
+  'framer.app', 'framer.website', 'webflow.io', 'notion.so', 'linktr.ee', 'google.com', 'blogspot.com',
+  'wordpress.com', 'replit.app', 'replit.dev', 'ngrok.io', 'ngrok-free.app', 'azurewebsites.net',
+  'surge.sh', 'glitch.me', 'super.site', 'youtube.com', 'docs.google.com', 'telegram.org',
+]);
+const PLATFORM_ORGS = new Set([
+  'cloudflare', 'vercel', 'netlify', 'taikoxyz', 'matter-labs', 'ethereum-optimism', 'offchainlabs',
+  'cosmos', 'ignite', 'polygon', '0xpolygon', '0xpolygonhermez', 'conduit-xyz', 'calderaxyz',
+  'gelatodigital', 'alt-research', 'altlayer', 'hyperlane-xyz', 'layerzero-labs', 'wevm', 'ethereum',
+  'ethereum-lists', 'chainapsis', 'blockscout', 'foundry-rs', 'paradigmxyz', 'celestiaorg',
+  'avalanche-foundation', 'ava-labs', 'scroll-tech', 'starkware-libs', 'arbitrumfoundation',
+  'yourhandle', 'your-org', 'yourorg', 'username', 'user', 'example', 'github', 'features', 'orgs',
+]);
+
+/** Mag deze sleutel twee projecten aan elkaar knopen? */
+export function allowedKey(k) {
+  if (k.startsWith('d:')) {
+    const apex = k.slice(2);
+    return !INFRA_DOMAINS.has(apex) && !PLATFORM_DOMAINS.has(apex);
+  }
+  if (k.startsWith('gh:')) return !PLATFORM_ORGS.has(k.slice(3));
+  return true;
+}
+
 function addDomainKey(keys, url) {
   if (!url) return;
   const s = String(url);
   const gh = s.match(/github\.com\/([A-Za-z0-9][A-Za-z0-9-]{0,38})/i);
-  if (gh) return void keys.add(`gh:${gh[1].toLowerCase()}`);
+  if (gh) {
+    const k = `gh:${gh[1].toLowerCase()}`;
+    if (allowedKey(k)) keys.add(k);
+    return;
+  }
   const apex = apexOf(s);
-  if (apex && !INFRA_DOMAINS.has(apex)) keys.add(`d:${apex}`);
+  if (apex && allowedKey(`d:${apex}`)) keys.add(`d:${apex}`);
 }
 
 /** Alle identiteitssleutels die een detectie oplevert. */
@@ -159,8 +194,9 @@ export function keysOf(r) {
   if (r.chainId != null && r.chainId !== '' && !r.chainIdMismatch) keys.add(`id:${String(r.chainId).replace(/^eip155:/, '')}`);
   addDomainKey(keys, r.website);
   addDomainKey(keys, r.infoURL);
-  if (r.socials?.github) addDomainKey(keys, r.socials.github);
-  if (r.githubOrg) keys.add(`gh:${String(r.githubOrg).toLowerCase()}`);
+  // Bewust NIET socials.github: die komt uit gescrapete HTML en wijst vaak naar
+  // de stack (matter-labs, taikoxyz) in plaats van naar het project zelf.
+  if (r.githubOrg && allowedKey(`gh:${String(r.githubOrg).toLowerCase()}`)) keys.add(`gh:${String(r.githubOrg).toLowerCase()}`);
   for (const a of [r.sequencerInbox, r.submitter, r.contract]) {
     if (typeof a === 'string' && /^0x[0-9a-f]{40}$/i.test(a)) keys.add(`a:${a.toLowerCase()}`);
   }
@@ -294,7 +330,11 @@ export function evidenceOf(r) {
 
 function buildIndex(db) {
   const idx = new Map();
-  for (const d of Object.values(db.dossiers)) for (const k of d.keys || []) idx.set(k, d.id);
+  for (const d of Object.values(db.dossiers)) {
+    // Sleutels die achteraf platform bleken te zijn worden opgeruimd.
+    if ((d.keys || []).some((k) => !allowedKey(k))) d.keys = d.keys.filter(allowedKey);
+    for (const k of d.keys || []) idx.set(k, d.id);
+  }
   return idx;
 }
 

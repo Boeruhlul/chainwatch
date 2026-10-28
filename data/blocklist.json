@@ -1,0 +1,15 @@
+{
+  "_uitleg": [
+    "Projecten die chainwatch overslaat: geen alerts, geen wachtlijst, geen DEX/launchpad-scan, niet in het dagoverzicht.",
+    "Herkend op naam (en aliases), chain ID, domein of GitHub-org. Een nieuwe chain van hetzelfde team met dezelfde website wordt dus ook overgeslagen.",
+    "Dit bestand is van jou; de bot schrijft er niet in. enabled: false zet een regel tijdelijk uit."
+  ],
+  "projects": [
+    { "name": "BrainChain", "chainIds": [274630, 274663], "domains": ["usebrainchain.com"], "reason": "scam (Thijs, 2026-10-28)" },
+    { "name": "QoreChain", "chainIds": [9800, 9801], "domains": ["qorechain.io", "qore.network", "qore.host"], "reason": "scam (Thijs, 2026-10-28)" },
+    { "name": "OneX Smart Chain", "aliases": ["OneX"], "chainIds": [5559, 5775], "github": ["onex-chain"], "reason": "scam (Thijs, 2026-10-28)" },
+    { "name": "BlueChain", "chainIds": [2583], "domains": ["blue.org.mx"], "reason": "scam (Thijs, 2026-10-28)" },
+    { "name": "INKG Sovereign EVM", "aliases": ["INKG"], "chainIds": [777001], "domains": ["inkg.org"], "reason": "scam (Thijs, 2026-10-28)" },
+    { "name": "Gully Chain", "aliases": ["Gully"], "chainIds": [485590], "domains": ["gullychain.xyz"], "reason": "scam (Thijs, 2026-10-28)" }
+  ]
+}

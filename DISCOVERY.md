@@ -49,6 +49,21 @@ Komt een dossiermelding niet aan, dan blijft hij in `outbox` staan en wordt hij 
 
 Datums in de dossiers zijn dagen, geen tijdstippen, en er staan geen tellers in. Komt er geen bewijs bij, dan blijft het bestand byte-identiek (test D7).
 
+## Blocklist (`data/blocklist.json`)
+
+Projecten die je als scam of oninteressant aanmerkt. Een project wordt herkend op naam en aliassen, chain ID, domein (ook dat van RPC of explorer) en GitHub-org. Een team dat onder een nieuwe naam terugkomt met dezelfde website of hetzelfde chain ID wordt dus ook overgeslagen.
+
+Voor een geblokkeerd project:
+- gaat er geen enkele alert uit;
+- komt het niet op de wachtlijst;
+- wordt het niet meegenomen in de DEX/launchpad-scan;
+- verschijnt het niet in het dagoverzicht;
+- wordt het wel als gezien weggeschreven, zodat het later niet terugkomt.
+
+Het bestand is van jou: aanvullen en committen is genoeg.
+
+Sleutels van hostingplatforms (workers.dev, vercel en dergelijke) en van stackleveranciers (matter-labs, taikoxyz, ethereum-optimism en dergelijke) koppelen nooit projecten aan elkaar. Om dezelfde reden telt de GitHub-link die van een website gescrapet wordt niet als identiteit.
+
 ## Ecosysteem-scan (`src/ecosystem.js`)
 
 Voor elk dossier dat intensief gevolgd wordt en een RPC heeft. Intensief betekent: pre-launch met activiteit in de laatste 180 dagen, of de eerste 14 dagen na mainnet. Elke run leest de scan de logboeken van maximaal de laatste 20.000 blokken.

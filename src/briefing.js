@@ -178,7 +178,7 @@ export function digestDue(db, { hour = 8, now = new Date() } = {}) {
  * het eerlijk als er niets gebeurde.
  */
 export function buildDigest(db, { since, today, weekly = false, health = {} } = {}) {
-  const all = Object.values(db.dossiers);
+  const all = Object.values(db.dossiers).filter((d) => !d.blocked);
   const isNew = (d) => (d.firstSeen || '') >= since;
   const fresh = all.filter(isNew);
   const strong = fresh.filter((d) => ['A', 'B'].includes(d.confidence) && d.stage !== 'lead');

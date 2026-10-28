@@ -19,6 +19,7 @@ import {
   loadDossiers, saveDossiers, bootstrapFrom, ingest, contextFor,
 } from './dossiers.js';
 import { scanEcosystems, applyFindings } from './ecosystem.js';
+import { loadBlocklist } from './blocklist.js';
 import { formatEvent, researchMessages, digestDue, buildDigest } from './briefing.js';
 
 const argv = new Set(process.argv.slice(2));
@@ -103,6 +104,8 @@ async function main() {
   const watchState = cfg.watch ? await loadWatchState() : {};
   // Dossiers: ontbreekt het bestand, dan bouwen we het stil op uit de
   // historie. Corrupt = hard falen, net als de rest van de state.
+  // Blocklist (scams e.d.): vroeg laden, corrupt = hard falen.
+  const blocklist = await loadBlocklist();
   let dossiers = await loadDossiers();
   const dossiersBootstrapped = !dossiers;
   if (!dossiers) {
@@ -225,6 +228,10 @@ async function main() {
   }
 
   const allDetected = perSource.flatMap((e) => e.detected);
+  // Geblokkeerde projecten: wel als gezien wegschrijven, nergens melden.
+  let blockedCount = 0;
+  for (const c of allDetected) if (blocklist.match(c)) { c.blocked = true; blockedCount++; }
+  if (blockedCount) console.log(`[blocklist] ${blockedCount} detectie(s) overgeslagen`);
 
   // Hoort een detectie bij een project op de watchlist, dan gaat hij altijd
   // door — ook als cross-listing of buiten WATCH_KINDS. Precies die gevallen
@@ -261,6 +268,7 @@ async function main() {
     alertableBySource.set(
       entry,
       entry.detected
+        .filter((c) => !c.blocked)
         .filter((c) => c.watch || ALWAYS_ALERT.has(c.kind) || cfg.kinds.has(c.kind))
         .filter((c) => c.watch || !isMutedTestnet(c))
         .filter((c) => c.watchBypass || cfg.crossListing || !c.crossListing)
@@ -294,7 +302,9 @@ async function main() {
   const pendingBefore = await loadPending();
   // Chains die een andere bron intussen al als live meldde hoeven we niet meer
   // te pollen: dat bericht is dan al de deur uit.
-  const stillPending = pendingBefore.filter((e) => !e.liveNameKey || !state.names.has(e.liveNameKey));
+  const stillPending = pendingBefore
+    .filter((e) => !e.liveNameKey || !state.names.has(e.liveNameKey))
+    .filter((e) => !blocklist.match(e));
   let launched = [];
   let keepPending = stillPending;
 
@@ -340,6 +350,8 @@ async function main() {
   // ---- Dossiers: alles aan projecten koppelen --------------------------------
   // Eerst bepalen wat als gewone alert de deur uitgaat: die detecties krijgen
   // de dossiercontext in hun eigen bericht en geen tweede melding.
+  launched = launched.filter((l) => !blocklist.match(l));
+  produced = produced.filter((p) => !blocklist.match(p));
   const alertKeys = new Set([
     ...[...alertableBySource.values()].flat().map((c) => c.key),
     ...[...watchEvents, ...produced, ...launched].map((c) => c.key),
@@ -350,6 +362,15 @@ async function main() {
     ...launched,
   ];
   const dossierEvents = ingest(dossiers, dossierInput, { alertKeys });
+  // Dossiers van geblokkeerde projecten markeren: geen scan, geen overzicht,
+  // geen meldingen. Het vlaggetje verandert alleen als de blocklist verandert.
+  for (const d of Object.values(dossiers.dossiers)) {
+    if (blocklist.matchDossier(d)) d.blocked = true;
+    else delete d.blocked;
+  }
+  for (let i = dossierEvents.length - 1; i >= 0; i--) {
+    if (dossiers.dossiers[dossierEvents[i].id]?.blocked) dossierEvents.splice(i, 1);
+  }
   for (const c of [...allDetected, ...watchEvents, ...produced, ...launched]) {
     const ctx = contextFor(dossiers, c);
     if (ctx) c.dossierCtx = ctx;
@@ -395,7 +416,7 @@ async function main() {
   );
 
   // Dossiergebeurtenissen: eerst wat vorige run niet aankwam, dan de nieuwe.
-  const outboxBefore = dossiers.outbox || [];
+  const outboxBefore = (dossiers.outbox || []).filter((ev) => !dossiers.dossiers[ev.id]?.blocked);
   const allEvents = [...outboxBefore, ...dossierEvents];
   const eventGroups = [];
   for (const ev of allEvents) {
@@ -407,7 +428,7 @@ async function main() {
   groups.splice(watchEvents.length + produced.length + launched.length, 0, ...eventGroups);
 
   // Onderzoeksresultaten als één overzichtsbericht, niet als dertig alerts.
-  const researchRecs = allDetected.filter((c) => c.source === 'research');
+  const researchRecs = allDetected.filter((c) => c.source === 'research' && !c.blocked && !dossiers.dossiers[c.dossierId]?.blocked);
   const researchTexts = researchMessages(dossiers, researchRecs);
   for (const [i, text] of researchTexts.entries()) {
     groups.push({ text, keys: i === 0 ? researchRecs.map((r) => r.key) : [`research-msg:${i}`] });
@@ -458,7 +479,7 @@ async function main() {
       if (failed.has(l.key)) newPending.push(restorePending(l));
     }
     for (const c of allDetected) {
-      if (!PRELAUNCH_KINDS.has(c.kind) || failed.has(c.key)) continue;
+      if (!PRELAUNCH_KINDS.has(c.kind) || failed.has(c.key) || c.blocked) continue;
       const entry = toPendingEntry(c);
       if (entry) newPending.push(entry);
     }
