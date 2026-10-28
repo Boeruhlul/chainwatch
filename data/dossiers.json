@@ -2971,6 +2971,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xb11fde8b…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0xb11fde8b16b5e138cf6d1837513ed4c879736c7a",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x03aec2c2…",
      "url": "https://blockscout.testnet.dogeos.com/address/0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
      "strength": "running"
@@ -3080,6 +3089,11 @@
      {
       "addr": "0xa96317e22e048bdf3a7f1e81629b76c4c3494152",
       "type": "Uniswap v4",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0xb11fde8b16b5e138cf6d1837513ed4c879736c7a",
+      "type": "Uniswap v2-fork",
       "date": "2026-10-28"
      }
     ],
