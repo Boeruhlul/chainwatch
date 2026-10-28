@@ -3792,6 +3792,7 @@
   "stafihub:main",
   "standard:pre",
   "starchain:main",
+  "starchain:pre",
   "starchain:test",
   "starcoin:main",
   "stargate:main",
