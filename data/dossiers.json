@@ -5805,6 +5805,43 @@
     "register"
    ]
   },
+  "mezo": {
+   "id": "mezo",
+   "name": "Mezo",
+   "aliases": [
+    "Mezo"
+   ],
+   "keys": [
+    "n:mezo"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/succinateworld-ux/nursebridge",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "mfenxnative2026": {
    "id": "mfenxnative2026",
    "name": "MFENX Native 2026",
@@ -12967,6 +13004,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "walrus": {
+   "id": "walrus",
+   "name": "Walrus",
+   "aliases": [
+    "Walrus"
+   ],
+   "keys": [
+    "n:walrus"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/VikRoz/recall-lab-total-recall",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "wattx": {
