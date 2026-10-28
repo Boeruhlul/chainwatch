@@ -3082,6 +3082,15 @@
     },
     {
      "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x818be633…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0x818be6335111b4ccfc7387c71d61a8e1b9adc27e",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -3178,6 +3187,10 @@
     "launchpad": [
      {
       "addr": "0x5c1e7deb7bd89d4aeb7b57b7b6d1ad266886f848",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0x818be6335111b4ccfc7387c71d61a8e1b9adc27e",
       "date": "2026-10-28"
      }
     ]
