@@ -498,6 +498,8 @@ await t('R4: alleen rollup-systeemcontracten tellen, geen algemene namen', async
   for (const n of ['OptimismPortal2', 'SequencerInbox', 'Bridgehub', 'DisputeGameFactory']) assert.ok(R.SYSTEM_CONTRACT.test(n), n);
   for (const n of ['Bridge', 'Inbox', 'Deposit', 'ERC20', 'OptimismPortalHelper']) assert.ok(!R.SYSTEM_CONTRACT.test(n), n);
   assert.ok(R.JOB_WORDS.test('Senior Protocol Engineer'));
+  for (const n of ['Which Are the Best Fleet Management App Development Companies in 2026?', 'FOCIL Breakout #45, October 27, 2026', 'EIPIP Meeting #132, Nov 18, 2026', 'Hello ZK Nation support', 'Vovilen Delegate Communication Thread']) assert.ok(R.FORUM_NOISE.test(n), n);
+  for (const n of ['Ephemeral Rollup: The New "L1.5" of Ethereum', 'Atomic Launchpad: a token launchpad going live on Arbitrum One', 'EIP-8456: CALLSTATUS instruction']) assert.ok(!R.FORUM_NOISE.test(n), n);
   assert.ok(!R.JOB_WORDS.test('Account Servicing Associate'));
 });
 

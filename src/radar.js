@@ -66,6 +66,9 @@ export const FORUMS = (process.env.RADAR_FORUMS ||
   'forum.celestia.org,forum.solana.com,community.starknet.io,forum.zknation.io,forum.polygon.technology,forum.cosmos.network')
   .split(',').map((s) => s.trim()).filter(Boolean);
 
+/** Vergaderverslagen, spam en supportvragen zijn geen nieuwe techniek. */
+export const FORUM_NOISE = /\b(which are the best|best .* compan(y|ies)|development compan|top \d+ |meeting #|breakout #|office hours?|call #|roundup|delegate (communication|thread)|delegate platform|support\b|hello\b|withdrawal .* (stuck|timing out)|airdrop claim help)/i;
+
 const PROPOSAL_REPOS = ['ethereum/EIPs', 'ethereum/ERCs', 'solana-foundation/solana-improvement-documents', 'bitcoin/bips'];
 
 /** Blockscout-instanties waarop we rollup-systeemcontracten zoeken. */
@@ -186,7 +189,7 @@ export const SOURCES = [
           const res = await getJson(`https://${host}/latest.json?order=created`, { timeout: 15000, retries: 0 });
           ok++;
           for (const t of res?.topic_list?.topics || []) {
-            if (t.pinned || !t.title || Date.parse(t.created_at) < ago(7)) continue;
+            if (t.pinned || !t.title || Date.parse(t.created_at) < ago(7) || FORUM_NOISE.test(t.title)) continue;
             out.push({
               key: `forum:${host}:${t.id}`,
               title: t.title,
