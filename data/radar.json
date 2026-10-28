@@ -15,6 +15,9 @@
   },
   "proposals": {
    "ok": true
+  },
+  "npm-sdk": {
+   "ok": true
   }
  },
  "airdrops": [
@@ -1596,6 +1599,20 @@
    "date": "2026-10-28"
   },
   {
+   "key": "forum:ethereum-magicians.org:30120",
+   "title": "Contracts can't read events: a gap that keeps coming up in ERC drafts",
+   "url": "https://ethereum-magicians.org/t/contracts-cant-read-events-a-gap-that-keeps-coming-up-in-erc-drafts/30120",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
    "key": "forum:ethresear.ch:26178",
    "title": "ゼロ知識証明における疑問点とこれからのこと",
    "url": "https://ethresear.ch/t/topic/26178",
@@ -1666,6 +1683,20 @@
    "date": "2026-10-28"
   },
   {
+   "key": "forum:ethresear.ch:26192",
+   "title": "Secure Transaction Verification and Authorization (STVA)",
+   "url": "https://ethresear.ch/t/secure-transaction-verification-and-authorization-stva/26192",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31619",
    "title": "Atomic Launchpad: a token launchpad going live on Arbitrum One",
    "url": "https://forum.arbitrum.foundation/t/atomic-launchpad-a-token-launchpad-going-live-on-arbitrum-one/31619",
@@ -1716,6 +1747,20 @@
     "created": "2026-10-28",
     "posts": 1,
     "views": 31
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17514",
+   "title": "What can the community do to improve the liquidity of ATOM on exchanges?",
+   "url": "https://forum.cosmos.network/t/what-can-the-community-do-to-improve-the-liquidity-of-atom-on-exchanges/17514",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 6
    },
    "cat": "techniek",
    "src": "forums",
@@ -2209,6 +2254,7 @@
    "forum:ethereum-magicians.org:30106",
    "forum:ethereum-magicians.org:30112",
    "forum:ethereum-magicians.org:30116",
+   "forum:ethereum-magicians.org:30120",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -2218,6 +2264,7 @@
    "forum:ethresear.ch:26183",
    "forum:ethresear.ch:26184",
    "forum:ethresear.ch:26187",
+   "forum:ethresear.ch:26192",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -2228,6 +2275,7 @@
    "forum:forum.cosmos.network:17505",
    "forum:forum.cosmos.network:17509",
    "forum:forum.cosmos.network:17510",
+   "forum:forum.cosmos.network:17514",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -2245,6 +2293,7 @@
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939"
   ],
+  "npm-sdk": [],
   "proposals": [
    "pr:bitcoin/bips#2336",
    "pr:bitcoin/bips#2337",
