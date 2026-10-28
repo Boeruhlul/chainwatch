@@ -230,7 +230,6 @@
    ],
    "keys": [
     "d:alchemy.xyz",
-    "gh:taikoxyz",
     "id:197197",
     "id:197198",
     "n:alchemyl2"
@@ -1731,7 +1730,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://rpc.chain.blue.org.mx"
+   "liveRpc": "https://rpc.chain.blue.org.mx",
+   "blocked": true
   },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
@@ -1923,7 +1923,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "blocked": true
   },
   "brdposchain": {
    "id": "brdposchain",
@@ -4679,7 +4680,8 @@
       "date": "2026-10-28"
      }
     ]
-   }
+   },
+   "blocked": true
   },
   "holesky": {
    "id": "holesky",
@@ -9137,7 +9139,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "blocked": true
   },
   "ostia": {
    "id": "ostia",
@@ -10654,7 +10657,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://evm-testnet.qore.host"
+   "liveRpc": "https://evm-testnet.qore.host",
+   "blocked": true
   },
   "qr0923q1ms": {
    "id": "qr0923q1ms",
@@ -12204,7 +12208,6 @@
    ],
    "keys": [
     "d:syrax.global",
-    "gh:yourhandle",
     "id:797290",
     "n:syraxchain"
    ],
@@ -12451,8 +12454,6 @@
    ],
    "keys": [
     "d:inkg.org",
-    "d:workers.dev",
-    "gh:cloudflare",
     "id:777001",
     "n:inkgsovereignevm",
     "n:toogchain"
@@ -12541,7 +12542,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "blocked": true
   },
   "tosschainvivarepublica": {
    "id": "tosschainvivarepublica",
@@ -13993,7 +13995,6 @@
    ],
    "keys": [
     "d:zksync.io",
-    "gh:matter-labs",
     "id:312",
     "n:zksyncera"
    ],
