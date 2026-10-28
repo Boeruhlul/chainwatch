@@ -2897,6 +2897,42 @@
     },
     {
      "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Algebra-fork) 0xf3961157…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0xf3961157f56c983316657f0267b4c04460bee43f",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x03aec2c2…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xa96317e2…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0xa96317e22e048bdf3a7f1e81629b76c4c3494152",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x5c1e7deb…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0x5c1e7deb7bd89d4aeb7b57b7b6d1ad266886f848",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -2919,10 +2955,13 @@
    "mainnetSince": "2026-10-16",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (chainlist: testnet · ID 6281971)"
+    "draaiend netwerk aangetoond (chainlist: testnet · ID 6281971)",
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
     "register",
+    "onchain",
     "onderzoek"
    ],
    "research": {
@@ -2962,7 +3001,33 @@
     },
     "file": "2026-10-28-initial.json"
    },
-   "org": "DogeOS (MyDoge team, CEO Jordan Jefferson)"
+   "org": "DogeOS (MyDoge team, CEO Jordan Jefferson)",
+   "liveRpc": "https://rpc.testnet.dogeos.com",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xf3961157f56c983316657f0267b4c04460bee43f",
+      "type": "Algebra-fork",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
+      "type": "Uniswap v4",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0xa96317e22e048bdf3a7f1e81629b76c4c3494152",
+      "type": "Uniswap v4",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": [
+     {
+      "addr": "0x5c1e7deb7bd89d4aeb7b57b7b6d1ad266886f848",
+      "date": "2026-10-28"
+     }
+    ]
+   }
   },
   "dogermancoin": {
    "id": "dogermancoin",
@@ -3033,7 +3098,7 @@
     "n:drama"
    ],
    "firstSeen": "2026-10-19",
-   "lastActivity": "2026-10-19",
+   "lastActivity": "2026-10-28",
    "stage": "draait",
    "stageHistory": [
     {
@@ -3059,6 +3124,33 @@
      "what": "ethlists-pr: RPC antwoordt · ID 710520",
      "url": "https://github.com/ethereum-lists/chains/pull/8894",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xac1af6dc…",
+     "url": "https://scan.drama.center/address/0xac1af6dc22b8844ef87f4a7d0242ee735b82260a",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x55a15c25…",
+     "url": "https://scan.drama.center/address/0x55a15c256e1d8b0bd709d69dd84930cf49a56efb",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x90dd2683…",
+     "url": "https://scan.drama.center/address/0x90dd2683e8543d5df465e93101aacfa2074b7664",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3073,11 +3165,33 @@
    "liveRpc": "https://rpc.drama.center",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 710520)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 710520)",
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xac1af6dc22b8844ef87f4a7d0242ee735b82260a",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-28"
+     }
+    ],
+    "launchpad": [
+     {
+      "addr": "0x90dd2683e8543d5df465e93101aacfa2074b7664",
+      "date": "2026-10-28"
+     },
+     {
+      "addr": "0x55a15c256e1d8b0bd709d69dd84930cf49a56efb",
+      "date": "2026-10-28"
+     }
+    ]
+   }
   },
   "ecashecx": {
    "id": "ecashecx",
