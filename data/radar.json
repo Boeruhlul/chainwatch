@@ -2081,6 +2081,18 @@
    "date": "2026-10-28"
   },
   {
+   "key": "pr:ethereum/ercs#2123",
+   "title": "Add ERC: AI Dispute Resolution Framework (ADRF)",
+   "url": "https://github.com/ethereum/ERCs/pull/2123",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-28"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#706",
    "title": "SIMD-0706: disable `sol_alloc_free_` again",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/706",
@@ -2369,6 +2381,7 @@
    "pr:ethereum/ercs#2120",
    "pr:ethereum/ercs#2121",
    "pr:ethereum/ercs#2122",
+   "pr:ethereum/ercs#2123",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
