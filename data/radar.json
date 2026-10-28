@@ -763,6 +763,18 @@
    "date": "2026-10-28"
   },
   {
+   "key": "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PQAccountFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88"
+   },
+   "date": "2026-10-28"
+  },
+  {
    "key": "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -2202,6 +2214,7 @@
    "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
    "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
