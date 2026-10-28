@@ -1,6 +1,13 @@
 {
  "lastSent": null,
- "health": {},
+ "health": {
+  "verified-contracts": {
+   "ok": true
+  },
+  "forums": {
+   "ok": true
+  }
+ },
  "items": [
   {
    "key": "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
@@ -793,6 +800,902 @@
     "addr": "0xff8be2d94fc5c918c4b238d8a14a0398efac81f1"
    },
    "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rwachain:0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RWAMarketplace op RWA Chain",
+   "url": "https://explorer.rwa-chain.io/address/0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0",
+   "meta": {
+    "chain": "RWA Chain",
+    "addr": "0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "L2StandardBridge op RWA Chain",
+   "url": "https://explorer.rwa-chain.io/address/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+   "meta": {
+    "chain": "RWA Chain",
+    "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SequencerFeeVault op RWA Chain",
+   "url": "https://explorer.rwa-chain.io/address/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011",
+   "meta": {
+    "chain": "RWA Chain",
+    "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OptimismMintableERC20Factory op RWA Chain",
+   "url": "https://explorer.rwa-chain.io/address/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012",
+   "meta": {
+    "chain": "RWA Chain",
+    "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rwachain:0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GnosisSafeProxyFactory op RWA Chain",
+   "url": "https://explorer.rwa-chain.io/address/0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+   "meta": {
+    "chain": "RWA Chain",
+    "addr": "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:twotrader:0x155cf116dfbfa2c5f10f73137755051f1ecf40b9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ConstantProductCurve op Two-Trader",
+   "url": "https://explorer.two-trader.io/address/0x155cf116dfbfa2c5f10f73137755051f1ecf40b9",
+   "meta": {
+    "chain": "Two-Trader",
+    "addr": "0x155cf116dfbfa2c5f10f73137755051f1ecf40b9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:twotrader:0x41eba3cc73d07f3ea82e15b77b70a511c599113f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "T2TRouter op Two-Trader",
+   "url": "https://explorer.two-trader.io/address/0x41eba3cc73d07f3ea82e15b77b70a511c599113f",
+   "meta": {
+    "chain": "Two-Trader",
+    "addr": "0x41eba3cc73d07f3ea82e15b77b70a511c599113f"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:twotrader:0x5902963acc81be695b7fac379295623e76071c4e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolManager op Two-Trader",
+   "url": "https://explorer.two-trader.io/address/0x5902963acc81be695b7fac379295623e76071c4e",
+   "meta": {
+    "chain": "Two-Trader",
+    "addr": "0x5902963acc81be695b7fac379295623e76071c4e"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:twotrader:0x7583e62f438f701d6f3d2d339317c73dffd11542",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolRegistry op Two-Trader",
+   "url": "https://explorer.two-trader.io/address/0x7583e62f438f701d6f3d2d339317c73dffd11542",
+   "meta": {
+    "chain": "Two-Trader",
+    "addr": "0x7583e62f438f701d6f3d2d339317c73dffd11542"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x09564fef02434434485156eb0aaa3f7f1684c469",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenWithdrawer op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x09564fef02434434485156eb0aaa3f7f1684c469",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x09564fef02434434485156eb0aaa3f7f1684c469"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StrategyFactory op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x0ff60470b13886fdb2175877d684e91f26ffa631",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "Sodex op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x0ff60470b13886fdb2175877d684e91f26ffa631",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x0ff60470b13886fdb2175877d684e91f26ffa631"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x191215c36b9dcb5b0e9e7ad384d621839d6193f2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "Vault op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x191215c36b9dcb5b0e9e7ad384d621839d6193f2",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x191215c36b9dcb5b0e9e7ad384d621839d6193f2"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenPortal op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x27799b331af320290c67c97540b8ba50cccb1cb9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCustody op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x27799b331af320290c67c97540b8ba50cccb1cb9",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x27799b331af320290c67c97540b8ba50cccb1cb9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenPortal op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x40cd829104b27fe0a3562b6acad1c70c40013680",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StakeToken op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x40cd829104b27fe0a3562b6acad1c70c40013680",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x40cd829104b27fe0a3562b6acad1c70c40013680"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x42bb61d59b27a81af232996b242c2468c46377f9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexToken op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x42bb61d59b27a81af232996b242c2468c46377f9",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x42bb61d59b27a81af232996b242c2468c46377f9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x459d8f697cb04145544b3c92d9b55e5f5e9387d9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexToken op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x459d8f697cb04145544b3c92d9b55e5f5e9387d9",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x459d8f697cb04145544b3c92d9b55e5f5e9387d9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x45b0d6384eee13f0966fe1aa8249316123b991ab",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCaller op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x45b0d6384eee13f0966fe1aa8249316123b991ab",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x45b0d6384eee13f0966fe1aa8249316123b991ab"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x463218364e09917ae391b54de750dcd72c545560",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCustody op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x463218364e09917ae391b54de750dcd72c545560",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x463218364e09917ae391b54de750dcd72c545560"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x4760a16789aa10f7914b2678fcafb37cd0b5ceed",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCaller op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x4760a16789aa10f7914b2678fcafb37cd0b5ceed",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x4760a16789aa10f7914b2678fcafb37cd0b5ceed"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x48c6e2355615569292494a7261a36b4a848cc50b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenAdmin op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x48c6e2355615569292494a7261a36b4a848cc50b",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x48c6e2355615569292494a7261a36b4a848cc50b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x4a63b98504bc6bc3bbc6de47294683280601b101",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCustody op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x4a63b98504bc6bc3bbc6de47294683280601b101",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x4a63b98504bc6bc3bbc6de47294683280601b101"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x4e14932a63d2d699b9debccf17381da6a0b576ee",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCallForPermit op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x4e14932a63d2d699b9debccf17381da6a0b576ee",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x4e14932a63d2d699b9debccf17381da6a0b576ee"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SafeProxyFactory op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x502b54810537e9d33b2ca5b9330d25259ef049f9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCaller op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x502b54810537e9d33b2ca5b9330d25259ef049f9",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x502b54810537e9d33b2ca5b9330d25259ef049f9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x5148f777ae197bf72565cd7856a15c0ae694f8e8",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoDexTokenCaller op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x5148f777ae197bf72565cd7856a15c0ae694f8e8",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x5148f777ae197bf72565cd7856a15c0ae694f8e8"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:valuechain:0x5c72094b42b887f37d31bcb640ce8a528ef94290",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StakeToken op ValueChain",
+   "url": "https://test-scan.valuechain.xyz/address/0x5c72094b42b887f37d31bcb640ce8a528ef94290",
+   "meta": {
+    "chain": "ValueChain",
+    "addr": "0x5c72094b42b887f37d31bcb640ce8a528ef94290"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SwapRouter op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SwapRouter op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0x5ef687ea7db6b25071fb1f4869ce016fa3f46171",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "VyrePad op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0x5ef687ea7db6b25071fb1f4869ce016fa3f46171",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0x5ef687ea7db6b25071fb1f4869ce016fa3f46171"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0xd0ea487be03a98c34bd007bac6db338923a2b21c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "VyrePoolFactory op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0xd0ea487be03a98c34bd007bac6db338923a2b21c",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0xd0ea487be03a98c34bd007bac6db338923a2b21c"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0xdb209972c8e49d55774b65380fbd27547bf13f1e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "VyrePoolFactory op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0xdb209972c8e49d55774b65380fbd27547bf13f1e",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0xdb209972c8e49d55774b65380fbd27547bf13f1e"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:vyre:0xe7cb5622b8a30e70f04152b64dfffd448f5f941e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "VyreAppRouter op VYRE",
+   "url": "https://explorer.vyrechain.com/address/0xe7cb5622b8a30e70f04152b64dfffd448f5f941e",
+   "meta": {
+    "chain": "VYRE",
+    "addr": "0xe7cb5622b8a30e70f04152b64dfffd448f5f941e"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:2980",
+   "title": "Update and open questions on FinalisCore (deterministic BFT finality + confidential UTXOs from genesis)",
+   "url": "https://delvingbitcoin.org/t/update-and-open-questions-on-finaliscore-deterministic-bft-finality-confidential-utxos-from-genesis/2980",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 22
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:2984",
+   "title": "Cost-backed Sybil resistance for self-issued identifiers",
+   "url": "https://delvingbitcoin.org/t/cost-backed-sybil-resistance-for-self-issued-identifiers/2984",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 26
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:2985",
+   "title": "We made the bitcoin-dev mailing list readable: 15 years, 24,699 messages",
+   "url": "https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 39
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:2987",
+   "title": "The Long Road to Bitcoin Payments",
+   "url": "https://delvingbitcoin.org/t/the-long-road-to-bitcoin-payments/2987",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-27",
+    "posts": 2,
+    "views": 44
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3007",
+   "title": "Information hazards and safe redaction",
+   "url": "https://delvingbitcoin.org/t/information-hazards-and-safe-redaction/3007",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 16
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30082",
+   "title": "FOCIL Breakout #45, October 27, 2026",
+   "url": "https://ethereum-magicians.org/t/focil-breakout-45-october-27-2026/30082",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-26",
+    "posts": 3,
+    "views": 17
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30083",
+   "title": "EIP Editing Office Hour (EIP + ERC ) Meeting #118, October 27, 2026",
+   "url": "https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-118-october-27-2026/30083",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30084",
+   "title": "EIPIP Meeting #132, Nov 18, 2026",
+   "url": "https://ethereum-magicians.org/t/eipip-meeting-132-nov-18-2026/30084",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30085",
+   "title": "EIP-8456: CALLSTATUS instruction",
+   "url": "https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 25
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30092",
+   "title": "Physical storage for EIP-8297 PBT state",
+   "url": "https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-27",
+    "posts": 2,
+    "views": 34
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30100",
+   "title": "FOCIL Breakout #46, November 17, 2026",
+   "url": "https://ethereum-magicians.org/t/focil-breakout-46-november-17-2026/30100",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30104",
+   "title": "App-layer input on EIPs and the roadmap: staking and oracles",
+   "url": "https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 111
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30106",
+   "title": "(ERC Draft), Secure Transaction Verification and Authorization (STVA) – Stopping Blind Signing & Multisig UI Attacks",
+   "url": "https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-27",
+    "posts": 6,
+    "views": 34
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30112",
+   "title": "Pre-ERC: Launch Observations, the check an agent reads before it buys a token",
+   "url": "https://ethereum-magicians.org/t/pre-erc-launch-observations-the-check-an-agent-reads-before-it-buys-a-token/30112",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-28",
+    "posts": 5,
+    "views": 28
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30116",
+   "title": "EIP-8455: RESERVOIR Opcode",
+   "url": "https://ethereum-magicians.org/t/eip-8455-reservoir-opcode/30116",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-28",
+    "posts": 3,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethresear.ch:26178",
+   "title": "ゼロ知識証明における疑問点とこれからのこと",
+   "url": "https://ethresear.ch/t/topic/26178",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 56
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethresear.ch:26180",
+   "title": "Lean verification of EIP-7002: system-call success and FIFO requests",
+   "url": "https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 61
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethresear.ch:26183",
+   "title": "Inventory of PQ P2P Migrations in the Consensus Layer",
+   "url": "https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 54
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethresear.ch:26184",
+   "title": "Proof of One: one-person-one-identity polling with encrypted ballots — design and reference code, requesting critical review",
+   "url": "https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 29
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:ethresear.ch:26187",
+   "title": "Ephemeral Rollup: The New \"L1.5\" of Ethereum",
+   "url": "https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-28",
+    "posts": 3,
+    "views": 61
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.arbitrum.foundation:31619",
+   "title": "Atomic Launchpad: a token launchpad going live on Arbitrum One",
+   "url": "https://forum.arbitrum.foundation/t/atomic-launchpad-a-token-launchpad-going-live-on-arbitrum-one/31619",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-10-26",
+    "posts": 2,
+    "views": 16
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.arbitrum.foundation:31622",
+   "title": "27 October, 2026 - Roundup of Active/Upcoming Votes",
+   "url": "https://forum.arbitrum.foundation/t/27-october-2026-roundup-of-active-upcoming-votes/31622",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 41
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17509",
+   "title": "Akash wants to ditch Cosmos for Solana sadly",
+   "url": "https://forum.cosmos.network/t/akash-wants-to-ditch-cosmos-for-solana-sadly/17509",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-27",
+    "posts": 3,
+    "views": 38
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17510",
+   "title": "What has to happen to IBC tokens before a Cosmos chain halts for good",
+   "url": "https://forum.cosmos.network/t/what-has-to-happen-to-ibc-tokens-before-a-cosmos-chain-halts-for-good/17510",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 31
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22442",
+   "title": "Which Are the Best Supply Chain Software Development Companies in 2026?",
+   "url": "https://forum.polygon.technology/t/which-are-the-best-supply-chain-software-development-companies-in-2026/22442",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 16
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22443",
+   "title": "Which Are the Best Fleet Management App Development Companies in 2026?",
+   "url": "https://forum.polygon.technology/t/which-are-the-best-fleet-management-app-development-companies-in-2026/22443",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 14
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22447",
+   "title": "Who Are the Leading Logistics Software Development Companies in 2026?",
+   "url": "https://forum.polygon.technology/t/who-are-the-leading-logistics-software-development-companies-in-2026/22447",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1224",
+   "title": "Hello ZK Nation support",
+   "url": "https://forum.zknation.io/t/hello-zk-nation-support/1224",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 17
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1225",
+   "title": "Vovilen Delegate Communication Thread",
+   "url": "https://forum.zknation.io/t/vovilen-delegate-communication-thread/1225",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-26",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1231",
+   "title": "Withdrawal on lite.zksync.io keeps timing out — generated tx hashes never land on-chain",
+   "url": "https://forum.zknation.io/t/withdrawal-on-lite-zksync-io-keeps-timing-out-generated-tx-hashes-never-land-on-chain/1231",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-27",
+    "posts": 2,
+    "views": 25
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1234",
+   "title": "Prividium Commander: digital asset services on existing infrastructure",
+   "url": "https://forum.zknation.io/t/prividium-commander-digital-asset-services-on-existing-infrastructure/1234",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 38
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1240",
+   "title": "Unable to claim Lite funds - tx hashes never land on-chain after signing",
+   "url": "https://forum.zknation.io/t/unable-to-claim-lite-funds-tx-hashes-never-land-on-chain-after-signing/1240",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.zknation.io:1241",
+   "title": "Standing Proposal Review Call Summary: 28 October 2026",
+   "url": "https://forum.zknation.io/t/standing-proposal-review-call-summary-28-october-2026/1241",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
+  },
+  {
+   "key": "forum:gov.optimism.io:10939",
+   "title": "Maintenance Upgrade Proposal: OP Mainnet Proposer Rotation",
+   "url": "https://gov.optimism.io/t/maintenance-upgrade-proposal-op-mainnet-proposer-rotation/10939",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-10-27",
+    "posts": 1,
+    "views": 26
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-28"
   }
  ],
  "seen": {
@@ -862,7 +1765,117 @@
    "chaincontract:rabbitchain:0xe1cb00a16371109a2cc6f1b520f31c564c101bed",
    "chaincontract:rabbitchain:0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0",
    "chaincontract:rabbitchain:0xfc07196a209b1db77e9b20f5600155bb6643d2af",
-   "chaincontract:rabbitchain:0xff8be2d94fc5c918c4b238d8a14a0398efac81f1"
-  ]
+   "chaincontract:rabbitchain:0xff8be2d94fc5c918c4b238d8a14a0398efac81f1",
+   "chaincontract:rwachain:0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0",
+   "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+   "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011",
+   "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012",
+   "chaincontract:rwachain:0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+   "chaincontract:twotrader:0x155cf116dfbfa2c5f10f73137755051f1ecf40b9",
+   "chaincontract:twotrader:0x41eba3cc73d07f3ea82e15b77b70a511c599113f",
+   "chaincontract:twotrader:0x5902963acc81be695b7fac379295623e76071c4e",
+   "chaincontract:twotrader:0x7583e62f438f701d6f3d2d339317c73dffd11542",
+   "chaincontract:valuechain:0x09564fef02434434485156eb0aaa3f7f1684c469",
+   "chaincontract:valuechain:0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036",
+   "chaincontract:valuechain:0x0ff60470b13886fdb2175877d684e91f26ffa631",
+   "chaincontract:valuechain:0x191215c36b9dcb5b0e9e7ad384d621839d6193f2",
+   "chaincontract:valuechain:0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753",
+   "chaincontract:valuechain:0x27799b331af320290c67c97540b8ba50cccb1cb9",
+   "chaincontract:valuechain:0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5",
+   "chaincontract:valuechain:0x40cd829104b27fe0a3562b6acad1c70c40013680",
+   "chaincontract:valuechain:0x42bb61d59b27a81af232996b242c2468c46377f9",
+   "chaincontract:valuechain:0x459d8f697cb04145544b3c92d9b55e5f5e9387d9",
+   "chaincontract:valuechain:0x45b0d6384eee13f0966fe1aa8249316123b991ab",
+   "chaincontract:valuechain:0x463218364e09917ae391b54de750dcd72c545560",
+   "chaincontract:valuechain:0x4760a16789aa10f7914b2678fcafb37cd0b5ceed",
+   "chaincontract:valuechain:0x48c6e2355615569292494a7261a36b4a848cc50b",
+   "chaincontract:valuechain:0x4a63b98504bc6bc3bbc6de47294683280601b101",
+   "chaincontract:valuechain:0x4e14932a63d2d699b9debccf17381da6a0b576ee",
+   "chaincontract:valuechain:0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67",
+   "chaincontract:valuechain:0x502b54810537e9d33b2ca5b9330d25259ef049f9",
+   "chaincontract:valuechain:0x5148f777ae197bf72565cd7856a15c0ae694f8e8",
+   "chaincontract:valuechain:0x5c72094b42b887f37d31bcb640ce8a528ef94290",
+   "chaincontract:vyre:0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7",
+   "chaincontract:vyre:0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84",
+   "chaincontract:vyre:0x5ef687ea7db6b25071fb1f4869ce016fa3f46171",
+   "chaincontract:vyre:0xd0ea487be03a98c34bd007bac6db338923a2b21c",
+   "chaincontract:vyre:0xdb209972c8e49d55774b65380fbd27547bf13f1e",
+   "chaincontract:vyre:0xe7cb5622b8a30e70f04152b64dfffd448f5f941e"
+  ],
+  "forums": [
+   "forum:community.starknet.io:116431",
+   "forum:community.starknet.io:116444",
+   "forum:community.starknet.io:116445",
+   "forum:community.starknet.io:116446",
+   "forum:community.starknet.io:116448",
+   "forum:delvingbitcoin.org:2967",
+   "forum:delvingbitcoin.org:2969",
+   "forum:delvingbitcoin.org:2970",
+   "forum:delvingbitcoin.org:2974",
+   "forum:delvingbitcoin.org:2980",
+   "forum:delvingbitcoin.org:2984",
+   "forum:delvingbitcoin.org:2985",
+   "forum:delvingbitcoin.org:2987",
+   "forum:delvingbitcoin.org:3007",
+   "forum:ethereum-magicians.org:30038",
+   "forum:ethereum-magicians.org:30039",
+   "forum:ethereum-magicians.org:30040",
+   "forum:ethereum-magicians.org:30041",
+   "forum:ethereum-magicians.org:30044",
+   "forum:ethereum-magicians.org:30045",
+   "forum:ethereum-magicians.org:30046",
+   "forum:ethereum-magicians.org:30047",
+   "forum:ethereum-magicians.org:30048",
+   "forum:ethereum-magicians.org:30058",
+   "forum:ethereum-magicians.org:30062",
+   "forum:ethereum-magicians.org:30064",
+   "forum:ethereum-magicians.org:30071",
+   "forum:ethereum-magicians.org:30073",
+   "forum:ethereum-magicians.org:30082",
+   "forum:ethereum-magicians.org:30083",
+   "forum:ethereum-magicians.org:30084",
+   "forum:ethereum-magicians.org:30085",
+   "forum:ethereum-magicians.org:30092",
+   "forum:ethereum-magicians.org:30100",
+   "forum:ethereum-magicians.org:30104",
+   "forum:ethereum-magicians.org:30106",
+   "forum:ethereum-magicians.org:30112",
+   "forum:ethereum-magicians.org:30116",
+   "forum:ethresear.ch:26167",
+   "forum:ethresear.ch:26169",
+   "forum:ethresear.ch:26170",
+   "forum:ethresear.ch:26172",
+   "forum:ethresear.ch:26178",
+   "forum:ethresear.ch:26180",
+   "forum:ethresear.ch:26183",
+   "forum:ethresear.ch:26184",
+   "forum:ethresear.ch:26187",
+   "forum:forum.arbitrum.foundation:31604",
+   "forum:forum.arbitrum.foundation:31605",
+   "forum:forum.arbitrum.foundation:31606",
+   "forum:forum.arbitrum.foundation:31619",
+   "forum:forum.arbitrum.foundation:31622",
+   "forum:forum.cosmos.network:17496",
+   "forum:forum.cosmos.network:17498",
+   "forum:forum.cosmos.network:17505",
+   "forum:forum.cosmos.network:17509",
+   "forum:forum.cosmos.network:17510",
+   "forum:forum.polygon.technology:22425",
+   "forum:forum.polygon.technology:22428",
+   "forum:forum.polygon.technology:22441",
+   "forum:forum.polygon.technology:22442",
+   "forum:forum.polygon.technology:22443",
+   "forum:forum.polygon.technology:22447",
+   "forum:forum.zknation.io:1224",
+   "forum:forum.zknation.io:1225",
+   "forum:forum.zknation.io:1231",
+   "forum:forum.zknation.io:1234",
+   "forum:forum.zknation.io:1240",
+   "forum:forum.zknation.io:1241",
+   "forum:gov.optimism.io:10919",
+   "forum:gov.optimism.io:10921",
+   "forum:gov.optimism.io:10939"
+  ],
+  "verified-contracts": []
  }
 }
