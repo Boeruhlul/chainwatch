@@ -12104,7 +12104,8 @@
    ],
    "families": [
     "onderzoek"
-   ]
+   ],
+   "liveRpc": "https://rpc.tempo.xyz"
   },
   "theclearinghousetokenizeddepositnetwork": {
    "id": "theclearinghousetokenizeddepositnetwork",
