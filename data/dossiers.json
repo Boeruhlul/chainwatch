@@ -1685,10 +1685,14 @@
    ],
    "firstSeen": "2026-10-28",
    "lastActivity": "2026-10-28",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-10-28"
+    },
+    {
+     "stage": "draait",
      "date": "2026-10-28"
     }
    ],
@@ -1701,6 +1705,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 2583",
      "url": "https://github.com/ethereum-lists/chains/pull/8940",
      "strength": "technical"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 2583",
+     "url": "https://github.com/ethereum-lists/chains/pull/8940",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -1711,13 +1724,14 @@
    "rpc": [
     "https://rpc.chain.blue.org.mx"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 2583)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.chain.blue.org.mx"
   },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
