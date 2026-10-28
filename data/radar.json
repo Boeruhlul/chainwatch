@@ -613,6 +613,186 @@
     "addr": "0xfffdc1e38496892851f318571ca5106b771941b3"
    },
    "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x51aaa29f6015eba7418ad15135aa94966e887cb0"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitSwapFactory op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x3455ff1c81b8fc1d8229019766495cd2a9a6c577"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchMarket op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x3724097d57e00d8b7bb38ee49404f03968465569",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x3724097d57e00d8b7bb38ee49404f03968465569"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchRegistry op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x4a75ae20142c3b6426a35d6e74e938c666ece0ac"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x4ffe7e4debf8a897629af714c270181d470591f9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchVRFFactoryV3Safe op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x4ffe7e4debf8a897629af714c270181d470591f9",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x4ffe7e4debf8a897629af714c270181d470591f9"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x60e3918a6727e42f7ea45d409438fd46a7b58f1b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchPermanentLPLock op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x60e3918a6727e42f7ea45d409438fd46a7b58f1b",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x60e3918a6727e42f7ea45d409438fd46a7b58f1b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x7edf729000e7fe79bf5de16b23f28b997dd5cd31",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitTokenFactoryV1 op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x7edf729000e7fe79bf5de16b23f28b997dd5cd31",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x7edf729000e7fe79bf5de16b23f28b997dd5cd31"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x83273047c7aa7a7621cb4b3cc855b7fbae61560d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchMarketV3VRF op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x83273047c7aa7a7621cb4b3cc855b7fbae61560d",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x83273047c7aa7a7621cb4b3cc855b7fbae61560d"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x879debcdd0fa214f984807dd4e68f39d8b099816",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitNativeStaking op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x879debcdd0fa214f984807dd4e68f39d8b099816",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x879debcdd0fa214f984807dd4e68f39d8b099816"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0x8b9f4581b71964049ac6be03b22000132438b385",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitSwapPair op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x8b9f4581b71964049ac6be03b22000132438b385",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x8b9f4581b71964049ac6be03b22000132438b385"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchFeeVaultV2 op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0xe1cb00a16371109a2cc6f1b520f31c564c101bed",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitLaunchFeeVaultV2 op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0xe1cb00a16371109a2cc6f1b520f31c564c101bed",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0xe1cb00a16371109a2cc6f1b520f31c564c101bed"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitSwapRouter02 op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0xfc07196a209b1db77e9b20f5600155bb6643d2af",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitFXOracleV7Lab op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0xfc07196a209b1db77e9b20f5600155bb6643d2af",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0xfc07196a209b1db77e9b20f5600155bb6643d2af"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:rabbitchain:0xff8be2d94fc5c918c4b238d8a14a0398efac81f1",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitTwapOracle op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0xff8be2d94fc5c918c4b238d8a14a0398efac81f1",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0xff8be2d94fc5c918c4b238d8a14a0398efac81f1"
+   },
+   "date": "2026-10-28"
   }
  ],
  "seen": {
@@ -667,7 +847,22 @@
    "chaincontract:mstcoral:0x0000000000000000000000000000000000002003",
    "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
-   "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3"
+   "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
+   "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
+   "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
+   "chaincontract:rabbitchain:0x4ffe7e4debf8a897629af714c270181d470591f9",
+   "chaincontract:rabbitchain:0x60e3918a6727e42f7ea45d409438fd46a7b58f1b",
+   "chaincontract:rabbitchain:0x7edf729000e7fe79bf5de16b23f28b997dd5cd31",
+   "chaincontract:rabbitchain:0x83273047c7aa7a7621cb4b3cc855b7fbae61560d",
+   "chaincontract:rabbitchain:0x879debcdd0fa214f984807dd4e68f39d8b099816",
+   "chaincontract:rabbitchain:0x8b9f4581b71964049ac6be03b22000132438b385",
+   "chaincontract:rabbitchain:0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372",
+   "chaincontract:rabbitchain:0xe1cb00a16371109a2cc6f1b520f31c564c101bed",
+   "chaincontract:rabbitchain:0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0",
+   "chaincontract:rabbitchain:0xfc07196a209b1db77e9b20f5600155bb6643d2af",
+   "chaincontract:rabbitchain:0xff8be2d94fc5c918c4b238d8a14a0398efac81f1"
   ]
  }
 }
