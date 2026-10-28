@@ -22,7 +22,7 @@ import { scanEcosystems, applyFindings } from './ecosystem.js';
 import { loadBlocklist } from './blocklist.js';
 import { loadRadar, saveRadar, runRadar, radarScore, loadJobBoards } from './radar.js';
 import { explorerLink } from './ecosystem.js';
-import { formatEvent, researchMessages, digestDue, buildDigest, radarMessages } from './briefing.js';
+import { formatEvent, researchMessages, digestDue, buildDigest, radarMessages, airdropCandidates } from './briefing.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
@@ -543,7 +543,14 @@ async function main() {
     if (due && !failed.has(`digest:${due.date}`)) dossiers.digest = { ...dossiers.digest, lastSent: due.date };
     await saveDossiers(dossiers);
     if (due && cfg.radar && ![...failed].some((k) => String(k).startsWith(`radar:${due.date}`))) radar.lastSent = due.date;
-    if (cfg.radar) await saveRadar(radar);
+    if (cfg.radar) {
+      // Airdrop-kandidaten voor het dashboard. Alleen wat de pagina nodig heeft,
+      // zonder datums die elke dag veranderen: geen extra commit-ruis.
+      radar.airdrops = airdropCandidates(dossiers, radar.items, { today: new Date().toISOString().slice(0, 10) })
+        .slice(0, 25)
+        .map(({ d, score, why }) => ({ id: d.id, name: d.name, score, why, stage: d.stage, website: d.website || null }));
+      await saveRadar(radar);
+    }
 
     if (watchRun) watchRun.commit(failed);
     for (const [nk, { id, key }] of bypassedNow) {

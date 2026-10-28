@@ -40,7 +40,7 @@ export async function loadRadar(file = RADAR_FILE) {
   }
   try {
     const r = JSON.parse(raw);
-    return { items: r.items || [], seen: r.seen || {}, health: r.health || {}, lastSent: r.lastSent || null };
+    return { items: r.items || [], seen: r.seen || {}, health: r.health || {}, lastSent: r.lastSent || null, airdrops: r.airdrops || [] };
   } catch (e) {
     throw new Error(`${file} is corrupt (${e.message})`);
   }
@@ -50,7 +50,7 @@ export async function saveRadar(radar, file = RADAR_FILE) {
   const seen = {};
   for (const id of Object.keys(radar.seen).sort()) seen[id] = [...radar.seen[id]].sort().slice(-SEEN_CAP);
   const items = [...radar.items].sort((a, b) => a.date.localeCompare(b.date) || a.key.localeCompare(b.key));
-  const out = { lastSent: radar.lastSent, health: radar.health, items, seen };
+  const out = { lastSent: radar.lastSent, health: radar.health, airdrops: radar.airdrops || [], items, seen };
   await fs.mkdir(path.dirname(file), { recursive: true });
   await fs.writeFile(`${file}.tmp`, JSON.stringify(out, null, 1));
   await fs.rename(`${file}.tmp`, file);
