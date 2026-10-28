@@ -23,6 +23,16 @@ Detecteert nieuwe crypto-netwerken — mainnet, testnet, devnet en pre-launch �
 
 De eerste twee zijn de reden dat je er vroeg bij bent; de rest is dekking en bevestiging.
 
+### Discovery-laag
+
+Daarbovenop zit een laag die per project een **dossier** bijhoudt, met bewijs en een **A–D-oordeel**, en verbanden legt tussen bronnen. Verder:
+
+- **DEX'en en launchpads** worden gezocht op chains die net live zijn.
+- Er zijn drie extra bronnen: **GitHub-discovery** (verse repo's met chainconfig), **funding-nieuws** en **deep research** (`data/research/`).
+- Elke ochtend gaat er een **dagoverzicht** uit.
+
+Zie [DISCOVERY.md](DISCOVERY.md) en [RESEARCH.md](RESEARCH.md).
+
 ## Setup
 
 ### 1. Telegram-bot

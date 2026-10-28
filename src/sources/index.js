@@ -15,6 +15,9 @@ import ethlistsCommit from './ethlists-commit.js';
 import rollupFactory from './rollup-factory.js';
 import ctHostnames from './ct-hostnames.js';
 import blobSubmitters from './blob-submitters.js';
+import githubDiscovery from './github-discovery.js';
+import fundingRss from './funding-rss.js';
+import research from './research.js';
 
 // Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
 // Pre-launch-bronnen eerst, brede registers daarna.
@@ -23,6 +26,8 @@ const REAL_SOURCES = [
   rollupFactory, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
+  // Vóór-registratie-signalen: leveren leads voor de dossiers, geen directe alerts.
+  githubDiscovery, fundingRss, research,
 ];
 
 /**

@@ -15,6 +15,11 @@ import {
   runWatchlist, matchRecord, isWatchWorthy, loadWatchlist, loadWatchState, saveWatchState,
 } from './watchlist.js';
 import { nowIso, hourIso } from './util.js';
+import {
+  loadDossiers, saveDossiers, bootstrapFrom, ingest, contextFor,
+} from './dossiers.js';
+import { scanEcosystems, applyFindings } from './ecosystem.js';
+import { formatEvent, researchMessages, digestDue, buildDigest } from './briefing.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
@@ -80,6 +85,12 @@ const cfg = {
   watch: process.env.WATCH_ENABLED !== 'false',
   watchBudgetMs: Number(process.env.WATCH_BUDGET_SECONDS || 30) * 1000,
   watchCtPerRun: Number(process.env.WATCH_CT_PER_RUN || 1),
+  // Dossiers, ecosysteem-scan en dagoverzicht.
+  eco: process.env.ECO_ENABLED !== 'false',
+  ecoLimit: Number(process.env.ECO_LIMIT || 12),
+  ecoBudgetMs: Number(process.env.ECO_BUDGET_SECONDS || 40) * 1000,
+  digest: process.env.DIGEST_ENABLED !== 'false',
+  digestHour: Number(process.env.DIGEST_HOUR || 8),
 };
 
 async function main() {
@@ -90,6 +101,14 @@ async function main() {
   // er state weggeschreven wordt, net als bij de andere state-bestanden.
   const watchProjects = cfg.watch ? await loadWatchlist() : [];
   const watchState = cfg.watch ? await loadWatchState() : {};
+  // Dossiers: ontbreekt het bestand, dan bouwen we het stil op uit de
+  // historie. Corrupt = hard falen, net als de rest van de state.
+  let dossiers = await loadDossiers();
+  const dossiersBootstrapped = !dossiers;
+  if (!dossiers) {
+    dossiers = bootstrapFrom(state.chains, { skip: isMutedTestnet });
+    console.log(`[dossiers] opgebouwd uit de historie: ${Object.keys(dossiers.dossiers).length} dossiers`);
+  }
 
   // Hartslag: stond de tool stil, dan is dat zelf het belangrijkste nieuws.
   // Zonder deze check lijkt een stilstand van uren op "geen nieuwe chains".
@@ -100,11 +119,19 @@ async function main() {
 
   console.log(`[chainwatch] ${startedAt} — ${sources.length} bronnen, dry-run=${DRY_RUN}`);
 
+  // Sommige bronnen draaien niet elke run (zoek-API's met krappe limieten).
+  // Een overgeslagen bron is geen fout en geen lege lijst: zijn state blijft
+  // gewoon staan zoals hij was.
+  const skipped = sources.filter((s) => typeof s.shouldRun === 'function' && !s.shouldRun());
+  const runnable = sources.filter((s) => !skipped.includes(s));
+  if (skipped.length) console.log(`[chainwatch] deze run overgeslagen: ${skipped.map((s) => s.id).join(', ')}`);
+
   const results = await Promise.allSettled(
-    sources.map(async (s) => ({ source: s, records: await s.fetchAll() }))
+    runnable.map(async (s) => ({ source: s, records: await s.fetchAll() }))
   );
 
   const health = {};
+  for (const s of skipped) if (state.health[s.id]) health[s.id] = state.health[s.id];
   const currentErrors = new Map(); // verse fouttekst per bron, alleen voor de melding
   const recovered = new Set();
   const perSource = []; // { src, allKeys, detected[], anomaly }
@@ -120,7 +147,7 @@ async function main() {
   const namesAtStart = new Set(state.names);
 
   for (const [i, res] of results.entries()) {
-    const src = sources[i];
+    const src = runnable[i];
     const prevHealth = state.health[src.id] || {};
 
     if (res.status === 'rejected') {
@@ -143,7 +170,8 @@ async function main() {
 
     const { records } = res.value;
     const previous = state.seen[src.id];
-    const isFirstRun = previous === null || FORCE_BOOTSTRAP;
+    // noBootstrap: bij de onderzoeksinname is het eerste bestand juist nieuws.
+    const isFirstRun = (previous === null && !src.noBootstrap) || FORCE_BOOTSTRAP;
     const seen = previous || new Set();
     const fresh = records.filter((r) => !seen.has(r.key));
 
@@ -259,27 +287,6 @@ async function main() {
     }
   }
 
-  // ---- Berichtgroepen bouwen -------------------------------------------------
-  const groups = [];
-  let alertableCount = 0;
-
-  for (const entry of perSource) {
-    const alertable = (alertableBySource.get(entry) || []).sort(
-      (a, b) => (b.score ?? 0) - (a.score ?? 0) || rank(a) - rank(b)
-    );
-    alertableCount += alertable.length;
-    if (alertable.length === 0) continue;
-
-    if (entry.anomaly || alertable.length > cfg.maxAlerts) {
-      const reason = entry.anomaly
-        ? `bron ${entry.src.id} leverde ongewoon veel nieuwe records — mogelijk formaatwijziging`
-        : `bron ${entry.src.id}`;
-      groups.push({ text: summaryMessage(alertable, reason), keys: alertable.map((c) => c.key) });
-    } else {
-      for (const c of alertable) groups.push({ text: formatChain(c), keys: [c.key] });
-    }
-  }
-
   // ---- Launch-detectie op de wachtlijst --------------------------------------
   // Elke pre-launch detectie levert een RPC-URL op. Die antwoordt pas na
   // genesis, dus dit geeft het launchmoment op de minuut nauwkeurig — meestal
@@ -330,12 +337,90 @@ async function main() {
   }
   const watchEvents = watchRun?.events || [];
 
+  // ---- Dossiers: alles aan projecten koppelen --------------------------------
+  // Eerst bepalen wat als gewone alert de deur uitgaat: die detecties krijgen
+  // de dossiercontext in hun eigen bericht en geen tweede melding.
+  const alertKeys = new Set([
+    ...[...alertableBySource.values()].flat().map((c) => c.key),
+    ...[...watchEvents, ...produced, ...launched].map((c) => c.key),
+  ]);
+  const dossierInput = [
+    ...allDetected.filter((c) => !isMutedTestnet(c)),
+    ...watchEvents, ...produced,
+    ...launched,
+  ];
+  const dossierEvents = ingest(dossiers, dossierInput, { alertKeys });
+  for (const c of [...allDetected, ...watchEvents, ...produced, ...launched]) {
+    const ctx = contextFor(dossiers, c);
+    if (ctx) c.dossierCtx = ctx;
+  }
+
+  // ---- Ecosysteem-scan: DEX en launchpads op levende chains -----------------
+  if (cfg.eco && !FORCE_BOOTSTRAP) {
+    try {
+      const eco = await scanEcosystems(dossiers, { limit: cfg.ecoLimit, budgetMs: cfg.ecoBudgetMs });
+      dossierEvents.push(...applyFindings(dossiers, eco.findings));
+      console.log(`[ecosystem] ${eco.scanned}/${eco.candidates} chain(s) gescand, ${eco.findings.filter((f) => f.dex.length || f.launchpad.length).length} met nieuwe vondsten`);
+    } catch (e) {
+      console.warn(`[ecosystem] overgeslagen: ${e.message}`);
+    }
+  }
+
+  // ---- Berichtgroepen bouwen -------------------------------------------------
+  const groups = [];
+  let alertableCount = 0;
+
+  for (const entry of perSource) {
+    const alertable = (alertableBySource.get(entry) || []).sort(
+      (a, b) => (b.score ?? 0) - (a.score ?? 0) || rank(a) - rank(b)
+    );
+    alertableCount += alertable.length;
+    if (alertable.length === 0) continue;
+
+    if (entry.anomaly || alertable.length > cfg.maxAlerts) {
+      const reason = entry.anomaly
+        ? `bron ${entry.src.id} leverde ongewoon veel nieuwe records — mogelijk formaatwijziging`
+        : `bron ${entry.src.id}`;
+      groups.push({ text: summaryMessage(alertable, reason), keys: alertable.map((c) => c.key) });
+    } else {
+      for (const c of alertable) groups.push({ text: formatChain(c), keys: [c.key] });
+    }
+  }
+
   // Launch-alerts gaan bewust buiten WATCH_KINDS om en bovenaan: dit is het
   // bericht waar de hele wachtlijst voor bestaat. Watchlist-signalen staan
   // daar nog boven: die heb je zelf aangewezen.
   groups.unshift(
     ...[...watchEvents, ...produced, ...launched].map((l) => ({ text: formatChain(l), keys: [l.key] }))
   );
+
+  // Dossiergebeurtenissen: eerst wat vorige run niet aankwam, dan de nieuwe.
+  const outboxBefore = dossiers.outbox || [];
+  const allEvents = [...outboxBefore, ...dossierEvents];
+  const eventGroups = [];
+  for (const ev of allEvents) {
+    const text = formatEvent(dossiers, ev);
+    if (text) eventGroups.push({ text, keys: [ev.key], event: ev });
+  }
+  // Dossiergebeurtenissen direct na de launch-alerts: dit zijn de momenten
+  // waarop iets wat we al kenden ineens concreet wordt.
+  groups.splice(watchEvents.length + produced.length + launched.length, 0, ...eventGroups);
+
+  // Onderzoeksresultaten als één overzichtsbericht, niet als dertig alerts.
+  const researchRecs = allDetected.filter((c) => c.source === 'research');
+  const researchTexts = researchMessages(dossiers, researchRecs);
+  for (const [i, text] of researchTexts.entries()) {
+    groups.push({ text, keys: i === 0 ? researchRecs.map((r) => r.key) : [`research-msg:${i}`] });
+  }
+
+  // Dagoverzicht, één keer per dag na DIGEST_HOUR (Amsterdamse tijd).
+  const due = cfg.digest && !FORCE_BOOTSTRAP && !dossiersBootstrapped ? digestDue(dossiers, { hour: cfg.digestHour }) : null;
+  if (due) {
+    const prev = dossiers.digest?.lastSent;
+    const since = prev || new Date(Date.parse(`${due.date}T00:00:00Z`) - 86400000).toISOString().slice(0, 10);
+    const text = buildDigest(dossiers, { since, today: due.date, weekly: due.weekday === 'Mon', health });
+    groups.push({ text, keys: [`digest:${due.date}`] });
+  }
 
   console.log(
     `[chainwatch] ${allDetected.length} gedetecteerd, ${alertableCount} alertwaardig, ` +
@@ -398,6 +483,11 @@ async function main() {
     }
     const inboxes = await saveInboxes(newInboxes);
     if (inboxes.length) console.log(`[chainwatch] gevolgde inboxen: ${inboxes.length}`);
+
+    // Dossiers: niet-afgeleverde gebeurtenissen gaan terug in de outbox.
+    dossiers.outbox = allEvents.filter((ev) => failed.has(ev.key));
+    if (due && !failed.has(`digest:${due.date}`)) dossiers.digest = { ...dossiers.digest, lastSent: due.date };
+    await saveDossiers(dossiers);
 
     if (watchRun) watchRun.commit(failed);
     for (const [nk, { id, key }] of bypassedNow) {

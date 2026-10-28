@@ -40,7 +40,7 @@ export function apexOf(input) {
 }
 
 // Domeinen die nooit de website van een chain zelf zijn.
-const INFRA_DOMAINS = new Set([
+export const INFRA_DOMAINS = new Set([
   'github.com', 'github.io', 'githubusercontent.com', 'gitbook.io', 'gitbook.com',
   'chainlist.org', 'chainid.network', 'blockscout.com', 'etherscan.io', 'routescan.io',
   'ankr.com', 'alchemy.com', 'infura.io', 'quicknode.com', 'drpc.org', 'publicnode.com',

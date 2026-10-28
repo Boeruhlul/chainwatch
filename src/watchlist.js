@@ -171,7 +171,9 @@ export function matchRecord(c, projects) {
 
 /** Welke fasen van een watchlist-project zijn het melden waard. */
 export function isWatchWorthy(kind) {
-  return kind !== 'testnet' && kind !== 'devnet';
+  // Leads en onderzoek lopen via de dossiers en het onderzoeksbericht; een
+  // losse funding-titel is geen watchlist-doorbraak.
+  return kind !== 'testnet' && kind !== 'devnet' && kind !== 'lead' && kind !== 'research';
 }
 
 /**

@@ -15,6 +15,8 @@ const KIND_LABEL = {
   proposal: '📝 CHAIN ID AANGEVRAAGD (pre-launch)',
   launched: '🚀 CHAIN IS LIVE — RPC ANTWOORDT',
   stealth: '🕵️ ONAANGEKONDIGDE CHAIN',
+  lead: '🧪 LOSSE AANWIJZING',
+  research: '🔎 ONDERZOEKSKANDIDAAT',
 };
 
 /** Watchlist-signalen: welk soort bewijs we hebben. */
@@ -95,6 +97,14 @@ export function formatChain(c) {
   } else if (c.watch) {
     // Gewone detectie die bij een watchlist-project hoort.
     lines.push(`👀 <b>Op je watchlist: ${esc(c.watch.name)}</b>`);
+  }
+
+  // Dossiercontext: wat wisten we al over dit project, en hoe zeker is het?
+  const dc = c.dossierCtx;
+  if (dc) {
+    const seenBefore = dc.firstSeen && dc.earlier?.length ? ` · eerst gezien ${esc(dc.firstSeen)}` : '';
+    lines.push(`📁 <b>Confidence ${esc(dc.confidence)}</b>${seenBefore}${dc.aliases?.length ? ` · ook: ${esc(clamp(dc.aliases.join(', '), 80))}` : ''}`);
+    for (const e of (dc.earlier || []).slice(0, 3)) lines.push(`   ↳ ${esc(e.date)} ${esc(clamp(e.what, 90))}`);
   }
 
   if (c.description) lines.push(`<i>${esc(clamp(c.description, 220))}</i>`);

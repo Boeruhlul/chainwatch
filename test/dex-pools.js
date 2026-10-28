@@ -266,7 +266,7 @@ await t('P12: pool-alert gaat uit, maar komt niet in names.json of chains.json',
   const env = {
     ...process.env, CHAINWATCH_DATA: `${dir}/data`, CHAINWATCH_DOCS: `${dir}/docs`,
     CHAINWATCH_FIXTURE: fixture, TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '',
-    PROBE_ENABLED: 'false', WATCH_ENABLED: 'false',
+    PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', WATCH_ENABLED: 'false',
   };
   const run = promisify(execFile);
   await fs.writeFile(fixture, JSON.stringify([{ chainId: 1, name: 'Bestaande Chain' }]));

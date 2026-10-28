@@ -186,7 +186,7 @@ async function watch(fixture, watchlist) {
       ...process.env,
       CHAINWATCH_DATA: `${TMP}/data`, CHAINWATCH_DOCS: `${TMP}/docs`,
       CHAINWATCH_FIXTURE: `${TMP}/fixture.json`,
-      TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '', PROBE_ENABLED: 'false',
+      TELEGRAM_BOT_TOKEN: '', TELEGRAM_CHAT_ID: '', PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false',
     },
   });
   return stdout + stderr;

@@ -32,7 +32,7 @@ function baseEnv(extra = {}) {
   return {
     ...process.env,
     CHAINWATCH_DATA: `${TMP}/data`, CHAINWATCH_DOCS: `${TMP}/docs`,
-    CHAINWATCH_FIXTURE: `${TMP}/fixture.json`, PROBE_ENABLED: 'false', ...extra,
+    CHAINWATCH_FIXTURE: `${TMP}/fixture.json`, PROBE_ENABLED: 'false', DIGEST_ENABLED: 'false', ECO_ENABLED: 'false', ...extra,
   };
 }
 
