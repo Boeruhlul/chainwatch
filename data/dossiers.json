@@ -39,6 +39,24 @@
     },
     {
      "date": "2026-10-28",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 16463",
+     "url": "https://chainlist.org/chain/16463",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-28",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 164632",
+     "url": "https://chainlist.org/chain/164632",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-28",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
