@@ -9983,6 +9983,43 @@
     "onderzoek"
    ]
   },
+  "portaldotv3": {
+   "id": "portaldotv3",
+   "name": "Portaldot V3",
+   "aliases": [
+    "Portaldot V3"
+   ],
+   "keys": [
+    "n:portaldotv3"
+   ],
+   "firstSeen": "2026-10-28",
+   "lastActivity": "2026-10-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/blueyellow1/portlg-final",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "prana": {
    "id": "prana",
    "name": "PRANA",
