@@ -30,6 +30,7 @@
   "ghrepo:arifrhm/evm-security-test-suite",
   "ghrepo:arobasechat/arobase-chat-bundler-config",
   "ghrepo:artem213101zse/cometbft-collab",
+  "ghrepo:arwadsabahat1/marvel-trading-demo",
   "ghrepo:asghar002345/vaultlite",
   "ghrepo:astra-tc/kog-holder-snapshot",
   "ghrepo:aswathkarthikeyan/homecoming",
@@ -61,9 +62,11 @@
   "ghrepo:elfooooooooo-ai/elfo_y.html",
   "ghrepo:elfooooooooo-ai/elfo_yam.html",
   "ghrepo:elfooooooooo-ai/elfoooooooooo-ai.github.io",
+  "ghrepo:elon00/alphasip-ai",
   "ghrepo:elon00/arbitrum-insurance-ai",
   "ghrepo:elon00/edward-felten-ai",
   "ghrepo:elon00/tum-zk-rollup-ai",
+  "ghrepo:elon00/web3-ai-platform",
   "ghrepo:elpresidentebutch-ctrl/cometbft-filecoin-archive",
   "ghrepo:elprofa09/projetanble",
   "ghrepo:elsevribrahimli-hub/carway-traffic-",
@@ -189,6 +192,7 @@
   "ghrepo:shantanugupta03/safemigrator",
   "ghrepo:shizong888/rugless-assets",
   "ghrepo:sid-131/l2-platform",
+  "ghrepo:sonamagrahari6/sonamagrahari-profile",
   "ghrepo:srigutti/devnet",
   "ghrepo:srn0129/agenttrust",
   "ghrepo:ssadil24/op-prebedrock-claim",
@@ -227,5 +231,7 @@
   "ghrepo:zakasmd/rollup",
   "ghrepo:zeycan1/la-tanda",
   "ghrepo:zeycan1/worrell",
-  "ghrepo:zh-tx3/dsh-forge"
+  "ghrepo:zh-tx3/dsh-forge",
+  "ghrepo:zoruco/zoru-miner",
+  "ghrepo:zoruco/zoru-pow"
 ]
