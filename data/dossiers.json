@@ -4495,6 +4495,15 @@
     },
     {
      "date": "2026-10-28",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x33ffac70…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x33ffac709ec1d3ec8bc8d0655914aa7dcd7b463f",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-28",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -4515,7 +4524,8 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (superchain: testnet · ID 91342)",
-    "DEX op de chain gevonden"
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
     "register",
@@ -4585,7 +4595,12 @@
       "date": "2026-10-28"
      }
     ],
-    "launchpad": []
+    "launchpad": [
+     {
+      "addr": "0x33ffac709ec1d3ec8bc8d0655914aa7dcd7b463f",
+      "date": "2026-10-28"
+     }
+    ]
    }
   },
   "gnoland": {
