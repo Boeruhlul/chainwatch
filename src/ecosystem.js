@@ -75,6 +75,29 @@ async function logsBackward(url, latest, topics) {
   throw lastErr || new Error('geen logs');
 }
 
+/** Namen die op een dapp wijzen die de moeite van het noemen waard is. */
+export const DAPP_NAME = /(launch|pad|pump|bond|curve|fun|factory|router|swap|dex|amm|perp|vault|lend|borrow|stak|bridge|points|airdrop|claim|presale|sale|farm|yield|market|oracle|pool)/i;
+
+/** Blockscout v2: nieuwste geverifieerde contracten. Best-effort, één pagina. */
+export async function namedContracts(explorer) {
+  const base = String(explorer).replace(/\/+$/, '');
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 8000);
+  try {
+    const res = await fetch(`${base}/api/v2/smart-contracts?q=&filter=solidity`, { signal: ctrl.signal, headers: { accept: 'application/json' } });
+    if (!res.ok) return [];
+    const body = await res.json();
+    return (body?.items || [])
+      .map((it) => ({ name: it?.address?.name, addr: String(it?.address?.hash || '').toLowerCase() }))
+      .filter((c) => c.name && /^0x[0-9a-f]{40}$/.test(c.addr) && DAPP_NAME.test(c.name))
+      .slice(0, 20);
+  } catch {
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /** Pure analyse, los getest: welke fabrieken en launchpad-kandidaten zitten erin? */
 export function analyze(poolLogs, mintLogs) {
   const factories = new Map(); // emitter -> { type, pools:Set }
@@ -150,7 +173,11 @@ async function scanOne(d) {
     } catch { /* overslaan */ }
   }
   a.launchpad = confirmed;
-  return { ...a, rpc: url, chainId, latest, span: pool.value?.span ?? mint.value?.span ?? null };
+  // Geverifieerde contracten met naam, als de explorer Blockscout is: zo zie
+  // je de eerste dapps op een chain ("LaunchpadFactory", "PerpsVault") nog
+  // voordat iemand ze aankondigt.
+  const contracts = d.explorer ? await namedContracts(d.explorer) : [];
+  return { ...a, rpc: url, chainId, latest, span: pool.value?.span ?? mint.value?.span ?? null, contracts };
 }
 
 /**

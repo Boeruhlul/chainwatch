@@ -1,0 +1,31 @@
+{
+  "_uitleg": [
+    "Vacatureborden die de radar dagelijks leest. Vacatures met woorden als protocol, rollup, sequencer, validator, zk, blockchain of stablecoin komen in het ochtendbericht.",
+    "Waarom: de Kraken-vacature voor 'layer-2 solutions' verscheen ~11,5 maand vóór Ink; de Stripe-vacature lekte Tempo.",
+    "ats: greenhouse | lever | ashby. token: de bedrijfsnaam in de URL van het vacaturebord (boards.greenhouse.io/<token>, jobs.lever.co/<token>, jobs.ashbyhq.com/<token>).",
+    "verified: true = op 2026-10-28 werkend bevestigd. Een bord dat niet bestaat geeft alleen een logregel; de rest gaat door.",
+    "Dit bestand is van jou: bedrijven toevoegen of enabled: false zetten mag."
+  ],
+  "boards": [
+    { "company": "Robinhood", "ats": "greenhouse", "token": "robinhood", "verified": true },
+    { "company": "Coinbase", "ats": "greenhouse", "token": "coinbase", "verified": true },
+    { "company": "Stripe", "ats": "greenhouse", "token": "stripe", "verified": true },
+    { "company": "Kraken", "ats": "ashby", "token": "kraken.com", "verified": true },
+    { "company": "Gemini", "ats": "greenhouse", "token": "gemini" },
+    { "company": "OKX", "ats": "greenhouse", "token": "okx" },
+    { "company": "Paxos", "ats": "greenhouse", "token": "paxos" },
+    { "company": "Ripple", "ats": "greenhouse", "token": "ripple" },
+    { "company": "Anchorage Digital", "ats": "lever", "token": "anchorage" },
+    { "company": "Consensys", "ats": "greenhouse", "token": "consensys" },
+    { "company": "Uniswap Labs", "ats": "ashby", "token": "uniswap" },
+    { "company": "Offchain Labs", "ats": "greenhouse", "token": "offchainlabs" },
+    { "company": "OP Labs", "ats": "greenhouse", "token": "oplabs" },
+    { "company": "Matter Labs", "ats": "greenhouse", "token": "matterlabs" },
+    { "company": "Conduit", "ats": "ashby", "token": "conduit" },
+    { "company": "Caldera", "ats": "ashby", "token": "caldera" },
+    { "company": "Polymarket", "ats": "ashby", "token": "polymarket" },
+    { "company": "Phantom", "ats": "ashby", "token": "phantom" },
+    { "company": "MoonPay", "ats": "greenhouse", "token": "moonpay" },
+    { "company": "Bitpanda", "ats": "greenhouse", "token": "bitpanda" }
+  ]
+}

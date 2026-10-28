@@ -114,6 +114,42 @@ await t('D5b: hosting- en stackplatforms knopen geen projecten aan elkaar', asyn
   assert.ok(!db.dossiers.eerste.keys.includes('gh:cloudflare'), 'oude platformsleutel opgeruimd');
 });
 
+await t('S1: nep-chain met de naam van een bekend project maar een ander domein vervuilt het echte dossier niet', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [rec({ key: 'g1', source: 'chainlist', kind: 'testnet', name: 'GIWA Sepolia', chainId: 91342, website: 'https://giwa.io', rpc: ['https://sepolia-rpc.giwa.io'], url: 'g' })], { quiet: true });
+  const fake = rec({ key: 'g2', source: 'ethlists-pr', kind: 'launched', name: 'GIWA', chainId: 9134, rpc: ['https://rpc.giwa-mainnet.xyz'], liveRpc: 'https://rpc.giwa-mainnet.xyz', url: 'f', detectedAt: '2026-10-05T10:00:00Z' });
+  D.ingest(db, [fake]);
+  const real = Object.values(db.dossiers).find((x) => x.keys.includes('d:giwa.io'));
+  assert.ok(!real.evidence.some((e) => e.url === 'f'), 'nep-bewijs niet in het echte dossier');
+  assert.equal(fake.suspect?.type, 'imitatie');
+  const sus = db.dossiers[fake.dossierId];
+  assert.ok(sus.suspect, 'apart dossier gemarkeerd');
+  assert.equal(sus.confidence, 'C', 'ook al antwoordt de RPC: nooit A');
+  // Een latere echte GIWA-detectie belandt gewoon in het echte dossier.
+  const legit = rec({ key: 'g3', source: 'chainlist', kind: 'mainnet', name: 'GIWA', chainId: 91341, website: 'https://giwa.io', url: 'r', detectedAt: '2026-11-01T10:00:00Z' });
+  D.ingest(db, [legit]);
+  assert.equal(legit.dossierId, real.id);
+});
+
+await t('S2: chain ID van een ander project met een ander domein is een botsing, geen koppeling', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [rec({ key: 'p', source: 'ethlists-commit', kind: 'mainnet', name: 'PXA Chain', chainId: 784, website: 'https://pxachain.com', url: 'p' })], { quiet: true });
+  const w = rec({ key: 'w', source: 'watchlist', kind: 'watch', watchKind: 'rpc', name: 'Ritual — nieuwe chain ID 784', watch: { name: 'Ritual' }, chainId: 784, website: 'https://ritual.net', liveRpc: 'https://rpc.ritualfoundation.org', url: 'w' });
+  const ev = D.ingest(db, [w]);
+  assert.equal(Object.keys(db.dossiers).length, 2);
+  assert.equal(w.suspect?.type, 'id-botsing');
+  assert.equal(ev.filter((e) => e.type === 'link').length, 0);
+});
+
+await t('S3: codenaam zonder eigen domein koppelt nog steeds via chain ID', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [rec({ key: 'a', source: 'ct-hostnames', kind: 'stealth', stealthKind: 'hostname', name: 'Onbekend', chainId: 770077, url: 'a' })], { quiet: true });
+  const r = rec({ key: 'b', source: 'chainlist', kind: 'mainnet', name: 'Echte Naam', chainId: 770077, website: 'https://echtenaam.io', url: 'b' });
+  D.ingest(db, [r]);
+  assert.equal(Object.keys(db.dossiers).length, 1);
+  assert.ok(!r.suspect);
+});
+
 await t('D6: intensief tot mainnet + 14 dagen, daarna gewone monitoring', async () => {
   const d = { stage: 'mainnet', mainnetSince: '2026-10-01', lastActivity: '2026-10-01' };
   assert.equal(D.isIntensive(d, '2026-10-10'), true);
@@ -352,7 +388,7 @@ async function runner(fixture, tg, env = {}) {
       ...process.env,
       CHAINWATCH_DATA: `${dir}/data`, CHAINWATCH_DOCS: `${dir}/docs`, CHAINWATCH_FIXTURE: `${dir}/fixture.json`,
       TELEGRAM_BOT_TOKEN: 'x', TELEGRAM_CHAT_ID: '1', CHAINWATCH_TG_API: tg.url,
-      PROBE_ENABLED: 'false', WATCH_ENABLED: 'false', ENRICH_SOCIALS: 'false', ECO_ENABLED: 'false',
+      PROBE_ENABLED: 'false', WATCH_ENABLED: 'false', ENRICH_SOCIALS: 'false', ECO_ENABLED: 'false', RADAR_ENABLED: 'false',
       ...env,
     },
   });
@@ -418,6 +454,113 @@ await t('K2: runner meldt een geblokkeerde chain niet en zet hem niet op de wach
     assert.equal(tg.sent.length, n, 'ook later niet');
   } finally {
     tg.close();
+  }
+});
+
+// ---- Radar ------------------------------------------------------------------
+const R = await import('../src/radar.js');
+const B = await import('../src/briefing.js');
+const ZK = await import('../src/sources/zk-bridgehub.js');
+const { parseSpellbookValues } = await import('../src/labels.js');
+const { namedContracts } = await import('../src/ecosystem.js');
+
+const fakeSrc = (id, cat, items, opts = {}) => ({ id, cat, everyHours: 1, ...opts, fetch: async () => { if (opts.boom) throw new Error('kapot'); return items; } });
+const at = new Date('2026-10-28T09:45:00Z');
+
+await t('R1: radar legt eerst een nulmeting vast; alleen recente items tellen dan als nieuw', async () => {
+  const radar = { items: [], seen: {}, health: {}, lastSent: null };
+  const src = fakeSrc('t', 'techniek', [
+    { key: 'a', title: 'Oud onderwerp', url: 'u', meta: { created: '2026-10-01' } },
+    { key: 'b', title: 'Nieuw rollup-voorstel', url: 'u', meta: { created: '2026-10-27' } },
+  ]);
+  const r1 = await R.runRadar(radar, { sources: [src], now: at });
+  assert.deepEqual(r1.added.map((x) => x.key), ['b']);
+  src.fetch = async () => [{ key: 'a', title: 'x', url: 'u' }, { key: 'c', title: 'Echt nieuw', url: 'u' }];
+  const r2 = await R.runRadar(radar, { sources: [src], now: at });
+  assert.deepEqual(r2.added.map((x) => x.key), ['c'], 'alleen wat niet eerder gezien is');
+});
+
+await t('R2: kapotte radarbron houdt zijn storing bij en blokkeert de rest niet', async () => {
+  const radar = { items: [], seen: {}, health: {}, lastSent: null };
+  await R.runRadar(radar, { sources: [fakeSrc('kapot', 'sdk', [], { boom: true }), fakeSrc('heel', 'sdk', [])], now: at });
+  assert.equal(radar.health.kapot.ok, false);
+  assert.equal(radar.health.heel.ok, true);
+});
+
+await t('R3: bronnen draaien alleen in hun raam en ritme', async () => {
+  assert.equal(R.isDue({ everyHours: 1 }, new Date('2026-10-28T09:45:00Z')), true);
+  assert.equal(R.isDue({ everyHours: 1 }, new Date('2026-10-28T09:15:00Z')), false);
+  assert.equal(R.isDue({ everyHours: 24 }, new Date('2026-10-28T09:45:00Z')), false);
+  assert.equal(R.isDue({ everyHours: 24 }, new Date('2026-10-28T00:45:00Z')), true);
+});
+
+await t('R4: alleen rollup-systeemcontracten tellen, geen algemene namen', async () => {
+  for (const n of ['OptimismPortal2', 'SequencerInbox', 'Bridgehub', 'DisputeGameFactory']) assert.ok(R.SYSTEM_CONTRACT.test(n), n);
+  for (const n of ['Bridge', 'Inbox', 'Deposit', 'ERC20', 'OptimismPortalHelper']) assert.ok(!R.SYSTEM_CONTRACT.test(n), n);
+  assert.ok(R.JOB_WORDS.test('Senior Protocol Engineer'));
+  assert.ok(!R.JOB_WORDS.test('Account Servicing Associate'));
+});
+
+await t('R5: radarbericht: secties, dossierkoppeling, binnen de limiet, en eerlijk als het leeg is', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [rec({ key: 'x', source: 'chainlist', kind: 'testnet', name: 'Velocora Testnet', chainId: 8800001, url: 'v' })], { quiet: true });
+  const radar = { items: [], health: {}, seen: {} };
+  for (let i = 0; i < 40; i++) radar.items.push({ key: `f${i}`, cat: 'techniek', src: 'forums', date: '2026-10-28', title: `Based rollup preconf voorstel ${i} ${'x'.repeat(60)}`, url: `https://ethresear.ch/t/x/${i}`, meta: { forum: 'ethresear.ch' } });
+  radar.items.push({ key: 's1', cat: 'audit', src: 'audit-sherlock', date: '2026-10-28', title: 'Velocora', url: 'https://audits.sherlock.xyz/contests/1', meta: { starts: '2026-11-03', ends: '2026-11-20', prize: 50000, token: 'USDC' } });
+  const msgs = B.radarMessages(db, radar, { since: '2026-10-27', today: '2026-10-28', scoreFn: R.radarScore });
+  for (const m of msgs) assert.ok(m.length <= limits.SAFE_LEN, `te lang: ${m.length}`);
+  const all = msgs.join('\n');
+  assert.match(all, /Audit-contests/);
+  assert.match(all, /📁 velocora/);
+  assert.match(all, /… en 32 meer/);
+  const empty = B.radarMessages(D.emptyDb(), { items: [], health: {} }, { since: '2026-10-27', today: '2026-10-28' });
+  assert.match(empty[0], /Niets nieuws op de radar/);
+});
+
+await t('R6: airdropscore telt signalen op en slaat imitaties en blocklist over', async () => {
+  const db = D.emptyDb();
+  D.ingest(db, [
+    rec({ key: 'n', source: 'funding-rss', kind: 'lead', name: 'Velocora', url: 'n', detectedAt: '2026-10-20T00:00:00Z' }),
+    rec({ key: 't', source: 'chainlist', kind: 'testnet', name: 'Velocora Testnet', chainId: 8800001, url: 't', detectedAt: '2026-10-21T00:00:00Z' }),
+  ], { quiet: true });
+  const audit = [{ cat: 'audit', title: 'Velocora', key: 'a' }];
+  const c = B.airdropCandidates(db, audit, { today: '2026-10-28' });
+  assert.equal(c.length, 1);
+  assert.ok(c[0].why.includes('verse funding') && c[0].why.includes('audit-contest loopt'));
+  db.dossiers[c[0].d.id].blocked = true;
+  assert.equal(B.airdropCandidates(db, audit, { today: '2026-10-28' }).length, 0);
+});
+
+await t('R7: ZK Bridgehub-selectors kloppen en de array-decoder leest uint256[]', async () => {
+  assert.equal(ZK.SEL_CHAIN_IDS, keccak256('getAllZKChainChainIDs()').slice(0, 10));
+  assert.equal(ZK.SEL_CHAINS, keccak256('getAllZKChains()').slice(0, 10));
+  const w = (n) => BigInt(n).toString(16).padStart(64, '0');
+  const hex = `0x${w(32)}${w(2)}${w(324)}${w(2741)}`;
+  assert.deepEqual(ZK.decodeWordArray(hex).map((x) => BigInt(`0x${x}`).toString()), ['324', '2741']);
+  assert.deepEqual(ZK.decodeWordArray('0x'), []);
+});
+
+await t('R8: Spellbook-labels worden uit de SQL gelezen', async () => {
+  const m = parseSpellbookValues(`values\n (0x0d3250c3d5facb74ac15834096397a3ef790ec99, 'zkSync Era', '', 'zksync')\n , (0xC1B634853Cb333D3aD8663715b08f41A3Aec47cc ,'Arbitrum One', '', 'arbitrum')`);
+  assert.equal(m.get('0xc1b634853cb333d3ad8663715b08f41a3aec47cc'), 'Arbitrum One');
+  assert.equal(m.size, 2);
+});
+
+await t('R9: geverifieerde dapp-contracten op een nieuwe chain worden op naam gefilterd', async () => {
+  const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'content-type': 'application/json' });
+    res.end(JSON.stringify({ items: [
+      { address: { name: 'LaunchpadFactory', hash: '0x' + '1'.repeat(40) } },
+      { address: { name: 'MyToken', hash: '0x' + '2'.repeat(40) } },
+      { address: { name: 'BondingCurveRouter', hash: '0x' + '3'.repeat(40) } },
+    ] }));
+  });
+  await new Promise((r) => server.listen(0, '127.0.0.1', r));
+  try {
+    const list = await namedContracts(`http://127.0.0.1:${server.address().port}/`);
+    assert.deepEqual(list.map((c) => c.name), ['LaunchpadFactory', 'BondingCurveRouter']);
+  } finally {
+    server.close();
   }
 });
 

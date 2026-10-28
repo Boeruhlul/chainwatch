@@ -1,6 +1,7 @@
 import { getJson } from '../http.js';
 import { nameKey } from '../util.js';
 import { evmCall, hexToNum } from '../evm.js';
+import { knownBlobSubmitters } from '../labels.js';
 
 /**
  * Nieuwe, nog naamloze afzenders van blob-data op Ethereum.
@@ -114,6 +115,14 @@ export default {
 
   /** Alleen voor nieuwe adressen: één RPC-call per afzender, ooit. */
   async enrich(fresh) {
-    return dropVeterans(fresh, rpcNonce);
+    // Eerst de openbare labelset: een adres dat Spellbook al aan een rollup
+    // toeschrijft is geen nieuwe chain, ook al kent Blobscan het niet.
+    const known = await knownBlobSubmitters();
+    const unknown = fresh.filter((r) => {
+      const who = known.get(String(r.contract).toLowerCase());
+      if (who) console.log(`[blob-submitters] ${r.contract} overgeslagen: volgens Spellbook ${who}`);
+      return !who;
+    });
+    return dropVeterans(unknown, rpcNonce);
   },
 };

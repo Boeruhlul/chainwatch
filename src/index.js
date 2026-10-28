@@ -20,7 +20,9 @@ import {
 } from './dossiers.js';
 import { scanEcosystems, applyFindings } from './ecosystem.js';
 import { loadBlocklist } from './blocklist.js';
-import { formatEvent, researchMessages, digestDue, buildDigest } from './briefing.js';
+import { loadRadar, saveRadar, runRadar, radarScore, loadJobBoards } from './radar.js';
+import { explorerLink } from './ecosystem.js';
+import { formatEvent, researchMessages, digestDue, buildDigest, radarMessages } from './briefing.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
@@ -92,6 +94,7 @@ const cfg = {
   ecoBudgetMs: Number(process.env.ECO_BUDGET_SECONDS || 40) * 1000,
   digest: process.env.DIGEST_ENABLED !== 'false',
   digestHour: Number(process.env.DIGEST_HOUR || 8),
+  radar: process.env.RADAR_ENABLED !== 'false',
 };
 
 async function main() {
@@ -106,6 +109,8 @@ async function main() {
   // historie. Corrupt = hard falen, net als de rest van de state.
   // Blocklist (scams e.d.): vroeg laden, corrupt = hard falen.
   const blocklist = await loadBlocklist();
+  const radar = await loadRadar();
+  const jobBoards = cfg.radar ? await loadJobBoards() : [];
   let dossiers = await loadDossiers();
   const dossiersBootstrapped = !dossiers;
   if (!dossiers) {
@@ -377,10 +382,22 @@ async function main() {
   }
 
   // ---- Ecosysteem-scan: DEX en launchpads op levende chains -----------------
+  const chainContracts = [];
   if (cfg.eco && !FORCE_BOOTSTRAP) {
     try {
       const eco = await scanEcosystems(dossiers, { limit: cfg.ecoLimit, budgetMs: cfg.ecoBudgetMs });
       dossierEvents.push(...applyFindings(dossiers, eco.findings));
+      // Geverifieerde dapp-contracten op nieuwe chains gaan naar de radar.
+      for (const f of eco.findings) {
+        const d = dossiers.dossiers[f.id];
+        for (const c of f.contracts || []) {
+          chainContracts.push({
+            key: `chaincontract:${f.id}:${c.addr}`, src: 'chain-contracts', cat: 'contracten',
+            title: `${c.name} op ${d?.name || f.id}`, url: (d && explorerLink(d, c.addr)) || c.addr,
+            meta: { chain: d?.name || f.id, addr: c.addr },
+          });
+        }
+      }
       console.log(`[ecosystem] ${eco.scanned}/${eco.candidates} chain(s) gescand, ${eco.findings.filter((f) => f.dex.length || f.launchpad.length).length} met nieuwe vondsten`);
     } catch (e) {
       console.warn(`[ecosystem] overgeslagen: ${e.message}`);
@@ -434,6 +451,16 @@ async function main() {
     groups.push({ text, keys: i === 0 ? researchRecs.map((r) => r.key) : [`research-msg:${i}`] });
   }
 
+  // ---- Radar: vroege signalen die geen chain zijn ----------------------------
+  if (cfg.radar && !FORCE_BOOTSTRAP) {
+    try {
+      const r = await runRadar(radar, { ctx: { jobBoards }, extraItems: chainContracts });
+      if (r.ran.length || r.added.length) console.log(`[radar] bronnen: ${r.ran.join(', ') || '-'} · ${r.added.length} nieuw`);
+    } catch (e) {
+      console.warn(`[radar] overgeslagen: ${e.message}`);
+    }
+  }
+
   // Dagoverzicht, één keer per dag na DIGEST_HOUR (Amsterdamse tijd).
   const due = cfg.digest && !FORCE_BOOTSTRAP && !dossiersBootstrapped ? digestDue(dossiers, { hour: cfg.digestHour }) : null;
   if (due) {
@@ -441,6 +468,12 @@ async function main() {
     const since = prev || new Date(Date.parse(`${due.date}T00:00:00Z`) - 86400000).toISOString().slice(0, 10);
     const text = buildDigest(dossiers, { since, today: due.date, weekly: due.weekday === 'Mon', health });
     groups.push({ text, keys: [`digest:${due.date}`] });
+    if (cfg.radar) {
+      const rsince = radar.lastSent || since;
+      for (const [i, t] of radarMessages(dossiers, radar, { since: rsince, today: due.date, scoreFn: radarScore }).entries()) {
+        groups.push({ text: t, keys: [`radar:${due.date}:${i}`] });
+      }
+    }
   }
 
   console.log(
@@ -509,6 +542,8 @@ async function main() {
     dossiers.outbox = allEvents.filter((ev) => failed.has(ev.key));
     if (due && !failed.has(`digest:${due.date}`)) dossiers.digest = { ...dossiers.digest, lastSent: due.date };
     await saveDossiers(dossiers);
+    if (due && cfg.radar && ![...failed].some((k) => String(k).startsWith(`radar:${due.date}`))) radar.lastSent = due.date;
+    if (cfg.radar) await saveRadar(radar);
 
     if (watchRun) watchRun.commit(failed);
     for (const [nk, { id, key }] of bypassedNow) {

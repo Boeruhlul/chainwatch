@@ -236,3 +236,114 @@ export function buildDigest(db, { since, today, weekly = false, health = {} } = 
   }
   return clamp(L.join('\n'), SAFE_LEN);
 }
+
+// ---------------------------------------------------------------------------
+// Radar: het tweede ochtendbericht
+// ---------------------------------------------------------------------------
+
+const RADAR_SECTIONS = [
+  ['audit', '🔐 <b>Audit-contests</b> <i>(meestal 3–7 weken vóór lancering)</i>', 8],
+  ['contracten', '🧱 <b>Nieuwe rollup- en dappcontracten</b>', 10],
+  ['vacature', '💼 <b>Vacatures</b> <i>(bedrijven die mogelijk een chain bouwen)</i>', 8],
+  ['techniek', '🧪 <b>Nieuwe techniek</b> <i>(fora en voorstellen)</i>', 8],
+  ['bounty', '🛡 <b>Nieuwe bug bounties</b> <i>(bevestigt een lancering)</i>', 5],
+  ['sdk', '📦 <b>Nieuwe SDK\'s</b>', 5],
+];
+
+const AIRDROP_TEXT = /\b(airdrop|points?|tge|token (launch|generation)|incentivi[sz]ed|season|quests?|farming)\b/i;
+
+/** Koppelt een radar-item aan een dossier als de naam erin voorkomt. */
+function dossierFor(item, index) {
+  const t = String(item.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  for (const [key, id] of index) if (t.includes(key)) return id;
+  return null;
+}
+
+function aliasIndex(db) {
+  const out = [];
+  for (const d of Object.values(db.dossiers)) {
+    if (d.blocked || d.suspect) continue;
+    for (const a of [d.name, ...(d.aliases || [])]) {
+      const k = String(a || '').toLowerCase().replace(/[^a-z0-9]+/g, '').replace(/(testnet|mainnet|devnet|sepolia)$/, '');
+      if (k.length >= 5) out.push([k, d.id]);
+    }
+  }
+  return out.sort((a, b) => b[0].length - a[0].length);
+}
+
+/**
+ * Airdropscore per dossier, met redenen. Geen percentages: optelsom van
+ * signalen die in de praktijk aan een airdrop voorafgingen (verse funding,
+ * nog geen mainnet, points of testnet, audit kort vóór lancering).
+ */
+export function airdropCandidates(db, radarItems = [], { today = new Date().toISOString().slice(0, 10) } = {}) {
+  const idx = aliasIndex(db);
+  const auditFor = new Set(radarItems.filter((it) => it.cat === 'audit').map((it) => dossierFor(it, idx)).filter(Boolean));
+  const out = [];
+  for (const d of Object.values(db.dossiers)) {
+    if (d.blocked || d.suspect) continue;
+    let s = 0;
+    const why = [];
+    const ev = d.evidence || [];
+    const funding = ev.find((e) => e.source === 'funding-rss' && (Date.parse(today) - Date.parse(e.date)) / 86400000 <= 180);
+    if (funding) { s += 3; why.push('verse funding'); }
+    const text = [d.research?.why, ...(d.research?.facts || []).map((f) => f.claim), ...(d.research?.hypotheses || [])].join(' ');
+    if (AIRDROP_TEXT.test(text)) { s += 2; why.push('points/airdrop genoemd'); }
+    if (['devnet', 'testnet', 'draait'].includes(d.stage)) { s += 2; why.push(`nog geen mainnet (${stageLabel(d.stage)})`); }
+    else if (d.stage === 'mainnet' && d.mainnetSince && (Date.parse(today) - Date.parse(d.mainnetSince)) / 86400000 <= 30) { s += 1; why.push('mainnet < 30 dagen'); }
+    if (auditFor.has(d.id)) { s += 2; why.push('audit-contest loopt'); }
+    if (d.eco?.dex?.length || d.eco?.launchpad?.length) { s += 1; why.push('DEX/launchpad aanwezig'); }
+    if (['A', 'B'].includes(d.confidence)) s += 1;
+    if (s >= 5) out.push({ d, score: s, why });
+  }
+  return out.sort((a, b) => b.score - a.score || a.d.id.localeCompare(b.d.id));
+}
+
+/** Het radar-ochtendbericht; meerdere delen als het te lang wordt. */
+export function radarMessages(db, radar, { since, today, scoreFn = () => 0 } = {}) {
+  const items = (radar.items || []).filter((it) => it.date >= since);
+  const idx = aliasIndex(db);
+  for (const it of items) it.dossier = dossierFor(it, idx);
+  const head = `📡 <b>Radar — ${fmtDay(today)}</b>\n<i>wat er vóór lanceringen zichtbaar werd, sinds ${fmtDay(since)}</i>`;
+  const blocks = [];
+
+  const cands = airdropCandidates(db, radar.items || [], { today }).slice(0, 6);
+  if (cands.length) {
+    const L = ['🪂 <b>Airdrop-kandidaten</b> <i>(signalen opgeteld, geen garantie)</i>'];
+    for (const { d, score, why } of cands) L.push(`• <b>${esc(clamp(d.name, 40))}</b> (${score}) — ${esc(why.join(', '))}${d.website ? `\n  ${esc(clamp(d.website, 100))}` : ''}`);
+    blocks.push(L.join('\n'));
+  }
+
+  for (const [cat, title, max] of RADAR_SECTIONS) {
+    const list = items.filter((it) => it.cat === cat).sort((a, b) => scoreFn(b) - scoreFn(a) || a.key.localeCompare(b.key));
+    if (!list.length) continue;
+    const L = [`${title}: ${list.length}`];
+    for (const it of list.slice(0, max)) {
+      const m = it.meta || {};
+      const extra = cat === 'audit' ? [m.starts && `start ${m.starts}`, m.ends && `eind ${m.ends}`, m.prize && `${Number(m.prize).toLocaleString('nl-NL')} ${m.token || ''}`.trim()].filter(Boolean).join(' · ')
+        : cat === 'techniek' ? (m.forum || m.repo || '')
+        : cat === 'bounty' ? [m.type, m.ecosystem].filter(Boolean).join(' · ')
+        : cat === 'sdk' ? clamp(m.about || '', 80)
+        : cat === 'vacature' ? (m.location || '')
+        : cat === 'contracten' ? (m.chain || '') : '';
+      const known = it.dossier ? ` 📁 ${esc(it.dossier)}` : '';
+      L.push(`• ${esc(clamp(it.title, 90))}${extra ? ` <i>(${esc(clamp(extra, 90))})</i>` : ''}${known}\n  ${esc(clamp(it.url, 140))}`);
+    }
+    if (list.length > max) L.push(`… en ${list.length - max} meer`);
+    blocks.push(L.join('\n'));
+  }
+
+  const down = Object.entries(radar.health || {}).filter(([, h]) => h?.ok === false).map(([id, h]) => `${id} (sinds ${h.since})`);
+  if (!blocks.length) blocks.push('Niets nieuws op de radar. De bronnen draaien; er is gewoon niets verschenen.');
+  if (down.length) blocks.push(`⚠️ radar-bron(nen) in storing: ${esc(down.join(', '))}`);
+
+  const msgs = [];
+  let cur = head;
+  for (const b of blocks) {
+    const piece = clamp(b, SAFE_LEN - 200);
+    if (cur.length + piece.length + 2 > SAFE_LEN) { msgs.push(cur); cur = '📡 <b>Radar (vervolg)</b>'; }
+    cur += `\n\n${piece}`;
+  }
+  msgs.push(cur);
+  return msgs;
+}

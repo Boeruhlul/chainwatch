@@ -30,6 +30,7 @@ const STEALTH_LABEL = {
   hostname: '🕵️ ONAANGEKONDIGDE CHAIN — RPC ANTWOORDT AL',
   factory: '🛰 NIEUWE ROLLUP UITGEROLD — nog nergens gemeld',
   blob: '🛰 NAAMLOZE ROLLUP POST DATA NAAR ETHEREUM',
+  zk: '🛰 NIEUWE ZK STACK-CHAIN GEREGISTREERD OP ETHEREUM',
 };
 
 export function formatChain(c) {
@@ -97,6 +98,13 @@ export function formatChain(c) {
   } else if (c.watch) {
     // Gewone detectie die bij een watchlist-project hoort.
     lines.push(`👀 <b>Op je watchlist: ${esc(c.watch.name)}</b>`);
+  }
+
+  // Echtheidspoort: naam of chain ID van een bekend project, domein niet.
+  if (c.suspect) {
+    lines.push(c.suspect.type === 'imitatie'
+      ? `⚠️ <b>MOGELIJKE IMITATIE van ${esc(c.suspect.other)}</b> — domein ${esc(c.suspect.own.join(', '))} staat niet bij het officiële (${esc(c.suspect.official.join(', '))}). Niet vertrouwen tot het project het zelf bevestigt.`
+      : `⚠️ <b>Chain ID botst met ${esc(c.suspect.other)}</b> (${esc(c.suspect.official.join(', '))}). Controleer welke de echte is.`);
   }
 
   // Dossiercontext: wat wisten we al over dit project, en hoe zeker is het?

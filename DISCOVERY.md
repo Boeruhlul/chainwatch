@@ -106,3 +106,64 @@ Als er niets gebeurd is staat dat er letterlijk. Op maandag komt er een weekblok
 - Non-EVM ecosystemen voor de DEX/launchpad-scan. Die werkt alleen op EVM.
 - Private GitHub-repo's, besloten Discords en X zonder betaalde API.
 - Funding-berichten waarvan de titel de naam niet vooraan zet.
+
+## Echtheidspoort (scamfilter)
+
+Komt een detectie via naam of chain ID overeen met een bekend dossier, maar staan de eigen domeinen (website, RPC of explorer) niet bij de officiële domeinen van dat dossier, dan:
+
+- wordt hij **niet** aan het echte dossier gekoppeld;
+- krijgt hij een eigen dossier met `suspect`, nooit hoger dan confidence C;
+- staat er in de alert ⚠️ **MOGELIJKE IMITATIE** of ⚠️ **chain ID botst met …**.
+
+Aanleiding is de nep-GIWA-chain van september 2025: chain ID 9134 met een eigen RPC en "bridge", die binnen 13 uur 767 ETH ophaalde.
+
+Een codenaam zónder eigen domein koppelt nog steeds gewoon via chain ID.
+
+Daarnaast slaat `blob-submitters` adressen over die Dune Spellbook (`blobs_submitters.sql`, ~125 adressen) al aan een bekende rollup toeschrijft. Die lijst wordt op runtime gelezen; BSL-licentie, dus niet gekopieerd.
+
+## ZK Stack (`zk-bridgehub`)
+
+Eén `eth_call` per run op het Bridgehub-contract (`0x303a…5213`) met `getAllZKChainChainIDs()` (terugval: `getAllZKChains()`). Een nieuw chain ID daarin is een nieuwe ZK Stack-chain, geregistreerd vóór er ook maar iets publiek is. Het is de ZK-tegenhanger van de RollupCreator-scan.
+
+## Radar (`src/radar.js`, `data/radar.json`)
+
+Signalen die vóór een lancering zichtbaar zijn, maar geen chain zijn. Ze geven nooit een directe alert: na het dagoverzicht volgt een tweede ochtendbericht, **📡 Radar**.
+
+| Bron | Wat | Ritme | Voorsprong |
+|---|---|---|---|
+| Sherlock-contests (`mainnet-contest.sherlock.xyz/contests`) | lopende en aankomende audit-contests | elke 3 uur | 3–7 weken vóór mainnet |
+| Audit-repo's (GitHub-orgs `sherlock-audit`, `code-423n4`, `Cyfrin`, `hats-finance`) | nieuwe contest-repo's | elke 3 uur | idem |
+| Blockscout `/api/v2/smart-contracts` op Ethereum, Base, Arbitrum en OP | nieuw geverifieerde rollup-systeemcontracten (OptimismPortal, SequencerInbox, Bridgehub, …) | elk uur | weken |
+| Blockscout op de explorer van elke intensief gevolgde chain (via de ecosysteem-scan) | geverifieerde dapp-contracten met namen als Launchpad, Bonding, Perp, Vault | elke ~30 min | het noxa.fun-moment |
+| Discourse-fora (ethresear.ch, Ethereum Magicians, Delving Bitcoin, Optimism, Arbitrum, Celestia, Solana, Starknet, ZKsync, Polygon, Cosmos) | nieuwe onderwerpen | elke 2 uur | maanden |
+| PR's op EIPs, ERCs, Solana-SIMD's en BIPs | nieuwe voorstellen | elke 3 uur | maanden |
+| npm-zoekopdrachten (rollup, appchain, testnet, l2, op-stack, orbit, zk-stack) | nieuwe SDK-pakketten | elke 6 uur | dagen–weken |
+| Immunefi `bounties.json` | nieuwe bug bounties | dagelijks | bevestigt een lancering |
+| Vacatures (`data/jobwatch.json`: Greenhouse, Lever, Ashby) | vacatures met protocol/rollup/sequencer/zk/stablecoin | dagelijks | tot ~1 jaar |
+
+Bronnen draaien in het raam van minuut 40–50 van het uur en falen los. Een bron in storing staat onderaan in het radarbericht.
+
+De eerste keer legt een bron een nulmeting vast: alleen wat in de laatste twee dagen ontstond telt dan als nieuw.
+
+Items blijven 14 dagen bewaard. Komt een projectnaam uit een dossier in een item voor, dan staat er 📁 bij.
+
+### Airdropscore
+
+Per dossier tellen deze signalen op:
+
+| Signaal | Punten |
+|---|---|
+| Funding in de laatste 180 dagen | +3 |
+| Points, airdrop of TGE genoemd in onderzoek | +2 |
+| Nog geen mainnet | +2 |
+| Lopende audit-contest | +2 |
+| DEX of launchpad aanwezig | +1 |
+| Confidence A of B | +1 |
+
+Vanaf 5 punten staat een dossier in het radarbericht als **🪂 airdrop-kandidaat**, met de redenen erbij. Imitaties en geblokkeerde projecten tellen nooit mee.
+
+Wat bewust níet automatisch gaat:
+
+- **Merkregistraties** (USPTO, EUIPO, KIPRIS): de zoek-API's vereisen een account of sleutel. Dit valt onder de wekelijkse onderzoekssessie.
+- **Galxe, Layer3 en Zealy**: ToS en Cloudflare.
+- **X/Twitter**: geen API meer voor dit soort gebruik.

@@ -18,12 +18,13 @@ import blobSubmitters from './blob-submitters.js';
 import githubDiscovery from './github-discovery.js';
 import fundingRss from './funding-rss.js';
 import research from './research.js';
+import zkBridgehub from './zk-bridgehub.js';
 
 // Volgorde is alleen cosmetisch (logregels); de runner haalt alles parallel op.
 // Pre-launch-bronnen eerst, brede registers daarna.
 const REAL_SOURCES = [
   // Stealth-detectie eerst: deze zien een chain die niemand heeft aangekondigd.
-  rollupFactory, ctHostnames, blobSubmitters,
+  rollupFactory, zkBridgehub, ctHostnames, blobSubmitters,
   ethlistsPr, ethlistsCommit, keplrPr, superchain, viem, l2beat, cosmos,
   chainlist, hyperlane, blockscout, glacier, lifi, defillama, coingecko,
   // Vóór-registratie-signalen: leveren leads voor de dossiers, geen directe alerts.

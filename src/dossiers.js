@@ -177,6 +177,17 @@ function addDomainKey(keys, url) {
   if (apex && allowedKey(`d:${apex}`)) keys.add(`d:${apex}`);
 }
 
+/** Eigen domeinen van een detectie: website, RPC en explorer, zonder infra/platforms. */
+export function domainsOf(r) {
+  const out = new Set();
+  for (const u of [r.website, r.infoURL, r.liveRpc, ...(r.rpc || []), ...(r.explorers || [])]) {
+    if (!u || /github\.com/i.test(String(u))) continue;
+    const apex = apexOf(u);
+    if (apex && allowedKey(`d:${apex}`)) out.add(apex);
+  }
+  return out;
+}
+
 /** Alle identiteitssleutels die een detectie oplevert. */
 export function keysOf(r) {
   const keys = new Set();
@@ -283,6 +294,13 @@ export function assess(d) {
     const before = conf;
     conf = betterConf(d.research.confidence, conf);
     if (conf !== before) reasons.push(`onderzoeksoordeel ${d.research.confidence}`);
+  }
+  // Mogelijke imitatie of chain-ID-botsing: nooit hoger dan C, wat er ook draait.
+  if (d.suspect) {
+    if (CONF_ORDER.indexOf(conf) > CONF_ORDER.indexOf('C')) conf = 'C';
+    reasons.unshift(d.suspect.type === 'imitatie'
+      ? `⚠️ mogelijke imitatie van ${d.suspect.other}: domein wijkt af van het officiële`
+      : `⚠️ chain ID botst met ${d.suspect.other}`);
   }
   if (d.eco?.dex?.length) reasons.push('DEX op de chain gevonden');
   if (d.eco?.launchpad?.length) reasons.push('launchpad-kandidaat op de chain');
@@ -458,8 +476,32 @@ export function ingest(db, records, { alertKeys = new Set(), quiet = false } = {
     if (!keys.size) continue;
     const nm = r.watch?.name || r.name;
     const day = dayOf(r.detectedAt);
-    const hits = uniq([...keys].map((k) => idx.get(k)).filter(Boolean))
+    let hits = uniq([...keys].map((k) => idx.get(k)).filter(Boolean))
       .map((id) => db.dossiers[id]).filter(Boolean);
+
+    // Echtheidspoort: komt de naam of het chain ID overeen met een bekend
+    // project, maar het domein niet, dan is het geen bewijs voor dat project
+    // maar een mogelijke imitatie (nep-GIWA, chain ID 9134) of een botsing.
+    // Zo'n detectie mag het echte dossier niet vervuilen en krijgt een eigen,
+    // gemarkeerd dossier.
+    const ownApex = domainsOf(r);
+    if (hits.length && ownApex.size) {
+      const kept = [];
+      for (const h of hits) {
+        const official = (h.keys || []).filter((k) => k.startsWith('d:')).map((k) => k.slice(2));
+        const shared = [...keys].filter((k) => (h.keys || []).includes(k));
+        const strong = shared.some((k) => /^(d|gh|a):/.test(k));
+        if (strong || !official.length || official.some((a) => ownApex.has(a))) { kept.push(h); continue; }
+        const viaName = shared.some((k) => k.startsWith('n:'));
+        r.suspect = {
+          type: viaName ? 'imitatie' : 'id-botsing',
+          other: h.name, official: official.slice(0, 3), own: [...ownApex].slice(0, 3),
+        };
+        for (const k of shared) keys.delete(k);
+      }
+      hits = kept;
+      if (r.suspect) for (const a of ownApex) keys.add(`d:${a}`);
+    }
 
     let d;
     if (!hits.length) {
@@ -468,6 +510,7 @@ export function ingest(db, records, { alertKeys = new Set(), quiet = false } = {
         id, name: cleanName(nm) || id, aliases: [], keys: [], firstSeen: day,
         lastActivity: day, stage: null, stageHistory: [], evidence: [],
       };
+      if (r.suspect) d.suspect = r.suspect;
       touched.set(id, { prevStage: null, prevConf: null, created: true, trigger: r });
     } else {
       // Oudste dossier wint; de rest gaat erin op.
