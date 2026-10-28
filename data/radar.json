@@ -1,6 +1,569 @@
 {
  "lastSent": null,
  "health": {},
- "items": [],
- "seen": {}
+ "items": [
+  {
+   "key": "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "N2MFactory op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x00000000001594c61dd8a6804da9ab58ed2483ce",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x00000000001594c61dd8a6804da9ab58ed2483ce"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x00094197a82fade614c214cfe27719deda898686",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LockReleaseTokenPool op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x00094197a82fade614c214cfe27719deda898686",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x00094197a82fade614c214cfe27719deda898686"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolManager op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ConstantProductBondingCurve op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ForwarderFactoryV4 op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x058ab6a27f738010849cad2d4c4f807a33e568ab",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BorrowFacet op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x058ab6a27f738010849cad2d4c4f807a33e568ab",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x058ab6a27f738010849cad2d4c4f807a33e568ab"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x09c6f73caa633a02adb78f7a737af6af1a98b506",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RewardPool op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x09c6f73caa633a02adb78f7a737af6af1a98b506",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x09c6f73caa633a02adb78f7a737af6af1a98b506"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PawsFactory op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x0c8cc0f302f99f9167324cba1b87a17ad5841c93",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UsdV4SwapRouter op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x0c8cc0f302f99f9167324cba1b87a17ad5841c93",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x0c8cc0f302f99f9167324cba1b87a17ad5841c93"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x0d8e8e667e4bf237f297f74b5c665743f6b3682b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NonfungibleTokenPositionDescriptor op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x0d8e8e667e4bf237f297f74b5c665743f6b3682b",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x0d8e8e667e4bf237f297f74b5c665743f6b3682b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x0fb17d2ce713d6c890763137041d6b783d4863ba",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PriceOracle op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x0fb17d2ce713d6c890763137041d6b783d4863ba",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x0fb17d2ce713d6c890763137041d6b783d4863ba"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GenesisBootstrapSale op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x14f2982d601c9458f93bd70b218933a6f8165e7b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SafeProxyFactory op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x14f2982d601c9458f93bd70b218933a6f8165e7b",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x14f2982d601c9458f93bd70b218933a6f8165e7b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "Factory op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x15ca00e44b6bbe19ff230f2e3294443a70bacdda"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleFreeDollar op DogeOS",
+   "url": "https://blockscout.testnet.dogeos.com/address/0x196134777200ef20efa99c79615bcee02ba7d63a",
+   "meta": {
+    "chain": "DogeOS",
+    "addr": "0x196134777200ef20efa99c79615bcee02ba7d63a"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "InteractionPool op ENI Network",
+   "url": "https://scan.eni.top/address/0x50d6121ebbcf162ca83408ac47ff214004f16d33",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x50d6121ebbcf162ca83408ac47ff214004f16d33"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x824b99142f98b8134466def4a285394f687f8a64",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NodeRewardPool op ENI Network",
+   "url": "https://scan.eni.top/address/0x824b99142f98b8134466def4a285394f687f8a64",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x824b99142f98b8134466def4a285394f687f8a64"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x86869725c3eb770f1f55fce0898b4c2d5425e19d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PriceOracle op ENI Network",
+   "url": "https://scan.eni.top/address/0x86869725c3eb770f1f55fce0898b4c2d5425e19d",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x86869725c3eb770f1f55fce0898b4c2d5425e19d"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "TradingRouter op ENI Network",
+   "url": "https://scan.eni.top/address/0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x19710f26e62481c6f2a6a433d898b01491dee052",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BondingCurve op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x19710f26e62481c6f2a6a433d898b01491dee052",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x19710f26e62481c6f2a6a433d898b01491dee052"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x2347b02844457ca518b9a0b1a32a13a732788e6b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BuybackVaultV2 op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x2347b02844457ca518b9a0b1a32a13a732788e6b",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x2347b02844457ca518b9a0b1a32a13a732788e6b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FdvLockVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x486bf1d851fdcab2f47619e4a62210ac4beb14ac"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x70f193d376b32dc6b863b37c225d975f4d66f886",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LaunchpadFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x70f193d376b32dc6b863b37c225d975f4d66f886",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x70f193d376b32dc6b863b37c225d975f4d66f886"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x8a45f0cb01a4117e99efd0eb63f810700a6a0719",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SocialTokenAllocationFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x8a45f0cb01a4117e99efd0eb63f810700a6a0719",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x8a45f0cb01a4117e99efd0eb63f810700a6a0719"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BondingCurve op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x8e2c237cad6637d3b6cc16058f10429bee4978f2"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xb0895357d00b7f95a22d0f0273abd892259a14e2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniversalRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xb0895357d00b7f95a22d0f0273abd892259a14e2",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xb0895357d00b7f95a22d0f0273abd892259a14e2"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolManager op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xee2cede06966214bab55148d3e51dbf47651f574",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xee2cede06966214bab55148d3e51dbf47651f574"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GordOneClickRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleAttestationManager op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x0492dae4d4f0608d4a8013ca57d77b505c113bb3"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GridRWAOracleV2 op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GridRWAOracleV2 op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x3536e03e3d84894e202572e57d02121b6469c760",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleSlashManager op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x3536e03e3d84894e202572e57d02121b6469c760",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x3536e03e3d84894e202572e57d02121b6469c760"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x359734c35f28e993bde85c34df35c282d998313b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleFeeRouter op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x359734c35f28e993bde85c34df35c282d998313b",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x359734c35f28e993bde85c34df35c282d998313b"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleSlashManager op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x45938f30fd960701faa4de42a410f4553e0eb019",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleEpochFinalizer op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x45938f30fd960701faa4de42a410f4553e0eb019",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x45938f30fd960701faa4de42a410f4553e0eb019"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x63916b559998fe2f071da748fd349a5a03a7db56",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleAttestationManager op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x63916b559998fe2f071da748fd349a5a03a7db56",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x63916b559998fe2f071da748fd349a5a03a7db56"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleBondVault op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x821f97b729ff03144212de600014a05c83875457",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleBondVault op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x821f97b729ff03144212de600014a05c83875457",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x821f97b729ff03144212de600014a05c83875457"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x8361abd61029466eed44026bd28d3ae765bb3435",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleRewardVault op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x8361abd61029466eed44026bd28d3ae765bb3435",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x8361abd61029466eed44026bd28d3ae765bb3435"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0x916cad216f7d88878f1075515537a59d25dfeb89",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleNodeRegistry op GridMind",
+   "url": "https://gridmindblockchain.com/address/0x916cad216f7d88878f1075515537a59d25dfeb89",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0x916cad216f7d88878f1075515537a59d25dfeb89"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0xa269c6831636af8c492e0862684eb518737c44a5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleEpochFinalizer op GridMind",
+   "url": "https://gridmindblockchain.com/address/0xa269c6831636af8c492e0862684eb518737c44a5",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0xa269c6831636af8c492e0862684eb518737c44a5"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleFeeRouter op GridMind",
+   "url": "https://gridmindblockchain.com/address/0xa366f427d5bfe748975cd73c45706baa81c03ef8",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0xa366f427d5bfe748975cd73c45706baa81c03ef8"
+   },
+   "date": "2026-10-28"
+  },
+  {
+   "key": "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleRewardVault op GridMind",
+   "url": "https://gridmindblockchain.com/address/0xbf1de0140e364146e171153995ed688dad3bb100",
+   "meta": {
+    "chain": "GridMind",
+    "addr": "0xbf1de0140e364146e171153995ed688dad3bb100"
+   },
+   "date": "2026-10-28"
+  }
+ ],
+ "seen": {
+  "chain-contracts": [
+   "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
+   "chaincontract:dogeos:0x00094197a82fade614c214cfe27719deda898686",
+   "chaincontract:dogeos:0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
+   "chaincontract:dogeos:0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012",
+   "chaincontract:dogeos:0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4",
+   "chaincontract:dogeos:0x058ab6a27f738010849cad2d4c4f807a33e568ab",
+   "chaincontract:dogeos:0x09c6f73caa633a02adb78f7a737af6af1a98b506",
+   "chaincontract:dogeos:0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e",
+   "chaincontract:dogeos:0x0c8cc0f302f99f9167324cba1b87a17ad5841c93",
+   "chaincontract:dogeos:0x0d8e8e667e4bf237f297f74b5c665743f6b3682b",
+   "chaincontract:dogeos:0x0fb17d2ce713d6c890763137041d6b783d4863ba",
+   "chaincontract:dogeos:0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4",
+   "chaincontract:dogeos:0x14f2982d601c9458f93bd70b218933a6f8165e7b",
+   "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
+   "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
+   "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
+   "chaincontract:eninetwork:0x824b99142f98b8134466def4a285394f687f8a64",
+   "chaincontract:eninetwork:0x86869725c3eb770f1f55fce0898b4c2d5425e19d",
+   "chaincontract:eninetwork:0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3",
+   "chaincontract:giwasepolia:0x19710f26e62481c6f2a6a433d898b01491dee052",
+   "chaincontract:giwasepolia:0x2347b02844457ca518b9a0b1a32a13a732788e6b",
+   "chaincontract:giwasepolia:0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
+   "chaincontract:giwasepolia:0x70f193d376b32dc6b863b37c225d975f4d66f886",
+   "chaincontract:giwasepolia:0x8a45f0cb01a4117e99efd0eb63f810700a6a0719",
+   "chaincontract:giwasepolia:0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
+   "chaincontract:giwasepolia:0xb0895357d00b7f95a22d0f0273abd892259a14e2",
+   "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
+   "chaincontract:giwasepolia:0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20",
+   "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
+   "chaincontract:gridmind:0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
+   "chaincontract:gridmind:0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477",
+   "chaincontract:gridmind:0x3536e03e3d84894e202572e57d02121b6469c760",
+   "chaincontract:gridmind:0x359734c35f28e993bde85c34df35c282d998313b",
+   "chaincontract:gridmind:0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237",
+   "chaincontract:gridmind:0x45938f30fd960701faa4de42a410f4553e0eb019",
+   "chaincontract:gridmind:0x63916b559998fe2f071da748fd349a5a03a7db56",
+   "chaincontract:gridmind:0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94",
+   "chaincontract:gridmind:0x821f97b729ff03144212de600014a05c83875457",
+   "chaincontract:gridmind:0x8361abd61029466eed44026bd28d3ae765bb3435",
+   "chaincontract:gridmind:0x916cad216f7d88878f1075515537a59d25dfeb89",
+   "chaincontract:gridmind:0xa269c6831636af8c492e0862684eb518737c44a5",
+   "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
+   "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100"
+  ]
+ }
 }
