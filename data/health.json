@@ -2,6 +2,9 @@
   "github-discovery": {
     "ok": true
   },
+  "funding-rss": {
+    "ok": true
+  },
   "rollup-factory": {
     "ok": true
   },
@@ -9,7 +12,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — mainnet-rpc.%: HTTP 502 voor https://crt.sh/?q=mainnet-rpc.%25&output=json; testnet-rpc.%: This operation was aborted",
+    "failingSince": "2026-10-29T06:30:43.822Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -59,9 +64,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "funding-rss": {
-    "ok": true
   },
   "research": {
     "ok": true
