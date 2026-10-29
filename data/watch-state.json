@@ -273,7 +273,12 @@
     "bypassed": []
   },
   "sovl1": {
-    "hosts": {},
+    "hosts": {
+      "sovereign.com.ky": [
+        "sovereign.com.ky",
+        "www.sovereign.com.ky"
+      ]
+    },
     "firedChainIds": [],
     "bypassed": []
   }
