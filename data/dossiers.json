@@ -1869,6 +1869,15 @@
     },
     {
      "date": "2026-10-29",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 2583",
+     "url": "https://chainlist.org/chain/2583",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -12374,6 +12383,24 @@
      "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 7685",
      "url": "https://github.com/ethereum-lists/chains/pull/8941",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 7685",
+     "url": "https://chainlist.org/chain/7685",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 76851",
+     "url": "https://chainlist.org/chain/76851",
      "strength": "technical"
     },
     {
