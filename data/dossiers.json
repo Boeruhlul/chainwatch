@@ -234,7 +234,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 197197",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-197197.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-13",
@@ -252,7 +253,8 @@
      "kind": "devnet",
      "what": "ethlists-commit: devnet · ID 197198",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-197198.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -551,7 +553,8 @@
      "kind": "mainnet",
      "what": "coingecko: mainnet",
      "url": "https://www.coingecko.com/en/chains/atlantischain",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "mainnetSince": "2026-09-24",
@@ -1130,7 +1133,8 @@
      "kind": "mainnet",
      "what": "chainlist: mainnet · ID 42069000",
      "url": "https://chainlist.org/chain/42069000",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-19",
@@ -1139,7 +1143,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 42069000",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-42069000.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-19",
@@ -1877,7 +1882,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 2027",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-2027.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-08",
@@ -2350,7 +2356,8 @@
      "kind": "mainnet",
      "what": "blockscout: mainnet · ID 21892",
      "url": "https://dacscan.io/",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-09-23",
@@ -2359,7 +2366,8 @@
      "kind": "testnet",
      "what": "blockscout: testnet · ID 21894",
      "url": "https://exptest.dachain.tech",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-11",
@@ -3155,7 +3163,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 9988",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-9988.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-13",
@@ -3164,7 +3173,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 9989",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-9989.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -3210,7 +3220,8 @@
      "kind": "testnet",
      "what": "blockscout: testnet · ID 5201420",
      "url": "https://electroneum-testnet.blockscout.com",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -3517,7 +3528,8 @@
      "kind": "mainnet",
      "what": "blockscout: mainnet · ID 165",
      "url": "https://fmcscan.com/",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -4324,7 +4336,8 @@
      "kind": "mainnet",
      "what": "defillama: mainnet",
      "url": "https://defillama.com/chain/Gno.land",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "mainnetSince": "2026-10-21",
@@ -4532,7 +4545,8 @@
      "kind": "mainnet",
      "what": "defillama: mainnet · ID 177",
      "url": "https://defillama.com/chain/HSK%20Chain",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -4574,7 +4588,8 @@
      "kind": "mainnet",
      "what": "cosmos: mainnet",
      "url": "https://github.com/cosmos/chain-registry/tree/master/hyve",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "architecture": "Cosmos",
@@ -4802,7 +4817,8 @@
      "kind": "testnet",
      "what": "blockscout: testnet · ID 1076",
      "url": "https://explorer.evm.testnet.iota.cafe/",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -4952,7 +4968,8 @@
      "kind": "devnet",
      "what": "ethlists-commit: devnet · ID 56672",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-56672.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-05",
@@ -4961,7 +4978,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 5667",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-5667.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-05",
@@ -4970,7 +4988,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 56671",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-56671.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -5105,7 +5124,8 @@
      "kind": "mainnet",
      "what": "blockscout: mainnet · ID 529375",
      "url": "https://layerk.blockscout.com/",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -5170,7 +5190,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 767366",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-767366.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -5213,7 +5234,8 @@
      "kind": "mainnet",
      "what": "coingecko: mainnet",
      "url": "https://www.coingecko.com/en/chains/lightchain-ai",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "mainnetSince": "2026-10-27",
@@ -5391,7 +5413,8 @@
      "kind": "mainnet",
      "what": "cosmos: mainnet",
      "url": "https://github.com/cosmos/chain-registry/tree/master/luxa",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "architecture": "Cosmos",
@@ -9099,7 +9122,8 @@
      "kind": "mainnet",
      "what": "cosmos: mainnet",
      "url": "https://github.com/cosmos/chain-registry/tree/master/ozone",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-28",
@@ -9108,7 +9132,8 @@
      "kind": "testnet",
      "what": "cosmos: testnet",
      "url": "https://github.com/cosmos/chain-registry/tree/master/testnets/ozonetestnet",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "architecture": "Cosmos",
@@ -9248,7 +9273,8 @@
      "kind": "mainnet",
      "what": "defillama: mainnet · ID 3344",
      "url": "https://defillama.com/chain/Pentagon%20Chain",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -9447,7 +9473,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 1015",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1015.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-22",
@@ -9456,7 +9483,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 190277",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-190277.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -10279,7 +10307,8 @@
      "kind": "mainnet",
      "what": "coingecko: mainnet · ID 1990",
      "url": "https://www.coingecko.com/en/chains/qie-blockchain",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -10758,7 +10787,8 @@
      "kind": "mainnet",
      "what": "defillama: mainnet · ID 72957",
      "url": "https://defillama.com/chain/Rayls",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -10883,7 +10913,8 @@
      "kind": "mainnet",
      "what": "chainlist: mainnet · ID 53147",
      "url": "https://chainlist.org/chain/53147",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-24",
@@ -10892,7 +10923,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 53147",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-53147.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-27",
@@ -10910,7 +10942,8 @@
      "kind": "testnet",
      "what": "chainlist: testnet · ID 281182",
      "url": "https://chainlist.org/chain/281182",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-29",
@@ -10919,7 +10952,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 281182",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-281182.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -11514,7 +11548,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 20260",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-20260.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -11649,7 +11684,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 7685",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-7685.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-29",
@@ -11658,7 +11694,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 76851",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-76851.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -11885,7 +11922,8 @@
      "kind": "mainnet",
      "what": "coingecko: mainnet",
      "url": "https://www.coingecko.com/en/chains/strato",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "mainnetSince": "2026-10-13",
@@ -12407,7 +12445,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 82228",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-82228.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-27",
@@ -12416,7 +12455,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 28282",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-28282.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [
@@ -12961,7 +13001,8 @@
      "kind": "devnet",
      "what": "ethlists-commit: devnet · ID 92531",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-92531.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-17",
@@ -12970,7 +13011,8 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 92533",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-92533.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     },
     {
      "date": "2026-10-17",
@@ -12979,7 +13021,8 @@
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 92532",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-92532.json",
-     "strength": "running"
+     "strength": "technical",
+     "noRpc": true
     }
    ],
    "chainIds": [

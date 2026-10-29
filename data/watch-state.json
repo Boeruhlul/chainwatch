@@ -271,5 +271,10 @@
     },
     "firedChainIds": [],
     "bypassed": []
+  },
+  "sovl1": {
+    "hosts": {},
+    "firedChainIds": [],
+    "bypassed": []
   }
 }
