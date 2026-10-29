@@ -1,4 +1,7 @@
 {
+  "github-discovery": {
+    "ok": true
+  },
   "funding-rss": {
     "ok": true
   },
@@ -9,7 +12,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — sequencer.%: fetch failed; rpc.chain.%: fetch failed",
+    "failingSince": "2026-10-29T12:10:40.352Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -59,9 +64,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "github-discovery": {
-    "ok": true
   },
   "research": {
     "ok": true
