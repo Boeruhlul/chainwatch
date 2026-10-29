@@ -2171,6 +2171,20 @@
    "date": "2026-10-29"
   },
   {
+   "key": "forum:ethereum-magicians.org:30124",
+   "title": "Scoped Capability Tokens for STVA",
+   "url": "https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-29",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-29"
+  },
+  {
    "key": "forum:forum.celestia.org:2324",
    "title": "CIP-53: Block gas limit for non-blob transactions",
    "url": "https://forum.celestia.org/t/cip-53-block-gas-limit-for-non-blob-transactions/2324",
@@ -2354,6 +2368,7 @@
    "forum:ethereum-magicians.org:30116",
    "forum:ethereum-magicians.org:30120",
    "forum:ethereum-magicians.org:30121",
+   "forum:ethereum-magicians.org:30124",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
