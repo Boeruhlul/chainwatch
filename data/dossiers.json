@@ -11643,6 +11643,15 @@
     },
     {
      "date": "2026-10-29",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 281182",
+     "url": "https://chainlist.org/chain/281182",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
