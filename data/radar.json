@@ -2537,6 +2537,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-29"
+  },
+  {
+   "key": "pr:ethereum/ercs#2126",
+   "title": "Add ERC: Stock Locates",
+   "url": "https://github.com/ethereum/ERCs/pull/2126",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-29"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-29"
   }
  ],
  "seen": {
@@ -2822,6 +2834,7 @@
    "pr:ethereum/ercs#2122",
    "pr:ethereum/ercs#2123",
    "pr:ethereum/ercs#2124",
+   "pr:ethereum/ercs#2126",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
