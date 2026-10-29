@@ -4456,7 +4456,7 @@
     "n:upbitl2"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-10-29",
    "stage": "draait",
    "stageHistory": [
     {
@@ -4532,6 +4532,15 @@
      "url": "https://crypto.news/upbit-backed-giwa-says-mainnet-is-not-live-denies-rpc-leak/",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x412ca824…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x412ca824d3f2cd4f53981f4688330e2eadbbb6d1",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -4614,6 +4623,11 @@
       "addr": "0x0284129aa76e4b5b55518c722afa5936d446d24e",
       "type": "Uniswap v2-fork",
       "date": "2026-10-28"
+     },
+     {
+      "addr": "0x412ca824d3f2cd4f53981f4688330e2eadbbb6d1",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-29"
      }
     ],
     "launchpad": [
