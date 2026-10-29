@@ -2511,6 +2511,18 @@
    "src": "proposals",
    "date": "2026-10-29",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2124",
+   "title": "Update ERC-7730: allow chainId in the calldata field format schema",
+   "url": "https://github.com/ethereum/ERCs/pull/2124",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-29"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-29"
   }
  ],
  "seen": {
@@ -2794,6 +2806,7 @@
    "pr:ethereum/ercs#2121",
    "pr:ethereum/ercs#2122",
    "pr:ethereum/ercs#2123",
+   "pr:ethereum/ercs#2124",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
