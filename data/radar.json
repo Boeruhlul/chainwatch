@@ -2582,6 +2582,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12595",
+   "title": "Update EIP-8288: reuse proofs before recursive aggregation",
+   "url": "https://github.com/ethereum/EIPs/pull/12595",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-29"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-29"
+  },
+  {
    "key": "pr:ethereum/ercs#2124",
    "title": "Update ERC-7730: allow chainId in the calldata field format schema",
    "url": "https://github.com/ethereum/ERCs/pull/2124",
@@ -2884,6 +2896,7 @@
    "pr:ethereum/eips#12590",
    "pr:ethereum/eips#12592",
    "pr:ethereum/eips#12594",
+   "pr:ethereum/eips#12595",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
