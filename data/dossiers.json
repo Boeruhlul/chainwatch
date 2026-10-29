@@ -10399,7 +10399,7 @@
     "n:qms"
    ],
    "firstSeen": "2026-10-11",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-10-29",
    "stage": "draait",
    "stageHistory": [
     {
@@ -10438,6 +10438,15 @@
      "what": "github-discovery: aanwijzing · naam-in-repo",
      "url": "https://github.com/anjaswi/qms-mini-registry",
      "strength": "technical"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x7e51addc…",
+     "url": "https://testnet.qmsscan.io/address/0x7e51addc876574a75d53a3fa5ccb7b6d2d9b4f6c",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -10466,6 +10475,11 @@
       "addr": "0x93afd9ac50822f82c7c4f2ec8ec2463b086fb878",
       "type": "Uniswap v2-fork",
       "date": "2026-10-28"
+     },
+     {
+      "addr": "0x7e51addc876574a75d53a3fa5ccb7b6d2d9b4f6c",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-29"
      }
     ],
     "launchpad": []
