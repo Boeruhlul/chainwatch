@@ -1,5 +1,5 @@
 {
- "lastSent": null,
+ "lastSent": "2026-10-29",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -94,7 +94,8 @@
     "chain": "DogeOS",
     "addr": "0x00000000001594c61dd8a6804da9ab58ed2483ce"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x00094197a82fade614c214cfe27719deda898686",
@@ -106,7 +107,8 @@
     "chain": "DogeOS",
     "addr": "0x00094197a82fade614c214cfe27719deda898686"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
@@ -118,7 +120,8 @@
     "chain": "DogeOS",
     "addr": "0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012",
@@ -130,7 +133,8 @@
     "chain": "DogeOS",
     "addr": "0x0434e5076b2fe0b3a9fa39dd7bb3ce775855a012"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4",
@@ -142,7 +146,8 @@
     "chain": "DogeOS",
     "addr": "0x04ef634f1bce6d240eccbfe73a2d93bcbba537d4"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x058ab6a27f738010849cad2d4c4f807a33e568ab",
@@ -154,7 +159,8 @@
     "chain": "DogeOS",
     "addr": "0x058ab6a27f738010849cad2d4c4f807a33e568ab"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x09c6f73caa633a02adb78f7a737af6af1a98b506",
@@ -166,7 +172,8 @@
     "chain": "DogeOS",
     "addr": "0x09c6f73caa633a02adb78f7a737af6af1a98b506"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e",
@@ -178,7 +185,8 @@
     "chain": "DogeOS",
     "addr": "0x0b1f97a03ef18a7af48c09c1aa1fbc00dabe728e"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x0c8cc0f302f99f9167324cba1b87a17ad5841c93",
@@ -190,7 +198,8 @@
     "chain": "DogeOS",
     "addr": "0x0c8cc0f302f99f9167324cba1b87a17ad5841c93"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x0d8e8e667e4bf237f297f74b5c665743f6b3682b",
@@ -202,7 +211,8 @@
     "chain": "DogeOS",
     "addr": "0x0d8e8e667e4bf237f297f74b5c665743f6b3682b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x0fb17d2ce713d6c890763137041d6b783d4863ba",
@@ -214,7 +224,8 @@
     "chain": "DogeOS",
     "addr": "0x0fb17d2ce713d6c890763137041d6b783d4863ba"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4",
@@ -226,7 +237,8 @@
     "chain": "DogeOS",
     "addr": "0x12c3efc17ccfdbc77fe1026a1b8a2c02d6c111c4"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x14f2982d601c9458f93bd70b218933a6f8165e7b",
@@ -238,7 +250,8 @@
     "chain": "DogeOS",
     "addr": "0x14f2982d601c9458f93bd70b218933a6f8165e7b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
@@ -250,7 +263,8 @@
     "chain": "DogeOS",
     "addr": "0x15ca00e44b6bbe19ff230f2e3294443a70bacdda"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
@@ -262,7 +276,8 @@
     "chain": "DogeOS",
     "addr": "0x196134777200ef20efa99c79615bcee02ba7d63a"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "dogeos"
   },
   {
    "key": "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
@@ -274,7 +289,8 @@
     "chain": "ENI Network",
     "addr": "0x50d6121ebbcf162ca83408ac47ff214004f16d33"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "eninetwork"
   },
   {
    "key": "chaincontract:eninetwork:0x824b99142f98b8134466def4a285394f687f8a64",
@@ -286,7 +302,8 @@
     "chain": "ENI Network",
     "addr": "0x824b99142f98b8134466def4a285394f687f8a64"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "eninetwork"
   },
   {
    "key": "chaincontract:eninetwork:0x86869725c3eb770f1f55fce0898b4c2d5425e19d",
@@ -298,7 +315,8 @@
     "chain": "ENI Network",
     "addr": "0x86869725c3eb770f1f55fce0898b4c2d5425e19d"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "eninetwork"
   },
   {
    "key": "chaincontract:eninetwork:0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3",
@@ -310,7 +328,8 @@
     "chain": "ENI Network",
     "addr": "0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "eninetwork"
   },
   {
    "key": "chaincontract:giwasepolia:0x0284129aa76e4b5b55518c722afa5936d446d24e",
@@ -322,7 +341,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x0284129aa76e4b5b55518c722afa5936d446d24e"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x19710f26e62481c6f2a6a433d898b01491dee052",
@@ -334,7 +354,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x19710f26e62481c6f2a6a433d898b01491dee052"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x2347b02844457ca518b9a0b1a32a13a732788e6b",
@@ -346,7 +367,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x2347b02844457ca518b9a0b1a32a13a732788e6b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
@@ -358,7 +380,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x486bf1d851fdcab2f47619e4a62210ac4beb14ac"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x52b563339a8e7a0aae02d40dc01fc90525642908",
@@ -370,7 +393,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x52b563339a8e7a0aae02d40dc01fc90525642908"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x70f193d376b32dc6b863b37c225d975f4d66f886",
@@ -382,7 +406,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x70f193d376b32dc6b863b37c225d975f4d66f886"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x7890bfbcf8da8c4b28d998e9154e019a4764c339",
@@ -394,7 +419,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x7890bfbcf8da8c4b28d998e9154e019a4764c339"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x7b5cbacf8d702110d1707cbf50fb20cf66fed912",
@@ -406,7 +432,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x7b5cbacf8d702110d1707cbf50fb20cf66fed912"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x8a45f0cb01a4117e99efd0eb63f810700a6a0719",
@@ -418,7 +445,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x8a45f0cb01a4117e99efd0eb63f810700a6a0719"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x8b109f7c2f8045fc3444c61a572d37aaa12ba1b9",
@@ -430,7 +458,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x8b109f7c2f8045fc3444c61a572d37aaa12ba1b9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
@@ -442,7 +471,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x8e2c237cad6637d3b6cc16058f10429bee4978f2"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xb0895357d00b7f95a22d0f0273abd892259a14e2",
@@ -454,7 +484,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xb0895357d00b7f95a22d0f0273abd892259a14e2"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xba07116f263810bebd419dd113ef51490866567c",
@@ -466,7 +497,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xba07116f263810bebd419dd113ef51490866567c"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
@@ -478,7 +510,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xee2cede06966214bab55148d3e51dbf47651f574"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20",
@@ -490,7 +523,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
@@ -502,7 +536,8 @@
     "chain": "GridMind",
     "addr": "0x0492dae4d4f0608d4a8013ca57d77b505c113bb3"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
@@ -514,7 +549,8 @@
     "chain": "GridMind",
     "addr": "0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477",
@@ -526,7 +562,8 @@
     "chain": "GridMind",
     "addr": "0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x3536e03e3d84894e202572e57d02121b6469c760",
@@ -538,7 +575,8 @@
     "chain": "GridMind",
     "addr": "0x3536e03e3d84894e202572e57d02121b6469c760"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x359734c35f28e993bde85c34df35c282d998313b",
@@ -550,7 +588,8 @@
     "chain": "GridMind",
     "addr": "0x359734c35f28e993bde85c34df35c282d998313b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237",
@@ -562,7 +601,8 @@
     "chain": "GridMind",
     "addr": "0x3ae71d994d939d92cc5c6bcd6dc5f58f85af1237"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x45938f30fd960701faa4de42a410f4553e0eb019",
@@ -574,7 +614,8 @@
     "chain": "GridMind",
     "addr": "0x45938f30fd960701faa4de42a410f4553e0eb019"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x63916b559998fe2f071da748fd349a5a03a7db56",
@@ -586,7 +627,8 @@
     "chain": "GridMind",
     "addr": "0x63916b559998fe2f071da748fd349a5a03a7db56"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94",
@@ -598,7 +640,8 @@
     "chain": "GridMind",
     "addr": "0x7d8d963d8f7cc51e93b208d9fdc80c9f25950d94"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x821f97b729ff03144212de600014a05c83875457",
@@ -610,7 +653,8 @@
     "chain": "GridMind",
     "addr": "0x821f97b729ff03144212de600014a05c83875457"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x8361abd61029466eed44026bd28d3ae765bb3435",
@@ -622,7 +666,8 @@
     "chain": "GridMind",
     "addr": "0x8361abd61029466eed44026bd28d3ae765bb3435"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0x916cad216f7d88878f1075515537a59d25dfeb89",
@@ -634,7 +679,8 @@
     "chain": "GridMind",
     "addr": "0x916cad216f7d88878f1075515537a59d25dfeb89"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0xa269c6831636af8c492e0862684eb518737c44a5",
@@ -646,7 +692,8 @@
     "chain": "GridMind",
     "addr": "0xa269c6831636af8c492e0862684eb518737c44a5"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
@@ -658,7 +705,8 @@
     "chain": "GridMind",
     "addr": "0xa366f427d5bfe748975cd73c45706baa81c03ef8"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100",
@@ -670,7 +718,8 @@
     "chain": "GridMind",
     "addr": "0xbf1de0140e364146e171153995ed688dad3bb100"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "gridmind"
   },
   {
    "key": "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
@@ -682,7 +731,8 @@
     "chain": "Incentiv",
     "addr": "0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "incentiv"
   },
   {
    "key": "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
@@ -694,7 +744,8 @@
     "chain": "Midas",
     "addr": "0x3a89e725ad72659cd3134d78da1979514721b7ba"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "midas"
   },
   {
    "key": "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
@@ -706,7 +757,8 @@
     "chain": "Midas",
     "addr": "0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "midas"
   },
   {
    "key": "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
@@ -718,7 +770,8 @@
     "chain": "Midas",
     "addr": "0xc968b1667f5b0a6392b793b55dab81ad20dc445b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "midas"
   },
   {
    "key": "chaincontract:mstcoral:0x0000000000000000000000000000000000002003",
@@ -730,7 +783,8 @@
     "chain": "MST Coral",
     "addr": "0x0000000000000000000000000000000000002003"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "mstcoral"
   },
   {
    "key": "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
@@ -742,7 +796,8 @@
     "chain": "MST Coral",
     "addr": "0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "mstcoral"
   },
   {
    "key": "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
@@ -754,7 +809,8 @@
     "chain": "MST Coral",
     "addr": "0x89bef065692ea84d91265eccd85435fb7c8f2e93"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "mstcoral"
   },
   {
    "key": "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
@@ -766,7 +822,8 @@
     "chain": "MST Coral",
     "addr": "0xfffdc1e38496892851f318571ca5106b771941b3"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "mstcoral"
   },
   {
    "key": "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
@@ -778,7 +835,8 @@
     "chain": "QMS",
     "addr": "0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
@@ -790,7 +848,8 @@
     "chain": "QMS",
     "addr": "0x51aaa29f6015eba7418ad15135aa94966e887cb0"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
@@ -802,7 +861,8 @@
     "chain": "QMS",
     "addr": "0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
@@ -814,7 +874,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x3455ff1c81b8fc1d8229019766495cd2a9a6c577"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
@@ -826,7 +887,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x3724097d57e00d8b7bb38ee49404f03968465569"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
@@ -838,7 +900,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x4a75ae20142c3b6426a35d6e74e938c666ece0ac"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x4ffe7e4debf8a897629af714c270181d470591f9",
@@ -850,7 +913,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x4ffe7e4debf8a897629af714c270181d470591f9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x60e3918a6727e42f7ea45d409438fd46a7b58f1b",
@@ -862,7 +926,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x60e3918a6727e42f7ea45d409438fd46a7b58f1b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x7edf729000e7fe79bf5de16b23f28b997dd5cd31",
@@ -874,7 +939,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x7edf729000e7fe79bf5de16b23f28b997dd5cd31"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x83273047c7aa7a7621cb4b3cc855b7fbae61560d",
@@ -886,7 +952,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x83273047c7aa7a7621cb4b3cc855b7fbae61560d"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x879debcdd0fa214f984807dd4e68f39d8b099816",
@@ -898,7 +965,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x879debcdd0fa214f984807dd4e68f39d8b099816"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0x8b9f4581b71964049ac6be03b22000132438b385",
@@ -910,7 +978,8 @@
     "chain": "Rabbit Chain",
     "addr": "0x8b9f4581b71964049ac6be03b22000132438b385"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372",
@@ -922,7 +991,8 @@
     "chain": "Rabbit Chain",
     "addr": "0xbc354a2f5efc85c0d2c0af0b1655bbc3e9044372"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0xe1cb00a16371109a2cc6f1b520f31c564c101bed",
@@ -934,7 +1004,8 @@
     "chain": "Rabbit Chain",
     "addr": "0xe1cb00a16371109a2cc6f1b520f31c564c101bed"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0",
@@ -946,7 +1017,8 @@
     "chain": "Rabbit Chain",
     "addr": "0xf5a9bf9df2c6ceb8987b2cb26f4cce310577a7b0"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0xfc07196a209b1db77e9b20f5600155bb6643d2af",
@@ -958,7 +1030,8 @@
     "chain": "Rabbit Chain",
     "addr": "0xfc07196a209b1db77e9b20f5600155bb6643d2af"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rabbitchain:0xff8be2d94fc5c918c4b238d8a14a0398efac81f1",
@@ -970,7 +1043,8 @@
     "chain": "Rabbit Chain",
     "addr": "0xff8be2d94fc5c918c4b238d8a14a0398efac81f1"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rabbitchain"
   },
   {
    "key": "chaincontract:rwachain:0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0",
@@ -982,7 +1056,8 @@
     "chain": "RWA Chain",
     "addr": "0x763f9b8f39b16ea23386e9ac1f2adf3e0c1df0e0"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rwachain"
   },
   {
    "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
@@ -994,7 +1069,8 @@
     "chain": "RWA Chain",
     "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rwachain"
   },
   {
    "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011",
@@ -1006,7 +1082,8 @@
     "chain": "RWA Chain",
     "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rwachain"
   },
   {
    "key": "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012",
@@ -1018,7 +1095,8 @@
     "chain": "RWA Chain",
     "addr": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rwachain"
   },
   {
    "key": "chaincontract:rwachain:0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
@@ -1030,7 +1108,8 @@
     "chain": "RWA Chain",
     "addr": "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "rwachain"
   },
   {
    "key": "chaincontract:twotrader:0x155cf116dfbfa2c5f10f73137755051f1ecf40b9",
@@ -1042,7 +1121,8 @@
     "chain": "Two-Trader",
     "addr": "0x155cf116dfbfa2c5f10f73137755051f1ecf40b9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "twotrader"
   },
   {
    "key": "chaincontract:twotrader:0x41eba3cc73d07f3ea82e15b77b70a511c599113f",
@@ -1054,7 +1134,8 @@
     "chain": "Two-Trader",
     "addr": "0x41eba3cc73d07f3ea82e15b77b70a511c599113f"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "twotrader"
   },
   {
    "key": "chaincontract:twotrader:0x5902963acc81be695b7fac379295623e76071c4e",
@@ -1066,7 +1147,8 @@
     "chain": "Two-Trader",
     "addr": "0x5902963acc81be695b7fac379295623e76071c4e"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "twotrader"
   },
   {
    "key": "chaincontract:twotrader:0x7583e62f438f701d6f3d2d339317c73dffd11542",
@@ -1078,7 +1160,8 @@
     "chain": "Two-Trader",
     "addr": "0x7583e62f438f701d6f3d2d339317c73dffd11542"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "twotrader"
   },
   {
    "key": "chaincontract:valuechain:0x09564fef02434434485156eb0aaa3f7f1684c469",
@@ -1090,7 +1173,8 @@
     "chain": "ValueChain",
     "addr": "0x09564fef02434434485156eb0aaa3f7f1684c469"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036",
@@ -1102,7 +1186,8 @@
     "chain": "ValueChain",
     "addr": "0x0f5fd9fa943b94916c4dad5e731980f4d5c8c036"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x0ff60470b13886fdb2175877d684e91f26ffa631",
@@ -1114,7 +1199,8 @@
     "chain": "ValueChain",
     "addr": "0x0ff60470b13886fdb2175877d684e91f26ffa631"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x191215c36b9dcb5b0e9e7ad384d621839d6193f2",
@@ -1126,7 +1212,8 @@
     "chain": "ValueChain",
     "addr": "0x191215c36b9dcb5b0e9e7ad384d621839d6193f2"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753",
@@ -1138,7 +1225,8 @@
     "chain": "ValueChain",
     "addr": "0x1aa6dc2107fd2c1dcd8ca18038cc4baeee960753"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x27799b331af320290c67c97540b8ba50cccb1cb9",
@@ -1150,7 +1238,8 @@
     "chain": "ValueChain",
     "addr": "0x27799b331af320290c67c97540b8ba50cccb1cb9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5",
@@ -1162,7 +1251,8 @@
     "chain": "ValueChain",
     "addr": "0x3ab22110c9c001c253fd9ece857cbf6f204d2ad5"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x40cd829104b27fe0a3562b6acad1c70c40013680",
@@ -1174,7 +1264,8 @@
     "chain": "ValueChain",
     "addr": "0x40cd829104b27fe0a3562b6acad1c70c40013680"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x42bb61d59b27a81af232996b242c2468c46377f9",
@@ -1186,7 +1277,8 @@
     "chain": "ValueChain",
     "addr": "0x42bb61d59b27a81af232996b242c2468c46377f9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x459d8f697cb04145544b3c92d9b55e5f5e9387d9",
@@ -1198,7 +1290,8 @@
     "chain": "ValueChain",
     "addr": "0x459d8f697cb04145544b3c92d9b55e5f5e9387d9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x45b0d6384eee13f0966fe1aa8249316123b991ab",
@@ -1210,7 +1303,8 @@
     "chain": "ValueChain",
     "addr": "0x45b0d6384eee13f0966fe1aa8249316123b991ab"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x463218364e09917ae391b54de750dcd72c545560",
@@ -1222,7 +1316,8 @@
     "chain": "ValueChain",
     "addr": "0x463218364e09917ae391b54de750dcd72c545560"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x4760a16789aa10f7914b2678fcafb37cd0b5ceed",
@@ -1234,7 +1329,8 @@
     "chain": "ValueChain",
     "addr": "0x4760a16789aa10f7914b2678fcafb37cd0b5ceed"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x48c6e2355615569292494a7261a36b4a848cc50b",
@@ -1246,7 +1342,8 @@
     "chain": "ValueChain",
     "addr": "0x48c6e2355615569292494a7261a36b4a848cc50b"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x4a63b98504bc6bc3bbc6de47294683280601b101",
@@ -1258,7 +1355,8 @@
     "chain": "ValueChain",
     "addr": "0x4a63b98504bc6bc3bbc6de47294683280601b101"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x4e14932a63d2d699b9debccf17381da6a0b576ee",
@@ -1270,7 +1368,8 @@
     "chain": "ValueChain",
     "addr": "0x4e14932a63d2d699b9debccf17381da6a0b576ee"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67",
@@ -1282,7 +1381,8 @@
     "chain": "ValueChain",
     "addr": "0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x502b54810537e9d33b2ca5b9330d25259ef049f9",
@@ -1294,7 +1394,8 @@
     "chain": "ValueChain",
     "addr": "0x502b54810537e9d33b2ca5b9330d25259ef049f9"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x5148f777ae197bf72565cd7856a15c0ae694f8e8",
@@ -1306,7 +1407,8 @@
     "chain": "ValueChain",
     "addr": "0x5148f777ae197bf72565cd7856a15c0ae694f8e8"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:valuechain:0x5c72094b42b887f37d31bcb640ce8a528ef94290",
@@ -1318,7 +1420,8 @@
     "chain": "ValueChain",
     "addr": "0x5c72094b42b887f37d31bcb640ce8a528ef94290"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "valuechain"
   },
   {
    "key": "chaincontract:vyre:0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7",
@@ -1330,7 +1433,8 @@
     "chain": "VYRE",
     "addr": "0x332b596c30847b1b45b85079fd33ed1b0f1c2fa7"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:vyre:0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84",
@@ -1342,7 +1446,8 @@
     "chain": "VYRE",
     "addr": "0x38231f0fa2bb09fdb3fd783b110cb5b3a4d3ad84"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:vyre:0x5ef687ea7db6b25071fb1f4869ce016fa3f46171",
@@ -1354,7 +1459,8 @@
     "chain": "VYRE",
     "addr": "0x5ef687ea7db6b25071fb1f4869ce016fa3f46171"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:vyre:0xd0ea487be03a98c34bd007bac6db338923a2b21c",
@@ -1366,7 +1472,8 @@
     "chain": "VYRE",
     "addr": "0xd0ea487be03a98c34bd007bac6db338923a2b21c"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:vyre:0xdb209972c8e49d55774b65380fbd27547bf13f1e",
@@ -1378,7 +1485,8 @@
     "chain": "VYRE",
     "addr": "0xdb209972c8e49d55774b65380fbd27547bf13f1e"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:vyre:0xe7cb5622b8a30e70f04152b64dfffd448f5f941e",
@@ -1390,7 +1498,8 @@
     "chain": "VYRE",
     "addr": "0xe7cb5622b8a30e70f04152b64dfffd448f5f941e"
    },
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:2980",
@@ -1404,7 +1513,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "finalchain"
   },
   {
    "key": "forum:delvingbitcoin.org:2984",
@@ -1418,7 +1528,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:2985",
@@ -1432,7 +1543,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:2987",
@@ -1446,7 +1558,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:3007",
@@ -1460,7 +1573,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:3008",
@@ -1474,7 +1588,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30082",
@@ -1488,7 +1603,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30083",
@@ -1502,7 +1618,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30084",
@@ -1516,7 +1633,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30085",
@@ -1530,7 +1648,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30092",
@@ -1544,7 +1663,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30100",
@@ -1558,7 +1678,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30104",
@@ -1572,7 +1693,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30106",
@@ -1586,7 +1708,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30112",
@@ -1600,7 +1723,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30116",
@@ -1614,7 +1738,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30120",
@@ -1628,7 +1753,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30121",
@@ -1642,7 +1768,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "frame"
   },
   {
    "key": "forum:ethresear.ch:26178",
@@ -1656,7 +1783,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26180",
@@ -1670,7 +1798,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26183",
@@ -1684,7 +1813,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26184",
@@ -1698,7 +1828,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26187",
@@ -1712,7 +1843,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "bnbchainnewl1"
   },
   {
    "key": "forum:ethresear.ch:26192",
@@ -1726,7 +1858,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31619",
@@ -1740,7 +1873,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31622",
@@ -1754,7 +1888,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17509",
@@ -1768,7 +1903,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17510",
@@ -1782,7 +1918,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17514",
@@ -1796,7 +1933,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17515",
@@ -1810,7 +1948,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22442",
@@ -1824,7 +1963,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22443",
@@ -1838,7 +1978,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22447",
@@ -1852,7 +1993,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1224",
@@ -1866,7 +2008,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1225",
@@ -1880,7 +2023,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1231",
@@ -1894,7 +2038,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1234",
@@ -1908,7 +2053,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1240",
@@ -1922,7 +2068,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1241",
@@ -1936,7 +2083,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1248",
@@ -1950,7 +2098,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "forum:gov.optimism.io:10939",
@@ -1964,7 +2113,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12589",
@@ -1976,7 +2126,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12590",
@@ -1988,7 +2139,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12592",
@@ -2000,7 +2152,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2115",
@@ -2012,7 +2165,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2116",
@@ -2024,7 +2178,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2117",
@@ -2036,7 +2191,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2118",
@@ -2048,7 +2204,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2119",
@@ -2060,7 +2217,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2120",
@@ -2072,7 +2230,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2121",
@@ -2084,7 +2243,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2122",
@@ -2096,7 +2256,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2123",
@@ -2108,7 +2269,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": "frame"
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#706",
@@ -2120,7 +2282,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#707",
@@ -2132,7 +2295,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#709",
@@ -2144,7 +2308,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#710",
@@ -2156,7 +2321,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-28"
+   "date": "2026-10-28",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
@@ -2168,7 +2334,8 @@
     "chain": "QMS",
     "addr": "0xe93120786dfd0056a6dac6a919d924e1aa63c1d1"
    },
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30124",
@@ -2182,7 +2349,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "dossier": null
   },
   {
    "key": "forum:forum.celestia.org:2324",
@@ -2196,7 +2364,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12594",
@@ -2208,7 +2377,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-29"
+   "date": "2026-10-29",
+   "dossier": null
   }
  ],
  "seen": {

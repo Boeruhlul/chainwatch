@@ -265,9 +265,9 @@
    "architecture": "EVM",
    "github": "https://github.com/taikoxyz",
    "mainnetSince": "2026-10-13",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 197197)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -558,9 +558,9 @@
     }
    ],
    "mainnetSince": "2026-09-24",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (coingecko: mainnet)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -1163,9 +1163,9 @@
    "architecture": "EVM",
    "github": "https://github.com/Hadamard",
    "mainnetSince": "2026-10-19",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (chainlist: mainnet · ID 42069000)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -1901,9 +1901,9 @@
    "website": "https://crcfrcn.com",
    "architecture": "EVM",
    "mainnetSince": "2026-10-08",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 2027)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -2389,9 +2389,9 @@
    "github": "https://github.com/dacblockchain",
    "explorer": "https://dacscan.io/",
    "mainnetSince": "2026-10-11",
-   "confidence": "A",
+   "confidence": "B",
    "reasons": [
-    "draaiend netwerk aangetoond (blockscout: mainnet · ID 21892)"
+    "2 onafhankelijke bronfamilies: register, infra"
    ],
    "families": [
     "register",
@@ -3184,9 +3184,9 @@
    "website": "https://eggychain.com",
    "architecture": "EVM",
    "mainnetSince": "2026-10-13",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 9988)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -3230,9 +3230,9 @@
    "website": "https://electroneum.com/",
    "architecture": "EVM",
    "explorer": "https://electroneum-testnet.blockscout.com",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (blockscout: testnet · ID 5201420)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -3539,9 +3539,9 @@
    "architecture": "EVM",
    "explorer": "https://fmcscan.com/",
    "mainnetSince": "2026-09-30",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (blockscout: mainnet · ID 165)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -3761,7 +3761,6 @@
     "FractalAI"
    ],
    "keys": [
-    "d:net.co",
     "id:62124",
     "n:fractalai"
    ],
@@ -4341,9 +4340,9 @@
     }
    ],
    "mainnetSince": "2026-10-21",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (defillama: mainnet)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -4554,9 +4553,9 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-16",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (defillama: mainnet · ID 177)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -4594,9 +4593,9 @@
    ],
    "architecture": "Cosmos",
    "mainnetSince": "2026-09-23",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (cosmos: mainnet)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -4827,9 +4826,9 @@
    "website": "https://www.iota.org/",
    "architecture": "EVM",
    "explorer": "https://explorer.evm.testnet.iota.cafe/",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (blockscout: testnet · ID 1076)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -5000,9 +4999,9 @@
    "website": "https://github.com/Konstellation-Network",
    "architecture": "EVM",
    "mainnetSince": "2026-10-05",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: devnet · ID 56672)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -5136,9 +5135,9 @@
    "github": "https://github.com/LayerK",
    "explorer": "https://layerk.blockscout.com/",
    "mainnetSince": "2026-10-05",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (blockscout: mainnet · ID 529375)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -5200,9 +5199,9 @@
    "website": "https://github.com/ozgurcuk/Liberium-Network",
    "architecture": "EVM",
    "mainnetSince": "2026-10-26",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 767366)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -5239,9 +5238,9 @@
     }
    ],
    "mainnetSince": "2026-10-27",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (coingecko: mainnet)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -5419,9 +5418,9 @@
    ],
    "architecture": "Cosmos",
    "mainnetSince": "2026-10-22",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (cosmos: mainnet)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -9138,9 +9137,9 @@
    ],
    "architecture": "Cosmos",
    "mainnetSince": "2026-10-28",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (cosmos: mainnet)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -9282,9 +9281,9 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-09",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (defillama: mainnet · ID 3344)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -9494,9 +9493,9 @@
    "website": "https://phase.xyz",
    "architecture": "EVM",
    "mainnetSince": "2026-10-22",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 1015)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -10316,9 +10315,9 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-06",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (coingecko: mainnet · ID 1990)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -10796,9 +10795,9 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-01",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (defillama: mainnet · ID 72957)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -10963,9 +10962,9 @@
    "website": "https://rl1.network",
    "architecture": "EVM",
    "mainnetSince": "2026-10-27",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (chainlist: mainnet · ID 53147)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -11558,9 +11557,9 @@
    "website": "https://sgamainnet.ai",
    "architecture": "EVM",
    "mainnetSince": "2026-10-15",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 20260)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -11631,7 +11630,6 @@
     "SOVL1"
    ],
    "keys": [
-    "d:com.ky",
     "id:7685",
     "id:76851",
     "n:sovl1"
@@ -11704,9 +11702,9 @@
    ],
    "website": "https://sovereign.com.ky",
    "architecture": "EVM",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 7685)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -11927,9 +11925,9 @@
     }
    ],
    "mainnetSince": "2026-10-13",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (coingecko: mainnet)"
+    "één technisch signaal (markt)"
    ],
    "families": [
     "markt"
@@ -12466,9 +12464,9 @@
    "website": "https://tractsafe.com",
    "architecture": "EVM",
    "mainnetSince": "2026-10-27",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 82228)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -13034,9 +13032,9 @@
    "architecture": "EVM",
    "github": "https://github.com/wirefluid-protocol",
    "mainnetSince": "2026-10-17",
-   "confidence": "A",
+   "confidence": "C",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: devnet · ID 92531)"
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -13835,6 +13833,6 @@
  },
  "outbox": [],
  "digest": {
-  "lastSent": "2026-10-28"
+  "lastSent": "2026-10-29"
  }
 }
