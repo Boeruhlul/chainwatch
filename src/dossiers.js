@@ -356,15 +356,17 @@ function buildIndex(db) {
   for (const d of Object.values(db.dossiers)) {
     // Oud registerbewijs van een dossier zonder enige RPC: niet meer als
     // "draait" tellen. Komt er later een RPC bij, dan wordt het vanzelf A.
+    let changed = false;
     if (!d.liveRpc && !(d.rpc || []).length) {
       for (const e of d.evidence || []) {
         if (e.strength === 'running' && ['mainnet', 'testnet', 'devnet'].includes(e.kind) && LIVE_REGISTRY.has(e.source)) {
-          e.noRpc = true; e.strength = 'technical';
+          e.noRpc = true; e.strength = 'technical'; changed = true;
         }
       }
     }
     // Sleutels die achteraf platform bleken te zijn worden opgeruimd.
-    if ((d.keys || []).some((k) => !allowedKey(k))) d.keys = d.keys.filter(allowedKey);
+    if ((d.keys || []).some((k) => !allowedKey(k))) { d.keys = d.keys.filter(allowedKey); changed = true; }
+    if (changed || assess(d).confidence !== d.confidence) refresh(d, d.lastActivity || today());
     for (const k of d.keys || []) idx.set(k, d.id);
   }
   return idx;

@@ -47,6 +47,9 @@ export function apexOf(input) {
   // (com.ky, org.mx, co.ve, ...). Anders wordt sovereign.com.ky "com.ky".
   const generic = parts.length >= 3 && /^[a-z]{2}$/.test(parts.at(-1)) &&
     /^(com|net|org|co|gov|gob|edu|ac|or|ne|go|mil|ltd|plc|biz|info|nom|sch)$/.test(parts.at(-2));
+  // "com.ky" zelf is een achtervoegsel, geen domein.
+  if (parts.length === 2 && /^[a-z]{2}$/.test(parts[1]) &&
+    (MULTI_LABEL_TLD.has(lastTwo) || /^(com|net|org|co|gov|gob|edu|ac|or|ne|go|mil|ltd|plc|biz|info|nom|sch)$/.test(parts[0]))) return null;
   const take = MULTI_LABEL_TLD.has(lastTwo) || generic ? 3 : 2;
   if (parts.length < take) return null;
   return parts.slice(-take).join('.');
