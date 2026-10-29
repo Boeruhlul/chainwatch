@@ -13752,6 +13752,44 @@
     "register"
    ]
   },
+  "zkmoneyv6": {
+   "id": "zkmoneyv6",
+   "name": "zkmoneyv6",
+   "aliases": [
+    "zkmoneyv6"
+   ],
+   "keys": [
+    "n:zkmoneyv6"
+   ],
+   "firstSeen": "2026-10-29",
+   "lastActivity": "2026-10-29",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-10-29"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-29",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/zkmoneyv6",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "zksyncera": {
    "id": "zksyncera",
    "name": "ZKsync Era",
