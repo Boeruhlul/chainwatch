@@ -487,6 +487,15 @@
      "what": "ecosystem: DEX (Uniswap v3-fork) 0x72822492…",
      "url": "https://explorer.arc.io/address/0x7282249282902e1f99c2cb0a04230091bd30fe3a",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/thanhnghiem98/arcsplit",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -549,7 +558,8 @@
    ],
    "families": [
     "onchain",
-    "onderzoek"
+    "onderzoek",
+    "github"
    ],
    "liveRpc": "https://rpc.mainnet.arc.io",
    "eco": {

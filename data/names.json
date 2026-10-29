@@ -247,6 +247,7 @@
   "arbitrumrinkeby:test",
   "arbitrumsepolia:test",
   "arc5042addbeamrpccompublicrpchttpswss:pre",
+  "arc:lead",
   "arc:main",
   "arc:research",
   "arc:test",
