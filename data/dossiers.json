@@ -1229,6 +1229,43 @@
     "register"
    ]
   },
+  "binancefutures": {
+   "id": "binancefutures",
+   "name": "Binance Futures",
+   "aliases": [
+    "Binance Futures"
+   ],
+   "keys": [
+    "n:binancefutures"
+   ],
+   "firstSeen": "2026-10-29",
+   "lastActivity": "2026-10-29",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-29"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-29",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/zencloser/binance-futures-api-client",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "bitcoinswap": {
    "id": "bitcoinswap",
    "name": "Bitcoin Swap",

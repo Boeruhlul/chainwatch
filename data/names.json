@@ -476,6 +476,7 @@
   "billions:main",
   "billions:test",
   "binance:main",
+  "binancefutures:lead",
   "binancesmartchain:main",
   "binary:main",
   "binarychain:main",

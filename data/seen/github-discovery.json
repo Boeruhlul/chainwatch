@@ -1,6 +1,7 @@
 [
   "ghname:alpenglowsolana",
   "ghname:arc",
+  "ghname:binancefutures",
   "ghname:cortensor",
   "ghname:howsolana",
   "ghname:mezo",
@@ -346,6 +347,7 @@
   "ghrepo:zac-williamson/private-compliant-token",
   "ghrepo:zakasmd/rollup",
   "ghrepo:zbagdzevicius/motored-stellar",
+  "ghrepo:zencloser/binance-futures-api-client",
   "ghrepo:zeycan1/la-tanda",
   "ghrepo:zeycan1/worrell",
   "ghrepo:zeycan1/worrell-testnet-2",
