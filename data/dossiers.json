@@ -13586,7 +13586,7 @@
     "n:zetaphy"
    ],
    "firstSeen": "2026-10-22",
-   "lastActivity": "2026-10-24",
+   "lastActivity": "2026-10-29",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -13640,6 +13640,16 @@
      "what": "ethlists-commit: testnet · ID 77390",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-77390.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "keplr-pr: RPC antwoordt · ID 77390",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1582",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -13653,7 +13663,7 @@
     "https://rpc.sawasdeecoin.com/rest"
    ],
    "explorer": "https://explorer.sawasdeecoin.com",
-   "liveRpc": "https://rpc.sawasdeecoin.com",
+   "liveRpc": "https://rpc.sawasdeecoin.com/rest",
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 77390)"
