@@ -2470,6 +2470,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3010",
+   "title": "Multiplication in Tapscript today: 371 bytes, no soft fork",
+   "url": "https://delvingbitcoin.org/t/multiplication-in-tapscript-today-371-bytes-no-soft-fork/3010",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-29",
+    "posts": 1,
+    "views": 33
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-29"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30124",
    "title": "Scoped Capability Tokens for STVA",
    "url": "https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124",
@@ -2746,6 +2760,7 @@
    "forum:delvingbitcoin.org:2987",
    "forum:delvingbitcoin.org:3007",
    "forum:delvingbitcoin.org:3008",
+   "forum:delvingbitcoin.org:3010",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
