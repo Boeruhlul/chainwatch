@@ -2500,6 +2500,20 @@
    "dossier": null
   },
   {
+   "key": "forum:gov.optimism.io:10940",
+   "title": "Proposal for Sequencer Fee Rebates on OP Mainnet",
+   "url": "https://gov.optimism.io/t/proposal-for-sequencer-fee-rebates-on-op-mainnet/10940",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-10-29",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-29"
+  },
+  {
    "key": "pr:ethereum/eips#12594",
    "title": "CI: Add AWS EC2 deployment steps to jekyll.yml",
    "url": "https://github.com/ethereum/EIPs/pull/12594",
@@ -2732,7 +2746,8 @@
    "forum:forum.zknation.io:1248",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
-   "forum:gov.optimism.io:10939"
+   "forum:gov.optimism.io:10939",
+   "forum:gov.optimism.io:10940"
   ],
   "immunefi": [
    "immunefi:paxos-labs"
