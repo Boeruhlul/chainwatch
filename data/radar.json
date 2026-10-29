@@ -18,6 +18,12 @@
   },
   "npm-sdk": {
    "ok": true
+  },
+  "immunefi": {
+   "ok": true
+  },
+  "jobs": {
+   "ok": true
   }
  },
  "airdrops": [
@@ -2151,6 +2157,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-28"
+  },
+  {
+   "key": "forum:forum.celestia.org:2324",
+   "title": "CIP-53: Block gas limit for non-blob transactions",
+   "url": "https://forum.celestia.org/t/cip-53-block-gas-limit-for-non-blob-transactions/2324",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-10-28",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-29"
   }
  ],
  "seen": {
@@ -2324,6 +2344,7 @@
    "forum:forum.arbitrum.foundation:31606",
    "forum:forum.arbitrum.foundation:31619",
    "forum:forum.arbitrum.foundation:31622",
+   "forum:forum.celestia.org:2324",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
@@ -2347,6 +2368,30 @@
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939"
+  ],
+  "immunefi": [
+   "immunefi:paxos-labs"
+  ],
+  "jobs": [
+   "job:ashby:uniswap:9a047e27-54dd-44df-9c0c-4ca6bc2d57bf",
+   "job:greenhouse:bitpanda:5009827101",
+   "job:greenhouse:coinbase:7366208",
+   "job:greenhouse:coinbase:8051513",
+   "job:greenhouse:coinbase:8094196",
+   "job:greenhouse:coinbase:8104873",
+   "job:greenhouse:coinbase:8105437",
+   "job:greenhouse:coinbase:8234278",
+   "job:greenhouse:okx:7990958003",
+   "job:greenhouse:ripple:8206128",
+   "job:greenhouse:robinhood:8189213",
+   "job:greenhouse:stripe:7120766",
+   "job:greenhouse:stripe:7456716",
+   "job:greenhouse:stripe:7650177",
+   "job:greenhouse:stripe:8067276",
+   "job:greenhouse:stripe:8143073",
+   "job:greenhouse:stripe:8299647",
+   "job:lever:anchorage:09b2b0d1-fb52-431c-b617-2fb74b595b1d",
+   "job:lever:anchorage:2241b52b-da64-4626-9abc-c8ff5fb58009"
   ],
   "npm-sdk": [],
   "proposals": [
