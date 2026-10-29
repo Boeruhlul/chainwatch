@@ -508,6 +508,15 @@
     },
     {
      "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xfcbf89b6…",
+     "url": "https://explorer.arc.io/address/0xfcbf89b6ce46df19f0215520190bc452a4fe25e0",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
      "source": "github-discovery",
      "family": "github",
      "kind": "lead",
@@ -612,6 +621,10 @@
      },
      {
       "addr": "0xef2fd753a45774659c398802ddc6c56ca279cd44",
+      "date": "2026-10-29"
+     },
+     {
+      "addr": "0xfcbf89b6ce46df19f0215520190bc452a4fe25e0",
       "date": "2026-10-29"
      }
     ]
