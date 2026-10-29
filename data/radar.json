@@ -2514,6 +2514,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.cosmos.network:17517",
+   "title": "Cosmos Quarterly #2 Q3-26 - Hardening, Interop, and the Hub & Tokenomics Roadmap",
+   "url": "https://forum.cosmos.network/t/cosmos-quarterly-2-q3-26-hardening-interop-and-the-hub-tokenomics-roadmap/17517",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-29",
+    "posts": 1,
+    "views": 59
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-29"
+  },
+  {
    "key": "forum:gov.optimism.io:10940",
    "title": "Proposal for Sequencer Fee Rebates on OP Mainnet",
    "url": "https://gov.optimism.io/t/proposal-for-sequencer-fee-rebates-on-op-mainnet/10940",
@@ -2525,6 +2539,19 @@
    },
    "cat": "techniek",
    "src": "forums",
+   "date": "2026-10-29"
+  },
+  {
+   "key": "npm:@superstables/client",
+   "title": "@superstables/client",
+   "url": "https://www.npmjs.com/package/@superstables/client",
+   "meta": {
+    "version": "1.0.0",
+    "about": "Superstables client: discover paid services, quote them, and pay from an owner-controlled wallet. CLI and agent skill.",
+    "keyword": "testnet"
+   },
+   "cat": "sdk",
+   "src": "npm-sdk",
    "date": "2026-10-29"
   },
   {
@@ -2558,6 +2585,18 @@
    "url": "https://github.com/ethereum/ERCs/pull/2126",
    "meta": {
     "repo": "ethereum/ERCs",
+    "created": "2026-10-29"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-29"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#713",
+   "title": "Add missing feature gate keys to SIMD front matter",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/713",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
     "created": "2026-10-29"
    },
    "cat": "techniek",
@@ -2758,6 +2797,7 @@
    "forum:forum.cosmos.network:17510",
    "forum:forum.cosmos.network:17514",
    "forum:forum.cosmos.network:17515",
+   "forum:forum.cosmos.network:17517",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -2800,7 +2840,9 @@
    "job:lever:anchorage:09b2b0d1-fb52-431c-b617-2fb74b595b1d",
    "job:lever:anchorage:2241b52b-da64-4626-9abc-c8ff5fb58009"
   ],
-  "npm-sdk": [],
+  "npm-sdk": [
+   "npm:@superstables/client"
+  ],
   "proposals": [
    "pr:bitcoin/bips#2336",
    "pr:bitcoin/bips#2337",
@@ -2853,7 +2895,8 @@
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
-   "pr:solana-foundation/solana-improvement-documents#710"
+   "pr:solana-foundation/solana-improvement-documents#710",
+   "pr:solana-foundation/solana-improvement-documents#713"
   ],
   "verified-contracts": []
  }
