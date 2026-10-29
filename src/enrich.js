@@ -43,7 +43,11 @@ export function apexOf(input) {
   if (!host.includes('.') || /^[\d.]+$/.test(host)) return null; // IP of onzin
   const parts = host.split('.');
   const lastTwo = parts.slice(-2).join('.');
-  const take = MULTI_LABEL_TLD.has(lastTwo) ? 3 : 2;
+  // Naast de vaste lijst: elk landdomein met een generiek tweede niveau
+  // (com.ky, org.mx, co.ve, ...). Anders wordt sovereign.com.ky "com.ky".
+  const generic = parts.length >= 3 && /^[a-z]{2}$/.test(parts.at(-1)) &&
+    /^(com|net|org|co|gov|gob|edu|ac|or|ne|go|mil|ltd|plc|biz|info|nom|sch)$/.test(parts.at(-2));
+  const take = MULTI_LABEL_TLD.has(lastTwo) || generic ? 3 : 2;
   if (parts.length < take) return null;
   return parts.slice(-take).join('.');
 }

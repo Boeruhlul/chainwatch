@@ -248,7 +248,9 @@ function strengthOf(e) {
   if (e.kind === 'eco' || e.kind === 'launched') return 'running';
   if (e.kind === 'watch' && e.watchKind === 'rpc') return 'running';
   if (e.kind === 'stealth' && e.stealthKind === 'hostname') return 'running';
-  if (['mainnet', 'testnet', 'devnet'].includes(e.kind) && LIVE_REGISTRY.has(e.source)) return 'running';
+  // Een registervermelding zonder RPC (permissioned, of "RPC volgt later")
+  // bewijst niet dat er iets draait: dan is het een technisch signaal.
+  if (['mainnet', 'testnet', 'devnet'].includes(e.kind) && LIVE_REGISTRY.has(e.source)) return e.noRpc ? 'technical' : 'running';
   if (e.kind === 'stealth' && e.stealthKind === 'blob') return 'onchain';
   if (e.source === 'funding-rss' || e.source === 'research') return 'soft';
   return 'technical';
@@ -337,6 +339,7 @@ export function evidenceOf(r) {
     url: r.url || null,
   };
   if (r.stealthKind) e.stealthKind = r.stealthKind;
+  if (['mainnet', 'testnet', 'devnet'].includes(r.kind) && !(r.rpc || []).length && !r.liveRpc) e.noRpc = true;
   if (r.watchKind) e.watchKind = r.watchKind;
   if ((r.kind === 'launched' || r.kind === 'stealth' || r.kind === 'watch') && testnetName) e.testnetName = true;
   if (r.kind === 'research') e.stage = RESEARCH_STAGE[r.research?.stage] || 'lead';
@@ -351,6 +354,15 @@ export function evidenceOf(r) {
 function buildIndex(db) {
   const idx = new Map();
   for (const d of Object.values(db.dossiers)) {
+    // Oud registerbewijs van een dossier zonder enige RPC: niet meer als
+    // "draait" tellen. Komt er later een RPC bij, dan wordt het vanzelf A.
+    if (!d.liveRpc && !(d.rpc || []).length) {
+      for (const e of d.evidence || []) {
+        if (e.strength === 'running' && ['mainnet', 'testnet', 'devnet'].includes(e.kind) && LIVE_REGISTRY.has(e.source)) {
+          e.noRpc = true; e.strength = 'technical';
+        }
+      }
+    }
     // Sleutels die achteraf platform bleken te zijn worden opgeruimd.
     if ((d.keys || []).some((k) => !allowedKey(k))) d.keys = d.keys.filter(allowedKey);
     for (const k of d.keys || []) idx.set(k, d.id);

@@ -40,7 +40,7 @@ console.log('\ndiscovery tests\n');
 await t('D1: aanvraag en latere registratie met hetzelfde chain ID vormen één dossier', async () => {
   const db = D.emptyDb();
   D.ingest(db, [rec({ key: 'ethpr:1', source: 'ethlists-pr', kind: 'proposal', name: 'Zork Testnet', chainId: 777123, url: 'u1' })], { quiet: true });
-  D.ingest(db, [rec({ key: 'evm:777123', source: 'chainlist', kind: 'testnet', name: 'ZorkNet Sepolia', chainId: 777123, url: 'u2', detectedAt: '2026-10-05T10:00:00Z' })]);
+  D.ingest(db, [rec({ key: 'evm:777123', source: 'chainlist', kind: 'testnet', name: 'ZorkNet Sepolia', chainId: 777123, rpc: ['https://rpc.zork.test'], url: 'u2', detectedAt: '2026-10-05T10:00:00Z' })]);
   const all = Object.values(db.dossiers);
   assert.equal(all.length, 1);
   assert.equal(all[0].stage, 'testnet');
@@ -82,7 +82,7 @@ await t('D3: correlatie zonder eigen alert geeft een opwaardering-melding', asyn
 await t('D4: wat zelf al als alert uitgaat krijgt geen tweede melding', async () => {
   const db = D.emptyDb();
   D.ingest(db, [rec({ key: 'news:2', source: 'funding-rss', kind: 'lead', name: 'Kestrel', url: 'n' })], { quiet: true });
-  const r = rec({ key: 'evm:4242', source: 'chainlist', kind: 'mainnet', name: 'Kestrel', chainId: 4242, url: 'c' });
+  const r = rec({ key: 'evm:4242', source: 'chainlist', kind: 'mainnet', name: 'Kestrel', chainId: 4242, rpc: ['https://rpc.kestrel.test'], url: 'c' });
   const ev = D.ingest(db, [r], { alertKeys: new Set(['evm:4242']) });
   assert.equal(ev.length, 0);
   const ctx = D.contextFor(db, r);
@@ -351,7 +351,7 @@ await t('B3: dagoverzicht toont nieuwe A/B, statuswijzigingen en zwakke leads ap
   D.ingest(db, [rec({ key: 'old', source: 'ethlists-pr', kind: 'proposal', name: 'Oudje', chainId: 31337001, url: 'o', detectedAt: '2026-09-01T10:00:00Z' })], { quiet: true });
   D.ingest(db, [
     rec({ key: 'old2', source: 'chainlist', kind: 'mainnet', name: 'Oudje', chainId: 31337001, url: 'o2', detectedAt: '2026-10-28T06:00:00Z' }),
-    rec({ key: 'n1', source: 'chainlist', kind: 'testnet', name: 'Nieuweling Testnet', chainId: 31337002, url: 'n', detectedAt: '2026-10-28T06:00:00Z' }),
+    rec({ key: 'n1', source: 'chainlist', kind: 'testnet', name: 'Nieuweling Testnet', chainId: 31337002, rpc: ['https://rpc.nieuw.test'], url: 'n', detectedAt: '2026-10-28T06:00:00Z' }),
     rec({ key: 'l1', source: 'funding-rss', kind: 'lead', name: 'Gerucht', url: 'g', detectedAt: '2026-10-28T06:00:00Z' }),
   ], { quiet: true });
   const text = buildDigest(db, { since: '2026-10-28', today: '2026-10-28', weekly: true });
@@ -441,6 +441,18 @@ await t('K3: een blocklist-regel op een .org.mx-domein raakt niet heel .org.mx',
   assert.equal(bl.match(rec({ name: 'Iets', website: 'https://chain.blue.org.mx' })), true);
   assert.equal(bl.match(rec({ name: 'Ander', website: 'https://www.cruzroja.org.mx' })), false);
   assert.equal(D.allowedKey('d:org.mx'), false, 'publiek achtervoegsel is geen sleutel');
+});
+
+await t('K4: landdomeinen met generiek tweede niveau en registers zonder RPC', async () => {
+  const { apexOf } = await import('../src/enrich.js');
+  assert.equal(apexOf('https://sovereign.com.ky'), 'sovereign.com.ky');
+  assert.equal(apexOf('https://rpc.foo.co.ve'), 'foo.co.ve');
+  assert.equal(apexOf('https://rl1.network'), 'rl1.network');
+  const db = D.emptyDb();
+  D.ingest(db, [rec({ key: 'p', source: 'ethlists-commit', kind: 'mainnet', name: 'Permchain', chainId: 7700001, website: 'https://perm.io', url: 'p' })], { quiet: true });
+  assert.equal(Object.values(db.dossiers)[0].confidence, 'C', 'zonder RPC geen A');
+  D.ingest(db, [rec({ key: 'q', source: 'chainlist', kind: 'mainnet', name: 'Permchain', chainId: 7700001, rpc: ['https://rpc.perm.io'], url: 'q' })]);
+  assert.equal(Object.values(db.dossiers)[0].confidence, 'A', 'met RPC wel');
 });
 
 await t('K2: runner meldt een geblokkeerde chain niet en zet hem niet op de wachtlijst', async () => {
