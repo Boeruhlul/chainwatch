@@ -158,7 +158,9 @@ const PLATFORM_ORGS = new Set([
 export function allowedKey(k) {
   if (k.startsWith('d:')) {
     const apex = k.slice(2);
-    return !INFRA_DOMAINS.has(apex) && !PLATFORM_DOMAINS.has(apex);
+    // apexOf(apex) !== apex: oude sleutels als "d:org.mx" (een publiek
+    // achtervoegsel, geen domein) mogen niets meer aan elkaar knopen.
+    return !INFRA_DOMAINS.has(apex) && !PLATFORM_DOMAINS.has(apex) && apexOf(apex) === apex;
   }
   if (k.startsWith('gh:')) return !PLATFORM_ORGS.has(k.slice(3));
   return true;

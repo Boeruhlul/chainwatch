@@ -81,7 +81,8 @@ berachain story movement algorand hedera polkadot kusama fuel injective sei somn
 goerli amoy fuji local the a an your my our public private ganache hardhat anvil foundry localhost robinhood
 xrpl xrp ripple flow tezos kaspa filecoin icp internet computer mina aleo aztec zksync blast mode zora ink
 unichain soneium plume abstract taiko celo gnosis kava osmosis neutron stacks rootstock core flare sonic
-fantom cronos klaytn kaia oasis moonbeam astar harmony iota etherlink lisk metis boba manta zkevm`.split(/\s+/));
+fantom cronos klaytn kaia oasis moonbeam astar harmony iota etherlink lisk metis boba manta zkevm
+arc tempo plasma stable giwa elysium ritual pharos`.split(/\s+/));
 
 /**
  * Netwerknamen die in een omschrijving genoemd worden: "Testnet GPU mining

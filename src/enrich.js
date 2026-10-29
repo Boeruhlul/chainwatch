@@ -19,6 +19,15 @@ const MULTI_LABEL_TLD = new Set([
   'co.jp', 'co.kr', 'com.br', 'com.ar', 'com.mx', 'co.in', 'com.tr', 'co.za',
   'com.sg', 'co.nz', 'com.hk', 'com.tw', 'co.il', 'com.cn', 'net.cn', 'org.cn',
   'com.ua', 'co.id', 'com.pl', 'com.es', 'com.vn', 'co.th', 'com.ph',
+  // Zonder deze werd bijv. chain.blue.org.mx teruggebracht tot "org.mx", en
+  // dan zou een blocklist-regel voor één project heel .org.mx raken.
+  'org.mx', 'gob.mx', 'net.mx', 'edu.mx', 'org.br', 'net.br', 'gov.br', 'org.ar', 'net.ar',
+  'com.co', 'org.co', 'com.pe', 'com.ve', 'com.ec', 'com.uy', 'com.py', 'com.bo', 'cl.cl',
+  'com.my', 'org.my', 'org.in', 'net.in', 'gen.in', 'firm.in', 'or.kr', 'ne.kr', 'ne.jp', 'or.jp',
+  'ac.jp', 'org.za', 'net.za', 'com.ng', 'org.ng', 'com.pk', 'org.pk', 'org.tw', 'net.tw',
+  'com.eg', 'co.ke', 'com.bd', 'org.hk', 'net.hk', 'org.sg', 'net.sg', 'org.nz', 'net.nz',
+  'org.il', 'org.tr', 'net.tr', 'org.ua', 'net.ua', 'org.pl', 'net.pl', 'org.es', 'org.vn',
+  'net.vn', 'or.th', 'in.th', 'org.ph', 'net.ph', 'com.sa', 'com.qa', 'com.kw', 'co.ae',
 ]);
 
 /** Registreerbare domeinnaam uit een URL of hostname. Null als het niets oplevert. */

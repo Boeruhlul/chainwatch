@@ -152,7 +152,6 @@ ${['launched', 'mainnet', 'testnet', 'upcoming', 'devnet', 'proposal']
 <button data-c="eco" aria-pressed="false">🏪 DEX/launchpad</button>
 <button data-c="pre" aria-pressed="false">Nog geen mainnet</button>
 <button data-c="suspect" aria-pressed="false">⚠️ Verdacht</button>
-<button data-c="blocked" aria-pressed="false">🚫 Geblokkeerd</button>
 <input type="search" id="dq" placeholder="Zoek op naam, alias, chain ID of domein…">
 </div>
 <div class="list" id="dlist"><div class="empty">Laden…</div></div>
@@ -268,8 +267,7 @@ function renderDos(){
   const term = dq.value.trim().toLowerCase();
   const all = Object.values(DOS.dossiers || {});
   const rows = all.filter(d => {
-    if (dfilter === 'blocked') { if (!d.blocked) return false; }
-    else if (d.blocked) return false;
+    if (d.blocked) return false;
     if (dfilter === 'suspect' && !d.suspect) return false;
     if (['A','B','C','D'].includes(dfilter) && d.confidence !== dfilter) return false;
     if (dfilter === 'eco' && !(d.eco && ((d.eco.dex||[]).length || (d.eco.launchpad||[]).length))) return false;

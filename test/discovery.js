@@ -436,6 +436,13 @@ await t('K1: blocklist herkent op naam, chain ID, domein en org, ook onder een a
   assert.equal(bl.matchDossier({ keys: ['id:485590'] }), true);
 });
 
+await t('K3: een blocklist-regel op een .org.mx-domein raakt niet heel .org.mx', async () => {
+  const bl = buildBlocklist({ projects: [{ name: 'BlueChain', domains: ['blue.org.mx'] }] });
+  assert.equal(bl.match(rec({ name: 'Iets', website: 'https://chain.blue.org.mx' })), true);
+  assert.equal(bl.match(rec({ name: 'Ander', website: 'https://www.cruzroja.org.mx' })), false);
+  assert.equal(D.allowedKey('d:org.mx'), false, 'publiek achtervoegsel is geen sleutel');
+});
+
 await t('K2: runner meldt een geblokkeerde chain niet en zet hem niet op de wachtlijst', async () => {
   await fs.rm(`${TMP}/e2e`, { recursive: true, force: true });
   await fs.mkdir(`${TMP}/e2e/data`, { recursive: true });
@@ -448,7 +455,9 @@ await t('K2: runner meldt een geblokkeerde chain niet en zet hem niet op de wach
     assert.ok(tg.sent.some((m) => /Echtchain/.test(m.text)), 'gewone chain wel gemeld');
     assert.ok(!tg.sent.some((m) => /Scamchain/.test(m.text)), 'geblokkeerde chain niet gemeld');
     const db = JSON.parse(await fs.readFile(`${TMP}/e2e/data/dossiers.json`, 'utf8'));
-    assert.ok(Object.values(db.dossiers).some((d) => d.blocked), 'dossier gemarkeerd');
+    assert.ok(!Object.values(db.dossiers).some((d) => (d.chainIds || []).includes('910001')), 'dossier verwijderd');
+    const hist = JSON.parse(await fs.readFile(`${TMP}/e2e/data/chains.json`, 'utf8'));
+    assert.ok(!hist.some((c) => c.chainId === 910001), 'ook uit de historie (dashboard)');
     const n = tg.sent.length;
     await runner([...base, { chainId: 910001, name: 'Scamchain' }, { chainId: 910002, name: 'Echtchain' }], tg, { DIGEST_ENABLED: 'false' });
     assert.equal(tg.sent.length, n, 'ook later niet');

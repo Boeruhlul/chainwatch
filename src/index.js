@@ -110,6 +110,12 @@ async function main() {
   // Blocklist (scams e.d.): vroeg laden, corrupt = hard falen.
   const blocklist = await loadBlocklist();
   const radar = await loadRadar();
+  // Geblokkeerde projecten verdwijnen ook uit de bestaande historie, zodat ze
+  // niet meer op het dashboard staan. Alleen weggooien wat nu matcht: het
+  // bestand blijft verder ongemoeid.
+  const histBefore = state.chains.length;
+  state.chains = state.chains.filter((c) => !blocklist.match(c));
+  if (state.chains.length !== histBefore) console.log(`[blocklist] ${histBefore - state.chains.length} oude detectie(s) uit de historie gehaald`);
   const jobBoards = cfg.radar ? await loadJobBoards() : [];
   let dossiers = await loadDossiers();
   const dossiersBootstrapped = !dossiers;
@@ -362,19 +368,28 @@ async function main() {
     ...[...watchEvents, ...produced, ...launched].map((c) => c.key),
   ]);
   const dossierInput = [
-    ...allDetected.filter((c) => !isMutedTestnet(c)),
+    ...allDetected.filter((c) => !isMutedTestnet(c) && !c.blocked),
     ...watchEvents, ...produced,
     ...launched,
   ];
   const dossierEvents = ingest(dossiers, dossierInput, { alertKeys });
   // Dossiers van geblokkeerde projecten markeren: geen scan, geen overzicht,
   // geen meldingen. Het vlaggetje verandert alleen als de blocklist verandert.
+  // Dossiers van geblokkeerde projecten worden verwijderd, met alles wat
+  // erbij hoort in de radar. Ze komen niet terug: hun detecties gaan hierboven
+  // al niet meer de dossiers in.
+  const blockedIds = new Set();
   for (const d of Object.values(dossiers.dossiers)) {
-    if (blocklist.matchDossier(d)) d.blocked = true;
-    else delete d.blocked;
+    if (blocklist.matchDossier(d)) blockedIds.add(d.id);
+  }
+  for (const id of blockedIds) delete dossiers.dossiers[id];
+  if (blockedIds.size) {
+    console.log(`[blocklist] ${blockedIds.size} dossier(s) verwijderd: ${[...blockedIds].join(', ')}`);
+    radar.items = radar.items.filter((it) => !blockedIds.has(String(it.key).split(':')[1]));
+    radar.airdrops = (radar.airdrops || []).filter((a) => !blockedIds.has(a.id));
   }
   for (let i = dossierEvents.length - 1; i >= 0; i--) {
-    if (dossiers.dossiers[dossierEvents[i].id]?.blocked) dossierEvents.splice(i, 1);
+    if (!dossiers.dossiers[dossierEvents[i].id]) dossierEvents.splice(i, 1);
   }
   for (const c of [...allDetected, ...watchEvents, ...produced, ...launched]) {
     const ctx = contextFor(dossiers, c);
@@ -433,7 +448,7 @@ async function main() {
   );
 
   // Dossiergebeurtenissen: eerst wat vorige run niet aankwam, dan de nieuwe.
-  const outboxBefore = (dossiers.outbox || []).filter((ev) => !dossiers.dossiers[ev.id]?.blocked);
+  const outboxBefore = (dossiers.outbox || []).filter((ev) => dossiers.dossiers[ev.id]);
   const allEvents = [...outboxBefore, ...dossierEvents];
   const eventGroups = [];
   for (const ev of allEvents) {
@@ -445,7 +460,7 @@ async function main() {
   groups.splice(watchEvents.length + produced.length + launched.length, 0, ...eventGroups);
 
   // Onderzoeksresultaten als één overzichtsbericht, niet als dertig alerts.
-  const researchRecs = allDetected.filter((c) => c.source === 'research' && !c.blocked && !dossiers.dossiers[c.dossierId]?.blocked);
+  const researchRecs = allDetected.filter((c) => c.source === 'research' && !c.blocked && dossiers.dossiers[c.dossierId]);
   const researchTexts = researchMessages(dossiers, researchRecs);
   for (const [i, text] of researchTexts.entries()) {
     groups.push({ text, keys: i === 0 ? researchRecs.map((r) => r.key) : [`research-msg:${i}`] });
@@ -561,7 +576,7 @@ async function main() {
     if (watchRun || bypassedNow.size) await saveWatchState(watchState);
 
     await saveNames(state.names);
-    const kept = [...watchEvents, ...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key));
+    const kept = [...watchEvents, ...produced, ...launched, ...allDetected].filter((c) => !failed.has(c.key) && !c.blocked);
     const history = await saveChains([...kept, ...state.chains]);
     await saveHealth(health);
     await buildDashboard(history, { health });

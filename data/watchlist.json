@@ -54,6 +54,7 @@
     },
     {
       "id": "arc",
+      "enabled": false,
       "name": "Arc (Circle)",
       "aliases": ["arc network"],
       "ecosystem": "EVM · L1 met USDC als gas",
