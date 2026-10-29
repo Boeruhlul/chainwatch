@@ -4214,6 +4214,15 @@
      "what": "ecosystem: launchpad-kandidaat 0x5b7bb8dc…",
      "url": "https://sepolia-explorer.giwa.io/address/0x5b7bb8dcceaf32d3d3109978c72c890293ce083b",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x66db309f…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x66db309f95f3210616710e8348aa1b2846d3a5c5",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -4334,6 +4343,10 @@
      },
      {
       "addr": "0x5b7bb8dcceaf32d3d3109978c72c890293ce083b",
+      "date": "2026-10-29"
+     },
+     {
+      "addr": "0x66db309f95f3210616710e8348aa1b2846d3a5c5",
       "date": "2026-10-29"
      }
     ]
