@@ -1472,7 +1472,8 @@
    "id": "blockmaze",
    "name": "Blockmaze",
    "aliases": [
-    "Blockmaze"
+    "Blockmaze",
+    "blockmaze"
    ],
    "keys": [
     "d:blockmaze.org",
@@ -1480,12 +1481,16 @@
     "n:blockmaze"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-10-15",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-10-29",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-10-15"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-10-29"
     }
    ],
    "evidence": [
@@ -1496,6 +1501,16 @@
      "kind": "proposal",
      "what": "keplr-pr: chain-ID-aanvraag · ID blockmaze_6165-1",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1576",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/blockmaze",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
@@ -1513,7 +1528,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-10-29"
   },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
