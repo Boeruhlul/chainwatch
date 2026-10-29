@@ -195,6 +195,7 @@
   "ghrepo:oodd-devnet/oodd.charts",
   "ghrepo:oodd-devnet/oodd.logtailmonitor",
   "ghrepo:oodd-devnet/oodd.timer",
+  "ghrepo:opshuvo/quickpay-treasury",
   "ghrepo:parkbeomsoo/oss-analyzer",
   "ghrepo:paseo-network/paseo-faucet",
   "ghrepo:pauli-swap/pauli-swap-prediction-market",
