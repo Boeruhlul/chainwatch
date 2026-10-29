@@ -490,6 +490,24 @@
     },
     {
      "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa291fb06…",
+     "url": "https://explorer.arc.io/address/0xa291fb06a218e609699efaa93a789d9da053a26c",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xef2fd753…",
+     "url": "https://explorer.arc.io/address/0xef2fd753a45774659c398802ddc6c56ca279cd44",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
      "source": "github-discovery",
      "family": "github",
      "kind": "lead",
@@ -587,6 +605,14 @@
      {
       "addr": "0x4321a8badc4561135716ba584c4827900ffc5da9",
       "date": "2026-10-28"
+     },
+     {
+      "addr": "0xa291fb06a218e609699efaa93a789d9da053a26c",
+      "date": "2026-10-29"
+     },
+     {
+      "addr": "0xef2fd753a45774659c398802ddc6c56ca279cd44",
+      "date": "2026-10-29"
      }
     ]
    }
