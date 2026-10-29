@@ -2625,6 +2625,44 @@
     "register"
    ]
   },
+  "dianabclibccontracts": {
+   "id": "dianabclibccontracts",
+   "name": "dianab-cl/ibc-contracts",
+   "aliases": [
+    "dianab-cl/ibc-contracts"
+   ],
+   "keys": [
+    "gh:dianab-cl"
+   ],
+   "firstSeen": "2026-10-29",
+   "lastActivity": "2026-10-29",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-29"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-29",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/dianab-cl/ibc-contracts",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "dogeos": {
    "id": "dogeos",
    "name": "DogeOS",
