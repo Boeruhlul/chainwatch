@@ -1832,8 +1832,8 @@
     "n:bluechain"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-10-28",
-   "stage": "draait",
+   "lastActivity": "2026-10-29",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -1842,6 +1842,10 @@
     {
      "stage": "draait",
      "date": "2026-10-28"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-10-29"
     }
    ],
    "evidence": [
@@ -1862,6 +1866,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 2583",
      "url": "https://github.com/ethereum-lists/chains/pull/8940",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 2583",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-2583.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -1880,7 +1893,8 @@
     "register"
    ],
    "liveRpc": "https://rpc.chain.blue.org.mx",
-   "blocked": true
+   "blocked": true,
+   "mainnetSince": "2026-10-29"
   },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
@@ -12336,15 +12350,20 @@
    "keys": [
     "d:com.ky",
     "id:7685",
+    "id:76851",
     "n:sovl1"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-10-28",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-10-29",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-10-28"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-10-29"
     }
    ],
    "evidence": [
@@ -12356,20 +12375,40 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 7685",
      "url": "https://github.com/ethereum-lists/chains/pull/8941",
      "strength": "technical"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 7685",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-7685.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 76851",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-76851.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "7685"
+    "7685",
+    "76851"
    ],
    "website": "https://sovereign.com.ky",
    "architecture": "EVM",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 7685)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-10-29"
   },
   "srcchain": {
    "id": "srcchain",
