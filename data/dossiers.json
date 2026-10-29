@@ -2717,7 +2717,7 @@
     "n:dogeoschikyu"
    ],
    "firstSeen": "2026-10-14",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-10-29",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -2834,6 +2834,15 @@
      "url": "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-10-29",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0x42f6a30f…",
+     "url": "https://blockscout.testnet.dogeos.com/address/0x42f6a30fc85ba796804641774d675690b570651b",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -2918,6 +2927,11 @@
       "addr": "0xb11fde8b16b5e138cf6d1837513ed4c879736c7a",
       "type": "Uniswap v2-fork",
       "date": "2026-10-28"
+     },
+     {
+      "addr": "0x42f6a30fc85ba796804641774d675690b570651b",
+      "type": "Uniswap v3-fork",
+      "date": "2026-10-29"
      }
     ],
     "launchpad": [
