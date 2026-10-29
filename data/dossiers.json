@@ -7838,6 +7838,43 @@
     "onchain"
    ]
   },
+  "naamlozerollup0x9ef649e8": {
+   "id": "naamlozerollup0x9ef649e8",
+   "name": "Naamloze rollup 0x9ef649e8…",
+   "aliases": [],
+   "keys": [
+    "a:0x9ef649e8746cc47a17708a5e86b2d66c7f6c00d1"
+   ],
+   "firstSeen": "2026-10-29",
+   "lastActivity": "2026-10-29",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-10-29"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-29",
+     "source": "blob-submitters",
+     "family": "onchain",
+     "kind": "stealth",
+     "what": "blob-submitters: onaangekondigd · blob",
+     "url": "https://blobscan.com/address/0x9ef649e8746cc47a17708a5e86b2d66c7f6c00d1",
+     "stealthKind": "blob",
+     "strength": "onchain"
+    }
+   ],
+   "architecture": "EVM (rollup op Ethereum)",
+   "confidence": "B",
+   "reasons": [
+    "on-chain activiteit zonder bekende naam"
+   ],
+   "families": [
+    "onchain"
+   ]
+  },
   "naamlozerollup0xa1d3f9d7": {
    "id": "naamlozerollup0xa1d3f9d7",
    "name": "Naamloze rollup 0xa1d3f9d7…",
