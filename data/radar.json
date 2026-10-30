@@ -3114,6 +3114,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12596",
+   "title": "Update EIP-8141: clarify EXTCODEHASH restrictions for precompiles",
+   "url": "https://github.com/ethereum/EIPs/pull/12596",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
    "key": "pr:ethereum/ercs#2127",
    "title": "Update ERC-8217: Add the Universal Binding Identifier (UBID)",
    "url": "https://github.com/ethereum/ERCs/pull/2127",
@@ -3443,6 +3455,7 @@
    "pr:ethereum/eips#12592",
    "pr:ethereum/eips#12594",
    "pr:ethereum/eips#12595",
+   "pr:ethereum/eips#12596",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
