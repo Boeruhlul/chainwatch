@@ -2738,6 +2738,18 @@
    "date": "2026-10-29"
   },
   {
+   "key": "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af"
+   },
+   "date": "2026-10-30"
+  },
+  {
    "key": "npm:@gitlab/orbit",
    "title": "@gitlab/orbit",
    "url": "https://www.npmjs.com/package/@gitlab/orbit",
@@ -2848,6 +2860,7 @@
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
+   "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
    "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
