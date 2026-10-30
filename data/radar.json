@@ -3095,6 +3095,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30134",
+   "title": "EIP Draft: Permanent EOA Delegation Opt-Out (disable EIP-7702)",
+   "url": "https://ethereum-magicians.org/t/eip-draft-permanent-eoa-delegation-opt-out-disable-eip-7702/30134",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "forum:ethresear.ch:26195",
    "title": "Scoped Capability Tokens for STVA",
    "url": "https://ethresear.ch/t/scoped-capability-tokens-for-stva/26195",
@@ -3522,6 +3536,7 @@
    "forum:ethereum-magicians.org:30124",
    "forum:ethereum-magicians.org:30128",
    "forum:ethereum-magicians.org:30129",
+   "forum:ethereum-magicians.org:30134",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
