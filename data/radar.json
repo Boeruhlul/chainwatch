@@ -2750,6 +2750,20 @@
    "date": "2026-10-30"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31625",
+   "title": "Security Council Emergency Action – 30/10/2026",
+   "url": "https://forum.arbitrum.foundation/t/security-council-emergency-action-30-10-2026/31625",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 157
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "npm:@gitlab/orbit",
    "title": "@gitlab/orbit",
    "url": "https://www.npmjs.com/package/@gitlab/orbit",
@@ -2971,6 +2985,7 @@
    "forum:forum.arbitrum.foundation:31606",
    "forum:forum.arbitrum.foundation:31619",
    "forum:forum.arbitrum.foundation:31622",
+   "forum:forum.arbitrum.foundation:31625",
    "forum:forum.celestia.org:2324",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
