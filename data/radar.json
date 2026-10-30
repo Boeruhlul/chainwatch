@@ -2858,6 +2858,34 @@
    "date": "2026-10-30"
   },
   {
+   "key": "forum:ethereum-magicians.org:30129",
+   "title": "ERC draft: Independent Simulation Result for (STVA)",
+   "url": "https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "forum:ethresear.ch:26195",
+   "title": "Scoped Capability Tokens for STVA",
+   "url": "https://ethresear.ch/t/scoped-capability-tokens-for-stva/26195",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31625",
    "title": "Security Council Emergency Action – 30/10/2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-emergency-action-30-10-2026/31625",
@@ -3099,6 +3127,7 @@
    "forum:ethereum-magicians.org:30121",
    "forum:ethereum-magicians.org:30124",
    "forum:ethereum-magicians.org:30128",
+   "forum:ethereum-magicians.org:30129",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -3109,6 +3138,7 @@
    "forum:ethresear.ch:26184",
    "forum:ethresear.ch:26187",
    "forum:ethresear.ch:26192",
+   "forum:ethresear.ch:26195",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
