@@ -3334,6 +3334,53 @@
     "register"
    ]
   },
+  "ekichain": {
+   "id": "ekichain",
+   "name": "EKI Chain",
+   "aliases": [
+    "EKI Chain"
+   ],
+   "keys": [
+    "id:70101",
+    "n:ekichain"
+   ],
+   "firstSeen": "2026-10-30",
+   "lastActivity": "2026-10-30",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-10-30"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 70101",
+     "url": "https://github.com/ethereum-lists/chains/pull/8995",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "70101"
+   ],
+   "website": "https://onrender.com",
+   "architecture": "EVM",
+   "github": "https://github.com/renderinc",
+   "rpc": [
+    "https://eki-chain.onrender.com"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "electroneum": {
    "id": "electroneum",
    "name": "Electroneum",
