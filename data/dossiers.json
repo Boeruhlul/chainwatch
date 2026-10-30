@@ -3346,10 +3346,14 @@
    ],
    "firstSeen": "2026-10-30",
    "lastActivity": "2026-10-30",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-10-30"
+    },
+    {
+     "stage": "draait",
      "date": "2026-10-30"
     }
    ],
@@ -3362,6 +3366,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 70101",
      "url": "https://github.com/ethereum-lists/chains/pull/8995",
      "strength": "technical"
+    },
+    {
+     "date": "2026-10-30",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 701",
+     "url": "https://github.com/ethereum-lists/chains/pull/8995",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3373,13 +3386,14 @@
    "rpc": [
     "https://eki-chain.onrender.com"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 701)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://eki-chain.onrender.com"
   },
   "electroneum": {
    "id": "electroneum",
@@ -4180,7 +4194,7 @@
     "n:nieuwerollupchainid42424242"
    ],
    "firstSeen": "2026-10-02",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-10-30",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -4270,6 +4284,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x5e07ca99…",
      "url": "https://explorer.testnet-chain.genlayer.com/address/0x5e07ca99d1c66431a2ee4665ebbfc210f4719e5d",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-30",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x0ba16188…",
+     "url": "https://explorer.testnet-chain.genlayer.com/address/0x0ba16188bbda4f84f2a54c1128bfffd41168de8c",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -4301,6 +4324,11 @@
       "addr": "0x5e07ca99d1c66431a2ee4665ebbfc210f4719e5d",
       "type": "Uniswap v2-fork",
       "date": "2026-10-28"
+     },
+     {
+      "addr": "0x0ba16188bbda4f84f2a54c1128bfffd41168de8c",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-30"
      }
     ],
     "launchpad": []
