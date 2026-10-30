@@ -2787,6 +2787,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-30"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#714",
+   "title": "SIMD-0714: SIMD",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/714",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
   }
  ],
  "seen": {
@@ -3096,7 +3108,8 @@
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
    "pr:solana-foundation/solana-improvement-documents#710",
-   "pr:solana-foundation/solana-improvement-documents#713"
+   "pr:solana-foundation/solana-improvement-documents#713",
+   "pr:solana-foundation/solana-improvement-documents#714"
   ],
   "verified-contracts": []
  }
