@@ -3041,6 +3041,20 @@
    "dossier": null
   },
   {
+   "key": "forum:community.starknet.io:116461",
+   "title": "Static forwarding in Scarb 2.21 runs another class on your storage. What to check before using it",
+   "url": "https://community.starknet.io/t/static-forwarding-in-scarb-2-21-runs-another-class-on-your-storage-what-to-check-before-using-it/116461",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30129",
    "title": "ERC draft: Independent Simulation Result for (STVA)",
    "url": "https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129",
@@ -3098,6 +3112,20 @@
    "src": "forums",
    "date": "2026-10-30",
    "dossier": null
+  },
+  {
+   "key": "forum:forum.cosmos.network:17520",
+   "title": "[IDEA] ATOM Shield: Emergency Freezing and Governance-Based Asset Recovery for Cosmos Hub",
+   "url": "https://forum.cosmos.network/t/idea-atom-shield-emergency-freezing-and-governance-based-asset-recovery-for-cosmos-hub/17520",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
   },
   {
    "key": "npm:@gitlab/orbit",
@@ -3315,6 +3343,7 @@
    "forum:community.starknet.io:116445",
    "forum:community.starknet.io:116446",
    "forum:community.starknet.io:116448",
+   "forum:community.starknet.io:116461",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
@@ -3382,6 +3411,7 @@
    "forum:forum.cosmos.network:17514",
    "forum:forum.cosmos.network:17515",
    "forum:forum.cosmos.network:17517",
+   "forum:forum.cosmos.network:17520",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
