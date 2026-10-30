@@ -3089,6 +3089,18 @@
    "date": "2026-10-30"
   },
   {
+   "key": "chaincontract:mstcoral:0x2e7fca0a179ba52f82b5fb9159e97af1f2d349bd",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OnestableDestinationBridgeV2 op MST Coral",
+   "url": "https://coral.mstscan.com/address/0x2e7fca0a179ba52f82b5fb9159e97af1f2d349bd",
+   "meta": {
+    "chain": "MST Coral",
+    "addr": "0x2e7fca0a179ba52f82b5fb9159e97af1f2d349bd"
+   },
+   "date": "2026-10-30"
+  },
+  {
    "key": "chaincontract:mstcoral:0x56212144671ea6907d173fc3fc22f5102108f5e3",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3556,6 +3568,7 @@
    "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
    "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
    "chaincontract:mstcoral:0x0000000000000000000000000000000000002003",
+   "chaincontract:mstcoral:0x2e7fca0a179ba52f82b5fb9159e97af1f2d349bd",
    "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
    "chaincontract:mstcoral:0x56212144671ea6907d173fc3fc22f5102108f5e3",
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
