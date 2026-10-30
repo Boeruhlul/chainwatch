@@ -2,6 +2,9 @@
   "github-discovery": {
     "ok": true
   },
+  "funding-rss": {
+    "ok": true
+  },
   "rollup-factory": {
     "ok": true
   },
@@ -9,9 +12,7 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — rpc.testnet.%: fetch failed; mainnet-rpc.%: fetch failed",
-    "failingSince": "2026-10-30T15:25:17.543Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -61,9 +62,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "funding-rss": {
-    "ok": true
   },
   "research": {
     "ok": true
