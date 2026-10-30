@@ -3157,6 +3157,20 @@
    "date": "2026-10-30"
   },
   {
+   "key": "forum:ethereum-magicians.org:30137",
+   "title": "Pre-ERC: x402 Payee Verification for ERC-8004 Agents",
+   "url": "https://ethereum-magicians.org/t/pre-erc-x402-payee-verification-for-erc-8004-agents/30137",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-30",
+    "posts": 2,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "forum:ethresear.ch:26195",
    "title": "Scoped Capability Tokens for STVA",
    "url": "https://ethresear.ch/t/scoped-capability-tokens-for-stva/26195",
@@ -3364,6 +3378,30 @@
    "date": "2026-10-30"
   },
   {
+   "key": "pr:ethereum/ercs#2131",
+   "title": "Update ERC-8004: add two co-authors",
+   "url": "https://github.com/ethereum/ERCs/pull/2131",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/ercs#2132",
+   "title": "Add ERC: x402 Payee Verification for ERC-8004 Agents",
+   "url": "https://github.com/ethereum/ERCs/pull/2132",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#714",
    "title": "SIMD-0714: SIMD",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/714",
@@ -3375,6 +3413,18 @@
    "src": "proposals",
    "date": "2026-10-30",
    "dossier": null
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#715",
+   "title": "rekey simd-0529 big int mod exp",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/715",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
   }
  ],
  "seen": {
@@ -3589,6 +3639,7 @@
    "forum:ethereum-magicians.org:30128",
    "forum:ethereum-magicians.org:30129",
    "forum:ethereum-magicians.org:30134",
+   "forum:ethereum-magicians.org:30137",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -3724,12 +3775,15 @@
    "pr:ethereum/ercs#2128",
    "pr:ethereum/ercs#2129",
    "pr:ethereum/ercs#2130",
+   "pr:ethereum/ercs#2131",
+   "pr:ethereum/ercs#2132",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
    "pr:solana-foundation/solana-improvement-documents#710",
    "pr:solana-foundation/solana-improvement-documents#713",
-   "pr:solana-foundation/solana-improvement-documents#714"
+   "pr:solana-foundation/solana-improvement-documents#714",
+   "pr:solana-foundation/solana-improvement-documents#715"
   ],
   "verified-contracts": []
  }
