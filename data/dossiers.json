@@ -6766,7 +6766,8 @@
    ],
    "families": [
     "code"
-   ]
+   ],
+   "liveRpc": "https://molibra.org"
   },
   "monerocakewallet": {
    "id": "monerocakewallet",
