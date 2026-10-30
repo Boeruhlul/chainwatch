@@ -2780,6 +2780,42 @@
    "date": "2026-10-30"
   },
   {
+   "key": "chaincontract:eninetwork:0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "InteractionPool op ENI Network",
+   "url": "https://scan.eni.top/address/0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x03e034de72dd2ba665fd3c6761a5934164bd6c14"
+   },
+   "date": "2026-10-30"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x5b0cc86ba43dbd69e6994d22206eccde0ab13331",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PriceOracle op ENI Network",
+   "url": "https://scan.eni.top/address/0x5b0cc86ba43dbd69e6994d22206eccde0ab13331",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x5b0cc86ba43dbd69e6994d22206eccde0ab13331"
+   },
+   "date": "2026-10-30"
+  },
+  {
+   "key": "chaincontract:eninetwork:0x8c2832210b00c83fc62c3d0cebac1845af4322ca",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NodeRewardPool op ENI Network",
+   "url": "https://scan.eni.top/address/0x8c2832210b00c83fc62c3d0cebac1845af4322ca",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x8c2832210b00c83fc62c3d0cebac1845af4322ca"
+   },
+   "date": "2026-10-30"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x06f31ed65276c83ad31281779ff5b97988b75305",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3350,9 +3386,12 @@
    "chaincontract:dogeos:0x14f2982d601c9458f93bd70b218933a6f8165e7b",
    "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
    "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
+   "chaincontract:eninetwork:0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
    "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
+   "chaincontract:eninetwork:0x5b0cc86ba43dbd69e6994d22206eccde0ab13331",
    "chaincontract:eninetwork:0x824b99142f98b8134466def4a285394f687f8a64",
    "chaincontract:eninetwork:0x86869725c3eb770f1f55fce0898b4c2d5425e19d",
+   "chaincontract:eninetwork:0x8c2832210b00c83fc62c3d0cebac1845af4322ca",
    "chaincontract:eninetwork:0x9a7ffd818560848f807d7c13bbcb4e40cadb86a3",
    "chaincontract:eoraptor:0x5110bd005631e1201d645c1bee627f9661cacaa3",
    "chaincontract:eoraptor:0xff706b4c48570180cadc0d84ed84dcc9c1c7fd39",
