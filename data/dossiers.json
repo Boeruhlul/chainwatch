@@ -3642,6 +3642,44 @@
     "register"
    ]
   },
+  "ert1981brier": {
+   "id": "ert1981brier",
+   "name": "ert1981/brier",
+   "aliases": [
+    "ert1981/brier"
+   ],
+   "keys": [
+    "gh:ert1981"
+   ],
+   "firstSeen": "2026-10-30",
+   "lastActivity": "2026-10-30",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-30"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/ert1981/brier",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP deploy-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "experimental": {
    "id": "experimental",
    "name": "Experimental",
