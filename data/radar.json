@@ -3217,6 +3217,42 @@
    "date": "2026-10-30"
   },
   {
+   "key": "pr:ethereum/eips#12599",
+   "title": "Update EIP-8450: Address post-merge review",
+   "url": "https://github.com/ethereum/EIPs/pull/12599",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/eips#12600",
+   "title": "Add EIP: Permanent EOA Delegation Opt-Out",
+   "url": "https://github.com/ethereum/EIPs/pull/12600",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/eips#12601",
+   "title": "Add EIP: Recent Block Bound Delegation Authorizations",
+   "url": "https://github.com/ethereum/EIPs/pull/12601",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
    "key": "pr:ethereum/ercs#2127",
    "title": "Update ERC-8217: Add the Universal Binding Identifier (UBID)",
    "url": "https://github.com/ethereum/ERCs/pull/2127",
@@ -3591,6 +3627,9 @@
    "pr:ethereum/eips#12596",
    "pr:ethereum/eips#12597",
    "pr:ethereum/eips#12598",
+   "pr:ethereum/eips#12599",
+   "pr:ethereum/eips#12600",
+   "pr:ethereum/eips#12601",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
