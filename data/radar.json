@@ -2792,6 +2792,18 @@
    "date": "2026-10-30"
   },
   {
+   "key": "chaincontract:eninetwork:0x302f9c82340ade6807f9d6748a6955077781f8a3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "TradingRouter op ENI Network",
+   "url": "https://scan.eni.top/address/0x302f9c82340ade6807f9d6748a6955077781f8a3",
+   "meta": {
+    "chain": "ENI Network",
+    "addr": "0x302f9c82340ade6807f9d6748a6955077781f8a3"
+   },
+   "date": "2026-10-30"
+  },
+  {
    "key": "chaincontract:eninetwork:0x5b0cc86ba43dbd69e6994d22206eccde0ab13331",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3387,6 +3399,7 @@
    "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
    "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
    "chaincontract:eninetwork:0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
+   "chaincontract:eninetwork:0x302f9c82340ade6807f9d6748a6955077781f8a3",
    "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
    "chaincontract:eninetwork:0x5b0cc86ba43dbd69e6994d22206eccde0ab13331",
    "chaincontract:eninetwork:0x824b99142f98b8134466def4a285394f687f8a64",
