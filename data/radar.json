@@ -3236,6 +3236,20 @@
    "date": "2026-10-30"
   },
   {
+   "key": "forum:ethresear.ch:26198",
+   "title": "ERC draft: Independent Simulation Result for (STVA)",
+   "url": "https://ethresear.ch/t/erc-draft-independent-simulation-result-for-stva/26198",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31625",
    "title": "Security Council Emergency Action – 30/10/2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-emergency-action-30-10-2026/31625",
@@ -3691,6 +3705,7 @@
    "forum:ethresear.ch:26192",
    "forum:ethresear.ch:26195",
    "forum:ethresear.ch:26196",
+   "forum:ethresear.ch:26198",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
