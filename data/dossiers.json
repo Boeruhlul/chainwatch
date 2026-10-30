@@ -1362,6 +1362,43 @@
     "markt"
    ]
   },
+  "bitgold": {
+   "id": "bitgold",
+   "name": "Bitgold",
+   "aliases": [
+    "Bitgold"
+   ],
+   "keys": [
+    "n:bitgold"
+   ],
+   "firstSeen": "2026-10-30",
+   "lastActivity": "2026-10-30",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-30"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-30",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/bitgold-network/bitgold-mcp",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "bitpandavisionchain": {
    "id": "bitpandavisionchain",
    "name": "Bitpanda Vision Chain",
