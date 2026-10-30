@@ -4385,6 +4385,15 @@
      "what": "ecosystem: launchpad-kandidaat 0xebfc7efa…",
      "url": "https://sepolia-explorer.giwa.io/address/0xebfc7efa40400337f092dfe0140e70725a2eb914",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-30",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x714daed0…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x714daed0308978fc475bd0720000b5c69e0a199f",
+     "strength": "running"
     }
    ],
    "chainIds": [
