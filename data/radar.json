@@ -2767,6 +2767,19 @@
    "dossier": null
   },
   {
+   "key": "auditrepo:cyfrin/cyfrin-audit-reports",
+   "title": "cyfrin-audit-reports",
+   "url": "https://github.com/Cyfrin/cyfrin-audit-reports",
+   "meta": {
+    "org": "Cyfrin",
+    "created": "2026-10-30",
+    "about": "A list of public audit reports conducted by the Cyfrin team"
+   },
+   "cat": "audit",
+   "src": "audit-repos",
+   "date": "2026-10-30"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x06f31ed65276c83ad31281779ff5b97988b75305",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3028,6 +3041,18 @@
    "date": "2026-10-30"
   },
   {
+   "key": "chaincontract:qms:0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "Factory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f"
+   },
+   "date": "2026-10-30"
+  },
+  {
    "key": "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3128,6 +3153,20 @@
    "date": "2026-10-30"
   },
   {
+   "key": "forum:forum.zknation.io:1271",
+   "title": "ZKsync Builder LabAn Interactive Protocol Learning, Assessment and Developer Activation Platform",
+   "url": "https://forum.zknation.io/t/zksync-builder-laban-interactive-protocol-learning-assessment-and-developer-activation-platform/1271",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-10-30",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-30"
+  },
+  {
    "key": "npm:@gitlab/orbit",
    "title": "@gitlab/orbit",
    "url": "https://www.npmjs.com/package/@gitlab/orbit",
@@ -3154,6 +3193,30 @@
    "date": "2026-10-30"
   },
   {
+   "key": "pr:ethereum/eips#12597",
+   "title": "Update EIP-8148: Specify contract input, log and eth_config key",
+   "url": "https://github.com/ethereum/EIPs/pull/12597",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/eips#12598",
+   "title": "Update EIP-8148: Store sweep threshold in withdrawal credentials",
+   "url": "https://github.com/ethereum/EIPs/pull/12598",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
    "key": "pr:ethereum/ercs#2127",
    "title": "Update ERC-8217: Add the Universal Binding Identifier (UBID)",
    "url": "https://github.com/ethereum/ERCs/pull/2127",
@@ -3165,6 +3228,42 @@
    "src": "proposals",
    "date": "2026-10-30",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2128",
+   "title": "Add ERC: uRWA Policy Interface",
+   "url": "https://github.com/ethereum/ERCs/pull/2128",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/ercs#2129",
+   "title": "Add ERC: ERC-20 Delayed Unlock",
+   "url": "https://github.com/ethereum/ERCs/pull/2129",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/ercs#2130",
+   "title": "Add ERC: ERC-20 Outgoing Window Limits",
+   "url": "https://github.com/ethereum/ERCs/pull/2130",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-30"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#714",
@@ -3181,7 +3280,9 @@
   }
  ],
  "seen": {
-  "audit-repos": [],
+  "audit-repos": [
+   "auditrepo:cyfrin/cyfrin-audit-reports"
+  ],
   "audit-sherlock": [],
   "chain-contracts": [
    "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
@@ -3282,6 +3383,7 @@
    "chaincontract:mstcoral:0x4bd9ea9f1148021b7cf84035c7073b4cc835b6b2",
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
    "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "chaincontract:qms:0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f",
    "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
@@ -3425,6 +3527,7 @@
    "forum:forum.zknation.io:1240",
    "forum:forum.zknation.io:1241",
    "forum:forum.zknation.io:1248",
+   "forum:forum.zknation.io:1271",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
@@ -3486,6 +3589,8 @@
    "pr:ethereum/eips#12594",
    "pr:ethereum/eips#12595",
    "pr:ethereum/eips#12596",
+   "pr:ethereum/eips#12597",
+   "pr:ethereum/eips#12598",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -3510,6 +3615,9 @@
    "pr:ethereum/ercs#2124",
    "pr:ethereum/ercs#2126",
    "pr:ethereum/ercs#2127",
+   "pr:ethereum/ercs#2128",
+   "pr:ethereum/ercs#2129",
+   "pr:ethereum/ercs#2130",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
