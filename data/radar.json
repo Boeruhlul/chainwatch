@@ -2736,6 +2736,31 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-29"
+  },
+  {
+   "key": "npm:@gitlab/orbit",
+   "title": "@gitlab/orbit",
+   "url": "https://www.npmjs.com/package/@gitlab/orbit",
+   "meta": {
+    "version": "1.0.0",
+    "about": "GitLab Orbit local CLI",
+    "keyword": "orbit"
+   },
+   "cat": "sdk",
+   "src": "npm-sdk",
+   "date": "2026-10-30"
+  },
+  {
+   "key": "pr:ethereum/ercs#2127",
+   "title": "Update ERC-8217: Add the Universal Binding Identifier (UBID)",
+   "url": "https://github.com/ethereum/ERCs/pull/2127",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-29"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-30"
   }
  ],
  "seen": {
@@ -2985,6 +3010,7 @@
    "job:lever:anchorage:2241b52b-da64-4626-9abc-c8ff5fb58009"
   ],
   "npm-sdk": [
+   "npm:@gitlab/orbit",
    "npm:@superstables/client"
   ],
   "proposals": [
@@ -3037,6 +3063,7 @@
    "pr:ethereum/ercs#2123",
    "pr:ethereum/ercs#2124",
    "pr:ethereum/ercs#2126",
+   "pr:ethereum/ercs#2127",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
