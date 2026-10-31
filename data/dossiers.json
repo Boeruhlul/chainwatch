@@ -12993,6 +12993,53 @@
     "onderzoek"
    ]
   },
+  "sunima": {
+   "id": "sunima",
+   "name": "Sunima",
+   "aliases": [
+    "Sunima"
+   ],
+   "keys": [
+    "d:sunima.uk",
+    "id:sunima_8081-2",
+    "n:sunima"
+   ],
+   "firstSeen": "2026-10-31",
+   "lastActivity": "2026-10-31",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-10-31"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-31",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID sunima_8081-2",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1587",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "sunima_8081-2"
+   ],
+   "website": "https://sunima.uk",
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://sunima.uk/chain-rest"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "syraxchain": {
    "id": "syraxchain",
    "name": "Syrax Chain",
