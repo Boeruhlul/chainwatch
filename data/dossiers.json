@@ -12077,7 +12077,7 @@
     "n:selemanchain"
    ],
    "firstSeen": "2026-09-22",
-   "lastActivity": "2026-09-22",
+   "lastActivity": "2026-10-31",
    "stage": "draait",
    "stageHistory": [
     {
@@ -12094,6 +12094,15 @@
      "what": "ethlists-commit: RPC antwoordt · ID 73571",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-73571.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xdaa2723f…",
+     "url": "https://seleman.monarcaproject.com/address/0xdaa2723f57789bbe8d1f682dc292d7e1d8aa3ab8",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -12109,11 +12118,23 @@
    "explorer": "https://seleman.monarcaproject.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: RPC antwoordt · ID 73571)"
+    "draaiend netwerk aangetoond (ethlists-commit: RPC antwoordt · ID 73571)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xdaa2723f57789bbe8d1f682dc292d7e1d8aa3ab8",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-31"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "sgachain": {
    "id": "sgachain",
