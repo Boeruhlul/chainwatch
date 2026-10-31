@@ -329,6 +329,7 @@
   "ghrepo:mariagiovannacardillo/kiratech_challenge_l2",
   "ghrepo:matheusmpff/regularizacao-em-redes-neurais",
   "ghrepo:mattjackson/nightbuoy",
+  "ghrepo:maxencejules/shortvideo-network",
   "ghrepo:mbanyadev/nimcfa",
   "ghrepo:mdrobiny/coinbart",
   "ghrepo:megantwt/gpt2-gender-probe",
@@ -369,6 +370,7 @@
   "ghrepo:netdotx42/roxie-devnet",
   "ghrepo:netty-hue/groupe6_l2_big_data_2026",
   "ghrepo:nexosdata/naxos-py",
+  "ghrepo:nexusocean/ltc-faucet",
   "ghrepo:nezu511/setcodefrom-adoption-poc",
   "ghrepo:nicolasholman/fuin-zcash",
   "ghrepo:nicolasholman/kage-zcash",
@@ -584,5 +586,7 @@
   "ghrepo:zh-tx3/dsh-forge",
   "ghrepo:zhudaandzhuer/zhuda-neon-racer",
   "ghrepo:zoruco/zoru-miner",
-  "ghrepo:zoruco/zoru-pow"
+  "ghrepo:zoruco/zoru-pow",
+  "ghrepo:zouloupapers/audit-securite-web-xss",
+  "ghrepo:zouloupapers/lab-active-directory-windows-server"
 ]
