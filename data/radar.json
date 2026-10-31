@@ -3746,6 +3746,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-31"
+  },
+  {
+   "key": "pr:ethereum/ercs#2134",
+   "title": "Add ERC: Agent Pre-Sign Risk Report",
+   "url": "https://github.com/ethereum/ERCs/pull/2134",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-10-31"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-31"
   }
  ],
  "seen": {
@@ -4120,6 +4132,7 @@
    "pr:ethereum/ercs#2131",
    "pr:ethereum/ercs#2132",
    "pr:ethereum/ercs#2133",
+   "pr:ethereum/ercs#2134",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
