@@ -3202,7 +3202,7 @@
     "n:efikchain"
    ],
    "firstSeen": "2026-10-10",
-   "lastActivity": "2026-10-10",
+   "lastActivity": "2026-10-31",
    "stage": "draait",
    "stageHistory": [
     {
@@ -3228,6 +3228,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 199714",
      "url": "https://github.com/ethereum-lists/chains/pull/8840",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x3a9a7631…",
+     "url": "https://explorer.efikcoin.com/address/0x3a9a76315b562457891f994cb2ebc557ebc943b3",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3243,11 +3252,23 @@
    "liveRpc": "https://rpc.efikcoin.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 199714)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 199714)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x3a9a76315b562457891f994cb2ebc557ebc943b3",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-31"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "eggychain": {
    "id": "eggychain",
