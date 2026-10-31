@@ -11109,6 +11109,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xcc245907…",
+     "url": "https://testnet.qmsscan.io/address/0xcc245907dc8e04531160e8d7f8226578937df595",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xf71e38e8…",
      "url": "https://testnet.qmsscan.io/address/0xf71e38e8fe35546a13e68d94c57d2d49c13fed9a",
      "strength": "running"
@@ -11153,6 +11162,11 @@
      },
      {
       "addr": "0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-31"
+     },
+     {
+      "addr": "0xcc245907dc8e04531160e8d7f8226578937df595",
       "type": "Uniswap v2-fork",
       "date": "2026-10-31"
      }
