@@ -4351,7 +4351,7 @@
     "n:upbitl2"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-10-30",
+   "lastActivity": "2026-10-31",
    "stage": "draait",
    "stageHistory": [
     {
@@ -4580,6 +4580,15 @@
      "what": "ecosystem: launchpad-kandidaat 0xc402dab7…",
      "url": "https://sepolia-explorer.giwa.io/address/0xc402dab7650a6f09d6a1bd54aa81f7857d75e616",
      "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xb3b575a3…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xb3b575a35844cb4ad77beb243f6daadc9ad42e0e",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -4722,6 +4731,10 @@
      {
       "addr": "0xc402dab7650a6f09d6a1bd54aa81f7857d75e616",
       "date": "2026-10-30"
+     },
+     {
+      "addr": "0xb3b575a35844cb4ad77beb243f6daadc9ad42e0e",
+      "date": "2026-10-31"
      }
     ]
    }
