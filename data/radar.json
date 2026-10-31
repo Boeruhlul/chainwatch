@@ -3517,6 +3517,30 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:efikchain:0x3a9a76315b562457891f994cb2ebc557ebc943b3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Factory op Efikchain",
+   "url": "https://explorer.efikcoin.com/address/0x3a9a76315b562457891f994cb2ebc557ebc943b3",
+   "meta": {
+    "chain": "Efikchain",
+    "addr": "0x3a9a76315b562457891f994cb2ebc557ebc943b3"
+   },
+   "date": "2026-10-31"
+  },
+  {
+   "key": "chaincontract:efikchain:0xed9e857fc49705956d5f4336d855e6e986aa318f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Router02 op Efikchain",
+   "url": "https://explorer.efikcoin.com/address/0xed9e857fc49705956d5f4336d855e6e986aa318f",
+   "meta": {
+    "chain": "Efikchain",
+    "addr": "0xed9e857fc49705956d5f4336d855e6e986aa318f"
+   },
+   "date": "2026-10-31"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x4f8a08eaea8a90244c301ee2933f3e91fa5b63b6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3629,6 +3653,8 @@
    "chaincontract:dogeos:0x14f2982d601c9458f93bd70b218933a6f8165e7b",
    "chaincontract:dogeos:0x15ca00e44b6bbe19ff230f2e3294443a70bacdda",
    "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
+   "chaincontract:efikchain:0x3a9a76315b562457891f994cb2ebc557ebc943b3",
+   "chaincontract:efikchain:0xed9e857fc49705956d5f4336d855e6e986aa318f",
    "chaincontract:eninetwork:0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
    "chaincontract:eninetwork:0x302f9c82340ade6807f9d6748a6955077781f8a3",
    "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
