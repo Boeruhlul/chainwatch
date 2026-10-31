@@ -3620,6 +3620,34 @@
    "date": "2026-10-31"
   },
   {
+   "key": "forum:ethereum-magicians.org:30141",
+   "title": "ARCOS Ownership Module: Governed State & Authority Root — Architecture and Developer Feedback",
+   "url": "https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-31",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-31"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30144",
+   "title": "Add ERC: Sovereign Multi-Issuer Cross-Chain Transfer",
+   "url": "https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-31",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-31"
+  },
+  {
    "key": "job:greenhouse:stripe:8336819",
    "title": "Stripe: Blockchain Security Engineer, Bridge",
    "url": "https://stripe.com/jobs/search?gh_jid=8336819",
@@ -3651,6 +3679,18 @@
    "url": "https://github.com/ethereum/EIPs/pull/12603",
    "meta": {
     "repo": "ethereum/EIPs",
+    "created": "2026-10-31"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-10-31"
+  },
+  {
+   "key": "pr:ethereum/ercs#2133",
+   "title": "Add ERC: Sovereign Multi-Issuer Cross-Chain Transfer",
+   "url": "https://github.com/ethereum/ERCs/pull/2133",
+   "meta": {
+    "repo": "ethereum/ERCs",
     "created": "2026-10-31"
    },
    "cat": "techniek",
@@ -3882,6 +3922,8 @@
    "forum:ethereum-magicians.org:30137",
    "forum:ethereum-magicians.org:30138",
    "forum:ethereum-magicians.org:30139",
+   "forum:ethereum-magicians.org:30141",
+   "forum:ethereum-magicians.org:30144",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -4023,6 +4065,7 @@
    "pr:ethereum/ercs#2130",
    "pr:ethereum/ercs#2131",
    "pr:ethereum/ercs#2132",
+   "pr:ethereum/ercs#2133",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
