@@ -3541,6 +3541,18 @@
    "date": "2026-10-31"
   },
   {
+   "key": "chaincontract:giwasepolia:0x1778c45066221046285e13800e9cf9be1fd68733",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LeviosaLaunchRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x1778c45066221046285e13800e9cf9be1fd68733",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x1778c45066221046285e13800e9cf9be1fd68733"
+   },
+   "date": "2026-10-31"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x4f8a08eaea8a90244c301ee2933f3e91fa5b63b6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3735,6 +3747,7 @@
    "chaincontract:giwasepolia:0x0654670ed51d87c9c3c36f727d158f4bfe4d0c96",
    "chaincontract:giwasepolia:0x06f31ed65276c83ad31281779ff5b97988b75305",
    "chaincontract:giwasepolia:0x14d94aa7bbeaf8082564557df9fc19c145776940",
+   "chaincontract:giwasepolia:0x1778c45066221046285e13800e9cf9be1fd68733",
    "chaincontract:giwasepolia:0x18a4b0a52f0251eed14dd1dcb62d24ed442d09bd",
    "chaincontract:giwasepolia:0x1906bb4fc4ba785bc29705fbcf3e4da17f4c69c5",
    "chaincontract:giwasepolia:0x19710f26e62481c6f2a6a433d898b01491dee052",
