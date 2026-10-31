@@ -3606,6 +3606,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30139",
+   "title": "All Core Devs - Consensus (ACDC) #191, November 12, 2026",
+   "url": "https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-191-november-12-2026/30139",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-31",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-31"
+  },
+  {
    "key": "job:greenhouse:stripe:8336819",
    "title": "Stripe: Blockchain Security Engineer, Bridge",
    "url": "https://stripe.com/jobs/search?gh_jid=8336819",
@@ -3867,6 +3881,7 @@
    "forum:ethereum-magicians.org:30134",
    "forum:ethereum-magicians.org:30137",
    "forum:ethereum-magicians.org:30138",
+   "forum:ethereum-magicians.org:30139",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
