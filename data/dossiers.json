@@ -11418,6 +11418,82 @@
     "onderzoek"
    ]
   },
+  "qvtx": {
+   "id": "qvtx",
+   "name": "QVTX",
+   "aliases": [
+    "QVTX",
+    "QVTX ByteID Anchor",
+    "QVTX Aeon"
+   ],
+   "keys": [
+    "d:quantvestrix.io",
+    "d:qvtxaeon.io",
+    "id:420018",
+    "id:8825",
+    "n:qvtx",
+    "n:qvtxaeon",
+    "n:qvtxbyteidanchor"
+   ],
+   "firstSeen": "2026-10-31",
+   "lastActivity": "2026-10-31",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-10-31"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 20232",
+     "url": "https://github.com/ethereum-lists/chains/pull/8999",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 420018",
+     "url": "https://github.com/ethereum-lists/chains/pull/9000",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 8825",
+     "url": "https://github.com/ethereum-lists/chains/pull/9001",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "8825",
+    "420018",
+    "20232"
+   ],
+   "website": "https://quantvestrix.io",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.qvtxaeon.io/_rpc/8825",
+    "https://rpc.quantvestrix.io/_rpc/8825",
+    "https://rpc.qvtxaeon.io/_rpc/420018",
+    "https://rpc.quantvestrix.io/_rpc/420018"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "qvtxq4": {
    "id": "qvtxq4",
    "name": "QVTX Q4",
