@@ -3565,6 +3565,30 @@
    "date": "2026-10-31"
   },
   {
+   "key": "chaincontract:giwasepolia:0x55923d4b411a858ce302f19e73632c53e5613411",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GamaLaunchpad op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x55923d4b411a858ce302f19e73632c53e5613411",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x55923d4b411a858ce302f19e73632c53e5613411"
+   },
+   "date": "2026-10-31"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x6314f79e5a34683965a21be9017cf6066feb3bfe",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LeviosaLaunchRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x6314f79e5a34683965a21be9017cf6066feb3bfe",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x6314f79e5a34683965a21be9017cf6066feb3bfe"
+   },
+   "date": "2026-10-31"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xeb872f2064373a7d17fd805c1adb40dacdf34a34",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -3654,6 +3678,20 @@
     "created": "2026-10-31",
     "posts": 1,
     "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-31"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30145",
+   "title": "Pre-ERC: Agent Pre-Sign Risk Report",
+   "url": "https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-31",
+    "posts": 2,
+    "views": 6
    },
    "cat": "techniek",
    "src": "forums",
@@ -3760,7 +3798,9 @@
    "chaincontract:giwasepolia:0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
    "chaincontract:giwasepolia:0x4f8a08eaea8a90244c301ee2933f3e91fa5b63b6",
    "chaincontract:giwasepolia:0x52b563339a8e7a0aae02d40dc01fc90525642908",
+   "chaincontract:giwasepolia:0x55923d4b411a858ce302f19e73632c53e5613411",
    "chaincontract:giwasepolia:0x59c69f13e42c3214744a259a9aaf3a58c98139f4",
+   "chaincontract:giwasepolia:0x6314f79e5a34683965a21be9017cf6066feb3bfe",
    "chaincontract:giwasepolia:0x69aa901c15bdcc0810e15065291672ca08c7a36f",
    "chaincontract:giwasepolia:0x6a0cbfe4e3a980fc1618b882f2472e4caf96e50a",
    "chaincontract:giwasepolia:0x70f193d376b32dc6b863b37c225d975f4d66f886",
@@ -3937,6 +3977,7 @@
    "forum:ethereum-magicians.org:30139",
    "forum:ethereum-magicians.org:30141",
    "forum:ethereum-magicians.org:30144",
+   "forum:ethereum-magicians.org:30145",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
