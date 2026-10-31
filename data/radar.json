@@ -3501,6 +3501,20 @@
    "date": "2026-10-31"
   },
   {
+   "key": "forum:ethereum-magicians.org:30138",
+   "title": "ERC draft: Account Authority Lifecycle for STVA",
+   "url": "https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-10-31",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-10-31"
+  },
+  {
    "key": "job:greenhouse:stripe:8336819",
    "title": "Stripe: Blockchain Security Engineer, Bridge",
    "url": "https://stripe.com/jobs/search?gh_jid=8336819",
@@ -3743,6 +3757,7 @@
    "forum:ethereum-magicians.org:30129",
    "forum:ethereum-magicians.org:30134",
    "forum:ethereum-magicians.org:30137",
+   "forum:ethereum-magicians.org:30138",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
