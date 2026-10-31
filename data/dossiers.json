@@ -11437,10 +11437,14 @@
    ],
    "firstSeen": "2026-10-31",
    "lastActivity": "2026-10-31",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-10-31"
+    },
+    {
+     "stage": "draait",
      "date": "2026-10-31"
     }
    ],
@@ -11471,6 +11475,33 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 8825",
      "url": "https://github.com/ethereum-lists/chains/pull/9001",
      "strength": "technical"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 20232",
+     "url": "https://github.com/ethereum-lists/chains/pull/8999",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 420018",
+     "url": "https://github.com/ethereum-lists/chains/pull/9000",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 8825",
+     "url": "https://github.com/ethereum-lists/chains/pull/9001",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -11486,13 +11517,14 @@
     "https://rpc.qvtxaeon.io/_rpc/420018",
     "https://rpc.quantvestrix.io/_rpc/420018"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 20232)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.qvtxaeon.io/_rpc/8825"
   },
   "qvtxq4": {
    "id": "qvtxq4",
