@@ -11100,6 +11100,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x97c30511…",
+     "url": "https://testnet.qmsscan.io/address/0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
+     "strength": "running"
+    },
+    {
+     "date": "2026-10-31",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xf71e38e8…",
      "url": "https://testnet.qmsscan.io/address/0xf71e38e8fe35546a13e68d94c57d2d49c13fed9a",
      "strength": "running"
@@ -11139,6 +11148,11 @@
      },
      {
       "addr": "0xf71e38e8fe35546a13e68d94c57d2d49c13fed9a",
+      "type": "Uniswap v2-fork",
+      "date": "2026-10-31"
+     },
+     {
+      "addr": "0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
       "type": "Uniswap v2-fork",
       "date": "2026-10-31"
      }
@@ -13798,6 +13812,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "wortex": {
+   "id": "wortex",
+   "name": "Wortex",
+   "aliases": [
+    "Wortex"
+   ],
+   "keys": [
+    "n:wortex"
+   ],
+   "firstSeen": "2026-10-31",
+   "lastActivity": "2026-10-31",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-10-31"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-10-31",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/ginbesse/wortex-mainnet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "xode": {
