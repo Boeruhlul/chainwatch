@@ -3475,6 +3475,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-30"
+  },
+  {
+   "key": "job:greenhouse:stripe:8336819",
+   "title": "Stripe: Blockchain Security Engineer, Bridge",
+   "url": "https://stripe.com/jobs/search?gh_jid=8336819",
+   "meta": {
+    "company": "Stripe",
+    "location": "Luxembourg"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-10-31"
   }
  ],
  "seen": {
@@ -3762,6 +3774,7 @@
    "job:greenhouse:stripe:8067276",
    "job:greenhouse:stripe:8143073",
    "job:greenhouse:stripe:8299647",
+   "job:greenhouse:stripe:8336819",
    "job:lever:anchorage:09b2b0d1-fb52-431c-b617-2fb74b595b1d",
    "job:lever:anchorage:2241b52b-da64-4626-9abc-c8ff5fb58009"
   ],
