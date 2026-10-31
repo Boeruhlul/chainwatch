@@ -1,4 +1,7 @@
 {
+  "github-discovery": {
+    "ok": true
+  },
   "funding-rss": {
     "ok": true
   },
@@ -9,7 +12,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — sequencer.%: This operation was aborted; rpc.chain.%: tijdsbudget op",
+    "failingSince": "2026-10-31T13:10:16.759Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -59,9 +64,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "github-discovery": {
-    "ok": true
   },
   "research": {
     "ok": true
