@@ -3865,6 +3865,102 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Router op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0x521786d5ede921c7e8f248796aca10e5370149a3",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0x521786d5ede921c7e8f248796aca10e5370149a3"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0x7edff6942133cb0d7bb831d711f5507a475298fe",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0x7edff6942133cb0d7bb831d711f5507a475298fe",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0x7edff6942133cb0d7bb831d711f5507a475298fe"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0xa1a6143cedd0d0cddcad16c7b0fa034c3982351c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0xa1a6143cedd0d0cddcad16c7b0fa034c3982351c",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0xa1a6143cedd0d0cddcad16c7b0fa034c3982351c"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0xe3e01d327bc2bee7a5754c1e7ff23158e017688e"
+   },
+   "date": "2026-11-01"
+  },
+  {
+   "key": "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Factory op PRANA",
+   "url": "https://pranascan.soapbox.community/address/0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
+   "meta": {
+    "chain": "PRANA",
+    "addr": "0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6"
+   },
+   "date": "2026-11-01"
+  },
+  {
    "key": "chaincontract:qms:0x302ef74bd7db780447f8557b07c16cc460e83cf5",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -4122,6 +4218,14 @@
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
    "chaincontract:mstcoral:0xfec38801643a72ef01780f9c67dda46cdf0f5ae4",
    "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
+   "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
+   "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",
+   "chaincontract:prana:0x7edff6942133cb0d7bb831d711f5507a475298fe",
+   "chaincontract:prana:0xa1a6143cedd0d0cddcad16c7b0fa034c3982351c",
+   "chaincontract:prana:0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b",
+   "chaincontract:prana:0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
+   "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
    "chaincontract:qms:0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f",
    "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
    "chaincontract:qms:0x302ef74bd7db780447f8557b07c16cc460e83cf5",
