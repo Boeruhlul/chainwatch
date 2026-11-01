@@ -3905,6 +3905,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3014",
+   "title": "Snowball to Snowstorm",
+   "url": "https://delvingbitcoin.org/t/snowball-to-snowstorm/3014",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30162",
    "title": "Autonomous Self-Refunding Merchant Settlement Standard (Sovereign Checkout)",
    "url": "https://ethereum-magicians.org/t/autonomous-self-refunding-merchant-settlement-standard-sovereign-checkout/30162",
@@ -4186,6 +4200,7 @@
    "forum:delvingbitcoin.org:3008",
    "forum:delvingbitcoin.org:3010",
    "forum:delvingbitcoin.org:3012",
+   "forum:delvingbitcoin.org:3014",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
