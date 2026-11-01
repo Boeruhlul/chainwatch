@@ -3794,6 +3794,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-10-31"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3012",
+   "title": "Eltoo state chain on signet, third time: TEMPLATEHASH + CSFS + INTERNALKEY",
+   "url": "https://delvingbitcoin.org/t/eltoo-state-chain-on-signet-third-time-templatehash-csfs-internalkey/3012",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-10-31",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
   }
  ],
  "seen": {
@@ -3992,6 +4006,7 @@
    "forum:delvingbitcoin.org:3007",
    "forum:delvingbitcoin.org:3008",
    "forum:delvingbitcoin.org:3010",
+   "forum:delvingbitcoin.org:3012",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
