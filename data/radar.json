@@ -3969,6 +3969,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-01"
+  },
+  {
+   "key": "pr:ethereum/ercs#2136",
+   "title": "Add ERC for Autonomous Self-Refunding Checkout Standard",
+   "url": "https://github.com/ethereum/ERCs/pull/2136",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-01"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-01"
   }
  ],
  "seen": {
@@ -4359,6 +4371,7 @@
    "pr:ethereum/ercs#2133",
    "pr:ethereum/ercs#2134",
    "pr:ethereum/ercs#2135",
+   "pr:ethereum/ercs#2136",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
