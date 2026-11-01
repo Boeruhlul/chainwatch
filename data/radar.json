@@ -3905,6 +3905,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30162",
+   "title": "Autonomous Self-Refunding Merchant Settlement Standard (Sovereign Checkout)",
+   "url": "https://ethereum-magicians.org/t/autonomous-self-refunding-merchant-settlement-standard-sovereign-checkout/30162",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
    "key": "forum:ethresear.ch:26202",
    "title": "ERC draft: Account Authority Lifecycle for STVA",
    "url": "https://ethresear.ch/t/erc-draft-account-authority-lifecycle-for-stva/26202",
@@ -4196,6 +4210,7 @@
    "forum:ethereum-magicians.org:30141",
    "forum:ethereum-magicians.org:30144",
    "forum:ethereum-magicians.org:30145",
+   "forum:ethereum-magicians.org:30162",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
