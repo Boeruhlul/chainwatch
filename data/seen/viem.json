@@ -634,6 +634,7 @@
   "viem:tron.ts",
   "viem:tronNile.ts",
   "viem:tronShasta.ts",
+  "viem:turkchain.ts",
   "viem:ubiq.ts",
   "viem:ultra.ts",
   "viem:ultraTestnet.ts",

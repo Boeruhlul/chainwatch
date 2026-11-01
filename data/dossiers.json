@@ -13639,6 +13639,53 @@
     "register"
    ]
   },
+  "turkchain": {
+   "id": "turkchain",
+   "name": "Turkchain",
+   "aliases": [
+    "Turkchain"
+   ],
+   "keys": [
+    "id:1919",
+    "n:turkchain"
+   ],
+   "firstSeen": "2026-11-01",
+   "lastActivity": "2026-11-01",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-01"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-01",
+     "source": "viem",
+     "family": "code",
+     "kind": "mainnet",
+     "what": "viem: mainnet · ID 1919",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/turkchain.ts",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "1919"
+   ],
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.turkscan.com"
+   ],
+   "explorer": "https://turkscan.com",
+   "mainnetSince": "2026-11-01",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (viem: mainnet · ID 1919)"
+   ],
+   "families": [
+    "code"
+   ]
+  },
   "twotrader": {
    "id": "twotrader",
    "name": "Two-Trader",
