@@ -3905,6 +3905,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethresear.ch:26202",
+   "title": "ERC draft: Account Authority Lifecycle for STVA",
+   "url": "https://ethresear.ch/t/erc-draft-account-authority-lifecycle-for-stva/26202",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 13
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
    "key": "pr:bitcoin/bips#2340",
    "title": "Add BIP: Unspendable Internal Keys for Wallet Policies",
    "url": "https://github.com/bitcoin/bips/pull/2340",
@@ -4195,6 +4209,7 @@
    "forum:ethresear.ch:26195",
    "forum:ethresear.ch:26196",
    "forum:ethresear.ch:26198",
+   "forum:ethresear.ch:26202",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
