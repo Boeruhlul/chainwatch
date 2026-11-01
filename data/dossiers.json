@@ -13684,7 +13684,8 @@
    ],
    "families": [
     "code"
-   ]
+   ],
+   "liveRpc": "https://rpc.turkscan.com"
   },
   "twotrader": {
    "id": "twotrader",
