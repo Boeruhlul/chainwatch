@@ -2641,6 +2641,53 @@
     "onderzoek"
    ]
   },
+  "dchat": {
+   "id": "dchat",
+   "name": "DChat",
+   "aliases": [
+    "DChat"
+   ],
+   "keys": [
+    "d:dchat.online",
+    "id:messaging",
+    "n:dchat"
+   ],
+   "firstSeen": "2026-11-01",
+   "lastActivity": "2026-11-01",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-01"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-01",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID messaging",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1588",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "messaging"
+   ],
+   "website": "https://dchat.online",
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://dchat.online/rest"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "development": {
    "id": "development",
    "name": "Development",

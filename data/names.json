@@ -1095,6 +1095,7 @@
   "dc:main",
   "dchain:main",
   "dchain:test",
+  "dchat:pre",
   "dcpay:main",
   "dcpay:test",
   "deamchain:main",
