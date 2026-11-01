@@ -12375,7 +12375,7 @@
     "n:selemanchain"
    ],
    "firstSeen": "2026-09-22",
-   "lastActivity": "2026-10-31",
+   "lastActivity": "2026-11-01",
    "stage": "draait",
    "stageHistory": [
     {
@@ -12401,6 +12401,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xdaa2723f…",
      "url": "https://seleman.monarcaproject.com/address/0xdaa2723f57789bbe8d1f682dc292d7e1d8aa3ab8",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-01",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xb6238aad…",
+     "url": "https://seleman.monarcaproject.com/address/0xb6238aad813325de4a26687cf60900e07d51c17a",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -12417,7 +12426,8 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-commit: RPC antwoordt · ID 73571)",
-    "DEX op de chain gevonden"
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
     "register",
@@ -12431,7 +12441,12 @@
       "date": "2026-10-31"
      }
     ],
-    "launchpad": []
+    "launchpad": [
+     {
+      "addr": "0xb6238aad813325de4a26687cf60900e07d51c17a",
+      "date": "2026-11-01"
+     }
+    ]
    }
   },
   "sgachain": {
