@@ -3870,6 +3870,18 @@
    "date": "2026-11-01"
   },
   {
+   "key": "pr:bitcoin/bips#2340",
+   "title": "Add BIP: Unspendable Internal Keys for Wallet Policies",
+   "url": "https://github.com/bitcoin/bips/pull/2340",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-01"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-01"
+  },
+  {
    "key": "pr:ethereum/eips#12604",
    "title": "Add EIP: Post-Quantum PeerDAS and Variable-Size Blobs",
    "url": "https://github.com/ethereum/EIPs/pull/12604",
@@ -4202,6 +4214,7 @@
    "pr:bitcoin/bips#2337",
    "pr:bitcoin/bips#2338",
    "pr:bitcoin/bips#2339",
+   "pr:bitcoin/bips#2340",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
