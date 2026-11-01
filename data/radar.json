@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-10-31",
+ "lastSent": "2026-11-01",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -3526,7 +3526,8 @@
     "chain": "Efikchain",
     "addr": "0x3a9a76315b562457891f994cb2ebc557ebc943b3"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": "efikchain"
   },
   {
    "key": "chaincontract:efikchain:0xed9e857fc49705956d5f4336d855e6e986aa318f",
@@ -3538,7 +3539,8 @@
     "chain": "Efikchain",
     "addr": "0xed9e857fc49705956d5f4336d855e6e986aa318f"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": "efikchain"
   },
   {
    "key": "chaincontract:giwasepolia:0x1778c45066221046285e13800e9cf9be1fd68733",
@@ -3550,7 +3552,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x1778c45066221046285e13800e9cf9be1fd68733"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x42d276e70aec7d5a921b9a9c696404f2b722fea5",
@@ -3562,7 +3565,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x42d276e70aec7d5a921b9a9c696404f2b722fea5"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x4f8a08eaea8a90244c301ee2933f3e91fa5b63b6",
@@ -3574,7 +3578,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x4f8a08eaea8a90244c301ee2933f3e91fa5b63b6"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x55923d4b411a858ce302f19e73632c53e5613411",
@@ -3586,7 +3591,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x55923d4b411a858ce302f19e73632c53e5613411"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x567521b49b791add859fd6a49d5189fc0d9412ff",
@@ -3598,7 +3604,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x567521b49b791add859fd6a49d5189fc0d9412ff"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x6314f79e5a34683965a21be9017cf6066feb3bfe",
@@ -3610,7 +3617,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x6314f79e5a34683965a21be9017cf6066feb3bfe"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xeb872f2064373a7d17fd805c1adb40dacdf34a34",
@@ -3622,7 +3630,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xeb872f2064373a7d17fd805c1adb40dacdf34a34"
    },
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xf46502d7e16b8f10e86d2d0c82380bb28a10e06a",
@@ -3677,7 +3686,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30141",
@@ -3691,7 +3701,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30144",
@@ -3705,7 +3716,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30145",
@@ -3719,7 +3731,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "job:greenhouse:stripe:8336819",
@@ -3757,7 +3770,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2133",
@@ -3769,7 +3783,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2134",
@@ -3781,7 +3796,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2135",
@@ -3793,7 +3809,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-10-31"
+   "date": "2026-10-31",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x2109cb4cdfc2749998f91a185bd880eb97036293",
@@ -3805,7 +3822,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x2109cb4cdfc2749998f91a185bd880eb97036293"
    },
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xb06e050718256cc428eeb4af4254cf23e20e1178",
@@ -3817,7 +3835,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xb06e050718256cc428eeb4af4254cf23e20e1178"
    },
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xc94a955a40eeccecbf3f474df65d68b269dccd59",
@@ -3829,7 +3848,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xc94a955a40eeccecbf3f474df65d68b269dccd59"
    },
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xdc78a5dee5ca75f3c5910e32547839480073b818",
@@ -3841,7 +3861,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xdc78a5dee5ca75f3c5910e32547839480073b818"
    },
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x3bfb3a99cfc498b33c876e00151df3582ce03e2c",
@@ -3853,7 +3874,8 @@
     "chain": "QMS",
     "addr": "0x3bfb3a99cfc498b33c876e00151df3582ce03e2c"
    },
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:3012",
@@ -3867,7 +3889,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2340",
@@ -3879,7 +3902,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12604",
@@ -3891,7 +3915,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-01"
+   "date": "2026-11-01",
+   "dossier": null
   }
  ],
  "seen": {
