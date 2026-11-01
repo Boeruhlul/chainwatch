@@ -4029,6 +4029,34 @@
    "date": "2026-11-01"
   },
   {
+   "key": "forum:ethereum-magicians.org:30167",
+   "title": "EIP-9999: Post-Quantum PeerDAS and Variable-Size Blobs",
+   "url": "https://ethereum-magicians.org/t/eip-9999-post-quantum-peerdas-and-variable-size-blobs/30167",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30170",
+   "title": "ERC-8415 and the Binance heist: what can be frozen, and why RWAs need an asset-state layer",
+   "url": "https://ethereum-magicians.org/t/erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer/30170",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
    "key": "forum:ethresear.ch:26202",
    "title": "ERC draft: Account Authority Lifecycle for STVA",
    "url": "https://ethresear.ch/t/erc-draft-account-authority-lifecycle-for-stva/26202",
@@ -4037,6 +4065,20 @@
     "created": "2026-11-01",
     "posts": 1,
     "views": 13
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-01"
+  },
+  {
+   "key": "forum:ethresear.ch:26205",
+   "title": "Asset-level spending limits and recovery: should rate limiting live in the asset rather than the account?",
+   "url": "https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-01",
+    "posts": 1,
+    "views": 11
    },
    "cat": "techniek",
    "src": "forums",
@@ -4342,6 +4384,8 @@
    "forum:ethereum-magicians.org:30144",
    "forum:ethereum-magicians.org:30145",
    "forum:ethereum-magicians.org:30162",
+   "forum:ethereum-magicians.org:30167",
+   "forum:ethereum-magicians.org:30170",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -4356,6 +4400,7 @@
    "forum:ethresear.ch:26196",
    "forum:ethresear.ch:26198",
    "forum:ethresear.ch:26202",
+   "forum:ethresear.ch:26205",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
