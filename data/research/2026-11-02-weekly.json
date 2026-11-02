@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Elysium",
+    "aliases": [
+      "Kinetiq Elysium",
+      "Hyperliquid L2"
+    ],
+    "org": "Kinetiq",
+    "architecture": "EVM L2 · Arbitrum Orbit, settlement op HyperEVM, gas in HYPE",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Nieuw sinds vorige week: Pump.fun opent Elysium-trading in zijn app op mainnetdag (9 nov), en er staan al drie launchpads klaar (Ascend, Signal, Montra). Dit is het noxa.fun-moment: de eerste launchpads zijn vóór mainnet bekend.",
+    "facts": [
+      {
+        "claim": "Pump.fun announced on October 28, 2026 that it will launch Elysium trading in its app on November 9 ('Trading starts November 9'); the announcement covers the Pump.fun app only, not its Solana token-issuance platform.",
+        "url": "https://www.chaincatcher.com/en/article/2299678",
+        "date": "2026-10-29"
+      },
+      {
+        "claim": "Elysium is a Layer 2 built by Kinetiq on Arbitrum Orbit; transactions settle in HyperEVM and fees are paid in HYPE. Mainnet is scheduled for November 9, 2026, with native HyperCore market-data access expected in an upgrade about four weeks after mainnet.",
+        "url": "https://www.chaincatcher.com/en/article/2299678",
+        "date": "2026-10-29"
+      },
+      {
+        "claim": "Elysium ecosystem overview names launchpads Ascend (ascendlaunch.xyz), Signal (signal.family) and Montra, plus Nest, Eloscape, Pantheon (index of Ascend's top coins), Temporal, Pindar, Hyperflip, Kalos, AtlasHL and Lutra.",
+        "url": "https://hix0n.substack.com/p/7-projects-launching-on-hyperliquids",
+        "date": "2026-10-19"
+      }
+    ],
+    "hypotheses": [
+      "Pump.fun-integratie trekt op dag 1 memecoin-volume naar Elysium; de eerste launchpad met bonding curve on-chain wordt waarschijnlijk Ascend of Montra.",
+      "Mogelijke airdrop-/points-hoek via Kinetiq (kHYPE) en launchpad-eigen tokens (Montra heeft volgens de bron al een eigen token)."
+    ],
+    "website": "https://ascendlaunch.xyz",
+    "ecosystem": {
+      "launchpad": "Ascend (ascendlaunch.xyz), Signal (signal.family), Montra; Pump.fun-app trading vanaf 9 nov"
+    },
+    "expectedLaunch": "2026-11-09",
+    "nextSignals": [
+      "Eerste PairCreated/launchpad-contracten op Elysium-mainnet op 9-10 nov",
+      "Pump.fun-router of -factory op Elysium",
+      "HyperCore-upgrade ~4 weken na mainnet"
+    ]
+  },
+  {
+    "name": "FLOP Network",
+    "aliases": [
+      "Flop Labs",
+      "FLOP"
+    ],
+    "org": "Flop Labs (Arthur Hayes)",
+    "architecture": "AI-native L1 · Proof-of-Useful-Inference",
+    "stage": "devnet",
+    "confidence": "B",
+    "why": "Incentivized testnet staat (voorlopig) op 3 november, met 4,4 mld FLOP genesis-allocatie voor miners, validators en AI-agents; mainnet/TGE Q1 2027. Devnet-deelname telt niet mee, dus de start van de testnet is het moment.",
+    "facts": [
+      {
+        "claim": "Flop testnet launches in October 2026 and runs for about 90 days; mainnet is targeted for Q1 2027; testnet participants can receive FLOP tokens.",
+        "url": "https://pro.edgex.exchange/en-US/news/article/arthur-hayes-flop-labs-testnet-q1-mainnet",
+        "date": "2026-10-07"
+      },
+      {
+        "claim": "AirdropAlert listing (added Oct 26, 2026): incentivized testnet targeted for November 3, 2026 (provisional, not officially confirmed), ~90 days before mainnet; preliminary genesis allocation 4.4B FLOP (1.2B AI agents, 1.2B GPU miners, 1.2B validators, 800M ecosystem); devnet participation does not qualify for rewards.",
+        "url": "https://airdropalert.com/airdrops/flop-network-genesis/",
+        "date": "2026-10-26"
+      },
+      {
+        "claim": "Crypto release calendar lists 'Flop Network (FLOP): Public Testnet Launch Target' on November 3, 2026.",
+        "url": "https://cryptolaxy.com/upcoming-crypto-releases",
+        "date": "2026-11-02"
+      }
+    ],
+    "hypotheses": [
+      "De oktober-testnetdatum is al verschoven; 3 nov kan opnieuw schuiven.",
+      "AirdropAlert noemt flop.finance als website; dat domein is niet door een eerste bron (Flop Labs/X) bevestigd. Behandel claim-/apply-pagina's daarop als mogelijke imitatie tot @flop_labs ernaar linkt."
+    ],
+    "nextSignals": [
+      "Officiële testnet-aankondiging door @flop_labs met RPC/chain ID",
+      "Chain-ID-aanvraag in ethereum-lists",
+      "Validator-/miner-clientreleases op GitHub"
+    ]
+  },
+  {
+    "name": "GIWA",
+    "aliases": [
+      "GIWA Sepolia",
+      "Upbit L2"
+    ],
+    "org": "Dunamu (Upbit)",
+    "architecture": "EVM L2 · OP Stack",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Upbit waarschuwt sinds 22 oktober actief voor nep-mainnet- en tokenclaims; ondertussen circuleren 'GIWA launchpad'-tokens op Robinhood Chain. De launchpad-contracten die de bot op GIWA Sepolia ziet zijn testnet; alles wat 'GIWA mainnet' heet buiten giwa.io is een waarschuwing, geen kans.",
+    "facts": [
+      {
+        "claim": "Upbit warned users that impersonators are promoting a false GIWA mainnet launch and token issuance; GIWA remains on testnet, mainnet is still in development and no official launch date has been announced. An earlier fake-bridge incident involving GIWA drained more than $2 million from DYORSWAP users.",
+        "url": "https://www.tokenpost.com/news/technology/37935",
+        "date": "2026-10-22"
+      },
+      {
+        "claim": "DEX Screener lists tokens named 'GIWA - launchpad for upcoming Upbit's L2' trading on Robinhood Chain.",
+        "url": "https://dexscreener.com/robinhood/0x745045066ba99702b2a65c9a0c94d48eba50fdfe"
+      }
+    ],
+    "hypotheses": [
+      "WAARSCHUWING: de 'GIWA launchpad'-tokens op Robinhood Chain zijn vrijwel zeker niet van Dunamu; niet als GIWA-ecosysteem behandelen.",
+      "De launchpads die op GIWA Sepolia testen (Leviosa, Gama, Deus volgens de eigen radar) zijn kandidaten om als eerste op mainnet te verschijnen, maar alleen bevestigen via giwa.io/docs.giwa.io."
+    ],
+    "website": "https://giwa.io",
+    "nextSignals": [
+      "Officiële mainnet-aankondiging op giwa.io of Upbit-kanalen",
+      "Mainnet chain ID in docs.giwa.io",
+      "Korea STO-wet (feb 2027) als mogelijk anker"
+    ]
+  },
+  {
+    "name": "T-REX Ledger",
+    "aliases": [
+      "T-REX Network"
+    ],
+    "org": "T-REX Network (met Apex Group, Polygon)",
+    "architecture": "EVM L2 · Polygon CDK + Agglayer, ERC-3643",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "Compliance-chain voor getokeniseerde securities met $100 mld aan toegezegde assets van Apex Group; mainnet staat voor Q4 2026 (kalender: ~november). Nog geen dossier.",
+    "facts": [
+      {
+        "claim": "T-REX Ledger is a compliance layer for tokenized securities built on Polygon CDK and Agglayer using ERC-3643; testnet already operational; mainnet targeted for Q4 2026; Apex Group committed to onboarding $100 billion in tokenized assets by June 2027 and will be the first on-chain transfer agent.",
+        "url": "https://pro.edgex.exchange/en-US/news/article/trex-network-polygon-cdk-compliance-chain",
+        "date": "2026-08-01"
+      },
+      {
+        "claim": "Crypto release calendar lists 'T-REX Network: T-REX Ledger Mainnet Launch' as ~November 2026.",
+        "url": "https://cryptolaxy.com/upcoming-crypto-releases",
+        "date": "2026-11-02"
+      }
+    ],
+    "hypotheses": [
+      "Permissioned/institutioneel: weinig retail-DEX/launchpad-kans, wel een signaal voor de RWA-chaingolf rond Agglayer.",
+      "De naam 'trex' komt al voor in de eigen namenlijst (trex:test); controleren of dat dezelfde chain is."
+    ],
+    "expectedLaunch": "Q4 2026",
+    "nextSignals": [
+      "Chain-ID-aanvraag of Agglayer-registratie",
+      "Eerste ERC-3643-fondsen van Apex on-chain"
+    ]
+  },
+  {
+    "name": "Starknet independent L1",
+    "aliases": [
+      "Starknet L1",
+      "post-quantum Starknet"
+    ],
+    "org": "StarkWare / Starknet Foundation",
+    "architecture": "Post-quantum L1 (STARK) · migratie vanaf Ethereum-L2",
+    "stage": "rumor",
+    "confidence": "B",
+    "why": "De community-stemming is nu afgerond: 93,5% vóór onderzoek naar een eigen post-quantum L1. StarkWare wil in november een whitepaper-draft publiceren.",
+    "facts": [
+      {
+        "claim": "A seven-day Snapshot poll (Oct 15-22, 2026) found over 93.5% of voting power in favor of researching a transition to an independent Layer 1; more than 2,800 wallets voted; StarkWare did not vote.",
+        "url": "https://theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+        "date": "2026-10-22"
+      },
+      {
+        "claim": "StarkWare began drafting the whitepaper right after the poll and hopes to release a draft for public scrutiny in November; additional governance votes follow the draft; STRK remains the native token; Ben-Sasson targets 2027 for Starknet to be quantum-safe.",
+        "url": "https://theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+        "date": "2026-10-22"
+      }
+    ],
+    "hypotheses": [
+      "Geen nieuw token, dus geen airdrop-hoek; wel nieuwe chain-ID/devnet zodra het whitepaper er is."
+    ],
+    "nextSignals": [
+      "Whitepaper-draft (november)",
+      "Tweede governance-stemming",
+      "Nieuwe repo's of devnet-config bij starkware-libs/keep-starknet-strange"
+    ]
+  },
+  {
+    "name": "Phase",
+    "aliases": [
+      "Phase Network",
+      "Phase Fabric"
+    ],
+    "org": "Phase (Kirill Eves, Unlimit-oprichter)",
+    "architecture": "L1 met smartphone-validators · EVM-contracten, x402-betalingen",
+    "stage": "mainnet",
+    "confidence": "B",
+    "why": "Nieuw bewijs bij een bestaand C-dossier: $45 mln founder-backing en een expliciete mainnet-aankondiging; Router en Compute volgen in november. Validators draaien op telefoons via een app.",
+    "facts": [
+      {
+        "claim": "Phase has switched on its Layer 1 mainnet for AI-agent tools; the network runs on consumer devices, starting with smartphones via the Phase app on App Store and Google Play; Phase Proxy is live, Phase Router and Phase Compute are due in November 2026; native token PHASE; Kirill Eves provided $45m in financial support.",
+        "url": "https://fintech.global/2026/10/29/phase-lands-45m-founder-backing-for-ai-agent-blockchain/",
+        "date": "2026-10-29"
+      }
+    ],
+    "hypotheses": [
+      "Node-via-telefoon-model plus buy-back van PHASE kan een farming-/airdropachtige instroom geven; DEX/launchpad nog niet gezien.",
+      "Chain ID 1015 en 190277 uit het eigen dossier horen waarschijnlijk hierbij (niet door deze bron bevestigd)."
+    ],
+    "nextSignals": [
+      "Phase Router/Compute-launch in november",
+      "Eerste DEX-factory op chain 1015"
+    ]
+  },
+  {
+    "name": "Fhenix CoFHE",
+    "aliases": [
+      "Fhenix"
+    ],
+    "org": "Fhenix",
+    "architecture": "FHE-coprocessor op Ethereum en Arbitrum (geen eigen chain)",
+    "stage": "mainnet",
+    "confidence": "C",
+    "why": "Nieuwe techniek: versleutelde smart-contractberekening live op Ethereum en Arbitrum mainnet, met een credits-campagne en nog geen token. Airdrop-kans zonder eigen chain.",
+    "facts": [
+      {
+        "claim": "Fhenix goes live on Ethereum and Arbitrum, adding a privacy layer (CoFHE) that lets contracts compute on hidden balances.",
+        "url": "https://coinspectator.com/bitcoin-com/2026/10/21/ethereum-and-arbitrum-gain-new-privacy-layer-as-fhenix-goes-live/",
+        "date": "2026-10-21"
+      },
+      {
+        "claim": "Fhenix Rewards / OnlyFhens credits campaign is running; no token airdrop confirmed; Fhenix raised over $22 million including a $15 million Series A (Hack VC, Multicoin, Amber Group).",
+        "url": "https://airdropalert.com/airdrops/fhenix/",
+        "date": "2026-10-19"
+      }
+    ],
+    "hypotheses": [
+      "Credits kunnen later naar een token-airdrop leiden; de eigen namenlijst kende alleen 'fhenixhelium:test'."
+    ],
+    "website": "https://www.fhenix.io/",
+    "nextSignals": [
+      "Token/TGE-aankondiging",
+      "Eerste confidential DeFi-apps op CoFHE"
+    ]
+  },
+  {
+    "name": "Utexo (USDT op Bitcoin via RGB)",
+    "aliases": [
+      "Utexo"
+    ],
+    "org": "Utexo (Tether-backed)",
+    "architecture": "RGB-protocol op Bitcoin · bridge vanaf USDT0 op Arbitrum",
+    "stage": "development",
+    "confidence": "C",
+    "why": "Nieuwe Bitcoin-techniek met harde datum: USDT op Bitcoin via RGB op 28 november, Lightning in Q1 2027. Geen nieuwe chain, wel een nieuw Bitcoin-settlementlaag-ecosysteem.",
+    "facts": [
+      {
+        "claim": "Utexo plans to unveil a Bitcoin-based USDT built on RGB on Nov. 28; the mint locks USDT0 on Arbitrum and issues an equal amount on Bitcoin; Lightning support planned for Q1 2027.",
+        "url": "https://www.digitaltoday.co.kr/en/view/121794/utexo-to-relaunch-bitcoin-based-usdt",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Utexo raised $7.5M in a round led by Tether to launch native USDT settlements on Bitcoin.",
+        "url": "https://thedefiant.io/news/press-releases/utexo-raises-7-5m-led-by-tether-to-launch-native-usdt-settlements-on-bitcoin"
+      }
+    ],
+    "hypotheses": [
+      "RGB-DEX'en/swaps (BTC↔USDT) worden de eerste 'venues'; die zijn niet via EVM-logs te vinden."
+    ],
+    "expectedLaunch": "2026-11-28",
+    "nextSignals": [
+      "Launch op 28 nov en eerste RGB-swapdiensten",
+      "Lightning-integratie Q1 2027"
+    ]
+  },
+  {
+    "name": "Polyester Chain",
+    "aliases": [
+      "Polyester"
+    ],
+    "org": "Polyester (Miami, CEO Tristan Chaudhry)",
+    "architecture": "EVM-compatibele L1 met native orderbook (PolyEngine) en cross-chain deposits (Zipper)",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "VC-backed (RRE Ventures) exchange-L1 met $P als gas, testnet live en nog geen token of TGE-datum: klassiek pre-airdrop-profiel. Niet in eigen bronnen gezien.",
+    "facts": [
+      {
+        "claim": "Polyester runs on its own EVM-compatible Layer 1, Polyester Chain, with $P as native gas; testnet is live with daily Paper Assets, faucets for tBTC/tBCH and Zipper deposits/withdrawals; backed by RRE Ventures; no TGE, mainnet date or airdrop allocation announced.",
+        "url": "https://airdropalert.com/airdrops/polyester-testnet/",
+        "date": "2026-10-05"
+      }
+    ],
+    "hypotheses": [
+      "Eén bron (aggregator); website en docs eerst zelf verifiëren.",
+      "Mogelijke $P-airdrop voor testnetgebruikers (niet bevestigd)."
+    ],
+    "website": "https://polyester.com",
+    "nextSignals": [
+      "Chain-ID-aanvraag of publieke RPC in docs",
+      "Funding-aankondiging of TGE-datum"
+    ]
+  },
+  {
+    "name": "NOWA Finance",
+    "aliases": [
+      "NOWA Devnet"
+    ],
+    "org": "NOWA Finance (Abhijit Shukla)",
+    "architecture": "Ethereum-secured L2 voor trading (off-chain matching, on-chain settlement)",
+    "stage": "devnet",
+    "confidence": "D",
+    "why": "Nieuwe trading-L2 met devnet en farming-allocatie (500 mln NOWA voor devnet, 1,75 mld voor testnet). Lage confidence: geen VC, geen audit, onbekende entiteit, en de vorige chain van de oprichter is gestopt.",
+    "facts": [
+      {
+        "claim": "NOWA Finance is building an Ethereum-secured Layer 2 for decentralized trading with BNPL financing; devnet live with explorer at explorer.nowa.finance and code at github.com/nowafinance/nowa; 500M NOWA reserved for devnet farmers and 1.75B for testnet farming; no VC backing, legal entity not identified, audit pending; founder previously developed TAN Blockchain, which announced its closure in October 2026.",
+        "url": "https://airdropalert.com/airdrops/nowa-finance-devnet/",
+        "date": "2026-10-21"
+      }
+    ],
+    "hypotheses": [
+      "Risicoprofiel lijkt op projecten die de gebruiker eerder blokkeerde; alleen volgen, niet als kans melden tot er onafhankelijke bevestiging is.",
+      "De eigen namenlijst bevat al 'nowatestnetconfigandicon:pre' (waarschijnlijk dezelfde org)."
+    ],
+    "nextSignals": [
+      "Chain-ID-aanvraag",
+      "Audit of geregistreerde entiteit"
+    ]
+  },
+  {
+    "name": "Maroo",
+    "aliases": [
+      "Hashed Maroo"
+    ],
+    "org": "Hashed Open Finance",
+    "architecture": "Soevereine L1 · OKRW-stablecoin als settlement, programmable compliance, ZK-privacy",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "Koreaanse KRW-stablecoin-L1 op testnet sinds mei; nog geen dossier ondanks dat de naam in de eigen lijst staat. Relevant naast GIWA voor de Koreaanse STO-wet van februari 2027.",
+    "facts": [
+      {
+        "claim": "Hashed Open Finance launched the testnet of Maroo, described as the first sovereign L1 blockchain for KRW stablecoins and AI agents.",
+        "url": "https://invezz.com/news/2026/05/07/hashed-open-finance-launch-testnet-of-maroo/",
+        "date": "2026-05-07"
+      },
+      {
+        "claim": "Tiger Research report on Maroo: Legal Oracle Committee, Programmable Compliance Layer, won stablecoin OKRW as base settlement unit, freeze/recovery tools, ZK proofs with supervisor audit key; partners ShardLab and Delight Labs; no mainnet date given.",
+        "url": "https://en.bloomingbit.io/feed/news/120575",
+        "date": "2026-09-17"
+      }
+    ],
+    "hypotheses": [
+      "Mainnet waarschijnlijk afgestemd op Koreaanse stablecoin-wetgeving en de Electronic Securities Act (feb 2027)."
+    ],
+    "nextSignals": [
+      "Mainnet-datum",
+      "OKRW-uitgifte of bankpartners"
+    ]
+  },
+  {
+    "name": "StableNet (Wemade)",
+    "aliases": [
+      "STABLE ONE",
+      "스테이블넷"
+    ],
+    "org": "Wemade",
+    "architecture": "EVM-compatibele L1 voor KRW-stablecoins · fees in stablecoin",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "Koreaanse gaming-reus met een eigen KRW-stablecoin-mainnet dat technisch klaar is en wacht op wetgeving; zelfde Korea-golf als GIWA en Maroo. Niet in eigen bronnen.",
+    "facts": [
+      {
+        "claim": "Wemade unveiled the testnet of 'StableNet', a dedicated network for won stablecoins.",
+        "url": "https://m.news.nate.com/view/20260130n23209",
+        "date": "2026-01-30"
+      },
+      {
+        "claim": "Wemade: 'waiting for won stablecoin legislation… technical preparation complete'.",
+        "url": "https://m.news.nate.com/view/20260512n30787",
+        "date": "2026-05-12"
+      }
+    ],
+    "hypotheses": [
+      "Mainnet volgt kort na de Koreaanse stablecoinwet; eerste dApps waarschijnlijk uit het WEMIX-ecosysteem."
+    ],
+    "nextSignals": [
+      "Aanname KRW-stablecoinwet",
+      "Mainnet-aankondiging en bankconsortium"
+    ]
+  }
+]
