@@ -6356,7 +6356,7 @@
     "n:mayachain"
    ],
    "firstSeen": "2026-10-21",
-   "lastActivity": "2026-10-23",
+   "lastActivity": "2026-11-02",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -6391,6 +6391,16 @@
      "what": "ethlists-commit: mainnet · ID 6292",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-6292.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "blockscout",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "blockscout: mainnet · ID 6292",
+     "url": "https://scan.mayachain.io",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
