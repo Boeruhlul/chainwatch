@@ -58,7 +58,18 @@
     "nog geen mainnet (testnet)"
    ],
    "stage": "testnet",
-   "website": null
+   "website": "https://ascendlaunch.xyz"
+  },
+  {
+   "id": "flopnetwork",
+   "name": "FLOP Network",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (devnet)"
+   ],
+   "stage": "devnet",
+   "website": "https://x.com/flop_labs"
   },
   {
    "id": "pushchain",
