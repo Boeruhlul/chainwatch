@@ -4229,6 +4229,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-01"
+  },
+  {
+   "key": "pr:ethereum/ercs#2137",
+   "title": "Update ERC-8259: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2137",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
   }
  ],
  "seen": {
@@ -4640,6 +4652,7 @@
    "pr:ethereum/ercs#2134",
    "pr:ethereum/ercs#2135",
    "pr:ethereum/ercs#2136",
+   "pr:ethereum/ercs#2137",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
