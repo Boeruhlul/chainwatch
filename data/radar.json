@@ -4280,6 +4280,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3019",
+   "title": "Machine-checked soundness of BIP340 batch verification with 128-bit derived randomizers",
+   "url": "https://delvingbitcoin.org/t/machine-checked-soundness-of-bip340-batch-verification-with-128-bit-derived-randomizers/3019",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30175",
    "title": "How Arbitrum's freezes send transactions from an address without its key",
    "url": "https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175",
@@ -4288,6 +4302,48 @@
     "created": "2026-11-02",
     "posts": 1,
     "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30177",
+   "title": "ERC-8474: ERC-20 Delayed Unlock",
+   "url": "https://ethereum-magicians.org/t/erc-8474-erc-20-delayed-unlock/30177",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30178",
+   "title": "ERC-8475: ERC-20 Outgoing Window Limits",
+   "url": "https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30181",
+   "title": "ERC-721 Composition Extension",
+   "url": "https://ethereum-magicians.org/t/erc-721-composition-extension/30181",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 1
    },
    "cat": "techniek",
    "src": "forums",
@@ -4557,6 +4613,7 @@
    "forum:delvingbitcoin.org:3010",
    "forum:delvingbitcoin.org:3012",
    "forum:delvingbitcoin.org:3014",
+   "forum:delvingbitcoin.org:3019",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -4597,6 +4654,9 @@
    "forum:ethereum-magicians.org:30167",
    "forum:ethereum-magicians.org:30170",
    "forum:ethereum-magicians.org:30175",
+   "forum:ethereum-magicians.org:30177",
+   "forum:ethereum-magicians.org:30178",
+   "forum:ethereum-magicians.org:30181",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
