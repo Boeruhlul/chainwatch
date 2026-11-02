@@ -4405,6 +4405,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31632",
+   "title": "November 3, 2026 - Open Discussion of Proposals Governance Call",
+   "url": "https://forum.arbitrum.foundation/t/november-3-2026-open-discussion-of-proposals-governance-call/31632",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:forum.polygon.technology:22482",
    "title": "8 Supply Chain Management Software Development Vendors Reviewed for Retail and Distribution Teams",
    "url": "https://forum.polygon.technology/t/8-supply-chain-management-software-development-vendors-reviewed-for-retail-and-distribution-teams/22482",
@@ -4748,6 +4762,7 @@
    "forum:forum.arbitrum.foundation:31619",
    "forum:forum.arbitrum.foundation:31622",
    "forum:forum.arbitrum.foundation:31625",
+   "forum:forum.arbitrum.foundation:31632",
    "forum:forum.celestia.org:2324",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
