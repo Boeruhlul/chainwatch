@@ -4243,6 +4243,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:ethresear.ch:26208",
+   "title": "It's time to scale the trust: EIP-8288 on OP Stack",
+   "url": "https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "pr:ethereum/ercs#2137",
    "title": "Update ERC-8259: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2137",
@@ -4530,6 +4544,7 @@
    "forum:ethresear.ch:26198",
    "forum:ethresear.ch:26202",
    "forum:ethresear.ch:26205",
+   "forum:ethresear.ch:26208",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
