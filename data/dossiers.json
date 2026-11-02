@@ -3794,7 +3794,7 @@
     "n:eoraptor"
    ],
    "firstSeen": "2026-10-24",
-   "lastActivity": "2026-10-26",
+   "lastActivity": "2026-11-02",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -3838,6 +3838,16 @@
      "what": "ethlists-commit: mainnet · ID 2679",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-2679.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "blockscout",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "blockscout: mainnet · ID 2679",
+     "url": "https://scan.eoraptor.org/",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
