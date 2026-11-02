@@ -178,6 +178,43 @@
     "register"
    ]
   },
+  "afrishinehub": {
+   "id": "afrishinehub",
+   "name": "Afrishine Hub",
+   "aliases": [
+    "Afrishine Hub"
+   ],
+   "keys": [
+    "n:afrishinehub"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Afrishine/afrishine-hub-testnet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "alchemyl2": {
    "id": "alchemyl2",
    "name": "Alchemy L2",
