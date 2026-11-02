@@ -12317,12 +12317,16 @@
     "n:rabbitchain"
    ],
    "firstSeen": "2026-09-22",
-   "lastActivity": "2026-09-24",
-   "stage": "testnet",
+   "lastActivity": "2026-11-02",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-09-24"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-02"
     }
    ],
    "evidence": [
@@ -12344,6 +12348,15 @@
      "what": "viem: testnet · ID 9280",
      "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/rabbitChainTestnet.ts",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x3455ff1c…",
+     "url": "https://explorer-testnet.rabbitchain.org/address/0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -12358,12 +12371,24 @@
    "explorer": "https://explorer-testnet.rabbitchain.org",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: RPC antwoordt · ID 9280)"
+    "draaiend netwerk aangetoond (ethlists-commit: RPC antwoordt · ID 9280)",
+    "DEX op de chain gevonden"
    ],
    "families": [
     "register",
-    "code"
-   ]
+    "code",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-02"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "rayls": {
    "id": "rayls",
