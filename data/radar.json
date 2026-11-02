@@ -4475,6 +4475,18 @@
    "date": "2026-11-02"
   },
   {
+   "key": "pr:bitcoin/bips#2341",
+   "title": "BIP54: correct the block interval figure in footnote 4",
+   "url": "https://github.com/bitcoin/bips/pull/2341",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
    "key": "pr:ethereum/eips#12608",
    "title": "Update EIP-8148: change request type to 0x06",
    "url": "https://github.com/ethereum/EIPs/pull/12608",
@@ -4490,6 +4502,54 @@
    "key": "pr:ethereum/eips#12609",
    "title": "Add EIP: Post-Quantum Material Registration",
    "url": "https://github.com/ethereum/EIPs/pull/12609",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/eips#12610",
+   "title": "Add ML DSA 65 and 87 verify vectors and reject cases for EIP 8355",
+   "url": "https://github.com/ethereum/EIPs/pull/12610",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/eips#12611",
+   "title": "Update EIP-7928: specify static-context halts before pre-state validation",
+   "url": "https://github.com/ethereum/EIPs/pull/12611",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/eips#12612",
+   "title": "Update EIP-8038: map the EIP-7928 pre-state gas table to the new constants",
+   "url": "https://github.com/ethereum/EIPs/pull/12612",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/eips#12613",
+   "title": "Update EIP-7708: cover contract-creation transactions and reverted frames",
+   "url": "https://github.com/ethereum/EIPs/pull/12613",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-02"
@@ -4527,6 +4587,18 @@
    "key": "pr:ethereum/ercs#2139",
    "title": "Update ERC-8259: calculateTrustScore MUST use getEffectiveTier, add T8 conformance test",
    "url": "https://github.com/ethereum/ERCs/pull/2139",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/ercs#2140",
+   "title": "Update ERC-8348: normative payment-path liveness",
+   "url": "https://github.com/ethereum/ERCs/pull/2140",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-02"
@@ -4895,6 +4967,7 @@
    "pr:bitcoin/bips#2338",
    "pr:bitcoin/bips#2339",
    "pr:bitcoin/bips#2340",
+   "pr:bitcoin/bips#2341",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -4929,6 +5002,10 @@
    "pr:ethereum/eips#12605",
    "pr:ethereum/eips#12608",
    "pr:ethereum/eips#12609",
+   "pr:ethereum/eips#12610",
+   "pr:ethereum/eips#12611",
+   "pr:ethereum/eips#12612",
+   "pr:ethereum/eips#12613",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -4965,6 +5042,7 @@
    "pr:ethereum/ercs#2137",
    "pr:ethereum/ercs#2138",
    "pr:ethereum/ercs#2139",
+   "pr:ethereum/ercs#2140",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
