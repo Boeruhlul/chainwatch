@@ -4280,6 +4280,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30175",
+   "title": "How Arbitrum's freezes send transactions from an address without its key",
+   "url": "https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:ethresear.ch:26208",
    "title": "It's time to scale the trust: EIP-8288 on OP Stack",
    "url": "https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208",
@@ -4293,6 +4307,20 @@
    "src": "forums",
    "date": "2026-11-02",
    "dossier": null
+  },
+  {
+   "key": "forum:forum.polygon.technology:22482",
+   "title": "8 Supply Chain Management Software Development Vendors Reviewed for Retail and Distribution Teams",
+   "url": "https://forum.polygon.technology/t/8-supply-chain-management-software-development-vendors-reviewed-for-retail-and-distribution-teams/22482",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
   },
   {
    "key": "pr:ethereum/ercs#2137",
@@ -4568,6 +4596,7 @@
    "forum:ethereum-magicians.org:30162",
    "forum:ethereum-magicians.org:30167",
    "forum:ethereum-magicians.org:30170",
+   "forum:ethereum-magicians.org:30175",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -4606,6 +4635,7 @@
    "forum:forum.polygon.technology:22442",
    "forum:forum.polygon.technology:22443",
    "forum:forum.polygon.technology:22447",
+   "forum:forum.polygon.technology:22482",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
