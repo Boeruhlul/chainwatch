@@ -10977,6 +10977,54 @@
     "register"
    ]
   },
+  "pinch": {
+   "id": "pinch",
+   "name": "Pinch",
+   "aliases": [
+    "Pinch"
+   ],
+   "keys": [
+    "d:nip.io",
+    "id:5261646",
+    "n:pinch"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 5261646",
+     "url": "https://github.com/ethereum-lists/chains/pull/9009",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "5261646"
+   ],
+   "website": "https://nip.io",
+   "architecture": "EVM",
+   "github": "https://github.com/cunnie",
+   "rpc": [
+    "https://167-233-120-69.nip.io/rpc"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "plus": {
    "id": "plus",
    "name": "PLUS",
