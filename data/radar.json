@@ -4362,6 +4362,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:ethereum-magicians.org:30184",
+   "title": "Draft EIP: Higher-Security Curve for BLS Signatures",
+   "url": "https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:ethresear.ch:26208",
    "title": "It's time to scale the trust: EIP-8288 on OP Stack",
    "url": "https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208",
@@ -4375,6 +4389,20 @@
    "src": "forums",
    "date": "2026-11-02",
    "dossier": null
+  },
+  {
+   "key": "forum:ethresear.ch:26211",
+   "title": "Why searchers and builders like candle auctions (and why it matters for the builder market post-Glamsterdam)",
+   "url": "https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
   },
   {
    "key": "forum:forum.polygon.technology:22482",
@@ -4696,6 +4724,7 @@
    "forum:ethereum-magicians.org:30177",
    "forum:ethereum-magicians.org:30178",
    "forum:ethereum-magicians.org:30181",
+   "forum:ethereum-magicians.org:30184",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -4712,6 +4741,7 @@
    "forum:ethresear.ch:26202",
    "forum:ethresear.ch:26205",
    "forum:ethresear.ch:26208",
+   "forum:ethresear.ch:26211",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
