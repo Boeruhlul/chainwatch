@@ -1,4 +1,7 @@
 {
+  "github-discovery": {
+    "ok": true
+  },
   "funding-rss": {
     "ok": true
   },
@@ -59,9 +62,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "github-discovery": {
-    "ok": true
   },
   "research": {
     "ok": true
