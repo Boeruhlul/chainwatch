@@ -10990,10 +10990,14 @@
    ],
    "firstSeen": "2026-11-02",
    "lastActivity": "2026-11-02",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-02"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-02"
     }
    ],
@@ -11006,6 +11010,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 5261646",
      "url": "https://github.com/ethereum-lists/chains/pull/9009",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 5261646",
+     "url": "https://github.com/ethereum-lists/chains/pull/9009",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -11017,13 +11030,14 @@
    "rpc": [
     "https://167-233-120-69.nip.io/rpc"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 5261646)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://167-233-120-69.nip.io/rpc"
   },
   "plus": {
    "id": "plus",
