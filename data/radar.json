@@ -4447,6 +4447,30 @@
    "date": "2026-11-02"
   },
   {
+   "key": "pr:ethereum/eips#12608",
+   "title": "Update EIP-8148: change request type to 0x06",
+   "url": "https://github.com/ethereum/EIPs/pull/12608",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/eips#12609",
+   "title": "Add EIP: Post-Quantum Material Registration",
+   "url": "https://github.com/ethereum/EIPs/pull/12609",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
    "key": "pr:ethereum/ercs#2137",
    "title": "Update ERC-8259: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2137",
@@ -4463,6 +4487,18 @@
    "key": "pr:ethereum/ercs#2138",
    "title": "Update ERC-8259: add incident lifecycle (IncidentStatus, retractAttack, …",
    "url": "https://github.com/ethereum/ERCs/pull/2138",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
+  },
+  {
+   "key": "pr:ethereum/ercs#2139",
+   "title": "Update ERC-8259: calculateTrustScore MUST use getEffectiveTier, add T8 conformance test",
+   "url": "https://github.com/ethereum/ERCs/pull/2139",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-02"
@@ -4861,6 +4897,8 @@
    "pr:ethereum/eips#12603",
    "pr:ethereum/eips#12604",
    "pr:ethereum/eips#12605",
+   "pr:ethereum/eips#12608",
+   "pr:ethereum/eips#12609",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -4896,6 +4934,7 @@
    "pr:ethereum/ercs#2136",
    "pr:ethereum/ercs#2137",
    "pr:ethereum/ercs#2138",
+   "pr:ethereum/ercs#2139",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
