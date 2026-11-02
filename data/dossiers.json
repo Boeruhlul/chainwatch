@@ -4907,7 +4907,7 @@
     "n:gnoland"
    ],
    "firstSeen": "2026-10-21",
-   "lastActivity": "2026-10-21",
+   "lastActivity": "2026-11-02",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -4925,6 +4925,16 @@
      "url": "https://defillama.com/chain/Gno.land",
      "strength": "technical",
      "noRpc": true
+    },
+    {
+     "date": "2026-11-02",
+     "source": "coingecko",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "coingecko: mainnet",
+     "url": "https://www.coingecko.com/en/chains/gno-land",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "mainnetSince": "2026-10-21",
