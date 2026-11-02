@@ -4495,7 +4495,7 @@
     "n:upbitl2"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-11-01",
+   "lastActivity": "2026-11-02",
    "stage": "draait",
    "stageHistory": [
     {
@@ -4515,15 +4515,6 @@
      "kind": "testnet",
      "what": "superchain: testnet · ID 91342",
      "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia/giwa",
-     "strength": "running"
-    },
-    {
-     "date": "2026-10-28",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v3-fork) 0x60e5921a…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x60e5921aacc5d6360ca1540197bb721669c3f133",
      "strength": "running"
     },
     {
@@ -4777,6 +4768,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xef441290…",
      "url": "https://sepolia-explorer.giwa.io/address/0xef441290a61d5587fd745462ffb673098a7d6f7c",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x386f640d…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x386f640d0f943cd454fc283e9cef719525d499ac",
      "strength": "running"
     }
    ],
