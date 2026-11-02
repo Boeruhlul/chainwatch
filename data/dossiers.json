@@ -4660,16 +4660,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-10-28",
-     "source": "research",
-     "family": "onderzoek",
-     "kind": "research",
-     "what": "research: onderzoek",
-     "url": "https://crypto.news/upbit-backed-giwa-says-mainnet-is-not-live-denies-rpc-leak/",
-     "stage": "testnet",
-     "strength": "soft"
-    },
-    {
      "date": "2026-10-29",
      "source": "ecosystem",
      "family": "onchain",
@@ -4914,6 +4904,15 @@
     },
     {
      "date": "2026-11-02",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa16c57dc…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xa16c57dc50c585d0779c27c0c823336117e942b9",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-02",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -4939,8 +4938,8 @@
    ],
    "families": [
     "register",
-    "onderzoek",
-    "onchain"
+    "onchain",
+    "onderzoek"
    ],
    "website": "https://giwa.io",
    "research": {
