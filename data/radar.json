@@ -4306,6 +4306,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:delvingbitcoin.org:3026",
+   "title": "Full OP_RETURN value pruning",
+   "url": "https://delvingbitcoin.org/t/full-op-return-value-pruning/3026",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30175",
    "title": "How Arbitrum's freezes send transactions from an address without its key",
    "url": "https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175",
@@ -4831,6 +4845,7 @@
    "forum:delvingbitcoin.org:3012",
    "forum:delvingbitcoin.org:3014",
    "forum:delvingbitcoin.org:3019",
+   "forum:delvingbitcoin.org:3026",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
