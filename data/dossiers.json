@@ -15859,6 +15859,48 @@
     "register"
    ]
   },
+  "zigchainevm": {
+   "id": "zigchainevm",
+   "name": "ZIGChain EVM",
+   "aliases": [
+    "ZIGChain EVM"
+   ],
+   "keys": [
+    "id:944",
+    "n:zigchainevm"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID eip155:944",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1589",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "eip155:944"
+   ],
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "zigchaintestnetevm": {
    "id": "zigchaintestnetevm",
    "name": "ZIGChain Testnet EVM",
