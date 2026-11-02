@@ -4379,6 +4379,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:forum.zknation.io:1295",
+   "title": "DTCC Tokenization Service is live",
+   "url": "https://forum.zknation.io/t/dtcc-tokenization-service-is-live/1295",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "pr:ethereum/ercs#2137",
    "title": "Update ERC-8259: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2137",
@@ -4390,6 +4404,18 @@
    "src": "proposals",
    "date": "2026-11-02",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2138",
+   "title": "Update ERC-8259: add incident lifecycle (IncidentStatus, retractAttack, …",
+   "url": "https://github.com/ethereum/ERCs/pull/2138",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-02"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-02"
   }
  ],
  "seen": {
@@ -4704,6 +4730,7 @@
    "forum:forum.zknation.io:1241",
    "forum:forum.zknation.io:1248",
    "forum:forum.zknation.io:1271",
+   "forum:forum.zknation.io:1295",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
@@ -4810,6 +4837,7 @@
    "pr:ethereum/ercs#2135",
    "pr:ethereum/ercs#2136",
    "pr:ethereum/ercs#2137",
+   "pr:ethereum/ercs#2138",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
