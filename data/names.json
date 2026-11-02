@@ -2548,6 +2548,7 @@
   "mainnetz:main",
   "mainnetz:test",
   "maistestsubnet:main",
+  "majorblackperch:test",
   "makeprvalidationsafeforexternalforks:pre",
   "makichain:main",
   "malnetwork:test",
