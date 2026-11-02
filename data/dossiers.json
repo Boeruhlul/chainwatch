@@ -273,6 +273,45 @@
     "register"
    ]
   },
+  "aleo": {
+   "id": "aleo",
+   "name": "Aleo",
+   "aliases": [
+    "Aleo"
+   ],
+   "keys": [
+    "n:aleo"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "coingecko",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "coingecko: mainnet",
+     "url": "https://www.coingecko.com/en/chains/aleo",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "mainnetSince": "2026-11-02",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "animica": {
    "id": "animica",
    "name": "Animica",
