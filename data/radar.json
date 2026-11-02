@@ -4433,6 +4433,20 @@
    "date": "2026-11-02"
   },
   {
+   "key": "forum:ethresear.ch:26212",
+   "title": "Storage-optimized replay protection: from hash => bool to packed flag lanes, and can the protocol offer better?",
+   "url": "https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-02",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-02"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31632",
    "title": "November 3, 2026 - Open Discussion of Proposals Governance Call",
    "url": "https://forum.arbitrum.foundation/t/november-3-2026-open-discussion-of-proposals-governance-call/31632",
@@ -4908,6 +4922,7 @@
    "forum:ethresear.ch:26205",
    "forum:ethresear.ch:26208",
    "forum:ethresear.ch:26211",
+   "forum:ethresear.ch:26212",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
