@@ -3721,6 +3721,43 @@
    ],
    "website": "https://ascendlaunch.xyz"
   },
+  "empiricalsolana": {
+   "id": "empiricalsolana",
+   "name": "Empirical Solana",
+   "aliases": [
+    "Empirical Solana"
+   ],
+   "keys": [
+    "n:empiricalsolana"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/chusmias258-dev/solana-validator-tx-ordering",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "eninetwork": {
    "id": "eninetwork",
    "name": "ENI Network",
@@ -12916,6 +12953,44 @@
    ],
    "liveRpc": "https://rpc.rwa-chain.io"
   },
+  "safeneytavchain": {
+   "id": "safeneytavchain",
+   "name": "safeney/Tavchain",
+   "aliases": [
+    "safeney/Tavchain"
+   ],
+   "keys": [
+    "gh:safeney"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/safeney/Tavchain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "scdoshard0": {
    "id": "scdoshard0",
    "name": "SCDO Shard 0",
@@ -13926,6 +14001,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "tavchain": {
+   "id": "tavchain",
+   "name": "Tavchain",
+   "aliases": [
+    "Tavchain"
+   ],
+   "keys": [
+    "n:tavchain"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/safeney/Tavchain",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "tempo": {
