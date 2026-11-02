@@ -5976,6 +5976,45 @@
     "code"
    ]
   },
+  "larajefticmemechain": {
+   "id": "larajefticmemechain",
+   "name": "larajeftic/memechain",
+   "aliases": [
+    "larajeftic/memechain"
+   ],
+   "keys": [
+    "gh:larajeftic"
+   ],
+   "firstSeen": "2026-11-02",
+   "lastActivity": "2026-11-02",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-02"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-02",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/larajeftic/memechain",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://larajeftic.github.io/memechain/",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "layerk": {
    "id": "layerk",
    "name": "LayerK",
