@@ -4634,6 +4634,47 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-02"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30195",
+   "title": "Devcon city name for Execution Layer upgrade after Bogotá",
+   "url": "https://ethereum-magicians.org/t/devcon-city-name-for-execution-layer-upgrade-after-bogota/30195",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "immunefi:plether",
+   "title": "Audit Competition | Plether",
+   "url": "https://immunefi.com/bug-bounty/plether/",
+   "meta": {
+    "launched": "2026-11-02",
+    "ecosystem": "Arbitrum",
+    "type": "",
+    "max": 80000,
+    "website": "https://plether.com"
+   },
+   "cat": "bounty",
+   "src": "immunefi",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "job:greenhouse:okx:8157974003",
+   "title": "OKX: Senior/Staff Engineer - Blockchain Parsing ",
+   "url": "https://job-boards.greenhouse.io/okx/jobs/8157974003",
+   "meta": {
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-03"
   }
  ],
  "seen": {
@@ -4905,6 +4946,7 @@
    "forum:ethereum-magicians.org:30181",
    "forum:ethereum-magicians.org:30184",
    "forum:ethereum-magicians.org:30186",
+   "forum:ethereum-magicians.org:30195",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -4963,7 +5005,8 @@
    "forum:gov.optimism.io:10940"
   ],
   "immunefi": [
-   "immunefi:paxos-labs"
+   "immunefi:paxos-labs",
+   "immunefi:plether"
   ],
   "jobs": [
    "job:ashby:uniswap:9a047e27-54dd-44df-9c0c-4ca6bc2d57bf",
@@ -4975,6 +5018,7 @@
    "job:greenhouse:coinbase:8105437",
    "job:greenhouse:coinbase:8234278",
    "job:greenhouse:okx:7990958003",
+   "job:greenhouse:okx:8157974003",
    "job:greenhouse:ripple:8206128",
    "job:greenhouse:robinhood:8189213",
    "job:greenhouse:stripe:7120766",
