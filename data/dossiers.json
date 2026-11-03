@@ -4786,15 +4786,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v3-fork) 0xad475832…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xad4758327badf8cd4ad260e6f4c7f17cfb93ea85",
-     "strength": "running"
-    },
-    {
-     "date": "2026-10-29",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x9f11f837…",
      "url": "https://sepolia-explorer.giwa.io/address/0x9f11f8379a9808808542851e62950b00a44c435c",
      "strength": "running"
@@ -5024,6 +5015,15 @@
      "url": "https://www.tokenpost.com/news/technology/37935",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xfd1903c8…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xfd1903c8e8eb75f0acb6e1e7530d1c98006765cb",
+     "strength": "running"
     },
     {
      "date": "2026-11-03",
