@@ -55,9 +55,7 @@
     "ok": true
   },
   "lifi": {
-    "ok": false,
-    "error": "HTTP 404 voor https://li.quest/v1/chains?chainTypes=EVM,SVM,UTXO,MVM",
-    "failingSince": "2026-11-03T13:10:15.898Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-03T13:10:15.898Z"
   },
   "defillama": {
