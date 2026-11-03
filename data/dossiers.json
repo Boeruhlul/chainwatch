@@ -1896,6 +1896,54 @@
     "onderzoek"
    ]
   },
+  "c8ntinuum": {
+   "id": "c8ntinuum",
+   "name": "c8ntinuum",
+   "aliases": [
+    "c8ntinuum"
+   ],
+   "keys": [
+    "d:c8ntinuum.io",
+    "id:c8ntinuum_8-1",
+    "n:c8ntinuum"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID c8ntinuum_8-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1590",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "c8ntinuum_8-1"
+   ],
+   "website": "https://c8ntinuum.io",
+   "architecture": "Cosmos",
+   "github": "https://github.com/c8ntinuum",
+   "rpc": [
+    "https://public-comet-grpc-web.c8ntinuum.io"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "candychain": {
    "id": "candychain",
    "name": "CandyChain",

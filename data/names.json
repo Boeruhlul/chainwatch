@@ -727,6 +727,7 @@
   "c4ei:test",
   "c4exnet:main",
   "c8ntinuum:main",
+  "c8ntinuum:pre",
   "c8ntinuum:test",
   "c9xchain:main",
   "cabal:main",
