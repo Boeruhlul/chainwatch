@@ -4746,6 +4746,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30269",
+   "title": "EIP-8477: Recent Block Bound Delegation Authorizations",
+   "url": "https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31634",
    "title": "[Final Report] zkArb SDK — Dev Tooling on One and Stylus (D.A.O. Season 3)",
    "url": "https://forum.arbitrum.foundation/t/final-report-zkarb-sdk-dev-tooling-on-one-and-stylus-d-a-o-season-3/31634",
@@ -4885,6 +4899,18 @@
    "src": "jobs",
    "date": "2026-11-03",
    "dossier": null
+  },
+  {
+   "key": "pr:bitcoin/bips#2342",
+   "title": "BIP34: clarify encoding for early blocks",
+   "url": "https://github.com/bitcoin/bips/pull/2342",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-03"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-03"
   },
   {
    "key": "pr:ethereum/ercs#2141",
@@ -5189,6 +5215,7 @@
    "forum:ethereum-magicians.org:30186",
    "forum:ethereum-magicians.org:30195",
    "forum:ethereum-magicians.org:30258",
+   "forum:ethereum-magicians.org:30269",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -5292,6 +5319,7 @@
    "pr:bitcoin/bips#2339",
    "pr:bitcoin/bips#2340",
    "pr:bitcoin/bips#2341",
+   "pr:bitcoin/bips#2342",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
