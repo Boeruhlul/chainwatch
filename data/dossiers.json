@@ -15418,6 +15418,44 @@
     "register"
    ]
   },
+  "whitechain": {
+   "id": "whitechain",
+   "name": "whitechain",
+   "aliases": [
+    "whitechain"
+   ],
+   "keys": [
+    "n:whitechain"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/whitechain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "wirefluid": {
    "id": "wirefluid",
    "name": "WireFluid",
