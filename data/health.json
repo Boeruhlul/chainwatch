@@ -48,9 +48,7 @@
     "lastNotifiedAt": "2026-10-22T04:05:40.064Z"
   },
   "blockscout": {
-    "ok": false,
-    "error": "This operation was aborted",
-    "failingSince": "2026-11-03T04:50:16.620Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-03T03:30:15.625Z"
   },
   "glacier": {

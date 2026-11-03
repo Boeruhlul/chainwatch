@@ -7391,6 +7391,50 @@
     "register"
    ]
   },
+  "morphtachyon": {
+   "id": "morphtachyon",
+   "name": "Morph Tachyon",
+   "aliases": [
+    "Morph Tachyon"
+   ],
+   "keys": [
+    "id:2184",
+    "n:morphtachyon"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "coingecko",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "coingecko: mainnet · ID 2184",
+     "url": "https://www.coingecko.com/en/chains/morph-tachyon",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "2184"
+   ],
+   "architecture": "EVM",
+   "mainnetSince": "2026-11-03",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "mstcoral": {
    "id": "mstcoral",
    "name": "MST Coral",
