@@ -5783,6 +5783,43 @@
     "onderzoek"
    ]
   },
+  "knowledgebitcoin": {
+   "id": "knowledgebitcoin",
+   "name": "Knowledge Bitcoin",
+   "aliases": [
+    "Knowledge Bitcoin"
+   ],
+   "keys": [
+    "n:knowledgebitcoin"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/relsun369-dev/reltime-mcp",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "konstellation": {
    "id": "konstellation",
    "name": "Konstellation",
