@@ -13916,6 +13916,43 @@
    ],
    "mainnetSince": "2026-10-29"
   },
+  "squeekwars": {
+   "id": "squeekwars",
+   "name": "Squeek Wars",
+   "aliases": [
+    "Squeek Wars"
+   ],
+   "keys": [
+    "n:squeekwars"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/identity-md-launches/launch-2935-launch-squeek-wars-testnet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "srcchain": {
    "id": "srcchain",
    "name": "SRC Chain",
