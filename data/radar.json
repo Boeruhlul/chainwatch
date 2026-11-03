@@ -4732,6 +4732,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.zknation.io:1299",
+   "title": "Prividium completes SOC 2 Type II examination",
+   "url": "https://forum.zknation.io/t/prividium-completes-soc-2-type-ii-examination/1299",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
    "key": "immunefi:plether",
    "title": "Audit Competition | Plether",
    "url": "https://immunefi.com/bug-bounty/plether/",
@@ -5100,6 +5114,7 @@
    "forum:forum.zknation.io:1248",
    "forum:forum.zknation.io:1271",
    "forum:forum.zknation.io:1295",
+   "forum:forum.zknation.io:1299",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
