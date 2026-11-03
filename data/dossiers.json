@@ -6052,6 +6052,48 @@
     "github"
    ]
   },
+  "lattice": {
+   "id": "lattice",
+   "name": "Lattice",
+   "aliases": [
+    "Lattice"
+   ],
+   "keys": [
+    "id:141421",
+    "n:lattice"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 141421",
+     "url": "https://github.com/ethereum-lists/chains/pull/9011",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "141421"
+   ],
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "layerk": {
    "id": "layerk",
    "name": "LayerK",
