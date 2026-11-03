@@ -10589,6 +10589,43 @@
     "register"
    ]
   },
+  "pacific": {
+   "id": "pacific",
+   "name": "Pacific",
+   "aliases": [
+    "Pacific"
+   ],
+   "keys": [
+    "n:pacific"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/JimmyOgb/pharos-docs-chain-agent",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "peercash": {
    "id": "peercash",
    "name": "PeerCash",
@@ -16320,6 +16357,6 @@
  },
  "outbox": [],
  "digest": {
-  "lastSent": "2026-11-02"
+  "lastSent": "2026-11-03"
  }
 }
