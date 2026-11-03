@@ -14909,6 +14909,44 @@
     "onderzoek"
    ]
   },
+  "valeryzeitaevm": {
+   "id": "valeryzeitaevm",
+   "name": "valeryz/eita-evm",
+   "aliases": [
+    "valeryz/eita-evm"
+   ],
+   "keys": [
+    "gh:valeryz"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/valeryz/eita-evm",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "valuechain": {
    "id": "valuechain",
    "name": "ValueChain",
