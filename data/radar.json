@@ -4660,6 +4660,20 @@
    "date": "2026-11-03"
   },
   {
+   "key": "forum:delvingbitcoin.org:3027",
+   "title": "Direct Messages (DMs)",
+   "url": "https://delvingbitcoin.org/t/direct-messages-dms/3027",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30195",
    "title": "Devcon city name for Execution Layer upgrade after Bogotá",
    "url": "https://ethereum-magicians.org/t/devcon-city-name-for-execution-layer-upgrade-after-bogota/30195",
@@ -4668,6 +4682,20 @@
     "created": "2026-11-03",
     "posts": 1,
     "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30258",
+   "title": "ERC idea: NFT Controlled Application Spaces from Voiddeeds",
+   "url": "https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 10
    },
    "cat": "techniek",
    "src": "forums",
@@ -4939,6 +4967,7 @@
    "forum:delvingbitcoin.org:3014",
    "forum:delvingbitcoin.org:3019",
    "forum:delvingbitcoin.org:3026",
+   "forum:delvingbitcoin.org:3027",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -4985,6 +5014,7 @@
    "forum:ethereum-magicians.org:30184",
    "forum:ethereum-magicians.org:30186",
    "forum:ethereum-magicians.org:30195",
+   "forum:ethereum-magicians.org:30258",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",

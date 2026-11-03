@@ -12,7 +12,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — testnet-rpc.%: fetch failed; rpc-mainnet.%: fetch failed",
+    "failingSince": "2026-11-03T04:40:17.208Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -48,9 +50,7 @@
     "lastNotifiedAt": "2026-10-22T04:05:40.064Z"
   },
   "blockscout": {
-    "ok": false,
-    "error": "This operation was aborted",
-    "failingSince": "2026-11-03T03:30:15.625Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-03T03:30:15.625Z"
   },
   "glacier": {
