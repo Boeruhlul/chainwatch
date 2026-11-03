@@ -4746,6 +4746,20 @@
    "date": "2026-11-03"
   },
   {
+   "key": "forum:forum.celestia.org:2328",
+   "title": "Introducing SnapsVault, an open snapshot marketplace for Celestia",
+   "url": "https://forum.celestia.org/t/introducing-snapsvault-an-open-snapshot-marketplace-for-celestia/2328",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-11-02",
+    "posts": 3,
+    "views": 13
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
    "key": "forum:forum.zknation.io:1299",
    "title": "Prividium completes SOC 2 Type II examination",
    "url": "https://forum.zknation.io/t/prividium-completes-soc-2-type-ii-examination/1299",
@@ -4754,6 +4768,62 @@
     "created": "2026-11-03",
     "posts": 1,
     "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:forum.zknation.io:1301",
+   "title": "Can't withdraw from zksync lite. No claim button.",
+   "url": "https://forum.zknation.io/t/cant-withdraw-from-zksync-lite-no-claim-button/1301",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:forum.zknation.io:1302",
+   "title": "Zk nation withdrawal on pending ",
+   "url": "https://forum.zknation.io/t/zk-nation-withdrawal-on-pending/1302",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:forum.zknation.io:1303",
+   "title": "Zk issues pending ",
+   "url": "https://forum.zknation.io/t/zk-issues-pending/1303",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:forum.zknation.io:1304",
+   "title": "Urgent: 46,995 ZK Accidentally Transferred to the Official ZK Token Contract – Request for Recovery Assistance",
+   "url": "https://forum.zknation.io/t/urgent-46-995-zk-accidentally-transferred-to-the-official-zk-token-contract-request-for-recovery-assistance/1304",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 4
    },
    "cat": "techniek",
    "src": "forums",
@@ -4800,6 +4870,20 @@
    "src": "proposals",
    "date": "2026-11-03",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xADe27248542c0F3E89b49e4eB76155e267F14377",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0xADe27248542c0F3E89b49e4eB76155e267F14377",
+    "verified": "2026-11-03"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-03"
   }
  ],
  "seen": {
@@ -5104,6 +5188,7 @@
    "forum:forum.arbitrum.foundation:31633",
    "forum:forum.arbitrum.foundation:31634",
    "forum:forum.celestia.org:2324",
+   "forum:forum.celestia.org:2328",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
@@ -5130,6 +5215,10 @@
    "forum:forum.zknation.io:1271",
    "forum:forum.zknation.io:1295",
    "forum:forum.zknation.io:1299",
+   "forum:forum.zknation.io:1301",
+   "forum:forum.zknation.io:1302",
+   "forum:forum.zknation.io:1303",
+   "forum:forum.zknation.io:1304",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
@@ -5257,6 +5346,8 @@
    "pr:solana-foundation/solana-improvement-documents#714",
    "pr:solana-foundation/solana-improvement-documents#715"
   ],
-  "verified-contracts": []
+  "verified-contracts": [
+   "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377"
+  ]
  }
 }
