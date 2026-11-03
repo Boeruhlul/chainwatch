@@ -4687,6 +4687,18 @@
    "cat": "vacature",
    "src": "jobs",
    "date": "2026-11-03"
+  },
+  {
+   "key": "pr:ethereum/ercs#2141",
+   "title": "Update ERC-8259: executable verification-expiry tests",
+   "url": "https://github.com/ethereum/ERCs/pull/2141",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-03"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-03"
   }
  ],
  "seen": {
@@ -5130,6 +5142,7 @@
    "pr:ethereum/ercs#2138",
    "pr:ethereum/ercs#2139",
    "pr:ethereum/ercs#2140",
+   "pr:ethereum/ercs#2141",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
