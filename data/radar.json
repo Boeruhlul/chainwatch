@@ -4636,6 +4636,18 @@
    "date": "2026-11-02"
   },
   {
+   "key": "chaincontract:giwasepolia:0xd4fb2ba5e0fbe03f9c9a67ebf64d72babca37a31",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GamaLaunchpad op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xd4fb2ba5e0fbe03f9c9a67ebf64d72babca37a31",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xd4fb2ba5e0fbe03f9c9a67ebf64d72babca37a31"
+   },
+   "date": "2026-11-03"
+  },
+  {
    "key": "chaincontract:qms:0x343d8ab2434e24be5fa10850590ca5fa417cf29e",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -4792,6 +4804,7 @@
    "chaincontract:giwasepolia:0xbaa8c527e8f761e08e3346a74ff0afa2e795c6f2",
    "chaincontract:giwasepolia:0xbd9c8017fe6f52bbe20b7fd71442ffccdcdcc5bf",
    "chaincontract:giwasepolia:0xc94a955a40eeccecbf3f474df65d68b269dccd59",
+   "chaincontract:giwasepolia:0xd4fb2ba5e0fbe03f9c9a67ebf64d72babca37a31",
    "chaincontract:giwasepolia:0xd5e15c7ac6dd9beaa9dfe511037a06ab30df1ee9",
    "chaincontract:giwasepolia:0xdc78a5dee5ca75f3c5910e32547839480073b818",
    "chaincontract:giwasepolia:0xddf170a19f8977d0f887f4fa77b2ffefc526c54a",
