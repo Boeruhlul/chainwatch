@@ -1,7 +1,4 @@
 {
-  "github-discovery": {
-    "ok": true
-  },
   "funding-rss": {
     "ok": true
   },
@@ -48,7 +45,9 @@
     "lastNotifiedAt": "2026-10-22T04:05:40.064Z"
   },
   "blockscout": {
-    "ok": true,
+    "ok": false,
+    "error": "This operation was aborted",
+    "failingSince": "2026-11-03T05:00:17.762Z",
     "lastNotifiedAt": "2026-11-03T03:30:15.625Z"
   },
   "glacier": {
@@ -63,6 +62,9 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
+  },
+  "github-discovery": {
+    "ok": true
   },
   "research": {
     "ok": true
