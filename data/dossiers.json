@@ -4674,7 +4674,7 @@
     "n:upbitl2"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-11-02",
+   "lastActivity": "2026-11-03",
    "stage": "draait",
    "stageHistory": [
     {
@@ -4694,15 +4694,6 @@
      "kind": "testnet",
      "what": "superchain: testnet · ID 91342",
      "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia/giwa",
-     "strength": "running"
-    },
-    {
-     "date": "2026-10-29",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v2-fork) 0x412ca824…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x412ca824d3f2cd4f53981f4688330e2eadbbb6d1",
      "strength": "running"
     },
     {
@@ -4957,6 +4948,15 @@
      "url": "https://www.tokenpost.com/news/technology/37935",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x294d0bdc…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x294d0bdc102c66fb0c24c978153d885190e05695",
+     "strength": "running"
     }
    ],
    "chainIds": [
