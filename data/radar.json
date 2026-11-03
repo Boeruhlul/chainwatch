@@ -4687,6 +4687,20 @@
    "dossier": null
   },
   {
+   "key": "forum:community.starknet.io:116462",
+   "title": "Proposal: shadow accounts that can hold NFTs and prove their owner’s control",
+   "url": "https://community.starknet.io/t/proposal-shadow-accounts-that-can-hold-nfts-and-prove-their-owner-s-control/116462",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3027",
    "title": "Direct Messages (DMs)",
    "url": "https://delvingbitcoin.org/t/direct-messages-dms/3027",
@@ -4754,6 +4768,20 @@
     "created": "2026-11-02",
     "posts": 3,
     "views": 13
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-03"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22491",
+   "title": "Heimdall v0.13.2 released for Mainnet and Amoy",
+   "url": "https://forum.polygon.technology/t/heimdall-v0-13-2-released-for-mainnet-and-amoy/22491",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-03",
+    "posts": 1,
+    "views": 20
    },
    "cat": "techniek",
    "src": "forums",
@@ -5097,6 +5125,7 @@
    "forum:community.starknet.io:116446",
    "forum:community.starknet.io:116448",
    "forum:community.starknet.io:116461",
+   "forum:community.starknet.io:116462",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
@@ -5205,6 +5234,7 @@
    "forum:forum.polygon.technology:22443",
    "forum:forum.polygon.technology:22447",
    "forum:forum.polygon.technology:22482",
+   "forum:forum.polygon.technology:22491",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
