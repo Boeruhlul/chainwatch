@@ -16089,6 +16089,51 @@
     "register"
    ]
   },
+  "zerobeaconchain": {
+   "id": "zerobeaconchain",
+   "name": "Zero (Beacon Chain)",
+   "aliases": [
+    "Zero (Beacon Chain)"
+   ],
+   "keys": [
+    "d:layerzero.network",
+    "id:33000",
+    "n:zerobeaconchain"
+   ],
+   "firstSeen": "2026-11-03",
+   "lastActivity": "2026-11-03",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-03"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 33000",
+     "url": "https://github.com/ethereum-lists/chains/pull/9015",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "33000"
+   ],
+   "website": "https://layerzero.network",
+   "architecture": "EVM",
+   "github": "https://github.com/LayerZero-Labs",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "zerolayerzero": {
    "id": "zerolayerzero",
    "name": "Zero (LayerZero)",

@@ -4804,6 +4804,7 @@
   "zephyr:test",
   "zerachain:main",
   "zernetwork:main",
+  "zerobeaconchain:pre",
   "zerolayerzero:research",
   "zerone:main",
   "zeronetwork:main",
