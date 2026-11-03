@@ -93,6 +93,7 @@
   "ghrepo:anukulpandey/zcash-faucet",
   "ghrepo:anushkaa2512/employee-turnover-prediction-logistic-regression",
   "ghrepo:ararat-network/ark-sdk",
+  "ghrepo:arbtfnf/payments-api",
   "ghrepo:archtum66-dev/terra-matcher",
   "ghrepo:arianv/sokudotuners",
   "ghrepo:arifrhm/evm-security-test-suite",
@@ -206,6 +207,7 @@
   "ghrepo:dilshadb123/neon-arcade",
   "ghrepo:dimosus/retools",
   "ghrepo:dinhdu002/linked-realms",
+  "ghrepo:dipesh-tillu/l1-digital-engineer",
   "ghrepo:djcongr-byte/crypto-security-lab",
   "ghrepo:dkunall/pulsestream",
   "ghrepo:donna51283/aho-corasick-string-matcher",
@@ -869,5 +871,6 @@
   "ghrepo:zoruco/zoru-pow",
   "ghrepo:zouloupapers/audit-securite-web-xss",
   "ghrepo:zouloupapers/lab-active-directory-windows-server",
-  "ghrepo:zout/zitereenbusjeklem"
+  "ghrepo:zout/zitereenbusjeklem",
+  "ghrepo:zuemen/writ"
 ]
