@@ -5733,6 +5733,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/ercs#2145",
+   "title": "Add ERC: NFT Controlled Application Spaces",
+   "url": "https://github.com/ethereum/ERCs/pull/2145",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
   }
  ],
  "seen": {
@@ -6254,6 +6266,7 @@
    "pr:ethereum/ercs#2142",
    "pr:ethereum/ercs#2143",
    "pr:ethereum/ercs#2144",
+   "pr:ethereum/ercs#2145",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
