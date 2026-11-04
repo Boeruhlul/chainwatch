@@ -5169,6 +5169,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30276",
+   "title": "SLOTDURATION Opcode",
+   "url": "https://ethereum-magicians.org/t/slotduration-opcode/30276",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
    "key": "forum:forum.cosmos.network:17537",
    "title": "One validator switching to ML-DSA keys can stop old IBC clients of its chain",
    "url": "https://forum.cosmos.network/t/one-validator-switching-to-ml-dsa-keys-can-stop-old-ibc-clients-of-its-chain/17537",
@@ -5566,6 +5580,7 @@
    "forum:ethereum-magicians.org:30195",
    "forum:ethereum-magicians.org:30258",
    "forum:ethereum-magicians.org:30269",
+   "forum:ethereum-magicians.org:30276",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
