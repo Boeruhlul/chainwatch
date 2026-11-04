@@ -2,6 +2,9 @@
   "github-discovery": {
     "ok": true
   },
+  "funding-rss": {
+    "ok": true
+  },
   "rollup-factory": {
     "ok": true
   },
@@ -9,13 +12,13 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — mainnet-rpc.%: HTTP 502 voor https://crt.sh/?q=mainnet-rpc.%25&output=json; testnet-rpc.%: HTTP 502 voor https://crt.sh/?q=testnet-rpc.%25&output=json",
+    "failingSince": "2026-11-04T23:30:13.291Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": false,
-    "error": "HTTP 503 voor https://api.blobscan.com/transactions?ps=100",
-    "failingSince": "2026-11-04T23:20:25.643Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-04T21:05:14.547Z"
   },
   "ethlists-pr": {
@@ -63,9 +66,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "funding-rss": {
-    "ok": true
   },
   "research": {
     "ok": true
