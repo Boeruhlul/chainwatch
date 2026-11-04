@@ -4338,7 +4338,8 @@
    "aliases": [
     "FLOP Network",
     "Flop Labs",
-    "FLOP"
+    "FLOP",
+    "Flop Network"
    ],
    "keys": [
     "n:flop",
@@ -4346,7 +4347,7 @@
     "n:flopnetwork"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-11-02",
+   "lastActivity": "2026-11-04",
    "stage": "devnet",
    "stageHistory": [
     {
@@ -4378,6 +4379,15 @@
      "url": "https://pro.edgex.exchange/en-US/news/article/arthur-hayes-flop-labs-testnet-q1-mainnet",
      "stage": "devnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/alpertungax1/flop-network-toolkit",
+     "strength": "technical"
     }
    ],
    "website": "https://x.com/flop_labs",
@@ -4419,11 +4429,11 @@
    "org": "Flop Labs (CEO: Arthur Hayes)",
    "confidence": "B",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel B"
+    "2 onafhankelijke bronfamilies: onderzoek, github"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "github"
    ]
   },
   "fobixnetwork": {
