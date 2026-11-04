@@ -1,4 +1,7 @@
 {
+  "github-discovery": {
+    "ok": true
+  },
   "funding-rss": {
     "ok": true
   },
@@ -9,13 +12,13 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — rpc.testnet.%: HTTP 502 voor https://crt.sh/?q=rpc.testnet.%25&output=json; mainnet-rpc.%: tijdsbudget op",
+    "failingSince": "2026-11-04T23:10:15.909Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": false,
-    "error": "This operation was aborted",
-    "failingSince": "2026-11-04T23:00:14.748Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-04T21:05:14.547Z"
   },
   "ethlists-pr": {
@@ -63,9 +66,6 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
-  },
-  "github-discovery": {
-    "ok": true
   },
   "research": {
     "ok": true
