@@ -2850,7 +2850,8 @@
    "id": "dchat",
    "name": "DChat",
    "aliases": [
-    "DChat"
+    "DChat",
+    "dchat"
    ],
    "keys": [
     "d:dchat.online",
@@ -2858,12 +2859,16 @@
     "n:dchat"
    ],
    "firstSeen": "2026-11-01",
-   "lastActivity": "2026-11-01",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-04",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-01"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-04"
     }
    ],
    "evidence": [
@@ -2874,6 +2879,16 @@
      "kind": "proposal",
      "what": "keplr-pr: chain-ID-aanvraag · ID messaging",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1588",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/dchat",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
@@ -2891,7 +2906,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-04"
   },
   "development": {
    "id": "development",

@@ -1103,6 +1103,7 @@
   "dc:main",
   "dchain:main",
   "dchain:test",
+  "dchat:main",
   "dchat:pre",
   "dcpay:main",
   "dcpay:test",
