@@ -12269,19 +12269,26 @@
    "id": "qdayaevum",
    "name": "QDAY Aevum",
    "aliases": [
-    "QDAY Aevum"
+    "QDAY Aevum",
+    "QDay"
    ],
    "keys": [
     "d:qday.io",
+    "id:44001",
     "id:44005",
+    "n:qday",
     "n:qdayaevum"
    ],
    "firstSeen": "2026-11-04",
    "lastActivity": "2026-11-04",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-04"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-04"
     }
    ],
@@ -12291,28 +12298,50 @@
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 44001",
+     "url": "https://github.com/ethereum-lists/chains/pull/9019",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 44005",
      "url": "https://github.com/ethereum-lists/chains/pull/9018",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 44005",
+     "url": "https://github.com/ethereum-lists/chains/pull/9018",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "44005"
+    "44005",
+    "44001"
    ],
    "website": "https://qday.io",
    "architecture": "EVM",
    "github": "https://github.com/qday-io",
    "rpc": [
-    "https://rpc-test.qday.info"
+    "https://rpc-test.qday.info",
+    "https://rpc.qday.io"
    ],
    "explorer": "https://explorer-test.qday.info",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 44005)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-test.qday.info"
   },
   "qieblockchain": {
    "id": "qieblockchain",
