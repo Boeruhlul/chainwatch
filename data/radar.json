@@ -5473,6 +5473,20 @@
    "date": "2026-11-04"
   },
   {
+   "key": "forum:ethereum-magicians.org:30282",
+   "title": "Stealth ABBE over BLS12-381: Zero-Metadata Broadcast of Private Contracts & Encrypted State via EIP-4844 Blobs",
+   "url": "https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-04",
+    "posts": 2,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
    "key": "forum:forum.cosmos.network:17537",
    "title": "One validator switching to ML-DSA keys can stop old IBC clients of its chain",
    "url": "https://forum.cosmos.network/t/one-validator-switching-to-ml-dsa-keys-can-stop-old-ibc-clients-of-its-chain/17537",
@@ -5496,6 +5510,20 @@
     "created": "2026-11-04",
     "posts": 1,
     "views": 48
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "forum:gov.optimism.io:10948",
+   "title": "Upgrade 21 - Interop Readiness",
+   "url": "https://gov.optimism.io/t/upgrade-21-interop-readiness/10948",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 6
    },
    "cat": "techniek",
    "src": "forums",
@@ -6065,6 +6093,7 @@
    "forum:ethereum-magicians.org:30258",
    "forum:ethereum-magicians.org:30269",
    "forum:ethereum-magicians.org:30276",
+   "forum:ethereum-magicians.org:30282",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6130,7 +6159,8 @@
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
-   "forum:gov.optimism.io:10940"
+   "forum:gov.optimism.io:10940",
+   "forum:gov.optimism.io:10948"
   ],
   "immunefi": [
    "immunefi:paxos-labs",
