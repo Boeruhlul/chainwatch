@@ -5762,6 +5762,53 @@
    ],
    "liveRpc": "https://rpc.incentiv.io"
   },
+  "intainmarketstest": {
+   "id": "intainmarketstest",
+   "name": "IntainMarketsTest",
+   "aliases": [
+    "IntainMarketsTest"
+   ],
+   "keys": [
+    "d:intainmarkets.us",
+    "id:101122",
+    "n:intainmarketstest"
+   ],
+   "firstSeen": "2026-11-04",
+   "lastActivity": "2026-11-04",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-04"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 101122",
+     "url": "https://github.com/ethereum-lists/chains/pull/9017",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "101122"
+   ],
+   "website": "https://intainmarkets.us",
+   "architecture": "EVM",
+   "rpc": [
+    "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "iotaevm": {
    "id": "iotaevm",
    "name": "IOTA EVM",
