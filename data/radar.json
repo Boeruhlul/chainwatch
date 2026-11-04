@@ -5236,6 +5236,42 @@
    "dossier": null
   },
   {
+   "key": "pr:bitcoin/bips#2345",
+   "title": "BIP373: replace the duplicated x-only output participant vector",
+   "url": "https://github.com/bitcoin/bips/pull/2345",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:bitcoin/bips#2346",
+   "title": "BIP95: Change default P2P port to 18353",
+   "url": "https://github.com/bitcoin/bips/pull/2346",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:bitcoin/bips#2347",
+   "title": "BIP95: Change proposed Testnet 5 genesis block structure",
+   "url": "https://github.com/bitcoin/bips/pull/2347",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
    "key": "pr:ethereum/eips#12616",
    "title": "Update EIP-8141: add lean sphincs",
    "url": "https://github.com/ethereum/EIPs/pull/12616",
@@ -5264,6 +5300,102 @@
    "key": "pr:ethereum/eips#12618",
    "title": "Update EIP-7843: Add header validity rule and opcode compatibility note",
    "url": "https://github.com/ethereum/EIPs/pull/12618",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12619",
+   "title": "Add EIP: SLOTDURATION Opcode",
+   "url": "https://github.com/ethereum/EIPs/pull/12619",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12620",
+   "title": "Update EIP-7928: align per-field recording rules and pseudocode with the change rule",
+   "url": "https://github.com/ethereum/EIPs/pull/12620",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12621",
+   "title": "Update EIP-7843: state the header position and the consensus-layer check for slotNumber",
+   "url": "https://github.com/ethereum/EIPs/pull/12621",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12622",
+   "title": "Update EIP-2780: correct the floor reference and state the delegation-target warming rule",
+   "url": "https://github.com/ethereum/EIPs/pull/12622",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12623",
+   "title": "Update EIP-7708: fix gas figures and state the creation-transaction and gas rules",
+   "url": "https://github.com/ethereum/EIPs/pull/12623",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12624",
+   "title": "Update EIP-8037: correct statements contradicted by the specification",
+   "url": "https://github.com/ethereum/EIPs/pull/12624",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12625",
+   "title": "Update EIP-7778: remove the contradictory restore-to-original discount example",
+   "url": "https://github.com/ethereum/EIPs/pull/12625",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12626",
+   "title": "Update EIP-8038: qualify the ACCOUNT_WRITE rule and the worst-case-client claim",
+   "url": "https://github.com/ethereum/EIPs/pull/12626",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-04"
@@ -5701,6 +5833,9 @@
    "pr:bitcoin/bips#2342",
    "pr:bitcoin/bips#2343",
    "pr:bitcoin/bips#2344",
+   "pr:bitcoin/bips#2345",
+   "pr:bitcoin/bips#2346",
+   "pr:bitcoin/bips#2347",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -5742,6 +5877,14 @@
    "pr:ethereum/eips#12616",
    "pr:ethereum/eips#12617",
    "pr:ethereum/eips#12618",
+   "pr:ethereum/eips#12619",
+   "pr:ethereum/eips#12620",
+   "pr:ethereum/eips#12621",
+   "pr:ethereum/eips#12622",
+   "pr:ethereum/eips#12623",
+   "pr:ethereum/eips#12624",
+   "pr:ethereum/eips#12625",
+   "pr:ethereum/eips#12626",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
