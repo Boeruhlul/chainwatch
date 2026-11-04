@@ -5445,6 +5445,20 @@
    "dossier": null
   },
   {
+   "key": "forum:community.starknet.io:116465",
+   "title": "Recovering Starknet state diffs from Ethereum history after blobs expire — open-source PoC",
+   "url": "https://community.starknet.io/t/recovering-starknet-state-diffs-from-ethereum-history-after-blobs-expire-open-source-poc/116465",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30276",
    "title": "SLOTDURATION Opcode",
    "url": "https://ethereum-magicians.org/t/slotduration-opcode/30276",
@@ -5973,6 +5987,7 @@
    "forum:community.starknet.io:116448",
    "forum:community.starknet.io:116461",
    "forum:community.starknet.io:116462",
+   "forum:community.starknet.io:116465",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
