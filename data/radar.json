@@ -5046,6 +5046,42 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-03"
+  },
+  {
+   "key": "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QollapseVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b"
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "key": "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QollapseVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x832ce0be4079ec09fba228bd08295392ccd3bf35",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x832ce0be4079ec09fba228bd08295392ccd3bf35"
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "key": "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QollapseVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff"
+   },
+   "date": "2026-11-04"
   }
  ],
  "seen": {
@@ -5207,8 +5243,11 @@
    "chaincontract:qms:0x343d8ab2434e24be5fa10850590ca5fa417cf29e",
    "chaincontract:qms:0x3bfb3a99cfc498b33c876e00151df3582ce03e2c",
    "chaincontract:qms:0x487d7051845d4fe6d6c4b2055ef7d6e2d3e142df",
+   "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
+   "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
    "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
