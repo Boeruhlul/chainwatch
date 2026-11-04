@@ -5775,10 +5775,14 @@
    ],
    "firstSeen": "2026-11-04",
    "lastActivity": "2026-11-04",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-04"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-04"
     }
    ],
@@ -5791,6 +5795,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 101122",
      "url": "https://github.com/ethereum-lists/chains/pull/9017",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 101122",
+     "url": "https://github.com/ethereum-lists/chains/pull/9017",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -5801,13 +5815,14 @@
    "rpc": [
     "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 101122)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
   },
   "iotaevm": {
    "id": "iotaevm",
