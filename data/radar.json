@@ -5474,6 +5474,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.polygon.technology:22497",
+   "title": "PIP Proposal: Recovery of Funds Held in Blocked Addresses following the Polymarket and Binance Incidents",
+   "url": "https://forum.polygon.technology/t/pip-proposal-recovery-of-funds-held-in-blocked-addresses-following-the-polymarket-and-binance-incidents/22497",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 48
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
    "key": "pr:bitcoin/bips#2343",
    "title": "375: Add deputy",
    "url": "https://github.com/bitcoin/bips/pull/2343",
@@ -5693,6 +5707,18 @@
    "src": "proposals",
    "date": "2026-11-04",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2144",
+   "title": "Update ERC-8183: align reference implementation with the Specification",
+   "url": "https://github.com/ethereum/ERCs/pull/2144",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
   }
  ],
  "seen": {
@@ -6059,6 +6085,7 @@
    "forum:forum.polygon.technology:22447",
    "forum:forum.polygon.technology:22482",
    "forum:forum.polygon.technology:22491",
+   "forum:forum.polygon.technology:22497",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
@@ -6211,6 +6238,7 @@
    "pr:ethereum/ercs#2141",
    "pr:ethereum/ercs#2142",
    "pr:ethereum/ercs#2143",
+   "pr:ethereum/ercs#2144",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
