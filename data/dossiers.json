@@ -12265,6 +12265,55 @@
    },
    "org": "Ritual (Niraj Pant, Akilesh Potti)"
   },
+  "qdayaevum": {
+   "id": "qdayaevum",
+   "name": "QDAY Aevum",
+   "aliases": [
+    "QDAY Aevum"
+   ],
+   "keys": [
+    "d:qday.io",
+    "id:44005",
+    "n:qdayaevum"
+   ],
+   "firstSeen": "2026-11-04",
+   "lastActivity": "2026-11-04",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-04"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 44005",
+     "url": "https://github.com/ethereum-lists/chains/pull/9018",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "44005"
+   ],
+   "website": "https://qday.io",
+   "architecture": "EVM",
+   "github": "https://github.com/qday-io",
+   "rpc": [
+    "https://rpc-test.qday.info"
+   ],
+   "explorer": "https://explorer-test.qday.info",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "qieblockchain": {
    "id": "qieblockchain",
    "name": "QIE Blockchain",
