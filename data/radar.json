@@ -5096,6 +5096,20 @@
    "date": "2026-11-04"
   },
   {
+   "key": "forum:forum.cosmos.network:17537",
+   "title": "One validator switching to ML-DSA keys can stop old IBC clients of its chain",
+   "url": "https://forum.cosmos.network/t/one-validator-switching-to-ml-dsa-keys-can-stop-old-ibc-clients-of-its-chain/17537",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-04"
+  },
+  {
    "key": "pr:bitcoin/bips#2343",
    "title": "375: Add deputy",
    "url": "https://github.com/bitcoin/bips/pull/2343",
@@ -5108,9 +5122,45 @@
    "date": "2026-11-04"
   },
   {
+   "key": "pr:bitcoin/bips#2344",
+   "title": "BIP54: Add a footnote mentioning the rule-out of forward block",
+   "url": "https://github.com/bitcoin/bips/pull/2344",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/eips#12616",
+   "title": "Update EIP-8141: add lean sphincs",
+   "url": "https://github.com/ethereum/EIPs/pull/12616",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
    "key": "pr:ethereum/ercs#2142",
    "title": "Update ERC-8259: require isActive check in getEffectiveTier, isVerified, calculateTrustScore",
    "url": "https://github.com/ethereum/ERCs/pull/2142",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/ercs#2143",
+   "title": "Update ERC-8259: test inactive-agent invariants",
+   "url": "https://github.com/ethereum/ERCs/pull/2143",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-04"
@@ -5447,6 +5497,7 @@
    "forum:forum.cosmos.network:17515",
    "forum:forum.cosmos.network:17517",
    "forum:forum.cosmos.network:17520",
+   "forum:forum.cosmos.network:17537",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -5514,6 +5565,7 @@
    "pr:bitcoin/bips#2341",
    "pr:bitcoin/bips#2342",
    "pr:bitcoin/bips#2343",
+   "pr:bitcoin/bips#2344",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -5552,6 +5604,7 @@
    "pr:ethereum/eips#12611",
    "pr:ethereum/eips#12612",
    "pr:ethereum/eips#12613",
+   "pr:ethereum/eips#12616",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -5591,6 +5644,7 @@
    "pr:ethereum/ercs#2140",
    "pr:ethereum/ercs#2141",
    "pr:ethereum/ercs#2142",
+   "pr:ethereum/ercs#2143",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
