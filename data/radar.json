@@ -5175,6 +5175,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12617",
+   "title": "Update EIP-8141: exclude calldata cost from MAX_VERIFY_GAS",
+   "url": "https://github.com/ethereum/EIPs/pull/12617",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
    "key": "pr:ethereum/ercs#2142",
    "title": "Update ERC-8259: require isActive check in getEffectiveTier, isVerified, calculateTrustScore",
    "url": "https://github.com/ethereum/ERCs/pull/2142",
@@ -5636,6 +5648,7 @@
    "pr:ethereum/eips#12612",
    "pr:ethereum/eips#12613",
    "pr:ethereum/eips#12616",
+   "pr:ethereum/eips#12617",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
