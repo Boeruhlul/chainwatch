@@ -2,9 +2,6 @@
   "github-discovery": {
     "ok": true
   },
-  "funding-rss": {
-    "ok": true
-  },
   "rollup-factory": {
     "ok": true
   },
@@ -16,7 +13,9 @@
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": true,
+    "ok": false,
+    "error": "HTTP 503 voor https://api.blobscan.com/transactions?ps=100",
+    "failingSince": "2026-11-04T23:20:25.643Z",
     "lastNotifiedAt": "2026-11-04T21:05:14.547Z"
   },
   "ethlists-pr": {
@@ -64,6 +63,9 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
+  },
+  "funding-rss": {
+    "ok": true
   },
   "research": {
     "ok": true
