@@ -5069,6 +5069,30 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GiwaLaunchpad op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22"
+   },
+   "date": "2026-11-04"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xde7f839d4eab1868b83b6057778d65b14be8d233",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GiwaLaunchpadLens op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xde7f839d4eab1868b83b6057778d65b14be8d233",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xde7f839d4eab1868b83b6057778d65b14be8d233"
+   },
+   "date": "2026-11-04"
+  },
+  {
    "key": "chaincontract:qms:0x36f6fbf1bb5d1c7e91b69cc34c394a2b239af898",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5263,6 +5287,7 @@
    "chaincontract:giwasepolia:0x2a1c3a9f443c64cfd0d31370cf0952a0a52a8d2c",
    "chaincontract:giwasepolia:0x2cf5563c1981b7821cd4fda73bc69756b231528a",
    "chaincontract:giwasepolia:0x2fbf8aac85626b2f77e331474522311fb83586d0",
+   "chaincontract:giwasepolia:0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22",
    "chaincontract:giwasepolia:0x3be84d789357ff44ffc8301a76585b6556660e24",
    "chaincontract:giwasepolia:0x41e83e352390d267932d5c4f65164b80d3156ca4",
    "chaincontract:giwasepolia:0x42d276e70aec7d5a921b9a9c696404f2b722fea5",
@@ -5316,6 +5341,7 @@
    "chaincontract:giwasepolia:0xd5e15c7ac6dd9beaa9dfe511037a06ab30df1ee9",
    "chaincontract:giwasepolia:0xdc78a5dee5ca75f3c5910e32547839480073b818",
    "chaincontract:giwasepolia:0xddf170a19f8977d0f887f4fa77b2ffefc526c54a",
+   "chaincontract:giwasepolia:0xde7f839d4eab1868b83b6057778d65b14be8d233",
    "chaincontract:giwasepolia:0xdecff7d95efba576e25ef79efee9aed11acc35b2",
    "chaincontract:giwasepolia:0xe1da5a43cd83c07a0b90dfd6321d5e7be067c4a0",
    "chaincontract:giwasepolia:0xe32cf9b6a9060763da373338b4a76e341f6d2cd6",
