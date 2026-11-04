@@ -5094,6 +5094,30 @@
     "addr": "0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff"
    },
    "date": "2026-11-04"
+  },
+  {
+   "key": "pr:bitcoin/bips#2343",
+   "title": "375: Add deputy",
+   "url": "https://github.com/bitcoin/bips/pull/2343",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
+  },
+  {
+   "key": "pr:ethereum/ercs#2142",
+   "title": "Update ERC-8259: require isActive check in getEffectiveTier, isVerified, calculateTrustScore",
+   "url": "https://github.com/ethereum/ERCs/pull/2142",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-04"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-04"
   }
  ],
  "seen": {
@@ -5489,6 +5513,7 @@
    "pr:bitcoin/bips#2340",
    "pr:bitcoin/bips#2341",
    "pr:bitcoin/bips#2342",
+   "pr:bitcoin/bips#2343",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -5565,6 +5590,7 @@
    "pr:ethereum/ercs#2139",
    "pr:ethereum/ercs#2140",
    "pr:ethereum/ercs#2141",
+   "pr:ethereum/ercs#2142",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
