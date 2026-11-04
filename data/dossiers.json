@@ -1977,6 +1977,43 @@
     "onderzoek"
    ]
   },
+  "bybit": {
+   "id": "bybit",
+   "name": "Bybit",
+   "aliases": [
+    "Bybit"
+   ],
+   "keys": [
+    "n:bybit"
+   ],
+   "firstSeen": "2026-11-04",
+   "lastActivity": "2026-11-04",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-04"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/yashagarwal16/btc-options-straddle",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "c8ntinuum": {
    "id": "c8ntinuum",
    "name": "c8ntinuum",
@@ -3865,6 +3902,66 @@
     "onderzoek"
    ],
    "website": "https://ascendlaunch.xyz"
+  },
+  "elysium-2": {
+   "id": "elysium-2",
+   "name": "Elysium",
+   "aliases": [
+    "Elysium"
+   ],
+   "keys": [
+    "d:conduit.xyz",
+    "d:kinetiq.xyz",
+    "id:99901"
+   ],
+   "firstSeen": "2026-11-04",
+   "lastActivity": "2026-11-04",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-04"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "source": "hyperlane",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "hyperlane: mainnet · ID 99901",
+     "url": "https://github.com/hyperlane-xyz/hyperlane-registry/tree/main/chains/elysium",
+     "strength": "running"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "Elysium",
+    "official": [
+     "ascendlaunch.xyz"
+    ],
+    "own": [
+     "conduit.xyz",
+     "kinetiq.xyz"
+    ]
+   },
+   "chainIds": [
+    "99901"
+   ],
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc-elysium-mainnet.t.conduit.xyz"
+   ],
+   "explorer": "https://elysium.kinetiq.xyz/explorer",
+   "mainnetSince": "2026-11-04",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van Elysium: domein wijkt af van het officiële",
+    "draaiend netwerk aangetoond (hyperlane: mainnet · ID 99901)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "empiricalsolana": {
    "id": "empiricalsolana",
