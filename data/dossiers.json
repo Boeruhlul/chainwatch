@@ -2730,6 +2730,53 @@
     "infra"
    ]
   },
+  "dagcore": {
+   "id": "dagcore",
+   "name": "DAGCore",
+   "aliases": [
+    "DAGCore"
+   ],
+   "keys": [
+    "d:dagcore.net",
+    "id:32427",
+    "n:dagcore"
+   ],
+   "firstSeen": "2026-11-04",
+   "lastActivity": "2026-11-04",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-04"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 32427",
+     "url": "https://github.com/ethereum-lists/chains/pull/9020",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "32427"
+   ],
+   "website": "https://dagcore.net",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.dgcr.dagcore.net"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "dancore": {
    "id": "dancore",
    "name": "Dancore",
