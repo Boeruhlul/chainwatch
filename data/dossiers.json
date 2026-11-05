@@ -14601,6 +14601,15 @@
     },
     {
      "date": "2026-11-05",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 5291",
+     "url": "https://chainlist.org/chain/5291",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-05",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
