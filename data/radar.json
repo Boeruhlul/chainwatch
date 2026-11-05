@@ -5971,6 +5971,18 @@
    "date": "2026-11-05"
   },
   {
+   "key": "pr:ethereum/eips#12629",
+   "title": "Update EIP-8131: Update eip-8131.md - discussion link",
+   "url": "https://github.com/ethereum/EIPs/pull/12629",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "title": "AnchorStateRegistry geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x6779A8a56a817dF8718015C1898eADe453a76495",
@@ -6477,6 +6489,7 @@
    "pr:ethereum/eips#12626",
    "pr:ethereum/eips#12627",
    "pr:ethereum/eips#12628",
+   "pr:ethereum/eips#12629",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
