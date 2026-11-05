@@ -5809,6 +5809,56 @@
     "addr": "0x623c8e37d90e0e0a47abc9d1786fb233f88a53ab"
    },
    "date": "2026-11-05"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30285",
+   "title": "J-star name for Consensus Layer upgrade",
+   "url": "https://ethereum-magicians.org/t/j-star-name-for-consensus-layer-upgrade/30285",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-04",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "job:greenhouse:bitpanda:5027189101",
+   "title": "Bitpanda: Lead Technical Product Manager, Protocol (Vision Chain)",
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027189101",
+   "meta": {
+    "company": "Bitpanda",
+    "location": "Berlin, Berlin, Germany"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "job:greenhouse:bitpanda:5027192101",
+   "title": "Bitpanda: Lead Technical Product Manager, Protocol (Vision Chain)",
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027192101",
+   "meta": {
+    "company": "Bitpanda",
+    "location": "Barcelona, Spain"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "pr:ethereum/eips#12627",
+   "title": "Update EIP-7732: align fork onboarding text with consensus-specs #5736",
+   "url": "https://github.com/ethereum/EIPs/pull/12627",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
   }
  ],
  "seen": {
@@ -6133,6 +6183,7 @@
    "forum:ethereum-magicians.org:30269",
    "forum:ethereum-magicians.org:30276",
    "forum:ethereum-magicians.org:30282",
+   "forum:ethereum-magicians.org:30285",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6208,6 +6259,8 @@
   "jobs": [
    "job:ashby:uniswap:9a047e27-54dd-44df-9c0c-4ca6bc2d57bf",
    "job:greenhouse:bitpanda:5009827101",
+   "job:greenhouse:bitpanda:5027189101",
+   "job:greenhouse:bitpanda:5027192101",
    "job:greenhouse:coinbase:7366208",
    "job:greenhouse:coinbase:8051513",
    "job:greenhouse:coinbase:8094196",
@@ -6294,6 +6347,7 @@
    "pr:ethereum/eips#12624",
    "pr:ethereum/eips#12625",
    "pr:ethereum/eips#12626",
+   "pr:ethereum/eips#12627",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
