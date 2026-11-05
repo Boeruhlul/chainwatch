@@ -442,6 +442,44 @@
     "register"
    ]
   },
+  "antonnnnnnn666kinetiqelysiummainnet": {
+   "id": "antonnnnnnn666kinetiqelysiummainnet",
+   "name": "antonnnnnnn666/kinetiq-elysium-mainnet",
+   "aliases": [
+    "antonnnnnnn666/kinetiq-elysium-mainnet"
+   ],
+   "keys": [
+    "gh:antonnnnnnn666"
+   ],
+   "firstSeen": "2026-11-05",
+   "lastActivity": "2026-11-05",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-05"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/antonnnnnnn666/kinetiq-elysium-mainnet",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "armoniaevachain": {
    "id": "armoniaevachain",
    "name": "Armonia Eva Chain",
