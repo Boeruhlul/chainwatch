@@ -14568,12 +14568,16 @@
     "n:srcchain"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-10-15",
-   "stage": "draait",
+   "lastActivity": "2026-11-05",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "draait",
      "date": "2026-10-15"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-05"
     }
    ],
    "evidence": [
@@ -14594,6 +14598,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 5291",
      "url": "https://github.com/ethereum-lists/chains/pull/8862",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 5291",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-5291.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -14612,7 +14625,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-05"
   },
   "stablenetwemade": {
    "id": "stablenetwemade",
