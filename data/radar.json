@@ -5838,6 +5838,20 @@
    "date": "2026-11-05"
   },
   {
+   "key": "forum:forum.polygon.technology:22500",
+   "title": "Hiring for Logistics Software Development Services? Nine Firms for 3PLs, Freight Brokers and Cold Chain Teams",
+   "url": "https://forum.polygon.technology/t/hiring-for-logistics-software-development-services-nine-firms-for-3pls-freight-brokers-and-cold-chain-teams/22500",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "job:greenhouse:bitpanda:5027189101",
    "title": "Bitpanda: Lead Technical Product Manager, Protocol (Vision Chain)",
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027189101",
@@ -6247,6 +6261,7 @@
    "forum:forum.polygon.technology:22482",
    "forum:forum.polygon.technology:22491",
    "forum:forum.polygon.technology:22497",
+   "forum:forum.polygon.technology:22500",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
