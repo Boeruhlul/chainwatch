@@ -13643,6 +13643,15 @@
     },
     {
      "date": "2026-11-05",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 12589",
+     "url": "https://chainlist.org/chain/12589",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-05",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
@@ -13663,7 +13672,7 @@
    "explorer": "https://pre.riverbit.io/explorer",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: testnet · ID 12589)"
+    "draaiend netwerk aangetoond (chainlist: testnet · ID 12589)"
    ],
    "families": [
     "register"
