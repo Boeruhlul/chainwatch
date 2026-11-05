@@ -5876,6 +5876,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3050",
+   "title": "TULIP: Permissionless Decentralized Identity",
+   "url": "https://delvingbitcoin.org/t/tulip-permissionless-decentralized-identity/3050",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30285",
    "title": "J-star name for Consensus Layer upgrade",
    "url": "https://ethereum-magicians.org/t/j-star-name-for-consensus-layer-upgrade/30285",
@@ -5899,6 +5913,34 @@
     "created": "2026-11-05",
     "posts": 1,
     "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:ethresear.ch:26219",
+   "title": "Walraswap: equilibrium-based decentralized exchange integrating external AMM liquidity",
+   "url": "https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:forum.arbitrum.foundation:31655",
+   "title": "[Constitutional] AIP: Approve Release of Frozen ETH and ARB",
+   "url": "https://forum.arbitrum.foundation/t/constitutional-aip-approve-release-of-frozen-eth-and-arb/31655",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-05",
+    "posts": 2,
+    "views": 59
    },
    "cat": "techniek",
    "src": "forums",
@@ -5956,6 +5998,20 @@
     "created": "2026-11-05",
     "posts": 1,
     "views": 19
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22516",
+   "title": "Announcement: Bor v2.11.0",
+   "url": "https://forum.polygon.technology/t/announcement-bor-v2-11-0/22516",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 4
    },
    "cat": "techniek",
    "src": "forums",
@@ -6375,6 +6431,7 @@
    "forum:delvingbitcoin.org:3019",
    "forum:delvingbitcoin.org:3026",
    "forum:delvingbitcoin.org:3027",
+   "forum:delvingbitcoin.org:3050",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -6445,6 +6502,7 @@
    "forum:ethresear.ch:26208",
    "forum:ethresear.ch:26211",
    "forum:ethresear.ch:26212",
+   "forum:ethresear.ch:26219",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -6454,6 +6512,7 @@
    "forum:forum.arbitrum.foundation:31632",
    "forum:forum.arbitrum.foundation:31633",
    "forum:forum.arbitrum.foundation:31634",
+   "forum:forum.arbitrum.foundation:31655",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.cosmos.network:17496",
@@ -6479,6 +6538,7 @@
    "forum:forum.polygon.technology:22505",
    "forum:forum.polygon.technology:22512",
    "forum:forum.polygon.technology:22513",
+   "forum:forum.polygon.technology:22516",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
