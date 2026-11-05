@@ -6927,13 +6927,14 @@
    "id": "luxa",
    "name": "luxa",
    "aliases": [
-    "luxa"
+    "luxa",
+    "Luxa"
    ],
    "keys": [
     "n:luxa"
    ],
    "firstSeen": "2026-10-22",
-   "lastActivity": "2026-10-22",
+   "lastActivity": "2026-11-05",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -6951,16 +6952,27 @@
      "url": "https://github.com/cosmos/chain-registry/tree/master/luxa",
      "strength": "technical",
      "noRpc": true
+    },
+    {
+     "date": "2026-11-05",
+     "source": "defillama",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "defillama: mainnet",
+     "url": "https://defillama.com/chain/Luxa",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "architecture": "Cosmos",
    "mainnetSince": "2026-10-22",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "één technisch signaal (register)"
+    "2 onafhankelijke bronfamilies: register, markt"
    ],
    "families": [
-    "register"
+    "register",
+    "markt"
    ]
   },
   "luxanetwork": {
