@@ -4140,6 +4140,43 @@
     "github"
    ]
   },
+  "empirical": {
+   "id": "empirical",
+   "name": "Empirical",
+   "aliases": [
+    "Empirical"
+   ],
+   "keys": [
+    "n:empirical"
+   ],
+   "firstSeen": "2026-11-05",
+   "lastActivity": "2026-11-05",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-05"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/duongynhi000005-oss/solana-validator-tx-ordering",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "empiricalsolana": {
    "id": "empiricalsolana",
    "name": "Empirical Solana",
@@ -17509,6 +17546,43 @@
     "code"
    ],
    "liveRpc": "https://rpc.zksync-era-testnet.zksync.dev"
+  },
+  "zokaquantic": {
+   "id": "zokaquantic",
+   "name": "Zoka Quantic",
+   "aliases": [
+    "Zoka Quantic"
+   ],
+   "keys": [
+    "n:zokaquantic"
+   ],
+   "firstSeen": "2026-11-05",
+   "lastActivity": "2026-11-05",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-05"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/zoka-network/zokafaucet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
   }
  },
  "outbox": [],
