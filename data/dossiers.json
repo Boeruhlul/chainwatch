@@ -5098,24 +5098,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-10-29",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xebfc7efa…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xebfc7efa40400337f092dfe0140e70725a2eb914",
-     "strength": "running"
-    },
-    {
-     "date": "2026-10-30",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v2-fork) 0x2fbf8aac…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x2fbf8aac85626b2f77e331474522311fb83586d0",
-     "strength": "running"
-    },
-    {
      "date": "2026-10-30",
      "source": "ecosystem",
      "family": "onchain",
@@ -5357,6 +5339,24 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x9addfb6c…",
      "url": "https://sepolia-explorer.giwa.io/address/0x9addfb6c0e41cf22ed8e5e6bfcfddd6ed79dd9e6",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa3b85688…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xa3b85688790f0e327251d9bf751ab3bb9318a01a",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xb37e583a…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xb37e583a76a1b138d283784cdcafa0028fa0044a",
      "strength": "running"
     }
    ],
