@@ -5891,6 +5891,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30289",
+   "title": "ERC-draft: Flash Loan Proxy",
+   "url": "https://ethereum-magicians.org/t/erc-draft-flash-loan-proxy/30289",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "forum:forum.polygon.technology:22500",
    "title": "Hiring for Logistics Software Development Services? Nine Firms for 3PLs, Freight Brokers and Cold Chain Teams",
    "url": "https://forum.polygon.technology/t/hiring-for-logistics-software-development-services-nine-firms-for-3pls-freight-brokers-and-cold-chain-teams/22500",
@@ -5914,6 +5928,48 @@
     "created": "2026-11-05",
     "posts": 1,
     "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22512",
+   "title": "Proposal: Payments Growth Program",
+   "url": "https://forum.polygon.technology/t/proposal-payments-growth-program/22512",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 22
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22513",
+   "title": "Polygon Security Council Consolidation : PIP 93",
+   "url": "https://forum.polygon.technology/t/polygon-security-council-consolidation-pip-93/22513",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 19
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:gov.optimism.io:10950",
+   "title": "Proposal to introduce Upgrade Authority Transfer to the Standard Rollup Charter",
+   "url": "https://gov.optimism.io/t/proposal-to-introduce-upgrade-authority-transfer-to-the-standard-rollup-charter/10950",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 4
    },
    "cat": "techniek",
    "src": "forums",
@@ -6322,6 +6378,7 @@
    "forum:ethereum-magicians.org:30276",
    "forum:ethereum-magicians.org:30282",
    "forum:ethereum-magicians.org:30285",
+   "forum:ethereum-magicians.org:30289",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6372,6 +6429,8 @@
    "forum:forum.polygon.technology:22497",
    "forum:forum.polygon.technology:22500",
    "forum:forum.polygon.technology:22505",
+   "forum:forum.polygon.technology:22512",
+   "forum:forum.polygon.technology:22513",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
@@ -6390,7 +6449,8 @@
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
    "forum:gov.optimism.io:10940",
-   "forum:gov.optimism.io:10948"
+   "forum:gov.optimism.io:10948",
+   "forum:gov.optimism.io:10950"
   ],
   "immunefi": [
    "immunefi:paxos-labs",
