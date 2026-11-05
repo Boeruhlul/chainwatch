@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-04",
+ "lastSent": "2026-11-05",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -5067,7 +5067,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x02ceb93591449af9635d5cabb501054d41b42021"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x09edf64926169aab0468e786987bab876f5476e3",
@@ -5079,7 +5080,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x09edf64926169aab0468e786987bab876f5476e3"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x11e53cb5591436a2e66ccdb4b9231caa9d505f79",
@@ -5091,7 +5093,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x11e53cb5591436a2e66ccdb4b9231caa9d505f79"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x140cf30fe3c4e43ddc8f5d64a5e5119c8d418324",
@@ -5103,7 +5106,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x140cf30fe3c4e43ddc8f5d64a5e5119c8d418324"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x29aa07d4adeed78a61dd4eb051bec31c2498a9dc",
@@ -5115,7 +5119,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x29aa07d4adeed78a61dd4eb051bec31c2498a9dc"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x3449bfd323463a7e8166200ffe5f0de045d9e416",
@@ -5127,7 +5132,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x3449bfd323463a7e8166200ffe5f0de045d9e416"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x345ff5dbe3275aeda341c3feff54034b7d020a46",
@@ -5139,7 +5145,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x345ff5dbe3275aeda341c3feff54034b7d020a46"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x3568185240580317bcf5607b79aa0e2b1957ceb1",
@@ -5151,7 +5158,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x3568185240580317bcf5607b79aa0e2b1957ceb1"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22",
@@ -5163,7 +5171,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x472e95738d8caede9631320b2c461e5f084aafff",
@@ -5175,7 +5184,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x472e95738d8caede9631320b2c461e5f084aafff"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x5ca34b12f68f3ecdad7ea861370e2eb4a0cb1548",
@@ -5187,7 +5197,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x5ca34b12f68f3ecdad7ea861370e2eb4a0cb1548"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x862ab00ba6da4081d518230c6e58fb9c255fdb3a",
@@ -5199,7 +5210,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x862ab00ba6da4081d518230c6e58fb9c255fdb3a"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x9addfb6c0e41cf22ed8e5e6bfcfddd6ed79dd9e6",
@@ -5211,7 +5223,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x9addfb6c0e41cf22ed8e5e6bfcfddd6ed79dd9e6"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x9b511475d0306a3f19549a0fd0f336d596c79f3a",
@@ -5223,7 +5236,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x9b511475d0306a3f19549a0fd0f336d596c79f3a"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xb66be2ab74d1e9af56061f4d3857ee9586bd045c",
@@ -5235,7 +5249,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xb66be2ab74d1e9af56061f4d3857ee9586bd045c"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xb70bf490f7ac28760af1a275a40106c65b8d875a",
@@ -5247,7 +5262,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xb70bf490f7ac28760af1a275a40106c65b8d875a"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xba6b755ce3633ccd2391d2b32e29ec9b0baa8989",
@@ -5259,7 +5275,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xba6b755ce3633ccd2391d2b32e29ec9b0baa8989"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xbf86856f8d448be2381604670873ad65692af42a",
@@ -5271,7 +5288,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xbf86856f8d448be2381604670873ad65692af42a"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xbfff2c40c32d4cc1377481821030c3c90ee88bd1",
@@ -5283,7 +5301,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xbfff2c40c32d4cc1377481821030c3c90ee88bd1"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xc1361d923836dc82a3b272bafb031a62697d6800",
@@ -5295,7 +5314,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xc1361d923836dc82a3b272bafb031a62697d6800"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xccc441a65a9942a0f62ff642d55434cc8e155f16",
@@ -5307,7 +5327,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xccc441a65a9942a0f62ff642d55434cc8e155f16"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xd78a76e0eccbc838b9a96df9dac9942c8d2bb263",
@@ -5319,7 +5340,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xd78a76e0eccbc838b9a96df9dac9942c8d2bb263"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xd87e1361bd82e972cc469f49ca2e5fc24bbcdd6b",
@@ -5331,7 +5353,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xd87e1361bd82e972cc469f49ca2e5fc24bbcdd6b"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xde7f839d4eab1868b83b6057778d65b14be8d233",
@@ -5343,7 +5366,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xde7f839d4eab1868b83b6057778d65b14be8d233"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xdf7451753c2d7f1b2b7a90fb95c47aa9f2369146",
@@ -5355,7 +5379,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xdf7451753c2d7f1b2b7a90fb95c47aa9f2369146"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xe0eb966f5b42299f273b82688c5b7284c7e54317",
@@ -5367,7 +5392,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xe0eb966f5b42299f273b82688c5b7284c7e54317"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xe30ab7410957e9c0a4922aca23f2e707c05cc932",
@@ -5379,7 +5405,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xe30ab7410957e9c0a4922aca23f2e707c05cc932"
    },
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x36f6fbf1bb5d1c7e91b69cc34c394a2b239af898",
@@ -5445,7 +5472,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30276",
@@ -5459,7 +5487,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30282",
@@ -5473,7 +5502,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17537",
@@ -5502,7 +5532,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": "binance"
   },
   {
    "key": "forum:gov.optimism.io:10948",
@@ -5516,7 +5547,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2343",
@@ -5554,7 +5586,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2346",
@@ -5566,7 +5599,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2347",
@@ -5578,7 +5612,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12616",
@@ -5603,7 +5638,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12618",
@@ -5615,7 +5651,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12619",
@@ -5627,7 +5664,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12620",
@@ -5639,7 +5677,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12621",
@@ -5651,7 +5690,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12622",
@@ -5663,7 +5703,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12623",
@@ -5675,7 +5716,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12624",
@@ -5687,7 +5729,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12625",
@@ -5699,7 +5742,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12626",
@@ -5711,7 +5755,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2142",
@@ -5749,7 +5794,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2145",
@@ -5761,7 +5807,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-04"
+   "date": "2026-11-04",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x12c30773aa06f305264fa5d3ffd7cf926257ea34",
@@ -5773,7 +5820,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x12c30773aa06f305264fa5d3ffd7cf926257ea34"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x4120ecbfb2f790356afe70cf226ee25e255463ed",
@@ -5785,7 +5833,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x4120ecbfb2f790356afe70cf226ee25e255463ed"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x4e765d83cac71294fa0d326b7a67abcc95101403",
@@ -5797,7 +5846,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x4e765d83cac71294fa0d326b7a67abcc95101403"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x623c8e37d90e0e0a47abc9d1786fb233f88a53ab",
@@ -5809,7 +5859,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x623c8e37d90e0e0a47abc9d1786fb233f88a53ab"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xf441ac8112bfe5cdf03da829f571a1b6522628af",
@@ -5821,7 +5872,8 @@
     "chain": "QMS",
     "addr": "0xf441ac8112bfe5cdf03da829f571a1b6522628af"
    },
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30285",
@@ -5835,7 +5887,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22500",
@@ -5849,7 +5902,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": "development"
   },
   {
    "key": "job:greenhouse:bitpanda:5027189101",
@@ -5861,7 +5915,8 @@
    },
    "cat": "vacature",
    "src": "jobs",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": "bitpandavisionchain"
   },
   {
    "key": "job:greenhouse:bitpanda:5027192101",
@@ -5873,7 +5928,8 @@
    },
    "cat": "vacature",
    "src": "jobs",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": "bitpandavisionchain"
   },
   {
    "key": "pr:ethereum/eips#12627",
@@ -5885,7 +5941,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   }
  ],
  "seen": {
