@@ -6002,6 +6002,18 @@
    "dossier": "bitpandavisionchain"
   },
   {
+   "key": "pr:bitcoin/bips#2348",
+   "title": "bip-0352: fix input encodings in test vectors",
+   "url": "https://github.com/bitcoin/bips/pull/2348",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
+  },
+  {
    "key": "pr:ethereum/eips#12627",
    "title": "Update EIP-7732: align fork onboarding text with consensus-specs #5736",
    "url": "https://github.com/ethereum/EIPs/pull/12627",
@@ -6032,6 +6044,42 @@
    "url": "https://github.com/ethereum/EIPs/pull/12629",
    "meta": {
     "repo": "ethereum/EIPs",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "pr:ethereum/eips#12630",
+   "title": "Update EIP-7851: sync relevant EIP-8298 clarifications before archival",
+   "url": "https://github.com/ethereum/EIPs/pull/12630",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "pr:ethereum/ercs#2146",
+   "title": "Add ERC: Flash Loan Proxy",
+   "url": "https://github.com/ethereum/ERCs/pull/2146",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-05"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#723",
+   "title": "SIMD-0723: Remove Durable Nonces",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/723",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
     "created": "2026-11-05"
    },
    "cat": "techniek",
@@ -6498,6 +6546,7 @@
    "pr:bitcoin/bips#2345",
    "pr:bitcoin/bips#2346",
    "pr:bitcoin/bips#2347",
+   "pr:bitcoin/bips#2348",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -6550,6 +6599,7 @@
    "pr:ethereum/eips#12627",
    "pr:ethereum/eips#12628",
    "pr:ethereum/eips#12629",
+   "pr:ethereum/eips#12630",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -6592,13 +6642,15 @@
    "pr:ethereum/ercs#2143",
    "pr:ethereum/ercs#2144",
    "pr:ethereum/ercs#2145",
+   "pr:ethereum/ercs#2146",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
    "pr:solana-foundation/solana-improvement-documents#710",
    "pr:solana-foundation/solana-improvement-documents#713",
    "pr:solana-foundation/solana-improvement-documents#714",
-   "pr:solana-foundation/solana-improvement-documents#715"
+   "pr:solana-foundation/solana-improvement-documents#715",
+   "pr:solana-foundation/solana-improvement-documents#723"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
