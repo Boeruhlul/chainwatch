@@ -5906,6 +5906,20 @@
    "dossier": "development"
   },
   {
+   "key": "forum:forum.polygon.technology:22505",
+   "title": "PPGC-47 — Agenda- November 5th 2026",
+   "url": "https://forum.polygon.technology/t/ppgc-47-agenda-november-5th-2026/22505",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "job:greenhouse:bitpanda:5027189101",
    "title": "Bitpanda: Lead Technical Product Manager, Protocol (Vision Chain)",
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027189101",
@@ -5943,6 +5957,20 @@
    "src": "proposals",
    "date": "2026-11-05",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
+   "title": "AnchorStateRegistry geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x6779A8a56a817dF8718015C1898eADe453a76495",
+   "meta": {
+    "name": "AnchorStateRegistry",
+    "chain": "eth",
+    "addr": "0x6779A8a56a817dF8718015C1898eADe453a76495",
+    "verified": "2026-11-05"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-05"
   }
  ],
  "seen": {
@@ -6319,6 +6347,7 @@
    "forum:forum.polygon.technology:22491",
    "forum:forum.polygon.technology:22497",
    "forum:forum.polygon.technology:22500",
+   "forum:forum.polygon.technology:22505",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
@@ -6486,6 +6515,7 @@
    "pr:solana-foundation/solana-improvement-documents#715"
   ],
   "verified-contracts": [
+   "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377"
   ]
  }
