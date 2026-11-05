@@ -3905,12 +3905,16 @@
     "n:kinetiqelysium"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-11-02",
-   "stage": "testnet",
+   "lastActivity": "2026-11-05",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-10-28"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-05"
     }
    ],
    "evidence": [
@@ -3933,6 +3937,16 @@
      "url": "https://www.chaincatcher.com/en/article/2299678",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "coingecko",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "coingecko: mainnet",
+     "url": "https://www.coingecko.com/en/chains/elysium-kinetiq",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -3980,13 +3994,15 @@
    "org": "Kinetiq",
    "confidence": "A",
    "reasons": [
-    "alleen onderzoek",
+    "2 onafhankelijke bronfamilies: onderzoek, markt",
     "onderzoeksoordeel A"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "markt"
    ],
-   "website": "https://ascendlaunch.xyz"
+   "website": "https://ascendlaunch.xyz",
+   "mainnetSince": "2026-11-05"
   },
   "elysium-2": {
    "id": "elysium-2",

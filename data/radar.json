@@ -50,17 +50,6 @@
    "website": "https://app.bulk.trade"
   },
   {
-   "id": "elysium",
-   "name": "Elysium",
-   "score": 5,
-   "why": [
-    "points/airdrop genoemd",
-    "nog geen mainnet (testnet)"
-   ],
-   "stage": "testnet",
-   "website": "https://ascendlaunch.xyz"
-  },
-  {
    "id": "flopnetwork",
    "name": "FLOP Network",
    "score": 5,
