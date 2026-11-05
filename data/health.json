@@ -12,13 +12,13 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": false,
-    "error": "crt.sh onbereikbaar — testnet-rpc.%: HTTP 502 voor https://crt.sh/?q=testnet-rpc.%25&output=json; rpc-mainnet.%: This operation was aborted",
-    "failingSince": "2026-11-04T23:50:14.825Z",
+    "ok": true,
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": true,
+    "ok": false,
+    "error": "HTTP 500 voor https://api.blobscan.com/transactions?ps=100",
+    "failingSince": "2026-11-05T00:15:15.308Z",
     "lastNotifiedAt": "2026-11-04T21:05:14.547Z"
   },
   "ethlists-pr": {
