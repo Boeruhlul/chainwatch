@@ -5975,6 +5975,20 @@
    "date": "2026-11-05"
   },
   {
+   "key": "forum:forum.cosmos.network:17543",
+   "title": "SOBYA Blockchain — Seeking Independent Validator Operators for Mainnet Launch",
+   "url": "https://forum.cosmos.network/t/sobya-blockchain-seeking-independent-validator-operators-for-mainnet-launch/17543",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "forum:forum.polygon.technology:22500",
    "title": "Hiring for Logistics Software Development Services? Nine Firms for 3PLs, Freight Brokers and Cold Chain Teams",
    "url": "https://forum.polygon.technology/t/hiring-for-logistics-software-development-services-nine-firms-for-3pls-freight-brokers-and-cold-chain-teams/22500",
@@ -6555,6 +6569,7 @@
    "forum:forum.cosmos.network:17520",
    "forum:forum.cosmos.network:17537",
    "forum:forum.cosmos.network:17540",
+   "forum:forum.cosmos.network:17543",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
