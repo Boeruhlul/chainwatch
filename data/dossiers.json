@@ -1329,6 +1329,43 @@
     "register"
    ]
   },
+  "beldex": {
+   "id": "beldex",
+   "name": "Beldex",
+   "aliases": [
+    "Beldex"
+   ],
+   "keys": [
+    "n:beldex"
+   ],
+   "firstSeen": "2026-11-05",
+   "lastActivity": "2026-11-05",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-05"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/prafoos/VeilPay",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "bighive": {
    "id": "bighive",
    "name": "Bighive",
