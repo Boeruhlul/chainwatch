@@ -5919,6 +5919,20 @@
    "date": "2026-11-05"
   },
   {
+   "key": "forum:ethereum-magicians.org:30291",
+   "title": "Would an ERC for inference programs (AI-evaluated contracts) be feasible on Ethereum?",
+   "url": "https://ethereum-magicians.org/t/would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum/30291",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
    "key": "forum:ethresear.ch:26219",
    "title": "Walraswap: equilibrium-based decentralized exchange integrating external AMM liquidity",
    "url": "https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219",
@@ -5941,6 +5955,20 @@
     "created": "2026-11-05",
     "posts": 2,
     "views": 59
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-05"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17540",
+   "title": "Hub Weekly Update #23: November 5, 2026",
+   "url": "https://forum.cosmos.network/t/hub-weekly-update-23-november-5-2026/17540",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-05",
+    "posts": 1,
+    "views": 32
    },
    "cat": "techniek",
    "src": "forums",
@@ -6484,6 +6512,7 @@
    "forum:ethereum-magicians.org:30282",
    "forum:ethereum-magicians.org:30285",
    "forum:ethereum-magicians.org:30289",
+   "forum:ethereum-magicians.org:30291",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6525,6 +6554,7 @@
    "forum:forum.cosmos.network:17517",
    "forum:forum.cosmos.network:17520",
    "forum:forum.cosmos.network:17537",
+   "forum:forum.cosmos.network:17540",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
