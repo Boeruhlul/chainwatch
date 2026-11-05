@@ -4064,6 +4064,45 @@
     "register"
    ]
   },
+  "emekamanuelnims": {
+   "id": "emekamanuelnims",
+   "name": "EmekaManuel/nims",
+   "aliases": [
+    "EmekaManuel/nims"
+   ],
+   "keys": [
+    "gh:emekamanuel"
+   ],
+   "firstSeen": "2026-11-05",
+   "lastActivity": "2026-11-05",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-05"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/EmekaManuel/nims",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://nims-app.up.railway.app",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "empiricalsolana": {
    "id": "empiricalsolana",
    "name": "Empirical Solana",
