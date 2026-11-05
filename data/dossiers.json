@@ -4561,7 +4561,7 @@
     "n:flopnetwork"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-11-04",
+   "lastActivity": "2026-11-05",
    "stage": "devnet",
    "stageHistory": [
     {
@@ -4601,6 +4601,15 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · naam-in-repo",
      "url": "https://github.com/alpertungax1/flop-network-toolkit",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/VNL-Works/unofficial-flop-devnet-notes-ja",
      "strength": "technical"
     }
    ],
