@@ -13619,12 +13619,16 @@
     "n:riverbit"
    ],
    "firstSeen": "2026-10-14",
-   "lastActivity": "2026-10-14",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-05",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-10-14"
+    },
+    {
+     "stage": "testnet",
+     "date": "2026-11-05"
     }
    ],
    "evidence": [
@@ -13636,6 +13640,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 12589",
      "url": "https://github.com/ethereum-lists/chains/pull/8859",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 12589",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-12589.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -13644,12 +13657,13 @@
    "website": "https://riverbit.io",
    "architecture": "EVM",
    "rpc": [
-    "https://rpc.riverbit.io"
+    "https://rpc.riverbit.io",
+    "https://pre.riverbit.io/api/rpc?chainId=12589"
    ],
    "explorer": "https://pre.riverbit.io/explorer",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-commit: testnet · ID 12589)"
    ],
    "families": [
     "register"
