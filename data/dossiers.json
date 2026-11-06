@@ -14661,6 +14661,82 @@
     ]
    }
   },
+  "sepoliadevnet4": {
+   "id": "sepoliadevnet4",
+   "name": "sepolia-devnet-4",
+   "aliases": [
+    "sepolia-devnet-4",
+    "sepolia-devnet-5",
+    "sepolia-devnet-6"
+   ],
+   "keys": [
+    "d:optimism.io",
+    "id:420130019",
+    "id:420130020",
+    "id:420130021",
+    "n:sepoliadevnet4",
+    "n:sepoliadevnet5",
+    "n:sepoliadevnet6"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "testnet",
+   "stageHistory": [
+    {
+     "stage": "testnet",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "superchain",
+     "family": "register",
+     "kind": "testnet",
+     "what": "superchain: testnet · ID 420130019",
+     "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnet-4/sepolia-devnet-4",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "superchain",
+     "family": "register",
+     "kind": "testnet",
+     "what": "superchain: testnet · ID 420130020",
+     "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnet-5/sepolia-devnet-5",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "superchain",
+     "family": "register",
+     "kind": "testnet",
+     "what": "superchain: testnet · ID 420130021",
+     "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnet-6/sepolia-devnet-6",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "420130019",
+    "420130020",
+    "420130021"
+   ],
+   "website": "https://optimism.io",
+   "architecture": "EVM (OP Stack)",
+   "github": "https://github.com/ethereum-optimism",
+   "rpc": [
+    "https://sepolia-devnet-4.optimism.io/rpc",
+    "https://sepolia-devnet-5.optimism.io/rpc",
+    "https://sepolia-devnet-6.optimism.io/rpc"
+   ],
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (superchain: testnet · ID 420130019)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "sgachain": {
    "id": "sgachain",
    "name": "SGA Chain",
