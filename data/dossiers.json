@@ -14735,7 +14735,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://sepolia-devnet-4.optimism.io/rpc"
   },
   "sgachain": {
    "id": "sgachain",
