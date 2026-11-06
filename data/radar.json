@@ -6197,6 +6197,20 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-05"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x157Fe938848Ba6F19F0998Dfd6aa23d3701bAA39",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0x157Fe938848Ba6F19F0998Dfd6aa23d3701bAA39",
+    "verified": "2026-11-06"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-06"
   }
  ],
  "seen": {
@@ -6758,6 +6772,7 @@
    "pr:solana-foundation/solana-improvement-documents#723"
   ],
   "verified-contracts": [
+   "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377"
   ]
