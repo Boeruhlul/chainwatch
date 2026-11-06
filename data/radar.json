@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-05",
+ "lastSent": "2026-11-06",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -5887,7 +5887,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30285",
@@ -5916,7 +5917,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30291",
@@ -5930,7 +5932,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26219",
@@ -5944,7 +5947,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31655",
@@ -5958,7 +5962,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17540",
@@ -5972,7 +5977,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17543",
@@ -5986,7 +5992,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22500",
@@ -6015,7 +6022,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22512",
@@ -6029,7 +6037,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22513",
@@ -6043,7 +6052,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22516",
@@ -6057,7 +6067,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "forum:gov.optimism.io:10950",
@@ -6071,7 +6082,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "job:greenhouse:bitpanda:5027189101",
@@ -6109,7 +6121,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12627",
@@ -6134,7 +6147,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12629",
@@ -6146,7 +6160,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12630",
@@ -6158,7 +6173,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2146",
@@ -6170,7 +6186,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#723",
@@ -6182,7 +6199,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
@@ -6196,7 +6214,8 @@
    },
    "cat": "contracten",
    "src": "verified-contracts",
-   "date": "2026-11-05"
+   "date": "2026-11-05",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x2e92ef19943c1de797a673ee466adda1cf6b0eeb",
@@ -6208,7 +6227,8 @@
     "chain": "QMS",
     "addr": "0x2e92ef19943c1de797a673ee466adda1cf6b0eeb"
    },
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12632",
@@ -6220,7 +6240,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "dossier": "frame"
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#725",
@@ -6232,7 +6253,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
@@ -6246,7 +6268,8 @@
    },
    "cat": "contracten",
    "src": "verified-contracts",
-   "date": "2026-11-06"
+   "date": "2026-11-06",
+   "dossier": null
   }
  ],
  "seen": {
