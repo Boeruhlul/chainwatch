@@ -6231,6 +6231,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:rabbitchain:0x52ca3c89ce1ea8ea86c2dab6292394fb38921425",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RabbitPrivacyPoolBoundLab op Rabbit Chain",
+   "url": "https://explorer-testnet.rabbitchain.org/address/0x52ca3c89ce1ea8ea86c2dab6292394fb38921425",
+   "meta": {
+    "chain": "Rabbit Chain",
+    "addr": "0x52ca3c89ce1ea8ea86c2dab6292394fb38921425"
+   },
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:ethereum/eips#12632",
    "title": "Update EIP-8288: place dependency frames around protocol verifier frames",
    "url": "https://github.com/ethereum/EIPs/pull/12632",
@@ -6500,6 +6512,7 @@
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
    "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
    "chaincontract:rabbitchain:0x4ffe7e4debf8a897629af714c270181d470591f9",
+   "chaincontract:rabbitchain:0x52ca3c89ce1ea8ea86c2dab6292394fb38921425",
    "chaincontract:rabbitchain:0x60e3918a6727e42f7ea45d409438fd46a7b58f1b",
    "chaincontract:rabbitchain:0x7edf729000e7fe79bf5de16b23f28b997dd5cd31",
    "chaincontract:rabbitchain:0x83273047c7aa7a7621cb4b3cc855b7fbae61560d",
