@@ -15450,6 +15450,53 @@
     "onderzoek"
    ]
   },
+  "steemvm": {
+   "id": "steemvm",
+   "name": "SteemVM",
+   "aliases": [
+    "SteemVM"
+   ],
+   "keys": [
+    "d:steemvmscan.com",
+    "id:SteemVM-Manaslu-81630",
+    "n:steemvm"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID SteemVM-Manaslu-81630",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1595",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "SteemVM-Manaslu-81630"
+   ],
+   "website": "https://steemvmscan.com",
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://api.steemvmscan.com"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "strato": {
    "id": "strato",
    "name": "Strato",
