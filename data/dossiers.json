@@ -4232,6 +4232,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 99801",
      "url": "https://github.com/ethereum-lists/chains/pull/9027",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 99801",
+     "url": "https://github.com/ethereum-lists/chains/pull/9027",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -4265,7 +4275,8 @@
     "register"
    ],
    "website": "https://kinetiq.xyz",
-   "github": "https://github.com/kinetiq-research"
+   "github": "https://github.com/kinetiq-research",
+   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz"
   },
   "emekamanuelnims": {
    "id": "emekamanuelnims",
