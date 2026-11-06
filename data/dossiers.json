@@ -3107,6 +3107,43 @@
    ],
    "mainnetSince": "2026-11-04"
   },
+  "deribit": {
+   "id": "deribit",
+   "name": "Deribit",
+   "aliases": [
+    "Deribit"
+   ],
+   "keys": [
+    "n:deribit"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Amankum25/companyproject",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "development": {
    "id": "development",
    "name": "Development",
