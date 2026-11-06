@@ -6211,6 +6211,18 @@
    "date": "2026-11-06"
   },
   {
+   "key": "pr:solana-foundation/solana-improvement-documents#725",
+   "title": "docs(template): add required status and Advisory category hints",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/725",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-11-06"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-06"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x157Fe938848Ba6F19F0998Dfd6aa23d3701bAA39",
@@ -6782,7 +6794,8 @@
    "pr:solana-foundation/solana-improvement-documents#713",
    "pr:solana-foundation/solana-improvement-documents#714",
    "pr:solana-foundation/solana-improvement-documents#715",
-   "pr:solana-foundation/solana-improvement-documents#723"
+   "pr:solana-foundation/solana-improvement-documents#723",
+   "pr:solana-foundation/solana-improvement-documents#725"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
