@@ -11263,6 +11263,45 @@
     "infra"
    ]
   },
+  "orangepanelibbitcoinbsconfiggenerator": {
+   "id": "orangepanelibbitcoinbsconfiggenerator",
+   "name": "orangepane/libbitcoin-bs-config-generator",
+   "aliases": [
+    "orangepane/libbitcoin-bs-config-generator"
+   ],
+   "keys": [
+    "gh:orangepane"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/orangepane/libbitcoin-bs-config-generator",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://orangepane.github.io/libbitcoin-bs-config-generator/",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "ostia": {
    "id": "ostia",
    "name": "Ostia",
