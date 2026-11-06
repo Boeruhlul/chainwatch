@@ -6343,6 +6343,20 @@
    "date": "2026-11-06"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31664",
+   "title": "Entropy Advisors Monthly Update: October 2026",
+   "url": "https://forum.arbitrum.foundation/t/entropy-advisors-monthly-update-october-2026/31664",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-06",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:ethereum/eips#12632",
    "title": "Update EIP-8288: place dependency frames around protocol verifier frames",
    "url": "https://github.com/ethereum/EIPs/pull/12632",
@@ -6787,6 +6801,7 @@
    "forum:forum.arbitrum.foundation:31633",
    "forum:forum.arbitrum.foundation:31634",
    "forum:forum.arbitrum.foundation:31655",
+   "forum:forum.arbitrum.foundation:31664",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.cosmos.network:17496",
