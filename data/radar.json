@@ -6573,6 +6573,20 @@
    "date": "2026-11-06"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31665",
+   "title": "OpCo Update October 2026",
+   "url": "https://forum.arbitrum.foundation/t/opco-update-october-2026/31665",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-06",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:ethereum/eips#12632",
    "title": "Update EIP-8288: place dependency frames around protocol verifier frames",
    "url": "https://github.com/ethereum/EIPs/pull/12632",
@@ -7048,6 +7062,7 @@
    "forum:forum.arbitrum.foundation:31634",
    "forum:forum.arbitrum.foundation:31655",
    "forum:forum.arbitrum.foundation:31664",
+   "forum:forum.arbitrum.foundation:31665",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.cosmos.network:17496",
