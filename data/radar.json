@@ -6622,6 +6622,18 @@
    "date": "2026-11-06"
   },
   {
+   "key": "pr:ethereum/ercs#2149",
+   "title": "Add ERC-8415: Asynchronous Register Projection for NFTs",
+   "url": "https://github.com/ethereum/ERCs/pull/2149",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-06"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#725",
    "title": "docs(template): add required status and Advisory category hints",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/725",
@@ -7232,6 +7244,7 @@
    "pr:ethereum/ercs#2146",
    "pr:ethereum/ercs#2147",
    "pr:ethereum/ercs#2148",
+   "pr:ethereum/ercs#2149",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
