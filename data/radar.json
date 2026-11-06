@@ -6211,6 +6211,18 @@
    "date": "2026-11-06"
   },
   {
+   "key": "pr:ethereum/eips#12632",
+   "title": "Update EIP-8288: place dependency frames around protocol verifier frames",
+   "url": "https://github.com/ethereum/EIPs/pull/12632",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-06"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#725",
    "title": "docs(template): add required status and Advisory category hints",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/725",
@@ -6744,6 +6756,7 @@
    "pr:ethereum/eips#12628",
    "pr:ethereum/eips#12629",
    "pr:ethereum/eips#12630",
+   "pr:ethereum/eips#12632",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
