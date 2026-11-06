@@ -4226,6 +4226,51 @@
     },
     {
      "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0xe606b243…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xe606b243e659fb8e210aced187d0093dbfad96c5",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x0088bea2…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x0088bea218c283a939c93d7db8353cd87cdcf647",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x3c4f4795…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x3c4f47959101557eed9bc4ae8d8d986ae8d3e5b1",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x720f2874…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x720f287459458df347a77af6040217ef652c06f2",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf6eadd7c…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xf6eadd7c45a927fe9fcafc0c63bab757ca36aa02",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
@@ -4269,14 +4314,45 @@
    "confidence": "C",
    "reasons": [
     "⚠️ mogelijke imitatie van Elysium: domein wijkt af van het officiële",
-    "draaiend netwerk aangetoond (hyperlane: mainnet · ID 99901)"
+    "draaiend netwerk aangetoond (hyperlane: mainnet · ID 99901)",
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
    "website": "https://kinetiq.xyz",
    "github": "https://github.com/kinetiq-research",
-   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz"
+   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xe606b243e659fb8e210aced187d0093dbfad96c5",
+      "type": "Uniswap v3-fork",
+      "date": "2026-11-06"
+     },
+     {
+      "addr": "0x0088bea218c283a939c93d7db8353cd87cdcf647",
+      "type": "Uniswap v4",
+      "date": "2026-11-06"
+     }
+    ],
+    "launchpad": [
+     {
+      "addr": "0x3c4f47959101557eed9bc4ae8d8d986ae8d3e5b1",
+      "date": "2026-11-06"
+     },
+     {
+      "addr": "0xf6eadd7c45a927fe9fcafc0c63bab757ca36aa02",
+      "date": "2026-11-06"
+     },
+     {
+      "addr": "0x720f287459458df347a77af6040217ef652c06f2",
+      "date": "2026-11-06"
+     }
+    ]
+   }
   },
   "emekamanuelnims": {
    "id": "emekamanuelnims",
@@ -5349,24 +5425,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-10-31",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xf46502d7…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xf46502d7e16b8f10e86d2d0c82380bb28a10e06a",
-     "strength": "running"
-    },
-    {
-     "date": "2026-10-31",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xf4d509a4…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xf4d509a489ba238a2282095234e31717e9617a22",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-01",
      "source": "ecosystem",
      "family": "onchain",
@@ -5543,6 +5601,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x5fc61540…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x5fc6154086bea250736f3950cb5ff47a007a2c7f",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x7082458b…",
      "url": "https://sepolia-explorer.giwa.io/address/0x7082458ba328aecc3aa723b296e6064ee6f637df",
      "strength": "running"
@@ -5608,6 +5675,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x73684acf…",
      "url": "https://sepolia-explorer.giwa.io/address/0x73684acf40d98b9f6c1bda94ee6cf902ed2cca69",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xe38f60c9…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xe38f60c9150a096f91163fdf8cf2aa258f97b393",
      "strength": "running"
     }
    ],
