@@ -2445,6 +2445,44 @@
     "register"
    ]
   },
+  "codex": {
+   "id": "codex",
+   "name": "codex",
+   "aliases": [
+    "codex"
+   ],
+   "keys": [
+    "n:codex"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/codex",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "cortensor": {
    "id": "cortensor",
    "name": "Cortensor",
@@ -3572,6 +3610,44 @@
     "https://rpc.dgmnetwork.ir"
    ],
    "explorer": "https://explorer.dgmnetwork.ir",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "doma": {
+   "id": "doma",
+   "name": "doma",
+   "aliases": [
+    "doma"
+   ],
+   "keys": [
+    "n:doma"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/doma",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
    "confidence": "C",
    "reasons": [
     "één technisch signaal (register)"
