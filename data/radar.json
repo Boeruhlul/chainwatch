@@ -6244,6 +6244,30 @@
    "dossier": "frame"
   },
   {
+   "key": "pr:ethereum/ercs#2147",
+   "title": "Update ERC-8350: clarify authorization and preserve ERC-1271 fallback",
+   "url": "https://github.com/ethereum/ERCs/pull/2147",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-06"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-06"
+  },
+  {
+   "key": "pr:ethereum/ercs#2148",
+   "title": "Update ERC-8350: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2148",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-06"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#725",
    "title": "docs(template): add required status and Advisory category hints",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/725",
@@ -6823,6 +6847,8 @@
    "pr:ethereum/ercs#2144",
    "pr:ethereum/ercs#2145",
    "pr:ethereum/ercs#2146",
+   "pr:ethereum/ercs#2147",
+   "pr:ethereum/ercs#2148",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
