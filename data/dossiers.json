@@ -1,6 +1,45 @@
 {
  "version": 1,
  "dossiers": {
+  "314hashbettergov": {
+   "id": "314hashbettergov",
+   "name": "314-hash/bettergov",
+   "aliases": [
+    "314-hash/bettergov"
+   ],
+   "keys": [
+    "gh:314-hash"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/314-hash/bettergov",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://frontend-ten-tau-ujxnmhb4vt.vercel.app",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "acinetwork": {
    "id": "acinetwork",
    "name": "ACI Network",
@@ -15192,6 +15231,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "sybilresistant": {
+   "id": "sybilresistant",
+   "name": "Sybil-Resistant",
+   "aliases": [
+    "Sybil-Resistant"
+   ],
+   "keys": [
+    "n:sybilresistant"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/terriblehog/kite-x402-token-faucet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "syraxchain": {
