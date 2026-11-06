@@ -16784,6 +16784,53 @@
     "github"
    ]
   },
+  "wpdl2amainnet1": {
+   "id": "wpdl2amainnet1",
+   "name": "wpd-l2a-mainnet-1",
+   "aliases": [
+    "wpd-l2a-mainnet-1"
+   ],
+   "keys": [
+    "d:peaceism.io",
+    "id:wpd-l2a-mainnet-1",
+    "n:wpdl2amainnet1"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID wpd-l2a-mainnet-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1592",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "wpd-l2a-mainnet-1"
+   ],
+   "website": "https://peaceism.io",
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://api-l2a.peaceism.io"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "xode": {
    "id": "xode",
    "name": "Xode",
