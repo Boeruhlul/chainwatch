@@ -16215,6 +16215,43 @@
    ],
    "liveRpc": "https://testnet.valuechain.xyz"
   },
+  "verifiable": {
+   "id": "verifiable",
+   "name": "Verifiable",
+   "aliases": [
+    "Verifiable"
+   ],
+   "keys": [
+    "n:verifiable"
+   ],
+   "firstSeen": "2026-11-06",
+   "lastActivity": "2026-11-06",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-06"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-06",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/heisto-dev/heisto-mainnet-proof",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "vorachain": {
    "id": "vorachain",
    "name": "VORA Chain",
