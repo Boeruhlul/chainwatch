@@ -4197,7 +4197,8 @@
    "id": "elysium-2",
    "name": "Elysium",
    "aliases": [
-    "Elysium"
+    "Elysium",
+    "Kinetiq Elysium"
    ],
    "keys": [
     "d:conduit.xyz",
@@ -4205,7 +4206,7 @@
     "id:99901"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
+   "lastActivity": "2026-11-06",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -4222,6 +4223,15 @@
      "what": "hyperlane: mainnet · ID 99901",
      "url": "https://github.com/hyperlane-xyz/hyperlane-registry/tree/main/chains/elysium",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 99801",
+     "url": "https://github.com/ethereum-lists/chains/pull/9027",
+     "strength": "technical"
     }
    ],
    "suspect": {
@@ -4236,11 +4246,13 @@
     ]
    },
    "chainIds": [
-    "99901"
+    "99901",
+    "99801"
    ],
    "architecture": "EVM",
    "rpc": [
-    "https://rpc-elysium-mainnet.t.conduit.xyz"
+    "https://rpc-elysium-mainnet.t.conduit.xyz",
+    "https://testnet-rpc.elysium.kinetiq.xyz"
    ],
    "explorer": "https://elysium.kinetiq.xyz/explorer",
    "mainnetSince": "2026-11-04",
@@ -4251,7 +4263,9 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "website": "https://kinetiq.xyz",
+   "github": "https://github.com/kinetiq-research"
   },
   "emekamanuelnims": {
    "id": "emekamanuelnims",
