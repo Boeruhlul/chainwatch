@@ -6243,6 +6243,34 @@
    "date": "2026-11-06"
   },
   {
+   "key": "forum:community.starknet.io:116470",
+   "title": "What hybrid post-quantum accounts change for contracts that check signatures",
+   "url": "https://community.starknet.io/t/what-hybrid-post-quantum-accounts-change-for-contracts-that-check-signatures/116470",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-06",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-06"
+  },
+  {
+   "key": "forum:ethresear.ch:26223",
+   "title": "A privacy pool on frame transactions: what works, and the case that does not yet",
+   "url": "https://ethresear.ch/t/a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet/26223",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-06",
+    "posts": 1,
+    "views": 24
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-06"
+  },
+  {
    "key": "pr:ethereum/eips#12632",
    "title": "Update EIP-8288: place dependency frames around protocol verifier frames",
    "url": "https://github.com/ethereum/EIPs/pull/12632",
@@ -6580,6 +6608,7 @@
    "forum:community.starknet.io:116461",
    "forum:community.starknet.io:116462",
    "forum:community.starknet.io:116465",
+   "forum:community.starknet.io:116470",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
@@ -6669,6 +6698,7 @@
    "forum:ethresear.ch:26211",
    "forum:ethresear.ch:26212",
    "forum:ethresear.ch:26219",
+   "forum:ethresear.ch:26223",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
