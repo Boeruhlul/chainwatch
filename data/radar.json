@@ -6735,6 +6735,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30297",
+   "title": "ERC-XXXX: Protected Accounts for Fungible Tokens--*",
+   "url": "https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-07",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
+  },
+  {
    "key": "forum:ethresear.ch:26224",
    "title": "How large can EIP-8141's validation budget be? A mempool DoS benchmark",
    "url": "https://ethresear.ch/t/how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark/26224",
@@ -7107,6 +7121,7 @@
    "forum:ethereum-magicians.org:30285",
    "forum:ethereum-magicians.org:30289",
    "forum:ethereum-magicians.org:30291",
+   "forum:ethereum-magicians.org:30297",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
