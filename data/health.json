@@ -1,7 +1,4 @@
 {
-  "github-discovery": {
-    "ok": true
-  },
   "funding-rss": {
     "ok": true
   },
@@ -12,7 +9,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — rpc.mainnet.%: HTTP 502 voor https://crt.sh/?q=rpc.mainnet.%25&output=json; rpc.testnet.%: tijdsbudget op",
+    "failingSince": "2026-11-07T08:00:22.588Z",
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
@@ -64,6 +63,9 @@
   "coingecko": {
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
+  },
+  "github-discovery": {
+    "ok": true
   },
   "research": {
     "ok": true
