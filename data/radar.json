@@ -6764,6 +6764,48 @@
    "dossier": null
   },
   {
+   "key": "forum:ethresear.ch:26226",
+   "title": "GKR with a Machine-Checked Core, and a Sparse Prover Made Faster with Byte-Identical Proofs",
+   "url": "https://ethresear.ch/t/gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs/26226",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-07",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
+  },
+  {
+   "key": "forum:forum.celestia.org:2340",
+   "title": "Sustainable DA Economics: Implementing Dynamic Blob Fee Burning and Rollup Staking Requirements",
+   "url": "https://forum.celestia.org/t/sustainable-da-economics-implementing-dynamic-blob-fee-burning-and-rollup-staking-requirements/2340",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-11-07",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17549",
+   "title": "Wallet vacuum 11/2026",
+   "url": "https://forum.cosmos.network/t/wallet-vacuum-11-2026/17549",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-07",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
+  },
+  {
    "key": "forum:gov.optimism.io:10966",
    "title": "Grant Proposal: Trustless ZK Bitcoin Verification Infrastructure for [Opromism]",
    "url": "https://gov.optimism.io/t/grant-proposal-trustless-zk-bitcoin-verification-infrastructure-for-opromism/10966",
@@ -7181,6 +7223,7 @@
    "forum:ethresear.ch:26219",
    "forum:ethresear.ch:26223",
    "forum:ethresear.ch:26224",
+   "forum:ethresear.ch:26226",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -7195,6 +7238,7 @@
    "forum:forum.arbitrum.foundation:31665",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
+   "forum:forum.celestia.org:2340",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
@@ -7207,6 +7251,7 @@
    "forum:forum.cosmos.network:17537",
    "forum:forum.cosmos.network:17540",
    "forum:forum.cosmos.network:17543",
+   "forum:forum.cosmos.network:17549",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
