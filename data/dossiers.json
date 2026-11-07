@@ -4206,7 +4206,7 @@
     "id:99901"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-06",
+   "lastActivity": "2026-11-07",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -4332,6 +4332,15 @@
      "url": "https://github.com/ethereum-lists/chains/pull/9027",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x900ad5e9…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x900ad5e989aaf46c1db3fc69371ebcdf5bea59ea",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -4401,6 +4410,11 @@
       "addr": "0x520bf060f58cee054f725877279328f5f73a7893",
       "type": "Uniswap v3-fork",
       "date": "2026-11-06"
+     },
+     {
+      "addr": "0x900ad5e989aaf46c1db3fc69371ebcdf5bea59ea",
+      "type": "Uniswap v4",
+      "date": "2026-11-07"
      }
     ],
     "launchpad": [
