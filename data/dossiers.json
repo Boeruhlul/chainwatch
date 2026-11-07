@@ -5549,25 +5549,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-02",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xa16c57dc…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xa16c57dc50c585d0779c27c0c823336117e942b9",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "research",
-     "family": "onderzoek",
-     "kind": "research",
-     "what": "research: onderzoek",
-     "url": "https://www.tokenpost.com/news/technology/37935",
-     "stage": "testnet",
-     "strength": "soft"
-    },
-    {
      "date": "2026-11-03",
      "source": "ecosystem",
      "family": "onchain",
@@ -5797,6 +5778,24 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0x802fac9d…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x802fac9dd844a6b35704b789c6955b269e501414",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0xb960b7bf…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xb960b7bfe42c5f38519e28fd1f78587aa662c9fc",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v3-fork) 0xefcaa4c9…",
      "url": "https://sepolia-explorer.giwa.io/address/0xefcaa4c9cd75c95664ac99efca669bb0dc711e56",
      "strength": "running"
@@ -5827,8 +5826,7 @@
    ],
    "families": [
     "register",
-    "onchain",
-    "onderzoek"
+    "onchain"
    ],
    "website": "https://giwa.io",
    "research": {
