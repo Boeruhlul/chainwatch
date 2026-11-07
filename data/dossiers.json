@@ -13716,6 +13716,43 @@
     "onderzoek"
    ]
   },
+  "quic": {
+   "id": "quic",
+   "name": "QUIC",
+   "aliases": [
+    "QUIC"
+   ],
+   "keys": [
+    "n:quic"
+   ],
+   "firstSeen": "2026-11-07",
+   "lastActivity": "2026-11-07",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-07"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-07",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/brianbongkyumkim-del/OMNEX",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "qvtx": {
    "id": "qvtx",
    "name": "QVTX",
