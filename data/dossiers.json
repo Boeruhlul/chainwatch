@@ -4359,6 +4359,15 @@
      "what": "ecosystem: DEX (Uniswap v4) 0x900ad5e9…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x900ad5e989aaf46c1db3fc69371ebcdf5bea59ea",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x2d81d8b1…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x2d81d8b13d626a4fabe8cd0be92392426cc6e73a",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -4461,6 +4470,10 @@
      {
       "addr": "0xc78fcb175a6ca05a837b231254178f609becb10a",
       "date": "2026-11-06"
+     },
+     {
+      "addr": "0x2d81d8b13d626a4fabe8cd0be92392426cc6e73a",
+      "date": "2026-11-07"
      }
     ]
    }
