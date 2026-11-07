@@ -6776,6 +6776,30 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-11-07"
+  },
+  {
+   "key": "pr:ethereum/ercs#2150",
+   "title": "Update ERC-8049: Align metadata names with ERC-8048",
+   "url": "https://github.com/ethereum/ERCs/pull/2150",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-07"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-07"
+  },
+  {
+   "key": "pr:ethereum/ercs#2151",
+   "title": "Update ERC-8350: clarify relayed empty-signature comment",
+   "url": "https://github.com/ethereum/ERCs/pull/2151",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-07"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-07"
   }
  ],
  "seen": {
@@ -7367,6 +7391,8 @@
    "pr:ethereum/ercs#2147",
    "pr:ethereum/ercs#2148",
    "pr:ethereum/ercs#2149",
+   "pr:ethereum/ercs#2150",
+   "pr:ethereum/ercs#2151",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
