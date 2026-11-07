@@ -6674,6 +6674,20 @@
    "src": "verified-contracts",
    "date": "2026-11-06",
    "dossier": null
+  },
+  {
+   "key": "forum:ethresear.ch:26224",
+   "title": "How large can EIP-8141's validation budget be? A mempool DoS benchmark",
+   "url": "https://ethresear.ch/t/how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark/26224",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-06",
+    "posts": 1,
+    "views": 18
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
   }
  ],
  "seen": {
@@ -7051,6 +7065,7 @@
    "forum:ethresear.ch:26212",
    "forum:ethresear.ch:26219",
    "forum:ethresear.ch:26223",
+   "forum:ethresear.ch:26224",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
