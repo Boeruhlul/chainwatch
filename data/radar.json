@@ -6762,6 +6762,20 @@
    "src": "forums",
    "date": "2026-11-07",
    "dossier": null
+  },
+  {
+   "key": "forum:gov.optimism.io:10966",
+   "title": "Grant Proposal: Trustless ZK Bitcoin Verification Infrastructure for [Opromism]",
+   "url": "https://gov.optimism.io/t/grant-proposal-trustless-zk-bitcoin-verification-infrastructure-for-opromism/10966",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-07",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-07"
   }
  ],
  "seen": {
@@ -7202,7 +7216,8 @@
    "forum:gov.optimism.io:10939",
    "forum:gov.optimism.io:10940",
    "forum:gov.optimism.io:10948",
-   "forum:gov.optimism.io:10950"
+   "forum:gov.optimism.io:10950",
+   "forum:gov.optimism.io:10966"
   ],
   "immunefi": [
    "immunefi:paxos-labs",
