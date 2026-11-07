@@ -4229,24 +4229,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v3-fork) 0xe606b243…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xe606b243e659fb8e210aced187d0093dbfad96c5",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x0088bea2…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x0088bea218c283a939c93d7db8353cd87cdcf647",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x3c4f4795…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x3c4f47959101557eed9bc4ae8d8d986ae8d3e5b1",
      "strength": "running"
@@ -4311,6 +4293,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xfb092c7c…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xfb092c7cdf29a31ed2e4b3a495b6d7969b616e0e",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v3-fork) 0xf172c253…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xf172c253610b41147fb655067bfcb9415087b9ac",
      "strength": "running"
@@ -4322,6 +4313,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x0a47f680…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x0a47f680e4123a9d77946de9efa710d18d7aa782",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x2fc9c162…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x2fc9c1622ee33fad06e4b6dcd2d756121da7ddd7",
      "strength": "running"
     },
     {
