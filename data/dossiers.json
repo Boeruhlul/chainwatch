@@ -4392,6 +4392,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x6ae314cd…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ae314cd6de24907fc6a200aa6d523d35fd102d3",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x6cbab0a9…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x6cbab0a9c85ad2ca9d451875360065d39d6f4f5e",
      "strength": "running"
