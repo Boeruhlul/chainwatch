@@ -12302,6 +12302,43 @@
    },
    "org": "Phase (Kirill Eves, Unlimit-oprichter)"
   },
+  "phemex": {
+   "id": "phemex",
+   "name": "Phemex",
+   "aliases": [
+    "Phemex"
+   ],
+   "keys": [
+    "n:phemex"
+   ],
+   "firstSeen": "2026-11-07",
+   "lastActivity": "2026-11-07",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-07"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-07",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/11qfour/phemex-crypto-api-qa",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "pikochain": {
    "id": "pikochain",
    "name": "PikoChain",
