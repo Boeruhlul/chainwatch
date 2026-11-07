@@ -6688,6 +6688,18 @@
    "date": "2026-11-07"
   },
   {
+   "key": "chaincontract:qms:0x3a153e8bcde02f4cf6c5eeecd9c83bc0296ffbd3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Router02 op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x3a153e8bcde02f4cf6c5eeecd9c83bc0296ffbd3",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x3a153e8bcde02f4cf6c5eeecd9c83bc0296ffbd3"
+   },
+   "date": "2026-11-07"
+  },
+  {
    "key": "forum:ethresear.ch:26224",
    "title": "How large can EIP-8141's validation budget be? A mempool DoS benchmark",
    "url": "https://ethresear.ch/t/how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark/26224",
@@ -6917,6 +6929,7 @@
    "chaincontract:qms:0x3185aaaaae5b9f162a46dd430424011eea54cd2a",
    "chaincontract:qms:0x343d8ab2434e24be5fa10850590ca5fa417cf29e",
    "chaincontract:qms:0x36f6fbf1bb5d1c7e91b69cc34c394a2b239af898",
+   "chaincontract:qms:0x3a153e8bcde02f4cf6c5eeecd9c83bc0296ffbd3",
    "chaincontract:qms:0x3bfb3a99cfc498b33c876e00151df3582ce03e2c",
    "chaincontract:qms:0x487d7051845d4fe6d6c4b2055ef7d6e2d3e142df",
    "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
