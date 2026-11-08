@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-07",
+ "lastSent": "2026-11-08",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -6746,7 +6746,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26224",
@@ -6775,7 +6776,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "forum:forum.celestia.org:2340",
@@ -6789,7 +6791,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17549",
@@ -6803,7 +6806,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "forum:gov.optimism.io:10966",
@@ -6817,7 +6821,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2150",
@@ -6829,7 +6834,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2151",
@@ -6841,7 +6847,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-07"
+   "date": "2026-11-07",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17550",
@@ -6855,7 +6862,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-08"
+   "date": "2026-11-08",
+   "dossier": null
   }
  ],
  "seen": {
