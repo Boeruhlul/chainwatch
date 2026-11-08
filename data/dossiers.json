@@ -13321,7 +13321,8 @@
    "name": "QDAY Aevum",
    "aliases": [
     "QDAY Aevum",
-    "QDay"
+    "QDay",
+    "QDay Aevum"
    ],
    "keys": [
     "d:qday.io",
@@ -13331,7 +13332,7 @@
     "n:qdayaevum"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
+   "lastActivity": "2026-11-08",
    "stage": "draait",
    "stageHistory": [
     {
@@ -13384,6 +13385,15 @@
      "url": "https://github.com/ethereum-lists/chains/pull/9018",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/LBCron/aevum-tusd8-paystream",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -13403,7 +13413,8 @@
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 44001)"
    ],
    "families": [
-    "register"
+    "register",
+    "github"
    ],
    "liveRpc": "https://rpc.qday.io"
   },
