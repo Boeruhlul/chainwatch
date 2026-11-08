@@ -4228,15 +4228,6 @@
      "date": "2026-11-06",
      "source": "ethlists-pr",
      "family": "register",
-     "kind": "proposal",
-     "what": "ethlists-pr: chain-ID-aanvraag · ID 99801",
-     "url": "https://github.com/ethereum-lists/chains/pull/9027",
-     "strength": "technical"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "ethlists-pr",
-     "family": "register",
      "kind": "launched",
      "what": "ethlists-pr: RPC antwoordt · ID 99801",
      "url": "https://github.com/ethereum-lists/chains/pull/9027",
@@ -4473,6 +4464,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x785e1f6c…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x785e1f6ca36908c6cfefc82c64a6a72f1002813d",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x7b750df9…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x7b750df954099503f067f179b102bfd39e56987b",
      "strength": "running"
@@ -4611,6 +4611,10 @@
      },
      {
       "addr": "0x7b750df954099503f067f179b102bfd39e56987b",
+      "date": "2026-11-08"
+     },
+     {
+      "addr": "0x785e1f6ca36908c6cfefc82c64a6a72f1002813d",
       "date": "2026-11-08"
      }
     ]
