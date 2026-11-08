@@ -692,6 +692,7 @@
   "ghrepo:kx9-dev/kx9-web",
   "ghrepo:kyle-hodges-database/urban-computing-machine",
   "ghrepo:kyoodong/cometbft-prune-pacer",
+  "ghrepo:kyoryuu-lab/cache-aligned-radix-sort-1b",
   "ghrepo:laaroussisalahddine-commits/push_swap",
   "ghrepo:lamaaguilar9-web/solana-leader-scheduler-bounty",
   "ghrepo:lanconneector/lanconnector",
@@ -882,6 +883,7 @@
   "ghrepo:noders-team/celestia-blob-archive",
   "ghrepo:noegng/cobra",
   "ghrepo:nordic-crypto-org/cs2-site",
+  "ghrepo:nordic-crypto-org/pretix-nexa-vouchers",
   "ghrepo:novalabs-xdev/python_gestionnaire_contact",
   "ghrepo:novativez/pathwise",
   "ghrepo:nsevejk0/accord-near",
@@ -1399,5 +1401,6 @@
   "ghrepo:zouloupapers/lab-active-directory-windows-server",
   "ghrepo:zout/zitereenbusjeklem",
   "ghrepo:zuemen/writ",
+  "ghrepo:zxrr85567-tech/znetwork",
   "ghrepo:zxw19/wio-tracker-l2-meshtastic-stt"
 ]
