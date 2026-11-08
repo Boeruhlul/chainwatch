@@ -4304,24 +4304,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x5c54a729…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x5c54a7293d96b11a29a0256ee8dfdbc3059637da",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x614028b7…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x614028b7cb18bf6eb237b5a8ea846a249a942201",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x6ae314cd…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ae314cd6de24907fc6a200aa6d523d35fd102d3",
      "strength": "running"
@@ -4448,6 +4430,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x2581ac55…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x2581ac551910c10eb46daa89f5f1e86a5914462c",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xec19b191…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xec19b191728b8485bc4ddc2b4020b2653ad4093a",
      "strength": "running"
@@ -4486,6 +4477,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x9685c1bc…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x9685c1bc2f7215849638dd6140027b8a4e0e9f1e",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x9afe5d84…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x9afe5d8495a51feae423f9873dba698c6d0aaef9",
      "strength": "running"
     },
     {
