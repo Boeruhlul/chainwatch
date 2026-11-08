@@ -4229,15 +4229,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x720f2874…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x720f287459458df347a77af6040217ef652c06f2",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xc78fcb17…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xc78fcb175a6ca05a837b231254178f609becb10a",
      "strength": "running"
@@ -4485,6 +4476,15 @@
      "what": "ecosystem: DEX (Uniswap v4) 0x0493ba0e…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x0493ba0e1c0d23fc2df1fb12dc083663f11e0b7d",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xff729e72…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xff729e724c54045d04846cde960c3c5ad5e892fd",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -4604,6 +4604,10 @@
      {
       "addr": "0x7115ea2ed1aaf3046db77dab789bb02756deec88",
       "date": "2026-11-07"
+     },
+     {
+      "addr": "0xff729e724c54045d04846cde960c3c5ad5e892fd",
+      "date": "2026-11-08"
      }
     ]
    }
