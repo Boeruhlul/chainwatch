@@ -6851,6 +6851,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3056",
+   "title": "Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
+   "url": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-08"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30300",
    "title": "Draft ERC: Agent Information Flow Paradigm (AIFP) - versioned, composable rules for how agents provide, observe and redistribute information",
    "url": "https://ethereum-magicians.org/t/draft-erc-agent-information-flow-paradigm-aifp-versioned-composable-rules-for-how-agents-provide-observe-and-redistribute-information/30300",
@@ -7210,6 +7224,7 @@
    "forum:delvingbitcoin.org:3026",
    "forum:delvingbitcoin.org:3027",
    "forum:delvingbitcoin.org:3050",
+   "forum:delvingbitcoin.org:3056",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
