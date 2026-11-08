@@ -3656,6 +3656,44 @@
     "register"
    ]
   },
+  "dovelpr17validationpr17r44gocelestiaapp": {
+   "id": "dovelpr17validationpr17r44gocelestiaapp",
+   "name": "dovel-pr17-validation/pr17r44-go-celestia-app",
+   "aliases": [
+    "dovel-pr17-validation/pr17r44-go-celestia-app"
+   ],
+   "keys": [
+    "gh:dovel-pr17-validation"
+   ],
+   "firstSeen": "2026-11-08",
+   "lastActivity": "2026-11-08",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-08"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-08",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/dovel-pr17-validation/pr17r44-go-celestia-app",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "drama": {
    "id": "drama",
    "name": "Drama",
