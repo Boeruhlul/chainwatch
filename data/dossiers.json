@@ -4267,15 +4267,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x51027076…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x51027076df8416e42ea8438b27a0c433d9662e68",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x5c54a729…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x5c54a7293d96b11a29a0256ee8dfdbc3059637da",
      "strength": "running"
@@ -4458,6 +4449,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x9685c1bc…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x9685c1bc2f7215849638dd6140027b8a4e0e9f1e",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xa86d386e…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xa86d386e930b70a0e64069456d2381326915de7d",
      "strength": "running"
     },
     {
