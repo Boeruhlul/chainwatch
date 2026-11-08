@@ -6851,6 +6851,34 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30300",
+   "title": "Draft ERC: Agent Information Flow Paradigm (AIFP) - versioned, composable rules for how agents provide, observe and redistribute information",
+   "url": "https://ethereum-magicians.org/t/draft-erc-agent-information-flow-paradigm-aifp-versioned-composable-rules-for-how-agents-provide-observe-and-redistribute-information/30300",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-08"
+  },
+  {
+   "key": "forum:ethresear.ch:26227",
+   "title": "Folding vs full-verifier recursion for PQ signature aggregation in leanVM: measurements and negative results",
+   "url": "https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-08"
+  },
+  {
    "key": "forum:forum.cosmos.network:17550",
    "title": "URGENT SECURITY REPORT: theft of staked ATOM via LSM Tokenize Shares, Cosmos Hub",
    "url": "https://forum.cosmos.network/t/urgent-security-report-theft-of-staked-atom-via-lsm-tokenize-shares-cosmos-hub/17550",
@@ -6864,6 +6892,18 @@
    "src": "forums",
    "date": "2026-11-08",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2152",
+   "title": "Add ERC: Agent Information Flow Paradigm",
+   "url": "https://github.com/ethereum/ERCs/pull/2152",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-08"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-08"
   }
  ],
  "seen": {
@@ -7224,6 +7264,7 @@
    "forum:ethereum-magicians.org:30289",
    "forum:ethereum-magicians.org:30291",
    "forum:ethereum-magicians.org:30297",
+   "forum:ethereum-magicians.org:30300",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7246,6 +7287,7 @@
    "forum:ethresear.ch:26223",
    "forum:ethresear.ch:26224",
    "forum:ethresear.ch:26226",
+   "forum:ethresear.ch:26227",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -7461,6 +7503,7 @@
    "pr:ethereum/ercs#2149",
    "pr:ethereum/ercs#2150",
    "pr:ethereum/ercs#2151",
+   "pr:ethereum/ercs#2152",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
