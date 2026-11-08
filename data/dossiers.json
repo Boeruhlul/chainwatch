@@ -12576,10 +12576,14 @@
    ],
    "firstSeen": "2026-11-08",
    "lastActivity": "2026-11-08",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-08"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-08"
     }
    ],
@@ -12592,6 +12596,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 9192",
      "url": "https://github.com/ethereum-lists/chains/pull/9032",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 9192",
+     "url": "https://github.com/ethereum-lists/chains/pull/9032",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -12603,13 +12617,14 @@
     "https://rpc.piochain.online"
    ],
    "explorer": "https://explorer.piochain.online",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 9192)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.piochain.online"
   },
   "plus": {
    "id": "plus",
