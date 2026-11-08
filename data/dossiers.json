@@ -15281,6 +15281,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 22018",
      "url": "https://github.com/ethereum-lists/chains/pull/9031",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 22018",
+     "url": "https://github.com/ethereum-lists/chains/pull/9031",
+     "strength": "running"
     }
    ],
    "chainIds": [
