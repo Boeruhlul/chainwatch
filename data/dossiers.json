@@ -2223,6 +2223,43 @@
     "code"
    ]
   },
+  "capturesoroban": {
+   "id": "capturesoroban",
+   "name": "Capture Soroban",
+   "aliases": [
+    "Capture Soroban"
+   ],
+   "keys": [
+    "n:capturesoroban"
+   ],
+   "firstSeen": "2026-11-08",
+   "lastActivity": "2026-11-08",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-08"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-08",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/sororeplay-labs/sororeplay",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "carinetwork": {
    "id": "carinetwork",
    "name": "Cari Network",
