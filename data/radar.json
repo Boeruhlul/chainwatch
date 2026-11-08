@@ -6948,6 +6948,18 @@
    "date": "2026-11-08"
   },
   {
+   "key": "pr:ethereum/eips#12638",
+   "title": "Add EIP: Versioned Opcodes for Gas Repricing",
+   "url": "https://github.com/ethereum/EIPs/pull/12638",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-08"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-08"
+  },
+  {
    "key": "pr:ethereum/ercs#2152",
    "title": "Add ERC: Agent Information Flow Paradigm",
    "url": "https://github.com/ethereum/ERCs/pull/2152",
@@ -7525,6 +7537,7 @@
    "pr:ethereum/eips#12632",
    "pr:ethereum/eips#12633",
    "pr:ethereum/eips#12637",
+   "pr:ethereum/eips#12638",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
