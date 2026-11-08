@@ -15242,7 +15242,7 @@
     "n:skygold"
    ],
    "firstSeen": "2026-11-06",
-   "lastActivity": "2026-11-06",
+   "lastActivity": "2026-11-08",
    "stage": "draait",
    "stageHistory": [
     {
@@ -15272,6 +15272,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 22018",
      "url": "https://github.com/ethereum-lists/chains/pull/9028",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 22018",
+     "url": "https://github.com/ethereum-lists/chains/pull/9031",
+     "strength": "technical"
     }
    ],
    "chainIds": [
