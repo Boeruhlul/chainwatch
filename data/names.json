@@ -4646,6 +4646,7 @@
   "wadzchain:test",
   "wagmi:test",
   "walrus:lead",
+  "walrusmemory:lead",
   "wanchain:main",
   "wanchain:test",
   "wannachain:main",

@@ -17432,6 +17432,43 @@
     "github"
    ]
   },
+  "walrusmemory": {
+   "id": "walrusmemory",
+   "name": "Walrus Memory",
+   "aliases": [
+    "Walrus Memory"
+   ],
+   "keys": [
+    "n:walrusmemory"
+   ],
+   "firstSeen": "2026-11-08",
+   "lastActivity": "2026-11-08",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-08"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-08",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Adwaitbytes/ferry",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "wattx": {
    "id": "wattx",
    "name": "WATTx",
