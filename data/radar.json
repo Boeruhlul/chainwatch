@@ -6879,6 +6879,20 @@
    "date": "2026-11-08"
   },
   {
+   "key": "forum:ethereum-magicians.org:30304",
+   "title": "Draft ERC: Agent Meditation Mechanism — attributable, versioned self-maintenance records of an agent across runtime, memory and skills, tasks and roles, and cognition",
+   "url": "https://ethereum-magicians.org/t/draft-erc-agent-meditation-mechanism-attributable-versioned-self-maintenance-records-of-an-agent-across-runtime-memory-and-skills-tasks-and-roles-and-cognition/30304",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-08"
+  },
+  {
    "key": "forum:ethresear.ch:26227",
    "title": "Folding vs full-verifier recursion for PQ signature aggregation in leanVM: measurements and negative results",
    "url": "https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227",
@@ -6887,6 +6901,20 @@
     "created": "2026-11-08",
     "posts": 1,
     "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-08"
+  },
+  {
+   "key": "forum:ethresear.ch:26229",
+   "title": "Solving PQC Bandwidth via Nybrind Wiesner Money & Lattice HSMs",
+   "url": "https://ethresear.ch/t/solving-pqc-bandwidth-via-nybrind-wiesner-money-lattice-hsms/26229",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 10
    },
    "cat": "techniek",
    "src": "forums",
@@ -6908,9 +6936,33 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12637",
+   "title": "Add EIP: Separate execution credits and billing credits",
+   "url": "https://github.com/ethereum/EIPs/pull/12637",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-08"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-08"
+  },
+  {
    "key": "pr:ethereum/ercs#2152",
    "title": "Add ERC: Agent Information Flow Paradigm",
    "url": "https://github.com/ethereum/ERCs/pull/2152",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-08"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-08"
+  },
+  {
+   "key": "pr:ethereum/ercs#2155",
+   "title": "Add ERC: Agent Meditation Mechanism",
+   "url": "https://github.com/ethereum/ERCs/pull/2155",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-08"
@@ -7280,6 +7332,7 @@
    "forum:ethereum-magicians.org:30291",
    "forum:ethereum-magicians.org:30297",
    "forum:ethereum-magicians.org:30300",
+   "forum:ethereum-magicians.org:30304",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7303,6 +7356,7 @@
    "forum:ethresear.ch:26224",
    "forum:ethresear.ch:26226",
    "forum:ethresear.ch:26227",
+   "forum:ethresear.ch:26229",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -7470,6 +7524,7 @@
    "pr:ethereum/eips#12630",
    "pr:ethereum/eips#12632",
    "pr:ethereum/eips#12633",
+   "pr:ethereum/eips#12637",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -7519,6 +7574,7 @@
    "pr:ethereum/ercs#2150",
    "pr:ethereum/ercs#2151",
    "pr:ethereum/ercs#2152",
+   "pr:ethereum/ercs#2155",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
