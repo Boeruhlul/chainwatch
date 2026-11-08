@@ -16602,6 +16602,43 @@
     "register"
    ]
   },
+  "trappy": {
+   "id": "trappy",
+   "name": "Trappy",
+   "aliases": [
+    "Trappy"
+   ],
+   "keys": [
+    "n:trappy"
+   ],
+   "firstSeen": "2026-11-08",
+   "lastActivity": "2026-11-08",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-08"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-08",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/ashoccompany/trappy-testnet-wallet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "trexledger": {
    "id": "trexledger",
    "name": "T-REX Ledger",
