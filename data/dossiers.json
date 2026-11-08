@@ -4225,25 +4225,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-06",
-     "source": "ethlists-pr",
-     "family": "register",
-     "kind": "launched",
-     "what": "ethlists-pr: RPC antwoordt · ID 99801",
-     "url": "https://github.com/ethereum-lists/chains/pull/9027",
-     "testnetName": true,
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v2-fork) 0xb2f8ad73…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xb2f8ad730e9d05d333c7861184aad0bff1785dd0",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-07",
      "source": "ecosystem",
      "family": "onchain",
@@ -4455,8 +4436,26 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x843b7a48…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x843b7a48a6cb1138c0569e8c2310c52d96d98ed2",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xeef78c49…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xeef78c49c02e480dd41bfc298d796dffb30516cd",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x38403a1e…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x38403a1ead712d2e71e6aa1415f447e18be6bc0a",
      "strength": "running"
     },
     {
