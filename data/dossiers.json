@@ -4671,24 +4671,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x0a47f680…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x0a47f680e4123a9d77946de9efa710d18d7aa782",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x843b7a48…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x843b7a48a6cb1138c0569e8c2310c52d96d98ed2",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x9685c1bc…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x9685c1bc2f7215849638dd6140027b8a4e0e9f1e",
      "strength": "running"
@@ -4815,6 +4797,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x51027076…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x51027076df8416e42ea8438b27a0c433d9662e68",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x683264f7…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x683264f7a3ed04d762b5a2fc6db5c8061fb7535d",
      "strength": "running"
@@ -4916,6 +4907,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x668fdb18…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x668fdb189bd435dce59efa6582cd30c84b06e0fe",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xdeb59b67…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xdeb59b67b47b5988ab5897dbd5a203356abd4a66",
      "strength": "running"
     },
     {
