@@ -3056,10 +3056,14 @@
    ],
    "firstSeen": "2026-11-09",
    "lastActivity": "2026-11-09",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-09"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-09"
     }
    ],
@@ -3072,6 +3076,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 430",
      "url": "https://github.com/ethereum-lists/chains/pull/9035",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 430",
+     "url": "https://github.com/ethereum-lists/chains/pull/9035",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3082,13 +3096,14 @@
    "rpc": [
     "https://eth-testnet.platformd.io"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 430)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://eth-testnet.platformd.io"
   },
   "dacinterstellar": {
    "id": "dacinterstellar",
