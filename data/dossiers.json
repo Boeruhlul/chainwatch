@@ -4732,24 +4732,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x6d56bd9c…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6d56bd9c1a78325c726e12cdeecf6f405195633e",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x785e1f6c…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x785e1f6ca36908c6cfefc82c64a6a72f1002813d",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x7b750df9…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x7b750df954099503f067f179b102bfd39e56987b",
      "strength": "running"
@@ -4981,6 +4963,24 @@
     },
     {
      "date": "2026-11-09",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 99901",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-99901.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 99801",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-99801.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
      "source": "lifi",
      "family": "markt",
      "kind": "mainnet",
@@ -5008,7 +5008,8 @@
    "architecture": "EVM",
    "rpc": [
     "https://rpc-elysium-mainnet.t.conduit.xyz",
-    "https://testnet-rpc.elysium.kinetiq.xyz"
+    "https://testnet-rpc.elysium.kinetiq.xyz",
+    "https://rpc.elysium.kinetiq.xyz"
    ],
    "explorer": "https://elysium.kinetiq.xyz/explorer",
    "mainnetSince": "2026-11-04",
