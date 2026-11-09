@@ -1,6 +1,44 @@
 {
  "version": 1,
  "dossiers": {
+  "0xlogiclabember": {
+   "id": "0xlogiclabember",
+   "name": "0xLogicLab/Ember",
+   "aliases": [
+    "0xLogicLab/Ember"
+   ],
+   "keys": [
+    "gh:0xlogiclab"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/0xLogicLab/Ember",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "314hashbettergov": {
    "id": "314hashbettergov",
    "name": "314-hash/bettergov",
