@@ -3044,6 +3044,52 @@
     "register"
    ]
   },
+  "d-2": {
+   "id": "d-2",
+   "name": "D",
+   "aliases": [
+    "D"
+   ],
+   "keys": [
+    "d:platformd.io",
+    "id:430"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 430",
+     "url": "https://github.com/ethereum-lists/chains/pull/9035",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "430"
+   ],
+   "website": "https://platformd.io",
+   "architecture": "EVM",
+   "rpc": [
+    "https://eth-testnet.platformd.io"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "dacinterstellar": {
    "id": "dacinterstellar",
    "name": "DAC Interstellar",
@@ -4671,24 +4717,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x9afe5d84…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x9afe5d8495a51feae423f9873dba698c6d0aaef9",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xa86d386e…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xa86d386e930b70a0e64069456d2381326915de7d",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xeef78c49…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xeef78c49c02e480dd41bfc298d796dffb30516cd",
      "strength": "running"
@@ -4905,8 +4933,26 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x17443404…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x17443404284b414f87e0eb1b189b42a44cd26204",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x668fdb18…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x668fdb189bd435dce59efa6582cd30c84b06e0fe",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa72550a1…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xa72550a14e4402f22b918983e10ed2ab47e51fe9",
      "strength": "running"
     },
     {
