@@ -7034,6 +7034,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30318",
+   "title": "Checking that a deployed contract still runs the audited commit",
+   "url": "https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
    "key": "forum:forum.cosmos.network:17556",
    "title": "Creat voting to jail the hacker validator",
    "url": "https://forum.cosmos.network/t/creat-voting-to-jail-the-hacker-validator/17556",
@@ -7412,6 +7426,7 @@
    "forum:ethereum-magicians.org:30300",
    "forum:ethereum-magicians.org:30304",
    "forum:ethereum-magicians.org:30313",
+   "forum:ethereum-magicians.org:30318",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
