@@ -7059,6 +7059,20 @@
    "date": "2026-11-09"
   },
   {
+   "key": "forum:ethereum-magicians.org:30320",
+   "title": "EIP-8487: Separate execution credits and billing credits",
+   "url": "https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 14
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
    "key": "forum:forum.cosmos.network:17556",
    "title": "Creat voting to jail the hacker validator",
    "url": "https://forum.cosmos.network/t/creat-voting-to-jail-the-hacker-validator/17556",
@@ -7072,6 +7086,20 @@
    "src": "forums",
    "date": "2026-11-09",
    "dossier": null
+  },
+  {
+   "key": "forum:forum.cosmos.network:17562",
+   "title": "IBC joins the Linux Foundation Decentralized Trust: what it means for chains, builders and the Hub!",
+   "url": "https://forum.cosmos.network/t/ibc-joins-the-linux-foundation-decentralized-trust-what-it-means-for-chains-builders-and-the-hub/17562",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
   },
   {
    "key": "pr:ethereum/eips#12639",
@@ -7462,6 +7490,7 @@
    "forum:ethereum-magicians.org:30304",
    "forum:ethereum-magicians.org:30313",
    "forum:ethereum-magicians.org:30318",
+   "forum:ethereum-magicians.org:30320",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7516,6 +7545,7 @@
    "forum:forum.cosmos.network:17549",
    "forum:forum.cosmos.network:17550",
    "forum:forum.cosmos.network:17556",
+   "forum:forum.cosmos.network:17562",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
