@@ -7073,6 +7073,20 @@
    "date": "2026-11-09"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31681",
+   "title": "Arbitrum Audit Program: Q4 & Final Transparency Report",
+   "url": "https://forum.arbitrum.foundation/t/arbitrum-audit-program-q4-final-transparency-report/31681",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
    "key": "forum:forum.cosmos.network:17556",
    "title": "Creat voting to jail the hacker validator",
    "url": "https://forum.cosmos.network/t/creat-voting-to-jail-the-hacker-validator/17556",
@@ -7099,6 +7113,44 @@
    },
    "cat": "techniek",
    "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
+   "key": "forum:gov.optimism.io:10978",
+   "title": "Maintenance Upgrade Proposal: Soneium Mainnet Proposer Rotation and Fee Vault Config Update",
+   "url": "https://gov.optimism.io/t/maintenance-upgrade-proposal-soneium-mainnet-proposer-rotation-and-fee-vault-config-update/10978",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
+   "key": "pr:bitcoin/bips#2349",
+   "title": "BIP392: Fix xprv/xpub examples to use BIP352 derivation paths",
+   "url": "https://github.com/bitcoin/bips/pull/2349",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-09"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-09"
+  },
+  {
+   "key": "pr:bitcoin/bips#2350",
+   "title": "process: include deputies in README Owner entries",
+   "url": "https://github.com/bitcoin/bips/pull/2350",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-09"
+   },
+   "cat": "techniek",
+   "src": "proposals",
    "date": "2026-11-09"
   },
   {
@@ -7527,6 +7579,7 @@
    "forum:forum.arbitrum.foundation:31655",
    "forum:forum.arbitrum.foundation:31664",
    "forum:forum.arbitrum.foundation:31665",
+   "forum:forum.arbitrum.foundation:31681",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
@@ -7580,7 +7633,8 @@
    "forum:gov.optimism.io:10940",
    "forum:gov.optimism.io:10948",
    "forum:gov.optimism.io:10950",
-   "forum:gov.optimism.io:10966"
+   "forum:gov.optimism.io:10966",
+   "forum:gov.optimism.io:10978"
   ],
   "immunefi": [
    "immunefi:paxos-labs",
@@ -7629,6 +7683,8 @@
    "pr:bitcoin/bips#2346",
    "pr:bitcoin/bips#2347",
    "pr:bitcoin/bips#2348",
+   "pr:bitcoin/bips#2349",
+   "pr:bitcoin/bips#2350",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
