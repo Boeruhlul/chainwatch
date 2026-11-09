@@ -1,5 +1,5 @@
 {
-  "funding-rss": {
+  "github-discovery": {
     "ok": true
   },
   "rollup-factory": {
@@ -62,7 +62,7 @@
     "ok": true,
     "lastNotifiedAt": "2026-10-21T13:40:42.834Z"
   },
-  "github-discovery": {
+  "funding-rss": {
     "ok": true
   },
   "research": {
