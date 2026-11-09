@@ -19378,6 +19378,46 @@
     "register"
    ]
   },
+  "zerofluxprotocolzeroflux": {
+   "id": "zerofluxprotocolzeroflux",
+   "name": "zerofluxprotocol/zeroflux",
+   "aliases": [
+    "zerofluxprotocol/zeroflux"
+   ],
+   "keys": [
+    "d:zeroflux.network",
+    "gh:zerofluxprotocol"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/zerofluxprotocol/zeroflux",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://zeroflux.network",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "zerolayerzero": {
    "id": "zerolayerzero",
    "name": "Zero (LayerZero)",
