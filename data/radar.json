@@ -7061,6 +7061,18 @@
    "src": "forums",
    "date": "2026-11-09",
    "dossier": null
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#727",
+   "title": "Amend SIMD-0326: define BLS validator ranks",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/727",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-11-09"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-09"
   }
  ],
  "seen": {
@@ -7679,7 +7691,8 @@
    "pr:solana-foundation/solana-improvement-documents#714",
    "pr:solana-foundation/solana-improvement-documents#715",
    "pr:solana-foundation/solana-improvement-documents#723",
-   "pr:solana-foundation/solana-improvement-documents#725"
+   "pr:solana-foundation/solana-improvement-documents#725",
+   "pr:solana-foundation/solana-improvement-documents#727"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
