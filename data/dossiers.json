@@ -4281,7 +4281,7 @@
     "id:99901"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-08",
+   "lastActivity": "2026-11-09",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -4297,15 +4297,6 @@
      "kind": "mainnet",
      "what": "hyperlane: mainnet · ID 99901",
      "url": "https://github.com/hyperlane-xyz/hyperlane-registry/tree/main/chains/elysium",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x6ce44358…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ce4435883f9549ec3d80076b6cd9d793cfc93aa",
      "strength": "running"
     },
     {
@@ -4558,6 +4549,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xff729e72…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xff729e724c54045d04846cde960c3c5ad5e892fd",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x668fdb18…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x668fdb189bd435dce59efa6582cd30c84b06e0fe",
      "strength": "running"
     }
    ],
