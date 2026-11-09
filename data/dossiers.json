@@ -1639,6 +1639,43 @@
     "github"
    ]
   },
+  "binancelive": {
+   "id": "binancelive",
+   "name": "Binance Live",
+   "aliases": [
+    "Binance Live"
+   ],
+   "keys": [
+    "n:binancelive"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Rhythmofgrace/invo-live",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "bitcoinswap": {
    "id": "bitcoinswap",
    "name": "Bitcoin Swap",
@@ -12339,6 +12376,44 @@
    ],
    "families": [
     "infra"
+   ]
+  },
+  "openknowledgeprotocolokpchain": {
+   "id": "openknowledgeprotocolokpchain",
+   "name": "Open-Knowledge-Protocol/okp-chain",
+   "aliases": [
+    "Open-Knowledge-Protocol/okp-chain"
+   ],
+   "keys": [
+    "gh:open-knowledge-protocol"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Open-Knowledge-Protocol/okp-chain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "orangepanelibbitcoinbsconfiggenerator": {
