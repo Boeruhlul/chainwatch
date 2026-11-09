@@ -7116,6 +7116,20 @@
    "date": "2026-11-09"
   },
   {
+   "key": "forum:forum.zknation.io:1331",
+   "title": "[ZIP-20] ZKsync v34 Upgrade for EraVM Chains",
+   "url": "https://forum.zknation.io/t/zip-20-zksync-v34-upgrade-for-eravm-chains/1331",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
+  },
+  {
    "key": "forum:gov.optimism.io:10978",
    "title": "Maintenance Upgrade Proposal: Soneium Mainnet Proposer Rotation and Fee Vault Config Update",
    "url": "https://gov.optimism.io/t/maintenance-upgrade-proposal-soneium-mainnet-proposer-rotation-and-fee-vault-config-update/10978",
@@ -7627,6 +7641,7 @@
    "forum:forum.zknation.io:1302",
    "forum:forum.zknation.io:1303",
    "forum:forum.zknation.io:1304",
+   "forum:forum.zknation.io:1331",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
