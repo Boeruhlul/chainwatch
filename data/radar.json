@@ -61,6 +61,17 @@
    "website": "https://x.com/flop_labs"
   },
   {
+   "id": "polyesterchain",
+   "name": "Polyester Chain",
+   "score": 5,
+   "why": [
+    "points/airdrop genoemd",
+    "nog geen mainnet (testnet)"
+   ],
+   "stage": "testnet",
+   "website": "https://polyester.com"
+  },
+  {
    "id": "pushchain",
    "name": "Push Chain",
    "score": 5,

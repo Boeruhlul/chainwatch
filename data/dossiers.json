@@ -13539,7 +13539,7 @@
     "n:polyesterchain"
    ],
    "firstSeen": "2026-11-02",
-   "lastActivity": "2026-11-02",
+   "lastActivity": "2026-11-09",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -13557,6 +13557,15 @@
      "url": "https://airdropalert.com/airdrops/polyester-testnet/",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/ahmadassayyaaf/polyester-testnet-trading-engine",
+     "strength": "technical"
     }
    ],
    "website": "https://polyester.com",
@@ -13585,13 +13594,13 @@
     "file": "2026-11-02-weekly.json"
    },
    "org": "Polyester (Miami, CEO Tristan Chaudhry)",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel C"
+    "2 onafhankelijke bronfamilies: onderzoek, github"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "github"
    ]
   },
   "polygoncdkhyperledgerbesuprivatechains": {
