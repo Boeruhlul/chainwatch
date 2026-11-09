@@ -3174,6 +3174,44 @@
     "register"
    ]
   },
+  "davisbrainsferal": {
+   "id": "davisbrainsferal",
+   "name": "DavisBrains/feral",
+   "aliases": [
+    "DavisBrains/feral"
+   ],
+   "keys": [
+    "gh:davisbrains"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/DavisBrains/feral",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "dbsecuritiesjejuchain": {
    "id": "dbsecuritiesjejuchain",
    "name": "DB Securities Jeju chain",
