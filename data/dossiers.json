@@ -13972,6 +13972,16 @@
     },
     {
      "date": "2026-11-09",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "launched",
+     "what": "chainlist: RPC antwoordt · ID 87870",
+     "url": "https://chainlist.org/chain/87870",
+     "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
