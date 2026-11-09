@@ -5281,6 +5281,45 @@
     "register"
    ]
   },
+  "elysiumkinetiq": {
+   "id": "elysiumkinetiq",
+   "name": "Elysium Kinetiq",
+   "aliases": [
+    "Elysium Kinetiq"
+   ],
+   "keys": [
+    "n:elysiumkinetiq"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "defillama",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "defillama: mainnet",
+     "url": "https://defillama.com/chain/Elysium%20Kinetiq",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "mainnetSince": "2026-11-09",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "emekamanuelnims": {
    "id": "emekamanuelnims",
    "name": "EmekaManuel/nims",
