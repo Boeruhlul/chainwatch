@@ -7074,6 +7074,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12639",
+   "title": "Update EIP-7976: Update parameter names",
+   "url": "https://github.com/ethereum/EIPs/pull/12639",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-09"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-09"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#727",
    "title": "Amend SIMD-0326: define BLS validator ranks",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/727",
@@ -7644,6 +7656,7 @@
    "pr:ethereum/eips#12633",
    "pr:ethereum/eips#12637",
    "pr:ethereum/eips#12638",
+   "pr:ethereum/eips#12639",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
