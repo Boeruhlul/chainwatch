@@ -4731,15 +4731,6 @@
      "date": "2026-11-09",
      "source": "chainlist",
      "family": "register",
-     "kind": "mainnet",
-     "what": "chainlist: mainnet · ID 99901",
-     "url": "https://chainlist.org/chain/99901",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "chainlist",
-     "family": "register",
      "kind": "testnet",
      "what": "chainlist: testnet · ID 99801",
      "url": "https://chainlist.org/chain/99801",
@@ -4932,6 +4923,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x17443404…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x17443404284b414f87e0eb1b189b42a44cd26204",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x4e59b448…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x4e59b44847b379578588920ca78fbf26c0b4956c",
      "strength": "running"
     },
     {
