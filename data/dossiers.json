@@ -4304,15 +4304,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x719f1e2c…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x719f1e2c32ef01432667419670ff236bd8cae96f",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x83e9b995…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x83e9b995352fef9d32140c8f00c62473f65614a1",
      "strength": "running"
@@ -4549,6 +4540,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xff729e72…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xff729e724c54045d04846cde960c3c5ad5e892fd",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xb60446dc…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xb60446dcfd6bc06b673fde41d5c42f7145cab235",
      "strength": "running"
     },
     {
@@ -5742,7 +5742,7 @@
     "n:upbitl2"
    ],
    "firstSeen": "2026-10-15",
-   "lastActivity": "2026-11-08",
+   "lastActivity": "2026-11-09",
    "stage": "draait",
    "stageHistory": [
     {
