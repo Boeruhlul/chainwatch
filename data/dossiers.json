@@ -5085,6 +5085,64 @@
     "onderzoek"
    ]
   },
+  "elysium-4": {
+   "id": "elysium-4",
+   "name": "Elysium",
+   "aliases": [
+    "Elysium"
+   ],
+   "keys": [
+    "d:elyscan.live"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 99901",
+     "url": "https://github.com/ethereum-lists/chains/pull/9033",
+     "strength": "technical"
+    }
+   ],
+   "suspect": {
+    "type": "id-botsing",
+    "other": "Elysium",
+    "official": [
+     "conduit.xyz",
+     "kinetiq.xyz"
+    ],
+    "own": [
+     "elyscan.live"
+    ]
+   },
+   "chainIds": [
+    "99901"
+   ],
+   "website": "https://elyscan.live",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.elyscan.live"
+   ],
+   "explorer": "https://elyscan.live",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ chain ID botst met Elysium",
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "emekamanuelnims": {
    "id": "emekamanuelnims",
    "name": "EmekaManuel/nims",
