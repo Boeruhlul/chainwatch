@@ -6982,6 +6982,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-08"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3057",
+   "title": "Disclosure: Memory-exhaustion DoS in Eclair 0.14.0",
+   "url": "https://delvingbitcoin.org/t/disclosure-memory-exhaustion-dos-in-eclair-0-14-0/3057",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-08",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
   }
  ],
  "seen": {
@@ -7289,6 +7303,7 @@
    "forum:delvingbitcoin.org:3027",
    "forum:delvingbitcoin.org:3050",
    "forum:delvingbitcoin.org:3056",
+   "forum:delvingbitcoin.org:3057",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
