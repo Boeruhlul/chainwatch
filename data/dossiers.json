@@ -8216,6 +8216,43 @@
     "onderzoek"
    ]
   },
+  "ltc": {
+   "id": "ltc",
+   "name": "LTC",
+   "aliases": [
+    "LTC"
+   ],
+   "keys": [
+    "n:ltc"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/a23v2challenge/BlockChain-test1",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "luxa": {
    "id": "luxa",
    "name": "luxa",
