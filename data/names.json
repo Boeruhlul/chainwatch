@@ -4545,6 +4545,7 @@
   "upchain:test",
   "updatemanifestmainnetinfo:pre",
   "updatemanifestmainnettestnetgasprices:pre",
+  "upsidefoundationupside:lead",
   "uptick:main",
   "uptick:test",
   "uptn:main",

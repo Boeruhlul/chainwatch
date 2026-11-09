@@ -18093,6 +18093,46 @@
     "register"
    ]
   },
+  "upsidefoundationupside": {
+   "id": "upsidefoundationupside",
+   "name": "Upside-Foundation/upside",
+   "aliases": [
+    "Upside-Foundation/upside"
+   ],
+   "keys": [
+    "d:upside.net",
+    "gh:upside-foundation"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Upside-Foundation/upside",
+     "strength": "technical"
+    }
+   ],
+   "website": "upside.net",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "utexousdtopbitcoinviargb": {
    "id": "utexousdtopbitcoinviargb",
    "name": "Utexo (USDT op Bitcoin via RGB)",
