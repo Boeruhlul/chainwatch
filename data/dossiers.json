@@ -13265,6 +13265,54 @@
    ],
    "liveRpc": "https://rpc.piochain.online"
   },
+  "pisochain": {
+   "id": "pisochain",
+   "name": "PISO Chain",
+   "aliases": [
+    "PISO Chain"
+   ],
+   "keys": [
+    "d:pisochain.com",
+    "id:2026001",
+    "n:pisochain"
+   ],
+   "firstSeen": "2026-11-09",
+   "lastActivity": "2026-11-09",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-09"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-09",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 2026001",
+     "url": "https://github.com/ethereum-lists/chains/pull/9034",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "2026001"
+   ],
+   "website": "https://pisochain.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.pisochain.com"
+   ],
+   "explorer": "https://pisochain.com",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "plus": {
    "id": "plus",
    "name": "PLUS",
