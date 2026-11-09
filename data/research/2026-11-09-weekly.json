@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Zilliqa Institutional Layer",
+    "aliases": ["Zilliqa L2", "ZIL Institutional Layer"],
+    "org": "Zilliqa",
+    "architecture": "Ethereum L2 · stack en proof-systeem nog TBD",
+    "stage": "rumor",
+    "confidence": "C",
+    "why": "Nieuw: Zilliqa stopt na negen jaar met zijn eigen L1 en relanceert als Ethereum-L2 voor gereguleerde instellingen. Bekende org en een nieuwe chain die nog geen stack, chain ID of datum heeft, dus vroeg in beeld.",
+    "facts": [
+      { "claim": "Zilliqa kondigde een relaunch aan als institutionele Ethereum-L2, 'Zilliqa Institutional Layer'. Alleen wallets met een geverifieerde vLEI mogen transacteren, LTIN draait de sequencer en ZIL blijft de enige token. Stack, proof-systeem, migratieplan en lanceerdatum zijn nog TBD.", "url": "https://www.bankless.com/read/news/zilliqa-ditches-its-l1-to-become-an-institutional-ethereum-l2", "date": "2026-11-05" },
+      { "claim": "Ethereum-gebaseerde L2 met ingebouwde identiteit en compliance en permissioned markten; tokenhouders hoeven nu niets te doen", "url": "https://www.hokanews.com/2026/11/zilliqa-to-transition-from-layer-1.html", "date": "2026-11-06" }
+    ],
+    "hypotheses": [
+      "Stack wordt waarschijnlijk OP Stack (OP Enterprise) of ZK Stack; onbevestigd.",
+      "Er komt waarschijnlijk eerst een testnet met een nieuw chain ID.",
+      "Waarschuwing: verwacht phishing met nep-'ZIL migratie/bridge'-sites; Zilliqa zegt dat houders niets hoeven te doen."
+    ],
+    "website": "https://www.zilliqa.com/",
+    "nextSignals": ["FAQ en blog op zilliqa.com", "nieuwe repo's in de Zilliqa GitHub-org", "chain-ID-aanvraag in ethereum-lists", "L2BEAT-vermelding"]
+  },
+  {
+    "name": "EEZ Rollup X",
+    "aliases": ["Ethereum Economic Zone", "EEZ", "Rollup X"],
+    "org": "Ethereum Economic Zone (Gnosis, Zisk; co-financiering Ethereum Foundation)",
+    "architecture": "Rollup-'zone' op Ethereum met atomaire L1-L2-uitvoering",
+    "stage": "testnet",
+    "confidence": "C",
+    "why": "Nieuw: het Rollup X-testnet ging live op Devcon Mumbai. Gnosis Chain stopt in het voorjaar van 2027 als zelfstandige L1 en wordt de eerste algemene zone. Dat levert een nieuwe familie rollups op om te volgen.",
+    "facts": [
+      { "claim": "Rollup X-testnet gelanceerd op Devcon Mumbai; demo's met CoW Swap en Safe; kernprotocol in onafhankelijke security-audit; 'still a test network'", "url": "https://www.chaincatcher.com/en/article/2301733", "date": "2026-11-04" },
+      { "claim": "Gnosis Chain beëindigt zijn onafhankelijke L1 in het voorjaar van 2027 en wordt via een hard fork de eerste algemene zone; chain ID, balances en xDAI blijven gelijk, de ~200.000 validators niet", "url": "https://www.chaincatcher.com/en/article/2301733", "date": "2026-11-04" },
+      { "claim": "EEZ lanceerde het Rollup X-ontwikkelnetwerk met integratie van mainnet-liquiditeit", "url": "https://www.chaincatcher.com/en/article/2302176", "date": "2026-11-06" }
+    ],
+    "hypotheses": [
+      "Er volgen meer zones (nieuwe rollups) met elk een eigen chain ID; elke nieuwe 'EEZ Zone' is een kandidaat.",
+      "Er is nog geen token of points-programma genoemd."
+    ],
+    "nextSignals": ["publieke RPC of chain ID voor Rollup X", "aankondigingen van nieuwe zones", "planning van de Gnosis-hard-fork"]
+  },
+  {
+    "name": "Elysium",
+    "aliases": ["Kinetiq Elysium", "Hyperliquid L2"],
+    "org": "Kinetiq",
+    "architecture": "Arbitrum Orbit-rollup op HyperEVM · HYPE als gas",
+    "stage": "mainnet",
+    "confidence": "A",
+    "why": "Nieuw sinds vorige week: mainnet staat vandaag (9 nov) gepland en er staan nu minstens vier launchpads met eigen tokens live (Boxa, Kleos, ElysPump, eleos). eleos start vandaag een points-seizoen.",
+    "facts": [
+      { "claim": "Publiek mainnet gepland op 9 november; Arbitrum Orbit-rollup die settlet op HyperEVM met HYPE als gas; HyperCore read/write-upgrade ~4 weken na lancering; sequencer-omzet 25/25/50, waarvan 50% KNTQ-buyback", "url": "https://coinpaper.com/38533/hyperliquid-s-first-layer-2-launches-november-9-with-hype-as-gas-token", "date": "2026-11-08" },
+      { "claim": "Boxa noemt zich de 'first DEX and launchpad live on Elysium'; Kleos is launchpad plus bridge; ElysPump 'first token launchpad on Elysium'; verder MontraXYZ, oxleydotfun, SignalFam, CorePad_hl, perpmefun, ChainzyLabs en Bunnypadfun", "url": "https://www.kucoin.com/news/trends/HYPE/6ae379ecbbcb520007450f0d", "date": "2026-10-29" },
+      { "claim": "Boxa: ~1.142 tokens uitgegeven; Kleos: ~1.318 tokens en ~$6,37 mln volume; ElysPump: ~304 tokens; eleos: eerste 'Grace Points'-seizoen start 9 november en heeft geen externe audit", "url": "https://www.kucoin.com/news/insight/HYPE/6aeb31f1bbcb52000745cc59", "date": "2026-11-04" },
+      { "claim": "ALT L2: launchpad 'for Hyperliquid L2s. Elysium first'; integratie staat op 'Planned'; zegt onafhankelijk te zijn, zonder steun van Elysium, Kinetiq of Hyperliquid", "url": "https://altl2.fun/" }
+    ],
+    "hypotheses": [
+      "eleos Grace Points en de Kalos Genesis-NFT's zijn vroege airdrop-achtige campagnes, maar zonder audit: hoog risico.",
+      "Er circuleren veel clone-tokens met dezelfde namen; contractadressen alleen via officiële kanalen vertrouwen."
+    ],
+    "website": "https://eleos.fun",
+    "ecosystem": { "launchpad": "Boxa, Kleos, ElysPump, eleos (eleos.fun); ALT L2 (altl2.fun) gepland", "dex": "Boxa (Uniswap v4-achtig); Kleos laat tokens graduaten naar Uniswap v3", "bridge": "Kleos bridge, eleos Bridge" },
+    "nextSignals": ["bevestiging dat mainnet live is", "HyperCore read/write-upgrade (~4 weken)", "eerste airdrops van launchpad-tokens"]
+  },
+  {
+    "name": "GIWA",
+    "aliases": ["GIWA Sepolia", "기와"],
+    "org": "Upbit / Dunamu",
+    "architecture": "EVM L2 · OP Stack (OP Enterprise)",
+    "stage": "testnet",
+    "confidence": "A",
+    "why": "Nieuw: een derde partij, giwa.markets, draait al een bonding-curve-launchpad op GIWA Sepolia. Tegelijk staat er op Robinhood Chain een '$GIWA'-token dat zich 'official' noemt, terwijl GIWA zegt geen token te hebben. Dat is een imitatie-waarschuwing, geen kans.",
+    "facts": [
+      { "claim": "giwa.markets / 기와마켓: 'Live on GIWA Sepolia testnet'; eerlijke bonding curve met graduation naar gelockte liquiditeit en een '$GIWA burn' (Furnace); noemt ook Robinhood Chain", "url": "https://giwa.markets/" },
+      { "claim": "Token 'GIWA ($GIWA)' op het Pons-launchpad (Robinhood Chain) noemt zich 'Official GIWA 기와마켓 launchpad token'", "url": "https://www.ponsfamily.com/launchpad/0xdaB0E8CE3b999D16898709A6DfC44c953bFc43b1" },
+      { "claim": "GIWA zegt dat mainnet niet live is, ontkent een RPC-lek en waarschuwt voor scams", "url": "https://crypto.news/upbit-backed-giwa-says-mainnet-is-not-live-denies-rpc-leak/", "date": "2026-09-27" }
+    ],
+    "hypotheses": [
+      "WAARSCHUWING: $GIWA op Robinhood Chain gebruikt de merknaam terwijl GIWA zelf geen token heeft; zeer waarschijnlijk niet officieel. Er is geen steun van Upbit voor giwa.markets gevonden.",
+      "De GiwaLaunchpad- en GamaLaunchpad-contracten die de bot deze week op GIWA Sepolia zag, kunnen bij giwa.markets horen; onbevestigd."
+    ],
+    "ecosystem": { "launchpad": "giwa.markets (onofficieel, Sepolia)" },
+    "nextSignals": ["officiële mainnet-datum van Dunamu", "afstand nemen van of erkenning door Upbit van giwa.markets"]
+  },
+  {
+    "name": "Telcoin Network",
+    "aliases": ["Telcoin L1"],
+    "org": "Telcoin",
+    "architecture": "EVM L1 · validators alleen GSMA-mobiele providers die TEL staken",
+    "stage": "testnet",
+    "confidence": "B",
+    "why": "Nieuw bewijs bij een bestaand C-dossier, waarvoor de bot al een chain-ID-aanvraag (731) zag. Nu ligt er een harde planning: code freeze 16 november, genesis 2 december en publieke lancering medio december.",
+    "facts": [
+      { "claim": "Code freeze op 16 november, genesis op 2 december en publieke lancering medio december, 'subject to change'; de GSMA-listing zegt 'launching in Q4 2026'", "url": "https://cryptonews.net/news/altcoins/33711286/", "date": "2026-11-06" },
+      { "claim": "Mainnet in december; de eerste validators komen bij de lancering aan boord; $25 mln Pre-A-ronde in oktober 2025", "url": "https://phemex.com/news/article/telcoin-network-mainnet-set-for-december-launch-as-first-validators-prepare-to-join-102588", "date": "2026-11-06" }
+    ],
+    "hypotheses": [
+      "TEL bestaat al, dus er is geen klassieke airdrop te verwachten. Interessant als eerste carrier-gevalideerde stablecoin-L1, en voor de eerste DEX daarop."
+    ],
+    "expectedLaunch": "genesis 2026-12-02, publiek medio december 2026",
+    "nextSignals": ["merge van chain ID 731 in ethereum-lists", "publieke mainnet-RPC", "eerste DEX op de chain"]
+  },
+  {
+    "name": "eCash (ECX)",
+    "aliases": ["eCash Drivechain", "ECX"],
+    "org": "LayerTwo Labs (Paul Sztorc)",
+    "architecture": "Bitcoin-hard-fork met BIP300/301-drivechains (5 sidechains)",
+    "stage": "mainnet",
+    "confidence": "B",
+    "why": "Nieuw bewijs bij een bestaand C-lead: mainnet ging op 29 oktober live, met een 1:1-snapshot van BTC-saldi en vijf sidechains. Nieuwe Bitcoin-techniek met een airdrop-karakter.",
+    "facts": [
+      { "claim": "Netwerk ging live op 29 oktober 2026; aankondiging door LayerTwo Labs op 2 november; vijf sidechains bij lancering: BitNames, BitAssets, Thunder, Truthcoin en zSide; ECX implementeert BIP300 en BIP301", "url": "https://www.kucoin.com/news/flash/ecash-ecx-launches-bitcoin-hard-fork-with-five-drivechain-sidechains", "date": "2026-11-05" }
+    ],
+    "hypotheses": [
+      "WAARSCHUWING: de naam botst met de bestaande eCash (XEC), en een 1:1-BTC-forkclaim is een klassiek doelwit voor wallet-drainers ('claim your ECX'). Alleen ter informatie; geen claims doen.",
+      "Twee extra sidechains (Photon, quantumbestendig, en CoinShift) zijn in ontwikkeling."
+    ],
+    "nextSignals": ["exchange-listings van ECX", "lancering van de sidechains Photon en CoinShift"]
+  },
+  {
+    "name": "ARMchain",
+    "org": "Samran Habib (Melbourne)",
+    "architecture": "Post-quantum EVM L1 · Lachesis aBFT · ML-DSA-44 / ML-KEM-768",
+    "stage": "devnet",
+    "confidence": "D",
+    "why": "Nieuwe post-quantum EVM-L1 met een publiek devnet en een aangekondigd publiek testnet op 15 november. Lage confidence: alleen een zelf gepubliceerd persbericht, zonder investeerders.",
+    "facts": [
+      { "claim": "Publiek devnet live met 3 validators; op 30 oktober opnieuw opgebouwd op een verse genesis met 4 validators; publiek testnet op 15 november 2026; mainnet zonder datum (na audit)", "url": "https://www.issuewire.com/armchain-introduces-post-quantum-layer-1-blockchain-with-devnet-live-1880365247862528", "date": "2026-10-29" }
+    ],
+    "hypotheses": [
+      "Onbevestigd project; mogelijk komt er een chain-ID-aanvraag in ethereum-lists rond het testnet."
+    ],
+    "website": "https://armchain.org",
+    "expectedLaunch": "publiek testnet 2026-11-15 (volgens het project)",
+    "nextSignals": ["testnet-RPC en chain ID op docs.armchain.org", "funding of audit"]
+  },
+  {
+    "name": "Soqucoin",
+    "aliases": ["SOQ"],
+    "org": "Soqucoin Foundation / Soqucoin Labs Inc.",
+    "architecture": "Post-quantum (ML-DSA-44) PoW L1 · UTXO · merge-mined met Scrypt (LTC/DOGE AuxPoW)",
+    "stage": "mainnet",
+    "confidence": "D",
+    "why": "Nieuwe post-quantum PoW-L1 die merge-mined wordt met LTC en DOGE. Mainnet staat sinds 13 oktober, maar is nog nauwelijks bekend.",
+    "facts": [
+      { "claim": "'Mainnet has been live since 13 October 2026'; domeinen soqu.org, soqucoin.org en soqucoin.com", "url": "https://soqucoin.pages.dev/docs/" },
+      { "claim": "Vermeld als Layer 1 met mainnet op 13 oktober", "url": "https://financefeeds.com/5-new-crypto-projects-that-launched/", "date": "2026-11-05" }
+    ],
+    "hypotheses": [
+      "Er zou een Halborn-audit en een bitcointalk-ANN bestaan (alleen in zoekresultaten gezien); niet geverifieerd.",
+      "Meerdere domeinen en hosting op pages.dev: tokenomics niet gecontroleerd."
+    ],
+    "nextSignals": ["mining-pools die AuxPoW toevoegen", "exchange-listing", "de pSOQ-bridge"]
+  },
+  {
+    "name": "Immutable OP Stack rollup",
+    "aliases": ["Immutable zkEVM migratie"],
+    "org": "Immutable",
+    "architecture": "Overstap van Geth-fork naar OP Stack-rollup (Superchain)",
+    "stage": "development",
+    "confidence": "C",
+    "why": "Nieuw: een bestaand gaming-netwerk wordt een OP Stack-rollup met blokken van 1 seconde en wordt zo onderdeel van de Superchain. Geen nieuw merk, wel een nieuwe rollup-deployment met nieuwe L1-contracten.",
+    "facts": [
+      { "claim": "Immutable stapt tegen medio 2027 over van een Geth-fork naar een OP Stack-rollup met blokken van 1 seconde; chain ID's blijven gelijk", "url": "https://www.kucoin.com/news/flash/immutable-to-transition-to-ethereum-rollup-with-1-second-block-time-by-2027", "date": "2026-11-06" }
+    ],
+    "hypotheses": [
+      "Er komt eerst een testnet-migratie; de stealth-detectie zou nieuwe SystemConfig- en batcher-adressen van Immutable kunnen zien."
+    ],
+    "expectedLaunch": "medio 2027",
+    "nextSignals": ["Superchain-registry-PR voor Immutable", "testnet-migratiedatum"]
+  },
+  {
+    "name": "Polygon CDK + Hyperledger Besu private chains",
+    "aliases": ["CDK Besu", "Agglayer private chains"],
+    "org": "Polygon Labs",
+    "architecture": "Private QBFT-chains (Besu) die via pessimistic proofs settelen op Agglayer",
+    "stage": "testnet",
+    "confidence": "D",
+    "why": "Nieuwe techniek: banken en instellingen kunnen nu private chains draaien die toch op Agglayer settelen. Zulke chains laten weinig publieke sporen na, dus dit is een blinde vlek voor de bot.",
+    "facts": [
+      { "claim": "Productieklare tooling en testnet-omgevingen voor Besu-QBFT-chains die op Agglayer settelen met pessimistic proofs; nog geen instellingen genoemd", "url": "https://cryptonews.net/news/blockchain/33617884/", "date": "2026-10-20" }
+    ],
+    "hypotheses": [
+      "Eerste klanten zijn waarschijnlijk banken of tokenisatieplatforms; ze worden zichtbaar via Agglayer-contracten op Ethereum."
+    ],
+    "nextSignals": ["eerste instelling die een CDK-Besu-chain aankondigt", "nieuwe pessimistic-proof-registraties in de Agglayer-contracten"]
+  },
+  {
+    "name": "Common Foundry",
+    "aliases": ["CMFD"],
+    "org": "Common Foundry",
+    "architecture": "Eigen netwerk voor verifieerbare AI-inference met GPU-operators (laag niet gespecificeerd)",
+    "stage": "mainnet",
+    "confidence": "D",
+    "why": "AI-compute-netwerk met mainnet op 3 oktober en zonder premine of token sale. Eén secundaire bron, dus een zwakke lead.",
+    "facts": [
+      { "claim": "Mainnet op 3 oktober; 'neither a premine nor a token sale'", "url": "https://financefeeds.com/5-new-crypto-projects-that-launched/", "date": "2026-11-05" }
+    ],
+    "hypotheses": [
+      "Onduidelijk of dit een eigen L1 is of een protocol op een bestaande chain; website, investeerders en chain ID zijn niet geverifieerd."
+    ],
+    "nextSignals": ["officiële website en documentatie", "chain-ID-aanvraag"]
+  }
+]
