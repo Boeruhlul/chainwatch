@@ -6996,6 +6996,20 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-11-09"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30313",
+   "title": "Who can upgrade 7 tokenized treasury/gold tokens on Ethereum? A read-only look at upgrade control",
+   "url": "https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-09"
   }
  ],
  "seen": {
@@ -7360,6 +7374,7 @@
    "forum:ethereum-magicians.org:30297",
    "forum:ethereum-magicians.org:30300",
    "forum:ethereum-magicians.org:30304",
+   "forum:ethereum-magicians.org:30313",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
