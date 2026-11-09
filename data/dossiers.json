@@ -4728,21 +4728,21 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x7b750df9…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x7b750df954099503f067f179b102bfd39e56987b",
+     "date": "2026-11-09",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 99901",
+     "url": "https://chainlist.org/chain/99901",
      "strength": "running"
     },
     {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xff729e72…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xff729e724c54045d04846cde960c3c5ad5e892fd",
+     "date": "2026-11-09",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 99801",
+     "url": "https://chainlist.org/chain/99801",
      "strength": "running"
     },
     {
