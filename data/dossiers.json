@@ -4671,15 +4671,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Slipstream-fork) 0x27012480…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x27012480b45409954cfa51dd90801ea7a0ee5b18",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x2581ac55…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x2581ac551910c10eb46daa89f5f1e86a5914462c",
      "strength": "running"
@@ -4926,6 +4917,16 @@
      "what": "ecosystem: launchpad-kandidaat 0x668fdb18…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x668fdb189bd435dce59efa6582cd30c84b06e0fe",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "lifi",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "lifi: mainnet · ID 99901",
+     "url": "https://elysium.kinetiq.xyz/explorer/",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "suspect": {
@@ -4959,7 +4960,8 @@
    ],
    "families": [
     "register",
-    "onchain"
+    "onchain",
+    "markt"
    ],
    "website": "https://kinetiq.xyz",
    "github": "https://github.com/kinetiq-research",
