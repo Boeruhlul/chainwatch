@@ -4671,24 +4671,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v2-fork) 0xec19b191…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xec19b191728b8485bc4ddc2b4020b2653ad4093a",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x0493ba0e…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x0493ba0e1c0d23fc2df1fb12dc083663f11e0b7d",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x0a47f680…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x0a47f680e4123a9d77946de9efa710d18d7aa782",
      "strength": "running"
@@ -4851,6 +4833,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x759416d8…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x759416d86dc2e820a34a46cfe3935c251781580a",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x91122eab…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x91122eab005a1ed8d1522d9ffb76c4797e1f49ce",
      "strength": "running"
@@ -4862,6 +4853,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x98ffa5e1…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x98ffa5e1f4ab58c1805ec23d0c92598dce4fdf94",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xad991ec5…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xad991ec53623667f111828b30336350e00da34d2",
      "strength": "running"
     },
     {
