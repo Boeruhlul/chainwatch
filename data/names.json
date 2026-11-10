@@ -980,6 +980,7 @@
   "converge:main",
   "conwai:main",
   "conxchain:main",
+  "cookchain:pre",
   "cookiechain:main",
   "coolcat:test",
   "coordinape:test",
