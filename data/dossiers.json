@@ -17947,6 +17947,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x601b6e46…",
+     "url": "https://explore.tempo.xyz/address/0x601b6e46856a7041f06cca66b185ad11c52ebc5d",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x91d0d951…",
      "url": "https://explore.tempo.xyz/address/0x91d0d95113a0a1c1fd43c58feb574b1d20eef98d",
      "strength": "running"
@@ -18036,6 +18045,10 @@
      },
      {
       "addr": "0x10a972339f95a1d84c97719bccbcf3b2e4c8605b",
+      "date": "2026-11-10"
+     },
+     {
+      "addr": "0x601b6e46856a7041f06cca66b185ad11c52ebc5d",
       "date": "2026-11-10"
      }
     ]

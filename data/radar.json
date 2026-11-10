@@ -7452,6 +7452,18 @@
    "date": "2026-11-10"
   },
   {
+   "key": "pr:ethereum/eips#12646",
+   "title": "Add EIP: LUCID Key Publisher Priority Lists",
+   "url": "https://github.com/ethereum/EIPs/pull/12646",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
    "key": "pr:ethereum/ercs#2156",
    "title": "Update ERC-8049: Remove diamond storage and hooks, add an ERC-20Agent example and metadata authority",
    "url": "https://github.com/ethereum/ERCs/pull/2156",
@@ -7489,6 +7501,18 @@
    "src": "proposals",
    "date": "2026-11-10",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2159",
+   "title": "Add ERC: Institution-Managed User Payment Ledger",
+   "url": "https://github.com/ethereum/ERCs/pull/2159",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
   }
  ],
  "seen": {
@@ -8076,6 +8100,7 @@
    "pr:ethereum/eips#12643",
    "pr:ethereum/eips#12644",
    "pr:ethereum/eips#12645",
+   "pr:ethereum/eips#12646",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -8129,6 +8154,7 @@
    "pr:ethereum/ercs#2156",
    "pr:ethereum/ercs#2157",
    "pr:ethereum/ercs#2158",
+   "pr:ethereum/ercs#2159",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
