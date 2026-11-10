@@ -7288,6 +7288,18 @@
    "date": "2026-11-10"
   },
   {
+   "key": "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QalibreAccountFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xc443b86882c67f42eafc136591964ffc82997154",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xc443b86882c67f42eafc136591964ffc82997154"
+   },
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:community.starknet.io:116471",
    "title": "Validator & Sequencer roadmap in light of the L1 research",
    "url": "https://community.starknet.io/t/validator-sequencer-roadmap-in-light-of-the-l1-research/116471",
@@ -7885,6 +7897,7 @@
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
    "chaincontract:qms:0xc169996ad1d41f29e04654b255b190c8f1f0ded1",
+   "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
    "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
