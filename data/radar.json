@@ -7359,6 +7359,48 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:ethereum-magicians.org:30331",
+   "title": "RPC Standards # 38, November 16, 2026",
+   "url": "https://ethereum-magicians.org/t/rpc-standards-38-november-16-2026/30331",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30332",
+   "title": "EIP-8488: Versioned Opcodes for Gas Repricing",
+   "url": "https://ethereum-magicians.org/t/eip-8488-versioned-opcodes-for-gas-repricing/30332",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 2,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30334",
+   "title": "Encrypt The Mempool #12, November 11, 2026",
+   "url": "https://ethereum-magicians.org/t/encrypt-the-mempool-12-november-11-2026/30334",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31682",
    "title": "Security Council Membership Rotation - November 2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-membership-rotation-november-2026/31682",
@@ -7374,6 +7416,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.cosmos.network:17564",
+   "title": "Cosmos validators and NFT creators: claim your page and tell us what’s broken",
+   "url": "https://forum.cosmos.network/t/cosmos-validators-and-nft-creators-claim-your-page-and-tell-us-what-s-broken/17564",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-09",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:forum.cosmos.network:17569",
    "title": "Gaia v29.1.0 Software Upgrade",
    "url": "https://forum.cosmos.network/t/gaia-v29-1-0-software-upgrade/17569",
@@ -7382,6 +7438,20 @@
     "created": "2026-11-10",
     "posts": 1,
     "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17570",
+   "title": "Clarification Request: InterLink Chain's Claimed Involvement in the IBC Contribution to Linux Foundation",
+   "url": "https://forum.cosmos.network/t/clarification-request-interlink-chains-claimed-involvement-in-the-ibc-contribution-to-linux-foundation/17570",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-10",
+    "posts": 3,
+    "views": 13
    },
    "cat": "techniek",
    "src": "forums",
@@ -7892,6 +7962,9 @@
    "forum:ethereum-magicians.org:30326",
    "forum:ethereum-magicians.org:30329",
    "forum:ethereum-magicians.org:30330",
+   "forum:ethereum-magicians.org:30331",
+   "forum:ethereum-magicians.org:30332",
+   "forum:ethereum-magicians.org:30334",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7949,7 +8022,9 @@
    "forum:forum.cosmos.network:17550",
    "forum:forum.cosmos.network:17556",
    "forum:forum.cosmos.network:17562",
+   "forum:forum.cosmos.network:17564",
    "forum:forum.cosmos.network:17569",
+   "forum:forum.cosmos.network:17570",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
