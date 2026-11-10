@@ -7202,6 +7202,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/eips#12642",
+   "title": "Update EIP-8141: note that the blob fee can lower GASPRICE",
+   "url": "https://github.com/ethereum/EIPs/pull/12642",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
   }
  ],
  "seen": {
@@ -7771,6 +7783,7 @@
    "pr:ethereum/eips#12638",
    "pr:ethereum/eips#12639",
    "pr:ethereum/eips#12640",
+   "pr:ethereum/eips#12642",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
