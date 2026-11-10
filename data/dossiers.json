@@ -4807,24 +4807,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x759416d8…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x759416d86dc2e820a34a46cfe3935c251781580a",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x8106ab01…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x8106ab0167029d2d8fa409ce6552a76d8ce2210f",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x91122eab…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x91122eab005a1ed8d1522d9ffb76c4797e1f49ce",
      "strength": "running"
@@ -5053,6 +5035,24 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x4b2ab890…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x4b2ab8903e1ac9e77dc3e7be029c9623a0fc4b34",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x8366a39c…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xe3a55e23…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xe3a55e2353cc75fd31e78baca609fce37314ea9d",
      "strength": "running"
     },
     {
@@ -12009,6 +12009,53 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (cosmos: mainnet)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "nexchain": {
+   "id": "nexchain",
+   "name": "NEX Chain",
+   "aliases": [
+    "NEX Chain"
+   ],
+   "keys": [
+    "d:getnexwallet.com",
+    "id:6396",
+    "n:nexchain"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "blockscout",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "blockscout: mainnet · ID 6396",
+     "url": "https://explorer.getnexwallet.com",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "6396"
+   ],
+   "website": "https://getnexwallet.com",
+   "architecture": "EVM",
+   "explorer": "https://explorer.getnexwallet.com",
+   "mainnetSince": "2026-11-10",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"

@@ -2986,6 +2986,7 @@
   "nexametanet:main",
   "nexametatest:main",
   "nexatestnetblock:test",
+  "nexchain:main",
   "nexera:main",
   "nexera:test",
   "nexi:main",
