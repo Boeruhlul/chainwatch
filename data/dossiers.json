@@ -5008,15 +5008,6 @@
     },
     {
      "date": "2026-11-09",
-     "source": "ethlists-commit",
-     "family": "register",
-     "kind": "testnet",
-     "what": "ethlists-commit: testnet · ID 99801",
-     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-99801.json",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
      "source": "lifi",
      "family": "markt",
      "kind": "mainnet",
@@ -5086,6 +5077,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x8366a39c…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x909db653…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x909db653a8de851ad139d2b25411b894e4f0fbab",
      "strength": "running"
     },
     {
