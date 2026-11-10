@@ -1677,6 +1677,50 @@
     "github"
    ]
   },
+  "bevmcanary": {
+   "id": "bevmcanary",
+   "name": "BEVM Canary",
+   "aliases": [
+    "BEVM Canary"
+   ],
+   "keys": [
+    "id:1501",
+    "n:bevmcanary"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "defillama",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "defillama: mainnet · ID 1501",
+     "url": "https://defillama.com/chain/BEVM%20Canary",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "1501"
+   ],
+   "architecture": "EVM",
+   "mainnetSince": "2026-11-10",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "bighive": {
    "id": "bighive",
    "name": "Bighive",
