@@ -5010,15 +5010,6 @@
      "date": "2026-11-09",
      "source": "ethlists-commit",
      "family": "register",
-     "kind": "mainnet",
-     "what": "ethlists-commit: mainnet · ID 99901",
-     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-99901.json",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ethlists-commit",
-     "family": "register",
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 99801",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-99801.json",
@@ -5068,6 +5059,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x713c59e1…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x713c59e1ad0545a6e0a1a6a7f65458a0de33ff80",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x8106ab01…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x8106ab0167029d2d8fa409ce6552a76d8ce2210f",
      "strength": "running"
     },
     {
