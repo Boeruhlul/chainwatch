@@ -344,7 +344,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-aevo-mainnet-prod-0.t.conduit.xyz"
   },
   "aevum": {
    "id": "aevum",
