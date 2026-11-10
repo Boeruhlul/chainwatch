@@ -7302,6 +7302,30 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2157",
+   "title": "Add ERC: Settlement Deductions for Task Escrows",
+   "url": "https://github.com/ethereum/ERCs/pull/2157",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2158",
+   "title": "Add ERC: Onchain URI Scheme",
+   "url": "https://github.com/ethereum/ERCs/pull/2158",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
   }
  ],
  "seen": {
@@ -7929,6 +7953,8 @@
    "pr:ethereum/ercs#2152",
    "pr:ethereum/ercs#2155",
    "pr:ethereum/ercs#2156",
+   "pr:ethereum/ercs#2157",
+   "pr:ethereum/ercs#2158",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
