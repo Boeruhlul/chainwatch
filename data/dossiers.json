@@ -11255,6 +11255,43 @@
     "onchain"
    ]
   },
+  "naamlozerollup0xbf02dc81": {
+   "id": "naamlozerollup0xbf02dc81",
+   "name": "Naamloze rollup 0xbf02dc81…",
+   "aliases": [],
+   "keys": [
+    "a:0xbf02dc815ba63140bfc170cfcf97987b504d36bc"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "blob-submitters",
+     "family": "onchain",
+     "kind": "stealth",
+     "what": "blob-submitters: onaangekondigd · blob",
+     "url": "https://blobscan.com/address/0xbf02dc815ba63140bfc170cfcf97987b504d36bc",
+     "stealthKind": "blob",
+     "strength": "onchain"
+    }
+   ],
+   "architecture": "EVM (rollup op Ethereum)",
+   "confidence": "B",
+   "reasons": [
+    "on-chain activiteit zonder bekende naam"
+   ],
+   "families": [
+    "onchain"
+   ]
+  },
   "naamlozerollup0xc4c99742": {
    "id": "naamlozerollup0xc4c99742",
    "name": "Naamloze rollup 0xc4c99742…",
@@ -17760,7 +17797,7 @@
     "n:tempo"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-11-10",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -17778,6 +17815,24 @@
      "url": "https://www.fxleaders.com/news/2025/12/10/stripes-tempo-blockchain-launches-public-testnet-with-major-global-partners/",
      "stage": "mainnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x00bfd500…",
+     "url": "https://explore.tempo.xyz/address/0x00bfd5004d8503007c007bfb7500158500f90052",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x91d0d951…",
+     "url": "https://explore.tempo.xyz/address/0x91d0d95113a0a1c1fd43c58feb574b1d20eef98d",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -17839,13 +17894,27 @@
    "mainnetSince": "2026-10-28",
    "confidence": "A",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel A"
+    "draaiend netwerk aangetoond (ecosystem: launchpad-kandidaat 0x00bfd500…)",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "onchain"
    ],
-   "liveRpc": "https://rpc.tempo.xyz"
+   "liveRpc": "https://rpc.tempo.xyz",
+   "eco": {
+    "dex": [],
+    "launchpad": [
+     {
+      "addr": "0x00bfd5004d8503007c007bfb7500158500f90052",
+      "date": "2026-11-10"
+     },
+     {
+      "addr": "0x91d0d95113a0a1c1fd43c58feb574b1d20eef98d",
+      "date": "2026-11-10"
+     }
+    ]
+   }
   },
   "theclearinghousetokenizeddepositnetwork": {
    "id": "theclearinghousetokenizeddepositnetwork",

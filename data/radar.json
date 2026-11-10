@@ -7364,6 +7364,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12645",
+   "title": "Config: Revise CONTRIBUTING.md with EIP guidelines and ERC-20",
+   "url": "https://github.com/ethereum/EIPs/pull/12645",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
    "key": "pr:ethereum/ercs#2156",
    "title": "Update ERC-8049: Remove diamond storage and hooks, add an ERC-20Agent example and metadata authority",
    "url": "https://github.com/ethereum/ERCs/pull/2156",
@@ -7981,6 +7993,7 @@
    "pr:ethereum/eips#12642",
    "pr:ethereum/eips#12643",
    "pr:ethereum/eips#12644",
+   "pr:ethereum/eips#12645",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
