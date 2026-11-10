@@ -4732,15 +4732,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x51027076…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x51027076df8416e42ea8438b27a0c433d9662e68",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x683264f7…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x683264f7a3ed04d762b5a2fc6db5c8061fb7535d",
      "strength": "running"
@@ -4960,6 +4951,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x8366a39c…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x9db4a4af…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x9db4a4af077c8728aacd40d8138126d5ce7d6570",
      "strength": "running"
     },
     {
@@ -17392,6 +17392,44 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 797290)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "tacitpay": {
+   "id": "tacitpay",
+   "name": "tacit-pay",
+   "aliases": [
+    "tacit-pay"
+   ],
+   "keys": [
+    "n:tacitpay"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/tacit-pay",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
