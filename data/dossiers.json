@@ -12156,6 +12156,15 @@
      "url": "https://explorer.getnexwallet.com",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 6396",
+     "url": "https://github.com/ethereum-lists/chains/pull/9045",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -12171,6 +12180,9 @@
    ],
    "families": [
     "register"
+   ],
+   "rpc": [
+    "https://rpc.getnexwallet.com"
    ]
   },
   "nicolasholmanfuinzcash": {

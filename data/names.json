@@ -2990,6 +2990,7 @@
   "nexametatest:main",
   "nexatestnetblock:test",
   "nexchain:main",
+  "nexchain:pre",
   "nexera:main",
   "nexera:test",
   "nexi:main",
