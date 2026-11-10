@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-09",
+ "lastSent": "2026-11-10",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -7056,7 +7056,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30320",
@@ -7070,7 +7071,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31681",
@@ -7084,7 +7086,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": "finalchain"
   },
   {
    "key": "forum:forum.cosmos.network:17556",
@@ -7113,7 +7116,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "forum:forum.zknation.io:1331",
@@ -7127,7 +7131,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "forum:gov.optimism.io:10978",
@@ -7141,7 +7146,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2349",
@@ -7153,7 +7159,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2350",
@@ -7165,7 +7172,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12639",
@@ -7177,7 +7185,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "pr:solana-foundation/solana-improvement-documents#727",
@@ -7189,7 +7198,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-09"
+   "date": "2026-11-09",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
@@ -7201,7 +7211,8 @@
     "chain": "QMS",
     "addr": "0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
@@ -7213,7 +7224,8 @@
     "chain": "QMS",
     "addr": "0xb0835ad460270c89dd621a9d29775e01ee89e83e"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30323",
@@ -7227,7 +7239,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31682",
@@ -7241,7 +7254,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12640",
@@ -7253,7 +7267,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12642",
@@ -7265,7 +7280,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12643",
@@ -7277,7 +7293,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12644",
@@ -7289,7 +7306,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2156",
@@ -7301,7 +7319,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2157",
@@ -7313,7 +7332,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2158",
@@ -7325,7 +7345,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   }
  ],
  "seen": {
