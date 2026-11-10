@@ -7255,6 +7255,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30326",
+   "title": "All Core Devs - Testing (ACDT) #103, November 16, 2026",
+   "url": "https://ethereum-magicians.org/t/all-core-devs-testing-acdt-103-november-16-2026/30326",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31682",
    "title": "Security Council Membership Rotation - November 2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-membership-rotation-november-2026/31682",
@@ -7730,6 +7744,7 @@
    "forum:ethereum-magicians.org:30318",
    "forum:ethereum-magicians.org:30320",
    "forum:ethereum-magicians.org:30323",
+   "forum:ethereum-magicians.org:30326",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
