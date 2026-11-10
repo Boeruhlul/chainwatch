@@ -12183,7 +12183,8 @@
    ],
    "rpc": [
     "https://rpc.getnexwallet.com"
-   ]
+   ],
+   "liveRpc": "https://rpc.getnexwallet.com"
   },
   "nicolasholmanfuinzcash": {
    "id": "nicolasholmanfuinzcash",

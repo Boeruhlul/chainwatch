@@ -7202,6 +7202,54 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:nexchain:0x5663e56f116f453c75e275eb74f2bf5bb8bb1e5c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NEX1155Factory op NEX Chain",
+   "url": "https://explorer.getnexwallet.com/address/0x5663e56f116f453c75e275eb74f2bf5bb8bb1e5c",
+   "meta": {
+    "chain": "NEX Chain",
+    "addr": "0x5663e56f116f453c75e275eb74f2bf5bb8bb1e5c"
+   },
+   "date": "2026-11-10"
+  },
+  {
+   "key": "chaincontract:nexchain:0x7ce8fb1de945b1c6e3a163d8eb5275451a398323",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NEX20Factory op NEX Chain",
+   "url": "https://explorer.getnexwallet.com/address/0x7ce8fb1de945b1c6e3a163d8eb5275451a398323",
+   "meta": {
+    "chain": "NEX Chain",
+    "addr": "0x7ce8fb1de945b1c6e3a163d8eb5275451a398323"
+   },
+   "date": "2026-11-10"
+  },
+  {
+   "key": "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NEXCoinFactory op NEX Chain",
+   "url": "https://explorer.getnexwallet.com/address/0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
+   "meta": {
+    "chain": "NEX Chain",
+    "addr": "0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3"
+   },
+   "date": "2026-11-10"
+  },
+  {
+   "key": "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NEX721Factory op NEX Chain",
+   "url": "https://explorer.getnexwallet.com/address/0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
+   "meta": {
+    "chain": "NEX Chain",
+    "addr": "0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a"
+   },
+   "date": "2026-11-10"
+  },
+  {
    "key": "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -7614,6 +7662,10 @@
    "chaincontract:mstcoral:0x89bef065692ea84d91265eccd85435fb7c8f2e93",
    "chaincontract:mstcoral:0xfec38801643a72ef01780f9c67dda46cdf0f5ae4",
    "chaincontract:mstcoral:0xfffdc1e38496892851f318571ca5106b771941b3",
+   "chaincontract:nexchain:0x5663e56f116f453c75e275eb74f2bf5bb8bb1e5c",
+   "chaincontract:nexchain:0x7ce8fb1de945b1c6e3a163d8eb5275451a398323",
+   "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
+   "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
    "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
    "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
    "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",
