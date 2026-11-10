@@ -7206,6 +7206,43 @@
     "onderzoek"
    ]
   },
+  "grapnelstellar": {
+   "id": "grapnelstellar",
+   "name": "Grapnel Stellar",
+   "aliases": [
+    "Grapnel Stellar"
+   ],
+   "keys": [
+    "n:grapnelstellar"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/mthavarajah/grapnel-stellar",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "gridmind": {
    "id": "gridmind",
    "name": "GridMind",
