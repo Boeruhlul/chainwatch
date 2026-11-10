@@ -2822,10 +2822,14 @@
    ],
    "firstSeen": "2026-11-10",
    "lastActivity": "2026-11-10",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-10"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-10"
     }
    ],
@@ -2838,6 +2842,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 20261001",
      "url": "https://github.com/ethereum-lists/chains/pull/9044",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 20261001",
+     "url": "https://github.com/ethereum-lists/chains/pull/9044",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -2852,13 +2865,14 @@
     "https://rpc.ldbl.net"
    ],
    "explorer": "https://cookscan.net",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 20261001)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.cookscan.net/evm"
   },
   "cortensor": {
    "id": "cortensor",
