@@ -4882,24 +4882,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x17443404…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x17443404284b414f87e0eb1b189b42a44cd26204",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x4e59b448…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x4e59b44847b379578588920ca78fbf26c0b4956c",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x668fdb18…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x668fdb189bd435dce59efa6582cd30c84b06e0fe",
      "strength": "running"
@@ -4964,6 +4946,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x39225402…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x39225402dbd7113b421fd30b76b0ebf4f0f69d6d",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x6ce44358…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ce4435883f9549ec3d80076b6cd9d793cfc93aa",
      "strength": "running"
@@ -5020,6 +5011,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xaefddd3e…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xaefddd3e8c45c41fbf59a6c37fdbcc96e12e48f4",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xe53bcb48…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xe53bcb48f9e5c3977a969447a6a1ce0e55351426",
      "strength": "running"
     },
     {
