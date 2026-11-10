@@ -7498,6 +7498,20 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:forum.polygon.technology:22543",
+   "title": "Bor v2.11.1-priv",
+   "url": "https://forum.polygon.technology/t/bor-v2-11-1-priv/22543",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "pr:bitcoin/bips#2351",
    "title": "bip-0327: add more test vectors",
    "url": "https://github.com/bitcoin/bips/pull/2351",
@@ -8214,6 +8228,7 @@
    "forum:forum.polygon.technology:22513",
    "forum:forum.polygon.technology:22516",
    "forum:forum.polygon.technology:22542",
+   "forum:forum.polygon.technology:22543",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
