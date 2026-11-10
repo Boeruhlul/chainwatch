@@ -164,6 +164,7 @@
   "alphachain:main",
   "alphachain:test",
   "alphnetwork:main",
+  "alta:lead",
   "altair:main",
   "altar:test",
   "altblockscan:main",
