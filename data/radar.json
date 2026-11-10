@@ -7331,6 +7331,34 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:ethereum-magicians.org:30329",
+   "title": "Proposal: Institution-Managed User Payment Ledger",
+   "url": "https://ethereum-magicians.org/t/proposal-institution-managed-user-payment-ledger/30329",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30330",
+   "title": "EIP-XXXX: LUCID Key Publisher Priority Lists",
+   "url": "https://ethereum-magicians.org/t/eip-xxxx-lucid-key-publisher-priority-lists/30330",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31682",
    "title": "Security Council Membership Rotation - November 2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-membership-rotation-november-2026/31682",
@@ -7838,6 +7866,8 @@
    "forum:ethereum-magicians.org:30320",
    "forum:ethereum-magicians.org:30323",
    "forum:ethereum-magicians.org:30326",
+   "forum:ethereum-magicians.org:30329",
+   "forum:ethereum-magicians.org:30330",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
