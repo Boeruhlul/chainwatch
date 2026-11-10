@@ -16375,6 +16375,45 @@
    ],
    "liveRpc": "https://rpc.rwa-chain.io"
   },
+  "ryanomarahermespluginreceipts": {
+   "id": "ryanomarahermespluginreceipts",
+   "name": "ryanomara/hermes-plugin-receipts",
+   "aliases": [
+    "ryanomara/hermes-plugin-receipts"
+   ],
+   "keys": [
+    "gh:ryanomara"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/ryanomara/hermes-plugin-receipts",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://github.com/ryanomara/hermes-plugin-receipts",
+   "architecture": "OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "safeneytavchain": {
    "id": "safeneytavchain",
    "name": "safeney/Tavchain",
