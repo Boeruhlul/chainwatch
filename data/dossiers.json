@@ -4732,24 +4732,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x683264f7…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x683264f7a3ed04d762b5a2fc6db5c8061fb7535d",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x6cbab0a9…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6cbab0a9c85ad2ca9d451875360065d39d6f4f5e",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x6ce44358…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ce4435883f9549ec3d80076b6cd9d793cfc93aa",
      "strength": "running"
@@ -4978,6 +4960,24 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xf66e46e8…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xf66e46e826d0361fc415f2fcd6c0c686785357c1",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x3a1b487f…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x3a1b487ff6349190180b37a8ebb7cb05a4e2a81e",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x4b2ab890…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x4b2ab8903e1ac9e77dc3e7be029c9623a0fc4b34",
      "strength": "running"
     },
     {
@@ -8941,6 +8941,54 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 64460)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "mirasmandauat": {
+   "id": "mirasmandauat",
+   "name": "Mirasmanda UAT",
+   "aliases": [
+    "Mirasmanda UAT"
+   ],
+   "keys": [
+    "d:mirasmanda.uz",
+    "id:1215655279",
+    "n:mirasmandauat"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 1215655279",
+     "url": "https://github.com/ethereum-lists/chains/pull/9042",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "1215655279"
+   ],
+   "website": "https://mirasmanda.uz",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc-uat.evm.mirasmanda.uz"
+   ],
+   "explorer": "https://blockscout-uat.evm.mirasmanda.uz",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
