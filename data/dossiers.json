@@ -727,7 +727,8 @@
    "id": "arunjot12nila",
    "name": "arunjot12/Nila",
    "aliases": [
-    "arunjot12/Nila"
+    "arunjot12/Nila",
+    "arunjot12/mind-chain"
    ],
    "keys": [
     "gh:arunjot12"
@@ -749,6 +750,15 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · github-config",
      "url": "https://github.com/arunjot12/Nila",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/arunjot12/mind-chain",
      "strength": "technical"
     }
    ],
