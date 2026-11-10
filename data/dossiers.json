@@ -299,6 +299,43 @@
     "register"
    ]
   },
+  "aevum": {
+   "id": "aevum",
+   "name": "Aevum",
+   "aliases": [
+    "Aevum"
+   ],
+   "keys": [
+    "n:aevum"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/jeffrey-graham/aevum-pulse-vault",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "afrishinehub": {
    "id": "afrishinehub",
    "name": "Afrishine Hub",
@@ -685,6 +722,44 @@
     ],
     "launchpad": []
    }
+  },
+  "arunjot12nila": {
+   "id": "arunjot12nila",
+   "name": "arunjot12/Nila",
+   "aliases": [
+    "arunjot12/Nila"
+   ],
+   "keys": [
+    "gh:arunjot12"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/arunjot12/Nila",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP rollup-config, genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
   },
   "asentum": {
    "id": "asentum",
