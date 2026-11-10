@@ -7510,6 +7510,18 @@
    "date": "2026-11-10"
   },
   {
+   "key": "pr:bitcoin/bips#2352",
+   "title": "New BIP: Adaptive Block Weight Limit",
+   "url": "https://github.com/bitcoin/bips/pull/2352",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
    "key": "pr:ethereum/eips#12640",
    "title": "CI: Pin Jekyll build runner to ubuntu-24.04",
    "url": "https://github.com/ethereum/EIPs/pull/12640",
@@ -7688,6 +7700,54 @@
    "key": "pr:ethereum/ercs#2160",
    "title": "CI: Pin ubuntu version for ruby",
    "url": "https://github.com/ethereum/ERCs/pull/2160",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2161",
+   "title": "Update ERC-8048: Add the ens endpoint type",
+   "url": "https://github.com/ethereum/ERCs/pull/2161",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2162",
+   "title": "Update ERC-8049: Add the ens endpoint type",
+   "url": "https://github.com/ethereum/ERCs/pull/2162",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2163",
+   "title": "Add ERC: Token Metadata JSON Schema",
+   "url": "https://github.com/ethereum/ERCs/pull/2163",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "pr:ethereum/ercs#2164",
+   "title": "Update ERC-8330: Move to Last Call",
+   "url": "https://github.com/ethereum/ERCs/pull/2164",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-10"
@@ -8228,6 +8288,7 @@
    "pr:bitcoin/bips#2349",
    "pr:bitcoin/bips#2350",
    "pr:bitcoin/bips#2351",
+   "pr:bitcoin/bips#2352",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -8351,6 +8412,10 @@
    "pr:ethereum/ercs#2158",
    "pr:ethereum/ercs#2159",
    "pr:ethereum/ercs#2160",
+   "pr:ethereum/ercs#2161",
+   "pr:ethereum/ercs#2162",
+   "pr:ethereum/ercs#2163",
+   "pr:ethereum/ercs#2164",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
