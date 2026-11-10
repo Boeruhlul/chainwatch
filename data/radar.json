@@ -7240,6 +7240,20 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:community.starknet.io:116471",
+   "title": "Validator & Sequencer roadmap in light of the L1 research",
+   "url": "https://community.starknet.io/t/validator-sequencer-roadmap-in-light-of-the-l1-research/116471",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 14
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30323",
    "title": "ERC: Settlement Deductions for Task Escrows",
    "url": "https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323",
@@ -7282,6 +7296,20 @@
    "src": "forums",
    "date": "2026-11-10",
    "dossier": null
+  },
+  {
+   "key": "forum:forum.cosmos.network:17569",
+   "title": "Gaia v29.1.0 Software Upgrade",
+   "url": "https://forum.cosmos.network/t/gaia-v29-1-0-software-upgrade/17569",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
   },
   {
    "key": "pr:ethereum/eips#12640",
@@ -7665,6 +7693,7 @@
    "forum:community.starknet.io:116462",
    "forum:community.starknet.io:116465",
    "forum:community.starknet.io:116470",
+   "forum:community.starknet.io:116471",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
@@ -7802,6 +7831,7 @@
    "forum:forum.cosmos.network:17550",
    "forum:forum.cosmos.network:17556",
    "forum:forum.cosmos.network:17562",
+   "forum:forum.cosmos.network:17569",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
