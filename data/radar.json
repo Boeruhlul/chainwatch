@@ -7413,6 +7413,20 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:ethereum-magicians.org:30339",
+   "title": "ERC: Token Metadata JSON Schema",
+   "url": "https://ethereum-magicians.org/t/erc-token-metadata-json-schema/30339",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31682",
    "title": "Security Council Membership Rotation - November 2026",
    "url": "https://forum.arbitrum.foundation/t/security-council-membership-rotation-november-2026/31682",
@@ -7464,6 +7478,20 @@
     "created": "2026-11-10",
     "posts": 3,
     "views": 13
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22542",
+   "title": "Heimdall v0.14.0-beta-priv",
+   "url": "https://forum.polygon.technology/t/heimdall-v0-14-0-beta-priv/22542",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 4
    },
    "cat": "techniek",
    "src": "forums",
@@ -8050,6 +8078,7 @@
    "forum:ethereum-magicians.org:30331",
    "forum:ethereum-magicians.org:30332",
    "forum:ethereum-magicians.org:30334",
+   "forum:ethereum-magicians.org:30339",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -8124,6 +8153,7 @@
    "forum:forum.polygon.technology:22512",
    "forum:forum.polygon.technology:22513",
    "forum:forum.polygon.technology:22516",
+   "forum:forum.polygon.technology:22542",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
