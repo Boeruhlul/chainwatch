@@ -4807,15 +4807,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xbd1faa15…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xbd1faa15ea852617735aa57a07b80c07d6c0ebbc",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xd02875d7…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xd02875d7ea89e7e1f61512066828196c09fbd58d",
      "strength": "running"
@@ -4910,6 +4901,15 @@
      "url": "https://elysium.kinetiq.xyz/explorer/",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x6ce44358…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ce4435883f9549ec3d80076b6cd9d793cfc93aa",
+     "strength": "running"
     },
     {
      "date": "2026-11-10",
@@ -6472,15 +6472,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x73684acf…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x73684acf40d98b9f6c1bda94ee6cf902ed2cca69",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xe38f60c9…",
      "url": "https://sepolia-explorer.giwa.io/address/0xe38f60c9150a096f91163fdf8cf2aa258f97b393",
      "strength": "running"
@@ -6727,6 +6718,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x220863c1…",
      "url": "https://sepolia-explorer.giwa.io/address/0x220863c1fff2405b315a9381269f82ec69adcec1",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x33b6efb1…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x33b6efb1ba8c5672102489e3b1206e27b878d347",
      "strength": "running"
     }
    ],
