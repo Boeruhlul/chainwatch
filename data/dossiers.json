@@ -8959,10 +8959,14 @@
    ],
    "firstSeen": "2026-11-10",
    "lastActivity": "2026-11-10",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-10"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-10"
     }
    ],
@@ -8975,6 +8979,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 1215655279",
      "url": "https://github.com/ethereum-lists/chains/pull/9042",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 1215655279",
+     "url": "https://github.com/ethereum-lists/chains/pull/9042",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -8986,13 +8999,14 @@
     "https://rpc-uat.evm.mirasmanda.uz"
    ],
    "explorer": "https://blockscout-uat.evm.mirasmanda.uz",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 1215655279)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-uat.evm.mirasmanda.uz"
   },
   "mizuhiki": {
    "id": "mizuhiki",
