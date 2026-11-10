@@ -12406,6 +12406,48 @@
     "overig"
    ]
   },
+  "nieuwerollupchainid778899001": {
+   "id": "nieuwerollupchainid778899001",
+   "name": "Nieuwe rollup (chain ID 778899001)",
+   "aliases": [],
+   "keys": [
+    "a:0x6f782f21bf604d1ee181fa92873c5ab01bbad66b",
+    "a:0x76225ab68f4a2ade4ba78fbe4a9446f825bf9f28",
+    "id:778899001"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "rollup-factory",
+     "family": "onchain",
+     "kind": "stealth",
+     "what": "rollup-factory: onaangekondigd · ID 778899001 · factory",
+     "url": "https://arbiscan.io/address/0x76225ab68f4a2ade4ba78fbe4a9446f825bf9f28",
+     "stealthKind": "factory",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "778899001"
+   ],
+   "architecture": "EVM (Arbitrum Orbit)",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (onchain)"
+   ],
+   "families": [
+    "onchain"
+   ]
+  },
   "niveshgajengifuinzcash": {
    "id": "niveshgajengifuinzcash",
    "name": "niveshgajengi/fuin-zcash",
