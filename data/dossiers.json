@@ -4729,15 +4729,6 @@
     },
     {
      "date": "2026-11-09",
-     "source": "chainlist",
-     "family": "register",
-     "kind": "testnet",
-     "what": "chainlist: testnet · ID 99801",
-     "url": "https://chainlist.org/chain/99801",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
@@ -4988,6 +4979,15 @@
      "url": "https://elysium.kinetiq.xyz/explorer/",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xaefddd3e…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xaefddd3e8c45c41fbf59a6c37fdbcc96e12e48f4",
+     "strength": "running"
     }
    ],
    "suspect": {
