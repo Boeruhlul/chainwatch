@@ -7216,6 +7216,20 @@
    "date": "2026-11-10"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31682",
+   "title": "Security Council Membership Rotation - November 2026",
+   "url": "https://forum.arbitrum.foundation/t/security-council-membership-rotation-november-2026/31682",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-10",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-10"
+  },
+  {
    "key": "pr:ethereum/eips#12640",
    "title": "CI: Pin Jekyll build runner to ubuntu-24.04",
    "url": "https://github.com/ethereum/EIPs/pull/12640",
@@ -7644,6 +7658,7 @@
    "forum:forum.arbitrum.foundation:31664",
    "forum:forum.arbitrum.foundation:31665",
    "forum:forum.arbitrum.foundation:31681",
+   "forum:forum.arbitrum.foundation:31682",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
