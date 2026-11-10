@@ -366,6 +366,7 @@
   "cosmos:testnets/permtestnet",
   "cosmos:testnets/persistencetestnet",
   "cosmos:testnets/persistencetestnet2",
+  "cosmos:testnets/piotestnet",
   "cosmos:testnets/planqtestnet",
   "cosmos:testnets/pockettestnet",
   "cosmos:testnets/provenancetestnet",
