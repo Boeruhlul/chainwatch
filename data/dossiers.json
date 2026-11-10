@@ -299,6 +299,53 @@
     "register"
    ]
   },
+  "aevo": {
+   "id": "aevo",
+   "name": "Aevo",
+   "aliases": [
+    "Aevo"
+   ],
+   "keys": [
+    "id:2999",
+    "n:aevo"
+   ],
+   "firstSeen": "2026-11-10",
+   "lastActivity": "2026-11-10",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-10"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-10",
+     "source": "hyperlane",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "hyperlane: mainnet · ID 2999",
+     "url": "https://github.com/hyperlane-xyz/hyperlane-registry/tree/main/chains/aevo",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "2999"
+   ],
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc-aevo-mainnet-prod-0.t.conduit.xyz"
+   ],
+   "explorer": "https://explorer.aevo.xyz",
+   "mainnetSince": "2026-11-10",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (hyperlane: mainnet · ID 2999)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "aevum": {
    "id": "aevum",
    "name": "Aevum",
