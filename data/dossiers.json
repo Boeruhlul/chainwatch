@@ -17409,6 +17409,44 @@
    ],
    "mainnetSince": "2026-10-29"
   },
+  "splitsv2": {
+   "id": "splitsv2",
+   "name": "splitsv2",
+   "aliases": [
+    "splitsv2"
+   ],
+   "keys": [
+    "n:splitsv2"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/splitsv2",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "squeekwars": {
    "id": "squeekwars",
    "name": "Squeek Wars",
