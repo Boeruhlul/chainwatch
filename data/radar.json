@@ -7819,6 +7819,20 @@
    "date": "2026-11-11"
   },
   {
+   "key": "forum:delvingbitcoin.org:3060",
+   "title": "Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
+   "url": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "immunefi:metric",
    "title": "Metric",
    "url": "https://immunefi.com/bug-bounty/metric/",
@@ -8165,6 +8179,7 @@
    "forum:delvingbitcoin.org:3050",
    "forum:delvingbitcoin.org:3056",
    "forum:delvingbitcoin.org:3057",
+   "forum:delvingbitcoin.org:3060",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
