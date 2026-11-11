@@ -7769,6 +7769,33 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-10"
+  },
+  {
+   "key": "immunefi:metric",
+   "title": "Metric",
+   "url": "https://immunefi.com/bug-bounty/metric/",
+   "meta": {
+    "launched": "2026-11-10",
+    "ecosystem": "ETH, BSC",
+    "type": "DEX",
+    "max": 500000,
+    "website": "https://www.metric.xyz"
+   },
+   "cat": "bounty",
+   "src": "immunefi",
+   "date": "2026-11-11"
+  },
+  {
+   "key": "pr:ethereum/eips#12651",
+   "title": "Bump nokogiri from 1.14.3 to 1.19.5",
+   "url": "https://github.com/ethereum/EIPs/pull/12651",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-10"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-11"
   }
  ],
  "seen": {
@@ -8254,6 +8281,7 @@
    "forum:gov.optimism.io:10978"
   ],
   "immunefi": [
+   "immunefi:metric",
    "immunefi:paxos-labs",
    "immunefi:plether"
   ],
@@ -8372,6 +8400,7 @@
    "pr:ethereum/eips#12648",
    "pr:ethereum/eips#12649",
    "pr:ethereum/eips#12650",
+   "pr:ethereum/eips#12651",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
