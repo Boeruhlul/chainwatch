@@ -17249,6 +17249,46 @@
     "register"
    ]
   },
+  "solanaclassiclabssolanaclassic": {
+   "id": "solanaclassiclabssolanaclassic",
+   "name": "solana-classic-labs/solana-classic",
+   "aliases": [
+    "solana-classic-labs/solana-classic"
+   ],
+   "keys": [
+    "d:solanaclassic.net",
+    "gh:solana-classic-labs"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/solana-classic-labs/solana-classic",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://solanaclassic.net",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "soqucoin": {
    "id": "soqucoin",
    "name": "Soqucoin",
