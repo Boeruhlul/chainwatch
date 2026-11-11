@@ -9437,6 +9437,46 @@
    ],
    "liveRpc": "https://rpc-uat.evm.mirasmanda.uz"
   },
+  "mitchuskicaesura": {
+   "id": "mitchuskicaesura",
+   "name": "mitchuski/caesura",
+   "aliases": [
+    "mitchuski/caesura"
+   ],
+   "keys": [
+    "d:mages.city",
+    "gh:mitchuski"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/mitchuski/caesura",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://caesura.mages.city",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "mizuhiki": {
    "id": "mizuhiki",
    "name": "MIZUHIKI",
