@@ -5011,33 +5011,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x713c59e1…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x713c59e1ad0545a6e0a1a6a7f65458a0de33ff80",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x8106ab01…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x8106ab0167029d2d8fa409ce6552a76d8ce2210f",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x82c6e26d…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x82c6e26d3eb5d9955b538dabe3c71b2c3c878c09",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x8366a39c…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
      "strength": "running"
@@ -5245,8 +5218,35 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x0675f409…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x0675f40949e92e6cbcb5372f1d7e172a6ad64a63",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x260670ee…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x260670eeb6b6cbcb4996bb88d5aff8b9668c330b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x4e93f25c…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x4e93f25cd2e136687436ea59ec49be0450a41c26",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x70a31364…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x70a3136494c473fafcc48e15a8d01f200a52525c",
      "strength": "running"
     },
     {
