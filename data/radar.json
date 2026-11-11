@@ -7883,6 +7883,34 @@
    "dossier": "frame"
   },
   {
+   "key": "forum:ethereum-magicians.org:30344",
+   "title": "ERC-8493: Onchain URI Scheme",
+   "url": "https://ethereum-magicians.org/t/erc-8493-onchain-uri-scheme/30344",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30345",
+   "title": "ERC-8446: Cross-Chain Client Gateway for CCIP-Read",
+   "url": "https://ethereum-magicians.org/t/erc-8446-cross-chain-client-gateway-for-ccip-read/30345",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "forum:ethresear.ch:26236",
    "title": "Elastic Ethereum",
    "url": "https://ethresear.ch/t/elastic-ethereum/26236",
@@ -8028,6 +8056,18 @@
    "key": "pr:ethereum/eips#12652",
    "title": "Bump activesupport from 7.0.7.2 to 8.0.5.2",
    "url": "https://github.com/ethereum/EIPs/pull/12652",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-11"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-11"
+  },
+  {
+   "key": "pr:ethereum/eips#12653",
+   "title": "Update EIP-8151: add public mempool rules for recovered signers",
+   "url": "https://github.com/ethereum/EIPs/pull/12653",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-11"
@@ -8437,6 +8477,8 @@
    "forum:ethereum-magicians.org:30332",
    "forum:ethereum-magicians.org:30334",
    "forum:ethereum-magicians.org:30339",
+   "forum:ethereum-magicians.org:30344",
+   "forum:ethereum-magicians.org:30345",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -8667,6 +8709,7 @@
    "pr:ethereum/eips#12650",
    "pr:ethereum/eips#12651",
    "pr:ethereum/eips#12652",
+   "pr:ethereum/eips#12653",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
