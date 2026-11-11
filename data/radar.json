@@ -7830,6 +7830,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x38b628c76ed6f8b30a9aac3106e7c921f4977d26",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RewardClaim op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x38b628c76ed6f8b30a9aac3106e7c921f4977d26",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x38b628c76ed6f8b30a9aac3106e7c921f4977d26"
+   },
+   "date": "2026-11-11"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x5ab504c82b4c03b31b661af4bc91efe2c0f6cb29",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -7980,6 +7992,7 @@
    "chaincontract:giwasepolia:0x3449bfd323463a7e8166200ffe5f0de045d9e416",
    "chaincontract:giwasepolia:0x345ff5dbe3275aeda341c3feff54034b7d020a46",
    "chaincontract:giwasepolia:0x3568185240580317bcf5607b79aa0e2b1957ceb1",
+   "chaincontract:giwasepolia:0x38b628c76ed6f8b30a9aac3106e7c921f4977d26",
    "chaincontract:giwasepolia:0x38fbfce44ea22d5fd9e21ba46eeb96f966681b22",
    "chaincontract:giwasepolia:0x3be84d789357ff44ffc8301a76585b6556660e24",
    "chaincontract:giwasepolia:0x4120ecbfb2f790356afe70cf226ee25e255463ed",
