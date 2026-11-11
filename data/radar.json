@@ -7817,6 +7817,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x1a7425e6b95e43ef8d4be396abd5eba12df4ca5e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LaunchToken op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x1a7425e6b95e43ef8d4be396abd5eba12df4ca5e",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x1a7425e6b95e43ef8d4be396abd5eba12df4ca5e"
+   },
+   "date": "2026-11-11"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x1c43af9f710b660891763aa9a6203fb87fd3426b",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -8186,6 +8198,7 @@
    "chaincontract:giwasepolia:0x18a4b0a52f0251eed14dd1dcb62d24ed442d09bd",
    "chaincontract:giwasepolia:0x1906bb4fc4ba785bc29705fbcf3e4da17f4c69c5",
    "chaincontract:giwasepolia:0x19710f26e62481c6f2a6a433d898b01491dee052",
+   "chaincontract:giwasepolia:0x1a7425e6b95e43ef8d4be396abd5eba12df4ca5e",
    "chaincontract:giwasepolia:0x1c43af9f710b660891763aa9a6203fb87fd3426b",
    "chaincontract:giwasepolia:0x1c8dd4cd64d49f94821cbe8cd1b7c591d2b6da5e",
    "chaincontract:giwasepolia:0x1fbc3782b7f03f32eb6624d8faa44dd84e42e0f4",

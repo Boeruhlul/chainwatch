@@ -8031,7 +8031,8 @@
    ],
    "families": [
     "code"
-   ]
+   ],
+   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz"
   },
   "kiteai": {
    "id": "kiteai",
@@ -16400,11 +16401,12 @@
    ],
    "keys": [
     "d:riverbit.io",
+    "id:12588",
     "id:12589",
     "n:riverbit"
    ],
    "firstSeen": "2026-10-14",
-   "lastActivity": "2026-11-05",
+   "lastActivity": "2026-11-11",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -16443,16 +16445,27 @@
      "what": "ethlists-commit: testnet · ID 12589",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-12589.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 12588",
+     "url": "https://github.com/ethereum-lists/chains/pull/9051",
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "12589"
+    "12589",
+    "12588"
    ],
    "website": "https://riverbit.io",
    "architecture": "EVM",
    "rpc": [
     "https://rpc.riverbit.io",
-    "https://pre.riverbit.io/api/rpc?chainId=12589"
+    "https://pre.riverbit.io/api/rpc?chainId=12589",
+    "https://app.riverbit.io/api/rpc?chainId=12588"
    ],
    "explorer": "https://pre.riverbit.io/explorer",
    "confidence": "A",
