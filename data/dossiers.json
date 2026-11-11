@@ -2681,6 +2681,44 @@
     "onderzoek"
    ]
   },
+  "cbeth": {
+   "id": "cbeth",
+   "name": "cbeth",
+   "aliases": [
+    "cbeth"
+   ],
+   "keys": [
+    "n:cbeth"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/cbeth",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "citizenchain": {
    "id": "citizenchain",
    "name": "CitizenChain",

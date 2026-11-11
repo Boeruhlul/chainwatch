@@ -797,6 +797,7 @@
   "catalyst:main",
   "catecoinchain:main",
   "catena:main",
+  "cbeth:main",
   "cbridge:main",
   "ccip:main",
   "cctpv1:main",
