@@ -7883,6 +7883,20 @@
    "dossier": "frame"
   },
   {
+   "key": "forum:ethresear.ch:26236",
+   "title": "Elastic Ethereum",
+   "url": "https://ethresear.ch/t/elastic-ethereum/26236",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "forum:forum.cosmos.network:17574",
    "title": "One proposal can lift a module's limit and use it in the same block",
    "url": "https://forum.cosmos.network/t/one-proposal-can-lift-a-modules-limit-and-use-it-in-the-same-block/17574",
@@ -7896,6 +7910,20 @@
    "src": "forums",
    "date": "2026-11-11",
    "dossier": null
+  },
+  {
+   "key": "forum:forum.cosmos.network:17575",
+   "title": "Cosmup: install, switch and check Cosmos chain binaries (like nvm, for gaiad/osmosisd/...)",
+   "url": "https://forum.cosmos.network/t/cosmup-install-switch-and-check-cosmos-chain-binaries-like-nvm-for-gaiad-osmosisd/17575",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
   },
   {
    "key": "forum:forum.polygon.technology:22550",
@@ -7967,6 +7995,18 @@
    "src": "proposals",
    "date": "2026-11-11",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/eips#12652",
+   "title": "Bump activesupport from 7.0.7.2 to 8.0.5.2",
+   "url": "https://github.com/ethereum/EIPs/pull/12652",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-11"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-11"
   }
  ],
  "seen": {
@@ -8381,6 +8421,7 @@
    "forum:ethresear.ch:26226",
    "forum:ethresear.ch:26227",
    "forum:ethresear.ch:26229",
+   "forum:ethresear.ch:26236",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -8418,6 +8459,7 @@
    "forum:forum.cosmos.network:17569",
    "forum:forum.cosmos.network:17570",
    "forum:forum.cosmos.network:17574",
+   "forum:forum.cosmos.network:17575",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -8582,6 +8624,7 @@
    "pr:ethereum/eips#12649",
    "pr:ethereum/eips#12650",
    "pr:ethereum/eips#12651",
+   "pr:ethereum/eips#12652",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
