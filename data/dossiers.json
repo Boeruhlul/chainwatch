@@ -5597,6 +5597,45 @@
     "register"
    ]
   },
+  "elysiumblockchain": {
+   "id": "elysiumblockchain",
+   "name": "Elysium Blockchain",
+   "aliases": [
+    "Elysium Blockchain"
+   ],
+   "keys": [
+    "n:elysiumblockchain"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "defillama",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "defillama: mainnet",
+     "url": "https://defillama.com/chain/Elysium%20Blockchain",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "mainnetSince": "2026-11-11",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "elysiumkinetiq": {
    "id": "elysiumkinetiq",
    "name": "Elysium Kinetiq",
