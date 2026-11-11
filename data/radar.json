@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-10",
+ "lastSent": "2026-11-11",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -7211,7 +7211,8 @@
     "chain": "NEX Chain",
     "addr": "0x5663e56f116f453c75e275eb74f2bf5bb8bb1e5c"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": "nexchain"
   },
   {
    "key": "chaincontract:nexchain:0x7ce8fb1de945b1c6e3a163d8eb5275451a398323",
@@ -7223,7 +7224,8 @@
     "chain": "NEX Chain",
     "addr": "0x7ce8fb1de945b1c6e3a163d8eb5275451a398323"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": "nexchain"
   },
   {
    "key": "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
@@ -7235,7 +7237,8 @@
     "chain": "NEX Chain",
     "addr": "0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": "nexchain"
   },
   {
    "key": "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
@@ -7247,7 +7250,8 @@
     "chain": "NEX Chain",
     "addr": "0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": "nexchain"
   },
   {
    "key": "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
@@ -7285,7 +7289,8 @@
     "chain": "QMS",
     "addr": "0xc169996ad1d41f29e04654b255b190c8f1f0ded1"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
@@ -7297,7 +7302,8 @@
     "chain": "QMS",
     "addr": "0xc443b86882c67f42eafc136591964ffc82997154"
    },
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:community.starknet.io:116471",
@@ -7311,7 +7317,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30323",
@@ -7340,7 +7347,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30329",
@@ -7354,7 +7362,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30330",
@@ -7368,7 +7377,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30331",
@@ -7382,7 +7392,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30332",
@@ -7396,7 +7407,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30334",
@@ -7410,7 +7422,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30339",
@@ -7424,7 +7437,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31682",
@@ -7453,7 +7467,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17569",
@@ -7467,7 +7482,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17570",
@@ -7481,7 +7497,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22542",
@@ -7495,7 +7512,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22543",
@@ -7509,7 +7527,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2351",
@@ -7521,7 +7540,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2352",
@@ -7533,7 +7553,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12640",
@@ -7597,7 +7618,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12646",
@@ -7609,7 +7631,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12647",
@@ -7621,7 +7644,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12648",
@@ -7633,7 +7657,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12649",
@@ -7645,7 +7670,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12650",
@@ -7657,7 +7683,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2156",
@@ -7708,7 +7735,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2160",
@@ -7720,7 +7748,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2161",
@@ -7732,7 +7761,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2162",
@@ -7744,7 +7774,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2163",
@@ -7756,7 +7787,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2164",
@@ -7768,7 +7800,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-10"
+   "date": "2026-11-10",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x10258af3865203188c421713a0891845d19ce105",
@@ -7780,7 +7813,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x10258af3865203188c421713a0891845d19ce105"
    },
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x1c8dd4cd64d49f94821cbe8cd1b7c591d2b6da5e",
@@ -7792,7 +7826,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x1c8dd4cd64d49f94821cbe8cd1b7c591d2b6da5e"
    },
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x5ab504c82b4c03b31b661af4bc91efe2c0f6cb29",
@@ -7804,7 +7839,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x5ab504c82b4c03b31b661af4bc91efe2c0f6cb29"
    },
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xc92ae54a4bf3ebab9bcc88cdff3b6b4f77b50bc4",
@@ -7816,7 +7852,8 @@
     "chain": "QMS",
     "addr": "0xc92ae54a4bf3ebab9bcc88cdff3b6b4f77b50bc4"
    },
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "forum:delvingbitcoin.org:3060",
@@ -7830,7 +7867,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": "frame"
   },
   {
    "key": "forum:forum.cosmos.network:17574",
@@ -7844,7 +7882,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "immunefi:metric",
@@ -7859,7 +7898,8 @@
    },
    "cat": "bounty",
    "src": "immunefi",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12651",
@@ -7871,7 +7911,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-11"
+   "date": "2026-11-11",
+   "dossier": null
   }
  ],
  "seen": {
