@@ -7898,6 +7898,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.polygon.technology:22550",
+   "title": "Nine Supply Chain Software Development Firms Compared on WMS, TMS and Supplier Portal Experience",
+   "url": "https://forum.polygon.technology/t/nine-supply-chain-software-development-firms-compared-on-wms-tms-and-supplier-portal-experience/22550",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "immunefi:metric",
    "title": "Metric",
    "url": "https://immunefi.com/bug-bounty/metric/",
@@ -8392,6 +8406,7 @@
    "forum:forum.polygon.technology:22516",
    "forum:forum.polygon.technology:22542",
    "forum:forum.polygon.technology:22543",
+   "forum:forum.polygon.technology:22550",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
