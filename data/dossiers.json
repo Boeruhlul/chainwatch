@@ -13554,6 +13554,44 @@
     "github"
    ]
   },
+  "paradoxrealesdaprotocol": {
+   "id": "paradoxrealesdaprotocol",
+   "name": "paradoxreal/ESDA-Protocol",
+   "aliases": [
+    "paradoxreal/ESDA-Protocol"
+   ],
+   "keys": [
+    "gh:paradoxreal"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/paradoxreal/ESDA-Protocol",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "peercash": {
    "id": "peercash",
    "name": "PeerCash",
