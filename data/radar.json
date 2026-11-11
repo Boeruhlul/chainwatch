@@ -7833,6 +7833,20 @@
    "date": "2026-11-11"
   },
   {
+   "key": "forum:forum.cosmos.network:17574",
+   "title": "One proposal can lift a module's limit and use it in the same block",
+   "url": "https://forum.cosmos.network/t/one-proposal-can-lift-a-modules-limit-and-use-it-in-the-same-block/17574",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "immunefi:metric",
    "title": "Metric",
    "url": "https://immunefi.com/bug-bounty/metric/",
@@ -8307,6 +8321,7 @@
    "forum:forum.cosmos.network:17564",
    "forum:forum.cosmos.network:17569",
    "forum:forum.cosmos.network:17570",
+   "forum:forum.cosmos.network:17574",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
