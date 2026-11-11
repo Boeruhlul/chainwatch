@@ -17126,6 +17126,51 @@
    ],
    "liveRpc": "https://rpc-mainnet.skygoldchainecosystem.com"
   },
+  "sobya": {
+   "id": "sobya",
+   "name": "SOBYA",
+   "aliases": [
+    "SOBYA"
+   ],
+   "keys": [
+    "id:sobya-1",
+    "n:sobya"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID sobya-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1598",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "sobya-1"
+   ],
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://sobya-api.nodesafe-app.xyz"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "soqucoin": {
    "id": "soqucoin",
    "name": "Soqucoin",
