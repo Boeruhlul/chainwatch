@@ -7988,14 +7988,27 @@
    ],
    "firstSeen": "2026-11-11",
    "lastActivity": "2026-11-11",
-   "stage": "testnet",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-11-11"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-11"
     }
    ],
    "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x8366a39c…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x8366a39cc670b4001a1121b8f6a443a643e40951",
+     "strength": "running"
+    },
     {
      "date": "2026-11-11",
      "source": "viem",
@@ -8027,12 +8040,23 @@
    "confidence": "C",
    "reasons": [
     "⚠️ mogelijke imitatie van Elysium: domein wijkt af van het officiële",
-    "draaiend netwerk aangetoond (viem: testnet · ID 99801)"
+    "draaiend netwerk aangetoond (ecosystem: launchpad-kandidaat 0x8366a39c…)",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
+    "onchain",
     "code"
    ],
-   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz"
+   "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+   "eco": {
+    "dex": [],
+    "launchpad": [
+     {
+      "addr": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "date": "2026-11-11"
+     }
+    ]
+   }
   },
   "kiteai": {
    "id": "kiteai",
