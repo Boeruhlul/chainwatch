@@ -5049,15 +5049,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xb1546941…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xb154694157351f162a9102cb2e2adb1b36c29855",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xe3a55e23…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xe3a55e2353cc75fd31e78baca609fce37314ea9d",
      "strength": "running"
@@ -5304,6 +5295,15 @@
      "what": "ecosystem: launchpad-kandidaat 0xed9e73d6…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xed9e73d6315e576adb742976e7ec2c6bb13502be",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "viem",
+     "family": "code",
+     "kind": "mainnet",
+     "what": "viem: mainnet · ID 99901",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/kinetiqElysium.ts",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -5338,7 +5338,8 @@
    ],
    "families": [
     "register",
-    "onchain"
+    "onchain",
+    "code"
    ],
    "website": "https://kinetiq.xyz",
    "github": "https://github.com/kinetiq-research",
@@ -7974,6 +7975,62 @@
    ],
    "families": [
     "github"
+   ]
+  },
+  "kinetiqelysium": {
+   "id": "kinetiqelysium",
+   "name": "Kinetiq Elysium",
+   "aliases": [
+    "Kinetiq Elysium"
+   ],
+   "keys": [
+    "d:kinetiq.xyz"
+   ],
+   "firstSeen": "2026-11-11",
+   "lastActivity": "2026-11-11",
+   "stage": "testnet",
+   "stageHistory": [
+    {
+     "stage": "testnet",
+     "date": "2026-11-11"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-11",
+     "source": "viem",
+     "family": "code",
+     "kind": "testnet",
+     "what": "viem: testnet · ID 99801",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/kinetiqElysiumTestnet.ts",
+     "strength": "running"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "Elysium",
+    "official": [
+     "ascendlaunch.xyz"
+    ],
+    "own": [
+     "kinetiq.xyz"
+    ]
+   },
+   "chainIds": [
+    "99801"
+   ],
+   "architecture": "EVM",
+   "rpc": [
+    "https://testnet-rpc.elysium.kinetiq.xyz"
+   ],
+   "explorer": "https://testnet.elysium.kinetiq.xyz",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van Elysium: domein wijkt af van het officiële",
+    "draaiend netwerk aangetoond (viem: testnet · ID 99801)"
+   ],
+   "families": [
+    "code"
    ]
   },
   "kiteai": {

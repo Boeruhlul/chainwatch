@@ -339,6 +339,8 @@
   "viem:kcc.ts",
   "viem:kii.ts",
   "viem:kiiTestnet.ts",
+  "viem:kinetiqElysium.ts",
+  "viem:kinetiqElysiumTestnet.ts",
   "viem:kinto.ts",
   "viem:klaytn.ts",
   "viem:klaytnBaobab.ts",
