@@ -7971,6 +7971,20 @@
    "date": "2026-11-11"
   },
   {
+   "key": "forum:ethereum-magicians.org:30351",
+   "title": "An Ethlabs view on post-quantum and post-AI timelines: pqai27",
+   "url": "https://ethereum-magicians.org/t/an-ethlabs-view-on-post-quantum-and-post-ai-timelines-pqai27/30351",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 170
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "forum:ethresear.ch:26236",
    "title": "Elastic Ethereum",
    "url": "https://ethresear.ch/t/elastic-ethereum/26236",
@@ -7979,6 +7993,20 @@
     "created": "2026-11-11",
     "posts": 1,
     "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
+   "key": "forum:ethresear.ch:26239",
+   "title": "Seam: verifying Zcash headers on Base with EIP-152, and proving shielded payments without linking the chains",
+   "url": "https://ethresear.ch/t/seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains/26239",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 20
    },
    "cat": "techniek",
    "src": "forums",
@@ -8544,6 +8572,7 @@
    "forum:ethereum-magicians.org:30339",
    "forum:ethereum-magicians.org:30344",
    "forum:ethereum-magicians.org:30345",
+   "forum:ethereum-magicians.org:30351",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -8569,6 +8598,7 @@
    "forum:ethresear.ch:26227",
    "forum:ethresear.ch:26229",
    "forum:ethresear.ch:26236",
+   "forum:ethresear.ch:26239",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",

@@ -16407,7 +16407,7 @@
    ],
    "firstSeen": "2026-10-14",
    "lastActivity": "2026-11-11",
-   "stage": "testnet",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -16416,6 +16416,10 @@
     {
      "stage": "testnet",
      "date": "2026-11-05"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-11"
     }
    ],
    "evidence": [
@@ -16454,6 +16458,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 12588",
      "url": "https://github.com/ethereum-lists/chains/pull/9051",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 12588",
+     "url": "https://github.com/ethereum-lists/chains/pull/9051",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -16474,7 +16487,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://app.riverbit.io/api/rpc?chainId=12588"
   },
   "robinhoodchain": {
    "id": "robinhoodchain",
