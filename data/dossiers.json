@@ -5007,16 +5007,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-09",
-     "source": "lifi",
-     "family": "markt",
-     "kind": "mainnet",
-     "what": "lifi: mainnet · ID 99901",
-     "url": "https://elysium.kinetiq.xyz/explorer/",
-     "noRpc": true,
-     "strength": "technical"
-    },
-    {
      "date": "2026-11-10",
      "source": "ecosystem",
      "family": "onchain",
@@ -5267,6 +5257,15 @@
      "what": "ecosystem: launchpad-kandidaat 0xf856b4ab…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xf856b4ab6a00d9ce1b450b0e276f8f950fca3cf3",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x67e44b69…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x67e44b69d10737df41f5a98078072b817016b871",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -5301,7 +5300,6 @@
    ],
    "families": [
     "register",
-    "markt",
     "onchain"
    ],
    "website": "https://kinetiq.xyz",
