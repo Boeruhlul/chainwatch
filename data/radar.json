@@ -7912,6 +7912,34 @@
    "date": "2026-11-11"
   },
   {
+   "key": "forum:forum.solana.com:5268",
+   "title": "SOL Recovery help",
+   "url": "https://forum.solana.com/t/sol-recovery-help/5268",
+   "meta": {
+    "forum": "forum.solana.com",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
+   "key": "forum:forum.zknation.io:1343",
+   "title": "Withdrawing funds from ZKlite. HELP",
+   "url": "https://forum.zknation.io/t/withdrawing-funds-from-zklite-help/1343",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "immunefi:metric",
    "title": "Metric",
    "url": "https://immunefi.com/bug-bounty/metric/",
@@ -8407,6 +8435,7 @@
    "forum:forum.polygon.technology:22542",
    "forum:forum.polygon.technology:22543",
    "forum:forum.polygon.technology:22550",
+   "forum:forum.solana.com:5268",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
@@ -8422,6 +8451,7 @@
    "forum:forum.zknation.io:1303",
    "forum:forum.zknation.io:1304",
    "forum:forum.zknation.io:1331",
+   "forum:forum.zknation.io:1343",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
