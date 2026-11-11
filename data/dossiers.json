@@ -13135,12 +13135,16 @@
     "n:ostia"
    ],
    "firstSeen": "2026-10-25",
-   "lastActivity": "2026-10-27",
-   "stage": "testnet",
+   "lastActivity": "2026-11-11",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-10-27"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-11"
     }
    ],
    "evidence": [
@@ -13190,6 +13194,15 @@
      "what": "ethlists-commit: devnet · ID 770101",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-770101.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xdc3894f5…",
+     "url": "https://ostia.devnet.romeprotocol.xyz/address/0xdc3894f56880a9bddcd31c97c509b48b00ec6fa8",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -13205,11 +13218,23 @@
    "liveRpc": "https://ostia.devnet.romeprotocol.xyz/rpc",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 770101)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 770101)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "onchain"
+   ],
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xdc3894f56880a9bddcd31c97c509b48b00ec6fa8",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-11"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "otckas": {
    "id": "otckas",
