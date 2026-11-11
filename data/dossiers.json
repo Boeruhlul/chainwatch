@@ -5011,24 +5011,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xf66e46e8…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xf66e46e826d0361fc415f2fcd6c0c686785357c1",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xfae13bb2…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xfae13bb204b020868868af46e4ae2c290cc5b8d0",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x03d8d550…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x03d8d550d745dfc81ec4783a1f52baef6eaa22fd",
      "strength": "running"
@@ -5191,6 +5173,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x08c595b8…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x08c595b8b486ee1985add0fa8b6fedde504c9e98",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x260670ee…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x260670eeb6b6cbcb4996bb88d5aff8b9668c330b",
      "strength": "running"
@@ -5247,6 +5238,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x9ce6c1e2…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x9ce6c1e2e74bf0000b5d2980594040534d0fb7fd",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xac6f3ae2…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xac6f3ae2db318f59a9f7aeb8370002a08d0a181a",
      "strength": "running"
     },
     {
