@@ -7940,6 +7940,20 @@
    "date": "2026-11-11"
   },
   {
+   "key": "forum:forum.cosmos.network:17577",
+   "title": "Cosmos Hub Validator Call: Recap - Nov 11, 2026",
+   "url": "https://forum.cosmos.network/t/cosmos-hub-validator-call-recap-nov-11-2026/17577",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-11",
+    "posts": 1,
+    "views": 27
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-11"
+  },
+  {
    "key": "forum:forum.polygon.technology:22550",
    "title": "Nine Supply Chain Software Development Firms Compared on WMS, TMS and Supplier Portal Experience",
    "url": "https://forum.polygon.technology/t/nine-supply-chain-software-development-firms-compared-on-wms-tms-and-supplier-portal-experience/22550",
@@ -8487,6 +8501,7 @@
    "forum:forum.cosmos.network:17574",
    "forum:forum.cosmos.network:17575",
    "forum:forum.cosmos.network:17576",
+   "forum:forum.cosmos.network:17577",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
