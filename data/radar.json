@@ -8021,6 +8021,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-11"
+  },
+  {
+   "key": "pr:ethereum/ercs#2165",
+   "title": "Update ERC-7730: require `iteration` for two or more array fields, default to `bundled`",
+   "url": "https://github.com/ethereum/ERCs/pull/2165",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-11"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-11"
   }
  ],
  "seen": {
@@ -8699,6 +8711,7 @@
    "pr:ethereum/ercs#2162",
    "pr:ethereum/ercs#2163",
    "pr:ethereum/ercs#2164",
+   "pr:ethereum/ercs#2165",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
