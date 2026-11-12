@@ -1660,6 +1660,43 @@
     "register"
    ]
   },
+  "bdagcommunity": {
+   "id": "bdagcommunity",
+   "name": "BDAG Community",
+   "aliases": [
+    "BDAG Community"
+   ],
+   "keys": [
+    "n:bdagcommunity"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/bdag-community/bdag-testnet-ipfs-release-page",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "beldex": {
    "id": "beldex",
    "name": "Beldex",
