@@ -5949,6 +5949,30 @@
    "date": "2026-11-12"
   },
   {
+   "key": "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QmsAccountFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QwapTwapOracle op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8"
+   },
+   "date": "2026-11-12"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30354",
    "title": "Code Reads in Block-Level Access Lists (extension to EIP-7928)",
    "url": "https://ethereum-magicians.org/t/code-reads-in-block-level-access-lists-extension-to-eip-7928/30354",
@@ -6283,6 +6307,8 @@
    "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
+   "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
+   "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
    "chaincontract:qms:0xc169996ad1d41f29e04654b255b190c8f1f0ded1",
    "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
