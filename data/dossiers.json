@@ -2155,6 +2155,46 @@
     "onderzoek"
    ]
   },
+  "blakiston": {
+   "id": "blakiston",
+   "name": "blakiston",
+   "aliases": [
+    "blakiston"
+   ],
+   "keys": [
+    "n:blakiston"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/blakiston",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos",
+   "mainnetSince": "2026-11-12",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "blockdag": {
    "id": "blockdag",
    "name": "BlockDAG",
