@@ -5957,6 +5957,90 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x62737ed46a5cd950b8e41ec2782833c00aa383a0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x62737ed46a5cd950b8e41ec2782833c00aa383a0",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x62737ed46a5cd950b8e41ec2782833c00aa383a0"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x6591b7c12c736b9cf49949b44188730660e18cd0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x6591b7c12c736b9cf49949b44188730660e18cd0",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x6591b7c12c736b9cf49949b44188730660e18cd0"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xa2cd3cef22f26e5ad130d1d6db01ebc0ceaa4f9c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xa2cd3cef22f26e5ad130d1d6db01ebc0ceaa4f9c",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xa2cd3cef22f26e5ad130d1d6db01ebc0ceaa4f9c"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xa4dbafffbcbcfeaf5938640487ddcb1eff963162",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xa4dbafffbcbcfeaf5938640487ddcb1eff963162",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xa4dbafffbcbcfeaf5938640487ddcb1eff963162"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xe65ead3bba5ad982b71186a5dd5b72e12ad26af0",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xe65ead3bba5ad982b71186a5dd5b72e12ad26af0",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xe65ead3bba5ad982b71186a5dd5b72e12ad26af0"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xe927e645f139c240efaa4b55f889cabf73508bdc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixIndexVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xe927e645f139c240efaa4b55f889cabf73508bdc",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xe927e645f139c240efaa4b55f889cabf73508bdc"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xf532a8ef63216c6db40db0d620535f69364b698b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QuadrixBasketVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xf532a8ef63216c6db40db0d620535f69364b698b",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xf532a8ef63216c6db40db0d620535f69364b698b"
+   },
+   "date": "2026-11-12"
+  },
+  {
    "key": "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6024,6 +6108,20 @@
    "src": "forums",
    "date": "2026-11-12",
    "dossier": null
+  },
+  {
+   "key": "forum:ethresear.ch:26242",
+   "title": "Multi-dimensional decentralization metrics, and an open question on first-broadcast double-spend rules",
+   "url": "https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
   },
   {
    "key": "job:greenhouse:stripe:8352154",
@@ -6220,7 +6318,9 @@
    "chaincontract:giwasepolia:0x5ca34b12f68f3ecdad7ea861370e2eb4a0cb1548",
    "chaincontract:giwasepolia:0x5fc6154086bea250736f3950cb5ff47a007a2c7f",
    "chaincontract:giwasepolia:0x623c8e37d90e0e0a47abc9d1786fb233f88a53ab",
+   "chaincontract:giwasepolia:0x62737ed46a5cd950b8e41ec2782833c00aa383a0",
    "chaincontract:giwasepolia:0x6314f79e5a34683965a21be9017cf6066feb3bfe",
+   "chaincontract:giwasepolia:0x6591b7c12c736b9cf49949b44188730660e18cd0",
    "chaincontract:giwasepolia:0x69aa901c15bdcc0810e15065291672ca08c7a36f",
    "chaincontract:giwasepolia:0x6a0cbfe4e3a980fc1618b882f2472e4caf96e50a",
    "chaincontract:giwasepolia:0x7082458ba328aecc3aa723b296e6064ee6f637df",
@@ -6258,6 +6358,8 @@
    "chaincontract:giwasepolia:0xa16c57dc50c585d0779c27c0c823336117e942b9",
    "chaincontract:giwasepolia:0xa1c3e61941c24184922c29d6cbfb659faa8c5c45",
    "chaincontract:giwasepolia:0xa1e2288f19780f15663d2e977dfe87bdd006f41b",
+   "chaincontract:giwasepolia:0xa2cd3cef22f26e5ad130d1d6db01ebc0ceaa4f9c",
+   "chaincontract:giwasepolia:0xa4dbafffbcbcfeaf5938640487ddcb1eff963162",
    "chaincontract:giwasepolia:0xa66ba971fcdfd6ffd8b1a36e32be48831567c0e9",
    "chaincontract:giwasepolia:0xa708d017bf65706e7dd7ba4fd477ccd65f84a469",
    "chaincontract:giwasepolia:0xa873d48312092d82b07686277ef0ad253424bb70",
@@ -6302,6 +6404,8 @@
    "chaincontract:giwasepolia:0xe38f60c9150a096f91163fdf8cf2aa258f97b393",
    "chaincontract:giwasepolia:0xe3c4111dae9c32c5b94c63b3f7c3675db01d3bf2",
    "chaincontract:giwasepolia:0xe6285a71051767a23b3bc7d498371aff8c176375",
+   "chaincontract:giwasepolia:0xe65ead3bba5ad982b71186a5dd5b72e12ad26af0",
+   "chaincontract:giwasepolia:0xe927e645f139c240efaa4b55f889cabf73508bdc",
    "chaincontract:giwasepolia:0xe94cea90d446b6f4b22063aac415aadd16863688",
    "chaincontract:giwasepolia:0xeb872f2064373a7d17fd805c1adb40dacdf34a34",
    "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
@@ -6310,6 +6414,7 @@
    "chaincontract:giwasepolia:0xf3258f8d3594a844d4c116e2dfab03cd7241dfe7",
    "chaincontract:giwasepolia:0xf46502d7e16b8f10e86d2d0c82380bb28a10e06a",
    "chaincontract:giwasepolia:0xf4f40d8f137492729dcda2d82c727a425f5ef824",
+   "chaincontract:giwasepolia:0xf532a8ef63216c6db40db0d620535f69364b698b",
    "chaincontract:giwasepolia:0xf5597a472e08a4b63053a99d73ecb41ba07593b9",
    "chaincontract:giwasepolia:0xfbb6e50896221c45f7f59cc2f38869b22493d91d",
    "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
@@ -6557,6 +6662,7 @@
    "forum:ethresear.ch:26229",
    "forum:ethresear.ch:26236",
    "forum:ethresear.ch:26239",
+   "forum:ethresear.ch:26242",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
