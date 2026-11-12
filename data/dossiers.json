@@ -555,6 +555,44 @@
     "markt"
    ]
   },
+  "alicenstnstchaincore": {
+   "id": "alicenstnstchaincore",
+   "name": "alicenst/nstchain-core",
+   "aliases": [
+    "alicenst/nstchain-core"
+   ],
+   "keys": [
+    "gh:alicenst"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/alicenst/nstchain-core",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "alta": {
    "id": "alta",
    "name": "Alta",
@@ -16407,7 +16445,7 @@
     "n:rayls"
    ],
    "firstSeen": "2026-10-01",
-   "lastActivity": "2026-10-01",
+   "lastActivity": "2026-11-12",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -16425,6 +16463,15 @@
      "url": "https://defillama.com/chain/Rayls",
      "strength": "technical",
      "noRpc": true
+    },
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/9ytshade/rayls-atomic-dvp-herstatt-risk",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -16432,12 +16479,13 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-01",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "één technisch signaal (markt)"
+    "2 onafhankelijke bronfamilies: markt, github"
    ],
    "families": [
-    "markt"
+    "markt",
+    "github"
    ]
   },
   "realfinance": {
