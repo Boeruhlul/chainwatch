@@ -5045,15 +5045,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-10",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xf856b4ab…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xf856b4ab6a00d9ce1b450b0e276f8f950fca3cf3",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-11",
      "source": "ecosystem",
      "family": "onchain",
@@ -5285,6 +5276,15 @@
      "kind": "mainnet",
      "what": "viem: mainnet · ID 99901",
      "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/kinetiqElysium.ts",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x278a39e6…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x278a39e63bd04e4de220501074068372cf88486c",
      "strength": "running"
     },
     {
