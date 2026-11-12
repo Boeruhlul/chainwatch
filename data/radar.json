@@ -5935,6 +5935,104 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-11"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30354",
+   "title": "Code Reads in Block-Level Access Lists (extension to EIP-7928)",
+   "url": "https://ethereum-magicians.org/t/code-reads-in-block-level-access-lists-extension-to-eip-7928/30354",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "job:greenhouse:stripe:8352154",
+   "title": "Stripe: Specialist Solutions Architect, Crypto and Stablecoins",
+   "url": "https://stripe.com/jobs/search?gh_jid=8352154",
+   "meta": {
+    "company": "Stripe",
+    "location": "Singapore"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12654",
+   "title": "Update EIP-8288: Batch generic signature claims",
+   "url": "https://github.com/ethereum/EIPs/pull/12654",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-11"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12655",
+   "title": "Add EIP: eth/73 - Proof wrapper propagation",
+   "url": "https://github.com/ethereum/EIPs/pull/12655",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-11"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12656",
+   "title": "Update EIP-8141: note when a SENDER frame makes a transaction invalid before execution",
+   "url": "https://github.com/ethereum/EIPs/pull/12656",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12657",
+   "title": "Update EIP-8288: use the EIP-8141 leanSPHINCS scheme id in dependency triples",
+   "url": "https://github.com/ethereum/EIPs/pull/12657",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12658",
+   "title": "Add EIP: Code Reads in Block-Level Access Lists",
+   "url": "https://github.com/ethereum/EIPs/pull/12658",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12659",
+   "title": "Update EIP-8250: let single-use keyed transactions pass static and mempool checks",
+   "url": "https://github.com/ethereum/EIPs/pull/12659",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
   }
  ],
  "seen": {
@@ -6333,6 +6431,7 @@
    "forum:ethereum-magicians.org:30344",
    "forum:ethereum-magicians.org:30345",
    "forum:ethereum-magicians.org:30351",
+   "forum:ethereum-magicians.org:30354",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6469,6 +6568,7 @@
    "job:greenhouse:stripe:8143073",
    "job:greenhouse:stripe:8299647",
    "job:greenhouse:stripe:8336819",
+   "job:greenhouse:stripe:8352154",
    "job:lever:anchorage:09b2b0d1-fb52-431c-b617-2fb74b595b1d",
    "job:lever:anchorage:2241b52b-da64-4626-9abc-c8ff5fb58009"
   ],
@@ -6565,6 +6665,12 @@
    "pr:ethereum/eips#12651",
    "pr:ethereum/eips#12652",
    "pr:ethereum/eips#12653",
+   "pr:ethereum/eips#12654",
+   "pr:ethereum/eips#12655",
+   "pr:ethereum/eips#12656",
+   "pr:ethereum/eips#12657",
+   "pr:ethereum/eips#12658",
+   "pr:ethereum/eips#12659",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
