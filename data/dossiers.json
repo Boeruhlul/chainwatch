@@ -21677,6 +21677,55 @@
    ],
    "liveRpc": "https://rpc.zksync-era-testnet.zksync.dev"
   },
+  "zksys": {
+   "id": "zksys",
+   "name": "zkSYS",
+   "aliases": [
+    "zkSYS"
+   ],
+   "keys": [
+    "d:syscoin.org",
+    "id:5757",
+    "n:zksys"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 5757",
+     "url": "https://github.com/ethereum-lists/chains/pull/9066",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "5757"
+   ],
+   "website": "https://syscoin.org",
+   "architecture": "EVM",
+   "github": "https://github.com/syscoin",
+   "rpc": [
+    "https://rpc-zk.syscoin.org"
+   ],
+   "explorer": "https://explorer-zk.syscoin.org",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "zokaquantic": {
    "id": "zokaquantic",
    "name": "Zoka Quantic",

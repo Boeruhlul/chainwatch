@@ -5016,6 +5016,7 @@
   "zksynclocalnode:main",
   "zksyncprover:main",
   "zksyncsepolia:test",
+  "zksys:pre",
   "zkxpla:main",
   "zkxpla:test",
   "zokaquantic:lead",
