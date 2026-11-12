@@ -5969,6 +5969,18 @@
    "date": "2026-11-12"
   },
   {
+   "key": "chaincontract:giwasepolia:0x658c298554f2c4e78e1ad6b7333994df56faba1f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x658c298554f2c4e78e1ad6b7333994df56faba1f",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x658c298554f2c4e78e1ad6b7333994df56faba1f"
+   },
+   "date": "2026-11-12"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x6591b7c12c736b9cf49949b44188730660e18cd0",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5977,6 +5989,30 @@
    "meta": {
     "chain": "GIWA Sepolia",
     "addr": "0x6591b7c12c736b9cf49949b44188730660e18cd0"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x65a5c1fd2b55189745b4dd1605c5c0793ac19460",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomCurveDeployer op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x65a5c1fd2b55189745b4dd1605c5c0793ac19460",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x65a5c1fd2b55189745b4dd1605c5c0793ac19460"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x9546d653cdc5cdf027e128ce945dd8ee326cac82",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x9546d653cdc5cdf027e128ce945dd8ee326cac82",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x9546d653cdc5cdf027e128ce945dd8ee326cac82"
    },
    "date": "2026-11-12"
   },
@@ -6037,6 +6073,18 @@
    "meta": {
     "chain": "GIWA Sepolia",
     "addr": "0xf532a8ef63216c6db40db0d620535f69364b698b"
+   },
+   "date": "2026-11-12"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xfefeb981b8c9d795bb906914efb642409147895d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolManager op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xfefeb981b8c9d795bb906914efb642409147895d",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xfefeb981b8c9d795bb906914efb642409147895d"
    },
    "date": "2026-11-12"
   },
@@ -6466,7 +6514,9 @@
    "chaincontract:giwasepolia:0x623c8e37d90e0e0a47abc9d1786fb233f88a53ab",
    "chaincontract:giwasepolia:0x62737ed46a5cd950b8e41ec2782833c00aa383a0",
    "chaincontract:giwasepolia:0x6314f79e5a34683965a21be9017cf6066feb3bfe",
+   "chaincontract:giwasepolia:0x658c298554f2c4e78e1ad6b7333994df56faba1f",
    "chaincontract:giwasepolia:0x6591b7c12c736b9cf49949b44188730660e18cd0",
+   "chaincontract:giwasepolia:0x65a5c1fd2b55189745b4dd1605c5c0793ac19460",
    "chaincontract:giwasepolia:0x69aa901c15bdcc0810e15065291672ca08c7a36f",
    "chaincontract:giwasepolia:0x6a0cbfe4e3a980fc1618b882f2472e4caf96e50a",
    "chaincontract:giwasepolia:0x7082458ba328aecc3aa723b296e6064ee6f637df",
@@ -6494,6 +6544,7 @@
    "chaincontract:giwasepolia:0x8b109f7c2f8045fc3444c61a572d37aaa12ba1b9",
    "chaincontract:giwasepolia:0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
    "chaincontract:giwasepolia:0x92eb8a643618846646d590c42dbc2d557f2c1de0",
+   "chaincontract:giwasepolia:0x9546d653cdc5cdf027e128ce945dd8ee326cac82",
    "chaincontract:giwasepolia:0x95b3d1ba2cf7e3fa8dba0ba3eb1d1dc894b8b237",
    "chaincontract:giwasepolia:0x96290f53fd49f90801f258299a658cbae686222f",
    "chaincontract:giwasepolia:0x9addfb6c0e41cf22ed8e5e6bfcfddd6ed79dd9e6",
@@ -6563,6 +6614,7 @@
    "chaincontract:giwasepolia:0xf532a8ef63216c6db40db0d620535f69364b698b",
    "chaincontract:giwasepolia:0xf5597a472e08a4b63053a99d73ecb41ba07593b9",
    "chaincontract:giwasepolia:0xfbb6e50896221c45f7f59cc2f38869b22493d91d",
+   "chaincontract:giwasepolia:0xfefeb981b8c9d795bb906914efb642409147895d",
    "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
    "chaincontract:gridmind:0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
    "chaincontract:gridmind:0x23b3c3dd0c275e3cecee2d91a2aeccc60daba477",
