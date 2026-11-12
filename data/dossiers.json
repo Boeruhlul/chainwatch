@@ -8874,11 +8874,13 @@
     "Hashed Maroo"
    ],
    "keys": [
+    "d:maroo.io",
+    "id:410",
     "n:hashedmaroo",
     "n:maroo"
    ],
    "firstSeen": "2026-11-02",
-   "lastActivity": "2026-11-02",
+   "lastActivity": "2026-11-12",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -8896,6 +8898,15 @@
      "url": "https://invezz.com/news/2026/05/07/hashed-open-finance-launch-testnet-of-maroo/",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 410",
+     "url": "https://github.com/ethereum-lists/chains/pull/9052",
+     "strength": "technical"
     }
    ],
    "architecture": "Soevereine L1 · OKRW-stablecoin als settlement, programmable compliance, ZK-pri…",
@@ -8927,14 +8938,18 @@
     "file": "2026-11-02-weekly.json"
    },
    "org": "Hashed Open Finance",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel C"
+    "2 onafhankelijke bronfamilies: onderzoek, register"
    ],
    "families": [
-    "onderzoek"
-   ]
+    "onderzoek",
+    "register"
+   ],
+   "chainIds": [
+    "410"
+   ],
+   "website": "https://maroo.io"
   },
   "mayachain": {
    "id": "mayachain",
