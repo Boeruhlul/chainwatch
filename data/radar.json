@@ -5987,6 +5987,20 @@
    "date": "2026-11-12"
   },
   {
+   "key": "forum:ethereum-magicians.org:30361",
+   "title": "[Pre-ERC Discussion] Evolving SBT with Namespaced State Transitions",
+   "url": "https://ethereum-magicians.org/t/pre-erc-discussion-evolving-sbt-with-namespaced-state-transitions/30361",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-12",
+    "posts": 2,
+    "views": 18
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
    "key": "job:greenhouse:stripe:8352154",
    "title": "Stripe: Specialist Solutions Architect, Crypto and Stablecoins",
    "url": "https://stripe.com/jobs/search?gh_jid=8352154",
@@ -6062,6 +6076,18 @@
    "key": "pr:ethereum/eips#12659",
    "title": "Update EIP-8250: let single-use keyed transactions pass static and mempool checks",
    "url": "https://github.com/ethereum/EIPs/pull/12659",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/eips#12660",
+   "title": "Update EIP-7623: fix broken relative link to EIP-2028",
+   "url": "https://github.com/ethereum/EIPs/pull/12660",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-12"
@@ -6471,6 +6497,7 @@
    "forum:ethereum-magicians.org:30345",
    "forum:ethereum-magicians.org:30351",
    "forum:ethereum-magicians.org:30354",
+   "forum:ethereum-magicians.org:30361",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6710,6 +6737,7 @@
    "pr:ethereum/eips#12657",
    "pr:ethereum/eips#12658",
    "pr:ethereum/eips#12659",
+   "pr:ethereum/eips#12660",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
