@@ -6137,6 +6137,18 @@
    "dossier": null
   },
   {
+   "key": "pr:bitcoin/bips#2353",
+   "title": "BIP draft: Signing message encoding",
+   "url": "https://github.com/bitcoin/bips/pull/2353",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
    "key": "pr:ethereum/eips#12654",
    "title": "Update EIP-8288: Batch generic signature claims",
    "url": "https://github.com/ethereum/EIPs/pull/12654",
@@ -6226,6 +6238,30 @@
    "src": "proposals",
    "date": "2026-11-12",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/eips#12661",
+   "title": "Add AGENTS.md",
+   "url": "https://github.com/ethereum/EIPs/pull/12661",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/ercs#2167",
+   "title": "Update ERC-7984: Define event emission in event specs instead of per function",
+   "url": "https://github.com/ethereum/ERCs/pull/2167",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
   }
  ],
  "seen": {
@@ -6799,6 +6835,7 @@
    "pr:bitcoin/bips#2350",
    "pr:bitcoin/bips#2351",
    "pr:bitcoin/bips#2352",
+   "pr:bitcoin/bips#2353",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -6877,6 +6914,7 @@
    "pr:ethereum/eips#12658",
    "pr:ethereum/eips#12659",
    "pr:ethereum/eips#12660",
+   "pr:ethereum/eips#12661",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -6937,6 +6975,7 @@
    "pr:ethereum/ercs#2163",
    "pr:ethereum/ercs#2164",
    "pr:ethereum/ercs#2165",
+   "pr:ethereum/ercs#2167",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
