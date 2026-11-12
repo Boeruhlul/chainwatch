@@ -814,7 +814,8 @@
    "aliases": [
     "arunjot12/Nila",
     "arunjot12/mind-chain",
-    "arunjot12/mc-reth"
+    "arunjot12/mc-reth",
+    "arunjot12/mc-geth"
    ],
    "keys": [
     "gh:arunjot12"
@@ -854,6 +855,15 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · github-config",
      "url": "https://github.com/arunjot12/mc-reth",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/arunjot12/mc-geth",
      "strength": "technical"
     }
    ],
