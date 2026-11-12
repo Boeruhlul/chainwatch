@@ -13222,6 +13222,44 @@
     "onderzoek"
    ]
   },
+  "nstchainnstchaincore": {
+   "id": "nstchainnstchaincore",
+   "name": "nstchain/nstchain-core",
+   "aliases": [
+    "nstchain/nstchain-core"
+   ],
+   "keys": [
+    "gh:nstchain"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/nstchain/nstchain-core",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "numen": {
    "id": "numen",
    "name": "Numen",
