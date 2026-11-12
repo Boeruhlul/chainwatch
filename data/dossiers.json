@@ -16830,6 +16830,45 @@
     "github"
    ]
   },
+  "sanzayapaurachain": {
+   "id": "sanzayapaurachain",
+   "name": "sanzaya-p/aurachain",
+   "aliases": [
+    "sanzaya-p/aurachain"
+   ],
+   "keys": [
+    "gh:sanzaya-p"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/sanzaya-p/aurachain",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://aurachain-quantum.vercel.app",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "scdoshard0": {
    "id": "scdoshard0",
    "name": "SCDO Shard 0",
