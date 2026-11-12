@@ -16,7 +16,9 @@
     "lastNotifiedAt": "2026-10-21T20:00:41.079Z"
   },
   "blob-submitters": {
-    "ok": true,
+    "ok": false,
+    "error": "fetch failed",
+    "failingSince": "2026-11-12T16:50:32.754Z",
     "lastNotifiedAt": "2026-11-12T15:50:31.883Z"
   },
   "ethlists-pr": {
