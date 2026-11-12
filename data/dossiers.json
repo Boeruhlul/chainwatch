@@ -19986,10 +19986,14 @@
    ],
    "firstSeen": "2026-11-12",
    "lastActivity": "2026-11-12",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-12"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-12"
     }
    ],
@@ -20002,6 +20006,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 882026",
      "url": "https://github.com/ethereum-lists/chains/pull/9053",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 882026",
+     "url": "https://github.com/ethereum-lists/chains/pull/9053",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20013,13 +20026,14 @@
     "https://umkmrumahan.com/rpc"
    ],
    "explorer": "https://umkmrumahan.com/explorer",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 882026)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://umkmrumahan.com/rpc"
   },
   "wattx": {
    "id": "wattx",
