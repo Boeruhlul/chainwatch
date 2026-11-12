@@ -6110,6 +6110,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30364",
+   "title": "A 2-of-2 MPC Wallet with QR Setup and NFC Signing",
+   "url": "https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
    "key": "forum:ethresear.ch:26242",
    "title": "Multi-dimensional decentralization metrics, and an open question on first-broadcast double-spend rules",
    "url": "https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242",
@@ -6118,6 +6132,20 @@
     "created": "2026-11-12",
     "posts": 1,
     "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "forum:forum.zknation.io:1348",
+   "title": "L1 Bridged ZK Token Upgrade for New ZKsync Protocol Features",
+   "url": "https://forum.zknation.io/t/l1-bridged-zk-token-upgrade-for-new-zksync-protocol-features/1348",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 17
    },
    "cat": "techniek",
    "src": "forums",
@@ -6672,6 +6700,7 @@
    "forum:ethereum-magicians.org:30351",
    "forum:ethereum-magicians.org:30354",
    "forum:ethereum-magicians.org:30361",
+   "forum:ethereum-magicians.org:30364",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6773,6 +6802,7 @@
    "forum:forum.zknation.io:1304",
    "forum:forum.zknation.io:1331",
    "forum:forum.zknation.io:1343",
+   "forum:forum.zknation.io:1348",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
