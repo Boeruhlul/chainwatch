@@ -5937,6 +5937,18 @@
    "date": "2026-11-11"
   },
   {
+   "key": "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x60dd805d0af155dd34cbaee4cc9b9019832f83db"
+   },
+   "date": "2026-11-12"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30354",
    "title": "Code Reads in Block-Level Access Lists (extension to EIP-7928)",
    "url": "https://ethereum-magicians.org/t/code-reads-in-block-level-access-lists-extension-to-eip-7928/30354",
@@ -6268,6 +6280,7 @@
    "chaincontract:qms:0x487d7051845d4fe6d6c4b2055ef7d6e2d3e142df",
    "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
