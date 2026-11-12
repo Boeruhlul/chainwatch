@@ -17595,6 +17595,44 @@
    ],
    "mainnetSince": "2026-10-29"
   },
+  "spielergamerytkripton": {
+   "id": "spielergamerytkripton",
+   "name": "Spielergamer-YT/kripton",
+   "aliases": [
+    "Spielergamer-YT/kripton"
+   ],
+   "keys": [
+    "gh:spielergamer-yt"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Spielergamer-YT/kripton",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos chain.json, genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "splitsv2": {
    "id": "splitsv2",
    "name": "splitsv2",
