@@ -7987,7 +7987,7 @@
     "d:kinetiq.xyz"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-11",
+   "lastActivity": "2026-11-12",
    "stage": "draait",
    "stageHistory": [
     {
@@ -8016,6 +8016,24 @@
      "kind": "testnet",
      "what": "viem: testnet · ID 99801",
      "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/kinetiqElysiumTestnet.ts",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x878a1e54…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x878a1e5432e7a58a87929429ab841e6a9d4075f4",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf19e0b76…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xf19e0b7649a3264cb1a547bf5b0298ffb96d4342",
      "strength": "running"
     }
    ],
@@ -8054,6 +8072,14 @@
      {
       "addr": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
       "date": "2026-11-11"
+     },
+     {
+      "addr": "0x878a1e5432e7a58a87929429ab841e6a9d4075f4",
+      "date": "2026-11-12"
+     },
+     {
+      "addr": "0xf19e0b7649a3264cb1a547bf5b0298ffb96d4342",
+      "date": "2026-11-12"
      }
     ]
    }
