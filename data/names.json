@@ -4708,6 +4708,7 @@
   "warden:test",
   "wardenprotocol:main",
   "wardenprotocol:test",
+  "warganetwork:pre",
   "watchdata:test",
   "waterfall8testnetwork:test",
   "waterfall9testnetwork:test",

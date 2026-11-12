@@ -19973,6 +19973,54 @@
     "github"
    ]
   },
+  "warganetwork": {
+   "id": "warganetwork",
+   "name": "Warga Network",
+   "aliases": [
+    "Warga Network"
+   ],
+   "keys": [
+    "d:umkmrumahan.com",
+    "id:882026",
+    "n:warganetwork"
+   ],
+   "firstSeen": "2026-11-12",
+   "lastActivity": "2026-11-12",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-12"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-12",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 882026",
+     "url": "https://github.com/ethereum-lists/chains/pull/9053",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "882026"
+   ],
+   "website": "https://umkmrumahan.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://umkmrumahan.com/rpc"
+   ],
+   "explorer": "https://umkmrumahan.com/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "wattx": {
    "id": "wattx",
    "name": "WATTx",
