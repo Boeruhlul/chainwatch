@@ -6152,6 +6152,48 @@
    "date": "2026-11-12"
   },
   {
+   "key": "forum:forum.zknation.io:1351",
+   "title": "There is no withdrawal button - I’ve checked in different browsers and in incognito mode!!!",
+   "url": "https://forum.zknation.io/t/there-is-no-withdrawal-button-i-ve-checked-in-different-browsers-and-in-incognito-mode/1351",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "forum:forum.zknation.io:1353",
+   "title": "Can’t unstake my zk",
+   "url": "https://forum.zknation.io/t/can-t-unstake-my-zk/1353",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "forum:forum.zknation.io:1354",
+   "title": "ZKlite stuck fund",
+   "url": "https://forum.zknation.io/t/zklite-stuck-fund/1354",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-12",
+    "posts": 2,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
    "key": "job:greenhouse:stripe:8352154",
    "title": "Stripe: Specialist Solutions Architect, Crypto and Stablecoins",
    "url": "https://stripe.com/jobs/search?gh_jid=8352154",
@@ -6815,6 +6857,9 @@
    "forum:forum.zknation.io:1331",
    "forum:forum.zknation.io:1343",
    "forum:forum.zknation.io:1348",
+   "forum:forum.zknation.io:1351",
+   "forum:forum.zknation.io:1353",
+   "forum:forum.zknation.io:1354",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
