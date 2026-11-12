@@ -1033,6 +1033,7 @@
   "cronos:test",
   "cronoszkevm:main",
   "cronoszkevm:test",
+  "crookedapricotant:test",
   "cross:main",
   "cross:test",
   "crossbell:main",
