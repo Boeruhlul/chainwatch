@@ -6290,6 +6290,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-12"
+  },
+  {
+   "key": "pr:ethereum/ercs#2168",
+   "title": "Update ERC-8410: Address programmatic tool calling runtimes",
+   "url": "https://github.com/ethereum/ERCs/pull/2168",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-12"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-12"
   }
  ],
  "seen": {
@@ -7006,6 +7018,7 @@
    "pr:ethereum/ercs#2164",
    "pr:ethereum/ercs#2165",
    "pr:ethereum/ercs#2167",
+   "pr:ethereum/ercs#2168",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
