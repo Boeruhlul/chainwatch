@@ -6214,6 +6214,20 @@
    "date": "2026-11-12"
   },
   {
+   "key": "forum:forum.cosmos.network:17581",
+   "title": "Hub Weekly Update #24: November 12, 2026",
+   "url": "https://forum.cosmos.network/t/hub-weekly-update-24-november-12-2026/17581",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 16
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
    "key": "forum:forum.zknation.io:1348",
    "title": "L1 Bridged ZK Token Upgrade for New ZKsync Protocol Features",
    "url": "https://forum.zknation.io/t/l1-bridged-zk-token-upgrade-for-new-zksync-protocol-features/1348",
@@ -6904,6 +6918,7 @@
    "forum:forum.cosmos.network:17575",
    "forum:forum.cosmos.network:17576",
    "forum:forum.cosmos.network:17577",
+   "forum:forum.cosmos.network:17581",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
