@@ -6124,6 +6124,20 @@
    "date": "2026-11-12"
   },
   {
+   "key": "forum:ethereum-magicians.org:30367",
+   "title": "EIP Draft: Run leanVM aggregation in shadow mode alongside BLS until PQ/AI day",
+   "url": "https://ethereum-magicians.org/t/eip-draft-run-leanvm-aggregation-in-shadow-mode-alongside-bls-until-pq-ai-day/30367",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 23
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
    "key": "forum:ethresear.ch:26242",
    "title": "Multi-dimensional decentralization metrics, and an open question on first-broadcast double-spend rules",
    "url": "https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242",
@@ -6132,6 +6146,20 @@
     "created": "2026-11-12",
     "posts": 1,
     "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-12"
+  },
+  {
+   "key": "forum:ethresear.ch:26244",
+   "title": "More Meters or More Prices? One- vs. Multi-dimensional Fee Mechanisms on Ethereum",
+   "url": "https://ethresear.ch/t/more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum/26244",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-12",
+    "posts": 1,
+    "views": 19
    },
    "cat": "techniek",
    "src": "forums",
@@ -6755,6 +6783,7 @@
    "forum:ethereum-magicians.org:30354",
    "forum:ethereum-magicians.org:30361",
    "forum:ethereum-magicians.org:30364",
+   "forum:ethereum-magicians.org:30367",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6782,6 +6811,7 @@
    "forum:ethresear.ch:26236",
    "forum:ethresear.ch:26239",
    "forum:ethresear.ch:26242",
+   "forum:ethresear.ch:26244",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
