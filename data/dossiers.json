@@ -813,13 +813,14 @@
    "name": "arunjot12/Nila",
    "aliases": [
     "arunjot12/Nila",
-    "arunjot12/mind-chain"
+    "arunjot12/mind-chain",
+    "arunjot12/mc-reth"
    ],
    "keys": [
     "gh:arunjot12"
    ],
    "firstSeen": "2026-11-10",
-   "lastActivity": "2026-11-10",
+   "lastActivity": "2026-11-12",
    "stage": "lead",
    "stageHistory": [
     {
@@ -844,6 +845,15 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · github-config",
      "url": "https://github.com/arunjot12/mind-chain",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/arunjot12/mc-reth",
      "strength": "technical"
     }
    ],
@@ -5049,24 +5059,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x67e44b69…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x67e44b69d10737df41f5a98078072b817016b871",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x6ce44358…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x6ce4435883f9549ec3d80076b6cd9d793cfc93aa",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x8106ab01…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x8106ab0167029d2d8fa409ce6552a76d8ce2210f",
      "strength": "running"
@@ -5292,8 +5284,26 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x5a02d7ff…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x5a02d7ffebc9cc2c0ed454311783d3735c14abf6",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x878a1e54…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x878a1e5432e7a58a87929429ab841e6a9d4075f4",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa4cc9fc6…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xa4cc9fc63c565bd900c380ad16bd3201e475390d",
      "strength": "running"
     },
     {
@@ -8050,8 +8060,26 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x5a02d7ff…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x5a02d7ffebc9cc2c0ed454311783d3735c14abf6",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x878a1e54…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x878a1e5432e7a58a87929429ab841e6a9d4075f4",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xa4cc9fc6…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xa4cc9fc63c565bd900c380ad16bd3201e475390d",
      "strength": "running"
     },
     {
@@ -8118,6 +8146,14 @@
      },
      {
       "addr": "0x45609ba325cc37d8a1eda6f4652bfeedc9a8bdad",
+      "date": "2026-11-12"
+     },
+     {
+      "addr": "0x5a02d7ffebc9cc2c0ed454311783d3735c14abf6",
+      "date": "2026-11-12"
+     },
+     {
+      "addr": "0xa4cc9fc63c565bd900c380ad16bd3201e475390d",
       "date": "2026-11-12"
      }
     ]
@@ -21376,6 +21412,6 @@
  },
  "outbox": [],
  "digest": {
-  "lastSent": "2026-11-11"
+  "lastSent": "2026-11-12"
  }
 }
