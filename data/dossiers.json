@@ -9328,12 +9328,16 @@
     "n:luxanetwork"
    ],
    "firstSeen": "2026-10-18",
-   "lastActivity": "2026-10-18",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-13",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-10-18"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-13"
     }
    ],
    "evidence": [
@@ -9345,6 +9349,15 @@
      "what": "keplr-pr: chain-ID-aanvraag · ID luxa-1",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1578",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "keplr-pr: RPC antwoordt · ID luxa-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1578",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -9356,13 +9369,14 @@
    "rpc": [
     "https://api.luxaecosystem.xyz"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (keplr-pr: RPC antwoordt · ID luxa-1)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://api.luxaecosystem.xyz"
   },
   "maroo": {
    "id": "maroo",
