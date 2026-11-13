@@ -6165,6 +6165,18 @@
    "dossier": null
   },
   {
+   "key": "pr:bitcoin/bips#2354",
+   "title": "BIP-327: Fix reduction sketch for infinity in nonce aggregation",
+   "url": "https://github.com/bitcoin/bips/pull/2354",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
+  },
+  {
    "key": "pr:ethereum/eips#12663",
    "title": "Add EIP: FOCIL Omission Witnesses for Frame Txs",
    "url": "https://github.com/ethereum/EIPs/pull/12663",
@@ -6178,6 +6190,18 @@
    "dossier": "frame"
   },
   {
+   "key": "pr:ethereum/eips#12664",
+   "title": "Add EIP: Batch Pricing for Generic Proofs",
+   "url": "https://github.com/ethereum/EIPs/pull/12664",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
+  },
+  {
    "key": "pr:ethereum/ercs#2171",
    "title": "Add ERC: Namespaced State Transitions for SBTs",
    "url": "https://github.com/ethereum/ERCs/pull/2171",
@@ -6189,6 +6213,18 @@
    "src": "proposals",
    "date": "2026-11-13",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2172",
+   "title": "Add ERC: Hash-Based Key Derivation from BIP-39",
+   "url": "https://github.com/ethereum/ERCs/pull/2172",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
   },
   {
    "key": "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
@@ -6799,6 +6835,7 @@
    "pr:bitcoin/bips#2351",
    "pr:bitcoin/bips#2352",
    "pr:bitcoin/bips#2353",
+   "pr:bitcoin/bips#2354",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -6879,6 +6916,7 @@
    "pr:ethereum/eips#12660",
    "pr:ethereum/eips#12661",
    "pr:ethereum/eips#12663",
+   "pr:ethereum/eips#12664",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -6943,6 +6981,7 @@
    "pr:ethereum/ercs#2168",
    "pr:ethereum/ercs#2169",
    "pr:ethereum/ercs#2171",
+   "pr:ethereum/ercs#2172",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
