@@ -861,6 +861,7 @@
   "ghrepo:identity-md-launches/launch-3084-build-squeek-league-polished",
   "ghrepo:identity-md-launches/launch-3162-launch-counter-contract",
   "ghrepo:identity-md-launches/launch-3253-launch-gods-imd-contracts",
+  "ghrepo:identity-md-launches/launch-3258-security-audit-idm-records",
   "ghrepo:identra-labs/identra",
   "ghrepo:ifiokudoma/dovel",
   "ghrepo:iflytek-leaking/rvs-rollupvastsurges-hwss",
@@ -1092,6 +1093,7 @@
   "ghrepo:lopeselio/emberfall",
   "ghrepo:lopeselio/fogwater",
   "ghrepo:lopeselio/inside-job",
+  "ghrepo:lopeselio/signalfire",
   "ghrepo:lopeselio/sushi-sabotage",
   "ghrepo:lopezpalacios/guild-protocol-lab",
   "ghrepo:lostinbtc/safecore",
@@ -1839,6 +1841,7 @@
   "ghrepo:timechain-hq/roadmap",
   "ghrepo:timi16/orgpay",
   "ghrepo:timi16/randi",
+  "ghrepo:timidan/allot",
   "ghrepo:timidan/stock-fair",
   "ghrepo:timix648/gavel",
   "ghrepo:timmitchel1919-sys/kasgeld",
@@ -2100,5 +2103,6 @@
   "ghrepo:zuemen/writ",
   "ghrepo:zxrr85567-tech/znetwork",
   "ghrepo:zxw19/wio-tracker-l2-meshtastic-stt",
-  "ghrepo:zxw19/wiocraft-l2"
+  "ghrepo:zxw19/wiocraft-l2",
+  "ghrepo:zzzyyyddd/agentledger-os"
 ]
