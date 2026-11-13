@@ -6186,6 +6186,46 @@
     "github"
    ]
   },
+  "eserchaintestnet": {
+   "id": "eserchaintestnet",
+   "name": "eserchain/testnet",
+   "aliases": [
+    "eserchain/testnet"
+   ],
+   "keys": [
+    "d:eserchain.org",
+    "gh:eserchain"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/eserchain/testnet",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://eserchain.org",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "experimental": {
    "id": "experimental",
    "name": "Experimental",
