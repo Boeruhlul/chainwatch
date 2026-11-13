@@ -6165,6 +6165,34 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.polygon.technology:22576",
+   "title": "Shortlisting Logistics Software Development Services Providers: Seven Firms Judged on Carrier APIs, Tracking and Warehouse Links",
+   "url": "https://forum.polygon.technology/t/shortlisting-logistics-software-development-services-providers-seven-firms-judged-on-carrier-apis-tracking-and-warehouse-links/22576",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
+   "key": "forum:forum.zknation.io:1369",
+   "title": "Connecting the Dots: The Path Forward for the $ZK Ecosystem",
+   "url": "https://forum.zknation.io/t/connecting-the-dots-the-path-forward-for-the-zk-ecosystem/1369",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 24
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
    "key": "pr:bitcoin/bips#2354",
    "title": "BIP-327: Fix reduction sketch for infinity in nonce aggregation",
    "url": "https://github.com/bitcoin/bips/pull/2354",
@@ -6751,6 +6779,7 @@
    "forum:forum.polygon.technology:22542",
    "forum:forum.polygon.technology:22543",
    "forum:forum.polygon.technology:22550",
+   "forum:forum.polygon.technology:22576",
    "forum:forum.solana.com:5268",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
@@ -6772,6 +6801,7 @@
    "forum:forum.zknation.io:1351",
    "forum:forum.zknation.io:1353",
    "forum:forum.zknation.io:1354",
+   "forum:forum.zknation.io:1369",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
