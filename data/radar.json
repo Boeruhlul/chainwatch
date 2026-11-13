@@ -6291,6 +6291,18 @@
    "date": "2026-11-13"
   },
   {
+   "key": "pr:bitcoin/bips#2355",
+   "title": "BIP Draft: Transport Feature Negotiation",
+   "url": "https://github.com/bitcoin/bips/pull/2355",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
+  },
+  {
    "key": "pr:ethereum/eips#12663",
    "title": "Add EIP: FOCIL Omission Witnesses for Frame Txs",
    "url": "https://github.com/ethereum/EIPs/pull/12663",
@@ -6344,6 +6356,18 @@
    "key": "pr:ethereum/ercs#2172",
    "title": "Add ERC: Hash-Based Key Derivation from BIP-39",
    "url": "https://github.com/ethereum/ERCs/pull/2172",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
+  },
+  {
+   "key": "pr:ethereum/ercs#2173",
+   "title": "Update ERC-8426: an account that lost entitlement leaves the issued set",
+   "url": "https://github.com/ethereum/ERCs/pull/2173",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-13"
@@ -6971,6 +6995,7 @@
    "pr:bitcoin/bips#2352",
    "pr:bitcoin/bips#2353",
    "pr:bitcoin/bips#2354",
+   "pr:bitcoin/bips#2355",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -7118,6 +7143,7 @@
    "pr:ethereum/ercs#2169",
    "pr:ethereum/ercs#2171",
    "pr:ethereum/ercs#2172",
+   "pr:ethereum/ercs#2173",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
