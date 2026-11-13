@@ -6107,6 +6107,34 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3070",
+   "title": "A STARK proof of Bitcoin's UTXO set at block 972,500, with circuits proven in Lean",
+   "url": "https://delvingbitcoin.org/t/a-stark-proof-of-bitcoins-utxo-set-at-block-972-500-with-circuits-proven-in-lean/3070",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30375",
+   "title": "Hash-Based Key Derivation from BIP-39",
+   "url": "https://ethereum-magicians.org/t/hash-based-key-derivation-from-bip-39/30375",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
    "key": "forum:ethresear.ch:26246",
    "title": "[RFC] WARCoin: Deterministic 1:1 USD Stablecoin via Serialized 7-Day Color Ring Buffers and Burn-on-Egress Invariants",
    "url": "https://ethresear.ch/t/rfc-warcoin-deterministic-1-1-usd-stablecoin-via-serialized-7-day-color-ring-buffers-and-burn-on-egress-invariants/26246",
@@ -6523,6 +6551,7 @@
    "forum:delvingbitcoin.org:3057",
    "forum:delvingbitcoin.org:3060",
    "forum:delvingbitcoin.org:3067",
+   "forum:delvingbitcoin.org:3070",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -6597,6 +6626,7 @@
    "forum:ethereum-magicians.org:30361",
    "forum:ethereum-magicians.org:30364",
    "forum:ethereum-magicians.org:30367",
+   "forum:ethereum-magicians.org:30375",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
