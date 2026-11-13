@@ -6031,6 +6031,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:latheon:0x0000000000000000000000000000000000000068",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ArbFunctionTable op Latheon",
+   "url": "https://explorer.testnet.latheon.xyz/address/0x0000000000000000000000000000000000000068",
+   "meta": {
+    "chain": "Latheon",
+    "addr": "0x0000000000000000000000000000000000000068"
+   },
+   "date": "2026-11-13"
+  },
+  {
    "key": "chaincontract:qms:0xe22c54dfed544a0c5731ed67b8f80dac5e989e90",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6324,6 +6336,7 @@
    "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
    "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100",
    "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
+   "chaincontract:latheon:0x0000000000000000000000000000000000000068",
    "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
    "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
    "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
