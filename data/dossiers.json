@@ -122,6 +122,43 @@
     "register"
    ]
   },
+  "acurast": {
+   "id": "acurast",
+   "name": "Acurast",
+   "aliases": [
+    "Acurast"
+   ],
+   "keys": [
+    "n:acurast"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/dishich/acurast-collator-monitor",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "aequitaschain": {
    "id": "aequitaschain",
    "name": "Aequitas Chain",
@@ -3175,6 +3212,44 @@
     "register"
    ],
    "liveRpc": "https://rpc.cookscan.net/evm"
+  },
+  "cordtuslocalcosmos": {
+   "id": "cordtuslocalcosmos",
+   "name": "Cordtus/localcosmos",
+   "aliases": [
+    "Cordtus/localcosmos"
+   ],
+   "keys": [
+    "gh:cordtus"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Cordtus/localcosmos",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
   },
   "cortensor": {
    "id": "cortensor",
