@@ -8381,6 +8381,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Slipstream-fork) 0x27012480…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x27012480b45409954cfa51dd90801ea7a0ee5b18",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xb2f8ad73…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xb2f8ad730e9d05d333c7861184aad0bff1785dd0",
      "strength": "running"
@@ -8445,6 +8454,11 @@
      {
       "addr": "0xb2f8ad730e9d05d333c7861184aad0bff1785dd0",
       "type": "Uniswap v2-fork",
+      "date": "2026-11-13"
+     },
+     {
+      "addr": "0x27012480b45409954cfa51dd90801ea7a0ee5b18",
+      "type": "Slipstream-fork",
       "date": "2026-11-13"
      }
     ],
