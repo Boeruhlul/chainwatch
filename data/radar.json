@@ -6046,11 +6046,37 @@
    "date": "2026-11-13"
   },
   {
+   "key": "forum:forum.celestia.org:2342",
+   "title": "Foundation Validators Lead the Set",
+   "url": "https://forum.celestia.org/t/foundation-validators-lead-the-set/2342",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
    "key": "pr:ethereum/eips#12663",
    "title": "Add EIP: FOCIL Omission Witnesses for Frame Txs",
    "url": "https://github.com/ethereum/EIPs/pull/12663",
    "meta": {
     "repo": "ethereum/EIPs",
+    "created": "2026-11-13"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-13"
+  },
+  {
+   "key": "pr:ethereum/ercs#2171",
+   "title": "Add ERC: Namespaced State Transitions for SBTs",
+   "url": "https://github.com/ethereum/ERCs/pull/2171",
+   "meta": {
+    "repo": "ethereum/ERCs",
     "created": "2026-11-13"
    },
    "cat": "techniek",
@@ -6520,6 +6546,7 @@
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
+   "forum:forum.celestia.org:2342",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
@@ -6788,6 +6815,7 @@
    "pr:ethereum/ercs#2167",
    "pr:ethereum/ercs#2168",
    "pr:ethereum/ercs#2169",
+   "pr:ethereum/ercs#2171",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
