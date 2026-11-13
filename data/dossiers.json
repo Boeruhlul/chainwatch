@@ -16383,6 +16383,16 @@
    "evidence": [
     {
      "date": "2026-11-13",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 420018",
+     "url": "https://chainlist.org/chain/420018",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-13",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
