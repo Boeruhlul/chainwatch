@@ -20341,18 +20341,24 @@
    "id": "whitechain",
    "name": "whitechain",
    "aliases": [
-    "whitechain"
+    "whitechain",
+    "Whitechain"
    ],
    "keys": [
+    "id:1875",
     "n:whitechain"
    ],
    "firstSeen": "2026-11-03",
-   "lastActivity": "2026-11-03",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-13",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-03"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-13"
     }
    ],
    "evidence": [
@@ -20364,16 +20370,31 @@
      "what": "l2beat: nieuw in tracking",
      "url": "https://l2beat.com/scaling/projects/whitechain",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "coingecko",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "coingecko: mainnet · ID 1875",
+     "url": "https://www.coingecko.com/en/chains/whitechain",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "architecture": "L2 / rollup",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "één technisch signaal (register)"
+    "2 onafhankelijke bronfamilies: register, markt"
    ],
    "families": [
-    "register"
-   ]
+    "register",
+    "markt"
+   ],
+   "chainIds": [
+    "1875"
+   ],
+   "mainnetSince": "2026-11-13"
   },
   "wirefluid": {
    "id": "wirefluid",
