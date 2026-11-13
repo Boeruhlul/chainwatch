@@ -6449,6 +6449,20 @@
    "date": "2026-11-13"
   },
   {
+   "key": "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
+   "title": "SequencerInbox geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x346aA678208F56e4C126462a0B722653b1Ae44a4",
+   "meta": {
+    "name": "SequencerInbox",
+    "chain": "eth",
+    "addr": "0x346aA678208F56e4C126462a0B722653b1Ae44a4",
+    "verified": "2026-11-13"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-13"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
    "title": "L2OutputOracle geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xa406ae3ad950ba064e7545954e7F632722Cd10B3",
@@ -7235,6 +7249,7 @@
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
+   "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377"
