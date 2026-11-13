@@ -16258,8 +16258,8 @@
     "n:qvtxbyteidanchor"
    ],
    "firstSeen": "2026-10-31",
-   "lastActivity": "2026-10-31",
-   "stage": "draait",
+   "lastActivity": "2026-11-13",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -16268,6 +16268,10 @@
     {
      "stage": "draait",
      "date": "2026-10-31"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-13"
     }
    ],
    "evidence": [
@@ -16324,6 +16328,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 8825",
      "url": "https://github.com/ethereum-lists/chains/pull/9001",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 20232",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-20232.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -16346,7 +16359,64 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://rpc.qvtxaeon.io/_rpc/8825"
+   "liveRpc": "https://rpc.qvtxaeon.io/_rpc/8825",
+   "mainnetSince": "2026-11-13"
+  },
+  "qvtxbyteidanchor": {
+   "id": "qvtxbyteidanchor",
+   "name": "QVTX ByteID Anchor",
+   "aliases": [
+    "QVTX ByteID Anchor"
+   ],
+   "keys": [
+    "d:quantvestrix.com"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 420018",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-420018.json",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "QVTX",
+    "official": [
+     "quantvestrix.io",
+     "qvtxaeon.io"
+    ],
+    "own": [
+     "quantvestrix.com"
+    ]
+   },
+   "chainIds": [
+    "420018"
+   ],
+   "website": "https://quantvestrix.com",
+   "architecture": "EVM",
+   "mainnetSince": "2026-11-13",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van QVTX: domein wijkt af van het officiële",
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "qvtxq4": {
    "id": "qvtxq4",
