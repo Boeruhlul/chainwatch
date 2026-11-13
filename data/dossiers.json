@@ -5184,15 +5184,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x260670ee…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x260670eeb6b6cbcb4996bb88d5aff8b9668c330b",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x34fe883c…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x34fe883c9aa71b1777e5012fe5be3c9ed2ce30dc",
      "strength": "running"
@@ -5429,6 +5420,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xf19e0b76…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xf19e0b7649a3264cb1a547bf5b0298ffb96d4342",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xb2f8ad73…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xb2f8ad730e9d05d333c7861184aad0bff1785dd0",
      "strength": "running"
     },
     {
@@ -18458,6 +18458,44 @@
    ],
    "families": [
     "onderzoek"
+   ]
+  },
+  "stakewise": {
+   "id": "stakewise",
+   "name": "stakewise",
+   "aliases": [
+    "stakewise"
+   ],
+   "keys": [
+    "n:stakewise"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/stakewise",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
    ]
   },
   "stapleport": {
