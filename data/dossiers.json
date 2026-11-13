@@ -16331,6 +16331,15 @@
     },
     {
      "date": "2026-11-13",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 20232",
+     "url": "https://chainlist.org/chain/20232",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-13",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
