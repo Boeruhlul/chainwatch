@@ -6092,6 +6092,20 @@
    "dossier": null
   },
   {
+   "key": "forum:community.starknet.io:116473",
+   "title": "Cairo consts that didn't match runtime: what to check in classes built before 2.21",
+   "url": "https://community.starknet.io/t/cairo-consts-that-didnt-match-runtime-what-to-check-in-classes-built-before-2-21/116473",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-13",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-13"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3067",
    "title": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
    "url": "https://delvingbitcoin.org/t/bip-draft-post-quantum-address-format-bc1z-using-ml-dsa-65/3067",
@@ -6606,6 +6620,7 @@
    "forum:community.starknet.io:116465",
    "forum:community.starknet.io:116470",
    "forum:community.starknet.io:116471",
+   "forum:community.starknet.io:116473",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
