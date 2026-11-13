@@ -8122,7 +8122,7 @@
     "d:kinetiq.xyz"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-12",
+   "lastActivity": "2026-11-13",
    "stage": "draait",
    "stageHistory": [
     {
@@ -8259,6 +8259,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xf19e0b76…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xf19e0b7649a3264cb1a547bf5b0298ffb96d4342",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-13",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xade26a6c…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xade26a6ce1fd7afc8e4424c4301dc428f22dca43",
      "strength": "running"
     }
    ],
