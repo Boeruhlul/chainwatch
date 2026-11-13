@@ -14383,6 +14383,43 @@
     "markt"
    ]
   },
+  "pesosolana": {
+   "id": "pesosolana",
+   "name": "Peso Solana",
+   "aliases": [
+    "Peso Solana"
+   ],
+   "keys": [
+    "n:pesosolana"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/diegolobowolfalvarez/nypeso-devnet-assets",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "phalanetwork": {
    "id": "phalanetwork",
    "name": "Phala Network",
