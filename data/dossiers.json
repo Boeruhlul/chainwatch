@@ -8699,6 +8699,55 @@
     "github"
    ]
   },
+  "latheon": {
+   "id": "latheon",
+   "name": "Latheon",
+   "aliases": [
+    "Latheon"
+   ],
+   "keys": [
+    "d:latheon.xyz",
+    "id:60531373273",
+    "n:latheon"
+   ],
+   "firstSeen": "2026-11-13",
+   "lastActivity": "2026-11-13",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-13"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-13",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 60531373273",
+     "url": "https://github.com/ethereum-lists/chains/pull/9076",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "60531373273"
+   ],
+   "website": "https://latheon.xyz",
+   "architecture": "EVM",
+   "github": "https://github.com/latheon-network",
+   "rpc": [
+    "https://rpc.testnet.latheon.xyz"
+   ],
+   "explorer": "https://explorer.testnet.latheon.xyz",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "lattice": {
    "id": "lattice",
    "name": "Lattice",
