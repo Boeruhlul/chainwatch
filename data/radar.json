@@ -5782,6 +5782,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0xeef9d41be43b401f9b3b41337679e61d542ab150",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AriwaLaunchpadNFT op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xeef9d41be43b401f9b3b41337679e61d542ab150",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xeef9d41be43b401f9b3b41337679e61d542ab150"
+   },
+   "date": "2026-11-14"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xf9be7cf7a6ca186a4bf22c5ce1de91c8b859ccf5",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6034,6 +6046,7 @@
    "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
    "chaincontract:giwasepolia:0xee44281124c36a2ac5e3d70c6afdef5ce1006622",
    "chaincontract:giwasepolia:0xee9d6c02edea89012ad855ffdf02b7ad2cc673be",
+   "chaincontract:giwasepolia:0xeef9d41be43b401f9b3b41337679e61d542ab150",
    "chaincontract:giwasepolia:0xf1493ec22d047eb1404fa2acdbc9a0d43bde5a20",
    "chaincontract:giwasepolia:0xf3258f8d3594a844d4c116e2dfab03cd7241dfe7",
    "chaincontract:giwasepolia:0xf46502d7e16b8f10e86d2d0c82380bb28a10e06a",
