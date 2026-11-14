@@ -554,6 +554,7 @@
   "ghrepo:diegolobowolfalvarez/nypeso-devnet-assets",
   "ghrepo:digijeth/allcoin",
   "ghrepo:digital21c/rollup",
+  "ghrepo:diksha65/s9_supportagent",
   "ghrepo:dilaneetienne3/pod_projet",
   "ghrepo:dilshadb123/neon-arcade",
   "ghrepo:dimassawaludin/technocore-did-gameplay-log",
@@ -1060,6 +1061,7 @@
   "ghrepo:klaurson/cardano-node",
   "ghrepo:kostiuchenkoav/healthscout",
   "ghrepo:kostiuchenkoav/support-automation-toolkit",
+  "ghrepo:koutaro-hanabusa/rolldown-vs-rollup-bench",
   "ghrepo:kovanicadag/kovanica-sdk",
   "ghrepo:kozakmazalich/proofofvibe",
   "ghrepo:kreipri/demopay-agent",
@@ -1212,6 +1214,7 @@
   "ghrepo:mbanyadev/nimcfa",
   "ghrepo:mbenezoonyabamarienoel/pod_projet",
   "ghrepo:mchen6/ch-report",
+  "ghrepo:mcp-tool-shop-org/merchant-league",
   "ghrepo:mdavawala/murtaza-davawala---aica-l2-b100-clientdeskai",
   "ghrepo:mdlog/yieldforge",
   "ghrepo:mdrifatrayhan/enterprise-multi-tier-network-infrastructure",
@@ -2140,6 +2143,7 @@
   "ghrepo:zencloser/binance-futures-api-client",
   "ghrepo:zengllq/aethel-rollup",
   "ghrepo:zengllq/bifrost-escrow",
+  "ghrepo:zengllq/hermes-lend",
   "ghrepo:zengllq/kharon-relay",
   "ghrepo:zengllq/obelisk-yield",
   "ghrepo:zengllq/sigil-bounty",
@@ -2171,5 +2175,6 @@
   "ghrepo:zxrr85567-tech/znetwork",
   "ghrepo:zxw19/wio-tracker-l2-meshtastic-stt",
   "ghrepo:zxw19/wiocraft-l2",
+  "ghrepo:zyqzyq18521/c2e--2026-layer2-",
   "ghrepo:zzzyyyddd/agentledger-os"
 ]
