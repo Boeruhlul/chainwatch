@@ -18274,6 +18274,45 @@
    ],
    "liveRpc": "https://rpc-mainnet.skygoldchainecosystem.com"
   },
+  "slavenftlemonbrothers": {
+   "id": "slavenftlemonbrothers",
+   "name": "SlaveNft/lemon-brothers",
+   "aliases": [
+    "SlaveNft/lemon-brothers"
+   ],
+   "keys": [
+    "gh:slavenft"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/SlaveNft/lemon-brothers",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://slavenft.github.io/lemon-brothers/",
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "sobya": {
    "id": "sobya",
    "name": "SOBYA",
