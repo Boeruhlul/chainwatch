@@ -13643,6 +13643,44 @@
     "register"
    ]
   },
+  "nuthatchorgaztecstakingnest": {
+   "id": "nuthatchorgaztecstakingnest",
+   "name": "nuthatch-org/aztec-staking-nest",
+   "aliases": [
+    "nuthatch-org/aztec-staking-nest"
+   ],
+   "keys": [
+    "gh:nuthatch-org"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/nuthatch-org/aztec-staking-nest",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "nvnmchain": {
    "id": "nvnmchain",
    "name": "NVNM Chain",
