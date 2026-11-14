@@ -8237,7 +8237,7 @@
     "d:kinetiq.xyz"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-13",
+   "lastActivity": "2026-11-14",
    "stage": "draait",
    "stageHistory": [
     {
@@ -8402,6 +8402,15 @@
      "what": "ecosystem: launchpad-kandidaat 0xade26a6c…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xade26a6ce1fd7afc8e4424c4301dc428f22dca43",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xd2509881…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xd2509881a0c0f1698421106a354b2d4737dd0dcc",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -8460,6 +8469,11 @@
       "addr": "0x27012480b45409954cfa51dd90801ea7a0ee5b18",
       "type": "Slipstream-fork",
       "date": "2026-11-13"
+     },
+     {
+      "addr": "0xd2509881a0c0f1698421106a354b2d4737dd0dcc",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-14"
      }
     ],
     "launchpad": [
