@@ -5964,6 +5964,30 @@
    "date": "2026-11-14"
   },
   {
+   "key": "chaincontract:qms:0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Factory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a"
+   },
+   "date": "2026-11-14"
+  },
+  {
+   "key": "chaincontract:qms:0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Router02 op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x7f627910ecd3e89aab79519c90cb6caa96e327c1"
+   },
+   "date": "2026-11-14"
+  },
+  {
    "key": "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6294,6 +6318,7 @@
    "chaincontract:prana:0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
    "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
    "chaincontract:qms:0x007a9a26b4d05353d66551dd4bb3f5ed44fc851f",
+   "chaincontract:qms:0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a",
    "chaincontract:qms:0x15774af5f344d5770e234a5d4e76a9f86d4ab59a",
    "chaincontract:qms:0x28ca750aa1bbbe841061f4f1e391e2d94b26ce88",
    "chaincontract:qms:0x2e92ef19943c1de797a673ee466adda1cf6b0eeb",
@@ -6308,6 +6333,7 @@
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
+   "chaincontract:qms:0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
