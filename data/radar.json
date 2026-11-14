@@ -5976,6 +5976,18 @@
    "date": "2026-11-14"
   },
   {
+   "key": "chaincontract:qms:0x331e64aaf8456322d2ef45bb861aa5b60095dd27",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QalibreAccountFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x331e64aaf8456322d2ef45bb861aa5b60095dd27",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x331e64aaf8456322d2ef45bb861aa5b60095dd27"
+   },
+   "date": "2026-11-14"
+  },
+  {
    "key": "chaincontract:qms:0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6390,6 +6402,7 @@
    "chaincontract:qms:0x2e92ef19943c1de797a673ee466adda1cf6b0eeb",
    "chaincontract:qms:0x302ef74bd7db780447f8557b07c16cc460e83cf5",
    "chaincontract:qms:0x3185aaaaae5b9f162a46dd430424011eea54cd2a",
+   "chaincontract:qms:0x331e64aaf8456322d2ef45bb861aa5b60095dd27",
    "chaincontract:qms:0x343d8ab2434e24be5fa10850590ca5fa417cf29e",
    "chaincontract:qms:0x36f6fbf1bb5d1c7e91b69cc34c394a2b239af898",
    "chaincontract:qms:0x3a153e8bcde02f4cf6c5eeecd9c83bc0296ffbd3",
