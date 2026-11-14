@@ -5739,6 +5739,18 @@
    "date": "2026-11-13"
   },
   {
+   "key": "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xa722df97d8e542ff57a6aefc0ee7f2394183f084"
+   },
+   "date": "2026-11-14"
+  },
+  {
    "key": "pr:ethereum/ercs#2174",
    "title": "Update ERC-8048: Replace the per-token authority with Collection Authority and Holder Metadata extensions",
    "url": "https://github.com/ethereum/ERCs/pull/2174",
@@ -6016,6 +6028,7 @@
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
+   "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
    "chaincontract:qms:0xc169996ad1d41f29e04654b255b190c8f1f0ded1",
    "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
