@@ -21558,12 +21558,13 @@
    ],
    "keys": [
     "d:sawasdeecoin.com",
+    "id:3659",
     "id:77390",
     "id:zetaphy_77390-1",
     "n:zetaphy"
    ],
    "firstSeen": "2026-10-22",
-   "lastActivity": "2026-10-29",
+   "lastActivity": "2026-11-14",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -21627,23 +21628,90 @@
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1582",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 3659",
+     "url": "https://github.com/ethereum-lists/chains/pull/9079",
+     "strength": "technical"
     }
    ],
    "chainIds": [
     "77390",
-    "zetaphy_77390-1"
+    "zetaphy_77390-1",
+    "3659"
    ],
    "website": "https://sawasdeecoin.com",
    "architecture": "EVM",
    "rpc": [
     "https://rpc.sawasdeecoin.com",
-    "https://rpc.sawasdeecoin.com/rest"
+    "https://rpc.sawasdeecoin.com/rest",
+    "https://129-221-199-191.sslip.io"
    ],
    "explorer": "https://explorer.sawasdeecoin.com",
    "liveRpc": "https://rpc.sawasdeecoin.com/rest",
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 77390)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "zetaphy-2": {
+   "id": "zetaphy-2",
+   "name": "ZETAPHY",
+   "aliases": [
+    "ZETAPHY"
+   ],
+   "keys": [
+    "d:sslip.io",
+    "id:zetaphy_3659-1"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID zetaphy_3659-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1600",
+     "strength": "technical"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "ZETAPHY",
+    "official": [
+     "sawasdeecoin.com"
+    ],
+    "own": [
+     "sslip.io"
+    ]
+   },
+   "chainIds": [
+    "zetaphy_3659-1"
+   ],
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://129-221-199-191.sslip.io/rest"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van ZETAPHY: domein wijkt af van het officiële",
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
