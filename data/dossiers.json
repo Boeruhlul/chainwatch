@@ -19954,6 +19954,44 @@
     "register"
    ]
   },
+  "traderswiftiosigner": {
+   "id": "traderswiftiosigner",
+   "name": "traderswift-io/signer",
+   "aliases": [
+    "traderswift-io/signer"
+   ],
+   "keys": [
+    "gh:traderswift-io"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/traderswift-io/signer",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "trappy": {
    "id": "trappy",
    "name": "Trappy",
