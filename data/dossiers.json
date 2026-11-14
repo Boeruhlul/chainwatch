@@ -16553,7 +16553,7 @@
     "n:qvtxbyteidanchor"
    ],
    "firstSeen": "2026-10-31",
-   "lastActivity": "2026-11-13",
+   "lastActivity": "2026-11-14",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -16640,6 +16640,15 @@
      "kind": "mainnet",
      "what": "ethlists-commit: mainnet · ID 20232",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-20232.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 8825",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-8825.json",
      "strength": "running"
     }
    ],
