@@ -5833,6 +5833,34 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30388",
+   "title": "All Core Devs - Consensus (ACDC) #192, November 26, 2026",
+   "url": "https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-192-november-26-2026/30388",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17586",
+   "title": "The reaction On the instruction side",
+   "url": "https://forum.cosmos.network/t/the-reaction-on-the-instruction-side/17586",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
    "key": "pr:bitcoin/bips#2356",
    "title": "BIP95: Add testnet5 genesis parameters",
    "url": "https://github.com/bitcoin/bips/pull/2356",
@@ -6298,6 +6326,7 @@
    "forum:ethereum-magicians.org:30364",
    "forum:ethereum-magicians.org:30367",
    "forum:ethereum-magicians.org:30375",
+   "forum:ethereum-magicians.org:30388",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6369,6 +6398,7 @@
    "forum:forum.cosmos.network:17576",
    "forum:forum.cosmos.network:17577",
    "forum:forum.cosmos.network:17581",
+   "forum:forum.cosmos.network:17586",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
