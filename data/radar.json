@@ -5737,6 +5737,18 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-13"
+  },
+  {
+   "key": "pr:ethereum/ercs#2174",
+   "title": "Update ERC-8048: Replace the per-token authority with Collection Authority and Holder Metadata extensions",
+   "url": "https://github.com/ethereum/ERCs/pull/2174",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-14"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-14"
   }
  ],
  "seen": {
@@ -6499,6 +6511,7 @@
    "pr:ethereum/ercs#2171",
    "pr:ethereum/ercs#2172",
    "pr:ethereum/ercs#2173",
+   "pr:ethereum/ercs#2174",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
