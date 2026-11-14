@@ -8411,6 +8411,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xd2509881…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xd2509881a0c0f1698421106a354b2d4737dd0dcc",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xad2325a6…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xad2325a65e51a20f7b7561fd8c96fabc601b10fe",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -8473,6 +8482,11 @@
      {
       "addr": "0xd2509881a0c0f1698421106a354b2d4737dd0dcc",
       "type": "Uniswap v2-fork",
+      "date": "2026-11-14"
+     },
+     {
+      "addr": "0xad2325a65e51a20f7b7561fd8c96fabc601b10fe",
+      "type": "Uniswap v4",
       "date": "2026-11-14"
      }
     ],
