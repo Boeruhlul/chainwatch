@@ -18324,7 +18324,7 @@
     "n:sobya"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-11",
+   "lastActivity": "2026-11-14",
    "stage": "aangekondigd",
    "stageHistory": [
     {
@@ -18340,6 +18340,15 @@
      "kind": "proposal",
      "what": "keplr-pr: chain-ID-aanvraag · ID sobya-1",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1598",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID sobya-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1602",
      "strength": "technical"
     }
    ],
