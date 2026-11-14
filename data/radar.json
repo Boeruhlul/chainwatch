@@ -6015,6 +6015,20 @@
    "date": "2026-11-14"
   },
   {
+   "key": "forum:ethereum-magicians.org:30390",
+   "title": "Coinbase global lnc.,",
+   "url": "https://ethereum-magicians.org/t/coinbase-global-lnc/30390",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
    "key": "forum:forum.cosmos.network:17586",
    "title": "The reaction On the instruction side",
    "url": "https://forum.cosmos.network/t/the-reaction-on-the-instruction-side/17586",
@@ -6509,6 +6523,7 @@
    "forum:ethereum-magicians.org:30367",
    "forum:ethereum-magicians.org:30375",
    "forum:ethereum-magicians.org:30388",
+   "forum:ethereum-magicians.org:30390",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
