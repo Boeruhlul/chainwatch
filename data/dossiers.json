@@ -7037,15 +7037,6 @@
     },
     {
      "date": "2026-11-09",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xa49ea1bd…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xa49ea1bdf93c456fc0c1b0831a0c90e780dcb5d1",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-09",
      "source": "research",
      "family": "onderzoek",
      "kind": "research",
@@ -7284,6 +7275,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xeddf9035…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xeddf90357d36e85260b0a7428489b7bb5504f7d9",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v3-fork) 0x7edef1b2…",
      "url": "https://sepolia-explorer.giwa.io/address/0x7edef1b20aacaef56f05b43c215313af61544a4b",
      "strength": "running"
@@ -7314,8 +7314,8 @@
    ],
    "families": [
     "register",
-    "onchain",
-    "onderzoek"
+    "onderzoek",
+    "onchain"
    ],
    "website": "https://giwa.io",
    "research": {
