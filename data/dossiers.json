@@ -16644,6 +16644,15 @@
     },
     {
      "date": "2026-11-14",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 8825",
+     "url": "https://chainlist.org/chain/8825",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
