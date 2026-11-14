@@ -16149,7 +16149,7 @@
     "n:qms"
    ],
    "firstSeen": "2026-10-11",
-   "lastActivity": "2026-11-06",
+   "lastActivity": "2026-11-14",
    "stage": "draait",
    "stageHistory": [
     {
@@ -16251,6 +16251,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xf52f910d…",
      "url": "https://testnet.qmsscan.io/address/0xf52f910d96bd215279cf191f891f53e63f9f450f",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x0ebd9c95…",
+     "url": "https://testnet.qmsscan.io/address/0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -16314,6 +16323,11 @@
       "addr": "0xf52f910d96bd215279cf191f891f53e63f9f450f",
       "type": "Uniswap v2-fork",
       "date": "2026-11-06"
+     },
+     {
+      "addr": "0x0ebd9c9523fbd5f4dacc7c46ec56e7e4a215792a",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-14"
      }
     ],
     "launchpad": []
