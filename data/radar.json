@@ -6013,6 +6013,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3072",
+   "title": "Disclosure: DoS vulnerability fixed in Core Lightning v26.06.8",
+   "url": "https://delvingbitcoin.org/t/disclosure-dos-vulnerability-fixed-in-core-lightning-v26-06-8/3072",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30388",
    "title": "All Core Devs - Consensus (ACDC) #192, November 26, 2026",
    "url": "https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-192-november-26-2026/30388",
@@ -6512,6 +6526,7 @@
    "forum:delvingbitcoin.org:3060",
    "forum:delvingbitcoin.org:3067",
    "forum:delvingbitcoin.org:3070",
+   "forum:delvingbitcoin.org:3072",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
