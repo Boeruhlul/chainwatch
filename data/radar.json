@@ -6029,6 +6029,34 @@
    "date": "2026-11-14"
   },
   {
+   "key": "forum:ethereum-magicians.org:30396",
+   "title": "Draft ERC: Generative Engine Optimization Framework (GEOF) — attributable declarations, observation commitments and profiles for how generative engines represent objects",
+   "url": "https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-14",
+    "posts": 2,
+    "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30397",
+   "title": "Update: Patching the Stateful Tier-1 Error-Caching Vulnerability via Half-Radius xi_i-Entropy & New Ethereum 2.0 Use Cases",
+   "url": "https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-xi-i-entropy-new-ethereum-2-0-use-cases/30397",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-14"
+  },
+  {
    "key": "forum:forum.cosmos.network:17586",
    "title": "The reaction On the instruction side",
    "url": "https://forum.cosmos.network/t/the-reaction-on-the-instruction-side/17586",
@@ -6066,6 +6094,30 @@
    "src": "proposals",
    "date": "2026-11-14",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2176",
+   "title": "Add ERC: Generative Engine Optimization Framework",
+   "url": "https://github.com/ethereum/ERCs/pull/2176",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-14"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-14"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#732",
+   "title": "Entry timestamp",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/732",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-11-14"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-14"
   }
  ],
  "seen": {
@@ -6524,6 +6576,8 @@
    "forum:ethereum-magicians.org:30375",
    "forum:ethereum-magicians.org:30388",
    "forum:ethereum-magicians.org:30390",
+   "forum:ethereum-magicians.org:30396",
+   "forum:ethereum-magicians.org:30397",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6852,6 +6906,7 @@
    "pr:ethereum/ercs#2172",
    "pr:ethereum/ercs#2173",
    "pr:ethereum/ercs#2174",
+   "pr:ethereum/ercs#2176",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
@@ -6861,7 +6916,8 @@
    "pr:solana-foundation/solana-improvement-documents#715",
    "pr:solana-foundation/solana-improvement-documents#723",
    "pr:solana-foundation/solana-improvement-documents#725",
-   "pr:solana-foundation/solana-improvement-documents#727"
+   "pr:solana-foundation/solana-improvement-documents#727",
+   "pr:solana-foundation/solana-improvement-documents#732"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",

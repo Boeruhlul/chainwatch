@@ -2234,13 +2234,16 @@
    "id": "blakiston",
    "name": "blakiston",
    "aliases": [
-    "blakiston"
+    "blakiston",
+    "Blakiston"
    ],
    "keys": [
+    "d:blakiston.org",
+    "id:blakiston",
     "n:blakiston"
    ],
    "firstSeen": "2026-11-12",
-   "lastActivity": "2026-11-12",
+   "lastActivity": "2026-11-14",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -2258,6 +2261,15 @@
      "url": "https://github.com/cosmos/chain-registry/tree/master/blakiston",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID blakiston",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1603",
+     "strength": "technical"
     }
    ],
    "architecture": "Cosmos",
@@ -2268,6 +2280,13 @@
    ],
    "families": [
     "register"
+   ],
+   "chainIds": [
+    "blakiston"
+   ],
+   "website": "https://blakiston.org",
+   "rpc": [
+    "https://api.blakiston.org"
    ]
   },
   "blockdag": {
