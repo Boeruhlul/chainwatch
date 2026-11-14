@@ -21565,11 +21565,15 @@
    ],
    "firstSeen": "2026-10-22",
    "lastActivity": "2026-11-14",
-   "stage": "testnet",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-10-24"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-14"
     }
    ],
    "evidence": [
@@ -21637,6 +21641,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 3659",
      "url": "https://github.com/ethereum-lists/chains/pull/9079",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 3659",
+     "url": "https://github.com/ethereum-lists/chains/pull/9079",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -21652,7 +21665,7 @@
     "https://129-221-199-191.sslip.io"
    ],
    "explorer": "https://explorer.sawasdeecoin.com",
-   "liveRpc": "https://rpc.sawasdeecoin.com/rest",
+   "liveRpc": "https://129-221-199-191.sslip.io",
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 77390)"
@@ -21712,6 +21725,59 @@
    "reasons": [
     "⚠️ mogelijke imitatie van ZETAPHY: domein wijkt af van het officiële",
     "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "zetaphy-3": {
+   "id": "zetaphy-3",
+   "name": "ZETAPHY",
+   "aliases": [
+    "ZETAPHY"
+   ],
+   "keys": [
+    "d:sslip.io"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "keplr-pr: RPC antwoordt · ID 3659",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1600",
+     "strength": "running"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "ZETAPHY",
+    "official": [
+     "sawasdeecoin.com"
+    ],
+    "own": [
+     "sslip.io"
+    ]
+   },
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://129-221-199-191.sslip.io/rest"
+   ],
+   "liveRpc": "https://129-221-199-191.sslip.io/rest",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van ZETAPHY: domein wijkt af van het officiële",
+    "draaiend netwerk aangetoond (keplr-pr: RPC antwoordt · ID 3659)"
    ],
    "families": [
     "register"
