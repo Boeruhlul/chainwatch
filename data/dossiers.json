@@ -7036,16 +7036,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-09",
-     "source": "research",
-     "family": "onderzoek",
-     "kind": "research",
-     "what": "research: onderzoek",
-     "url": "https://giwa.markets/",
-     "stage": "testnet",
-     "strength": "soft"
-    },
-    {
      "date": "2026-11-10",
      "source": "ecosystem",
      "family": "onchain",
@@ -7296,6 +7286,15 @@
      "what": "ecosystem: launchpad-kandidaat 0x61ce8427…",
      "url": "https://sepolia-explorer.giwa.io/address/0x61ce8427cfc9947dae0ebc84e367d6e666f90285",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x893b8d8d…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x893b8d8dc23e3bbeb7597e92cafac8de624b84f9",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -7314,7 +7313,6 @@
    ],
    "families": [
     "register",
-    "onderzoek",
     "onchain"
    ],
    "website": "https://giwa.io",
