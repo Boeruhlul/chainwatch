@@ -9268,6 +9268,43 @@
     "onderzoek"
    ]
   },
+  "live": {
+   "id": "live",
+   "name": "Live",
+   "aliases": [
+    "Live"
+   ],
+   "keys": [
+    "n:live"
+   ],
+   "firstSeen": "2026-11-14",
+   "lastActivity": "2026-11-14",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-14"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-14",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/titan-capital-forensics/oobe-solana-capital-agent",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "ltc": {
    "id": "ltc",
    "name": "LTC",
