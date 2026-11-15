@@ -6070,6 +6070,43 @@
    "dossier": "finalchain"
   },
   {
+   "key": "npm:fund-agent",
+   "title": "fund-agent",
+   "url": "https://www.npmjs.com/package/fund-agent",
+   "meta": {
+    "version": "0.0.16",
+    "about": "Initialize git config nostr.privkey with funds from a voucher",
+    "keyword": "testnet"
+   },
+   "cat": "sdk",
+   "src": "npm-sdk",
+   "date": "2026-11-15"
+  },
+  {
+   "key": "pr:bitcoin/bips#2357",
+   "title": "script: count UTF-8 characters when validating BIP titles",
+   "url": "https://github.com/bitcoin/bips/pull/2357",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-15"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-15"
+  },
+  {
+   "key": "pr:ethereum/eips#12667",
+   "title": "Update EIP-8288: Define committed verification keys",
+   "url": "https://github.com/ethereum/EIPs/pull/12667",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-15"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-15"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
    "title": "AnchorStateRegistry geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x0701c1F08380c22B53e0C56D71a0Fe520eA22959",
@@ -6714,7 +6751,8 @@
   ],
   "npm-sdk": [
    "npm:@gitlab/orbit",
-   "npm:@superstables/client"
+   "npm:@superstables/client",
+   "npm:fund-agent"
   ],
   "proposals": [
    "pr:bitcoin/bips#2336",
@@ -6738,6 +6776,7 @@
    "pr:bitcoin/bips#2354",
    "pr:bitcoin/bips#2355",
    "pr:bitcoin/bips#2356",
+   "pr:bitcoin/bips#2357",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -6821,6 +6860,7 @@
    "pr:ethereum/eips#12664",
    "pr:ethereum/eips#12665",
    "pr:ethereum/eips#12666",
+   "pr:ethereum/eips#12667",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
