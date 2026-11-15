@@ -14423,10 +14423,14 @@
    ],
    "firstSeen": "2026-11-15",
    "lastActivity": "2026-11-15",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-15"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-15"
     }
    ],
@@ -14439,6 +14443,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 3690369",
      "url": "https://github.com/ethereum-lists/chains/pull/9084",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 3690369",
+     "url": "https://github.com/ethereum-lists/chains/pull/9084",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -14450,13 +14463,14 @@
     "https://pagachain.com"
    ],
    "explorer": "https://explorer.pagachain.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 3690369)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://pagachain.com"
   },
   "paradoxrealesdaprotocol": {
    "id": "paradoxrealesdaprotocol",
