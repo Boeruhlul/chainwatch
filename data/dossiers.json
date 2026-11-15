@@ -8351,7 +8351,7 @@
     "d:kinetiq.xyz"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-14",
+   "lastActivity": "2026-11-15",
    "stage": "draait",
    "stageHistory": [
     {
@@ -8534,6 +8534,24 @@
      "what": "ecosystem: DEX (Uniswap v4) 0xad2325a6…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xad2325a65e51a20f7b7561fd8c96fabc601b10fe",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x9bbfd1d6…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x9bbfd1d64670dbfba66005501dad2db131520bfc",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x84be52a4…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
+     "strength": "running"
     }
    ],
    "suspect": {
@@ -8602,6 +8620,16 @@
       "addr": "0xad2325a65e51a20f7b7561fd8c96fabc601b10fe",
       "type": "Uniswap v4",
       "date": "2026-11-14"
+     },
+     {
+      "addr": "0x9bbfd1d64670dbfba66005501dad2db131520bfc",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-15"
+     },
+     {
+      "addr": "0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
+      "type": "Uniswap v4",
+      "date": "2026-11-15"
      }
     ],
     "launchpad": [
