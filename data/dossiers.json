@@ -15467,6 +15467,44 @@
    ],
    "liveRpc": "https://rpc.pisochain.com"
   },
+  "plebeianappauctionsmvp": {
+   "id": "plebeianappauctionsmvp",
+   "name": "PlebeianApp/auctions-mvp",
+   "aliases": [
+    "PlebeianApp/auctions-mvp"
+   ],
+   "keys": [
+    "gh:plebeianapp"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/PlebeianApp/auctions-mvp",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "plus": {
    "id": "plus",
    "name": "PLUS",
