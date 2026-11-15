@@ -5991,6 +5991,42 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qms:0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Factory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x97c305119f5d98afd11bcd19a1ba8c27d68f3546"
+   },
+   "date": "2026-11-15"
+  },
+  {
+   "key": "chaincontract:qms:0xb6530355d0f8c18d41b29443bc0deff3be7e65f2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CadinalRouter op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xb6530355d0f8c18d41b29443bc0deff3be7e65f2",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xb6530355d0f8c18d41b29443bc0deff3be7e65f2"
+   },
+   "date": "2026-11-15"
+  },
+  {
+   "key": "chaincontract:qms:0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CadinalFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff"
+   },
+   "date": "2026-11-15"
+  },
+  {
    "key": "chaincontract:qms:0xf4705dc3fb6f640d635971a2fde9d9efbbaf636e",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6340,9 +6376,11 @@
    "chaincontract:qms:0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
+   "chaincontract:qms:0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
    "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
+   "chaincontract:qms:0xb6530355d0f8c18d41b29443bc0deff3be7e65f2",
    "chaincontract:qms:0xc169996ad1d41f29e04654b255b190c8f1f0ded1",
    "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
    "chaincontract:qms:0xc92ae54a4bf3ebab9bcc88cdff3b6b4f77b50bc4",
@@ -6350,6 +6388,7 @@
    "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
    "chaincontract:qms:0xe22c54dfed544a0c5731ed67b8f80dac5e989e90",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
+   "chaincontract:qms:0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff",
    "chaincontract:qms:0xf441ac8112bfe5cdf03da829f571a1b6522628af",
    "chaincontract:qms:0xf4705dc3fb6f640d635971a2fde9d9efbbaf636e",
    "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
