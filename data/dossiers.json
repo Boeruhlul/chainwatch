@@ -114,6 +114,15 @@
     },
     {
      "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 6567731",
+     "url": "https://chainlist.org/chain/6567731",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
@@ -15210,6 +15219,15 @@
    "evidence": [
     {
      "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 5261646",
+     "url": "https://chainlist.org/chain/5261646",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-15",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -15241,7 +15259,7 @@
    "confidence": "C",
    "reasons": [
     "⚠️ mogelijke imitatie van Pinch: domein wijkt af van het officiële",
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 5261646)"
+    "draaiend netwerk aangetoond (chainlist: mainnet · ID 5261646)"
    ],
    "families": [
     "register"
@@ -20094,6 +20112,44 @@
     ]
    }
   },
+  "thanachaitpluksomainnetrpc": {
+   "id": "thanachaitpluksomainnetrpc",
+   "name": "thanachaiTP/lukso-mainnet-rpc",
+   "aliases": [
+    "thanachaiTP/lukso-mainnet-rpc"
+   ],
+   "keys": [
+    "gh:thanachaitp"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/thanachaiTP/lukso-mainnet-rpc",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "theclearinghousetokenizeddepositnetwork": {
    "id": "theclearinghousetokenizeddepositnetwork",
    "name": "The Clearing House tokenized deposit network",
@@ -21982,6 +22038,132 @@
     },
     {
      "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 33001",
+     "url": "https://chainlist.org/chain/33001",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 33002",
+     "url": "https://chainlist.org/chain/33002",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 33003",
+     "url": "https://chainlist.org/chain/33003",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 33004",
+     "url": "https://chainlist.org/chain/33004",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 43000",
+     "url": "https://chainlist.org/chain/43000",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 43001",
+     "url": "https://chainlist.org/chain/43001",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 43002",
+     "url": "https://chainlist.org/chain/43002",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 43003",
+     "url": "https://chainlist.org/chain/43003",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 43004",
+     "url": "https://chainlist.org/chain/43004",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 93000",
+     "url": "https://chainlist.org/chain/93000",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 93001",
+     "url": "https://chainlist.org/chain/93001",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 93002",
+     "url": "https://chainlist.org/chain/93002",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 93003",
+     "url": "https://chainlist.org/chain/93003",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 93004",
+     "url": "https://chainlist.org/chain/93004",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "devnet",
@@ -23043,6 +23225,6 @@
  },
  "outbox": [],
  "digest": {
-  "lastSent": "2026-11-14"
+  "lastSent": "2026-11-15"
  }
 }
