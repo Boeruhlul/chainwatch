@@ -90,12 +90,16 @@
     "n:acinetwork"
    ],
    "firstSeen": "2026-11-03",
-   "lastActivity": "2026-11-03",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-15",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-03"
+    },
+    {
+     "stage": "testnet",
+     "date": "2026-11-15"
     }
    ],
    "evidence": [
@@ -106,6 +110,16 @@
      "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 6567731",
      "url": "https://github.com/ethereum-lists/chains/pull/9013",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 6567731",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-6567731.json",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
@@ -21914,20 +21928,46 @@
    "id": "zerobeaconchain",
    "name": "Zero (Beacon Chain)",
    "aliases": [
-    "Zero (Beacon Chain)"
+    "Zero (Beacon Chain)",
+    "Zero (System Zone)",
+    "Zero (EVM Zone)",
+    "Zero (ATLAS Zone)",
+    "Zero (Payments Zone)"
    ],
    "keys": [
     "d:layerzero.network",
     "id:33000",
-    "n:zerobeaconchain"
+    "id:33001",
+    "id:33002",
+    "id:33003",
+    "id:33004",
+    "id:43000",
+    "id:43001",
+    "id:43002",
+    "id:43003",
+    "id:43004",
+    "id:93000",
+    "id:93001",
+    "id:93002",
+    "id:93003",
+    "id:93004",
+    "n:zeroatlaszone",
+    "n:zerobeaconchain",
+    "n:zeroevmzone",
+    "n:zeropaymentszone",
+    "n:zerosystemzone"
    ],
    "firstSeen": "2026-11-03",
-   "lastActivity": "2026-11-03",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-15",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-03"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-15"
     }
    ],
    "evidence": [
@@ -21939,10 +21979,167 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 33000",
      "url": "https://github.com/ethereum-lists/chains/pull/9015",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 93000",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-93000.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 93001",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-93001.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 93002",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-93002.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 93003",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-93003.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 93004",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-93004.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 33000",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-33000.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 33001",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-33001.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 33002",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-33002.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 33003",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-33003.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 33004",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-33004.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 43000",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-43000.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 43001",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-43001.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 43002",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-43002.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 43003",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-43003.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 43004",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-43004.json",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "33000"
+    "33000",
+    "33001",
+    "33002",
+    "33003",
+    "33004",
+    "43000",
+    "43001",
+    "43002"
    ],
    "website": "https://layerzero.network",
    "architecture": "EVM",
@@ -21953,7 +22150,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-15"
   },
   "zerofluxprotocolzeroflux": {
    "id": "zerofluxprotocolzeroflux",
