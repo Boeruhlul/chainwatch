@@ -6112,6 +6112,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3078",
+   "title": "Silent Payments for Electrum",
+   "url": "https://delvingbitcoin.org/t/silent-payments-for-electrum/3078",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-15",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-15"
+  },
+  {
    "key": "forum:forum.celestia.org:2343",
    "title": "CIP: Dynamic block pacing with an 800 ms floor",
    "url": "https://forum.celestia.org/t/cip-dynamic-block-pacing-with-an-800-ms-floor/2343",
@@ -6644,6 +6658,7 @@
    "forum:delvingbitcoin.org:3067",
    "forum:delvingbitcoin.org:3070",
    "forum:delvingbitcoin.org:3072",
+   "forum:delvingbitcoin.org:3078",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
