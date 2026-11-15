@@ -5860,6 +5860,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-14"
+  },
+  {
+   "key": "forum:forum.solana.com:5320",
+   "title": "Proposal for checkpoint validators that verify finalized Solana state without slowing it down",
+   "url": "https://forum.solana.com/t/proposal-for-checkpoint-validators-that-verify-finalized-solana-state-without-slowing-it-down/5320",
+   "meta": {
+    "forum": "forum.solana.com",
+    "created": "2026-11-14",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-15"
   }
  ],
  "seen": {
@@ -6414,6 +6428,7 @@
    "forum:forum.polygon.technology:22550",
    "forum:forum.polygon.technology:22576",
    "forum:forum.solana.com:5268",
+   "forum:forum.solana.com:5320",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
