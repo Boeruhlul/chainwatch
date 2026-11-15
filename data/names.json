@@ -3395,6 +3395,7 @@
   "pikochain:main",
   "pikochain:pre",
   "pin:main",
+  "pinch:main",
   "pinch:pre",
   "pingaksha:test",
   "pio:pre",

@@ -15175,6 +15175,64 @@
    ],
    "liveRpc": "https://167-233-120-69.nip.io/rpc"
   },
+  "pinch-2": {
+   "id": "pinch-2",
+   "name": "Pinch",
+   "aliases": [
+    "Pinch"
+   ],
+   "keys": [
+    "d:pinch.network"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 5261646",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-5261646.json",
+     "strength": "running"
+    }
+   ],
+   "suspect": {
+    "type": "imitatie",
+    "other": "Pinch",
+    "official": [
+     "nip.io"
+    ],
+    "own": [
+     "pinch.network"
+    ]
+   },
+   "chainIds": [
+    "5261646"
+   ],
+   "website": "https://pinch.network",
+   "architecture": "EVM",
+   "rpc": [
+    "https://pinch.network/rpc"
+   ],
+   "explorer": "https://pinch.network/explorer",
+   "mainnetSince": "2026-11-15",
+   "confidence": "C",
+   "reasons": [
+    "⚠️ mogelijke imitatie van Pinch: domein wijkt af van het officiële",
+    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 5261646)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "pio": {
    "id": "pio",
    "name": "PIO",
