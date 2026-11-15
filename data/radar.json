@@ -6205,6 +6205,18 @@
    "date": "2026-11-15"
   },
   {
+   "key": "pr:ethereum/ercs#2179",
+   "title": "Update ERC-8329: clarify section using normative keywords",
+   "url": "https://github.com/ethereum/ERCs/pull/2179",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-15"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-15"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
    "title": "AnchorStateRegistry geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x0701c1F08380c22B53e0C56D71a0Fe520eA22959",
@@ -7035,6 +7047,7 @@
    "pr:ethereum/ercs#2176",
    "pr:ethereum/ercs#2177",
    "pr:ethereum/ercs#2178",
+   "pr:ethereum/ercs#2179",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
