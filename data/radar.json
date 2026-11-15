@@ -5963,6 +5963,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x595f49080d3fc9d6f79fb185aaa9deede2ab26a2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AriwaSwapPool op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x595f49080d3fc9d6f79fb185aaa9deede2ab26a2",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x595f49080d3fc9d6f79fb185aaa9deede2ab26a2"
+   },
+   "date": "2026-11-15"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x9b8155c39cdb912557d8588157fc11e8d989e652",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6333,6 +6345,7 @@
    "chaincontract:giwasepolia:0x567521b49b791add859fd6a49d5189fc0d9412ff",
    "chaincontract:giwasepolia:0x57a5042be394727d5a9bfbaef1f98ac37791d01f",
    "chaincontract:giwasepolia:0x58fb4d3da82f5d610ad36e6e39e674c17b32ffd1",
+   "chaincontract:giwasepolia:0x595f49080d3fc9d6f79fb185aaa9deede2ab26a2",
    "chaincontract:giwasepolia:0x59c69f13e42c3214744a259a9aaf3a58c98139f4",
    "chaincontract:giwasepolia:0x5ab504c82b4c03b31b661af4bc91efe2c0f6cb29",
    "chaincontract:giwasepolia:0x5ca34b12f68f3ecdad7ea861370e2eb4a0cb1548",
