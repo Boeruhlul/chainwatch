@@ -15263,7 +15263,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://pinch.network/rpc"
   },
   "pio": {
    "id": "pio",
