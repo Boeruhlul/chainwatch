@@ -9023,6 +9023,15 @@
     },
     {
      "date": "2026-11-15",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 141421",
+     "url": "https://chainlist.org/chain/141421",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
