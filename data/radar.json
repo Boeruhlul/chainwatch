@@ -5874,6 +5874,20 @@
    "date": "2026-11-15"
   },
   {
+   "key": "forum:forum.celestia.org:2343",
+   "title": "CIP: Dynamic block pacing with an 800 ms floor",
+   "url": "https://forum.celestia.org/t/cip-dynamic-block-pacing-with-an-800-ms-floor/2343",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-11-15",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-15"
+  },
+  {
    "key": "forum:forum.solana.com:5320",
    "title": "Proposal for checkpoint validators that verify finalized Solana state without slowing it down",
    "url": "https://forum.solana.com/t/proposal-for-checkpoint-validators-that-verify-finalized-solana-state-without-slowing-it-down/5320",
@@ -6397,6 +6411,7 @@
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
    "forum:forum.celestia.org:2342",
+   "forum:forum.celestia.org:2343",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
