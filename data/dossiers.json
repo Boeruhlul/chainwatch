@@ -7734,6 +7734,43 @@
     "register"
    ]
   },
+  "hasrayls": {
+   "id": "hasrayls",
+   "name": "Has Rayls",
+   "aliases": [
+    "Has Rayls"
+   ],
+   "keys": [
+    "n:hasrayls"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/1amVIJAY/rayls-chain-audit",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "holesky": {
    "id": "holesky",
    "name": "Holesky",
