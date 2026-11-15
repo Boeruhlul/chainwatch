@@ -6130,6 +6130,20 @@
    "dossier": "finalchain"
   },
   {
+   "key": "forum:gov.optimism.io:10987",
+   "title": "What factors should be considered when selecting Security Council members?",
+   "url": "https://gov.optimism.io/t/what-factors-should-be-considered-when-selecting-security-council-members/10987",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-15",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-15"
+  },
+  {
    "key": "npm:fund-agent",
    "title": "fund-agent",
    "url": "https://www.npmjs.com/package/fund-agent",
@@ -6160,6 +6174,30 @@
    "url": "https://github.com/ethereum/EIPs/pull/12667",
    "meta": {
     "repo": "ethereum/EIPs",
+    "created": "2026-11-15"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-15"
+  },
+  {
+   "key": "pr:ethereum/ercs#2177",
+   "title": "Update ERC-8328: Test cases and reference section",
+   "url": "https://github.com/ethereum/ERCs/pull/2177",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-15"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-15"
+  },
+  {
+   "key": "pr:ethereum/ercs#2178",
+   "title": "Update ERC-8329: Test cases and reference section",
+   "url": "https://github.com/ethereum/ERCs/pull/2178",
+   "meta": {
+    "repo": "ethereum/ERCs",
     "created": "2026-11-15"
    },
    "cat": "techniek",
@@ -6781,7 +6819,8 @@
    "forum:gov.optimism.io:10948",
    "forum:gov.optimism.io:10950",
    "forum:gov.optimism.io:10966",
-   "forum:gov.optimism.io:10978"
+   "forum:gov.optimism.io:10978",
+   "forum:gov.optimism.io:10987"
   ],
   "immunefi": [
    "immunefi:metric",
@@ -6994,6 +7033,8 @@
    "pr:ethereum/ercs#2173",
    "pr:ethereum/ercs#2174",
    "pr:ethereum/ercs#2176",
+   "pr:ethereum/ercs#2177",
+   "pr:ethereum/ercs#2178",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
