@@ -5255,7 +5255,7 @@
     "id:99901"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-14",
+   "lastActivity": "2026-11-15",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -13392,6 +13392,44 @@
     "github"
    ]
   },
+  "noahgoadfoxoplazashowdown": {
+   "id": "noahgoadfoxoplazashowdown",
+   "name": "noahgoad/foxo-plaza-showdown",
+   "aliases": [
+    "noahgoad/foxo-plaza-showdown"
+   ],
+   "keys": [
+    "gh:noahgoad"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/noahgoad/foxo-plaza-showdown",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "noion": {
    "id": "noion",
    "name": "Noion",
@@ -14370,6 +14408,54 @@
    ],
    "families": [
     "github"
+   ]
+  },
+  "pagachain": {
+   "id": "pagachain",
+   "name": "Pagachain",
+   "aliases": [
+    "Pagachain"
+   ],
+   "keys": [
+    "d:pagachain.com",
+    "id:3690369",
+    "n:pagachain"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 3690369",
+     "url": "https://github.com/ethereum-lists/chains/pull/9084",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "3690369"
+   ],
+   "website": "https://explorer.pagachain.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://pagachain.com"
+   ],
+   "explorer": "https://explorer.pagachain.com",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
    ]
   },
   "paradoxrealesdaprotocol": {
