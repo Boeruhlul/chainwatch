@@ -6541,6 +6541,43 @@
     "register"
    ]
   },
+  "finalproject": {
+   "id": "finalproject",
+   "name": "Final Project",
+   "aliases": [
+    "Final Project"
+   ],
+   "keys": [
+    "n:finalproject"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastActivity": "2026-11-15",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-15"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-15",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Nednicpi/VCB_Website",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "flopnetwork": {
    "id": "flopnetwork",
    "name": "FLOP Network",
