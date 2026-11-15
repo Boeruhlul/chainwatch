@@ -8999,12 +8999,16 @@
     "n:lattice"
    ],
    "firstSeen": "2026-11-03",
-   "lastActivity": "2026-11-03",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-15",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-03"
+    },
+    {
+     "stage": "testnet",
+     "date": "2026-11-15"
     }
    ],
    "evidence": [
@@ -9015,6 +9019,16 @@
      "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 141421",
      "url": "https://github.com/ethereum-lists/chains/pull/9011",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 141421",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-141421.json",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
