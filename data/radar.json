@@ -5888,6 +5888,20 @@
    "date": "2026-11-16"
   },
   {
+   "key": "forum:ethereum-magicians.org:30405",
+   "title": "Hand-built calldata where the caller's bytes become the selector (Scroll's 10 Nov fix)",
+   "url": "https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xb20B23af6071405C37dDDA0C0640e8eBb7899645",
@@ -6387,6 +6401,7 @@
    "forum:ethereum-magicians.org:30390",
    "forum:ethereum-magicians.org:30396",
    "forum:ethereum-magicians.org:30397",
+   "forum:ethereum-magicians.org:30405",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
