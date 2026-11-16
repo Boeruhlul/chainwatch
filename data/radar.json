@@ -5857,6 +5857,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "MapaeFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71"
+   },
+   "date": "2026-11-16"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xbcda19ccf2aa05ec031bf3afe503834230b23a47",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6197,6 +6209,7 @@
    "chaincontract:giwasepolia:0xa66ba971fcdfd6ffd8b1a36e32be48831567c0e9",
    "chaincontract:giwasepolia:0xa708d017bf65706e7dd7ba4fd477ccd65f84a469",
    "chaincontract:giwasepolia:0xa873d48312092d82b07686277ef0ad253424bb70",
+   "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
    "chaincontract:giwasepolia:0xaa1ac19b2287b1f1fcb8217b76b365f96234786e",
    "chaincontract:giwasepolia:0xab665b7867080cd62aa316717400f3cc094e7bd6",
    "chaincontract:giwasepolia:0xac2e5fa7b83aae35d49505ad82ce4d8fe7670b70",
