@@ -5911,6 +5911,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3079",
+   "title": "Toward Efficient Post-Quantum Bitcoin Bridges",
+   "url": "https://delvingbitcoin.org/t/toward-efficient-post-quantum-bitcoin-bridges/3079",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30405",
    "title": "Hand-built calldata where the caller's bytes become the selector (Scroll's 10 Nov fix)",
    "url": "https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405",
@@ -5983,6 +5997,18 @@
    "key": "pr:ethereum/eips#12669",
    "title": "Update EIP-7807: reference Gloas execution requests",
    "url": "https://github.com/ethereum/EIPs/pull/12669",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-16"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-16"
+  },
+  {
+   "key": "pr:ethereum/eips#12670",
+   "title": "Update EIP-8141: add ecrecover signer dependency to mempool rules",
+   "url": "https://github.com/ethereum/EIPs/pull/12670",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-16"
@@ -6413,6 +6439,7 @@
    "forum:delvingbitcoin.org:3070",
    "forum:delvingbitcoin.org:3072",
    "forum:delvingbitcoin.org:3078",
+   "forum:delvingbitcoin.org:3079",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -6765,6 +6792,7 @@
    "pr:ethereum/eips#12667",
    "pr:ethereum/eips#12668",
    "pr:ethereum/eips#12669",
+   "pr:ethereum/eips#12670",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
