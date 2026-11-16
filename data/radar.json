@@ -5954,6 +5954,30 @@
    "date": "2026-11-16"
   },
   {
+   "key": "pr:ethereum/eips#12668",
+   "title": "Update EIP-8141: clarify SPHINCS signatures with frames",
+   "url": "https://github.com/ethereum/EIPs/pull/12668",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-16"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-16"
+  },
+  {
+   "key": "pr:ethereum/eips#12669",
+   "title": "Update EIP-7807: reference Gloas execution requests",
+   "url": "https://github.com/ethereum/EIPs/pull/12669",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-16"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-16"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xb20B23af6071405C37dDDA0C0640e8eBb7899645",
@@ -6724,6 +6748,8 @@
    "pr:ethereum/eips#12665",
    "pr:ethereum/eips#12666",
    "pr:ethereum/eips#12667",
+   "pr:ethereum/eips#12668",
+   "pr:ethereum/eips#12669",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
