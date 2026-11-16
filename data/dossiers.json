@@ -3917,12 +3917,16 @@
     "n:dagcore"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-16",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-04"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
     }
    ],
    "evidence": [
@@ -3934,6 +3938,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 32427",
      "url": "https://github.com/ethereum-lists/chains/pull/9020",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 32427",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-32427.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3944,13 +3957,14 @@
    "rpc": [
     "https://rpc.dgcr.dagcore.net"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 32427)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-16"
   },
   "dancore": {
    "id": "dancore",
