@@ -5926,6 +5926,34 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.celestia.org:2344",
+   "title": "Pulse Hardware: measured resource use of Celestia nodes, per role",
+   "url": "https://forum.celestia.org/t/pulse-hardware-measured-resource-use-of-celestia-nodes-per-role/2344",
+   "meta": {
+    "forum": "forum.celestia.org",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22581",
+   "title": "Bor v2.11.1 for mainnet and Amoy.",
+   "url": "https://forum.polygon.technology/t/bor-v2-11-1-for-mainnet-and-amoy/22581",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xb20B23af6071405C37dDDA0C0640e8eBb7899645",
@@ -6475,6 +6503,7 @@
    "forum:forum.celestia.org:2340",
    "forum:forum.celestia.org:2342",
    "forum:forum.celestia.org:2343",
+   "forum:forum.celestia.org:2344",
    "forum:forum.cosmos.network:17496",
    "forum:forum.cosmos.network:17498",
    "forum:forum.cosmos.network:17505",
@@ -6518,6 +6547,7 @@
    "forum:forum.polygon.technology:22543",
    "forum:forum.polygon.technology:22550",
    "forum:forum.polygon.technology:22576",
+   "forum:forum.polygon.technology:22581",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.zknation.io:1224",

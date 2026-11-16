@@ -22731,9 +22731,12 @@
    "id": "xpex",
    "name": "xpex",
    "aliases": [
-    "xpex"
+    "xpex",
+    "XPEX"
    ],
    "keys": [
+    "d:xpexpex.com",
+    "id:xpex-2",
     "n:xpex"
    ],
    "firstSeen": "2026-11-16",
@@ -22755,6 +22758,15 @@
      "url": "https://github.com/cosmos/chain-registry/tree/master/xpex",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID xpex-2",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1604",
+     "strength": "technical"
     }
    ],
    "architecture": "Cosmos",
@@ -22765,6 +22777,13 @@
    ],
    "families": [
     "register"
+   ],
+   "chainIds": [
+    "xpex-2"
+   ],
+   "website": "https://xpexpex.com",
+   "rpc": [
+    "https://api.xpexpex.com"
    ]
   },
   "yochain": {
