@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-15",
+ "lastSent": "2026-11-16",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -5478,7 +5478,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x1154297e742fc56fdb92e98cf0345f4ff7fe6b3d"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x1698b41f2026efb7f7d55a8513c33d68c4c09b0d",
@@ -5490,7 +5491,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x1698b41f2026efb7f7d55a8513c33d68c4c09b0d"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x1ac4017a568ec42df8477a997c09720c975b096f",
@@ -5515,7 +5517,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x200e48ecc83335193a2bc17ba5b38e141529d130"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x3ed11f7bcc36b3603d51736652884800daa2f54c",
@@ -5540,7 +5543,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x595f49080d3fc9d6f79fb185aaa9deede2ab26a2"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x9b8155c39cdb912557d8588157fc11e8d989e652",
@@ -5552,7 +5556,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x9b8155c39cdb912557d8588157fc11e8d989e652"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xab665b7867080cd62aa316717400f3cc094e7bd6",
@@ -5577,7 +5582,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xbd94e74cfd59e45bc5f21c3ac4ab6f2ee39ed723"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xbde1429fa07621251be87248cd61c4f5f554693c",
@@ -5615,7 +5621,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xcb8de4caac1acba352f1d8c659d4578115e8f781"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xf4e7bf1ace429400ac23e271e4409d212677e44f",
@@ -5640,7 +5647,8 @@
     "chain": "QMS",
     "addr": "0x97c305119f5d98afd11bcd19a1ba8c27d68f3546"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xb6530355d0f8c18d41b29443bc0deff3be7e65f2",
@@ -5652,7 +5660,8 @@
     "chain": "QMS",
     "addr": "0xb6530355d0f8c18d41b29443bc0deff3be7e65f2"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff",
@@ -5664,7 +5673,8 @@
     "chain": "QMS",
     "addr": "0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff"
    },
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xf4705dc3fb6f640d635971a2fde9d9efbbaf636e",
@@ -5691,7 +5701,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "forum:forum.celestia.org:2343",
@@ -5735,7 +5746,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "npm:fund-agent",
@@ -5748,7 +5760,8 @@
    },
    "cat": "sdk",
    "src": "npm-sdk",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2357",
@@ -5760,7 +5773,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12667",
@@ -5772,7 +5786,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2177",
@@ -5784,7 +5799,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2178",
@@ -5796,7 +5812,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2179",
@@ -5808,7 +5825,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-15"
+   "date": "2026-11-15",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
@@ -5835,7 +5853,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x1c6dc6e28f59ccae5b7b86be6112452afec49811"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xbcda19ccf2aa05ec031bf3afe503834230b23a47",
@@ -5847,7 +5866,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xbcda19ccf2aa05ec031bf3afe503834230b23a47"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xdd674df265c75c36590ce2e87fb8a2bb63974b62",
@@ -5859,7 +5879,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xdd674df265c75c36590ce2e87fb8a2bb63974b62"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0xce8c258fdc41b794aaa7927caba2b1ec39f339ad",
@@ -5871,7 +5892,8 @@
     "chain": "QMS",
     "addr": "0xce8c258fdc41b794aaa7927caba2b1ec39f339ad"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:community.starknet.io:116475",
@@ -5885,7 +5907,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30405",
@@ -5899,7 +5922,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
@@ -5913,7 +5937,8 @@
    },
    "cat": "contracten",
    "src": "verified-contracts",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   }
  ],
  "seen": {
