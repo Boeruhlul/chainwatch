@@ -6934,7 +6934,7 @@
     "n:nieuwerollupchainid42424242"
    ],
    "firstSeen": "2026-10-02",
-   "lastActivity": "2026-10-30",
+   "lastActivity": "2026-11-16",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -7033,6 +7033,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x0ba16188…",
      "url": "https://explorer.testnet-chain.genlayer.com/address/0x0ba16188bbda4f84f2a54c1128bfffd41168de8c",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/pz-human-owner/internet-court-mandate-demo",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -7056,7 +7065,8 @@
    "families": [
     "register",
     "onchain",
-    "overig"
+    "overig",
+    "github"
    ],
    "eco": {
     "dex": [
