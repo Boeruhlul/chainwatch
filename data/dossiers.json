@@ -8709,24 +8709,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-11",
-     "source": "viem",
-     "family": "code",
-     "kind": "testnet",
-     "what": "viem: testnet · ID 99801",
-     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/kinetiqElysiumTestnet.ts",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x5002d9d8…",
-     "url": "https://testnet.elysium.kinetiq.xyz/address/0x5002d9d837624a7daa835fd48271a81bef793f8d",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-12",
      "source": "ecosystem",
      "family": "onchain",
@@ -8947,6 +8929,24 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x9cf715d9…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x9cf715d9dd5911015658c3390779af17ce94c247",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xc53acb24…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xc53acb24fe221d1975e00528cf0312f3a9a867f8",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xdde76a4b…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xdde76a4b2ecd9b9bc8d634e29cf5bbaa32c1ca0b",
      "strength": "running"
@@ -8996,8 +8996,7 @@
     "launchpad-kandidaat op de chain"
    ],
    "families": [
-    "onchain",
-    "code"
+    "onchain"
    ],
    "liveRpc": "https://testnet-rpc.elysium.kinetiq.xyz",
    "eco": {
@@ -15437,6 +15436,44 @@
     "register"
    ],
    "liveRpc": "https://pagachain.com"
+  },
+  "pangapangadkfarepapayl1": {
+   "id": "pangapangadkfarepapayl1",
+   "name": "PangaPangaDKF/arepapayl1",
+   "aliases": [
+    "PangaPangaDKF/arepapayl1"
+   ],
+   "keys": [
+    "gh:pangapangadkf"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/PangaPangaDKF/arepapayl1",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
   },
   "paradoxrealesdaprotocol": {
    "id": "paradoxrealesdaprotocol",
