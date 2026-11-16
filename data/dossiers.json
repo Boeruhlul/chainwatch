@@ -18643,7 +18643,7 @@
     "n:skygold"
    ],
    "firstSeen": "2026-11-06",
-   "lastActivity": "2026-11-08",
+   "lastActivity": "2026-11-16",
    "stage": "draait",
    "stageHistory": [
     {
@@ -18691,6 +18691,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 22018",
      "url": "https://github.com/ethereum-lists/chains/pull/9031",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x907f8b3a…",
+     "url": "https://explorer.skygoldchainecosystem.com/address/0x907f8b3aa8f554c53d71a9352e201db7c23ef2f5",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -18704,12 +18713,23 @@
    "explorer": "https://explorer.skygoldchainecosystem.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 22018)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 22018)",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
-   "liveRpc": "https://rpc-mainnet.skygoldchainecosystem.com"
+   "liveRpc": "https://rpc-mainnet.skygoldchainecosystem.com",
+   "eco": {
+    "dex": [],
+    "launchpad": [
+     {
+      "addr": "0x907f8b3aa8f554c53d71a9352e201db7c23ef2f5",
+      "date": "2026-11-16"
+     }
+    ]
+   }
   },
   "slavenftlemonbrothers": {
    "id": "slavenftlemonbrothers",
