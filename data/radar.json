@@ -6018,6 +6018,20 @@
    "date": "2026-11-16"
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31774",
+   "title": "November 17, 2026 - Open Discussion of Proposals Governance Call",
+   "url": "https://forum.arbitrum.foundation/t/november-17-2026-open-discussion-of-proposals-governance-call/31774",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
    "key": "forum:forum.celestia.org:2344",
    "title": "Pulse Hardware: measured resource use of Celestia nodes, per role",
    "url": "https://forum.celestia.org/t/pulse-hardware-measured-resource-use-of-celestia-nodes-per-role/2344",
@@ -6671,6 +6685,7 @@
    "forum:forum.arbitrum.foundation:31681",
    "forum:forum.arbitrum.foundation:31682",
    "forum:forum.arbitrum.foundation:31773",
+   "forum:forum.arbitrum.foundation:31774",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
