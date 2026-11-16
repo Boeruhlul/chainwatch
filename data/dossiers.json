@@ -5567,15 +5567,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xd433790c…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xd433790c81814843c024adb2a88f62f28b4afecf",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xed9e73d6…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xed9e73d6315e576adb742976e7ec2c6bb13502be",
      "strength": "running"
@@ -5812,6 +5803,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xdde76a4b…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xdde76a4b2ecd9b9bc8d634e29cf5bbaa32c1ca0b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf08b50b4…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xf08b50b49f11535db19e145f65b9c0f5e04e2990",
      "strength": "running"
     },
     {
@@ -8898,6 +8898,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xdde76a4b…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0xdde76a4b2ecd9b9bc8d634e29cf5bbaa32c1ca0b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf08b50b4…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xf08b50b49f11535db19e145f65b9c0f5e04e2990",
      "strength": "running"
     },
     {
@@ -20606,15 +20615,21 @@
    "keys": [
     "d:supra.com",
     "id:535556",
+    "id:535558",
+    "id:535600",
     "n:supra"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-16",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-04"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
     }
    ],
    "evidence": [
@@ -20626,21 +20641,56 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 535556",
      "url": "https://github.com/ethereum-lists/chains/pull/9016",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "devnet",
+     "what": "ethlists-commit: devnet · ID 535600",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-535600.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 535558",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-535558.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 535556",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-535556.json",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "535556"
+    "535556",
+    "535558",
+    "535600"
    ],
    "website": "https://supra.com",
    "architecture": "EVM",
    "explorer": "https://testnet.suprascan.io",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-commit: devnet · ID 535600)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "rpc": [
+    "https://rpc-devnet.supra.com/rpc/v1/eth"
+   ],
+   "mainnetSince": "2026-11-16"
   },
   "swiftsharedledger": {
    "id": "swiftsharedledger",
