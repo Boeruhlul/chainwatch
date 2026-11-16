@@ -10303,6 +10303,44 @@
    ],
    "website": "https://maroo.io"
   },
+  "maximotodevlotstr": {
+   "id": "maximotodevlotstr",
+   "name": "maximotodev/lotstr",
+   "aliases": [
+    "maximotodev/lotstr"
+   ],
+   "keys": [
+    "gh:maximotodev"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/maximotodev/lotstr",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "mayachain": {
    "id": "mayachain",
    "name": "MAYA CHAIN",
