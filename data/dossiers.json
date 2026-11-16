@@ -13904,6 +13904,44 @@
    ],
    "liveRpc": "https://rpc.getnexwallet.com"
   },
+  "nickwestzkpoptimism": {
+   "id": "nickwestzkpoptimism",
+   "name": "nickwest-zkp/optimism",
+   "aliases": [
+    "nickwest-zkp/optimism"
+   ],
+   "keys": [
+    "gh:nickwest-zkp"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/nickwest-zkp/optimism",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis, OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "nicolasholmanfuinzcash": {
    "id": "nicolasholmanfuinzcash",
    "name": "nicolasholman/fuin-zcash",
