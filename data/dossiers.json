@@ -3033,6 +3033,43 @@
     "register"
    ]
   },
+  "circlearc": {
+   "id": "circlearc",
+   "name": "Circle Arc",
+   "aliases": [
+    "Circle Arc"
+   ],
+   "keys": [
+    "n:circlearc"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/deno296/btc-eth-predictor-arc",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "citizenchain": {
    "id": "citizenchain",
    "name": "CitizenChain",
