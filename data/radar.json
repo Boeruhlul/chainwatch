@@ -5952,6 +5952,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.arbitrum.foundation:31773",
+   "title": "43rd GRC Call - Recording & Transcript",
+   "url": "https://forum.arbitrum.foundation/t/43rd-grc-call-recording-transcript/31773",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-16",
+    "posts": 1,
+    "views": 10
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-16"
+  },
+  {
    "key": "forum:forum.celestia.org:2344",
    "title": "Pulse Hardware: measured resource use of Celestia nodes, per role",
    "url": "https://forum.celestia.org/t/pulse-hardware-measured-resource-use-of-celestia-nodes-per-role/2344",
@@ -6576,6 +6590,7 @@
    "forum:forum.arbitrum.foundation:31665",
    "forum:forum.arbitrum.foundation:31681",
    "forum:forum.arbitrum.foundation:31682",
+   "forum:forum.arbitrum.foundation:31773",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
