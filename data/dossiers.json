@@ -17213,7 +17213,7 @@
    ],
    "firstSeen": "2026-11-04",
    "lastActivity": "2026-11-16",
-   "stage": "draait",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -17226,6 +17226,10 @@
     {
      "stage": "draait",
      "date": "2026-11-04"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
     }
    ],
    "evidence": [
@@ -17279,6 +17283,15 @@
      "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 44001",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-44001.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
      "kind": "testnet",
      "what": "ethlists-commit: testnet · ID 44005",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-44005.json",
@@ -17305,7 +17318,8 @@
     "register",
     "github"
    ],
-   "liveRpc": "https://rpc.qday.io"
+   "liveRpc": "https://rpc.qday.io",
+   "mainnetSince": "2026-11-16"
   },
   "qieblockchain": {
    "id": "qieblockchain",
