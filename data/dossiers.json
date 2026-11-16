@@ -21879,6 +21879,55 @@
     "onderzoek"
    ]
   },
+  "tsx": {
+   "id": "tsx",
+   "name": "TSX",
+   "aliases": [
+    "TSX"
+   ],
+   "keys": [
+    "d:tsx.network",
+    "id:445",
+    "n:tsx"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 445",
+     "url": "https://github.com/ethereum-lists/chains/pull/9091",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "445"
+   ],
+   "website": "https://tsx.network",
+   "architecture": "EVM",
+   "github": "https://github.com/mds1",
+   "rpc": [
+    "https://testnet.tsx.network/rpc"
+   ],
+   "explorer": "https://scan.tsx.network/testnet",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "turkchain": {
    "id": "turkchain",
    "name": "Turkchain",

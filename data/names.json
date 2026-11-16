@@ -4567,6 +4567,7 @@
   "tsc:main",
   "tsc:test",
   "tstoc:test",
+  "tsx:pre",
   "ttcoinsmartchain:main",
   "ttcoinsmartchain:test",
   "ttlcoin:main",
