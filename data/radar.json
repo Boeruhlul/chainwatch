@@ -5815,6 +5815,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qms:0xce8c258fdc41b794aaa7927caba2b1ec39f339ad",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xce8c258fdc41b794aaa7927caba2b1ec39f339ad",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xce8c258fdc41b794aaa7927caba2b1ec39f339ad"
+   },
+   "date": "2026-11-16"
+  },
+  {
    "key": "forum:community.starknet.io:116475",
    "title": "Bramble: a new account's first dapp invoke never reaches the chain (dapp gets 163)",
    "url": "https://community.starknet.io/t/bramble-a-new-accounts-first-dapp-invoke-never-reaches-the-chain-dapp-gets-163/116475",
@@ -6135,6 +6147,7 @@
    "chaincontract:qms:0xc443b86882c67f42eafc136591964ffc82997154",
    "chaincontract:qms:0xc92ae54a4bf3ebab9bcc88cdff3b6b4f77b50bc4",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
+   "chaincontract:qms:0xce8c258fdc41b794aaa7927caba2b1ec39f339ad",
    "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
    "chaincontract:qms:0xe22c54dfed544a0c5731ed67b8f80dac5e989e90",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
