@@ -3941,6 +3941,15 @@
     },
     {
      "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 32427",
+     "url": "https://chainlist.org/chain/32427",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
