@@ -8537,6 +8537,15 @@
     },
     {
      "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 101122",
+     "url": "https://chainlist.org/chain/101122",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
@@ -20746,7 +20755,8 @@
    "rpc": [
     "https://rpc-devnet.supra.com/rpc/v1/eth"
    ],
-   "mainnetSince": "2026-11-16"
+   "mainnetSince": "2026-11-16",
+   "liveRpc": "https://rpc-devnet.supra.com/rpc/v1/eth"
   },
   "swiftsharedledger": {
    "id": "swiftsharedledger",
