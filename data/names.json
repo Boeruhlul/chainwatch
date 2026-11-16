@@ -992,6 +992,7 @@
   "converge:main",
   "conwai:main",
   "conxchain:main",
+  "cookchain:main",
   "cookchain:pre",
   "cookiechain:main",
   "coolcat:test",

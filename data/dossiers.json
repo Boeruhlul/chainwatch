@@ -3302,8 +3302,8 @@
     "n:cookchain"
    ],
    "firstSeen": "2026-11-10",
-   "lastActivity": "2026-11-10",
-   "stage": "draait",
+   "lastActivity": "2026-11-16",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -3312,6 +3312,10 @@
     {
      "stage": "draait",
      "date": "2026-11-10"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
     }
    ],
    "evidence": [
@@ -3332,6 +3336,16 @@
      "what": "ethlists-pr: RPC antwoordt · ID 20261001",
      "url": "https://github.com/ethereum-lists/chains/pull/9044",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "blockscout",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "blockscout: mainnet · ID 20261001",
+     "url": "https://blockscout.cookscan.net",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -3353,7 +3367,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://rpc.cookscan.net/evm"
+   "liveRpc": "https://rpc.cookscan.net/evm",
+   "mainnetSince": "2026-11-16"
   },
   "cordtuslocalcosmos": {
    "id": "cordtuslocalcosmos",
