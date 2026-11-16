@@ -20141,15 +20141,20 @@
    "keys": [
     "d:stapleport.com",
     "id:78753",
+    "id:78756",
     "n:stapleport"
    ],
    "firstSeen": "2026-11-02",
-   "lastActivity": "2026-11-02",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-16",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-02"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
     }
    ],
    "evidence": [
@@ -20161,24 +20166,45 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 78753",
      "url": "https://github.com/ethereum-lists/chains/pull/9007",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 78753",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-78753.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 78756",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-78756.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "78753"
+    "78753",
+    "78756"
    ],
    "website": "https://stapleport.com",
    "architecture": "EVM",
    "rpc": [
-    "https://rpc.stapleport.com"
+    "https://rpc.stapleport.com",
+    "https://rpc-test.stapleport.com"
    ],
    "explorer": "https://blockscan.stapleport.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 78753)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-16"
   },
   "starchain": {
    "id": "starchain",
