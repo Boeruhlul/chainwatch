@@ -5492,15 +5492,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0xbc977e3b…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0xbc977e3bf3fbde5f15668d0c91c5a67f1ec7fcdf",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xd2258a9e…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0xd2258a9e1282b15ab47a43e629df0b15ec2a0506",
      "strength": "running"
@@ -5692,6 +5683,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x84be52a4…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xee1ec296…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0xee1ec2963482379916fc97cca6bf553c982dede9",
      "strength": "running"
     },
     {
@@ -8776,6 +8776,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xee1ec296…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xee1ec2963482379916fc97cca6bf553c982dede9",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x21a73a79…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x21a73a794be4bb08fa2af68c752c0290dba84fae",
      "strength": "running"
@@ -8893,6 +8902,11 @@
       "addr": "0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
       "type": "Uniswap v4",
       "date": "2026-11-15"
+     },
+     {
+      "addr": "0xee1ec2963482379916fc97cca6bf553c982dede9",
+      "type": "Uniswap v4",
+      "date": "2026-11-16"
      }
     ],
     "launchpad": [
