@@ -4938,6 +4938,44 @@
     ]
    }
   },
+  "eas": {
+   "id": "eas",
+   "name": "eas",
+   "aliases": [
+    "eas"
+   ],
+   "keys": [
+    "n:eas"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/eas",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "ecashecx": {
    "id": "ecashecx",
    "name": "eCash (ECX)",
