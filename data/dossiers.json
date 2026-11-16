@@ -8493,15 +8493,17 @@
    "id": "intainmarketstest",
    "name": "IntainMarketsTest",
    "aliases": [
-    "IntainMarketsTest"
+    "IntainMarketsTest",
+    "Intain Markets"
    ],
    "keys": [
     "d:intainmarkets.us",
     "id:101122",
+    "n:intainmarkets",
     "n:intainmarketstest"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
+   "lastActivity": "2026-11-16",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -8531,6 +8533,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 101122",
      "url": "https://github.com/ethereum-lists/chains/pull/9017",
      "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 101122",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-101122.json",
      "strength": "running"
     }
    ],
@@ -20178,6 +20189,24 @@
     },
     {
      "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 78753",
+     "url": "https://chainlist.org/chain/78753",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 78756",
+     "url": "https://chainlist.org/chain/78756",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -20208,7 +20237,7 @@
    "explorer": "https://blockscan.stapleport.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: mainnet · ID 78753)"
+    "draaiend netwerk aangetoond (chainlist: mainnet · ID 78753)"
    ],
    "families": [
     "register"
@@ -20644,6 +20673,33 @@
     },
     {
      "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "devnet",
+     "what": "chainlist: devnet · ID 535600",
+     "url": "https://chainlist.org/chain/535600",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 535556",
+     "url": "https://chainlist.org/chain/535556",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 535558",
+     "url": "https://chainlist.org/chain/535558",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "devnet",
@@ -20682,7 +20738,7 @@
    "explorer": "https://testnet.suprascan.io",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-commit: devnet · ID 535600)"
+    "draaiend netwerk aangetoond (chainlist: devnet · ID 535600)"
    ],
    "families": [
     "register"
