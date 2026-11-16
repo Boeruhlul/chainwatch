@@ -3630,6 +3630,7 @@
   "qorechain:main",
   "qorechain:pre",
   "qorechain:test",
+  "qorechaindiana:lead",
   "qorechaineip1559801:pre",
   "qorechainhomebrewtap:lead",
   "qorechainqorechaincustodykit:lead",

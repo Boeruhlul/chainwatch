@@ -17691,6 +17691,43 @@
     "launchpad": []
    }
   },
+  "qorechaindiana": {
+   "id": "qorechaindiana",
+   "name": "QoreChain Diana",
+   "aliases": [
+    "QoreChain Diana"
+   ],
+   "keys": [
+    "n:qorechaindiana"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/HaramMalik/t-rex-id-qorechain",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "qr0923q1ms": {
    "id": "qr0923q1ms",
    "name": "QR0923Q1MS",
