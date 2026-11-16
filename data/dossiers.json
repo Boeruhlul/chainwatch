@@ -5301,15 +5301,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x7a7b9788…",
-     "url": "https://elysium.kinetiq.xyz/explorer/address/0x7a7b9788cbbb88ae38f4a1f82609ea59f4309995",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x8240f591…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x8240f591df68f57f18e772c20a132d1db2b27b54",
      "strength": "running"
@@ -5555,6 +5546,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x84be52a4…",
      "url": "https://elysium.kinetiq.xyz/explorer/address/0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x42123316…",
+     "url": "https://elysium.kinetiq.xyz/explorer/address/0x42123316943f227cfb0945a228a1901d2b829ab7",
      "strength": "running"
     }
    ],
@@ -8351,7 +8351,7 @@
     "d:kinetiq.xyz"
    ],
    "firstSeen": "2026-11-11",
-   "lastActivity": "2026-11-15",
+   "lastActivity": "2026-11-16",
    "stage": "draait",
    "stageHistory": [
     {
@@ -8551,6 +8551,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x84be52a4…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0x42123316…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0x42123316943f227cfb0945a228a1901d2b829ab7",
      "strength": "running"
     }
    ],
