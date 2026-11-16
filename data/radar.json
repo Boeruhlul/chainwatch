@@ -5839,6 +5839,20 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-11-16"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xb20B23af6071405C37dDDA0C0640e8eBb7899645",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0xb20B23af6071405C37dDDA0C0640e8eBb7899645",
+    "verified": "2026-11-16"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-16"
   }
  ],
  "seen": {
@@ -6679,7 +6693,8 @@
    "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
-   "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377"
+   "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377",
+   "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645"
   ]
  }
 }
