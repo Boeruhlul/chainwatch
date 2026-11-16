@@ -781,14 +781,16 @@
    "id": "armchain",
    "name": "ARMchain",
    "aliases": [
-    "ARMchain"
+    "ARMchain",
+    "ArmChain"
    ],
    "keys": [
     "d:armchain.org",
+    "id:27600",
     "n:armchain"
    ],
    "firstSeen": "2026-11-09",
-   "lastActivity": "2026-11-09",
+   "lastActivity": "2026-11-16",
    "stage": "devnet",
    "stageHistory": [
     {
@@ -806,6 +808,15 @@
      "url": "https://www.issuewire.com/armchain-introduces-post-quantum-layer-1-blockchain-with-devnet-live-1880365247862528",
      "stage": "devnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 27600",
+     "url": "https://github.com/ethereum-lists/chains/pull/9092",
+     "strength": "technical"
     }
    ],
    "website": "https://armchain.org",
@@ -833,12 +844,16 @@
     "file": "2026-11-09-weekly.json"
    },
    "org": "Samran Habib (Melbourne)",
-   "confidence": "D",
+   "confidence": "B",
    "reasons": [
-    "alleen onderzoek"
+    "2 onafhankelijke bronfamilies: onderzoek, register"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "register"
+   ],
+   "chainIds": [
+    "27600"
    ]
   },
   "armoniaevachain": {
