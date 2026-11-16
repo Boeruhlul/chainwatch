@@ -17281,6 +17281,24 @@
     },
     {
      "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 44001",
+     "url": "https://chainlist.org/chain/44001",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 44005",
+     "url": "https://chainlist.org/chain/44005",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-16",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
