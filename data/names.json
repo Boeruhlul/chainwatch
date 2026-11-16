@@ -497,6 +497,7 @@
   "binancefutures:lead",
   "binancelive:lead",
   "binancesmartchain:main",
+  "binancespot:lead",
   "binary:main",
   "binarychain:main",
   "binarychain:test",

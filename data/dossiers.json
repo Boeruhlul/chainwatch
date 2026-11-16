@@ -2045,6 +2045,43 @@
     "github"
    ]
   },
+  "binancespot": {
+   "id": "binancespot",
+   "name": "Binance Spot",
+   "aliases": [
+    "Binance Spot"
+   ],
+   "keys": [
+    "n:binancespot"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/vir-cipher/centralized-trading-engine",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "bitcoinswap": {
    "id": "bitcoinswap",
    "name": "Bitcoin Swap",
