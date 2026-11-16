@@ -22727,6 +22727,46 @@
     "register"
    ]
   },
+  "xpex": {
+   "id": "xpex",
+   "name": "xpex",
+   "aliases": [
+    "xpex"
+   ],
+   "keys": [
+    "n:xpex"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastActivity": "2026-11-16",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-16"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-16",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/xpex",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos",
+   "mainnetSince": "2026-11-16",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "yochain": {
    "id": "yochain",
    "name": "YoChain",
