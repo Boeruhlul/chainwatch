@@ -20591,11 +20591,13 @@
    ],
    "keys": [
     "d:steemvmscan.com",
+    "d:svmapp.com",
+    "id:81630",
     "id:SteemVM-Manaslu-81630",
     "n:steemvm"
    ],
    "firstSeen": "2026-11-06",
-   "lastActivity": "2026-11-06",
+   "lastActivity": "2026-11-17",
    "stage": "aangekondigd",
    "stageHistory": [
     {
@@ -20612,15 +20614,26 @@
      "what": "keplr-pr: chain-ID-aanvraag · ID SteemVM-Manaslu-81630",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1595",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 81630",
+     "url": "https://github.com/ethereum-lists/chains/pull/9093",
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "SteemVM-Manaslu-81630"
+    "SteemVM-Manaslu-81630",
+    "81630"
    ],
    "website": "https://steemvmscan.com",
    "architecture": "Cosmos",
    "rpc": [
-    "https://api.steemvmscan.com"
+    "https://api.steemvmscan.com",
+    "https://evm.steemvmscan.com"
    ],
    "confidence": "C",
    "reasons": [
@@ -20628,7 +20641,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "explorer": "https://evmscan.steemvmscan.com"
   },
   "strato": {
    "id": "strato",
