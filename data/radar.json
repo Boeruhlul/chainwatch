@@ -6073,6 +6073,18 @@
    "date": "2026-11-17"
   },
   {
+   "key": "pr:ethereum/eips#12672",
+   "title": "Add EIP: Dependency frames for leanSPHINCS signatures",
+   "url": "https://github.com/ethereum/EIPs/pull/12672",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-17"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-17"
+  },
+  {
    "key": "pr:ethereum/ercs#2181",
    "title": "Update ERC-8048: Make agent profile keys onchain only",
    "url": "https://github.com/ethereum/ERCs/pull/2181",
@@ -6948,6 +6960,7 @@
    "pr:ethereum/eips#12669",
    "pr:ethereum/eips#12670",
    "pr:ethereum/eips#12671",
+   "pr:ethereum/eips#12672",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
