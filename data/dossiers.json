@@ -20892,7 +20892,8 @@
    "id": "steemvm",
    "name": "SteemVM",
    "aliases": [
-    "SteemVM"
+    "SteemVM",
+    "steemvm"
    ],
    "keys": [
     "d:steemvmscan.com",
@@ -20903,7 +20904,7 @@
    ],
    "firstSeen": "2026-11-06",
    "lastActivity": "2026-11-17",
-   "stage": "draait",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -20911,6 +20912,10 @@
     },
     {
      "stage": "draait",
+     "date": "2026-11-17"
+    },
+    {
+     "stage": "mainnet",
      "date": "2026-11-17"
     }
    ],
@@ -20922,6 +20927,16 @@
      "kind": "proposal",
      "what": "keplr-pr: chain-ID-aanvraag · ID SteemVM-Manaslu-81630",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1595",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/steemvm",
+     "noRpc": true,
      "strength": "technical"
     },
     {
@@ -20961,7 +20976,8 @@
     "register"
    ],
    "explorer": "https://evmscan.steemvmscan.com",
-   "liveRpc": "https://evm.steemvmscan.com"
+   "liveRpc": "https://evm.steemvmscan.com",
+   "mainnetSince": "2026-11-17"
   },
   "strato": {
    "id": "strato",
