@@ -5891,6 +5891,66 @@
    "date": "2026-11-17"
   },
   {
+   "key": "chaincontract:qms:0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "TokenFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:qms:0x6cb5ac4c0e6b77e21e819ba9d10937792495021b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ClaimManager op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x6cb5ac4c0e6b77e21e819ba9d10937792495021b",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x6cb5ac4c0e6b77e21e819ba9d10937792495021b"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:qms:0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LaunchFactory op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:qms:0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FairLaunchDeployer op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xab77cb90d04eaa49c945bff4b4fd6d744a37a513"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:qms:0xcf334c593e23d1bb0accaccb89a7bc122880f331",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FixedPriceSale op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xcf334c593e23d1bb0accaccb89a7bc122880f331",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xcf334c593e23d1bb0accaccb89a7bc122880f331"
+   },
+   "date": "2026-11-17"
+  },
+  {
    "key": "chaincontract:steemvm:0x1e5625244c25fd1f8230aa37931ae63a5e7c164f",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6477,13 +6537,17 @@
    "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
    "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
+   "chaincontract:qms:0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a",
+   "chaincontract:qms:0x6cb5ac4c0e6b77e21e819ba9d10937792495021b",
    "chaincontract:qms:0x6ff0c02d280e7dc3ed1a1287e087a47e1b3b4b8d",
    "chaincontract:qms:0x7f627910ecd3e89aab79519c90cb6caa96e327c1",
    "chaincontract:qms:0x832ce0be4079ec09fba228bd08295392ccd3bf35",
+   "chaincontract:qms:0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2",
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
    "chaincontract:qms:0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
    "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
+   "chaincontract:qms:0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
    "chaincontract:qms:0xb6530355d0f8c18d41b29443bc0deff3be7e65f2",
    "chaincontract:qms:0xc169996ad1d41f29e04654b255b190c8f1f0ded1",
@@ -6491,6 +6555,7 @@
    "chaincontract:qms:0xc92ae54a4bf3ebab9bcc88cdff3b6b4f77b50bc4",
    "chaincontract:qms:0xc9bd3a95efa7448bd3b1ddb5a814c0d6013eb5b7",
    "chaincontract:qms:0xce8c258fdc41b794aaa7927caba2b1ec39f339ad",
+   "chaincontract:qms:0xcf334c593e23d1bb0accaccb89a7bc122880f331",
    "chaincontract:qms:0xdf7ed9c0a8eef6eadf1fbb90ba118130db5bf9ff",
    "chaincontract:qms:0xe22c54dfed544a0c5731ed67b8f80dac5e989e90",
    "chaincontract:qms:0xe93120786dfd0056a6dac6a919d924e1aa63c1d1",
