@@ -5953,6 +5953,20 @@
    "dossier": null
   },
   {
+   "key": "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
+   "title": "PolygonRollupManager geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x028576a5e409ab729D2F0027F7D6ddd9dC158911",
+   "meta": {
+    "name": "PolygonRollupManager",
+    "chain": "eth",
+    "addr": "0x028576a5e409ab729D2F0027F7D6ddd9dC158911",
+    "verified": "2026-11-17"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-17"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
    "title": "OptimismPortal geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x622861aA707EbA61294EE6bbeF7c522C9ddE8a96",
@@ -5966,6 +5980,34 @@
    "src": "verified-contracts",
    "date": "2026-11-17",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
+   "title": "PolygonRollupManager geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xbdc2721147b3850C4Ff2AA38611801622A05696e",
+   "meta": {
+    "name": "PolygonRollupManager",
+    "chain": "eth",
+    "addr": "0xbdc2721147b3850C4Ff2AA38611801622A05696e",
+    "verified": "2026-11-17"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-17"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc",
+   "title": "PolygonRollupManager geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xcd63c6BEaAeDaF7e354A144AA15734Aa9C38FCCc",
+   "meta": {
+    "name": "PolygonRollupManager",
+    "chain": "eth",
+    "addr": "0xcd63c6BEaAeDaF7e354A144AA15734Aa9C38FCCc",
+    "verified": "2026-11-17"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-17"
   }
  ],
  "seen": {
@@ -6835,6 +6877,7 @@
    "pr:solana-foundation/solana-improvement-documents#732"
   ],
   "verified-contracts": [
+   "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
    "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
    "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
@@ -6842,7 +6885,9 @@
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377",
-   "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645"
+   "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
+   "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
+   "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc"
   ]
  }
 }

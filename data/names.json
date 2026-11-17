@@ -3567,6 +3567,8 @@
   "probe39:test",
   "probe40:test",
   "probe41:test",
+  "probe95:test",
+  "probe96:test",
   "probechain:main",
   "prom:main",
   "prom:test",
