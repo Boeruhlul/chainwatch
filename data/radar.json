@@ -6034,6 +6034,20 @@
    "dossier": "steemvm"
   },
   {
+   "key": "forum:forum.polygon.technology:22586",
+   "title": "Tracing Supplier Payments and Shipment Proofs on Polygon: Supply Chain Software Development Firms Compared",
+   "url": "https://forum.polygon.technology/t/tracing-supplier-payments-and-shipment-proofs-on-polygon-supply-chain-software-development-firms-compared/22586",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-17",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-17"
+  },
+  {
    "key": "pr:bitcoin/bips#2359",
    "title": "bip379: Advance to Deployed",
    "url": "https://github.com/bitcoin/bips/pull/2359",
@@ -6751,6 +6765,7 @@
    "forum:forum.polygon.technology:22550",
    "forum:forum.polygon.technology:22576",
    "forum:forum.polygon.technology:22581",
+   "forum:forum.polygon.technology:22586",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.zknation.io:1224",
