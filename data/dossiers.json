@@ -20058,6 +20058,50 @@
     "github"
    ]
   },
+  "somniatokyo": {
+   "id": "somniatokyo",
+   "name": "Somnia Tokyo",
+   "aliases": [
+    "Somnia Tokyo"
+   ],
+   "keys": [
+    "id:50321",
+    "n:somniatokyo"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "defillama",
+     "family": "markt",
+     "kind": "mainnet",
+     "what": "defillama: mainnet · ID 50321",
+     "url": "https://defillama.com/chain/Somnia%20Tokyo",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "50321"
+   ],
+   "architecture": "EVM",
+   "mainnetSince": "2026-11-17",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (markt)"
+   ],
+   "families": [
+    "markt"
+   ]
+  },
   "soqucoin": {
    "id": "soqucoin",
    "name": "Soqucoin",
