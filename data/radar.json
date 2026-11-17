@@ -5899,6 +5899,30 @@
    "date": "2026-11-17"
   },
   {
+   "key": "pr:ethereum/ercs#2181",
+   "title": "Update ERC-8048: Make agent profile keys onchain only",
+   "url": "https://github.com/ethereum/ERCs/pull/2181",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-17"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-17"
+  },
+  {
+   "key": "pr:ethereum/ercs#2182",
+   "title": "Update ERC-8049: Make agent profile keys onchain only",
+   "url": "https://github.com/ethereum/ERCs/pull/2182",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-17"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-17"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
    "title": "OptimismPortal geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x622861aA707EbA61294EE6bbeF7c522C9ddE8a96",
@@ -6765,6 +6789,8 @@
    "pr:ethereum/ercs#2178",
    "pr:ethereum/ercs#2179",
    "pr:ethereum/ercs#2180",
+   "pr:ethereum/ercs#2181",
+   "pr:ethereum/ercs#2182",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
