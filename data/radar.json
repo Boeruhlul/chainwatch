@@ -5783,6 +5783,54 @@
    "date": "2026-11-17"
   },
   {
+   "key": "chaincontract:giwasepolia:0x796a3f1759d4472f5782acffdfdc551b09a06864",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PoolManager op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x796a3f1759d4472f5782acffdfdc551b09a06864",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x796a3f1759d4472f5782acffdfdc551b09a06864"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xa691c9365d7903027dda0fcce716fd8af57aad3e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xa691c9365d7903027dda0fcce716fd8af57aad3e",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xa691c9365d7903027dda0fcce716fd8af57aad3e"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xc488cfd4471f2dba3c213a1df732f417c1af0beb",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xc488cfd4471f2dba3c213a1df732f417c1af0beb",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xc488cfd4471f2dba3c213a1df732f417c1af0beb"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xdc2ff7a4ea2d620da7310f89cbae9b8c27ee62fe",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SoomRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xdc2ff7a4ea2d620da7310f89cbae9b8c27ee62fe",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xdc2ff7a4ea2d620da7310f89cbae9b8c27ee62fe"
+   },
+   "date": "2026-11-17"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xe798ff135f8466a076f7693aaf1fe225ac91c638",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6168,6 +6216,7 @@
    "chaincontract:giwasepolia:0x7633e670f85164a87db710b8415df79236eca0fb",
    "chaincontract:giwasepolia:0x7816dfa2eb24705f6a9433958e55c055b80f20cc",
    "chaincontract:giwasepolia:0x7890bfbcf8da8c4b28d998e9154e019a4764c339",
+   "chaincontract:giwasepolia:0x796a3f1759d4472f5782acffdfdc551b09a06864",
    "chaincontract:giwasepolia:0x799742374efadcfe1f2842cf3553ca9ec2913b44",
    "chaincontract:giwasepolia:0x79a7d4b6fa77a5610239a68981d6ca74503d8ce9",
    "chaincontract:giwasepolia:0x7b5cbacf8d702110d1707cbf50fb20cf66fed912",
@@ -6198,6 +6247,7 @@
    "chaincontract:giwasepolia:0xa2cd3cef22f26e5ad130d1d6db01ebc0ceaa4f9c",
    "chaincontract:giwasepolia:0xa4dbafffbcbcfeaf5938640487ddcb1eff963162",
    "chaincontract:giwasepolia:0xa66ba971fcdfd6ffd8b1a36e32be48831567c0e9",
+   "chaincontract:giwasepolia:0xa691c9365d7903027dda0fcce716fd8af57aad3e",
    "chaincontract:giwasepolia:0xa708d017bf65706e7dd7ba4fd477ccd65f84a469",
    "chaincontract:giwasepolia:0xa873d48312092d82b07686277ef0ad253424bb70",
    "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
@@ -6229,6 +6279,7 @@
    "chaincontract:giwasepolia:0xc1361d923836dc82a3b272bafb031a62697d6800",
    "chaincontract:giwasepolia:0xc1db7149c74294b467764f83062a79cb0b2378ad",
    "chaincontract:giwasepolia:0xc42f46a14472d09683af1e66d85f44690d24bcb3",
+   "chaincontract:giwasepolia:0xc488cfd4471f2dba3c213a1df732f417c1af0beb",
    "chaincontract:giwasepolia:0xc6ee7eb5bfd52065db3e391e58e053bb259928cc",
    "chaincontract:giwasepolia:0xc8ef125aa945af92144ecadc39cee1a0b7415a70",
    "chaincontract:giwasepolia:0xc90f6f94923fcee08dea78ff979443b2a8fb437f",
@@ -6241,6 +6292,7 @@
    "chaincontract:giwasepolia:0xd78a76e0eccbc838b9a96df9dac9942c8d2bb263",
    "chaincontract:giwasepolia:0xd87e1361bd82e972cc469f49ca2e5fc24bbcdd6b",
    "chaincontract:giwasepolia:0xdae5f89335e84e8dc51d857f20f17cc93e80c17b",
+   "chaincontract:giwasepolia:0xdc2ff7a4ea2d620da7310f89cbae9b8c27ee62fe",
    "chaincontract:giwasepolia:0xdc78a5dee5ca75f3c5910e32547839480073b818",
    "chaincontract:giwasepolia:0xdd674df265c75c36590ce2e87fb8a2bb63974b62",
    "chaincontract:giwasepolia:0xddf170a19f8977d0f887f4fa77b2ffefc526c54a",
