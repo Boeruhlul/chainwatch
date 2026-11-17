@@ -18123,6 +18123,55 @@
     "github"
    ]
   },
+  "quinvium": {
+   "id": "quinvium",
+   "name": "Quinvium",
+   "aliases": [
+    "Quinvium"
+   ],
+   "keys": [
+    "d:quinvium.com",
+    "id:52401",
+    "n:quinvium"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 52401",
+     "url": "https://github.com/ethereum-lists/chains/pull/9095",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "52401"
+   ],
+   "website": "https://quinvium.com",
+   "architecture": "EVM",
+   "github": "https://github.com/Lakylife",
+   "rpc": [
+    "https://rpc.quinvium.com"
+   ],
+   "explorer": "https://explorer.quinvium.com",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "qvtx": {
    "id": "qvtx",
    "name": "QVTX",
