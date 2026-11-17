@@ -5755,6 +5755,138 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:steemvm:0x1e5625244c25fd1f8230aa37931ae63a5e7c164f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SherpaV3Factory op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x1e5625244c25fd1f8230aa37931ae63a5e7c164f",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x1e5625244c25fd1f8230aa37931ae63a5e7c164f"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x377c9f86be6492c73609ebd44411a8ab7f674699",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SherpaPreLaunchDistribution op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x377c9f86be6492c73609ebd44411a8ab7f674699",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x377c9f86be6492c73609ebd44411a8ab7f674699"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x3954c677910544f67ca8adb40da2e52f0e92e819",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FarmController op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x3954c677910544f67ca8adb40da2e52f0e92e819",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x3954c677910544f67ca8adb40da2e52f0e92e819"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x61cdf7673e3931020e64f1b1b518c51106a6d3ae",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StakingVault op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x61cdf7673e3931020e64f1b1b518c51106a6d3ae",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x61cdf7673e3931020e64f1b1b518c51106a6d3ae"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NonfungibleTokenPositionDescriptorOffChain op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x75f1dd12df56493749b56bc95d033ebcda7ae9dc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SherpaV3PoolDeployer op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x75f1dd12df56493749b56bc95d033ebcda7ae9dc",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x75f1dd12df56493749b56bc95d033ebcda7ae9dc"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x94ed96f925786698fc1003b3053f716fc10be989",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FarmFactory op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x94ed96f925786698fc1003b3053f716fc10be989",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x94ed96f925786698fc1003b3053f716fc10be989"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0x9c915c9b99e8f369c95562ba61cba30817e62cea",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NonfungiblePositionManager op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0x9c915c9b99e8f369c95562ba61cba30817e62cea",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0x9c915c9b99e8f369c95562ba61cba30817e62cea"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SwapRouter op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0xbf265f50a0dc055bc9a62f9bdd75422314159b0d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SherpaPredictionMarket op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0xbf265f50a0dc055bc9a62f9bdd75422314159b0d",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0xbf265f50a0dc055bc9a62f9bdd75422314159b0d"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:steemvm:0xf1047df66870243f07f0e001dceb3d2fc1614af4",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FarmBoosterV2 op SteemVM",
+   "url": "https://evmscan.steemvmscan.com/address/0xf1047df66870243f07f0e001dceb3d2fc1614af4",
+   "meta": {
+    "chain": "SteemVM",
+    "addr": "0xf1047df66870243f07f0e001dceb3d2fc1614af4"
+   },
+   "date": "2026-11-17"
+  },
+  {
    "key": "pr:bitcoin/bips#2359",
    "title": "bip379: Advance to Deployed",
    "url": "https://github.com/bitcoin/bips/pull/2359",
@@ -6108,6 +6240,17 @@
    "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30011",
    "chaincontract:rwachain:0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30012",
    "chaincontract:rwachain:0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+   "chaincontract:steemvm:0x1e5625244c25fd1f8230aa37931ae63a5e7c164f",
+   "chaincontract:steemvm:0x377c9f86be6492c73609ebd44411a8ab7f674699",
+   "chaincontract:steemvm:0x3954c677910544f67ca8adb40da2e52f0e92e819",
+   "chaincontract:steemvm:0x61cdf7673e3931020e64f1b1b518c51106a6d3ae",
+   "chaincontract:steemvm:0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d",
+   "chaincontract:steemvm:0x75f1dd12df56493749b56bc95d033ebcda7ae9dc",
+   "chaincontract:steemvm:0x94ed96f925786698fc1003b3053f716fc10be989",
+   "chaincontract:steemvm:0x9c915c9b99e8f369c95562ba61cba30817e62cea",
+   "chaincontract:steemvm:0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec",
+   "chaincontract:steemvm:0xbf265f50a0dc055bc9a62f9bdd75422314159b0d",
+   "chaincontract:steemvm:0xf1047df66870243f07f0e001dceb3d2fc1614af4",
    "chaincontract:twotrader:0x155cf116dfbfa2c5f10f73137755051f1ecf40b9",
    "chaincontract:twotrader:0x41eba3cc73d07f3ea82e15b77b70a511c599113f",
    "chaincontract:twotrader:0x5902963acc81be695b7fac379295623e76071c4e",
