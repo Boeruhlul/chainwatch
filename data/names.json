@@ -3557,6 +3557,7 @@
   "prm:test",
   "probe11:test",
   "probe31:test",
+  "probe32:test",
   "probechain:main",
   "prom:main",
   "prom:test",
