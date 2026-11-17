@@ -19635,6 +19635,24 @@
     },
     {
      "date": "2026-11-17",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 54004",
+     "url": "https://chainlist.org/chain/54004",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 54040",
+     "url": "https://chainlist.org/chain/54040",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
