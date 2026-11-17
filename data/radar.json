@@ -5753,6 +5753,18 @@
    "src": "verified-contracts",
    "date": "2026-11-16",
    "dossier": null
+  },
+  {
+   "key": "pr:bitcoin/bips#2359",
+   "title": "bip379: Advance to Deployed",
+   "url": "https://github.com/bitcoin/bips/pull/2359",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-16"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-17"
   }
  ],
  "seen": {
@@ -6436,6 +6448,7 @@
    "pr:bitcoin/bips#2356",
    "pr:bitcoin/bips#2357",
    "pr:bitcoin/bips#2358",
+   "pr:bitcoin/bips#2359",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
