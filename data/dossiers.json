@@ -19606,15 +19606,21 @@
    "keys": [
     "d:shinerium.org",
     "id:5019",
+    "id:54004",
+    "id:54040",
     "n:shinerium"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-04",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-17",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-04"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-17"
     }
    ],
    "evidence": [
@@ -19626,10 +19632,32 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 5019",
      "url": "https://github.com/ethereum-lists/chains/pull/9022",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 54040",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-54040.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 54004",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-54004.json",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "5019"
+    "5019",
+    "54004",
+    "54040"
    ],
    "website": "https://shinerium.org",
    "architecture": "EVM",
@@ -19639,7 +19667,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-17"
   },
   "simplechain": {
    "id": "simplechain",
