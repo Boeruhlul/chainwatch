@@ -5927,6 +5927,18 @@
    "date": "2026-11-17"
   },
   {
+   "key": "chaincontract:qms:0xa6186794795b6de28f41d4017c253d6ce21e1d8c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "FixedPriceSale op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xa6186794795b6de28f41d4017c253d6ce21e1d8c",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xa6186794795b6de28f41d4017c253d6ce21e1d8c"
+   },
+   "date": "2026-11-17"
+  },
+  {
    "key": "chaincontract:qms:0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6574,6 +6586,7 @@
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
    "chaincontract:qms:0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
+   "chaincontract:qms:0xa6186794795b6de28f41d4017c253d6ce21e1d8c",
    "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
    "chaincontract:qms:0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
    "chaincontract:qms:0xb0835ad460270c89dd621a9d29775e01ee89e83e",
