@@ -20598,11 +20598,15 @@
    ],
    "firstSeen": "2026-11-06",
    "lastActivity": "2026-11-17",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-06"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-17"
     }
    ],
    "evidence": [
@@ -20623,6 +20627,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 81630",
      "url": "https://github.com/ethereum-lists/chains/pull/9093",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 81630",
+     "url": "https://github.com/ethereum-lists/chains/pull/9093",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20635,14 +20648,15 @@
     "https://api.steemvmscan.com",
     "https://evm.steemvmscan.com"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 81630)"
    ],
    "families": [
     "register"
    ],
-   "explorer": "https://evmscan.steemvmscan.com"
+   "explorer": "https://evmscan.steemvmscan.com",
+   "liveRpc": "https://evm.steemvmscan.com"
   },
   "strato": {
    "id": "strato",
