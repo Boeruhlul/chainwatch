@@ -4361,6 +4361,44 @@
     "github"
    ]
   },
+  "derivev3": {
+   "id": "derivev3",
+   "name": "derivev3",
+   "aliases": [
+    "derivev3"
+   ],
+   "keys": [
+    "n:derivev3"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/derivev3",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "developerprogram": {
    "id": "developerprogram",
    "name": "Developer Program",
@@ -17801,6 +17839,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x344d07a1…",
      "url": "https://testnet.qmsscan.io/address/0x344d07a1d869469fb4250bbd692ca143e37b1a23",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xeb79d4cd…",
+     "url": "https://testnet.qmsscan.io/address/0xeb79d4cdc34e2f18ab5b9652d2e876f8e47595ff",
      "strength": "running"
     }
    ],
