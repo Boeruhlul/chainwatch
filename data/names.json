@@ -3485,6 +3485,7 @@
   "pmonchain:main",
   "pmt:main",
   "pmt:pre",
+  "poabitcoin:lead",
   "poanetworkcore:main",
   "poanetworksokol:main",
   "poc:test",
