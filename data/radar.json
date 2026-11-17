@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-16",
+ "lastSent": "2026-11-17",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -5472,7 +5472,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x3b1d679d6cfa5f2e92832affbf516319204d767f"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
@@ -5484,7 +5485,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xbcda19ccf2aa05ec031bf3afe503834230b23a47",
@@ -5509,7 +5511,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0xc8ef125aa945af92144ecadc39cee1a0b7415a70"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0xdd674df265c75c36590ce2e87fb8a2bb63974b62",
@@ -5564,7 +5567,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30405",
@@ -5593,7 +5597,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:ethresear.ch:26261",
@@ -5607,7 +5612,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31773",
@@ -5621,7 +5627,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:forum.arbitrum.foundation:31774",
@@ -5635,7 +5642,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:forum.celestia.org:2344",
@@ -5649,7 +5657,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17590",
@@ -5663,7 +5672,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "forum:forum.polygon.technology:22581",
@@ -5677,7 +5687,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "pr:bitcoin/bips#2358",
@@ -5689,7 +5700,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12668",
@@ -5701,7 +5713,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": "frame"
   },
   {
    "key": "pr:ethereum/eips#12669",
@@ -5713,7 +5726,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12670",
@@ -5725,7 +5739,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2180",
@@ -5737,7 +5752,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-16"
+   "date": "2026-11-16",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
@@ -5764,7 +5780,8 @@
     "chain": "SteemVM",
     "addr": "0x1e5625244c25fd1f8230aa37931ae63a5e7c164f"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x377c9f86be6492c73609ebd44411a8ab7f674699",
@@ -5776,7 +5793,8 @@
     "chain": "SteemVM",
     "addr": "0x377c9f86be6492c73609ebd44411a8ab7f674699"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x3954c677910544f67ca8adb40da2e52f0e92e819",
@@ -5788,7 +5806,8 @@
     "chain": "SteemVM",
     "addr": "0x3954c677910544f67ca8adb40da2e52f0e92e819"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x61cdf7673e3931020e64f1b1b518c51106a6d3ae",
@@ -5800,7 +5819,8 @@
     "chain": "SteemVM",
     "addr": "0x61cdf7673e3931020e64f1b1b518c51106a6d3ae"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d",
@@ -5812,7 +5832,8 @@
     "chain": "SteemVM",
     "addr": "0x6ecb09133cec1d06c26cb0135d9f5b6da132b75d"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x75f1dd12df56493749b56bc95d033ebcda7ae9dc",
@@ -5824,7 +5845,8 @@
     "chain": "SteemVM",
     "addr": "0x75f1dd12df56493749b56bc95d033ebcda7ae9dc"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x94ed96f925786698fc1003b3053f716fc10be989",
@@ -5836,7 +5858,8 @@
     "chain": "SteemVM",
     "addr": "0x94ed96f925786698fc1003b3053f716fc10be989"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0x9c915c9b99e8f369c95562ba61cba30817e62cea",
@@ -5848,7 +5871,8 @@
     "chain": "SteemVM",
     "addr": "0x9c915c9b99e8f369c95562ba61cba30817e62cea"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec",
@@ -5860,7 +5884,8 @@
     "chain": "SteemVM",
     "addr": "0xac8e38d3aecbd24f441c65496a62ac9c72f1c5ec"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0xbf265f50a0dc055bc9a62f9bdd75422314159b0d",
@@ -5872,7 +5897,8 @@
     "chain": "SteemVM",
     "addr": "0xbf265f50a0dc055bc9a62f9bdd75422314159b0d"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "chaincontract:steemvm:0xf1047df66870243f07f0e001dceb3d2fc1614af4",
@@ -5884,7 +5910,8 @@
     "chain": "SteemVM",
     "addr": "0xf1047df66870243f07f0e001dceb3d2fc1614af4"
    },
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": "steemvm"
   },
   {
    "key": "pr:bitcoin/bips#2359",
@@ -5896,7 +5923,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2181",
@@ -5908,7 +5936,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2182",
@@ -5920,7 +5949,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
@@ -5934,7 +5964,8 @@
    },
    "cat": "contracten",
    "src": "verified-contracts",
-   "date": "2026-11-17"
+   "date": "2026-11-17",
+   "dossier": null
   }
  ],
  "seen": {
