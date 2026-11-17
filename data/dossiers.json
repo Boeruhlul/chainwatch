@@ -6941,6 +6941,44 @@
     "github"
    ]
   },
+  "firstaccessexchangechain": {
+   "id": "firstaccessexchangechain",
+   "name": "firstaccessexchange/chain",
+   "aliases": [
+    "firstaccessexchange/chain"
+   ],
+   "keys": [
+    "gh:firstaccessexchange"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/firstaccessexchange/chain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "flopnetwork": {
    "id": "flopnetwork",
    "name": "FLOP Network",
