@@ -20110,6 +20110,53 @@
     ]
    }
   },
+  "skyxnetwork": {
+   "id": "skyxnetwork",
+   "name": "SkyX Network",
+   "aliases": [
+    "SkyX Network"
+   ],
+   "keys": [
+    "d:skytradepro.com",
+    "id:7599",
+    "n:skyxnetwork"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 7599",
+     "url": "https://github.com/ethereum-lists/chains/pull/9096",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "7599"
+   ],
+   "website": "https://pro.skytradepro.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://evm-rpc.skytradepro.com"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "slavenftlemonbrothers": {
    "id": "slavenftlemonbrothers",
    "name": "SlaveNft/lemon-brothers",
