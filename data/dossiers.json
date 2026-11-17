@@ -9111,6 +9111,43 @@
     ]
    }
   },
+  "kite": {
+   "id": "kite",
+   "name": "Kite",
+   "aliases": [
+    "Kite"
+   ],
+   "keys": [
+    "n:kite"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/yuzhiyang1/kite-agent-ledger",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "kiteai": {
    "id": "kiteai",
    "name": "Kite AI",

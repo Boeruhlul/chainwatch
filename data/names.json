@@ -2402,6 +2402,7 @@
   "kintsugi:main",
   "kintsugi:test",
   "kishorejeetransactionprocessor:lead",
+  "kite:lead",
   "kiteai:main",
   "kiteai:research",
   "kiteai:test",
