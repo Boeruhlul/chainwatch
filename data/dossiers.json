@@ -16906,6 +16906,54 @@
     "launchpad": []
    }
   },
+  "primium": {
+   "id": "primium",
+   "name": "Primium",
+   "aliases": [
+    "Primium"
+   ],
+   "keys": [
+    "d:codexnetwork.org",
+    "id:1234571",
+    "n:primium"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastActivity": "2026-11-17",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-17"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 1234571",
+     "url": "https://github.com/ethereum-lists/chains/pull/9094",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "1234571"
+   ],
+   "website": "https://staking-testnet.codexnetwork.org/",
+   "architecture": "EVM",
+   "rpc": [
+    "https://node1-testnet.codexnetwork.org"
+   ],
+   "explorer": "https://explorer-testnet.codexnetwork.org",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "prismchain": {
    "id": "prismchain",
    "name": "Prism Chain",
