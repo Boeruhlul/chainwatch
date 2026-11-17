@@ -18136,10 +18136,14 @@
    ],
    "firstSeen": "2026-11-17",
    "lastActivity": "2026-11-17",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-17"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-17"
     }
    ],
@@ -18152,6 +18156,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 52401",
      "url": "https://github.com/ethereum-lists/chains/pull/9095",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 52401",
+     "url": "https://github.com/ethereum-lists/chains/pull/9095",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -18164,13 +18177,14 @@
     "https://rpc.quinvium.com"
    ],
    "explorer": "https://explorer.quinvium.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 52401)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.quinvium.com"
   },
   "qvtx": {
    "id": "qvtx",
