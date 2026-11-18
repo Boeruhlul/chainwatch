@@ -5896,6 +5896,18 @@
    "date": "2026-11-18"
   },
   {
+   "key": "chaincontract:giwasepolia:0x741e929c7b7c480d04774cbdb5e47a590f626783",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CurveFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x741e929c7b7c480d04774cbdb5e47a590f626783",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x741e929c7b7c480d04774cbdb5e47a590f626783"
+   },
+   "date": "2026-11-18"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x9b1bd59a7cfcb0e074dab85ad9e3514091866109",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6255,6 +6267,7 @@
    "chaincontract:giwasepolia:0x73684acf40d98b9f6c1bda94ee6cf902ed2cca69",
    "chaincontract:giwasepolia:0x738f319267782da16fc905b098fe82b03b24f08e",
    "chaincontract:giwasepolia:0x73f4b58b8c7be99a8cc065d31ee7bef8a45bd6f7",
+   "chaincontract:giwasepolia:0x741e929c7b7c480d04774cbdb5e47a590f626783",
    "chaincontract:giwasepolia:0x7521f9c0981b83f626b68e185ecf8c9f9de416c5",
    "chaincontract:giwasepolia:0x7633e670f85164a87db710b8415df79236eca0fb",
    "chaincontract:giwasepolia:0x7816dfa2eb24705f6a9433958e55c055b80f20cc",
