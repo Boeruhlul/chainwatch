@@ -22126,6 +22126,15 @@
     },
     {
      "date": "2026-11-18",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 731",
+     "url": "https://chainlist.org/chain/731",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-18",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
