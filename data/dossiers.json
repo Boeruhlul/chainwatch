@@ -6457,6 +6457,46 @@
     "github"
    ]
   },
+  "encryptlock": {
+   "id": "encryptlock",
+   "name": "encryptlock",
+   "aliases": [
+    "encryptlock"
+   ],
+   "keys": [
+    "n:encryptlock"
+   ],
+   "firstSeen": "2026-11-18",
+   "lastActivity": "2026-11-18",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-18"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-18",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/encryptlock",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos",
+   "mainnetSince": "2026-11-18",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "eninetwork": {
    "id": "eninetwork",
    "name": "ENI Network",
@@ -8264,6 +8304,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "hoodiummainchain": {
+   "id": "hoodiummainchain",
+   "name": "Hoodium Mainchain",
+   "aliases": [
+    "Hoodium Mainchain"
+   ],
+   "keys": [
+    "n:hoodiummainchain"
+   ],
+   "firstSeen": "2026-11-18",
+   "lastActivity": "2026-11-18",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-18"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-18",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/hoodium-io/faucet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "hskchain": {
