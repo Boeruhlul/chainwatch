@@ -6053,6 +6053,30 @@
    "date": "2026-11-18"
   },
   {
+   "key": "pr:ethereum/ercs#2183",
+   "title": "Add ERC: Onchain Announcements",
+   "url": "https://github.com/ethereum/ERCs/pull/2183",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-18"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-18"
+  },
+  {
+   "key": "pr:ethereum/ercs#2184",
+   "title": "Update ERC-8376: Move to Last Call",
+   "url": "https://github.com/ethereum/ERCs/pull/2184",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-18"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-18"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "title": "DisputeGameFactory geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x93340773439B9D47E3ea4e8b805C378e7Dea2e9D",
@@ -6986,6 +7010,8 @@
    "pr:ethereum/ercs#2180",
    "pr:ethereum/ercs#2181",
    "pr:ethereum/ercs#2182",
+   "pr:ethereum/ercs#2183",
+   "pr:ethereum/ercs#2184",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
