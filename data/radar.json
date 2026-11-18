@@ -6080,6 +6080,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:ethresear.ch:26264",
+   "title": "Reveal a key, not a payload: sending the ePBS payload before the reveal",
+   "url": "https://ethresear.ch/t/reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal/26264",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "forum:forum.cosmos.network:17600",
    "title": "Disabling tokenization on staked ATOM: what the lock stops and what it doesn't",
    "url": "https://forum.cosmos.network/t/disabling-tokenization-on-staked-atom-what-the-lock-stops-and-what-it-doesnt/17600",
@@ -6728,6 +6742,7 @@
    "forum:ethresear.ch:26246",
    "forum:ethresear.ch:26261",
    "forum:ethresear.ch:26263",
+   "forum:ethresear.ch:26264",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
