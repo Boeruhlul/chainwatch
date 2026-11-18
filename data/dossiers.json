@@ -23343,6 +23343,43 @@
    ],
    "liveRpc": "https://testnet.valuechain.xyz"
   },
+  "variational": {
+   "id": "variational",
+   "name": "Variational",
+   "aliases": [
+    "Variational"
+   ],
+   "keys": [
+    "n:variational"
+   ],
+   "firstSeen": "2026-11-18",
+   "lastActivity": "2026-11-18",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-18"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-18",
+     "source": "funding-rss",
+     "family": "nieuws",
+     "kind": "lead",
+     "what": "funding-rss: aanwijzing · funding",
+     "url": "https://www.theblock.co/news/deals/2026-11-18-variational-raises-110-million-at-1-5-billion-valuation-to-expand-onchain-derivatives-trading-443445",
+     "strength": "soft"
+    }
+   ],
+   "confidence": "D",
+   "reasons": [
+    "alleen nieuws"
+   ],
+   "families": [
+    "nieuws"
+   ]
+  },
   "verifiable": {
    "id": "verifiable",
    "name": "Verifiable",
