@@ -16525,6 +16525,55 @@
    ],
    "liveRpc": "https://rpc.pisochain.com"
   },
+  "pkwchain": {
+   "id": "pkwchain",
+   "name": "PKW Chain",
+   "aliases": [
+    "PKW Chain"
+   ],
+   "keys": [
+    "d:wolfdevempire.com",
+    "id:20269",
+    "n:pkwchain"
+   ],
+   "firstSeen": "2026-11-18",
+   "lastActivity": "2026-11-18",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-18"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-18",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 20269",
+     "url": "https://github.com/ethereum-lists/chains/pull/9097",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "20269"
+   ],
+   "website": "https://wolfdevempire.com",
+   "architecture": "EVM",
+   "github": "https://github.com/mozdevs",
+   "rpc": [
+    "https://api.pkwblockchain.website"
+   ],
+   "explorer": "https://explorer.pkwblockchain.website",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "plebeianappauctionsmvp": {
    "id": "plebeianappauctionsmvp",
    "name": "PlebeianApp/auctions-mvp",
