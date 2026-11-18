@@ -5910,6 +5910,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:ethereum-magicians.org:30428",
+   "title": "ERC: Onchain Announcements",
+   "url": "https://ethereum-magicians.org/t/erc-onchain-announcements/30428",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "title": "DisputeGameFactory geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x93340773439B9D47E3ea4e8b805C378e7Dea2e9D",
@@ -6475,6 +6489,7 @@
    "forum:ethereum-magicians.org:30405",
    "forum:ethereum-magicians.org:30411",
    "forum:ethereum-magicians.org:30421",
+   "forum:ethereum-magicians.org:30428",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
