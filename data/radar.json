@@ -5920,6 +5920,18 @@
    "date": "2026-11-18"
   },
   {
+   "key": "chaincontract:giwasepolia:0xe958049fee2a61f1e96243239c4d76f91b9b19b5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniversalRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xe958049fee2a61f1e96243239c4d76f91b9b19b5",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xe958049fee2a61f1e96243239c4d76f91b9b19b5"
+   },
+   "date": "2026-11-18"
+  },
+  {
    "key": "chaincontract:midas:0x3d02f93e8a336def07c8abde5072ad36e8ed29aa",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6272,6 +6284,7 @@
    "chaincontract:giwasepolia:0xe8f5cee659b44cbd82c75606cccffe9dc98da59f",
    "chaincontract:giwasepolia:0xe927e645f139c240efaa4b55f889cabf73508bdc",
    "chaincontract:giwasepolia:0xe94cea90d446b6f4b22063aac415aadd16863688",
+   "chaincontract:giwasepolia:0xe958049fee2a61f1e96243239c4d76f91b9b19b5",
    "chaincontract:giwasepolia:0xeb872f2064373a7d17fd805c1adb40dacdf34a34",
    "chaincontract:giwasepolia:0xee2cede06966214bab55148d3e51dbf47651f574",
    "chaincontract:giwasepolia:0xee44281124c36a2ac5e3d70c6afdef5ce1006622",
