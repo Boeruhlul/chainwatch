@@ -5860,6 +5860,18 @@
    "date": "2026-11-17"
   },
   {
+   "key": "chaincontract:midas:0x3d02f93e8a336def07c8abde5072ad36e8ed29aa",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "OracleAdapter op Midas",
+   "url": "https://explorer.testnet.onmidas.xyz/address/0x3d02f93e8a336def07c8abde5072ad36e8ed29aa",
+   "meta": {
+    "chain": "Midas",
+    "addr": "0x3d02f93e8a336def07c8abde5072ad36e8ed29aa"
+   },
+   "date": "2026-11-18"
+  },
+  {
    "key": "chaincontract:midas:0x63653308abecf76cae8a946cedd36eb06eae9f0a",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6212,6 +6224,7 @@
    "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
    "chaincontract:latheon:0x0000000000000000000000000000000000000068",
    "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
+   "chaincontract:midas:0x3d02f93e8a336def07c8abde5072ad36e8ed29aa",
    "chaincontract:midas:0x63653308abecf76cae8a946cedd36eb06eae9f0a",
    "chaincontract:midas:0x89ea8c262a5612cd5c44a37613d2553b4bfe4ff2",
    "chaincontract:midas:0xc968b1667f5b0a6392b793b55dab81ad20dc445b",
