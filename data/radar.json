@@ -94,17 +94,6 @@
    "website": "https://rialo.io"
   },
   {
-   "id": "telcoinnetwork",
-   "name": "Telcoin Network",
-   "score": 5,
-   "why": [
-    "points/airdrop genoemd",
-    "nog geen mainnet (testnet)"
-   ],
-   "stage": "testnet",
-   "website": "https://telcoin.network"
-  },
-  {
    "id": "vibevibe",
    "name": "vibe/vibe",
    "score": 5,

@@ -22088,8 +22088,8 @@
     "n:telcoinnetwork"
    ],
    "firstSeen": "2026-11-04",
-   "lastActivity": "2026-11-09",
-   "stage": "testnet",
+   "lastActivity": "2026-11-18",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -22098,6 +22098,10 @@
     {
      "stage": "testnet",
      "date": "2026-11-09"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-18"
     }
    ],
    "evidence": [
@@ -22119,6 +22123,16 @@
      "url": "https://cryptonews.net/news/altcoins/33711286/",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 731",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-731.json",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -22163,7 +22177,8 @@
     "ecosystem": null,
     "file": "2026-11-09-weekly.json"
    },
-   "org": "Telcoin"
+   "org": "Telcoin",
+   "mainnetSince": "2026-11-18"
   },
   "tempo": {
    "id": "tempo",
