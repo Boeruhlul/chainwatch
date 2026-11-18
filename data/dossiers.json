@@ -3825,11 +3825,12 @@
    ],
    "keys": [
     "d:platformd.io",
-    "id:430"
+    "id:430",
+    "id:433"
    ],
    "firstSeen": "2026-11-09",
-   "lastActivity": "2026-11-09",
-   "stage": "testnet",
+   "lastActivity": "2026-11-18",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -3838,6 +3839,10 @@
     {
      "stage": "testnet",
      "date": "2026-11-09"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-18"
     }
    ],
    "evidence": [
@@ -3859,15 +3864,35 @@
      "url": "https://github.com/ethereum-lists/chains/pull/9035",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 433",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-433.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 430",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-430.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "430"
+    "430",
+    "433"
    ],
    "website": "https://platformd.io",
    "architecture": "EVM",
    "rpc": [
-    "https://eth-testnet.platformd.io"
+    "https://eth-testnet.platformd.io",
+    "https://eth.platformd.io"
    ],
    "confidence": "A",
    "reasons": [
@@ -3876,7 +3901,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://eth-testnet.platformd.io"
+   "liveRpc": "https://eth-testnet.platformd.io",
+   "mainnetSince": "2026-11-18"
   },
   "dacinterstellar": {
    "id": "dacinterstellar",
