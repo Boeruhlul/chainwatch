@@ -6120,6 +6120,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:ethresear.ch:26265",
+   "title": "Encrypted Account: a PIN that lives in the contract",
+   "url": "https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 21
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31775",
    "title": "Deprecation Notice: eth_sendRawTransactionConditional",
    "url": "https://forum.arbitrum.foundation/t/deprecation-notice-eth-sendrawtransactionconditional/31775",
@@ -6797,6 +6811,7 @@
    "forum:ethresear.ch:26261",
    "forum:ethresear.ch:26263",
    "forum:ethresear.ch:26264",
+   "forum:ethresear.ch:26265",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
