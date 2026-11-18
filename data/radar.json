@@ -5885,6 +5885,18 @@
    "date": "2026-11-18"
   },
   {
+   "key": "chaincontract:giwasepolia:0x3d5a0d7e2d99ab42da9fefce878e60783b26bd5e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "MapaePool op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x3d5a0d7e2d99ab42da9fefce878e60783b26bd5e",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x3d5a0d7e2d99ab42da9fefce878e60783b26bd5e"
+   },
+   "date": "2026-11-18"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6066,6 +6078,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:ethereum-magicians.org:30436",
+   "title": "EIP-0000: Dynamic individual consolidation incentive",
+   "url": "https://ethereum-magicians.org/t/eip-0000-dynamic-individual-consolidation-incentive/30436",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "forum:ethresear.ch:26263",
    "title": "EIP-8288: the networking side of recursive aggregation",
    "url": "https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263",
@@ -6088,6 +6114,20 @@
     "created": "2026-11-18",
     "posts": 1,
     "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
+   "key": "forum:forum.arbitrum.foundation:31775",
+   "title": "Deprecation Notice: eth_sendRawTransactionConditional",
+   "url": "https://forum.arbitrum.foundation/t/deprecation-notice-eth-sendrawtransactionconditional/31775",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 7
    },
    "cat": "techniek",
    "src": "forums",
@@ -6277,6 +6317,7 @@
    "chaincontract:giwasepolia:0x3b1d679d6cfa5f2e92832affbf516319204d767f",
    "chaincontract:giwasepolia:0x3be84d789357ff44ffc8301a76585b6556660e24",
    "chaincontract:giwasepolia:0x3d3ad542a0953797b5537f19d6aec84c8b6fc227",
+   "chaincontract:giwasepolia:0x3d5a0d7e2d99ab42da9fefce878e60783b26bd5e",
    "chaincontract:giwasepolia:0x3ed11f7bcc36b3603d51736652884800daa2f54c",
    "chaincontract:giwasepolia:0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70",
    "chaincontract:giwasepolia:0x4120ecbfb2f790356afe70cf226ee25e255463ed",
@@ -6723,6 +6764,7 @@
    "forum:ethereum-magicians.org:30428",
    "forum:ethereum-magicians.org:30430",
    "forum:ethereum-magicians.org:30433",
+   "forum:ethereum-magicians.org:30436",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6771,6 +6813,7 @@
    "forum:forum.arbitrum.foundation:31682",
    "forum:forum.arbitrum.foundation:31773",
    "forum:forum.arbitrum.foundation:31774",
+   "forum:forum.arbitrum.foundation:31775",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
