@@ -3825,6 +3825,7 @@
    ],
    "keys": [
     "d:platformd.io",
+    "d:platoformd.io",
     "id:430",
     "id:433"
    ],
@@ -3863,6 +3864,24 @@
      "what": "ethlists-pr: RPC antwoordt · ID 430",
      "url": "https://github.com/ethereum-lists/chains/pull/9035",
      "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 433",
+     "url": "https://chainlist.org/chain/433",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 430",
+     "url": "https://chainlist.org/chain/430",
      "strength": "running"
     },
     {
