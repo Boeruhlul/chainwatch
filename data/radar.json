@@ -5896,6 +5896,18 @@
    "date": "2026-11-18"
   },
   {
+   "key": "chaincontract:giwasepolia:0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SwapRouter02 op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70"
+   },
+   "date": "2026-11-18"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x741e929c7b7c480d04774cbdb5e47a590f626783",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6045,6 +6057,20 @@
     "created": "2026-11-18",
     "posts": 1,
     "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
+   "key": "forum:ethresear.ch:26263",
+   "title": "EIP-8288: the networking side of recursive aggregation",
+   "url": "https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 11
    },
    "cat": "techniek",
    "src": "forums",
@@ -6223,6 +6249,7 @@
    "chaincontract:giwasepolia:0x3be84d789357ff44ffc8301a76585b6556660e24",
    "chaincontract:giwasepolia:0x3d3ad542a0953797b5537f19d6aec84c8b6fc227",
    "chaincontract:giwasepolia:0x3ed11f7bcc36b3603d51736652884800daa2f54c",
+   "chaincontract:giwasepolia:0x3f3b2887f2cfa2626faea5233bbcb9aa6f165b70",
    "chaincontract:giwasepolia:0x4120ecbfb2f790356afe70cf226ee25e255463ed",
    "chaincontract:giwasepolia:0x41e83e352390d267932d5c4f65164b80d3156ca4",
    "chaincontract:giwasepolia:0x42d276e70aec7d5a921b9a9c696404f2b722fea5",
@@ -6696,6 +6723,7 @@
    "forum:ethresear.ch:26244",
    "forum:ethresear.ch:26246",
    "forum:ethresear.ch:26261",
+   "forum:ethresear.ch:26263",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
