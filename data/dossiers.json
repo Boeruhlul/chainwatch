@@ -7000,6 +7000,43 @@
     "onderzoek"
    ]
   },
+  "fiber": {
+   "id": "fiber",
+   "name": "Fiber",
+   "aliases": [
+    "Fiber"
+   ],
+   "keys": [
+    "n:fiber"
+   ],
+   "firstSeen": "2026-11-18",
+   "lastActivity": "2026-11-18",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-18"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-18",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/trungdev26/sql-pocket-fiber-demo",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "finalchain": {
    "id": "finalchain",
    "name": "Final Chain",
