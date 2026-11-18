@@ -5858,6 +5858,18 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-17"
+  },
+  {
+   "key": "chaincontract:qms:0x5cef4936a15b8831027f447b18daededf8fd5817",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x5cef4936a15b8831027f447b18daededf8fd5817",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x5cef4936a15b8831027f447b18daededf8fd5817"
+   },
+   "date": "2026-11-18"
   }
  ],
  "seen": {
@@ -6168,6 +6180,7 @@
    "chaincontract:qms:0x487d7051845d4fe6d6c4b2055ef7d6e2d3e142df",
    "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "chaincontract:qms:0x5cef4936a15b8831027f447b18daededf8fd5817",
    "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "chaincontract:qms:0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a",
    "chaincontract:qms:0x6cb5ac4c0e6b77e21e819ba9d10937792495021b",
