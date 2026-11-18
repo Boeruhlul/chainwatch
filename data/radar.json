@@ -6001,6 +6001,34 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30430",
+   "title": "Add EIP: eth/74 - STARK Proof Exchange",
+   "url": "https://ethereum-magicians.org/t/add-eip-eth-74-stark-proof-exchange/30430",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17600",
+   "title": "Disabling tokenization on staked ATOM: what the lock stops and what it doesn't",
+   "url": "https://forum.cosmos.network/t/disabling-tokenization-on-staked-atom-what-the-lock-stops-and-what-it-doesnt/17600",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "title": "DisputeGameFactory geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x93340773439B9D47E3ea4e8b805C378e7Dea2e9D",
@@ -6574,6 +6602,7 @@
    "forum:ethereum-magicians.org:30411",
    "forum:ethereum-magicians.org:30421",
    "forum:ethereum-magicians.org:30428",
+   "forum:ethereum-magicians.org:30430",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6653,6 +6682,7 @@
    "forum:forum.cosmos.network:17586",
    "forum:forum.cosmos.network:17590",
    "forum:forum.cosmos.network:17592",
+   "forum:forum.cosmos.network:17600",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
