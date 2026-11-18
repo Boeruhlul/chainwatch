@@ -16538,10 +16538,14 @@
    ],
    "firstSeen": "2026-11-18",
    "lastActivity": "2026-11-18",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-18"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-18"
     }
    ],
@@ -16554,6 +16558,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 20269",
      "url": "https://github.com/ethereum-lists/chains/pull/9097",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 20269",
+     "url": "https://github.com/ethereum-lists/chains/pull/9097",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -16566,13 +16579,14 @@
     "https://api.pkwblockchain.website"
    ],
    "explorer": "https://explorer.pkwblockchain.website",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 20269)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://api.pkwblockchain.website"
   },
   "plebeianappauctionsmvp": {
    "id": "plebeianappauctionsmvp",
