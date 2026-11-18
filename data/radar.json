@@ -5872,6 +5872,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:delvingbitcoin.org:3088",
+   "title": "How much BTC sits behind keys or scripts already on chain (block 975,019)",
+   "url": "https://delvingbitcoin.org/t/how-much-btc-sits-behind-keys-or-scripts-already-on-chain-block-975-019/3088",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "title": "DisputeGameFactory geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x93340773439B9D47E3ea4e8b805C378e7Dea2e9D",
@@ -6352,6 +6366,7 @@
    "forum:delvingbitcoin.org:3072",
    "forum:delvingbitcoin.org:3078",
    "forum:delvingbitcoin.org:3079",
+   "forum:delvingbitcoin.org:3088",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
