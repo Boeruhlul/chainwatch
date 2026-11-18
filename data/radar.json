@@ -6063,6 +6063,20 @@
    "date": "2026-11-18"
   },
   {
+   "key": "forum:ethereum-magicians.org:30433",
+   "title": "P2P networking #11 November 18, 2026",
+   "url": "https://ethereum-magicians.org/t/p2p-networking-11-november-18-2026/30433",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-18",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-18"
+  },
+  {
    "key": "forum:ethresear.ch:26263",
    "title": "EIP-8288: the networking side of recursive aggregation",
    "url": "https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263",
@@ -6693,6 +6707,7 @@
    "forum:ethereum-magicians.org:30421",
    "forum:ethereum-magicians.org:30428",
    "forum:ethereum-magicians.org:30430",
+   "forum:ethereum-magicians.org:30433",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
