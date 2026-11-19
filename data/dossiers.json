@@ -18868,6 +18868,55 @@
     "register"
    ]
   },
+  "quantumaiblockchain": {
+   "id": "quantumaiblockchain",
+   "name": "QuantumAI Blockchain",
+   "aliases": [
+    "QuantumAI Blockchain"
+   ],
+   "keys": [
+    "d:qbc.network",
+    "id:3303",
+    "n:quantumaiblockchain"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 3303",
+     "url": "https://github.com/ethereum-lists/chains/pull/9112",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "3303"
+   ],
+   "website": "https://qbc.network",
+   "architecture": "EVM",
+   "github": "https://github.com/QuantumAI-Blockchain",
+   "rpc": [
+    "https://qvm.qbc.network/jsonrpc"
+   ],
+   "explorer": "https://qbc.network/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "quantusnetwork": {
    "id": "quantusnetwork",
    "name": "Quantus Network",
