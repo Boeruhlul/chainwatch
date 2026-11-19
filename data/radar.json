@@ -5490,6 +5490,30 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x6aa10ec111c18ff2e1f4ee8d431cccb6bd66de6a",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CurveSale op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x6aa10ec111c18ff2e1f4ee8d431cccb6bd66de6a",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x6aa10ec111c18ff2e1f4ee8d431cccb6bd66de6a"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0x9330c662b6f1d807eceb8b34363531409a6b573b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CurveSale op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x9330c662b6f1d807eceb8b34363531409a6b573b",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x9330c662b6f1d807eceb8b34363531409a6b573b"
+   },
+   "date": "2026-11-19"
+  },
+  {
    "key": "chaincontract:qms:0xf8168839705f80fa628f484d59b477924124eaea",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5499,6 +5523,20 @@
     "chain": "QMS",
     "addr": "0xf8168839705f80fa628f484d59b477924124eaea"
    },
+   "date": "2026-11-19"
+  },
+  {
+   "key": "forum:forum.solana.com:5329",
+   "title": "SGP-XXXX: Reclaiming Network Value Through a Phased \"3-2-1\" Compute-Unit Burn Schedule",
+   "url": "https://forum.solana.com/t/sgp-xxxx-reclaiming-network-value-through-a-phased-3-2-1-compute-unit-burn-schedule/5329",
+   "meta": {
+    "forum": "forum.solana.com",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
    "date": "2026-11-19"
   },
   {
@@ -5638,6 +5676,7 @@
    "chaincontract:giwasepolia:0x67229c8bb4d6847d516a5d0b0ed2c6e07fb0535f",
    "chaincontract:giwasepolia:0x69aa901c15bdcc0810e15065291672ca08c7a36f",
    "chaincontract:giwasepolia:0x6a0cbfe4e3a980fc1618b882f2472e4caf96e50a",
+   "chaincontract:giwasepolia:0x6aa10ec111c18ff2e1f4ee8d431cccb6bd66de6a",
    "chaincontract:giwasepolia:0x6bbbf7baafa0f91cf93493c4bf08538cf82bf649",
    "chaincontract:giwasepolia:0x6c29384b98806e1f9630af45c0b883532b930f6f",
    "chaincontract:giwasepolia:0x7082458ba328aecc3aa723b296e6064ee6f637df",
@@ -5670,6 +5709,7 @@
    "chaincontract:giwasepolia:0x8e2c237cad6637d3b6cc16058f10429bee4978f2",
    "chaincontract:giwasepolia:0x91a5c62abb9d81360b916ec605ed0123c3e3f1b0",
    "chaincontract:giwasepolia:0x92eb8a643618846646d590c42dbc2d557f2c1de0",
+   "chaincontract:giwasepolia:0x9330c662b6f1d807eceb8b34363531409a6b573b",
    "chaincontract:giwasepolia:0x9546d653cdc5cdf027e128ce945dd8ee326cac82",
    "chaincontract:giwasepolia:0x95b3d1ba2cf7e3fa8dba0ba3eb1d1dc894b8b237",
    "chaincontract:giwasepolia:0x96290f53fd49f90801f258299a658cbae686222f",
@@ -6157,6 +6197,7 @@
    "forum:forum.polygon.technology:22586",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
+   "forum:forum.solana.com:5329",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
