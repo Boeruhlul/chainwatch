@@ -17519,10 +17519,14 @@
    ],
    "firstSeen": "2026-11-19",
    "lastActivity": "2026-11-19",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-19"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-19"
     }
    ],
@@ -17535,6 +17539,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 20777",
      "url": "https://github.com/ethereum-lists/chains/pull/9110",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 20777",
+     "url": "https://github.com/ethereum-lists/chains/pull/9110",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -17548,13 +17562,14 @@
     "https://rpc-testnet2.pqwerai.com"
    ],
    "explorer": "https://explorer.pqwerai.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 20777)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-testnet.pqwerai.com"
   },
   "prana": {
    "id": "prana",
@@ -20342,19 +20357,25 @@
    "aliases": [
     "sepolia-devnet-4",
     "sepolia-devnet-5",
-    "sepolia-devnet-6"
+    "sepolia-devnet-6",
+    "op-int-0",
+    "uni-int-0"
    ],
    "keys": [
     "d:optimism.io",
     "id:420130019",
     "id:420130020",
     "id:420130021",
+    "id:420130023",
+    "id:420130024",
+    "n:opint0",
     "n:sepoliadevnet4",
     "n:sepoliadevnet5",
-    "n:sepoliadevnet6"
+    "n:sepoliadevnet6",
+    "n:uniint0"
    ],
    "firstSeen": "2026-11-06",
-   "lastActivity": "2026-11-06",
+   "lastActivity": "2026-11-19",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -20389,12 +20410,32 @@
      "what": "superchain: testnet · ID 420130021",
      "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnet-6/sepolia-devnet-6",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "superchain",
+     "family": "register",
+     "kind": "testnet",
+     "what": "superchain: testnet · ID 420130023",
+     "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnets/op-int-0",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "superchain",
+     "family": "register",
+     "kind": "testnet",
+     "what": "superchain: testnet · ID 420130024",
+     "url": "https://github.com/ethereum-optimism/superchain-registry/tree/main/superchain/configs/sepolia-devnets/uni-int-0",
+     "strength": "running"
     }
    ],
    "chainIds": [
     "420130019",
     "420130020",
-    "420130021"
+    "420130021",
+    "420130023",
+    "420130024"
    ],
    "website": "https://optimism.io",
    "architecture": "EVM (OP Stack)",
@@ -20402,7 +20443,8 @@
    "rpc": [
     "https://sepolia-devnet-4.optimism.io/rpc",
     "https://sepolia-devnet-5.optimism.io/rpc",
-    "https://sepolia-devnet-6.optimism.io/rpc"
+    "https://sepolia-devnet-6.optimism.io/rpc",
+    "https://op-int-0.optimism.io/rpc"
    ],
    "confidence": "A",
    "reasons": [
