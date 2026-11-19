@@ -5676,6 +5676,34 @@
    "date": "2026-11-19"
   },
   {
+   "key": "forum:ethereum-magicians.org:30448",
+   "title": "Add EIP: Dependency frames for leanSPHINCS signatures",
+   "url": "https://ethereum-magicians.org/t/add-eip-dependency-frames-for-leansphincs-signatures/30448",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
+   "key": "forum:ethresear.ch:26268",
+   "title": "Probing Ethereum nodes using Sonar",
+   "url": "https://ethresear.ch/t/probing-ethereum-nodes-using-sonar/26268",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
    "key": "forum:forum.solana.com:5329",
    "title": "SGP-XXXX: Reclaiming Network Value Through a Phased \"3-2-1\" Compute-Unit Burn Schedule",
    "url": "https://forum.solana.com/t/sgp-xxxx-reclaiming-network-value-through-a-phased-3-2-1-compute-unit-burn-schedule/5329",
@@ -6278,6 +6306,7 @@
    "forum:ethereum-magicians.org:30433",
    "forum:ethereum-magicians.org:30436",
    "forum:ethereum-magicians.org:30447",
+   "forum:ethereum-magicians.org:30448",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -6311,6 +6340,7 @@
    "forum:ethresear.ch:26263",
    "forum:ethresear.ch:26264",
    "forum:ethresear.ch:26265",
+   "forum:ethresear.ch:26268",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
