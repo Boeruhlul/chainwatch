@@ -5562,6 +5562,34 @@
    "dossier": null
   },
   {
+   "key": "forum:community.starknet.io:116483",
+   "title": "SNIP-45: Staked STRK Vote Delegation to Validators",
+   "url": "https://community.starknet.io/t/snip-45-staked-strk-vote-delegation-to-validators/116483",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30447",
+   "title": "Draft ERC: Evaluated Work Records",
+   "url": "https://ethereum-magicians.org/t/draft-erc-evaluated-work-records/30447",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
    "key": "forum:forum.solana.com:5329",
    "title": "SGP-XXXX: Reclaiming Network Value Through a Phased \"3-2-1\" Compute-Unit Burn Schedule",
    "url": "https://forum.solana.com/t/sgp-xxxx-reclaiming-network-value-through-a-phased-3-2-1-compute-unit-burn-schedule/5329",
@@ -6031,6 +6059,7 @@
    "forum:community.starknet.io:116471",
    "forum:community.starknet.io:116473",
    "forum:community.starknet.io:116475",
+   "forum:community.starknet.io:116483",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
@@ -6143,6 +6172,7 @@
    "forum:ethereum-magicians.org:30430",
    "forum:ethereum-magicians.org:30433",
    "forum:ethereum-magicians.org:30436",
+   "forum:ethereum-magicians.org:30447",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
