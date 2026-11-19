@@ -10564,6 +10564,54 @@
    ],
    "liveRpc": "https://api.luxaecosystem.xyz"
   },
+  "lxon": {
+   "id": "lxon",
+   "name": "LXON",
+   "aliases": [
+    "LXON"
+   ],
+   "keys": [
+    "d:lxon.in",
+    "id:724",
+    "n:lxon"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 724",
+     "url": "https://github.com/ethereum-lists/chains/pull/9107",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "724"
+   ],
+   "website": "https://lxon.in",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.lxon.in"
+   ],
+   "explorer": "https://explorer.lxon.in",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "maroo": {
    "id": "maroo",
    "name": "Maroo",
