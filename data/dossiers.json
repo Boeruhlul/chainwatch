@@ -7721,15 +7721,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xf0b44374…",
-     "url": "https://sepolia-explorer.giwa.io/address/0xf0b44374641bcf1d46169a4003cea5eb60e87103",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x0c6ab0b9…",
      "url": "https://sepolia-explorer.giwa.io/address/0x0c6ab0b9ad2f1bb37fa4127272b6ca284112f16d",
      "strength": "running"
@@ -7975,6 +7966,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xa3990eea…",
      "url": "https://sepolia-explorer.giwa.io/address/0xa3990eeaf5079d99f28d1cf008ea84b8eeeca506",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xefb4bfc2…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xefb4bfc2a2980416bf383fdfe6bf10e6c82123a2",
      "strength": "running"
     }
    ],
