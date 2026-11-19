@@ -10613,6 +10613,54 @@
     "github"
    ]
   },
+  "lumera": {
+   "id": "lumera",
+   "name": "Lumera",
+   "aliases": [
+    "Lumera"
+   ],
+   "keys": [
+    "d:lumera.io",
+    "id:76857769",
+    "n:lumera"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 76857769",
+     "url": "https://github.com/ethereum-lists/chains/pull/9114",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "76857769"
+   ],
+   "website": "https://lumera.io",
+   "architecture": "EVM",
+   "github": "https://github.com/LumeraProtocol",
+   "rpc": [
+    "https://evm-rpc.lumera.io"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "luxa": {
    "id": "luxa",
    "name": "luxa",
