@@ -479,6 +479,7 @@
   "ghrepo:blen1205/devnetss",
   "ghrepo:blkplrbr/sql-employee-hierarchy-rollup",
   "ghrepo:block52/pokerchain-go-client",
+  "ghrepo:blockchain-oracle/joge",
   "ghrepo:blockchains/monadefi-portal",
   "ghrepo:blockmazerwa/blockmaze-chain",
   "ghrepo:blocra-hq/blocra-backend",
@@ -1256,6 +1257,7 @@
   "ghrepo:jaydestro/cosmos-agentic-support-api",
   "ghrepo:jaypee1031/cyberpunk-night-city-drive",
   "ghrepo:jaysid97/solagent",
+  "ghrepo:jaytrades21/audacity",
   "ghrepo:jbassignana/lineage",
   "ghrepo:jcb995-gif/crash-nitro-kart-igb-editor",
   "ghrepo:jclavalle/stableflow",
@@ -1831,6 +1833,7 @@
   "ghrepo:novalabs-xdev/python_gestionnaire_contact",
   "ghrepo:novativez/pathwise",
   "ghrepo:nowo-tech/shortlinkbundle",
+  "ghrepo:ns-judicael/tp-poo-judicael-wilky",
   "ghrepo:nsevejk0/accord-near",
   "ghrepo:nsevejk0/facet-near",
   "ghrepo:nsevejk0/sealwork-next",
@@ -2293,6 +2296,7 @@
   "ghrepo:sifatnotes/secbyte-soc-analyst-career-path-red-purple-team-simulations-ctf-labs",
   "ghrepo:sightcocoonvalley/fabfilter-l-2026",
   "ghrepo:signalarity/experimental-dynamic-coinbase-maturity",
+  "ghrepo:siliconcordat/weft",
   "ghrepo:silvan-devnet/autocor-lab",
   "ghrepo:silverback-png/kwartel",
   "ghrepo:simonekatz/maria-rollup",
@@ -2574,6 +2578,7 @@
   "ghrepo:trannam229/k5-l2-day04-tranquangnam-2a202603118-keypointpose",
   "ghrepo:transitfabric/releases",
   "ghrepo:trash-toya/ana",
+  "ghrepo:trench-launches/audacity",
   "ghrepo:trenchy-tools/trenchytools-boxa-launcher",
   "ghrepo:trenchy-tools/trenchytools-elysium-launcher",
   "ghrepo:trenchy-tools/trenchytools-montra-launcher",
@@ -2888,5 +2893,6 @@
   "ghrepo:zxw19/wio-tracker-l2-meshtastic-stt",
   "ghrepo:zxw19/wiocraft-l2",
   "ghrepo:zyqzyq18521/c2e--2026-layer2-",
-  "ghrepo:zzzyyyddd/agentledger-os"
+  "ghrepo:zzzyyyddd/agentledger-os",
+  "ghrepo:zzzyyyddd/ink-position-guardian"
 ]
