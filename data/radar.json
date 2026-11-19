@@ -5740,6 +5740,20 @@
    "date": "2026-11-19"
   },
   {
+   "key": "forum:forum.polygon.technology:22595",
+   "title": "Can a Logistics Software Development Services Provider Build Carrier Payment Escrow on Polygon? Six Teams Compared",
+   "url": "https://forum.polygon.technology/t/can-a-logistics-software-development-services-provider-build-carrier-payment-escrow-on-polygon-six-teams-compared/22595",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
    "key": "forum:forum.solana.com:5329",
    "title": "SGP-XXXX: Reclaiming Network Value Through a Phased \"3-2-1\" Compute-Unit Burn Schedule",
    "url": "https://forum.solana.com/t/sgp-xxxx-reclaiming-network-value-through-a-phased-3-2-1-compute-unit-burn-schedule/5329",
@@ -5753,6 +5767,20 @@
    "src": "forums",
    "date": "2026-11-19",
    "dossier": "phase"
+  },
+  {
+   "key": "forum:gov.optimism.io:10991",
+   "title": "Security Council: Lead Election",
+   "url": "https://gov.optimism.io/t/security-council-lead-election/10991",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 21
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
   },
   {
    "key": "job:greenhouse:coinbase:8397873",
@@ -6451,6 +6479,7 @@
    "forum:forum.polygon.technology:22576",
    "forum:forum.polygon.technology:22581",
    "forum:forum.polygon.technology:22586",
+   "forum:forum.polygon.technology:22595",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
@@ -6483,7 +6512,8 @@
    "forum:gov.optimism.io:10950",
    "forum:gov.optimism.io:10966",
    "forum:gov.optimism.io:10978",
-   "forum:gov.optimism.io:10987"
+   "forum:gov.optimism.io:10987",
+   "forum:gov.optimism.io:10991"
   ],
   "immunefi": [
    "immunefi:metric",
