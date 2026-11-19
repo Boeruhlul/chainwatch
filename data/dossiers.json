@@ -10474,6 +10474,46 @@
     "github"
    ]
   },
+  "longyul2longyul2": {
+   "id": "longyul2longyul2",
+   "name": "Longyu-L2/LongyuL2",
+   "aliases": [
+    "Longyu-L2/LongyuL2"
+   ],
+   "keys": [
+    "d:longyu.network",
+    "gh:longyu-l2"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Longyu-L2/LongyuL2",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://longyu.network",
+   "architecture": "genesis, OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "ltc": {
    "id": "ltc",
    "name": "LTC",
