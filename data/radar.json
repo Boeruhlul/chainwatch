@@ -5993,6 +5993,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-19"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
+   "title": "StateTransitionManager geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x1eF14C4afbD73B2FAf8A1F1Bc31F088d4cE1d548",
+   "meta": {
+    "name": "StateTransitionManager",
+    "chain": "eth",
+    "addr": "0x1eF14C4afbD73B2FAf8A1F1Bc31F088d4cE1d548",
+    "verified": "2026-11-19"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-19"
   }
  ],
  "seen": {
@@ -6949,6 +6963,7 @@
    "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
    "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
+   "vc:eth.blockscout.com:0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
    "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
    "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
