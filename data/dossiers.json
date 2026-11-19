@@ -18445,6 +18445,43 @@
    "liveRpc": "https://rpc.qday.io",
    "mainnetSince": "2026-11-16"
   },
+  "qie": {
+   "id": "qie",
+   "name": "QIE",
+   "aliases": [
+    "QIE"
+   ],
+   "keys": [
+    "n:qie"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Makabeez/qie-sentinel",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "qieblockchain": {
    "id": "qieblockchain",
    "name": "QIE Blockchain",
