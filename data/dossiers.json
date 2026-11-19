@@ -11292,7 +11292,7 @@
     "n:mirasmandauat"
    ],
    "firstSeen": "2026-11-10",
-   "lastActivity": "2026-11-10",
+   "lastActivity": "2026-11-19",
    "stage": "draait",
    "stageHistory": [
     {
@@ -11321,6 +11321,15 @@
      "kind": "launched",
      "what": "ethlists-pr: RPC antwoordt · ID 1215655279",
      "url": "https://github.com/ethereum-lists/chains/pull/9042",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 1215655279",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1215655279.json",
      "strength": "running"
     }
    ],

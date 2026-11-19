@@ -2855,6 +2855,7 @@
   "mirage:main",
   "mirasmanda:test",
   "mirasmandauat:pre",
+  "mirasmandauat:test",
   "mirotst92:test",
   "mirotst93:test",
   "mises:main",
