@@ -24423,6 +24423,53 @@
     "https://api.xpexpex.com"
    ]
   },
+  "yentria": {
+   "id": "yentria",
+   "name": "YENTRIA",
+   "aliases": [
+    "YENTRIA"
+   ],
+   "keys": [
+    "id:44089",
+    "n:yentria"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "glacier",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "glacier: mainnet · ID 44089",
+     "url": "https://explorer.avax.network/yentria",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "44089"
+   ],
+   "architecture": "Avalanche",
+   "rpc": [
+    "https://l1.avax.network/yentria/mainnet/rpc"
+   ],
+   "explorer": "https://explorer.avax.network/yentria",
+   "mainnetSince": "2026-11-19",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (glacier: mainnet · ID 44089)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "yochain": {
    "id": "yochain",
    "name": "YoChain",
