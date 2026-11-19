@@ -14719,7 +14719,8 @@
    "keys": [
     "a:0x03f266f7edc82539f8299fabc9914f75a6e8036a",
     "a:0x81a134ea790426b7c4ae0cf07c922add4e12ca47",
-    "id:778899004"
+    "id:778899004",
+    "n:nieuwerollupchainid778899004"
    ],
    "firstSeen": "2026-11-19",
    "lastActivity": "2026-11-19",
@@ -14740,18 +14741,27 @@
      "url": "https://basescan.org/address/0x81a134ea790426b7c4ae0cf07c922add4e12ca47",
      "stealthKind": "factory",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-19",
+     "family": "overig",
+     "kind": "launched",
+     "what": "undefined: RPC antwoordt · ID 778899004",
+     "url": "https://basescan.org/address/0x81a134ea790426b7c4ae0cf07c922add4e12ca47",
+     "strength": "running"
     }
    ],
    "chainIds": [
     "778899004"
    ],
    "architecture": "EVM (Arbitrum Orbit)",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (onchain)"
+    "draaiend netwerk aangetoond (undefined: RPC antwoordt · ID 778899004)"
    ],
    "families": [
-    "onchain"
+    "onchain",
+    "overig"
    ]
   },
   "niveshgajengifuinzcash": {
