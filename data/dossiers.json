@@ -24468,7 +24468,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://l1.avax.network/yentria/mainnet/rpc"
   },
   "yochain": {
    "id": "yochain",
