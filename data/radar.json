@@ -5629,6 +5629,18 @@
    "src": "proposals",
    "date": "2026-11-19",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2185",
+   "title": "Add ERC: Evaluated Work Records",
+   "url": "https://github.com/ethereum/ERCs/pull/2185",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-19"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-19"
   }
  ],
  "seen": {
@@ -6540,6 +6552,7 @@
    "pr:ethereum/ercs#2182",
    "pr:ethereum/ercs#2183",
    "pr:ethereum/ercs#2184",
+   "pr:ethereum/ercs#2185",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
