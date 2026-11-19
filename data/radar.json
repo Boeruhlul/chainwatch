@@ -5500,6 +5500,18 @@
     "addr": "0xf8168839705f80fa628f484d59b477924124eaea"
    },
    "date": "2026-11-19"
+  },
+  {
+   "key": "job:greenhouse:coinbase:8397873",
+   "title": "Coinbase: Staff Product Designer, Onchain Yield & Investments ",
+   "url": "https://www.coinbase.com/careers/positions/8397873?gh_jid=8397873",
+   "meta": {
+    "company": "Coinbase",
+    "location": "Remote - USA"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-19"
   }
  ],
  "seen": {
@@ -6192,6 +6204,7 @@
    "job:greenhouse:coinbase:8104873",
    "job:greenhouse:coinbase:8105437",
    "job:greenhouse:coinbase:8234278",
+   "job:greenhouse:coinbase:8397873",
    "job:greenhouse:okx:7990958003",
    "job:greenhouse:okx:8157974003",
    "job:greenhouse:ripple:8206128",
