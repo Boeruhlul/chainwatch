@@ -5812,6 +5812,34 @@
    "date": "2026-11-19"
   },
   {
+   "key": "forum:ethresear.ch:26271",
+   "title": "Anatomy of a Fill: PropAMMs on Ethereum",
+   "url": "https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
+   "key": "forum:forum.cosmos.network:17603",
+   "title": "Hub Weekly Update #25: November 19, 2026",
+   "url": "https://forum.cosmos.network/t/hub-weekly-update-25-november-19-2026/17603",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
    "key": "forum:forum.polygon.technology:22595",
    "title": "Can a Logistics Software Development Services Provider Build Carrier Payment Escrow on Polygon? Six Teams Compared",
    "url": "https://forum.polygon.technology/t/can-a-logistics-software-development-services-provider-build-carrier-payment-escrow-on-polygon-six-teams-compared/22595",
@@ -6510,6 +6538,7 @@
    "forum:ethresear.ch:26264",
    "forum:ethresear.ch:26265",
    "forum:ethresear.ch:26268",
+   "forum:ethresear.ch:26271",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -6561,6 +6590,7 @@
    "forum:forum.cosmos.network:17590",
    "forum:forum.cosmos.network:17592",
    "forum:forum.cosmos.network:17600",
+   "forum:forum.cosmos.network:17603",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
