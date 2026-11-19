@@ -777,6 +777,54 @@
     "github"
    ]
   },
+  "apnnetwork": {
+   "id": "apnnetwork",
+   "name": "APN NETWORK",
+   "aliases": [
+    "APN NETWORK"
+   ],
+   "keys": [
+    "d:apnprotocol.ng",
+    "id:2342026",
+    "n:apnnetwork"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 2342026",
+     "url": "https://github.com/ethereum-lists/chains/pull/9108",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "2342026"
+   ],
+   "website": "https://apnprotocol.ng",
+   "architecture": "EVM",
+   "rpc": [
+    "https://apnprotocol.ng/api/rpc"
+   ],
+   "explorer": "https://apnprotocol.ng/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "armchain": {
    "id": "armchain",
    "name": "ARMchain",
