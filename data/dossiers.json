@@ -20030,6 +20030,56 @@
    "org": "Robinhood",
    "mainnetSince": "2026-10-28"
   },
+  "rubin": {
+   "id": "rubin",
+   "name": "Rubin",
+   "aliases": [
+    "Rubin"
+   ],
+   "keys": [
+    "d:rubin.trade",
+    "id:111984",
+    "n:rubin"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastActivity": "2026-11-19",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-19"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 111984",
+     "url": "https://github.com/ethereum-lists/chains/pull/9113",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "111984"
+   ],
+   "website": "https://rubin.trade",
+   "architecture": "EVM",
+   "github": "https://github.com/rubin-trade",
+   "rpc": [
+    "https://evm-rpc.mainnet.rubin.trade",
+    "https://evm-rpc.mainnet.ritbit.xyz"
+   ],
+   "explorer": "https://explorer.rubin.trade/ritbit-mainnet",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "rwachain": {
    "id": "rwachain",
    "name": "RWA Chain",
