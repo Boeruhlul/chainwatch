@@ -5855,6 +5855,30 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-19"
+  },
+  {
+   "key": "pr:ethereum/ercs#2186",
+   "title": "Website: Explicit participants and unique trade IDs",
+   "url": "https://github.com/ethereum/ERCs/pull/2186",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-19"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-19"
+  },
+  {
+   "key": "pr:ethereum/ercs#2187",
+   "title": "Update ERC-8100: Add external templates and text resources",
+   "url": "https://github.com/ethereum/ERCs/pull/2187",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-19"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-19"
   }
  ],
  "seen": {
@@ -6784,6 +6808,8 @@
    "pr:ethereum/ercs#2183",
    "pr:ethereum/ercs#2184",
    "pr:ethereum/ercs#2185",
+   "pr:ethereum/ercs#2186",
+   "pr:ethereum/ercs#2187",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
