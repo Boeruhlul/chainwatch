@@ -11287,6 +11287,7 @@
     "Mirasmanda UAT"
    ],
    "keys": [
+    "d:asterium.uz",
     "d:mirasmanda.uz",
     "id:1215655279",
     "n:mirasmandauat"
@@ -11321,6 +11322,15 @@
      "kind": "launched",
      "what": "ethlists-pr: RPC antwoordt · ID 1215655279",
      "url": "https://github.com/ethereum-lists/chains/pull/9042",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 1215655279",
+     "url": "https://chainlist.org/chain/1215655279",
      "strength": "running"
     },
     {
