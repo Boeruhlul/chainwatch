@@ -5064,6 +5064,7 @@
   "zetachain:main",
   "zetachain:test",
   "zetachainathens:test",
+  "zetaphy:main",
   "zetaphy:pre",
   "zetaphy:test",
   "zether:main",

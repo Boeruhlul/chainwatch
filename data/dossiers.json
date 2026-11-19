@@ -25437,7 +25437,8 @@
    "id": "zetaphy",
    "name": "ZETAPHY",
    "aliases": [
-    "ZETAPHY"
+    "ZETAPHY",
+    "zetaphy"
    ],
    "keys": [
     "d:sawasdeecoin.com",
@@ -25447,8 +25448,8 @@
     "n:zetaphy"
    ],
    "firstSeen": "2026-10-22",
-   "lastActivity": "2026-11-14",
-   "stage": "draait",
+   "lastActivity": "2026-11-19",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "testnet",
@@ -25457,6 +25458,10 @@
     {
      "stage": "draait",
      "date": "2026-11-14"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-19"
     }
    ],
    "evidence": [
@@ -25533,6 +25538,16 @@
      "what": "ethlists-pr: RPC antwoordt · ID 3659",
      "url": "https://github.com/ethereum-lists/chains/pull/9079",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/zetaphy",
+     "noRpc": true,
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -25555,7 +25570,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "mainnetSince": "2026-11-19"
   },
   "zetaphy-2": {
    "id": "zetaphy-2",
