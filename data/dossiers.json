@@ -91,10 +91,14 @@
    ],
    "firstSeen": "2026-11-19",
    "lastActivity": "2026-11-19",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-19"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-19"
     }
    ],
@@ -107,6 +111,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 122766",
      "url": "https://github.com/ethereum-lists/chains/pull/9111",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 122766",
+     "url": "https://github.com/ethereum-lists/chains/pull/9111",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -117,13 +131,14 @@
    "rpc": [
     "https://testnet.acechain.io/rpc"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 122766)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://testnet.acechain.io/rpc"
   },
   "acinetwork": {
    "id": "acinetwork",
