@@ -5600,6 +5600,20 @@
    "date": "2026-11-19"
   },
   {
+   "key": "forum:community.starknet.io:116484",
+   "title": "Mint Square Exploit: 0.0549 ETH Drained via Deprecated Approval – Request for Direct Reimbursement & Wallet Safeguards",
+   "url": "https://community.starknet.io/t/mint-square-exploit-0-0549-eth-drained-via-deprecated-approval-request-for-direct-reimbursement-wallet-safeguards/116484",
+   "meta": {
+    "forum": "community.starknet.io",
+    "created": "2026-11-19",
+    "posts": 1,
+    "views": 22
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-19"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30447",
    "title": "Draft ERC: Evaluated Work Records",
    "url": "https://ethereum-magicians.org/t/draft-erc-evaluated-work-records/30447",
@@ -6098,6 +6112,7 @@
    "forum:community.starknet.io:116473",
    "forum:community.starknet.io:116475",
    "forum:community.starknet.io:116483",
+   "forum:community.starknet.io:116484",
    "forum:delvingbitcoin.org:2967",
    "forum:delvingbitcoin.org:2969",
    "forum:delvingbitcoin.org:2970",
