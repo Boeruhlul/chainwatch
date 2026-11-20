@@ -15503,6 +15503,15 @@
     },
     {
      "date": "2026-11-20",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x887fe40b…",
+     "url": "https://explorer.nvdachain.com/address/0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-20",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "launched",
@@ -15522,12 +15531,24 @@
    "explorer": "https://explorer.nvdachain.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 32768)"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v2-fork) 0x887fe40b…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
-   "liveRpc": "https://rpc.nvdachain.com"
+   "liveRpc": "https://rpc.nvdachain.com",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-20"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "nvnmchain": {
    "id": "nvnmchain",
