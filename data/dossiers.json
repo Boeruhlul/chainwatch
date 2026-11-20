@@ -24595,6 +24595,43 @@
     "github"
    ]
   },
+  "version": {
+   "id": "version",
+   "name": "Version",
+   "aliases": [
+    "Version"
+   ],
+   "keys": [
+    "n:version"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/doappnew/ValueConvert-M",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "vibevibe": {
    "id": "vibevibe",
    "name": "vibe/vibe",
