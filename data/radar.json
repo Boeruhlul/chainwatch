@@ -5626,6 +5626,20 @@
    "date": "2026-11-20"
   },
   {
+   "key": "forum:ethereum-magicians.org:30453",
+   "title": "Draft ERC: AI Inference Token Onchain (AITO) - consumable entitlements to AI inference supply, with metering, authorized consumption and settlement",
+   "url": "https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-20",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-20"
+  },
+  {
    "key": "immunefi:audit-comp-base-everest",
    "title": "Audit Comp | Base Everest",
    "url": "https://immunefi.com/bug-bounty/audit-comp-base-everest/",
@@ -6205,6 +6219,7 @@
    "forum:ethereum-magicians.org:30436",
    "forum:ethereum-magicians.org:30447",
    "forum:ethereum-magicians.org:30448",
+   "forum:ethereum-magicians.org:30453",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
