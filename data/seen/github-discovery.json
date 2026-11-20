@@ -606,6 +606,7 @@
   "ghrepo:ciperx/tacit-explorer",
   "ghrepo:circlefin/arc-asset-issuer",
   "ghrepo:circlefin/arc-neobank",
+  "ghrepo:cirwel/countersign",
   "ghrepo:ckb-idl/script-registry",
   "ghrepo:ckb-service-runner/runsimulation-testnet",
   "ghrepo:ckyxx/devnet-public-1",
