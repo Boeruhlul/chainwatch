@@ -5670,6 +5670,18 @@
    "date": "2026-11-20"
   },
   {
+   "key": "chaincontract:giwasepolia:0xdda69ae83ba0b6d5d98de365a1d0380b8545e501",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GiwaCatMarketplace op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xdda69ae83ba0b6d5d98de365a1d0380b8545e501",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xdda69ae83ba0b6d5d98de365a1d0380b8545e501"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "key": "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6294,6 +6306,7 @@
    "chaincontract:giwasepolia:0xdc4f84b093c578723c037b9137032f4d58a60361",
    "chaincontract:giwasepolia:0xdc78a5dee5ca75f3c5910e32547839480073b818",
    "chaincontract:giwasepolia:0xdd674df265c75c36590ce2e87fb8a2bb63974b62",
+   "chaincontract:giwasepolia:0xdda69ae83ba0b6d5d98de365a1d0380b8545e501",
    "chaincontract:giwasepolia:0xddf170a19f8977d0f887f4fa77b2ffefc526c54a",
    "chaincontract:giwasepolia:0xde7f839d4eab1868b83b6057778d65b14be8d233",
    "chaincontract:giwasepolia:0xdecff7d95efba576e25ef79efee9aed11acc35b2",
