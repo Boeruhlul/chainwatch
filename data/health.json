@@ -44,9 +44,7 @@
     "ok": true
   },
   "hyperlane": {
-    "ok": false,
-    "error": "HTTP 503 voor https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/main/chains/metadata.yaml",
-    "failingSince": "2026-11-20T11:35:31.394Z",
+    "ok": true,
     "lastNotifiedAt": "2026-11-20T11:35:31.394Z"
   },
   "blockscout": {
