@@ -3683,6 +3683,7 @@
   "qms:lead",
   "qms:pre",
   "qms:test",
+  "qom:pre",
   "qomone:main",
   "qorechain9801andqorechaintestnet9800:pre",
   "qorechain:main",

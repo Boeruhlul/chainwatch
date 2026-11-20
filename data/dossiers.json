@@ -19141,6 +19141,54 @@
     "launchpad": []
    }
   },
+  "qom": {
+   "id": "qom",
+   "name": "QOM",
+   "aliases": [
+    "QOM"
+   ],
+   "keys": [
+    "d:qomx.io",
+    "id:33303",
+    "n:qom"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 33303",
+     "url": "https://github.com/ethereum-lists/chains/pull/9121",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "33303"
+   ],
+   "website": "https://qomx.io",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.qomx.io"
+   ],
+   "explorer": "https://scan.qomx.io",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "qorechaindiana": {
    "id": "qorechaindiana",
    "name": "QoreChain Diana",
