@@ -5707,6 +5707,18 @@
    "dossier": "nvdachain"
   },
   {
+   "key": "chaincontract:nvdachain:0x0b4c41b4b4e25a9f4a5a47f079363786dac690b9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RemoteLaunch op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x0b4c41b4b4e25a9f4a5a47f079363786dac690b9",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x0b4c41b4b4e25a9f4a5a47f079363786dac690b9"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "key": "chaincontract:nvdachain:0x13e9ed32155810fdbd067d4522c492d6f68e5944",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6498,6 +6510,7 @@
    "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
    "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
    "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
+   "chaincontract:nvdachain:0x0b4c41b4b4e25a9f4a5a47f079363786dac690b9",
    "chaincontract:nvdachain:0x13e9ed32155810fdbd067d4522c492d6f68e5944",
    "chaincontract:nvdachain:0x3468b97f7eb194e176e33ae80ba99531e21de633",
    "chaincontract:nvdachain:0x4675281d7bf999af01243503941961ebdac3f41d",
