@@ -5804,6 +5804,18 @@
    "date": "2026-11-20"
   },
   {
+   "key": "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "WarrantVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x363e657fc8c8df213ac35f675aeca0c3e6805a16"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5812,6 +5824,18 @@
    "meta": {
     "chain": "QDAY Aevum",
     "addr": "0x4079f1a0f75458997dcd1a768170b96086276b47"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "WarrantFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x66687369d9c683aaaadae98b747b63ee7e0662e3",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x66687369d9c683aaaadae98b747b63ee7e0662e3"
    },
    "date": "2026-11-20"
   },
@@ -6352,7 +6376,9 @@
    "chaincontract:prana:0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b",
    "chaincontract:prana:0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
    "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
+   "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
    "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
+   "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xca1f3bfdfc4004eef19111b8d4d2e420744198ce",
