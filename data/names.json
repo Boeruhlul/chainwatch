@@ -2756,6 +2756,7 @@
   "memecore:main",
   "memecoreformicarium:test",
   "memento:main",
+  "memento:pre",
   "memento:test",
   "memo:main",
   "memosmartchain:test",

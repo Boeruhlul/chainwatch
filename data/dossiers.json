@@ -11039,6 +11039,50 @@
    ],
    "liveRpc": "https://rpc.mayachain.io"
   },
+  "memento": {
+   "id": "memento",
+   "name": "Memento",
+   "aliases": [
+    "Memento"
+   ],
+   "keys": [
+    "d:mementoblockchain.com",
+    "id:88288",
+    "n:memento"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 88288",
+     "url": "https://github.com/ethereum-lists/chains/pull/9116",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "88288"
+   ],
+   "website": "https://mementoblockchain.com",
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "mersennet": {
    "id": "mersennet",
    "name": "Mersennet",
