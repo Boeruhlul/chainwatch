@@ -20511,6 +20511,44 @@
    "org": "Robinhood",
    "mainnetSince": "2026-10-28"
   },
+  "rubianaseemgtmagentlangfusetracing": {
+   "id": "rubianaseemgtmagentlangfusetracing",
+   "name": "rubianaseem/gtm-agent-langfuse-tracing",
+   "aliases": [
+    "rubianaseem/gtm-agent-langfuse-tracing"
+   ],
+   "keys": [
+    "gh:rubianaseem"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/rubianaseem/gtm-agent-langfuse-tracing",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "rubin": {
    "id": "rubin",
    "name": "Rubin",
