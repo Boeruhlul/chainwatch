@@ -938,6 +938,7 @@
   "coinsecnetwork:main",
   "coinwebbnbshard:main",
   "coinzax:main",
+  "collect:main",
   "colossussepolia:test",
   "colouredlavenderblackbird:test",
   "columbustestnetwork:main",

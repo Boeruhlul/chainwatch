@@ -3438,6 +3438,55 @@
     "register"
    ]
   },
+  "collect": {
+   "id": "collect",
+   "name": "Collect",
+   "aliases": [
+    "Collect"
+   ],
+   "keys": [
+    "d:collectscan.com",
+    "id:201400007",
+    "n:collect"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "hyperlane",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "hyperlane: mainnet · ID 201400007",
+     "url": "https://github.com/hyperlane-xyz/hyperlane-registry/tree/main/chains/collect",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "201400007"
+   ],
+   "website": "https://collectscan.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://collect-mainnet.optimism.io/rpc"
+   ],
+   "explorer": "https://collectscan.com",
+   "mainnetSince": "2026-11-20",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (hyperlane: mainnet · ID 201400007)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "commonfoundry": {
    "id": "commonfoundry",
    "name": "Common Foundry",
