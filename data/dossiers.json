@@ -10589,7 +10589,7 @@
    ],
    "firstSeen": "2026-11-19",
    "lastActivity": "2026-11-20",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "lead",
@@ -10597,6 +10597,10 @@
     },
     {
      "stage": "aangekondigd",
+     "date": "2026-11-20"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-20"
     }
    ],
@@ -10618,13 +10622,23 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 668801",
      "url": "https://github.com/ethereum-lists/chains/pull/9117",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 668801",
+     "url": "https://github.com/ethereum-lists/chains/pull/9117",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "website": "https://longyu.network",
    "architecture": "genesis, OP rollup-config",
-   "confidence": "B",
+   "confidence": "A",
    "reasons": [
-    "2 onafhankelijke bronfamilies: github, register"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 668801)"
    ],
    "families": [
     "github",
@@ -10637,7 +10651,8 @@
    "rpc": [
     "https://rpc-testnet.longyu.network"
    ],
-   "explorer": "https://scan-testnet.longyu.network"
+   "explorer": "https://scan-testnet.longyu.network",
+   "liveRpc": "https://rpc-testnet.longyu.network"
   },
   "ltc": {
    "id": "ltc",
