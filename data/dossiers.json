@@ -10578,19 +10578,26 @@
    "id": "longyul2longyul2",
    "name": "Longyu-L2/LongyuL2",
    "aliases": [
-    "Longyu-L2/LongyuL2"
+    "Longyu-L2/LongyuL2",
+    "LONGYU"
    ],
    "keys": [
     "d:longyu.network",
-    "gh:longyu-l2"
+    "gh:longyu-l2",
+    "id:668801",
+    "n:longyu"
    ],
    "firstSeen": "2026-11-19",
-   "lastActivity": "2026-11-19",
-   "stage": "lead",
+   "lastActivity": "2026-11-20",
+   "stage": "aangekondigd",
    "stageHistory": [
     {
      "stage": "lead",
      "date": "2026-11-19"
+    },
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-20"
     }
    ],
    "evidence": [
@@ -10602,17 +10609,35 @@
      "what": "github-discovery: aanwijzing · github-config",
      "url": "https://github.com/Longyu-L2/LongyuL2",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 668801",
+     "url": "https://github.com/ethereum-lists/chains/pull/9117",
+     "strength": "technical"
     }
    ],
    "website": "https://longyu.network",
    "architecture": "genesis, OP rollup-config",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "één technisch signaal (github)"
+    "2 onafhankelijke bronfamilies: github, register"
    ],
    "families": [
-    "github"
-   ]
+    "github",
+    "register"
+   ],
+   "chainIds": [
+    "668801"
+   ],
+   "github": "https://github.com/Longyu-L2",
+   "rpc": [
+    "https://rpc-testnet.longyu.network"
+   ],
+   "explorer": "https://scan-testnet.longyu.network"
   },
   "ltc": {
    "id": "ltc",
