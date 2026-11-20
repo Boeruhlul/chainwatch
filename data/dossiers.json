@@ -15435,12 +15435,16 @@
     "n:nvdachain"
    ],
    "firstSeen": "2026-11-19",
-   "lastActivity": "2026-11-19",
-   "stage": "aangekondigd",
+   "lastActivity": "2026-11-20",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
      "date": "2026-11-19"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-20"
     }
    ],
    "evidence": [
@@ -15452,6 +15456,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 32768",
      "url": "https://github.com/ethereum-lists/chains/pull/9115",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 32768",
+     "url": "https://github.com/ethereum-lists/chains/pull/9115",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -15463,13 +15476,14 @@
     "https://rpc.nvdachain.com"
    ],
    "explorer": "https://explorer.nvdachain.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 32768)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.nvdachain.com"
   },
   "nvnmchain": {
    "id": "nvnmchain",
@@ -18586,7 +18600,7 @@
     "n:qms"
    ],
    "firstSeen": "2026-10-11",
-   "lastActivity": "2026-11-19",
+   "lastActivity": "2026-11-20",
    "stage": "draait",
    "stageHistory": [
     {
