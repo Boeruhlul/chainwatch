@@ -5653,6 +5653,18 @@
    "cat": "bounty",
    "src": "immunefi",
    "date": "2026-11-20"
+  },
+  {
+   "key": "pr:ethereum/ercs#2188",
+   "title": "Add ERC: AI Inference Token Onchain",
+   "url": "https://github.com/ethereum/ERCs/pull/2188",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-20"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-20"
   }
  ],
  "seen": {
@@ -6597,6 +6609,7 @@
    "pr:ethereum/ercs#2185",
    "pr:ethereum/ercs#2186",
    "pr:ethereum/ercs#2187",
+   "pr:ethereum/ercs#2188",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
