@@ -3485,7 +3485,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://collect-mainnet.optimism.io/rpc"
   },
   "commonfoundry": {
    "id": "commonfoundry",

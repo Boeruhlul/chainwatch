@@ -5634,6 +5634,30 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:collect:0x2e7a93286e723f4d115b81f787b55fe6c4f9231e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "InterchainAccountRouter op Collect",
+   "url": "https://collectscan.com/address/0x2e7a93286e723f4d115b81f787b55fe6c4f9231e",
+   "meta": {
+    "chain": "Collect",
+    "addr": "0x2e7a93286e723f4d115b81f787b55fe6c4f9231e"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:collect:0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StorageGasOracle op Collect",
+   "url": "https://collectscan.com/address/0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6",
+   "meta": {
+    "chain": "Collect",
+    "addr": "0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "key": "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5960,6 +5984,8 @@
   ],
   "audit-sherlock": [],
   "chain-contracts": [
+   "chaincontract:collect:0x2e7a93286e723f4d115b81f787b55fe6c4f9231e",
+   "chaincontract:collect:0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6",
    "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
    "chaincontract:dogeos:0x00094197a82fade614c214cfe27719deda898686",
    "chaincontract:dogeos:0x03aec2c2ec95b2339ee1ccd0b5053a6831926b12",
