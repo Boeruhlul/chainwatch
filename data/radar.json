@@ -5916,6 +5916,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30456",
+   "title": "Draft ERC: Agent Whitelist Framework (AWF) - scoped allow and deny lists for agents, adopted per consumer, with stated grounds and uniform results",
+   "url": "https://ethereum-magicians.org/t/draft-erc-agent-whitelist-framework-awf-scoped-allow-and-deny-lists-for-agents-adopted-per-consumer-with-stated-grounds-and-uniform-results/30456",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-20",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-20"
+  },
+  {
    "key": "forum:forum.polygon.technology:22597",
    "title": "Heimdall v0.14.0 released for Mainnet and Amoy",
    "url": "https://forum.polygon.technology/t/heimdall-v0-14-0-released-for-mainnet-and-amoy/22597",
@@ -6649,6 +6663,7 @@
    "forum:ethereum-magicians.org:30447",
    "forum:ethereum-magicians.org:30448",
    "forum:ethereum-magicians.org:30453",
+   "forum:ethereum-magicians.org:30456",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
