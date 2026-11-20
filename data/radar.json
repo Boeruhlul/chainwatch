@@ -5612,6 +5612,33 @@
     "addr": "0x0000000000000000000000000000000000000068"
    },
    "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0xf989ef931cb05d912140f636d812dad2af1b506e",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0xf989ef931cb05d912140f636d812dad2af1b506e"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "immunefi:audit-comp-base-everest",
+   "title": "Audit Comp | Base Everest",
+   "url": "https://immunefi.com/bug-bounty/audit-comp-base-everest/",
+   "meta": {
+    "launched": "2026-11-19",
+    "ecosystem": "Base",
+    "type": "L2",
+    "max": 250000,
+    "website": "https://base.org/"
+   },
+   "cat": "bounty",
+   "src": "immunefi",
+   "date": "2026-11-20"
   }
  ],
  "seen": {
@@ -5985,6 +6012,7 @@
    "chaincontract:qms:0xf4705dc3fb6f640d635971a2fde9d9efbbaf636e",
    "chaincontract:qms:0xf6ea400da6597eb785fbe33de15b2d7ac31cb7af",
    "chaincontract:qms:0xf8168839705f80fa628f484d59b477924124eaea",
+   "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
    "chaincontract:qms:0xfa4eaa0c403e55d70aba03fc9c0066732aff3d33",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
@@ -6322,6 +6350,7 @@
    "forum:gov.optimism.io:10991"
   ],
   "immunefi": [
+   "immunefi:audit-comp-base-everest",
    "immunefi:metric",
    "immunefi:paxos-labs",
    "immunefi:plether"
