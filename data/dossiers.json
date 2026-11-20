@@ -15512,6 +15512,15 @@
     },
     {
      "date": "2026-11-20",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf3de6bbf…",
+     "url": "https://explorer.nvdachain.com/address/0xf3de6bbf58f2490674809a55312c966fb1b31251",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-20",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "launched",
@@ -15532,7 +15541,8 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v2-fork) 0x887fe40b…)",
-    "DEX op de chain gevonden"
+    "DEX op de chain gevonden",
+    "launchpad-kandidaat op de chain"
    ],
    "families": [
     "register",
@@ -15547,7 +15557,12 @@
       "date": "2026-11-20"
      }
     ],
-    "launchpad": []
+    "launchpad": [
+     {
+      "addr": "0xf3de6bbf58f2490674809a55312c966fb1b31251",
+      "date": "2026-11-20"
+     }
+    ]
    }
   },
   "nvnmchain": {
