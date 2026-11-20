@@ -15082,6 +15082,43 @@
     "overig"
    ]
   },
+  "nilly": {
+   "id": "nilly",
+   "name": "Nilly",
+   "aliases": [
+    "Nilly"
+   ],
+   "keys": [
+    "n:nilly"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/bitsmith826/nilly-testnet-auto",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "niveshgajengifuinzcash": {
    "id": "niveshgajengifuinzcash",
    "name": "niveshgajengi/fuin-zcash",
