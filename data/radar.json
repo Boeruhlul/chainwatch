@@ -6034,6 +6034,18 @@
    "date": "2026-11-20"
   },
   {
+   "key": "pr:ethereum/ercs#2192",
+   "title": "Add ERC: Agent Whitelist Framework",
+   "url": "https://github.com/ethereum/ERCs/pull/2192",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-20"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-20"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x24e6733438bc532b30ad7fbce14f7b6e9d210de6",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x24E6733438Bc532b30ad7FbCe14f7B6e9d210DE6",
@@ -7060,6 +7072,7 @@
    "pr:ethereum/ercs#2189",
    "pr:ethereum/ercs#2190",
    "pr:ethereum/ercs#2191",
+   "pr:ethereum/ercs#2192",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
