@@ -8825,6 +8825,44 @@
     "onderzoek"
    ]
   },
+  "imadegoodstuffagentchain": {
+   "id": "imadegoodstuffagentchain",
+   "name": "imadegoodstuff/agent-chain",
+   "aliases": [
+    "imadegoodstuff/agent-chain"
+   ],
+   "keys": [
+    "gh:imadegoodstuff"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/imadegoodstuff/agent-chain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "immutableopstackrollup": {
    "id": "immutableopstackrollup",
    "name": "Immutable OP Stack rollup",
@@ -26985,6 +27023,6 @@
  },
  "outbox": [],
  "digest": {
-  "lastSent": "2026-11-19"
+  "lastSent": "2026-11-20"
  }
 }
