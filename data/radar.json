@@ -5677,6 +5677,18 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-20"
+  },
+  {
+   "key": "pr:ethereum/ercs#2189",
+   "title": "Update ERC-7963: Move to Final",
+   "url": "https://github.com/ethereum/ERCs/pull/2189",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-20"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-20"
   }
  ],
  "seen": {
@@ -6623,6 +6635,7 @@
    "pr:ethereum/ercs#2186",
    "pr:ethereum/ercs#2187",
    "pr:ethereum/ercs#2188",
+   "pr:ethereum/ercs#2189",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
