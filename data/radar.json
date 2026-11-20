@@ -5874,6 +5874,18 @@
    "src": "proposals",
    "date": "2026-11-20",
    "dossier": "finalchain"
+  },
+  {
+   "key": "pr:ethereum/ercs#2190",
+   "title": "Update ERC-7573: Index event identifiers and participants",
+   "url": "https://github.com/ethereum/ERCs/pull/2190",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-20"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-20"
   }
  ],
  "seen": {
@@ -6833,6 +6845,7 @@
    "pr:ethereum/ercs#2187",
    "pr:ethereum/ercs#2188",
    "pr:ethereum/ercs#2189",
+   "pr:ethereum/ercs#2190",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
