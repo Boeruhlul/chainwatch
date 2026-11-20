@@ -12318,6 +12318,43 @@
     "onderzoek"
    ]
   },
+  "morph": {
+   "id": "morph",
+   "name": "Morph",
+   "aliases": [
+    "Morph"
+   ],
+   "keys": [
+    "n:morph"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Lappo-Bitget/morph-agentic-wallet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "morphtachyon": {
    "id": "morphtachyon",
    "name": "Morph Tachyon",
