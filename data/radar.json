@@ -5937,6 +5937,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3099",
+   "title": "Post Quantum Recovery Framework",
+   "url": "https://delvingbitcoin.org/t/post-quantum-recovery-framework/3099",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-20",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-20"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30453",
    "title": "Draft ERC: AI Inference Token Onchain (AITO) - consumable entitlements to AI inference supply, with metering, authorized consumption and settlement",
    "url": "https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453",
@@ -6663,6 +6677,7 @@
    "forum:delvingbitcoin.org:3078",
    "forum:delvingbitcoin.org:3079",
    "forum:delvingbitcoin.org:3088",
+   "forum:delvingbitcoin.org:3099",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
