@@ -5954,6 +5954,20 @@
    "date": "2026-11-20"
   },
   {
+   "key": "forum:ethresear.ch:26275",
+   "title": "Unrig: A Prediction Market Protocol That Needs No Liquidity and Can't Be Rigged",
+   "url": "https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-20",
+    "posts": 1,
+    "views": 26
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-20"
+  },
+  {
    "key": "forum:forum.polygon.technology:22597",
    "title": "Heimdall v0.14.0 released for Mainnet and Amoy",
    "url": "https://forum.polygon.technology/t/heimdall-v0-14-0-released-for-mainnet-and-amoy/22597",
@@ -6738,6 +6752,7 @@
    "forum:ethresear.ch:26268",
    "forum:ethresear.ch:26271",
    "forum:ethresear.ch:26272",
+   "forum:ethresear.ch:26275",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
