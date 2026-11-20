@@ -5808,6 +5808,20 @@
    "dossier": null
   },
   {
+   "key": "forum:forum.polygon.technology:22597",
+   "title": "Heimdall v0.14.0 released for Mainnet and Amoy",
+   "url": "https://forum.polygon.technology/t/heimdall-v0-14-0-released-for-mainnet-and-amoy/22597",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-20",
+    "posts": 1,
+    "views": 11
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-20"
+  },
+  {
    "key": "immunefi:audit-comp-base-everest",
    "title": "Audit Comp | Base Everest",
    "url": "https://immunefi.com/bug-bounty/audit-comp-base-everest/",
@@ -6535,6 +6549,7 @@
    "forum:forum.polygon.technology:22581",
    "forum:forum.polygon.technology:22586",
    "forum:forum.polygon.technology:22595",
+   "forum:forum.polygon.technology:22597",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
