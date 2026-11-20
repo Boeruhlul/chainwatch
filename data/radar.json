@@ -5600,6 +5600,18 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-19"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ArbFunctionTable op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x0000000000000000000000000000000000000068",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x0000000000000000000000000000000000000068"
+   },
+   "date": "2026-11-20"
   }
  ],
  "seen": {
@@ -5916,6 +5928,7 @@
    "chaincontract:nexchain:0x7ce8fb1de945b1c6e3a163d8eb5275451a398323",
    "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
    "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
+   "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
    "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
    "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
    "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",
