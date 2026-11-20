@@ -5647,6 +5647,90 @@
    "dossier": "nvdachain"
   },
   {
+   "key": "chaincontract:nvdachain:0x13e9ed32155810fdbd067d4522c492d6f68e5944",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleAccountFactory op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x13e9ed32155810fdbd067d4522c492d6f68e5944",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x13e9ed32155810fdbd067d4522c492d6f68e5944"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x3468b97f7eb194e176e33ae80ba99531e21de633",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaWithdrawRouter op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x3468b97f7eb194e176e33ae80ba99531e21de633",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x3468b97f7eb194e176e33ae80ba99531e21de633"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x4675281d7bf999af01243503941961ebdac3f41d",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapLens op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x4675281d7bf999af01243503941961ebdac3f41d",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x4675281d7bf999af01243503941961ebdac3f41d"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapPair op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x58eb5a714541cdbbc74561cc9c85e00b43e3be73",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapPair op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x58eb5a714541cdbbc74561cc9c85e00b43e3be73",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x58eb5a714541cdbbc74561cc9c85e00b43e3be73"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x72a6fce691b1fd33d8fa76159ce13157df19be43",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapRouter op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x72a6fce691b1fd33d8fa76159ce13157df19be43",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x72a6fce691b1fd33d8fa76159ce13157df19be43"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapFactory op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x887fe40b17f3f901cf4fcfc6a75988442ac885ef"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "key": "chaincontract:nvdachain:0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -5658,6 +5742,42 @@
    },
    "date": "2026-11-20",
    "dossier": "nvdachain"
+  },
+  {
+   "key": "chaincontract:nvdachain:0xa6c6083053e7e38472ad9a851cfc8083eaa76137",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapPair op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0xa6c6083053e7e38472ad9a851cfc8083eaa76137",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0xa6c6083053e7e38472ad9a851cfc8083eaa76137"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0xd4b8e9a0d38892d9bcc57f2c880e7d7d934ce4ed",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapPair op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0xd4b8e9a0d38892d9bcc57f2c880e7d7d934ce4ed",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0xd4b8e9a0d38892d9bcc57f2c880e7d7d934ce4ed"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "key": "chaincontract:nvdachain:0xf3de6bbf58f2490674809a55312c966fb1b31251",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "MemePad op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0xf3de6bbf58f2490674809a55312c966fb1b31251",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0xf3de6bbf58f2490674809a55312c966fb1b31251"
+   },
+   "date": "2026-11-20"
   },
   {
    "key": "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
@@ -6045,7 +6165,17 @@
    "chaincontract:nexchain:0xe6617cb79fcd755f14fb8f1eb24b9b63901167b3",
    "chaincontract:nexchain:0xf9d6a7588091cec1ca5e0f0a7eedbc27ffc2dd7a",
    "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
+   "chaincontract:nvdachain:0x13e9ed32155810fdbd067d4522c492d6f68e5944",
+   "chaincontract:nvdachain:0x3468b97f7eb194e176e33ae80ba99531e21de633",
+   "chaincontract:nvdachain:0x4675281d7bf999af01243503941961ebdac3f41d",
+   "chaincontract:nvdachain:0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17",
+   "chaincontract:nvdachain:0x58eb5a714541cdbbc74561cc9c85e00b43e3be73",
+   "chaincontract:nvdachain:0x72a6fce691b1fd33d8fa76159ce13157df19be43",
+   "chaincontract:nvdachain:0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
    "chaincontract:nvdachain:0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+   "chaincontract:nvdachain:0xa6c6083053e7e38472ad9a851cfc8083eaa76137",
+   "chaincontract:nvdachain:0xd4b8e9a0d38892d9bcc57f2c880e7d7d934ce4ed",
+   "chaincontract:nvdachain:0xf3de6bbf58f2490674809a55312c966fb1b31251",
    "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
    "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
    "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",

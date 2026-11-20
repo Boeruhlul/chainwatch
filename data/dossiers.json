@@ -15630,6 +15630,15 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xdc31b8b7…",
+     "url": "https://explorer.nvdachain.com/address/0xdc31b8b74e82994f1233ea176ad63af4ec8822f3",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xf3de6bbf…",
      "url": "https://explorer.nvdachain.com/address/0xf3de6bbf58f2490674809a55312c966fb1b31251",
      "strength": "running"
@@ -15675,6 +15684,10 @@
     "launchpad": [
      {
       "addr": "0xf3de6bbf58f2490674809a55312c966fb1b31251",
+      "date": "2026-11-20"
+     },
+     {
+      "addr": "0xdc31b8b74e82994f1233ea176ad63af4ec8822f3",
       "date": "2026-11-20"
      }
     ]
