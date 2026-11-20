@@ -4246,6 +4246,50 @@
    ],
    "mainnetSince": "2026-11-16"
   },
+  "dagrex": {
+   "id": "dagrex",
+   "name": "DAGREX",
+   "aliases": [
+    "DAGREX"
+   ],
+   "keys": [
+    "d:dagrex.net",
+    "id:4747",
+    "n:dagrex"
+   ],
+   "firstSeen": "2026-11-20",
+   "lastActivity": "2026-11-20",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-20"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-20",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 4747",
+     "url": "https://github.com/ethereum-lists/chains/pull/9122",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "4747"
+   ],
+   "website": "https://dagrex.net",
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "dancore": {
    "id": "dancore",
    "name": "Dancore",
