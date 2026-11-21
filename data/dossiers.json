@@ -16194,6 +16194,43 @@
     "register"
    ]
   },
+  "octra": {
+   "id": "octra",
+   "name": "Octra",
+   "aliases": [
+    "Octra"
+   ],
+   "keys": [
+    "n:octra"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/m-tq/octdrop",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "official": {
    "id": "official",
    "name": "Official",
