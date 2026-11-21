@@ -21782,6 +21782,53 @@
    ],
    "liveRpc": "https://sepolia-devnet-4.optimism.io/rpc"
   },
+  "sevenchain": {
+   "id": "sevenchain",
+   "name": "Seven Chain",
+   "aliases": [
+    "Seven Chain"
+   ],
+   "keys": [
+    "id:70007",
+    "n:sevenchain"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "viem",
+     "family": "code",
+     "kind": "mainnet",
+     "what": "viem: mainnet · ID 70007",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/sevenChain.ts",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "70007"
+   ],
+   "architecture": "EVM",
+   "rpc": [
+    "https://theseven.meme/api/seven-chain/jsonrpc"
+   ],
+   "explorer": "https://theseven.meme/blockchain/explorer",
+   "mainnetSince": "2026-11-21",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (viem: mainnet · ID 70007)"
+   ],
+   "families": [
+    "code"
+   ]
+  },
   "sgachain": {
    "id": "sgachain",
    "name": "SGA Chain",

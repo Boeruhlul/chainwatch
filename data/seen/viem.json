@@ -549,6 +549,7 @@
   "viem:sentrix.ts",
   "viem:sentrixTestnet.ts",
   "viem:sepolia.ts",
+  "viem:sevenChain.ts",
   "viem:shape.ts",
   "viem:shapeSepolia.ts",
   "viem:shardeum.ts",
