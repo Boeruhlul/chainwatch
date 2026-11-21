@@ -6082,6 +6082,20 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-21"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x78e082c6A436fBAE2F257dC1aC568aA11Cd1Ee3B",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0x78e082c6A436fBAE2F257dC1aC568aA11Cd1Ee3B",
+    "verified": "2026-11-21"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-21"
   }
  ],
  "seen": {
@@ -7111,6 +7125,7 @@
    "vc:eth.blockscout.com:0x452b9b61a5810f1f9fddf5f14bfc6d78a49f9b84",
    "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
+   "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
    "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "vc:eth.blockscout.com:0x9efa8ec468882944f08ea76b813186cc38bd0681",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
