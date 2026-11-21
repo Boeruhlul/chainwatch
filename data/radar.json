@@ -5882,6 +5882,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30462",
+   "title": "Pre-ERC: Agent Linkability Report",
+   "url": "https://ethereum-magicians.org/t/pre-erc-agent-linkability-report/30462",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-21",
+    "posts": 1,
+    "views": 12
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-21"
+  },
+  {
    "key": "forum:forum.cosmos.network:17607",
    "title": "Staking ATOM from a mobile wallet: what to check before you delegate",
    "url": "https://forum.cosmos.network/t/staking-atom-from-a-mobile-wallet-what-to-check-before-you-delegate/17607",
@@ -6512,6 +6526,7 @@
    "forum:ethereum-magicians.org:30448",
    "forum:ethereum-magicians.org:30453",
    "forum:ethereum-magicians.org:30456",
+   "forum:ethereum-magicians.org:30462",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
