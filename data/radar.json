@@ -6108,6 +6108,18 @@
    "date": "2026-11-21"
   },
   {
+   "key": "pr:ethereum/ercs#2195",
+   "title": "Update ERC-8048: optional metadata DataLock and types list",
+   "url": "https://github.com/ethereum/ERCs/pull/2195",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-21"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-21"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
    "title": "SystemConfig geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x78e082c6A436fBAE2F257dC1aC568aA11Cd1Ee3B",
@@ -7129,6 +7141,7 @@
    "pr:ethereum/ercs#2192",
    "pr:ethereum/ercs#2193",
    "pr:ethereum/ercs#2194",
+   "pr:ethereum/ercs#2195",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
