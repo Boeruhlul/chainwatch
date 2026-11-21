@@ -2525,6 +2525,44 @@
     "https://api.blakiston.org"
    ]
   },
+  "block52pokerchainreleases": {
+   "id": "block52pokerchainreleases",
+   "name": "block52/pokerchain-releases",
+   "aliases": [
+    "block52/pokerchain-releases"
+   ],
+   "keys": [
+    "gh:block52"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/block52/pokerchain-releases",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "blockdag": {
    "id": "blockdag",
    "name": "BlockDAG",
