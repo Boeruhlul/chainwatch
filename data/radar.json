@@ -5839,6 +5839,30 @@
    "date": "2026-11-21"
   },
   {
+   "key": "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AgentPayVaultV3 op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e"
+   },
+   "date": "2026-11-21"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BiuWuiFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea"
+   },
+   "date": "2026-11-21"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xe68518a95cbbbd75f521c86688770a98140fe06f",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6341,6 +6365,8 @@
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
    "chaincontract:qdayaevum:0xca1f3bfdfc4004eef19111b8d4d2e420744198ce",
+   "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
+   "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
    "chaincontract:qdayaevum:0xe68518a95cbbbd75f521c86688770a98140fe06f",
    "chaincontract:qdayaevum:0xec74b3999870d8f1790b7e5cbf50ae98e084f865",
    "chaincontract:qdayaevum:0xf19979576efa11466f4dba99c7648f909391afdd",
