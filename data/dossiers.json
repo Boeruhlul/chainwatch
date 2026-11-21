@@ -11249,6 +11249,24 @@
     },
     {
      "date": "2026-11-21",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 410",
+     "url": "https://chainlist.org/chain/410",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 41001",
+     "url": "https://chainlist.org/chain/41001",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-21",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -20672,6 +20690,15 @@
      "kind": "launched",
      "what": "ethlists-pr: RPC antwoordt · ID 12588",
      "url": "https://github.com/ethereum-lists/chains/pull/9051",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 12588",
+     "url": "https://chainlist.org/chain/12588",
      "strength": "running"
     },
     {
