@@ -5863,6 +5863,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SovereignFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x73117fda8e0c804eb3facbfefcd08cf6164f1f87"
+   },
+   "date": "2026-11-21"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6452,6 +6464,7 @@
    "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
    "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
+   "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
