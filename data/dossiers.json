@@ -8146,15 +8146,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-14",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x893b8d8d…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x893b8d8dc23e3bbeb7597e92cafac8de624b84f9",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-15",
      "source": "ecosystem",
      "family": "onchain",
@@ -8404,6 +8395,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xef441290…",
      "url": "https://sepolia-explorer.giwa.io/address/0xef441290a61d5587fd745462ffb673098a7d6f7c",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xf3ace00c…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xf3ace00c35697e7ae0a4ab4139d70b074d722013",
      "strength": "running"
     }
    ],
@@ -18390,6 +18390,43 @@
    ],
    "families": [
     "onderzoek"
+   ]
+  },
+  "portableneb": {
+   "id": "portableneb",
+   "name": "Portable NEB",
+   "aliases": [
+    "Portable NEB"
+   ],
+   "keys": [
+    "n:portableneb"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/ALTIS13/Apollo.NEB",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "portaldotv3": {
