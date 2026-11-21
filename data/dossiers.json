@@ -207,6 +207,43 @@
     "register"
    ]
   },
+  "activityaccounts": {
+   "id": "activityaccounts",
+   "name": "Activity Accounts",
+   "aliases": [
+    "Activity Accounts"
+   ],
+   "keys": [
+    "n:activityaccounts"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/aahelicopter365/activityaccounts-controlled-publisher-pilot",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "acurast": {
    "id": "acurast",
    "name": "Acurast",
