@@ -11136,6 +11136,44 @@
    ],
    "liveRpc": "https://api.luxaecosystem.xyz"
   },
+  "lwher200archeternanode": {
+   "id": "lwher200archeternanode",
+   "name": "lwher200-arch/eterna-node",
+   "aliases": [
+    "lwher200-arch/eterna-node"
+   ],
+   "keys": [
+    "gh:lwher200-arch"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/lwher200-arch/eterna-node",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "op-deployer, OP rollup-config, genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "lxon": {
    "id": "lxon",
    "name": "LXON",
