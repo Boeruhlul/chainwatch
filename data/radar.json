@@ -5736,6 +5736,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:blenonetwork:0xdf8bf9a78e76fe08dfd96029218546b830d21ceb",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BlenoSwapDEX op Bleno Network",
+   "url": "https://bleno.com.br/address/0xdf8bf9a78e76fe08dfd96029218546b830d21ceb",
+   "meta": {
+    "chain": "Bleno Network",
+    "addr": "0xdf8bf9a78e76fe08dfd96029218546b830d21ceb"
+   },
+   "date": "2026-11-21"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x07cf659a725fda790c0721a9d9533f0f6dac3c02",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6154,6 +6166,7 @@
   ],
   "audit-sherlock": [],
   "chain-contracts": [
+   "chaincontract:blenonetwork:0xdf8bf9a78e76fe08dfd96029218546b830d21ceb",
    "chaincontract:collect:0x2e7a93286e723f4d115b81f787b55fe6c4f9231e",
    "chaincontract:collect:0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6",
    "chaincontract:dogeos:0x00000000001594c61dd8a6804da9ab58ed2483ce",
