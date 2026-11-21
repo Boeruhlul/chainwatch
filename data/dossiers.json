@@ -20938,6 +20938,54 @@
    ],
    "liveRpc": "https://evm-rpc.mainnet.rubin.trade"
   },
+  "ruda": {
+   "id": "ruda",
+   "name": "RUDA",
+   "aliases": [
+    "RUDA"
+   ],
+   "keys": [
+    "d:rudaexplorer.org",
+    "id:20261022",
+    "n:ruda"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 20261022",
+     "url": "https://github.com/ethereum-lists/chains/pull/9124",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "20261022"
+   ],
+   "website": "https://rudaexplorer.org",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rudaexplorer.org/rpc"
+   ],
+   "explorer": "https://rudaexplorer.org",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "rwachain": {
    "id": "rwachain",
    "name": "RWA Chain",
