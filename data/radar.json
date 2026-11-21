@@ -5824,6 +5824,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x6b523dfc70ddd8575170a99d7504c55e4cd644f9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BondingCurve op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x6b523dfc70ddd8575170a99d7504c55e4cd644f9",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x6b523dfc70ddd8575170a99d7504c55e4cd644f9"
+   },
+   "date": "2026-11-21"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x8b05a92d7c18b79d6ffa73ab633c6b78f0a0783e",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6248,6 +6260,7 @@
    "chaincontract:giwasepolia:0x69aa901c15bdcc0810e15065291672ca08c7a36f",
    "chaincontract:giwasepolia:0x6a0cbfe4e3a980fc1618b882f2472e4caf96e50a",
    "chaincontract:giwasepolia:0x6aa10ec111c18ff2e1f4ee8d431cccb6bd66de6a",
+   "chaincontract:giwasepolia:0x6b523dfc70ddd8575170a99d7504c55e4cd644f9",
    "chaincontract:giwasepolia:0x6bbbf7baafa0f91cf93493c4bf08538cf82bf649",
    "chaincontract:giwasepolia:0x6c29384b98806e1f9630af45c0b883532b930f6f",
    "chaincontract:giwasepolia:0x7082458ba328aecc3aa723b296e6064ee6f637df",
