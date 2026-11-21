@@ -2525,6 +2525,54 @@
     "https://api.blakiston.org"
    ]
   },
+  "blenonetwork": {
+   "id": "blenonetwork",
+   "name": "Bleno Network",
+   "aliases": [
+    "Bleno Network"
+   ],
+   "keys": [
+    "d:bleno.com.br",
+    "id:15112026",
+    "n:blenonetwork"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 15112026",
+     "url": "https://github.com/ethereum-lists/chains/pull/9126",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "15112026"
+   ],
+   "website": "https://bleno.com.br",
+   "architecture": "EVM",
+   "rpc": [
+    "https://bleno.com.br/hub/rpc"
+   ],
+   "explorer": "https://bleno.com.br",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "block52pokerchainreleases": {
    "id": "block52pokerchainreleases",
    "name": "block52/pokerchain-releases",
