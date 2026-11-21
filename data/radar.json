@@ -5709,6 +5709,20 @@
     "addr": "0x7c0c64ae0e5a6bf6206d7f71461a8669a7979dad"
    },
    "date": "2026-11-21"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3100",
+   "title": "Node Attestation Protocol",
+   "url": "https://delvingbitcoin.org/t/node-attestation-protocol/3100",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-21",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-21"
   }
  ],
  "seen": {
@@ -6213,6 +6227,7 @@
    "forum:delvingbitcoin.org:3079",
    "forum:delvingbitcoin.org:3088",
    "forum:delvingbitcoin.org:3099",
+   "forum:delvingbitcoin.org:3100",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
