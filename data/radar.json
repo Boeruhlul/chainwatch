@@ -5735,6 +5735,20 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-11-21"
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3101",
+   "title": "Open Question on a hypothetical minor \"slow-sliding MTP\" attack introduced by BIP 54",
+   "url": "https://delvingbitcoin.org/t/open-question-on-a-hypothetical-minor-slow-sliding-mtp-attack-introduced-by-bip-54/3101",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-21",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-21"
   }
  ],
  "seen": {
@@ -6241,6 +6255,7 @@
    "forum:delvingbitcoin.org:3088",
    "forum:delvingbitcoin.org:3099",
    "forum:delvingbitcoin.org:3100",
+   "forum:delvingbitcoin.org:3101",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
