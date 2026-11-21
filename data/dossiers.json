@@ -10311,7 +10311,7 @@
     "n:latheon"
    ],
    "firstSeen": "2026-11-13",
-   "lastActivity": "2026-11-13",
+   "lastActivity": "2026-11-21",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -10341,6 +10341,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 60531373273",
      "url": "https://github.com/ethereum-lists/chains/pull/9076",
      "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 60531373273",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-60531373273.json",
      "strength": "running"
     }
    ],
