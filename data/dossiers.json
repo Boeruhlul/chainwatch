@@ -27193,6 +27193,15 @@
     },
     {
      "date": "2026-11-21",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 3659",
+     "url": "https://chainlist.org/chain/3659",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
