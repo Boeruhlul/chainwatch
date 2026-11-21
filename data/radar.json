@@ -5922,6 +5922,42 @@
    "src": "proposals",
    "date": "2026-11-21",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/eips#12680",
+   "title": "Update EIP-8131: Align with Glamsterdam, price auths at 133 bytes",
+   "url": "https://github.com/ethereum/EIPs/pull/12680",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-21"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-21"
+  },
+  {
+   "key": "pr:ethereum/eips#12681",
+   "title": "Update EIP-8279: Align with Glamsterdam, refresh impact data",
+   "url": "https://github.com/ethereum/EIPs/pull/12681",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-21"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-21"
+  },
+  {
+   "key": "pr:ethereum/ercs#2193",
+   "title": "Add ERC: Agent Linkability Report",
+   "url": "https://github.com/ethereum/ERCs/pull/2193",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-21"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-21"
   }
  ],
  "seen": {
@@ -6832,6 +6868,8 @@
    "pr:ethereum/eips#12677",
    "pr:ethereum/eips#12678",
    "pr:ethereum/eips#12679",
+   "pr:ethereum/eips#12680",
+   "pr:ethereum/eips#12681",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -6916,6 +6954,7 @@
    "pr:ethereum/ercs#2190",
    "pr:ethereum/ercs#2191",
    "pr:ethereum/ercs#2192",
+   "pr:ethereum/ercs#2193",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
