@@ -5990,6 +5990,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3103",
+   "title": "Multisig Session Protocol: draft spec for remote multisig setup and signing needs review",
+   "url": "https://delvingbitcoin.org/t/multisig-session-protocol-draft-spec-for-remote-multisig-setup-and-signing-needs-review/3103",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-21",
+    "posts": 1,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-21"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30462",
    "title": "Pre-ERC: Agent Linkability Report",
    "url": "https://ethereum-magicians.org/t/pre-erc-agent-linkability-report/30462",
@@ -6137,6 +6151,18 @@
    "key": "pr:ethereum/ercs#2195",
    "title": "Update ERC-8048: optional metadata DataLock and types list",
    "url": "https://github.com/ethereum/ERCs/pull/2195",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-21"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-21"
+  },
+  {
+   "key": "pr:ethereum/ercs#2196",
+   "title": "Add ERC: Policy-Enforced Agent Accounts",
+   "url": "https://github.com/ethereum/ERCs/pull/2196",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-21"
@@ -6681,6 +6707,7 @@
    "forum:delvingbitcoin.org:3099",
    "forum:delvingbitcoin.org:3100",
    "forum:delvingbitcoin.org:3101",
+   "forum:delvingbitcoin.org:3103",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -7170,6 +7197,7 @@
    "pr:ethereum/ercs#2193",
    "pr:ethereum/ercs#2194",
    "pr:ethereum/ercs#2195",
+   "pr:ethereum/ercs#2196",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
