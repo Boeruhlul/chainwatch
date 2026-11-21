@@ -10345,6 +10345,15 @@
     },
     {
      "date": "2026-11-21",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 60531373273",
+     "url": "https://chainlist.org/chain/60531373273",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
@@ -27081,7 +27090,7 @@
     "n:zetaphy"
    ],
    "firstSeen": "2026-10-22",
-   "lastActivity": "2026-11-19",
+   "lastActivity": "2026-11-21",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -27181,6 +27190,15 @@
      "url": "https://github.com/cosmos/chain-registry/tree/master/zetaphy",
      "noRpc": true,
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 3659",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-3659.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
