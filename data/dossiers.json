@@ -3590,6 +3590,43 @@
     "onderzoek"
    ]
   },
+  "commonworld": {
+   "id": "commonworld",
+   "name": "Commonworld",
+   "aliases": [
+    "Commonworld"
+   ],
+   "keys": [
+    "n:commonworld"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/commonworld-one/commonworld-testnet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "cookchain": {
    "id": "cookchain",
    "name": "Cookchain",
