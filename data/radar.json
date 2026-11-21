@@ -6020,6 +6020,20 @@
    "date": "2026-11-21"
   },
   {
+   "key": "forum:ethereum-magicians.org:30467",
+   "title": "Draft ERC: Policy-Enforced Agent Accounts",
+   "url": "https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-21",
+    "posts": 2,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-21"
+  },
+  {
    "key": "forum:forum.cosmos.network:17607",
    "title": "Staking ATOM from a mobile wallet: what to check before you delegate",
    "url": "https://forum.cosmos.network/t/staking-atom-from-a-mobile-wallet-what-to-check-before-you-delegate/17607",
@@ -6747,6 +6761,7 @@
    "forum:ethereum-magicians.org:30462",
    "forum:ethereum-magicians.org:30463",
    "forum:ethereum-magicians.org:30464",
+   "forum:ethereum-magicians.org:30467",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
