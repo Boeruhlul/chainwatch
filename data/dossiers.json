@@ -7007,6 +7007,43 @@
     "launchpad": []
    }
   },
+  "enygmapublic": {
+   "id": "enygmapublic",
+   "name": "Enygma Public",
+   "aliases": [
+    "Enygma Public"
+   ],
+   "keys": [
+    "n:enygmapublic"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastActivity": "2026-11-21",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-21"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-21",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/akira01111/rayls-enygma-public-testnet-research",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "eoraptor": {
    "id": "eoraptor",
    "name": "Eoraptor",
@@ -11166,21 +11203,28 @@
    "name": "Maroo",
    "aliases": [
     "Maroo",
-    "Hashed Maroo"
+    "Hashed Maroo",
+    "Maroo Preview"
    ],
    "keys": [
     "d:maroo.io",
     "id:410",
+    "id:41001",
     "n:hashedmaroo",
-    "n:maroo"
+    "n:maroo",
+    "n:maroopreview"
    ],
    "firstSeen": "2026-11-02",
-   "lastActivity": "2026-11-12",
-   "stage": "testnet",
+   "lastActivity": "2026-11-21",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "testnet",
      "date": "2026-11-02"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-21"
     }
    ],
    "evidence": [
@@ -11201,6 +11245,26 @@
      "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 410",
      "url": "https://github.com/ethereum-lists/chains/pull/9052",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 410",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-410.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 41001",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-41001.json",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
@@ -11242,9 +11306,11 @@
     "register"
    ],
    "chainIds": [
-    "410"
+    "410",
+    "41001"
    ],
-   "website": "https://maroo.io"
+   "website": "https://maroo.io",
+   "mainnetSince": "2026-11-21"
   },
   "maximotodevlotstr": {
    "id": "maximotodevlotstr",
@@ -20542,8 +20608,8 @@
     "n:riverbit"
    ],
    "firstSeen": "2026-10-14",
-   "lastActivity": "2026-11-11",
-   "stage": "draait",
+   "lastActivity": "2026-11-21",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -20556,6 +20622,10 @@
     {
      "stage": "draait",
      "date": "2026-11-11"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-21"
     }
    ],
    "evidence": [
@@ -20603,6 +20673,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 12588",
      "url": "https://github.com/ethereum-lists/chains/pull/9051",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 12588",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-12588.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20624,7 +20703,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://app.riverbit.io/api/rpc?chainId=12588"
+   "liveRpc": "https://app.riverbit.io/api/rpc?chainId=12588",
+   "mainnetSince": "2026-11-21"
   },
   "robinhoodchain": {
    "id": "robinhoodchain",
