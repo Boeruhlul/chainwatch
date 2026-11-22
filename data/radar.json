@@ -6106,6 +6106,30 @@
    "date": "2026-11-22"
   },
   {
+   "key": "pr:ethereum/eips#12684",
+   "title": "Update EIP-198: Define the output for a zero modulus",
+   "url": "https://github.com/ethereum/EIPs/pull/12684",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12685",
+   "title": "Update EIP-7702: refund when the authority exists in state",
+   "url": "https://github.com/ethereum/EIPs/pull/12685",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/ercs#2197",
    "title": "Move ERC-5639 to Stagnant",
    "url": "https://github.com/ethereum/ERCs/pull/2197",
@@ -7191,6 +7215,8 @@
    "pr:ethereum/eips#12681",
    "pr:ethereum/eips#12682",
    "pr:ethereum/eips#12683",
+   "pr:ethereum/eips#12684",
+   "pr:ethereum/eips#12685",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
