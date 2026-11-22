@@ -18294,6 +18294,43 @@
     "github"
    ]
   },
+  "pocketethereum": {
+   "id": "pocketethereum",
+   "name": "Pocket Ethereum",
+   "aliases": [
+    "Pocket Ethereum"
+   ],
+   "keys": [
+    "n:pocketethereum"
+   ],
+   "firstSeen": "2026-11-22",
+   "lastActivity": "2026-11-22",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-22"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-22",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Jayanng/pocket-ethereum-showcase",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "polyesterchain": {
    "id": "polyesterchain",
    "name": "Polyester Chain",
