@@ -6195,6 +6195,48 @@
    "date": "2026-11-22"
   },
   {
+   "key": "forum:gov.optimism.io:10992",
+   "title": "Research Project",
+   "url": "https://gov.optimism.io/t/research-project/10992",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-22",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "forum:gov.optimism.io:10993",
+   "title": "Research Project question",
+   "url": "https://gov.optimism.io/t/research-project-question/10993",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-22",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "forum:gov.optimism.io:10994",
+   "title": "Research Project assistance",
+   "url": "https://gov.optimism.io/t/research-project-assistance/10994",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-22",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/eips#12683",
    "title": "Update EIP-2537: Fix two typos in the field-to-curve asset",
    "url": "https://github.com/ethereum/EIPs/pull/12683",
@@ -7306,7 +7348,10 @@
    "forum:gov.optimism.io:10966",
    "forum:gov.optimism.io:10978",
    "forum:gov.optimism.io:10987",
-   "forum:gov.optimism.io:10991"
+   "forum:gov.optimism.io:10991",
+   "forum:gov.optimism.io:10992",
+   "forum:gov.optimism.io:10993",
+   "forum:gov.optimism.io:10994"
   ],
   "immunefi": [
    "immunefi:audit-comp-base-everest",
