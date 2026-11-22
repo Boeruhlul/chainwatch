@@ -11027,8 +11027,8 @@
     "n:longyu"
    ],
    "firstSeen": "2026-11-19",
-   "lastActivity": "2026-11-20",
-   "stage": "testnet",
+   "lastActivity": "2026-11-22",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "lead",
@@ -11041,6 +11041,10 @@
     {
      "stage": "testnet",
      "date": "2026-11-20"
+    },
+    {
+     "stage": "draait",
+     "date": "2026-11-22"
     }
    ],
    "evidence": [
@@ -11071,17 +11075,28 @@
      "url": "https://github.com/ethereum-lists/chains/pull/9117",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xfe5372ca…",
+     "url": "https://scan-testnet.longyu.network/address/0xfe5372ca129113bf12ec70d1ee4a7cbb14f172b0",
+     "strength": "running"
     }
    ],
    "website": "https://longyu.network",
    "architecture": "genesis, OP rollup-config",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 668801)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 668801)",
+    "DEX op de chain gevonden"
    ],
    "families": [
     "github",
-    "register"
+    "register",
+    "onchain"
    ],
    "chainIds": [
     "668801"
@@ -11091,7 +11106,17 @@
     "https://rpc-testnet.longyu.network"
    ],
    "explorer": "https://scan-testnet.longyu.network",
-   "liveRpc": "https://rpc-testnet.longyu.network"
+   "liveRpc": "https://rpc-testnet.longyu.network",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xfe5372ca129113bf12ec70d1ee4a7cbb14f172b0",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-22"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "ltc": {
    "id": "ltc",
