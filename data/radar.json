@@ -6119,6 +6119,18 @@
    "date": "2026-11-22"
   },
   {
+   "key": "chaincontract:qdayaevum:0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SpendGuardFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee"
+   },
+   "date": "2026-11-22"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x70081bed49c0b0fdd7fbc9a835c4d66cd1447234",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6747,6 +6759,7 @@
    "chaincontract:qdayaevum:0x0d93a398de615c92b04961dd042471fea4b7eac6",
    "chaincontract:qdayaevum:0x1402465f04cf62fb822f0e4fd0f9cd2be595ad88",
    "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
+   "chaincontract:qdayaevum:0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee",
    "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
    "chaincontract:qdayaevum:0x4122869db62e124ecdc5a958ace83059f8818cbd",
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
