@@ -876,6 +876,46 @@
     "github"
    ]
   },
+  "apexfaucethubapexuhichain": {
+   "id": "apexfaucethubapexuhichain",
+   "name": "apexfaucet-hub/apex-uhi-chain",
+   "aliases": [
+    "apexfaucet-hub/apex-uhi-chain"
+   ],
+   "keys": [
+    "d:apexfaucet.xyz",
+    "gh:apexfaucet-hub"
+   ],
+   "firstSeen": "2026-11-22",
+   "lastActivity": "2026-11-22",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-22"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-22",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/apexfaucet-hub/apex-uhi-chain",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://apexfaucet.xyz/chain/",
+   "architecture": "chainspec, genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "apnnetwork": {
    "id": "apnnetwork",
    "name": "APN NETWORK",
@@ -3716,6 +3756,43 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · naam-in-repo",
      "url": "https://github.com/commonworld-one/commonworld-testnet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
+  "concordium": {
+   "id": "concordium",
+   "name": "Concordium",
+   "aliases": [
+    "Concordium"
+   ],
+   "keys": [
+    "n:concordium"
+   ],
+   "firstSeen": "2026-11-22",
+   "lastActivity": "2026-11-22",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-22"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-22",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/linmu115/mandate",
      "strength": "technical"
     }
    ],
