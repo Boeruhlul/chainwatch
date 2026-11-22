@@ -9379,6 +9379,43 @@
    ],
    "liveRpc": "https://rpc.incentiv.io"
   },
+  "independentblockchain": {
+   "id": "independentblockchain",
+   "name": "Independent Blockchain",
+   "aliases": [
+    "Independent Blockchain"
+   ],
+   "keys": [
+    "n:independentblockchain"
+   ],
+   "firstSeen": "2026-11-22",
+   "lastActivity": "2026-11-22",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-22"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-22",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/listavop/dcoin-network",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "intainmarketstest": {
    "id": "intainmarketstest",
    "name": "IntainMarketsTest",
