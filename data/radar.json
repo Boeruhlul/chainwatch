@@ -6095,6 +6095,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:nvdachain:0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapPair op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62"
+   },
+   "date": "2026-11-22"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x0d93a398de615c92b04961dd042471fea4b7eac6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6717,6 +6729,7 @@
    "chaincontract:nvdachain:0x4675281d7bf999af01243503941961ebdac3f41d",
    "chaincontract:nvdachain:0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17",
    "chaincontract:nvdachain:0x58eb5a714541cdbbc74561cc9c85e00b43e3be73",
+   "chaincontract:nvdachain:0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62",
    "chaincontract:nvdachain:0x72a6fce691b1fd33d8fa76159ce13157df19be43",
    "chaincontract:nvdachain:0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
    "chaincontract:nvdachain:0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
