@@ -6198,6 +6198,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12686",
+   "title": "Update EIP-8279: Meter deposit request bytes",
+   "url": "https://github.com/ethereum/EIPs/pull/12686",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/ercs#2197",
    "title": "Move ERC-5639 to Stagnant",
    "url": "https://github.com/ethereum/ERCs/pull/2197",
@@ -7301,6 +7313,7 @@
    "pr:ethereum/eips#12683",
    "pr:ethereum/eips#12684",
    "pr:ethereum/eips#12685",
+   "pr:ethereum/eips#12686",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
