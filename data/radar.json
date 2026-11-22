@@ -6082,6 +6082,18 @@
    "date": "2026-11-22"
   },
   {
+   "key": "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "StaticMerkleRootMultisigIsmFactory op QOM",
+   "url": "https://scan.qomx.io/address/0xc990d86012dc21e4a5438a12881f97a2966732d8",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0xc990d86012dc21e4a5438a12881f97a2966732d8"
+   },
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/eips#12683",
    "title": "Update EIP-2537: Fix two typos in the field-to-curve asset",
    "url": "https://github.com/ethereum/EIPs/pull/12683",
@@ -6667,6 +6679,7 @@
    "chaincontract:qms:0xf8168839705f80fa628f484d59b477924124eaea",
    "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
    "chaincontract:qms:0xfa4eaa0c403e55d70aba03fc9c0066732aff3d33",
+   "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
    "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
