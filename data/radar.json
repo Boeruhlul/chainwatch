@@ -1,5 +1,5 @@
 {
- "lastSent": "2026-11-21",
+ "lastSent": "2026-11-22",
  "health": {
   "verified-contracts": {
    "ok": true
@@ -5603,7 +5603,8 @@
     "chain": "Bleno Network",
     "addr": "0xdf8bf9a78e76fe08dfd96029218546b830d21ceb"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "blenonetwork"
   },
   {
    "key": "chaincontract:giwasepolia:0x07cf659a725fda790c0721a9d9533f0f6dac3c02",
@@ -5615,7 +5616,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x07cf659a725fda790c0721a9d9533f0f6dac3c02"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x1031dfd0d2270918e3ecaba37329ecbc5286e002",
@@ -5640,7 +5642,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x4478690027887ee73c82888e0af24285552f25b0"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x4a37875853beb26bc75b79302be8d8c84ce0e0cc",
@@ -5665,7 +5668,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x56c0b0828024d09a3a2386340a284a60cf081d0b"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x5c4e3321435698ab280d14de7e64c8bfb7ae4fb8",
@@ -5703,7 +5707,8 @@
     "chain": "GIWA Sepolia",
     "addr": "0x6b523dfc70ddd8575170a99d7504c55e4cd644f9"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "chaincontract:giwasepolia:0x8b05a92d7c18b79d6ffa73ab633c6b78f0a0783e",
@@ -5754,7 +5759,8 @@
     "chain": "QDAY Aevum",
     "addr": "0x4122869db62e124ecdc5a958ace83059f8818cbd"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
@@ -5766,7 +5772,8 @@
     "chain": "QDAY Aevum",
     "addr": "0x73117fda8e0c804eb3facbfefcd08cf6164f1f87"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
@@ -5778,7 +5785,8 @@
     "chain": "QDAY Aevum",
     "addr": "0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
@@ -5790,7 +5798,8 @@
     "chain": "QDAY Aevum",
     "addr": "0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
@@ -5802,7 +5811,8 @@
     "chain": "QDAY Aevum",
     "addr": "0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qdayaevum:0xe68518a95cbbbd75f521c86688770a98140fe06f",
@@ -5814,7 +5824,8 @@
     "chain": "QDAY Aevum",
     "addr": "0xe68518a95cbbbd75f521c86688770a98140fe06f"
    },
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": "qdayaevum"
   },
   {
    "key": "chaincontract:qms:0x7c0c64ae0e5a6bf6206d7f71461a8669a7979dad",
@@ -5871,7 +5882,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30462",
@@ -5885,7 +5897,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30463",
@@ -5899,7 +5912,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30464",
@@ -5913,7 +5927,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30467",
@@ -5927,7 +5942,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:ethereum-magicians.org:30469",
@@ -5941,7 +5957,8 @@
    },
    "cat": "techniek",
    "src": "forums",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "forum:forum.cosmos.network:17607",
@@ -5981,7 +5998,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12681",
@@ -5993,7 +6011,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12682",
@@ -6005,7 +6024,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2193",
@@ -6017,7 +6037,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2194",
@@ -6029,7 +6050,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2195",
@@ -6041,7 +6063,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2196",
@@ -6053,7 +6076,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
@@ -6067,7 +6091,8 @@
    },
    "cat": "contracten",
    "src": "verified-contracts",
-   "date": "2026-11-21"
+   "date": "2026-11-21",
+   "dossier": null
   },
   {
    "key": "chaincontract:qms:0x0b6bf556915d1acd775deb7e0c01a328dc007e26",
@@ -6079,7 +6104,8 @@
     "chain": "QMS",
     "addr": "0x0b6bf556915d1acd775deb7e0c01a328dc007e26"
    },
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
@@ -6091,7 +6117,8 @@
     "chain": "QOM",
     "addr": "0xc990d86012dc21e4a5438a12881f97a2966732d8"
    },
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12683",
@@ -6103,7 +6130,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12684",
@@ -6115,7 +6143,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/eips#12685",
@@ -6127,7 +6156,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2197",
@@ -6139,7 +6169,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2198",
@@ -6151,7 +6182,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2199",
@@ -6163,7 +6195,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2200",
@@ -6175,7 +6208,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2201",
@@ -6187,7 +6221,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2202",
@@ -6199,7 +6234,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2203",
@@ -6211,7 +6247,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2204",
@@ -6223,7 +6260,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2205",
@@ -6235,7 +6273,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2206",
@@ -6247,7 +6286,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2207",
@@ -6259,7 +6299,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2208",
@@ -6271,7 +6312,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   },
   {
    "key": "pr:ethereum/ercs#2209",
@@ -6283,7 +6325,8 @@
    },
    "cat": "techniek",
    "src": "proposals",
-   "date": "2026-11-22"
+   "date": "2026-11-22",
+   "dossier": null
   }
  ],
  "seen": {
