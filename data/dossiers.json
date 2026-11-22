@@ -21827,7 +21827,8 @@
    ],
    "families": [
     "code"
-   ]
+   ],
+   "liveRpc": "https://theseven.meme/api/seven-chain/jsonrpc"
   },
   "sgachain": {
    "id": "sgachain",
