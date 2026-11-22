@@ -6249,6 +6249,18 @@
    "date": "2026-11-22"
   },
   {
+   "key": "pr:bitcoin/bips#2360",
+   "title": "Add OP_TX, Extended Primitives and Reusable Macros drafts",
+   "url": "https://github.com/bitcoin/bips/pull/2360",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/eips#12683",
    "title": "Update EIP-2537: Fix two typos in the field-to-curve asset",
    "url": "https://github.com/ethereum/EIPs/pull/12683",
@@ -6411,6 +6423,78 @@
    "key": "pr:ethereum/eips#12697",
    "title": "Update EIP-7975: bound the receipt count of a partial list",
    "url": "https://github.com/ethereum/EIPs/pull/12697",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12698",
+   "title": "Update EIP-8016: Clarify which active fields must match",
+   "url": "https://github.com/ethereum/EIPs/pull/12698",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12699",
+   "title": "Update EIP-7934: Use the name SAFETY_MARGIN in the parameters",
+   "url": "https://github.com/ethereum/EIPs/pull/12699",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12700",
+   "title": "Update EIP-8016: Mix in the selector as one 32-byte chunk",
+   "url": "https://github.com/ethereum/EIPs/pull/12700",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12701",
+   "title": "Update EIP-8070: Align engine_getBlobsV4 with the Engine API",
+   "url": "https://github.com/ethereum/EIPs/pull/12701",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12702",
+   "title": "Update EIP-7805: Count the IL size over the EIP-2718 encoding",
+   "url": "https://github.com/ethereum/EIPs/pull/12702",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12703",
+   "title": "Update EIP-778: Name the bytes hashed into the node address",
+   "url": "https://github.com/ethereum/EIPs/pull/12703",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-22"
@@ -7429,6 +7513,7 @@
    "pr:bitcoin/bips#2357",
    "pr:bitcoin/bips#2358",
    "pr:bitcoin/bips#2359",
+   "pr:bitcoin/bips#2360",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -7541,6 +7626,12 @@
    "pr:ethereum/eips#12695",
    "pr:ethereum/eips#12696",
    "pr:ethereum/eips#12697",
+   "pr:ethereum/eips#12698",
+   "pr:ethereum/eips#12699",
+   "pr:ethereum/eips#12700",
+   "pr:ethereum/eips#12701",
+   "pr:ethereum/eips#12702",
+   "pr:ethereum/eips#12703",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
