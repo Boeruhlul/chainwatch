@@ -6246,6 +6246,126 @@
    "date": "2026-11-22"
   },
   {
+   "key": "pr:ethereum/eips#12688",
+   "title": "Update EIP-2718: drop positive from the TransactionType range",
+   "url": "https://github.com/ethereum/EIPs/pull/12688",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12689",
+   "title": "Update EIP-7702: sign the payload without its signature",
+   "url": "https://github.com/ethereum/EIPs/pull/12689",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12690",
+   "title": "Update EIP-8024: number the steps once, and name the step that halts",
+   "url": "https://github.com/ethereum/EIPs/pull/12690",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12691",
+   "title": "Update EIP-7568: link EIP-2070 to its own file",
+   "url": "https://github.com/ethereum/EIPs/pull/12691",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12692",
+   "title": "Update EIP-1186: cover an extension node in the proof of absence",
+   "url": "https://github.com/ethereum/EIPs/pull/12692",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12693",
+   "title": "Update EIP-8070: give GetCells and Cells a request ID",
+   "url": "https://github.com/ethereum/EIPs/pull/12693",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12694",
+   "title": "Update EIP-3076: Check every entry of the schema arrays",
+   "url": "https://github.com/ethereum/EIPs/pull/12694",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12695",
+   "title": "Update EIP-3076: Read the public key from the data entry in the conditions",
+   "url": "https://github.com/ethereum/EIPs/pull/12695",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12696",
+   "title": "Update EIP-8070: keep cell_mask 16 bytes when no blob transaction is announced",
+   "url": "https://github.com/ethereum/EIPs/pull/12696",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12697",
+   "title": "Update EIP-7975: bound the receipt count of a partial list",
+   "url": "https://github.com/ethereum/EIPs/pull/12697",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/ercs#2197",
    "title": "Move ERC-5639 to Stagnant",
    "url": "https://github.com/ethereum/ERCs/pull/2197",
@@ -7353,6 +7473,16 @@
    "pr:ethereum/eips#12684",
    "pr:ethereum/eips#12685",
    "pr:ethereum/eips#12686",
+   "pr:ethereum/eips#12688",
+   "pr:ethereum/eips#12689",
+   "pr:ethereum/eips#12690",
+   "pr:ethereum/eips#12691",
+   "pr:ethereum/eips#12692",
+   "pr:ethereum/eips#12693",
+   "pr:ethereum/eips#12694",
+   "pr:ethereum/eips#12695",
+   "pr:ethereum/eips#12696",
+   "pr:ethereum/eips#12697",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
