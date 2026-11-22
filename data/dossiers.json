@@ -22229,7 +22229,7 @@
     "n:skyxnetwork"
    ],
    "firstSeen": "2026-11-17",
-   "lastActivity": "2026-11-17",
+   "lastActivity": "2026-11-22",
    "stage": "draait",
    "stageHistory": [
     {
@@ -22259,6 +22259,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 7599",
      "url": "https://github.com/ethereum-lists/chains/pull/9096",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x1e489c50…",
+     "url": null,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -22271,12 +22280,24 @@
    ],
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 7599)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 7599)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
-   "liveRpc": "https://evm-rpc.skytradepro.com"
+   "liveRpc": "https://evm-rpc.skytradepro.com",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x1e489c509d3cca13bdde0ff782c2fa68c26f487c",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-22"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "slavenftlemonbrothers": {
    "id": "slavenftlemonbrothers",

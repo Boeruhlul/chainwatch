@@ -6068,6 +6068,126 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-21"
+  },
+  {
+   "key": "pr:ethereum/ercs#2197",
+   "title": "Move ERC-5639 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2197",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2198",
+   "title": "Move ERC-6372 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2198",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2199",
+   "title": "Move ERC-838 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2199",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2200",
+   "title": "Move ERC-7794 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2200",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2201",
+   "title": "Move ERC-7777 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2201",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2202",
+   "title": "Move ERC-4883 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2202",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2203",
+   "title": "Move ERC-2333 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2203",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2204",
+   "title": "Move ERC-7827 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2204",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2205",
+   "title": "Move ERC-8119 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2205",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/ercs#2206",
+   "title": "Move ERC-7632 to Stagnant",
+   "url": "https://github.com/ethereum/ERCs/pull/2206",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
   }
  ],
  "seen": {
@@ -7084,6 +7204,16 @@
    "pr:ethereum/ercs#2194",
    "pr:ethereum/ercs#2195",
    "pr:ethereum/ercs#2196",
+   "pr:ethereum/ercs#2197",
+   "pr:ethereum/ercs#2198",
+   "pr:ethereum/ercs#2199",
+   "pr:ethereum/ercs#2200",
+   "pr:ethereum/ercs#2201",
+   "pr:ethereum/ercs#2202",
+   "pr:ethereum/ercs#2203",
+   "pr:ethereum/ercs#2204",
+   "pr:ethereum/ercs#2205",
+   "pr:ethereum/ercs#2206",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
