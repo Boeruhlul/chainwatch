@@ -22625,6 +22625,43 @@
     "onderzoek"
    ]
   },
+  "soroban": {
+   "id": "soroban",
+   "name": "Soroban",
+   "aliases": [
+    "Soroban"
+   ],
+   "keys": [
+    "n:soroban"
+   ],
+   "firstSeen": "2026-11-22",
+   "lastActivity": "2026-11-22",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-22"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-22",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Danii-Contento/EcoBanco",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "sovl1": {
    "id": "sovl1",
    "name": "SOVL1",
