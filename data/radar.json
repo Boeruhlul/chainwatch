@@ -6527,6 +6527,18 @@
    "date": "2026-11-22"
   },
   {
+   "key": "chaincontract:qdayaevum:0xc81c215c64a5145067f56dd461cb058f05a7c898",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SovereignFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xc81c215c64a5145067f56dd461cb058f05a7c898",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xc81c215c64a5145067f56dd461cb058f05a7c898"
+   },
+   "date": "2026-11-22"
+  },
+  {
    "key": "chaincontract:qms:0x0b6bf556915d1acd775deb7e0c01a328dc007e26",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6855,6 +6867,30 @@
    "key": "pr:ethereum/eips#12703",
    "title": "Update EIP-778: Name the bytes hashed into the node address",
    "url": "https://github.com/ethereum/EIPs/pull/12703",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12704",
+   "title": "Update EIP-1459: Fix the example key, key size, root prefix and hash length",
+   "url": "https://github.com/ethereum/EIPs/pull/12704",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-22"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-22"
+  },
+  {
+   "key": "pr:ethereum/eips#12705",
+   "title": "Update EIP-2718: Add blank lines around headings and lists",
+   "url": "https://github.com/ethereum/EIPs/pull/12705",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-22"
@@ -7430,6 +7466,7 @@
    "chaincontract:qdayaevum:0x9a634535065ae7b3e3df523d76d0d2eed5aeb5b8",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
+   "chaincontract:qdayaevum:0xc81c215c64a5145067f56dd461cb058f05a7c898",
    "chaincontract:qdayaevum:0xca1f3bfdfc4004eef19111b8d4d2e420744198ce",
    "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
    "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
@@ -8022,6 +8059,8 @@
    "pr:ethereum/eips#12701",
    "pr:ethereum/eips#12702",
    "pr:ethereum/eips#12703",
+   "pr:ethereum/eips#12704",
+   "pr:ethereum/eips#12705",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
