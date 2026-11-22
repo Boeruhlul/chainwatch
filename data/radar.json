@@ -6095,6 +6095,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:efikchain:0xf6b19745201b6bae8a260c94f80fe825422882f7",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op Efikchain",
+   "url": "https://explorer.efikcoin.com/address/0xf6b19745201b6bae8a260c94f80fe825422882f7",
+   "meta": {
+    "chain": "Efikchain",
+    "addr": "0xf6b19745201b6bae8a260c94f80fe825422882f7"
+   },
+   "date": "2026-11-22"
+  },
+  {
    "key": "chaincontract:nvdachain:0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -6429,6 +6441,7 @@
    "chaincontract:dogeos:0x196134777200ef20efa99c79615bcee02ba7d63a",
    "chaincontract:efikchain:0x3a9a76315b562457891f994cb2ebc557ebc943b3",
    "chaincontract:efikchain:0xed9e857fc49705956d5f4336d855e6e986aa318f",
+   "chaincontract:efikchain:0xf6b19745201b6bae8a260c94f80fe825422882f7",
    "chaincontract:eninetwork:0x03e034de72dd2ba665fd3c6761a5934164bd6c14",
    "chaincontract:eninetwork:0x302f9c82340ade6807f9d6748a6955077781f8a3",
    "chaincontract:eninetwork:0x50d6121ebbcf162ca83408ac47ff214004f16d33",
