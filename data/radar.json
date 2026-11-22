@@ -6145,6 +6145,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethresear.ch:26281",
+   "title": "What's a block, and how big can it get?",
+   "url": "https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-22",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-22"
+  },
+  {
    "key": "pr:ethereum/eips#12683",
    "title": "Update EIP-2537: Fix two typos in the field-to-curve asset",
    "url": "https://github.com/ethereum/EIPs/pull/12683",
@@ -7012,6 +7026,7 @@
    "forum:ethresear.ch:26271",
    "forum:ethresear.ch:26272",
    "forum:ethresear.ch:26275",
+   "forum:ethresear.ch:26281",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
