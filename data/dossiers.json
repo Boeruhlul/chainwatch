@@ -20898,6 +20898,43 @@
     "register"
    ]
   },
+  "replayzcash": {
+   "id": "replayzcash",
+   "name": "Replay Zcash",
+   "aliases": [
+    "Replay Zcash"
+   ],
+   "keys": [
+    "n:replayzcash"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/intelliDean/zcash-address-history-replay",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "rialo": {
    "id": "rialo",
    "name": "Rialo",
