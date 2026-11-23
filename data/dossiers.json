@@ -16175,6 +16175,44 @@
     "github"
    ]
   },
+  "nirachainnirasmartchaintestnet": {
+   "id": "nirachainnirasmartchaintestnet",
+   "name": "nirachain/nira-smart-chain-testnet",
+   "aliases": [
+    "nirachain/nira-smart-chain-testnet"
+   ],
+   "keys": [
+    "gh:nirachain"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/nirachain/nira-smart-chain-testnet",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "niveshgajengifuinzcash": {
    "id": "niveshgajengifuinzcash",
    "name": "niveshgajengi/fuin-zcash",
