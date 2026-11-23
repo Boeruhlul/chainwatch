@@ -7219,6 +7219,30 @@
    "date": "2026-11-23"
   },
   {
+   "key": "chaincontract:giwasepolia:0xaafcc3cb9b83528ae09129aa01689347754baffa",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ZoomiGiwaFactory op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xaafcc3cb9b83528ae09129aa01689347754baffa",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xaafcc3cb9b83528ae09129aa01689347754baffa"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xab715b178d3b9839e398d8f75801c18c3e3f9890",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ZoomiLaunch op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xab715b178d3b9839e398d8f75801c18c3e3f9890",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xab715b178d3b9839e398d8f75801c18c3e3f9890"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xbaebf298372719275c390a02ee2fca0e1db0d0a5",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -7803,7 +7827,9 @@
    "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
    "chaincontract:giwasepolia:0xaa1ac19b2287b1f1fcb8217b76b365f96234786e",
    "chaincontract:giwasepolia:0xaa99962ca53580272bfd29402f41618718efe86d",
+   "chaincontract:giwasepolia:0xaafcc3cb9b83528ae09129aa01689347754baffa",
    "chaincontract:giwasepolia:0xab665b7867080cd62aa316717400f3cc094e7bd6",
+   "chaincontract:giwasepolia:0xab715b178d3b9839e398d8f75801c18c3e3f9890",
    "chaincontract:giwasepolia:0xac2e5fa7b83aae35d49505ad82ce4d8fe7670b70",
    "chaincontract:giwasepolia:0xaddb1d0877bcc5fa2b582951cd03f3c630c528cc",
    "chaincontract:giwasepolia:0xafccc719ca74060b00693b294b3a451bcb4d5801",
