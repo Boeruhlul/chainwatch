@@ -7683,6 +7683,48 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-23"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x3fdbe48f21e9509f815c7482ab213c16403cd414",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x3Fdbe48F21e9509F815c7482AB213c16403cD414",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0x3Fdbe48F21e9509F815c7482AB213c16403cD414",
+    "verified": "2026-11-23"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x66b88c1303a1c2ff4af31626f59b44a3a9ee85a4",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x66B88c1303a1c2ff4af31626f59B44a3a9Ee85a4",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0x66B88c1303a1c2ff4af31626f59B44a3a9Ee85a4",
+    "verified": "2026-11-23"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xb11be60743211fde36786e4a27f07fab11f94165",
+   "title": "AnchorStateRegistry geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xb11Be60743211FdE36786E4A27F07Fab11F94165",
+   "meta": {
+    "name": "AnchorStateRegistry",
+    "chain": "eth",
+    "addr": "0xb11Be60743211FdE36786E4A27F07Fab11F94165",
+    "verified": "2026-11-23"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-23"
   }
  ],
  "seen": {
@@ -8852,14 +8894,17 @@
    "vc:eth.blockscout.com:0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
    "vc:eth.blockscout.com:0x24e6733438bc532b30ad7fbce14f7b6e9d210de6",
    "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
+   "vc:eth.blockscout.com:0x3fdbe48f21e9509f815c7482ab213c16403cd414",
    "vc:eth.blockscout.com:0x452b9b61a5810f1f9fddf5f14bfc6d78a49f9b84",
    "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
+   "vc:eth.blockscout.com:0x66b88c1303a1c2ff4af31626f59b44a3a9ee85a4",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
    "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "vc:eth.blockscout.com:0x9efa8ec468882944f08ea76b813186cc38bd0681",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377",
+   "vc:eth.blockscout.com:0xb11be60743211fde36786e4a27f07fab11f94165",
    "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "vc:eth.blockscout.com:0xb5d216b9a35d186cc9799e66e35c0ac1fbe1c6d5",
    "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
