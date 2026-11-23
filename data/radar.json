@@ -7051,6 +7051,42 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qdayaevum:0x15debe3bed0a0bf705b6800d279f038097dc1706",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SluiceVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x15debe3bed0a0bf705b6800d279f038097dc1706",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x15debe3bed0a0bf705b6800d279f038097dc1706"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0x3aa047ecde17f1ed439d3bed372a1e36efd462f9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SluiceFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x3aa047ecde17f1ed439d3bed372a1e36efd462f9",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x3aa047ecde17f1ed439d3bed372a1e36efd462f9"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0x4cd19a15a37dc241938b9b0bee67e007556554ce",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SluiceVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x4cd19a15a37dc241938b9b0bee67e007556554ce",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x4cd19a15a37dc241938b9b0bee67e007556554ce"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "key": "chaincontract:qms:0xb7d4a0f9ed64c717d7f5b28f405bc6636c8f2115",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -7537,10 +7573,13 @@
    "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
    "chaincontract:qdayaevum:0x0d93a398de615c92b04961dd042471fea4b7eac6",
    "chaincontract:qdayaevum:0x1402465f04cf62fb822f0e4fd0f9cd2be595ad88",
+   "chaincontract:qdayaevum:0x15debe3bed0a0bf705b6800d279f038097dc1706",
    "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
+   "chaincontract:qdayaevum:0x3aa047ecde17f1ed439d3bed372a1e36efd462f9",
    "chaincontract:qdayaevum:0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee",
    "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
    "chaincontract:qdayaevum:0x4122869db62e124ecdc5a958ace83059f8818cbd",
+   "chaincontract:qdayaevum:0x4cd19a15a37dc241938b9b0bee67e007556554ce",
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
    "chaincontract:qdayaevum:0x70081bed49c0b0fdd7fbc9a835c4d66cd1447234",
    "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
