@@ -8368,15 +8368,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v3-fork) 0x05d2d644…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x05d2d644d2d1f2678f72cc3f6610444201ce09fc",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v3-fork) 0x3ed1d525…",
      "url": "https://sepolia-explorer.giwa.io/address/0x3ed1d5252bc1b63ce3e013db8cc045338e7df931",
      "strength": "running"
@@ -8622,6 +8613,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x0ee8244d…",
      "url": "https://sepolia-explorer.giwa.io/address/0x0ee8244d9d497f4275209cc01b289e457e976775",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0x2b579f75…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x2b579f75b6b388a360c349929a37a8e57e0a65a7",
      "strength": "running"
     }
    ],
@@ -23128,6 +23128,43 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "sodex": {
+   "id": "sodex",
+   "name": "SoDEX",
+   "aliases": [
+    "SoDEX"
+   ],
+   "keys": [
+    "n:sodex"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/AndreyJackKali/basisflow-terminal",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "solanaclassiclabssolanaclassic": {
