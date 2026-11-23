@@ -1162,6 +1162,24 @@
     },
     {
      "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 27600",
+     "url": "https://chainlist.org/chain/27600",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "chainlist: nieuw in tracking · ID 27601",
+     "url": "https://chainlist.org/chain/27601",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-23",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -19357,6 +19375,15 @@
     },
     {
      "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 1234571",
+     "url": "https://chainlist.org/chain/1234571",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "testnet",
@@ -24105,6 +24132,15 @@
     },
     {
      "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 81630",
+     "url": "https://chainlist.org/chain/81630",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -25549,6 +25585,33 @@
      "what": "ethlists-pr: RPC antwoordt · ID 445",
      "url": "https://github.com/ethereum-lists/chains/pull/9091",
      "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 454",
+     "url": "https://chainlist.org/chain/454",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 455",
+     "url": "https://chainlist.org/chain/455",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 445",
+     "url": "https://chainlist.org/chain/445",
      "strength": "running"
     },
     {
