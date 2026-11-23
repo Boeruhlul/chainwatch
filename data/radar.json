@@ -7513,6 +7513,18 @@
    "date": "2026-11-23"
   },
   {
+   "key": "pr:ethereum/eips#12708",
+   "title": "Update EIP-8141: let only VERIFY frames read signature bytes outside the signature hash",
+   "url": "https://github.com/ethereum/EIPs/pull/12708",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
    "key": "pr:ethereum/ercs#2211",
    "title": "Add ERC: GPU Collateral Evidence",
    "url": "https://github.com/ethereum/ERCs/pull/2211",
@@ -8570,6 +8582,7 @@
    "pr:ethereum/eips#12705",
    "pr:ethereum/eips#12706",
    "pr:ethereum/eips#12707",
+   "pr:ethereum/eips#12708",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
