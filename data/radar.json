@@ -7572,6 +7572,20 @@
    "date": "2026-11-23"
   },
   {
+   "key": "forum:forum.cosmos.network:17609",
+   "title": "The Hub's own ecosystem is hard to find, even on Mintscan",
+   "url": "https://forum.cosmos.network/t/the-hubs-own-ecosystem-is-hard-to-find-even-on-mintscan/17609",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:forum.zknation.io:1384",
    "title": "Moving funds off ZKsync Era since the 24-hour delay: exchange vs bridge",
    "url": "https://forum.zknation.io/t/moving-funds-off-zksync-era-since-the-24-hour-delay-exchange-vs-bridge/1384",
@@ -8533,6 +8547,7 @@
    "forum:forum.cosmos.network:17600",
    "forum:forum.cosmos.network:17603",
    "forum:forum.cosmos.network:17607",
+   "forum:forum.cosmos.network:17609",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
