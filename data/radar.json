@@ -6985,6 +6985,20 @@
     "addr": "0xb7d4a0f9ed64c717d7f5b28f405bc6636c8f2115"
    },
    "date": "2026-11-23"
+  },
+  {
+   "key": "forum:gov.optimism.io:10995",
+   "title": "Security Council Lead Self-Nomination: alisha.eth",
+   "url": "https://gov.optimism.io/t/security-council-lead-self-nomination-alisha-eth/10995",
+   "meta": {
+    "forum": "gov.optimism.io",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
   }
  ],
  "seen": {
@@ -7798,7 +7812,8 @@
    "forum:gov.optimism.io:10991",
    "forum:gov.optimism.io:10992",
    "forum:gov.optimism.io:10993",
-   "forum:gov.optimism.io:10994"
+   "forum:gov.optimism.io:10994",
+   "forum:gov.optimism.io:10995"
   ],
   "immunefi": [
    "immunefi:audit-comp-base-everest",
