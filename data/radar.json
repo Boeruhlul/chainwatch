@@ -28,6 +28,17 @@
  },
  "airdrops": [
   {
+   "id": "alta",
+   "name": "Alta",
+   "score": 5,
+   "why": [
+    "verse funding",
+    "points/airdrop genoemd"
+   ],
+   "stage": "aangekondigd",
+   "website": null
+  },
+  {
    "id": "asentum",
    "name": "Asentum",
    "score": 5,

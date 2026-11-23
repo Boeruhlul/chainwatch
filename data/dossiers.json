@@ -340,6 +340,87 @@
     "register"
    ]
   },
+  "aeredium": {
+   "id": "aeredium",
+   "name": "AEREDIUM",
+   "aliases": [
+    "AEREDIUM",
+    "AERX"
+   ],
+   "keys": [
+    "d:aeredium.io",
+    "id:2237",
+    "n:aeredium",
+    "n:aerx"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "testnet",
+   "stageHistory": [
+    {
+     "stage": "testnet",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://chainwire.org/2026/11/17/aeredium-launches-loveh-lending-protocol-on-testnet-offers-10000-aerx-for-security-flaws/",
+     "stage": "testnet",
+     "strength": "soft"
+    }
+   ],
+   "chainIds": [
+    "2237"
+   ],
+   "website": "https://aeredium.io",
+   "architecture": "L1 · 'proof-of-attestation', EVM-adressen",
+   "research": {
+    "confidence": "D",
+    "org": "AEREDIUM",
+    "why": "Een onbekende L1 met een live testnet (chain ID 2237) en een airdrop-points-programma: 10.000 AERX-points per bevestigde kwetsbaarheid in het lending-protocol LOVEH. Hij staat niet in de dossiers, maar de bron is een betaald persbericht.",
+    "facts": [
+     {
+      "claim": "'AEREDIUM, a Layer 1 blockchain network' lanceert lending-protocol LOVEH op de 'AEREDIUM test network', chain ID 2237; consensus 'proof-of-attestation'; gas vast op 'USD 60 per megabyte'",
+      "url": "https://chainwire.org/2026/11/17/aeredium-launches-loveh-lending-protocol-on-testnet-offers-10000-aerx-for-security-flaws/",
+      "date": "2026-11-17"
+     },
+     {
+      "claim": "'10,000 AERX in airdrop points for each confirmed qualifying vulnerability', onder de voorwaarden van 'the AEREDIUM airdrop program'",
+      "url": "https://chainwire.org/2026/11/17/aeredium-launches-loveh-lending-protocol-on-testnet-offers-10000-aerx-for-security-flaws/",
+      "date": "2026-11-17"
+     }
+    ],
+    "hypotheses": [
+     "Een betaald persbericht zonder bekende funding of team is een rood vlak. Behandel dit als lead en niet als kans totdat er een onafhankelijke bron is.",
+     "Een vast gastarief in USD per megabyte is ongebruikelijk en kan op een centraal beheerde chain wijzen."
+    ],
+    "nextSignals": [
+     "chain ID 2237 in chainlist",
+     "funding of teamnamen",
+     "on-chain activiteit op de LOVEH-market-factory"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": {
+     "dex": "onbekend",
+     "launchpad": "onbekend",
+     "bridge": "onbekend"
+    },
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "AEREDIUM",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
+   ]
+  },
   "aeva": {
    "id": "aeva",
    "name": "Aeva",
@@ -756,18 +837,26 @@
    "id": "alta",
    "name": "Alta",
    "aliases": [
-    "Alta"
+    "Alta",
+    "Metal",
+    "Alta chain"
    ],
    "keys": [
-    "n:alta"
+    "n:alta",
+    "n:altachain",
+    "n:metal"
    ],
    "firstSeen": "2026-11-10",
-   "lastActivity": "2026-11-10",
-   "stage": "lead",
+   "lastActivity": "2026-11-23",
+   "stage": "aangekondigd",
    "stageHistory": [
     {
      "stage": "lead",
      "date": "2026-11-10"
+    },
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-23"
     }
    ],
    "evidence": [
@@ -779,15 +868,62 @@
      "what": "funding-rss: aanwijzing · funding",
      "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://crypto.news/alta-raises-47-5m-for-blockchain-backed-by-crypto-skeptic-jack-zhang/",
+     "stage": "aangekondigd",
+     "strength": "soft"
     }
    ],
    "confidence": "D",
    "reasons": [
-    "alleen nieuws"
+    "alleen nieuws, onderzoek"
    ],
    "families": [
-    "nieuws"
-   ]
+    "nieuws",
+    "onderzoek"
+   ],
+   "architecture": "Permissioned/compliant L1 · recursieve ZK-proofs",
+   "research": {
+    "confidence": "D",
+    "org": "Alta (gesteund door Airwallex)",
+    "why": "Nieuw bij het bestaande dossier: Alta is dezelfde partij als 'Metal', dat in juni een seed ophaalde bij Airwallex. Daarmee horen twee namen bij één project. De L1 richt zich op banken en licensed payment firms, met recursieve ZK en een ingebouwd 'anti-airdrop'-mechanisme.",
+    "facts": [
+     {
+      "claim": "Alta haalde een Series A van $47,5 mln op onder leiding van Index Ventures, totaal $80 mln; 'formerly known as Metal'; bouwt een eigen L1 met 'recursive zero-knowledge cryptography'",
+      "url": "https://crypto.news/alta-raises-47-5m-for-blockchain-backed-by-crypto-skeptic-jack-zhang/",
+      "date": "2026-11-11"
+     },
+     {
+      "claim": "Metal, 'a global settlement network and Layer-1 blockchain designed for tokenized finance', sloot een seedronde onder leiding van Airwallex en Capital49; ingebouwde KYC en permissies",
+      "url": "https://www.kucoin.com/news/flash/airwallex-shifts-stance-on-stablecoins-leads-seed-round-for-metal",
+      "date": "2026-06-26"
+     },
+     {
+      "claim": "Alta is 'an L1 specifically designed for licensed financial institutions', met een 'anti-airdrop feature' die transfers van niet-geautoriseerde adressen blokkeert",
+      "url": "https://www.chaincatcher.com/en/article/2303637",
+      "date": "2026-11-11"
+     }
+    ],
+    "hypotheses": [
+     "Gezien de permissioned opzet en het anti-airdrop-mechanisme is dit geen airdrop-kans. Volg het als institutionele chain van een grote fintech, net als Tempo en Arc.",
+     "Airwallex wil zijn netwerk in 200 landen aansluiten, dus het eerste publieke spoor is waarschijnlijk een testnet met partnerbanken."
+    ],
+    "nextSignals": [
+     "testnet- of devnet-aankondiging",
+     "vacatures bij Alta voor protocol- en validator-rollen",
+     "merkregistratie 'ALTA' in de klasse blockchain/financiële diensten"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": null,
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "Alta (gesteund door Airwallex)"
   },
   "animica": {
    "id": "animica",
@@ -7697,7 +7833,7 @@
     "n:flopnetwork"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-11-16",
+   "lastActivity": "2026-11-23",
    "stage": "devnet",
    "stageHistory": [
     {
@@ -7757,6 +7893,16 @@
      "url": "https://www.chaincatcher.com/en/article/2304487",
      "stage": "devnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://github.com/flop-labs/network/issues/368",
+     "stage": "devnet",
+     "strength": "soft"
     }
    ],
    "website": "https://x.com/flop_labs",
@@ -7764,36 +7910,31 @@
    "research": {
     "confidence": "B",
     "org": "Flop Labs (Arthur Hayes)",
-    "why": "Nieuw sinds vorige week: testnet en airdrop staan vast op 24 november, gemeld door meerdere bronnen. Volgens KuCoin een fair launch zonder presale; de token bestaat nog niet.",
+    "why": "Nieuw sinds vorige week: het testnet van 24 november is 'subject to readiness'. Volgens een GitHub-issue van 19 november zijn minstens 73 aspirant-operators nog niet tot het devnet toegelaten, en het issue vraagt om ongeveer een maand uitstel. Het airdrop-gewicht telt pas vanaf het testnet.",
     "facts": [
      {
-      "claim": "Hayes: testnet en airdrop van Flop Labs starten op 24 november; wijzigingen worden vooraf aangekondigd",
-      "url": "https://www.chaincatcher.com/en/article/2304487",
-      "date": "2026-11-13"
+      "claim": "Issue #368: 'Devnet is for proving validator setup before TestNet. It offers no rewards or airdrop weight'; testnet-doel 24 november 2026 'subject to readiness'; minstens 73 operators niet toegelaten; verzoek om mogelijke verschuiving van…",
+      "url": "https://github.com/flop-labs/network/issues/368",
+      "date": "2026-11-19"
      },
      {
-      "claim": "Testnet op 24 november, '100% fair launch', geen presale; geen volledige whitepaper en airdrop-allocatie nog niet bekend",
-      "url": "https://www.kucoin.com/news/flash/arthur-hayes-announces-flop-token-airdrop-and-testnet-launch-on-november-24",
+      "claim": "Testnet op 24 november; interactie met het testnet 'will result in a token airdrop'; devnet-faucet via Polkadot.js, Talisman of SubWallet",
+      "url": "https://www.kucoin.com/news/flash/flop-labs-to-launch-testnet-on-november-24-42-space-introduces-points-system",
       "date": "2026-11-13"
-     },
-     {
-      "claim": "PANews meldt dezelfde datum van 24 november",
-      "url": "https://panews.io/articles/01a1d3d5-425a-7074-8e85-3116fdf883d5",
-      "date": null
      }
     ],
     "hypotheses": [
-     "Een community-account (niet officieel) noemt 1,2 mld FLOP (27,27% van de genesis-supply) voor het testnet; niet bevestigd",
-     "Rond 24 november zijn nep-airdropsites waarschijnlijk"
+     "Het issue komt van een gebruiker, niet van het team, maar is wel een concreet signaal dat de datum van 24 november kan schuiven.",
+     "Het grote aantal wachtende operators trekt imitatie-faucets en nep-'testnet'-sites aan. Gebruik alleen links van flop.network en flop.finance."
     ],
     "nextSignals": [
-     "Testnet live op 24-11 met chain ID/RPC op een officieel domein",
-     "Whitepaper",
-     "Faucet- en airdropregels"
+     "officiële bevestiging of uitstel op 24 november",
+     "testnet-RPC en explorer op een flop-domein",
+     "eerste DEX op het testnet"
     ],
-    "expectedLaunch": "testnet 2026-11-24",
+    "expectedLaunch": null,
     "ecosystem": null,
-    "file": "2026-11-16-weekly.json"
+    "file": "2026-11-23-weekly.json"
    },
    "org": "Flop Labs (CEO: Arthur Hayes)",
    "confidence": "B",
@@ -8842,6 +8983,85 @@
     "register"
    ]
   },
+  "hashi": {
+   "id": "hashi",
+   "name": "Hashi",
+   "aliases": [
+    "Hashi",
+    "hBTC"
+   ],
+   "keys": [
+    "n:hashi",
+    "n:hbtc"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+     "stage": "mainnet",
+     "strength": "soft"
+    }
+   ],
+   "architecture": "Bitcoin-financeprotocol op Sui · 1:1 BTC-backed hBTC",
+   "research": {
+    "confidence": "D",
+    "org": "Hashi (Sui-ecosysteem)",
+    "why": "Nieuwe techniek, geen nieuwe chain: Hashi ging op 19 november live op de Sui-mainnet met meer dan 20 partners en brengt native BTC als collateral naar Sui. Relevant voor Bitcoin-L2/BTCfi en als signaal voor nieuwe lending-markten en launchpads rond hBTC.",
+    "facts": [
+     {
+      "claim": "Bitcoin-financeprotocol Hashi live op de Sui-mainnet",
+      "url": "https://theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+      "date": "2026-11-19"
+     },
+     {
+      "claim": "Mainnet live met 20+ partners",
+      "url": "https://chainwire.org/2026/11/19/hashi-mainnet-is-live-with-20-plus-partners-bringing-bitcoin-finance-to-sui-at-scale",
+      "date": "2026-11-19"
+     },
+     {
+      "claim": "hBTC 1:1 BTC-backed, met Fluid-lendingmarkten en HoneyB-vaults via Upshift",
+      "url": "https://thecryptobasic.com/2026/11/19/tcb-daily-edition-what-happened-in-crypto-on-november-19-2026/",
+      "date": "2026-11-19"
+     }
+    ],
+    "hypotheses": [
+     "Er volgen waarschijnlijk points-programma's van lending- en vault-protocollen rond hBTC. Dat is niet bevestigd."
+    ],
+    "nextSignals": [
+     "points-campagnes van Fluid, HoneyB of Upshift rond hBTC",
+     "uitbreiding van Hashi naar andere chains"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": {
+     "dex": "onbekend",
+     "launchpad": "onbekend",
+     "bridge": "Hashi (BTC → Sui)"
+    },
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "Hashi (Sui-ecosysteem)",
+   "mainnetSince": "2026-11-23",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
+   ]
+  },
   "hasrayls": {
    "id": "hasrayls",
    "name": "Has Rayls",
@@ -8972,14 +9192,16 @@
    "id": "hskchain",
    "name": "HSK Chain",
    "aliases": [
-    "HSK Chain"
+    "HSK Chain",
+    "HashKey Chain"
    ],
    "keys": [
     "id:177",
+    "n:hashkeychain",
     "n:hskchain"
    ],
    "firstSeen": "2026-10-16",
-   "lastActivity": "2026-10-16",
+   "lastActivity": "2026-11-23",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -8997,6 +9219,16 @@
      "url": "https://defillama.com/chain/HSK%20Chain",
      "strength": "technical",
      "noRpc": true
+    },
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://www.plataformamedia.com/en/2026/11/18/hsk-chain-and-base-collaborate-to-connect-asias-premier-onchain-asset-with-global-liquidity/",
+     "stage": "mainnet",
+     "strength": "soft"
     }
    ],
    "chainIds": [
@@ -9004,13 +9236,37 @@
    ],
    "architecture": "EVM",
    "mainnetSince": "2026-10-16",
-   "confidence": "C",
+   "confidence": "B",
    "reasons": [
-    "één technisch signaal (markt)"
+    "2 onafhankelijke bronfamilies: markt, onderzoek"
    ],
    "families": [
-    "markt"
-   ]
+    "markt",
+    "onderzoek"
+   ],
+   "research": {
+    "confidence": "C",
+    "org": "HashKey Group",
+    "why": "Heronderzoek van een C-dossier dat meer dan 30 dagen stil was: op 18 november kondigden HSK Chain en Base een samenwerking aan voor liquiditeit tussen Azië en Base. Dat is nieuw bewijs van activiteit, maar het gaat om een bestaande chain en niet om een nieuwe.",
+    "facts": [
+     {
+      "claim": "Kop: 'HSK Chain and Base Collaborate to Connect Asia's Premier Onchain Asset with Global Liquidity' (alleen de titel gelezen; de pagina laadde niet)",
+      "url": "https://www.plataformamedia.com/en/2026/11/18/hsk-chain-and-base-collaborate-to-connect-asias-premier-onchain-asset-with-global-liquidity/",
+      "date": "2026-11-18"
+     }
+    ],
+    "hypotheses": [
+     "Een samenwerking met Base kan op een bridge of interop voor HSK-assets wijzen. De inhoud is niet geverifieerd."
+    ],
+    "nextSignals": [
+     "bridge-contracten tussen HSK Chain en Base",
+     "nieuwe stablecoin-uitgifte (RDUSD) op HSK Chain"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": null,
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "HashKey Group"
   },
   "htssolana": {
    "id": "htssolana",
@@ -10794,13 +11050,16 @@
    "id": "lighterevm",
    "name": "Lighter EVM",
    "aliases": [
-    "Lighter EVM"
+    "Lighter EVM",
+    "Lighter Core"
    ],
    "keys": [
+    "id:19529",
+    "n:lightercore",
     "n:lighterevm"
    ],
    "firstSeen": "2026-11-16",
-   "lastActivity": "2026-11-16",
+   "lastActivity": "2026-11-23",
    "stage": "devnet",
    "stageHistory": [
     {
@@ -10818,37 +11077,47 @@
      "url": "https://www.kucoin.com/news/flash/lighter-evm-devnet-launches-in-collaboration-with-axiom",
      "stage": "devnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://crypto.news/lighter-evm-devnet-smart-contract-trading/",
+     "stage": "devnet",
+     "strength": "soft"
     }
    ],
    "architecture": "EVM-equivalente rollup op OpenVM naast Lighter Core · gedeelde ZK-proof naar Et…",
    "research": {
     "confidence": "C",
     "org": "Lighter (met Axiom)",
-    "why": "Een nieuwe EVM-rollup naast een grote perps-ZK-rollup, waarvan de contracts orderboekdata van Lighter kunnen lezen. Hij staat nog niet in de dossiers, en open toegang voor developers was 'in de komende weken' beloofd.",
+    "why": "Nieuw bij het dossier: de devnet-docs noemen chain ID 19529 voor Lighter EVM, en die staat nog niet in de dossiers. Daarmee kan de bot de chain koppelen zodra er een publieke RPC of een registervermelding opduikt.",
     "facts": [
      {
-      "claim": "Lighter EVM-devnet gelanceerd met Axiom; EVM-equivalente rollup op OpenVM, parallel aan Lighter Core; beide settelen samen op Ethereum via dezelfde ZK-proof",
-      "url": "https://www.kucoin.com/news/flash/lighter-evm-devnet-launches-in-collaboration-with-axiom",
+      "claim": "Lighter EVM-devnet: EVM chain ID 19,529; Core gebruikt 300 op het devnet; blocktijd 1 s; ETH als gas; 'the devnet version uses mocked ZK proofs for L1 finalization'",
+      "url": "https://crypto.news/lighter-evm-devnet-smart-contract-trading/",
       "date": "2026-10-16"
      },
      {
-      "claim": "Toegang gaat in batches via evm@lighter.xyz; open voor alle developers 'in de komende weken' (op basis van een X-post van @Lighter_xyz)",
-      "url": "https://www.chaincatcher.com/en/article/2296902",
+      "claim": "Toegang in cohorten via e-mail, uitbreiding 'in the coming weeks'",
+      "url": "https://crypto.news/lighter-evm-devnet-smart-contract-trading/",
       "date": "2026-10-16"
      }
     ],
     "hypotheses": [
-     "Een open devnet of publiek testnet kan nu dichtbij zijn",
-     "Beide nieuwsbronnen gaan terug op één X-post"
+     "Chain ID 300 voor Core botst met een bestaand bekend testnet-ID. Koppel daarom alleen op 19529, niet op 300.",
+     "Een open devnet of testnet ligt voor de hand rond de jaarwisseling, omdat 'coming weeks' inmiddels vijf weken geleden is."
     ],
     "nextSignals": [
-     "Open devnet/testnet met RPC en chain ID",
-     "Docs op een Lighter-domein",
-     "Eerste dApps die Lighter Core-orders via contracts gebruiken"
+     "chain ID 19529 in ethereum-lists/chains of chainlist",
+     "publieke devnet-RPC",
+     "eerste vaults of RFQ-apps op Lighter EVM"
     ],
     "expectedLaunch": null,
     "ecosystem": null,
-    "file": "2026-11-16-weekly.json"
+    "file": "2026-11-23-weekly.json"
    },
    "org": "Lighter (met Axiom)",
    "confidence": "C",
@@ -10858,6 +11127,9 @@
    ],
    "families": [
     "onderzoek"
+   ],
+   "chainIds": [
+    "19529"
    ]
   },
   "linera": {
@@ -15897,6 +16169,77 @@
     "github"
    ]
   },
+  "nodechain": {
+   "id": "nodechain",
+   "name": "NodeChain",
+   "aliases": [
+    "NodeChain",
+    "NodeXX Chain"
+   ],
+   "keys": [
+    "n:nodechain",
+    "n:nodexxchain"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://www.chaincatcher.com/en/article/2305861",
+     "stage": "aangekondigd",
+     "strength": "soft"
+    }
+   ],
+   "architecture": "EVM L1 · parallelle executie, smart accounts",
+   "research": {
+    "confidence": "D",
+    "org": "NodeXX",
+    "why": "Nieuw en nog niet in de dossiers: NodeXX kondigt op 18 november een eigen EVM-L1 'NodeChain' aan met native token $NXX, gericht op open finance en AI-agents. Er zijn nog geen chain ID en geen datum, dus dit is vroeg.",
+    "facts": [
+     {
+      "claim": "NodeXX is 'about to launch' de Layer 1 public chain NodeChain, EVM-compatibel, met parallelle executie en smart accounts; AI-agents werken binnen herroepbare, auditeerbare autorisaties",
+      "url": "https://www.chaincatcher.com/en/article/2305861",
+      "date": "2026-11-18"
+     },
+     {
+      "claim": "Native token $NXX, maximale supply 1 miljard, voor fees, validator-staking, governance en ecosysteemdiensten; geen lanceerdatum of chain ID genoemd",
+      "url": "https://www.chaincatcher.com/en/article/2305861",
+      "date": "2026-11-18"
+     }
+    ],
+    "hypotheses": [
+     "Een kopregel op dezelfde pagina noemt 'NodeXX Launchpad Phase 9' (subscriptie op 18 november). Dat wijst erop dat NodeXX een exchange met launchpad is, en dan is dit een exchange-chain. Dat is niet geverifieerd.",
+     "Een token met vaste supply vóór mainnet maakt een launchpad-verkoop waarschijnlijker dan een airdrop."
+    ],
+    "nextSignals": [
+     "chain ID-aanvraag in ethereum-lists/chains",
+     "testnet-RPC op een NodeXX-domein",
+     "eerste DEX/launchpad op NodeChain"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": null,
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "NodeXX",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
+   ]
+  },
   "noion": {
    "id": "noion",
    "name": "Noion",
@@ -17934,6 +18277,82 @@
     "register"
    ],
    "liveRpc": "https://pinch.network/rpc"
+  },
+  "pinetworklaunchpaddex": {
+   "id": "pinetworklaunchpaddex",
+   "name": "Pi Network Launchpad & DEX",
+   "aliases": [
+    "Pi Network Launchpad & DEX",
+    "Pi Launchpad",
+    "Pi DEX"
+   ],
+   "keys": [
+    "n:pidex",
+    "n:pilaunchpad",
+    "n:pinetworklaunchpaddex"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://cryptonews.net/news/altcoins/33769791/",
+     "stage": "aangekondigd",
+     "strength": "soft"
+    }
+   ],
+   "architecture": "Pi mainnet (eigen L1)",
+   "research": {
+    "confidence": "D",
+    "org": "Pi Core Team",
+    "why": "Het eerste native launchpad en de eerste DEX/AMM op de Pi-mainnet zijn aangekondigd voor Q1 2027, samen met de eerste mainnet-tokens. Dat is het 'eerste launchpad/DEX op een chain'-moment, op een netwerk met 18 miljoen KYC-gebruikers.",
+    "facts": [
+     {
+      "claim": "Op de Pi Ecosystem Summit van 17 november: 'Pi Launchpad, a decentralized exchange (DEX)' en nieuwe tokens gepland voor mainnet in Q1 2027, zonder exacte datum (januari–maart)",
+      "url": "https://cryptonews.net/news/altcoins/33769791/",
+      "date": "2026-11-18"
+     },
+     {
+      "claim": "Eerste mainnet-tokens 'Era' en 'Fly', eerder op het testnet; 18,1 mln KYC-geverifieerde gebruikers",
+      "url": "https://cryptonews.net/news/altcoins/33769791/",
+      "date": "2026-11-18"
+     }
+    ],
+    "hypotheses": [
+     "De eerste tokens op een nieuwe launchpad worden een doelwit voor imitatie-tokens en nep-launchpads op andere domeinen dan minepi.com."
+    ],
+    "nextSignals": [
+     "testnet-versie van de launchpad",
+     "eerste token-sale-aankondiging",
+     "imitatie-domeinen"
+    ],
+    "expectedLaunch": "Q1 2027",
+    "ecosystem": {
+     "dex": "Pi DEX/AMM (gepland)",
+     "launchpad": "Pi Launchpad (gepland)",
+     "bridge": null
+    },
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "Pi Core Team",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
+   ]
   },
   "pio": {
    "id": "pio",
@@ -22107,6 +22526,75 @@
     "register"
    ]
   },
+  "sgdigitalledger": {
+   "id": "sgdigitalledger",
+   "name": "SG Digital Ledger",
+   "aliases": [
+    "SG Digital Ledger",
+    "Singapore Dollar Test Network"
+   ],
+   "keys": [
+    "n:sgdigitalledger",
+    "n:singaporedollartestnetwork"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+     "stage": "draait",
+     "strength": "soft"
+    }
+   ],
+   "architecture": "Permissioned ledger · wholesale CBDC",
+   "research": {
+    "confidence": "D",
+    "org": "Monetary Authority of Singapore",
+    "why": "Nieuw institutioneel netwerk: MAS gaf op de Singapore Dollar Test Network S$100 mln aan getokeniseerde MAS Bills uit, afgewikkeld in wholesale-CBDC. Het netwerk wordt hernoemd tot 'SG Digital Ledger'. Het is niet publiek te volgen, wel een signaal voor de settlement-laag in de regio.",
+    "facts": [
+     {
+      "claim": "MAS gaf op 6 november S$100 mln vierweekse getokeniseerde MAS Bills uit, 'issued natively on its Singapore Dollar Test Network and settled in wholesale CBDC'; vijf primary dealers; het testnetwerk wordt hernoemd tot SG Digital Ledger",
+      "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+      "date": "2026-11-19"
+     },
+     {
+      "claim": "Officieel MAS-persbericht over de uitgifte",
+      "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-successful-issuance-of-tokenised-mas-bills-on-the-singapore-dollar-test-network",
+      "date": "2026-11"
+     }
+    ],
+    "hypotheses": [
+     "Met de naamswijziging gaat het netwerk waarschijnlijk van test naar productie. Mogelijk komt er later een koppeling met publieke chains via tokenized deposits (DBS, Partior)."
+    ],
+    "nextSignals": [
+     "officiële lancering van SG Digital Ledger",
+     "deelnemende banken en interoperabiliteit met publieke chains"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": null,
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "Monetary Authority of Singapore",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
+   ]
+  },
   "shib": {
    "id": "shib",
    "name": "Shib",
@@ -26272,6 +26760,72 @@
    ],
    "families": [
     "register"
+   ]
+  },
+  "xetestnetwork": {
+   "id": "xetestnetwork",
+   "name": "XE (test.network)",
+   "aliases": [
+    "XE (test.network)",
+    "xeprotocol"
+   ],
+   "keys": [
+    "n:xeprotocol",
+    "n:xetestnetwork"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "testnet",
+   "stageHistory": [
+    {
+     "stage": "testnet",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "research",
+     "family": "onderzoek",
+     "kind": "research",
+     "what": "research: onderzoek",
+     "url": "https://github.com/xeprotocol/xe/issues/833",
+     "stage": "testnet",
+     "strength": "soft"
+    }
+   ],
+   "architecture": "Block-lattice-achtig L1 (accounts met eigen send/receive-blocks, PoW per block,…",
+   "research": {
+    "confidence": "D",
+    "org": "XE Protocol",
+    "why": "Nieuw en niet in de dossiers: een L1 met een publiek testnet ('testnet-0006'), een faucet en een bounty-programma waarbij testers in tracks belastingtests uitvoeren. Dat is een vroeg, incentive-achtig testnet zonder mainnet.",
+    "facts": [
+     {
+      "claim": "Issue #833 (19 november): pre-campaign-notice voor 'Track 2' op testnet-0006 tegen de publieke core-node ldn.core.test.network; bounty-regels op test.network/bounty; 'No mainnet (not live)'",
+      "url": "https://github.com/xeprotocol/xe/issues/833",
+      "date": "2026-11-19"
+     }
+    ],
+    "hypotheses": [
+     "De beschrijving (accounts met signed send/receive-blocks, PoW per block, representatives die stemmen) lijkt op een Nano-achtig block-lattice-ontwerp. Dat is alleen afgeleid uit het issue; de README was niet leesbaar.",
+     "Een bounty in 'tracks' voor testers kan uitgroeien tot een incentivized testnet met token-allocatie, maar dat is niet bevestigd."
+    ],
+    "nextSignals": [
+     "README of docs van xeprotocol/xe",
+     "bedragen of token in het bounty-programma",
+     "nieuwe testnet-iteraties (testnet-0007)"
+    ],
+    "expectedLaunch": null,
+    "ecosystem": null,
+    "file": "2026-11-23-weekly.json"
+   },
+   "org": "XE Protocol",
+   "confidence": "D",
+   "reasons": [
+    "alleen onderzoek"
+   ],
+   "families": [
+    "onderzoek"
    ]
   },
   "xode": {
