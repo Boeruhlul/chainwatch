@@ -1124,15 +1124,20 @@
    "keys": [
     "d:armchain.org",
     "id:27600",
+    "id:27601",
     "n:armchain"
    ],
    "firstSeen": "2026-11-09",
-   "lastActivity": "2026-11-16",
-   "stage": "devnet",
+   "lastActivity": "2026-11-23",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "devnet",
      "date": "2026-11-09"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-23"
     }
    ],
    "evidence": [
@@ -1153,6 +1158,26 @@
      "kind": "proposal",
      "what": "ethlists-pr: chain-ID-aanvraag · ID 27600",
      "url": "https://github.com/ethereum-lists/chains/pull/9092",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 27600",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-27600.json",
+     "noRpc": true,
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 27601",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-27601.json",
+     "noRpc": true,
      "strength": "technical"
     }
    ],
@@ -1190,8 +1215,11 @@
     "register"
    ],
    "chainIds": [
-    "27600"
-   ]
+    "27600",
+    "27601"
+   ],
+   "github": "https://github.com/armchain",
+   "mainnetSince": "2026-11-23"
   },
   "armoniaevachain": {
    "id": "armoniaevachain",
@@ -25473,16 +25501,22 @@
    "id": "tsx",
    "name": "TSX",
    "aliases": [
-    "TSX"
+    "TSX",
+    "TSX Bastion",
+    "TSX Horizon"
    ],
    "keys": [
     "d:tsx.network",
     "id:445",
-    "n:tsx"
+    "id:454",
+    "id:455",
+    "n:tsx",
+    "n:tsxbastion",
+    "n:tsxhorizon"
    ],
    "firstSeen": "2026-11-16",
-   "lastActivity": "2026-11-16",
-   "stage": "testnet",
+   "lastActivity": "2026-11-23",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -25491,6 +25525,10 @@
     {
      "stage": "testnet",
      "date": "2026-11-16"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-23"
     }
    ],
    "evidence": [
@@ -25512,16 +25550,47 @@
      "url": "https://github.com/ethereum-lists/chains/pull/9091",
      "testnetName": true,
      "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 454",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-454.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 455",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-455.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 445",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-445.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "445"
+    "445",
+    "454",
+    "455"
    ],
    "website": "https://tsx.network",
    "architecture": "EVM",
    "github": "https://github.com/mds1",
    "rpc": [
-    "https://testnet.tsx.network/rpc"
+    "https://testnet.tsx.network/rpc",
+    "https://bastion.tsx.network/rpc",
+    "https://horizon.tsx.network/rpc"
    ],
    "explorer": "https://scan.tsx.network/testnet",
    "confidence": "A",
@@ -25531,7 +25600,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://testnet.tsx.network/rpc"
+   "liveRpc": "https://testnet.tsx.network/rpc",
+   "mainnetSince": "2026-11-23"
   },
   "turkchain": {
    "id": "turkchain",
