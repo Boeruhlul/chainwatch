@@ -7456,6 +7456,20 @@
    "date": "2026-11-23"
   },
   {
+   "key": "forum:ethereum-magicians.org:30485",
+   "title": "ERC-XXXX Sovereign ERC-20 Receive Protection",
+   "url": "https://ethereum-magicians.org/t/erc-xxxx-sovereign-erc-20-receive-protection/30485",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 5
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:ethresear.ch:26283",
    "title": "EthCLLib: a Lean 4 framework for the Ethereum consensus specs",
    "url": "https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283",
@@ -8279,6 +8293,7 @@
    "forum:ethereum-magicians.org:30475",
    "forum:ethereum-magicians.org:30476",
    "forum:ethereum-magicians.org:30477",
+   "forum:ethereum-magicians.org:30485",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
