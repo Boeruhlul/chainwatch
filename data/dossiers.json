@@ -17515,6 +17515,15 @@
     },
     {
      "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 3690369",
+     "url": "https://chainlist.org/chain/3690369",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
@@ -19286,7 +19295,7 @@
     "n:primium"
    ],
    "firstSeen": "2026-11-17",
-   "lastActivity": "2026-11-17",
+   "lastActivity": "2026-11-23",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -19316,6 +19325,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 1234571",
      "url": "https://github.com/ethereum-lists/chains/pull/9094",
      "testnetName": true,
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 1234571",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1234571.json",
      "strength": "running"
     }
    ],
@@ -24003,7 +24021,7 @@
     "n:steemvm"
    ],
    "firstSeen": "2026-11-06",
-   "lastActivity": "2026-11-17",
+   "lastActivity": "2026-11-23",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -24055,6 +24073,15 @@
      "kind": "launched",
      "what": "ethlists-pr: RPC antwoordt · ID 81630",
      "url": "https://github.com/ethereum-lists/chains/pull/9093",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 81630",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-81630.json",
      "strength": "running"
     }
    ],
