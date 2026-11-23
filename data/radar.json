@@ -7195,6 +7195,18 @@
    "date": "2026-11-23"
   },
   {
+   "key": "chaincontract:giwasepolia:0x8a4589e56d2c4a135903ed3a2e20555f81d99757",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Pair op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x8a4589e56d2c4a135903ed3a2e20555f81d99757",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x8a4589e56d2c4a135903ed3a2e20555f81d99757"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xa35a91dc3352a3c5b96f93f455a4abfd133dea8f",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -7724,6 +7736,7 @@
    "chaincontract:giwasepolia:0x8874c7aab39f4c06c9b5c6489341b52bbf988058",
    "chaincontract:giwasepolia:0x8901985d42d21d6bd57c026f468d06e57727b71e",
    "chaincontract:giwasepolia:0x8a0398c36fd13b86f5d444efdfc60218d91588da",
+   "chaincontract:giwasepolia:0x8a4589e56d2c4a135903ed3a2e20555f81d99757",
    "chaincontract:giwasepolia:0x8a45f0cb01a4117e99efd0eb63f810700a6a0719",
    "chaincontract:giwasepolia:0x8b05a92d7c18b79d6ffa73ab633c6b78f0a0783e",
    "chaincontract:giwasepolia:0x8b109f7c2f8045fc3444c61a572d37aaa12ba1b9",
