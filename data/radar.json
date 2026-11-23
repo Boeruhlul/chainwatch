@@ -7078,6 +7078,20 @@
    "date": "2026-11-23"
   },
   {
+   "key": "forum:ethereum-magicians.org:30476",
+   "title": "ERC-8512: GPU Collateral Evidence",
+   "url": "https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-23",
+    "posts": 2,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:forum.arbitrum.foundation:31780",
    "title": "USDT and USDC on Arbitrum: the token mix-ups we see most",
    "url": "https://forum.arbitrum.foundation/t/usdt-and-usdc-on-arbitrum-the-token-mix-ups-we-see-most/31780",
@@ -7086,6 +7100,20 @@
     "created": "2026-11-23",
     "posts": 1,
     "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "forum:forum.zknation.io:1384",
+   "title": "Moving funds off ZKsync Era since the 24-hour delay: exchange vs bridge",
+   "url": "https://forum.zknation.io/t/moving-funds-off-zksync-era-since-the-24-hour-delay-exchange-vs-bridge/1384",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 0
    },
    "cat": "techniek",
    "src": "forums",
@@ -7782,6 +7810,7 @@
    "forum:ethereum-magicians.org:30467",
    "forum:ethereum-magicians.org:30469",
    "forum:ethereum-magicians.org:30475",
+   "forum:ethereum-magicians.org:30476",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7920,6 +7949,7 @@
    "forum:forum.zknation.io:1353",
    "forum:forum.zknation.io:1354",
    "forum:forum.zknation.io:1369",
+   "forum:forum.zknation.io:1384",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
