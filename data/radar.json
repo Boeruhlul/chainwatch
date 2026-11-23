@@ -7414,6 +7414,20 @@
    "date": "2026-11-23"
   },
   {
+   "key": "forum:delvingbitcoin.org:3110",
+   "title": "Bitcoin Core v31.3 Released",
+   "url": "https://delvingbitcoin.org/t/bitcoin-core-v31-3-released/3110",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 6
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30475",
    "title": "EIP-XXXX: Pre-seeded Encrypted Execution Payloads",
    "url": "https://ethereum-magicians.org/t/eip-xxxx-pre-seeded-encrypted-execution-payloads/30475",
@@ -7527,6 +7541,18 @@
    "dossier": null
   },
   {
+   "key": "pr:bitcoin/bips#2361",
+   "title": "BIP draft: BIP39 Descriptor Key Expression",
+   "url": "https://github.com/bitcoin/bips/pull/2361",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
    "key": "pr:ethereum/eips#12706",
    "title": "Add EIP: Pre-seeded Encrypted Execution Payloads",
    "url": "https://github.com/ethereum/EIPs/pull/12706",
@@ -7578,6 +7604,18 @@
    "key": "pr:ethereum/ercs#2212",
    "title": "Update ERC-8348: clarify schedule scope and anchor verification",
    "url": "https://github.com/ethereum/ERCs/pull/2212",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "pr:ethereum/ercs#2213",
+   "title": "Add ERC: Sovereign ERC-20 Receive Protection",
+   "url": "https://github.com/ethereum/ERCs/pull/2213",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-23"
@@ -8195,6 +8233,7 @@
    "forum:delvingbitcoin.org:3101",
    "forum:delvingbitcoin.org:3103",
    "forum:delvingbitcoin.org:3107",
+   "forum:delvingbitcoin.org:3110",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -8513,6 +8552,7 @@
    "pr:bitcoin/bips#2358",
    "pr:bitcoin/bips#2359",
    "pr:bitcoin/bips#2360",
+   "pr:bitcoin/bips#2361",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -8739,6 +8779,7 @@
    "pr:ethereum/ercs#2209",
    "pr:ethereum/ercs#2211",
    "pr:ethereum/ercs#2212",
+   "pr:ethereum/ercs#2213",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
