@@ -20785,6 +20785,24 @@
     },
     {
      "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "chainlist: mainnet · ID 52401",
+     "url": "https://chainlist.org/chain/52401",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "chainlist",
+     "family": "register",
+     "kind": "testnet",
+     "what": "chainlist: testnet · ID 52402",
+     "url": "https://chainlist.org/chain/52402",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
      "source": "ethlists-commit",
      "family": "register",
      "kind": "mainnet",
