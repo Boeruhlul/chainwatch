@@ -7400,6 +7400,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qom:0x1cc5ceeaf98a3b4e2bb2731f960d63cbe0ba8bfc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "UniswapV2Factory op QOM",
+   "url": "https://scan.qomx.io/address/0x1cc5ceeaf98a3b4e2bb2731f960d63cbe0ba8bfc",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0x1cc5ceeaf98a3b4e2bb2731f960d63cbe0ba8bfc"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3107",
    "title": "Receive screens and 'expiry': how users read payment-request expiry",
    "url": "https://delvingbitcoin.org/t/receive-screens-and-expiry-how-users-read-payment-request-expiry/3107",
@@ -8124,6 +8136,7 @@
    "chaincontract:qms:0xf8168839705f80fa628f484d59b477924124eaea",
    "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
    "chaincontract:qms:0xfa4eaa0c403e55d70aba03fc9c0066732aff3d33",
+   "chaincontract:qom:0x1cc5ceeaf98a3b4e2bb2731f960d63cbe0ba8bfc",
    "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
