@@ -7105,6 +7105,18 @@
    "src": "forums",
    "date": "2026-11-23",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/eips#12706",
+   "title": "Add EIP: Pre-seeded Encrypted Execution Payloads",
+   "url": "https://github.com/ethereum/EIPs/pull/12706",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
   }
  ],
  "seen": {
@@ -8107,6 +8119,7 @@
    "pr:ethereum/eips#12703",
    "pr:ethereum/eips#12704",
    "pr:ethereum/eips#12705",
+   "pr:ethereum/eips#12706",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
