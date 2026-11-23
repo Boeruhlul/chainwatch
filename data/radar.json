@@ -7064,6 +7064,34 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30475",
+   "title": "EIP-XXXX: Pre-seeded Encrypted Execution Payloads",
+   "url": "https://ethereum-magicians.org/t/eip-xxxx-pre-seeded-encrypted-execution-payloads/30475",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "forum:forum.arbitrum.foundation:31780",
+   "title": "USDT and USDC on Arbitrum: the token mix-ups we see most",
+   "url": "https://forum.arbitrum.foundation/t/usdt-and-usdc-on-arbitrum-the-token-mix-ups-we-see-most/31780",
+   "meta": {
+    "forum": "forum.arbitrum.foundation",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:gov.optimism.io:10995",
    "title": "Security Council Lead Self-Nomination: alisha.eth",
    "url": "https://gov.optimism.io/t/security-council-lead-self-nomination-alisha-eth/10995",
@@ -7741,6 +7769,7 @@
    "forum:ethereum-magicians.org:30464",
    "forum:ethereum-magicians.org:30467",
    "forum:ethereum-magicians.org:30469",
+   "forum:ethereum-magicians.org:30475",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7796,6 +7825,7 @@
    "forum:forum.arbitrum.foundation:31773",
    "forum:forum.arbitrum.foundation:31774",
    "forum:forum.arbitrum.foundation:31775",
+   "forum:forum.arbitrum.foundation:31780",
    "forum:forum.celestia.org:2324",
    "forum:forum.celestia.org:2328",
    "forum:forum.celestia.org:2340",
