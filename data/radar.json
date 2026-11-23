@@ -7399,6 +7399,18 @@
    "date": "2026-11-23"
   },
   {
+   "key": "chaincontract:qdayaevum:0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PayrollVaultFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x9ce6f91fcd725a4f54083469fbe170ae1930ce41"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xa27789f1d49640e392294873c0d4577000ee5287",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -8155,6 +8167,7 @@
    "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
    "chaincontract:qdayaevum:0x9a634535065ae7b3e3df523d76d0d2eed5aeb5b8",
+   "chaincontract:qdayaevum:0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xa27789f1d49640e392294873c0d4577000ee5287",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
