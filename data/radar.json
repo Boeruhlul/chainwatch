@@ -7100,6 +7100,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3107",
+   "title": "Receive screens and 'expiry': how users read payment-request expiry",
+   "url": "https://delvingbitcoin.org/t/receive-screens-and-expiry-how-users-read-payment-request-expiry/3107",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30475",
    "title": "EIP-XXXX: Pre-seeded Encrypted Execution Payloads",
    "url": "https://ethereum-magicians.org/t/eip-xxxx-pre-seeded-encrypted-execution-payloads/30475",
@@ -7122,6 +7136,34 @@
     "created": "2026-11-23",
     "posts": 2,
     "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30477",
+   "title": "Add EIP: Bounded Storage Credit and Debit",
+   "url": "https://ethereum-magicians.org/t/add-eip-bounded-storage-credit-and-debit/30477",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "forum:ethresear.ch:26283",
+   "title": "EthCLLib: a Lean 4 framework for the Ethereum consensus specs",
+   "url": "https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-23",
+    "posts": 1,
+    "views": 36
    },
    "cat": "techniek",
    "src": "forums",
@@ -7176,6 +7218,42 @@
    "url": "https://github.com/ethereum/EIPs/pull/12706",
    "meta": {
     "repo": "ethereum/EIPs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "pr:ethereum/eips#12707",
+   "title": "Add EIP: Bounded Storage Credit and Debit",
+   "url": "https://github.com/ethereum/EIPs/pull/12707",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "pr:ethereum/ercs#2211",
+   "title": "Add ERC: GPU Collateral Evidence",
+   "url": "https://github.com/ethereum/ERCs/pull/2211",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-23"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#737",
+   "title": "template: encourage authors to drill into details",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/737",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
     "created": "2026-11-23"
    },
    "cat": "techniek",
@@ -7753,6 +7831,7 @@
    "forum:delvingbitcoin.org:3100",
    "forum:delvingbitcoin.org:3101",
    "forum:delvingbitcoin.org:3103",
+   "forum:delvingbitcoin.org:3107",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -7850,6 +7929,7 @@
    "forum:ethereum-magicians.org:30469",
    "forum:ethereum-magicians.org:30475",
    "forum:ethereum-magicians.org:30476",
+   "forum:ethereum-magicians.org:30477",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -7888,6 +7968,7 @@
    "forum:ethresear.ch:26272",
    "forum:ethresear.ch:26275",
    "forum:ethresear.ch:26281",
+   "forum:ethresear.ch:26283",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -8189,6 +8270,7 @@
    "pr:ethereum/eips#12704",
    "pr:ethereum/eips#12705",
    "pr:ethereum/eips#12706",
+   "pr:ethereum/eips#12707",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -8290,6 +8372,7 @@
    "pr:ethereum/ercs#2207",
    "pr:ethereum/ercs#2208",
    "pr:ethereum/ercs#2209",
+   "pr:ethereum/ercs#2211",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
@@ -8300,7 +8383,8 @@
    "pr:solana-foundation/solana-improvement-documents#723",
    "pr:solana-foundation/solana-improvement-documents#725",
    "pr:solana-foundation/solana-improvement-documents#727",
-   "pr:solana-foundation/solana-improvement-documents#732"
+   "pr:solana-foundation/solana-improvement-documents#732",
+   "pr:solana-foundation/solana-improvement-documents#737"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
