@@ -20744,11 +20744,12 @@
    "keys": [
     "d:quinvium.com",
     "id:52401",
+    "id:52402",
     "n:quinvium"
    ],
    "firstSeen": "2026-11-17",
-   "lastActivity": "2026-11-17",
-   "stage": "draait",
+   "lastActivity": "2026-11-23",
+   "stage": "mainnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
@@ -20757,6 +20758,10 @@
     {
      "stage": "draait",
      "date": "2026-11-17"
+    },
+    {
+     "stage": "mainnet",
+     "date": "2026-11-23"
     }
    ],
    "evidence": [
@@ -20777,16 +20782,36 @@
      "what": "ethlists-pr: RPC antwoordt · ID 52401",
      "url": "https://github.com/ethereum-lists/chains/pull/9095",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "ethlists-commit: mainnet · ID 52401",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-52401.json",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-commit",
+     "family": "register",
+     "kind": "testnet",
+     "what": "ethlists-commit: testnet · ID 52402",
+     "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-52402.json",
+     "strength": "running"
     }
    ],
    "chainIds": [
-    "52401"
+    "52401",
+    "52402"
    ],
    "website": "https://quinvium.com",
    "architecture": "EVM",
    "github": "https://github.com/Lakylife",
    "rpc": [
-    "https://rpc.quinvium.com"
+    "https://rpc.quinvium.com",
+    "https://rpc1.quinvium.com"
    ],
    "explorer": "https://explorer.quinvium.com",
    "confidence": "A",
@@ -20796,7 +20821,8 @@
    "families": [
     "register"
    ],
-   "liveRpc": "https://rpc.quinvium.com"
+   "liveRpc": "https://rpc.quinvium.com",
+   "mainnetSince": "2026-11-23"
   },
   "qvtx": {
    "id": "qvtx",
