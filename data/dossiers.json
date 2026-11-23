@@ -26367,6 +26367,45 @@
     "register"
    ]
   },
+  "web3oschaintestnet": {
+   "id": "web3oschaintestnet",
+   "name": "web3oschaintestnet",
+   "aliases": [
+    "web3oschaintestnet"
+   ],
+   "keys": [
+    "n:web3oschain"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "testnet",
+   "stageHistory": [
+    {
+     "stage": "testnet",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "testnet",
+     "what": "cosmos: testnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/testnets/web3oschaintestnet",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "whitechain": {
    "id": "whitechain",
    "name": "whitechain",

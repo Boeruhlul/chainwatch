@@ -422,6 +422,7 @@
   "cosmos:testnets/vincechaintestnet",
   "cosmos:testnets/wardenprotocoltestnet",
   "cosmos:testnets/wavehashtestnet",
+  "cosmos:testnets/web3oschaintestnet",
   "cosmos:testnets/xarchaintestnet",
   "cosmos:testnets/xiontestnet1",
   "cosmos:testnets/xiontestnet2",
