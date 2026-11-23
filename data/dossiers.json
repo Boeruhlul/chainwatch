@@ -9612,6 +9612,54 @@
     "onderzoek"
    ]
   },
+  "incentium": {
+   "id": "incentium",
+   "name": "Incentium",
+   "aliases": [
+    "Incentium"
+   ],
+   "keys": [
+    "d:incentium.org",
+    "id:20261118",
+    "n:incentium"
+   ],
+   "firstSeen": "2026-11-23",
+   "lastActivity": "2026-11-23",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-23"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 20261118",
+     "url": "https://github.com/ethereum-lists/chains/pull/9129",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "20261118"
+   ],
+   "website": "https://incentium.org",
+   "architecture": "EVM",
+   "github": "https://github.com/Doncoin1999",
+   "rpc": [
+    "https://evm-testnet.incentium.org"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "incentiv": {
    "id": "incentiv",
    "name": "Incentiv",
