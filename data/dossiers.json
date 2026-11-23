@@ -9625,10 +9625,14 @@
    ],
    "firstSeen": "2026-11-23",
    "lastActivity": "2026-11-23",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-23"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-23"
     }
    ],
@@ -9641,6 +9645,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 20261118",
      "url": "https://github.com/ethereum-lists/chains/pull/9129",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 20261118",
+     "url": "https://github.com/ethereum-lists/chains/pull/9129",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -9652,13 +9666,14 @@
    "rpc": [
     "https://evm-testnet.incentium.org"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 20261118)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://evm-testnet.incentium.org"
   },
   "incentiv": {
    "id": "incentiv",
