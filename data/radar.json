@@ -7590,6 +7590,30 @@
    "date": "2026-11-24"
   },
   {
+   "key": "chaincontract:qom:0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QOMFactory op QOM",
+   "url": "https://scan.qomx.io/address/0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0x35e759b084d97919138ac8cbc8182fe68dcf69c3"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "key": "chaincontract:qom:0x6d114d36f04941dcf5dd26445ab975bf7a4f1a34",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QOMRouter02 op QOM",
+   "url": "https://scan.qomx.io/address/0x6d114d36f04941dcf5dd26445ab975bf7a4f1a34",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0x6d114d36f04941dcf5dd26445ab975bf7a4f1a34"
+   },
+   "date": "2026-11-24"
+  },
+  {
    "key": "pr:ethereum/ercs#2214",
    "title": "Add ERC: Post-Quantum Validator Key Derivation",
    "url": "https://github.com/ethereum/ERCs/pull/2214",
@@ -8096,6 +8120,8 @@
    "chaincontract:qms:0xf989ef931cb05d912140f636d812dad2af1b506e",
    "chaincontract:qms:0xfa4eaa0c403e55d70aba03fc9c0066732aff3d33",
    "chaincontract:qom:0x1cc5ceeaf98a3b4e2bb2731f960d63cbe0ba8bfc",
+   "chaincontract:qom:0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
+   "chaincontract:qom:0x6d114d36f04941dcf5dd26445ab975bf7a4f1a34",
    "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
