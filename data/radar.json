@@ -7965,6 +7965,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethresear.ch:26285",
+   "title": "Post-quantum DAS with improved provable security",
+   "url": "https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "pr:ethereum/ercs#2214",
    "title": "Add ERC: Post-Quantum Validator Key Derivation",
    "url": "https://github.com/ethereum/ERCs/pull/2214",
@@ -8931,6 +8945,7 @@
    "forum:ethresear.ch:26275",
    "forum:ethresear.ch:26281",
    "forum:ethresear.ch:26283",
+   "forum:ethresear.ch:26285",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
