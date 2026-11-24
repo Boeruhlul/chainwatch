@@ -25053,6 +25053,51 @@
     "github"
    ]
   },
+  "synergymainnetbeta": {
+   "id": "synergymainnetbeta",
+   "name": "Synergy Mainnet-beta",
+   "aliases": [
+    "Synergy Mainnet-beta"
+   ],
+   "keys": [
+    "d:synergy-network.io",
+    "id:469",
+    "n:synergymainnetbeta"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 469",
+     "url": "https://github.com/ethereum-lists/chains/pull/9148",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "469"
+   ],
+   "website": "https://synergy-network.io",
+   "architecture": "EVM",
+   "github": "https://github.com/synergy-network-hq",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "syraxchain": {
    "id": "syraxchain",
    "name": "Syrax Chain",
