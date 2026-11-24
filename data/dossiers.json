@@ -10904,6 +10904,53 @@
     "code"
    ]
   },
+  "kyrelisdevnet2": {
+   "id": "kyrelisdevnet2",
+   "name": "KYRELIS Devnet 2",
+   "aliases": [
+    "KYRELIS Devnet 2"
+   ],
+   "keys": [
+    "d:ts.net",
+    "id:kyrelis-devnet-2",
+    "n:kyrelisdevnet2"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID kyrelis-devnet-2",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1609",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "kyrelis-devnet-2"
+   ],
+   "website": "https://ts.net",
+   "architecture": "Cosmos",
+   "rpc": [
+    "https://raspberrypi.tail3fb8f3.ts.net/rest"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "larajefticmemechain": {
    "id": "larajefticmemechain",
    "name": "larajeftic/memechain",

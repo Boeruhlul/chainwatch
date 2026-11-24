@@ -7993,6 +7993,34 @@
    "dossier": null
   },
   {
+   "key": "vc:eth.blockscout.com:0x09c2e7401c21177f463427775886220ac8536387",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x09C2E7401c21177F463427775886220ac8536387",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x09C2E7401c21177F463427775886220ac8536387",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x0f7a26b7704202caf00f57634fce89aabc79491e",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x0f7A26B7704202caF00F57634FcE89AABC79491e",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x0f7A26B7704202caF00F57634FcE89AABC79491e",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x2d2ab4274508463ce8afc29fd200259cf41f2087",
    "title": "OptimismPortal geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x2d2AB4274508463Ce8afc29fD200259CF41F2087",
@@ -8006,6 +8034,20 @@
    "src": "verified-contracts",
    "date": "2026-11-24",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x4ade7a13b55c7e06c80046003ebab147270ead2d",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x4aDe7A13B55C7e06c80046003EBAb147270eAd2d",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x4aDe7A13B55C7e06c80046003EBAb147270eAd2d",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
   },
   {
    "key": "vc:eth.blockscout.com:0x4fd44c320f28e9cdb7cf0f5490434494fbd4c7b4",
@@ -8036,6 +8078,48 @@
    "src": "verified-contracts",
    "date": "2026-11-24",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x88d4dc2cbb81f0fc5cf1e00bcfc88203d5486a02",
+   "title": "DisputeGameFactory geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x88d4dc2cbB81f0fC5CF1e00BcFc88203d5486A02",
+   "meta": {
+    "name": "DisputeGameFactory",
+    "chain": "eth",
+    "addr": "0x88d4dc2cbB81f0fC5CF1e00BcFc88203d5486A02",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xb77dbd9ac33b722d86d53efe9053dbf1894d4fac",
+   "title": "RollupUserLogic geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xb77Dbd9ac33b722D86D53EFe9053dBF1894d4fac",
+   "meta": {
+    "name": "RollupUserLogic",
+    "chain": "eth",
+    "addr": "0xb77Dbd9ac33b722D86D53EFe9053dBF1894d4fac",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xfd452acf277ba58af290cdc9450929afb3c63cb1",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xFd452AcF277ba58Af290CdC9450929AFb3C63Cb1",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0xFd452AcF277ba58Af290CdC9450929AFb3C63Cb1",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
   }
  ],
  "seen": {
@@ -9232,6 +9316,8 @@
    "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
    "vc:eth.blockscout.com:0x0701c1f08380c22b53e0c56d71a0fe520ea22959",
    "vc:eth.blockscout.com:0x0721f0ea608d136de5c8eedd119120c9d13f3c72",
+   "vc:eth.blockscout.com:0x09c2e7401c21177f463427775886220ac8536387",
+   "vc:eth.blockscout.com:0x0f7a26b7704202caf00f57634fce89aabc79491e",
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
    "vc:eth.blockscout.com:0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
    "vc:eth.blockscout.com:0x24e6733438bc532b30ad7fbce14f7b6e9d210de6",
@@ -9239,12 +9325,14 @@
    "vc:eth.blockscout.com:0x346aa678208f56e4c126462a0b722653b1ae44a4",
    "vc:eth.blockscout.com:0x3fdbe48f21e9509f815c7482ab213c16403cd414",
    "vc:eth.blockscout.com:0x452b9b61a5810f1f9fddf5f14bfc6d78a49f9b84",
+   "vc:eth.blockscout.com:0x4ade7a13b55c7e06c80046003ebab147270ead2d",
    "vc:eth.blockscout.com:0x4fd44c320f28e9cdb7cf0f5490434494fbd4c7b4",
    "vc:eth.blockscout.com:0x59cde86f1a538a7a2329269d3704ca302df23736",
    "vc:eth.blockscout.com:0x622861aa707eba61294ee6bbef7c522c9dde8a96",
    "vc:eth.blockscout.com:0x66b88c1303a1c2ff4af31626f59b44a3a9ee85a4",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
+   "vc:eth.blockscout.com:0x88d4dc2cbb81f0fc5cf1e00bcfc88203d5486a02",
    "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
    "vc:eth.blockscout.com:0x9efa8ec468882944f08ea76b813186cc38bd0681",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
@@ -9252,10 +9340,12 @@
    "vc:eth.blockscout.com:0xb11be60743211fde36786e4a27f07fab11f94165",
    "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "vc:eth.blockscout.com:0xb5d216b9a35d186cc9799e66e35c0ac1fbe1c6d5",
+   "vc:eth.blockscout.com:0xb77dbd9ac33b722d86d53efe9053dbf1894d4fac",
    "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
    "vc:eth.blockscout.com:0xc6dda12f4c504351cfcae34c0d5de4df40569acd",
    "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc",
-   "vc:eth.blockscout.com:0xf8370b53df6e16a6c4c4bba86d271355cd1930f3"
+   "vc:eth.blockscout.com:0xf8370b53df6e16a6c4c4bba86d271355cd1930f3",
+   "vc:eth.blockscout.com:0xfd452acf277ba58af290cdc9450929afb3c63cb1"
   ]
  }
 }
