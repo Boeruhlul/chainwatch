@@ -8950,6 +8950,20 @@
    "date": "2026-11-24"
   },
   {
+   "key": "vc:eth.blockscout.com:0xc05272de2635ca6f7aea7657b32eef8761caafea",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xC05272de2635CA6f7aea7657b32Eef8761CAaFea",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0xC05272de2635CA6f7aea7657b32Eef8761CAaFea",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xfd452acf277ba58af290cdc9450929afb3c63cb1",
    "title": "OptimismPortal2 geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xFd452AcF277ba58Af290CdC9450929AFb3C63Cb1",
@@ -10253,6 +10267,7 @@
    "vc:eth.blockscout.com:0xb5d216b9a35d186cc9799e66e35c0ac1fbe1c6d5",
    "vc:eth.blockscout.com:0xb77dbd9ac33b722d86d53efe9053dbf1894d4fac",
    "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
+   "vc:eth.blockscout.com:0xc05272de2635ca6f7aea7657b32eef8761caafea",
    "vc:eth.blockscout.com:0xc6dda12f4c504351cfcae34c0d5de4df40569acd",
    "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc",
    "vc:eth.blockscout.com:0xf8370b53df6e16a6c4c4bba86d271355cd1930f3",
