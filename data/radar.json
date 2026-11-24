@@ -8739,6 +8739,20 @@
    "date": "2026-11-24"
   },
   {
+   "key": "forum:forum.cosmos.network:17614",
+   "title": "Casa Crypto x KOL Capital: VIP Opening Cocktail at Tulum Innovation Fest (sponsorship request, $10,000)",
+   "url": "https://forum.cosmos.network/t/casa-crypto-x-kol-capital-vip-opening-cocktail-at-tulum-innovation-fest-sponsorship-request-10-000/17614",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-24",
+    "posts": 2,
+    "views": 8
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "forum:forum.polygon.technology:22622",
    "title": "Security release review – Karwar (Heimdall v0.13), Uburu (Bor v2.11.0) and Bor v2.10.3",
    "url": "https://forum.polygon.technology/t/security-release-review-karwar-heimdall-v0-13-uburu-bor-v2-11-0-and-bor-v2-10-3/22622",
@@ -8747,6 +8761,34 @@
     "created": "2026-11-24",
     "posts": 1,
     "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22623",
+   "title": "Transaction ordering change on Polygon PoS block producers",
+   "url": "https://forum.polygon.technology/t/transaction-ordering-change-on-polygon-pos-block-producers/22623",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22625",
+   "title": "8 Logistics Software Development Services Providers for Customs Document Tracking on Polygon",
+   "url": "https://forum.polygon.technology/t/8-logistics-software-development-services-providers-for-customs-document-tracking-on-polygon/22625",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 0
    },
    "cat": "techniek",
    "src": "forums",
@@ -9864,6 +9906,7 @@
    "forum:forum.cosmos.network:17603",
    "forum:forum.cosmos.network:17607",
    "forum:forum.cosmos.network:17609",
+   "forum:forum.cosmos.network:17614",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -9887,6 +9930,8 @@
    "forum:forum.polygon.technology:22595",
    "forum:forum.polygon.technology:22597",
    "forum:forum.polygon.technology:22622",
+   "forum:forum.polygon.technology:22623",
+   "forum:forum.polygon.technology:22625",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
