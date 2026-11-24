@@ -8094,6 +8094,48 @@
    "date": "2026-11-24"
   },
   {
+   "key": "vc:eth.blockscout.com:0x895abe29144cc131744212da0f0b42cef5116454",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x895ABe29144CC131744212dA0F0B42ceF5116454",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x895ABe29144CC131744212dA0F0B42ceF5116454",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x9874b02f874bbee001589b0c58fe05af693db5aa",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x9874b02F874bBEe001589b0c58fE05aF693dB5aA",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x9874b02F874bBEe001589b0c58fE05aF693dB5aA",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x9960a754280932ca28dfcefe5e6054577cd54532",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x9960A754280932CA28dFcefe5e6054577cd54532",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0x9960A754280932CA28dFcefe5e6054577cd54532",
+    "verified": "2026-11-24"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-24"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xb77dbd9ac33b722d86d53efe9053dbf1894d4fac",
    "title": "RollupUserLogic geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xb77Dbd9ac33b722D86D53EFe9053dBF1894d4fac",
@@ -9333,7 +9375,10 @@
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
    "vc:eth.blockscout.com:0x88d4dc2cbb81f0fc5cf1e00bcfc88203d5486a02",
+   "vc:eth.blockscout.com:0x895abe29144cc131744212da0f0b42cef5116454",
    "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
+   "vc:eth.blockscout.com:0x9874b02f874bbee001589b0c58fe05af693db5aa",
+   "vc:eth.blockscout.com:0x9960a754280932ca28dfcefe5e6054577cd54532",
    "vc:eth.blockscout.com:0x9efa8ec468882944f08ea76b813186cc38bd0681",
    "vc:eth.blockscout.com:0xa406ae3ad950ba064e7545954e7f632722cd10b3",
    "vc:eth.blockscout.com:0xade27248542c0f3e89b49e4eb76155e267f14377",
