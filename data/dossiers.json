@@ -1001,6 +1001,15 @@
    "evidence": [
     {
      "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xf7ba8fda…",
+     "url": "https://antchain.tech/explorer/address/0xf7ba8fda62e031252151d3c5b6f05c1dba05459a",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
@@ -1030,12 +1039,24 @@
    "explorer": "https://antchain.tech/explorer",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 26800)"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v2-fork) 0xf7ba8fda…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
+    "onchain",
     "register"
    ],
-   "liveRpc": "https://rpc.antchain.tech"
+   "liveRpc": "https://rpc.antchain.tech",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0xf7ba8fda62e031252151d3c5b6f05c1dba05459a",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-24"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "antonnnnnnn666kinetiqelysiummainnet": {
    "id": "antonnnnnnn666kinetiqelysiummainnet",
