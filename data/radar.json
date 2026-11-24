@@ -7614,6 +7614,20 @@
    "date": "2026-11-24"
   },
   {
+   "key": "forum:delvingbitcoin.org:3113",
+   "title": "Checking transaction inclusion against an untrusted explorer API: how much proof of work is enough?",
+   "url": "https://delvingbitcoin.org/t/checking-transaction-inclusion-against-an-untrusted-explorer-api-how-much-proof-of-work-is-enough/3113",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "pr:ethereum/ercs#2214",
    "title": "Add ERC: Post-Quantum Validator Key Derivation",
    "url": "https://github.com/ethereum/ERCs/pull/2214",
@@ -8232,6 +8246,7 @@
    "forum:delvingbitcoin.org:3103",
    "forum:delvingbitcoin.org:3107",
    "forum:delvingbitcoin.org:3110",
+   "forum:delvingbitcoin.org:3113",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
