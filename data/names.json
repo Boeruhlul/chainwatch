@@ -827,6 +827,7 @@
   "ccip:main",
   "cctpv1:main",
   "cctpv2:main",
+  "ccxtspot:lead",
   "celernetwork:main",
   "celestia:main",
   "celestia:test",
