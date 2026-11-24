@@ -3158,10 +3158,14 @@
    ],
    "firstSeen": "2026-11-24",
    "lastActivity": "2026-11-24",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-24"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-24"
     }
    ],
@@ -3174,6 +3178,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 41234",
      "url": "https://github.com/ethereum-lists/chains/pull/9152",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 41234",
+     "url": "https://github.com/ethereum-lists/chains/pull/9152",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3185,13 +3198,14 @@
     "https://syncblock.network/evm"
    ],
    "explorer": "https://syncblock.network/evm/explorer",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 41234)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://syncblock.network/evm"
   },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
@@ -27921,6 +27935,50 @@
     "register"
    ],
    "liveRpc": "https://l1.avax.network/yentria/mainnet/rpc"
+  },
+  "yoa": {
+   "id": "yoa",
+   "name": "Yoa",
+   "aliases": [
+    "Yoa"
+   ],
+   "keys": [
+    "d:yoa.network",
+    "id:299",
+    "n:yoa"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 299",
+     "url": "https://github.com/ethereum-lists/chains/pull/9153",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "299"
+   ],
+   "website": "https://yoa.network",
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "yochain": {
    "id": "yochain",

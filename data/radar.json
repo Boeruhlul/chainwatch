@@ -8697,6 +8697,20 @@
    "dossier": null
   },
   {
+   "key": "forum:delvingbitcoin.org:3116",
+   "title": "676-Byte Knowledge-Asymmetry UTXO Rescue and Stateless Lattice PQ-MPC for Legacy Supply Migration",
+   "url": "https://delvingbitcoin.org/t/676-byte-knowledge-asymmetry-utxo-rescue-and-stateless-lattice-pq-mpc-for-legacy-supply-migration/3116",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30493",
    "title": "ERC Discussion: ERC-20 Transferable Timelock",
    "url": "https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493",
@@ -8705,6 +8719,20 @@
     "created": "2026-11-24",
     "posts": 1,
     "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "forum:ethereum-magicians.org:30500",
+   "title": "All Core Devs - Testing (ACDT) #105, November 30, 2026",
+   "url": "https://ethereum-magicians.org/t/all-core-devs-testing-acdt-105-november-30-2026/30500",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 2
    },
    "cat": "techniek",
    "src": "forums",
@@ -9722,6 +9750,7 @@
    "forum:delvingbitcoin.org:3107",
    "forum:delvingbitcoin.org:3110",
    "forum:delvingbitcoin.org:3113",
+   "forum:delvingbitcoin.org:3116",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
@@ -9822,6 +9851,7 @@
    "forum:ethereum-magicians.org:30477",
    "forum:ethereum-magicians.org:30485",
    "forum:ethereum-magicians.org:30493",
+   "forum:ethereum-magicians.org:30500",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
