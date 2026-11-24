@@ -8739,6 +8739,20 @@
    "date": "2026-11-24"
   },
   {
+   "key": "forum:ethereum-magicians.org:30502",
+   "title": "EIP: eth/76 - Proof Wrapper Aggregation",
+   "url": "https://ethereum-magicians.org/t/eip-eth-76-proof-wrapper-aggregation/30502",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 9
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "forum:ethresear.ch:26285",
    "title": "Post-quantum DAS with improved provable security",
    "url": "https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285",
@@ -9852,6 +9866,7 @@
    "forum:ethereum-magicians.org:30485",
    "forum:ethereum-magicians.org:30493",
    "forum:ethereum-magicians.org:30500",
+   "forum:ethereum-magicians.org:30502",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
