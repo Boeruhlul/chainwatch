@@ -26929,10 +26929,14 @@
    ],
    "firstSeen": "2026-11-24",
    "lastActivity": "2026-11-24",
-   "stage": "aangekondigd",
+   "stage": "testnet",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-24"
+    },
+    {
+     "stage": "testnet",
      "date": "2026-11-24"
     }
    ],
@@ -26945,6 +26949,16 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 83721",
      "url": "https://github.com/ethereum-lists/chains/pull/9155",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 83721",
+     "url": "https://github.com/ethereum-lists/chains/pull/9155",
+     "testnetName": true,
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -26957,13 +26971,14 @@
     "https://testnet-rpc.verachain.cloud"
    ],
    "explorer": "https://testnet-explorer.verachain.cloud/explorer",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 83721)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://testnet-rpc.verachain.cloud"
   },
   "verifiable": {
    "id": "verifiable",
