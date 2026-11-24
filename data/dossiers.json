@@ -12492,6 +12492,55 @@
    ],
    "liveRpc": "https://rpc.mayachain.io"
   },
+  "mcnblockchain": {
+   "id": "mcnblockchain",
+   "name": "MCN Blockchain",
+   "aliases": [
+    "MCN Blockchain"
+   ],
+   "keys": [
+    "d:mcnblockchain.com",
+    "id:2325",
+    "n:mcnblockchain"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 2325",
+     "url": "https://github.com/ethereum-lists/chains/pull/9154",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "2325"
+   ],
+   "website": "https://mcnblockchain.com",
+   "architecture": "EVM",
+   "github": "https://github.com/MCNBlockchain",
+   "rpc": [
+    "https://rpc.mcnblockchain.com"
+   ],
+   "explorer": "https://mcnscan.org",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "memento": {
    "id": "memento",
    "name": "Memento",
