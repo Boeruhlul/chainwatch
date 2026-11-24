@@ -7564,6 +7564,30 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-23"
+  },
+  {
+   "key": "chaincontract:blenonetwork:0x03e74f5cf51a8c5ed87d60f2ebb1da96b66ec427",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BlenoSwapDEX op Bleno Network",
+   "url": "https://bleno.com.br/address/0x03e74f5cf51a8c5ed87d60f2ebb1da96b66ec427",
+   "meta": {
+    "chain": "Bleno Network",
+    "addr": "0x03e74f5cf51a8c5ed87d60f2ebb1da96b66ec427"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "key": "chaincontract:blenonetwork:0x25e981bceb057875f050d8ccf3e053479a5d2bd6",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BlenoSwapDEX op Bleno Network",
+   "url": "https://bleno.com.br/address/0x25e981bceb057875f050d8ccf3e053479a5d2bd6",
+   "meta": {
+    "chain": "Bleno Network",
+    "addr": "0x25e981bceb057875f050d8ccf3e053479a5d2bd6"
+   },
+   "date": "2026-11-24"
   }
  ],
  "seen": {
@@ -7572,6 +7596,8 @@
   ],
   "audit-sherlock": [],
   "chain-contracts": [
+   "chaincontract:blenonetwork:0x03e74f5cf51a8c5ed87d60f2ebb1da96b66ec427",
+   "chaincontract:blenonetwork:0x25e981bceb057875f050d8ccf3e053479a5d2bd6",
    "chaincontract:blenonetwork:0xdf8bf9a78e76fe08dfd96029218546b830d21ceb",
    "chaincontract:collect:0x2e7a93286e723f4d115b81f787b55fe6c4f9231e",
    "chaincontract:collect:0xe243fb51d91c5de62afabe44f7ed2d4dc51668c6",
