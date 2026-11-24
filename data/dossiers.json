@@ -1225,6 +1225,15 @@
    "evidence": [
     {
      "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x48ebc40e…",
+     "url": "https://scan.arficoin.com/address/0x48ebc40e40e228ad2bc0ef1e74174c534d27a459",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
@@ -1253,12 +1262,24 @@
    "explorer": "https://scan.arficoin.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 884800)"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v2-fork) 0x48ebc40e…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
+    "onchain",
     "register"
    ],
-   "liveRpc": "https://rpc.arficoin.com"
+   "liveRpc": "https://rpc.arficoin.com",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x48ebc40e40e228ad2bc0ef1e74174c534d27a459",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-24"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "armchain": {
    "id": "armchain",
