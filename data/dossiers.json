@@ -20449,7 +20449,7 @@
     "n:qom"
    ],
    "firstSeen": "2026-11-20",
-   "lastActivity": "2026-11-20",
+   "lastActivity": "2026-11-24",
    "stage": "draait",
    "stageHistory": [
     {
@@ -20479,6 +20479,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 33303",
      "url": "https://github.com/ethereum-lists/chains/pull/9121",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x35e759b0…",
+     "url": "https://scan.qomx.io/address/0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20492,12 +20501,24 @@
    "explorer": "https://scan.qomx.io",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 33303)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 33303)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
-   "liveRpc": "https://rpc.qomx.io"
+   "liveRpc": "https://rpc.qomx.io",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-24"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "qorechaindiana": {
    "id": "qorechaindiana",
