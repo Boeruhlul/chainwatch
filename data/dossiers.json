@@ -3145,6 +3145,54 @@
    ],
    "mainnetSince": "2026-10-29"
   },
+  "bluewolfchain": {
+   "id": "bluewolfchain",
+   "name": "Bluewolfchain",
+   "aliases": [
+    "Bluewolfchain"
+   ],
+   "keys": [
+    "d:bluewolfchain.com",
+    "id:41234",
+    "n:bluewolfchain"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 41234",
+     "url": "https://github.com/ethereum-lists/chains/pull/9152",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "41234"
+   ],
+   "website": "https://bluewolfchain.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://syncblock.network/evm"
+   ],
+   "explorer": "https://syncblock.network/evm/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "bnbchainnewl1": {
    "id": "bnbchainnewl1",
    "name": "BNB Chain NewL1",
@@ -11028,11 +11076,14 @@
    "id": "kyrelisdevnet2",
    "name": "KYRELIS Devnet 2",
    "aliases": [
-    "KYRELIS Devnet 2"
+    "KYRELIS Devnet 2",
+    "KYRELIS"
    ],
    "keys": [
     "d:ts.net",
+    "id:kyrelis-1",
     "id:kyrelis-devnet-2",
+    "n:kyrelis",
     "n:kyrelisdevnet2"
    ],
    "firstSeen": "2026-11-24",
@@ -11050,18 +11101,29 @@
      "source": "keplr-pr",
      "family": "register",
      "kind": "proposal",
+     "what": "keplr-pr: chain-ID-aanvraag · ID kyrelis-1",
+     "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1610",
+     "strength": "technical"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "keplr-pr",
+     "family": "register",
+     "kind": "proposal",
      "what": "keplr-pr: chain-ID-aanvraag · ID kyrelis-devnet-2",
      "url": "https://github.com/chainapsis/keplr-chain-registry/pull/1609",
      "strength": "technical"
     }
    ],
    "chainIds": [
-    "kyrelis-devnet-2"
+    "kyrelis-devnet-2",
+    "kyrelis-1"
    ],
    "website": "https://ts.net",
    "architecture": "Cosmos",
    "rpc": [
-    "https://raspberrypi.tail3fb8f3.ts.net/rest"
+    "https://raspberrypi.tail3fb8f3.ts.net/rest",
+    "https://raspberrypi.tail3fb8f3.ts.net:8443/rest"
    ],
    "confidence": "C",
    "reasons": [
