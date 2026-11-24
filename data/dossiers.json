@@ -17596,7 +17596,7 @@
     "n:ostia"
    ],
    "firstSeen": "2026-10-25",
-   "lastActivity": "2026-11-11",
+   "lastActivity": "2026-11-24",
    "stage": "draait",
    "stageHistory": [
     {
@@ -17664,6 +17664,15 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xdc3894f5…",
      "url": "https://ostia.devnet.romeprotocol.xyz/address/0xdc3894f56880a9bddcd31c97c509b48b00ec6fa8",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xb8203531…",
+     "url": "https://ostia.devnet.romeprotocol.xyz/address/0xb8203531e77e74142e3f01fa2158afc5986f91cf",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -17692,6 +17701,11 @@
       "addr": "0xdc3894f56880a9bddcd31c97c509b48b00ec6fa8",
       "type": "Uniswap v2-fork",
       "date": "2026-11-11"
+     },
+     {
+      "addr": "0xb8203531e77e74142e3f01fa2158afc5986f91cf",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-24"
      }
     ],
     "launchpad": []
