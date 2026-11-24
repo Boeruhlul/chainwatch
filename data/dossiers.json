@@ -19965,7 +19965,7 @@
     "n:primium"
    ],
    "firstSeen": "2026-11-17",
-   "lastActivity": "2026-11-23",
+   "lastActivity": "2026-11-24",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -20014,6 +20014,15 @@
      "what": "ethlists-commit: testnet · ID 1234571",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-1234571.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "viem",
+     "family": "code",
+     "kind": "testnet",
+     "what": "viem: testnet · ID 1234571",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/primiumTestnet.ts",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20030,7 +20039,8 @@
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 1234571)"
    ],
    "families": [
-    "register"
+    "register",
+    "code"
    ],
    "liveRpc": "https://node1-testnet.codexnetwork.org"
   },
@@ -26306,7 +26316,7 @@
     "n:tsxhorizon"
    ],
    "firstSeen": "2026-11-16",
-   "lastActivity": "2026-11-23",
+   "lastActivity": "2026-11-24",
    "stage": "mainnet",
    "stageHistory": [
     {
@@ -26395,6 +26405,33 @@
      "what": "ethlists-commit: testnet · ID 445",
      "url": "https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-445.json",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "viem",
+     "family": "code",
+     "kind": "mainnet",
+     "what": "viem: mainnet · ID 454",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/tsxBastion.ts",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "viem",
+     "family": "code",
+     "kind": "mainnet",
+     "what": "viem: mainnet · ID 455",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/tsxHorizon.ts",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "viem",
+     "family": "code",
+     "kind": "testnet",
+     "what": "viem: testnet · ID 445",
+     "url": "https://github.com/wevm/viem/blob/main/src/chains/definitions/tsxTestnet.ts",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -26416,7 +26453,8 @@
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 445)"
    ],
    "families": [
-    "register"
+    "register",
+    "code"
    ],
    "liveRpc": "https://testnet.tsx.network/rpc",
    "mainnetSince": "2026-11-23"
