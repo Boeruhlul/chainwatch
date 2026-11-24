@@ -26916,6 +26916,55 @@
     "nieuws"
    ]
   },
+  "verasmartchain": {
+   "id": "verasmartchain",
+   "name": "VERA SmartChain",
+   "aliases": [
+    "VERA SmartChain"
+   ],
+   "keys": [
+    "d:verachain.cloud",
+    "id:83721",
+    "n:verasmartchain"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 83721",
+     "url": "https://github.com/ethereum-lists/chains/pull/9155",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "83721"
+   ],
+   "website": "https://verachain.cloud",
+   "architecture": "EVM",
+   "github": "https://github.com/Vera-SmartChain",
+   "rpc": [
+    "https://testnet-rpc.verachain.cloud"
+   ],
+   "explorer": "https://testnet-explorer.verachain.cloud/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "verifiable": {
    "id": "verifiable",
    "name": "Verifiable",
