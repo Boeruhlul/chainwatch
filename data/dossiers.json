@@ -1198,6 +1198,54 @@
    ],
    "liveRpc": "https://apnprotocol.ng/api/rpc"
   },
+  "arfi": {
+   "id": "arfi",
+   "name": "Arfi",
+   "aliases": [
+    "Arfi"
+   ],
+   "keys": [
+    "d:arficoin.com",
+    "id:884800",
+    "n:arfi"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 884800",
+     "url": "https://github.com/ethereum-lists/chains/pull/9150",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "884800"
+   ],
+   "website": "https://arficoin.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.arficoin.com"
+   ],
+   "explorer": "https://scan.arficoin.com",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "armchain": {
    "id": "armchain",
    "name": "ARMchain",

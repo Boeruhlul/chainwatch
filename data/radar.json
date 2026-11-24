@@ -8229,6 +8229,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30493",
+   "title": "ERC Discussion: ERC-20 Transferable Timelock",
+   "url": "https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
    "key": "forum:ethresear.ch:26285",
    "title": "Post-quantum DAS with improved provable security",
    "url": "https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285",
@@ -8240,6 +8254,46 @@
    },
    "cat": "techniek",
    "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "forum:ethresear.ch:26287",
+   "title": "Do bid cancellations matter?",
+   "url": "https://ethresear.ch/t/do-bid-cancellations-matter/26287",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22622",
+   "title": "Security release review – Karwar (Heimdall v0.13), Uburu (Bor v2.11.0) and Bor v2.10.3",
+   "url": "https://forum.polygon.technology/t/security-release-review-karwar-heimdall-v0-13-uburu-bor-v2-11-0-and-bor-v2-10-3/22622",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-24",
+    "posts": 1,
+    "views": 7
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-24"
+  },
+  {
+   "key": "pr:ethereum/eips#12710",
+   "title": "Update EIP-8288: declare dependencies in the signature list instead of a frame",
+   "url": "https://github.com/ethereum/EIPs/pull/12710",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-24"
+   },
+   "cat": "techniek",
+   "src": "proposals",
    "date": "2026-11-24"
   },
   {
@@ -9192,6 +9246,7 @@
    "forum:ethereum-magicians.org:30476",
    "forum:ethereum-magicians.org:30477",
    "forum:ethereum-magicians.org:30485",
+   "forum:ethereum-magicians.org:30493",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -9232,6 +9287,7 @@
    "forum:ethresear.ch:26281",
    "forum:ethresear.ch:26283",
    "forum:ethresear.ch:26285",
+   "forum:ethresear.ch:26287",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -9309,6 +9365,7 @@
    "forum:forum.polygon.technology:22586",
    "forum:forum.polygon.technology:22595",
    "forum:forum.polygon.technology:22597",
+   "forum:forum.polygon.technology:22622",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
@@ -9537,6 +9594,7 @@
    "pr:ethereum/eips#12706",
    "pr:ethereum/eips#12707",
    "pr:ethereum/eips#12708",
+   "pr:ethereum/eips#12710",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
