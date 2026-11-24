@@ -4086,6 +4086,7 @@
   "seidevnet3:test",
   "seinetwork:main",
   "seinetworkdeprecating:main",
+  "seismic:lead",
   "seismic:test",
   "seismicdevnet2:test",
   "seitestnet2:test",
