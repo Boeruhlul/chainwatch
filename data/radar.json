@@ -7924,6 +7924,18 @@
    "date": "2026-11-24"
   },
   {
+   "key": "chaincontract:qdayaevum:0x96f334ee3fc4b191740b9eab8aadf139206dcc9e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SpeedBond op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x96f334ee3fc4b191740b9eab8aadf139206dcc9e",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x96f334ee3fc4b191740b9eab8aadf139206dcc9e"
+   },
+   "date": "2026-11-24"
+  },
+  {
    "key": "chaincontract:qom:0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -8629,6 +8641,7 @@
    "chaincontract:qdayaevum:0x70081bed49c0b0fdd7fbc9a835c4d66cd1447234",
    "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
+   "chaincontract:qdayaevum:0x96f334ee3fc4b191740b9eab8aadf139206dcc9e",
    "chaincontract:qdayaevum:0x9a634535065ae7b3e3df523d76d0d2eed5aeb5b8",
    "chaincontract:qdayaevum:0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
