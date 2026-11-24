@@ -7588,6 +7588,18 @@
     "addr": "0x25e981bceb057875f050d8ccf3e053479a5d2bd6"
    },
    "date": "2026-11-24"
+  },
+  {
+   "key": "pr:ethereum/ercs#2214",
+   "title": "Add ERC: Post-Quantum Validator Key Derivation",
+   "url": "https://github.com/ethereum/ERCs/pull/2214",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-23"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-24"
   }
  ],
  "seen": {
@@ -8741,6 +8753,7 @@
    "pr:ethereum/ercs#2211",
    "pr:ethereum/ercs#2212",
    "pr:ethereum/ercs#2213",
+   "pr:ethereum/ercs#2214",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
