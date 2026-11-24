@@ -27720,7 +27720,7 @@
     "n:zebvix"
    ],
    "firstSeen": "2026-11-19",
-   "lastActivity": "2026-11-19",
+   "lastActivity": "2026-11-24",
    "stage": "draait",
    "stageHistory": [
     {
@@ -27750,6 +27750,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 728989",
      "url": "https://github.com/ethereum-lists/chains/pull/9106",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x6c1b3e71…",
+     "url": "https://scan.zebvixchain.com/address/0x6c1b3e7107a28adfda5b23e13f119c8d48eaf775",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -27763,12 +27772,24 @@
    "explorer": "https://scan.zebvixchain.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 728989)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 728989)",
+    "DEX op de chain gevonden"
    ],
    "families": [
-    "register"
+    "register",
+    "onchain"
    ],
-   "liveRpc": "https://rpc.zebvixchain.com/"
+   "liveRpc": "https://rpc.zebvixchain.com/",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x6c1b3e7107a28adfda5b23e13f119c8d48eaf775",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-24"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "zenith": {
    "id": "zenith",
