@@ -8761,15 +8761,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x8049bb99…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x8049bb99102fbe7cf9f744a3029e94de5bb92e81",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0x9d18e800…",
      "url": "https://sepolia-explorer.giwa.io/address/0x9d18e8009977eda227cd621c465d36666a3435e0",
      "strength": "running"
@@ -8979,6 +8970,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v4) 0xd2e9b125…",
      "url": "https://sepolia-explorer.giwa.io/address/0xd2e9b125aa80f61c39f458547b1bf5afa2b412c9",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xf0b44374…",
+     "url": "https://sepolia-explorer.giwa.io/address/0xf0b44374641bcf1d46169a4003cea5eb60e87103",
      "strength": "running"
     },
     {
@@ -12375,6 +12375,44 @@
    ],
    "website": "https://maroo.io",
    "mainnetSince": "2026-11-21"
+  },
+  "marvinparanoidyapchain": {
+   "id": "marvinparanoidyapchain",
+   "name": "MarvinParanoid/YapChain",
+   "aliases": [
+    "MarvinParanoid/YapChain"
+   ],
+   "keys": [
+    "gh:marvinparanoid"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastActivity": "2026-11-24",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-24"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-24",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/MarvinParanoid/YapChain",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
   },
   "maximotodevlotstr": {
    "id": "maximotodevlotstr",
