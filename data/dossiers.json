@@ -12505,10 +12505,14 @@
    ],
    "firstSeen": "2026-11-24",
    "lastActivity": "2026-11-24",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-24"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-24"
     }
    ],
@@ -12521,6 +12525,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 2325",
      "url": "https://github.com/ethereum-lists/chains/pull/9154",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 2325",
+     "url": "https://github.com/ethereum-lists/chains/pull/9154",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -12533,13 +12546,14 @@
     "https://rpc.mcnblockchain.com"
    ],
    "explorer": "https://mcnscan.org",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 2325)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.mcnblockchain.com"
   },
   "memento": {
    "id": "memento",
