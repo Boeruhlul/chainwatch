@@ -25133,6 +25133,44 @@
     "onderzoek"
    ]
   },
+  "success7777sdsvgethereummainnet": {
+   "id": "success7777sdsvgethereummainnet",
+   "name": "success7777sd-svg/Ethereum-Mainnet",
+   "aliases": [
+    "success7777sd-svg/Ethereum-Mainnet"
+   ],
+   "keys": [
+    "gh:success7777sd-svg"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/success7777sd-svg/Ethereum-Mainnet",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "sunima": {
    "id": "sunima",
    "name": "Sunima",
