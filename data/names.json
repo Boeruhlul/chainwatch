@@ -743,6 +743,7 @@
   "brine:main",
   "brochain:main",
   "bron:main",
+  "bronknetwork:pre",
   "bronos:main",
   "bronos:test",
   "bsc:main",

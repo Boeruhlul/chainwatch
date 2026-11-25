@@ -3429,6 +3429,54 @@
     "register"
    ]
   },
+  "bronknetwork": {
+   "id": "bronknetwork",
+   "name": "Bronk Network",
+   "aliases": [
+    "Bronk Network"
+   ],
+   "keys": [
+    "d:bronkxbank.com",
+    "id:8819",
+    "n:bronknetwork"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 8819",
+     "url": "https://github.com/ethereum-lists/chains/pull/9165",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "8819"
+   ],
+   "website": "https://bronkxbank.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.bronkxbank.com"
+   ],
+   "explorer": "https://explorer.bronkxbank.com",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "bulk": {
    "id": "bulk",
    "name": "Bulk",
