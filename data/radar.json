@@ -8887,6 +8887,20 @@
    "date": "2026-11-25"
   },
   {
+   "key": "forum:ethereum-magicians.org:30518",
+   "title": "Ethlabs’ position on Glamsterdam",
+   "url": "https://ethereum-magicians.org/t/ethlabs-position-on-glamsterdam/30518",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-25",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-25"
+  },
+  {
    "key": "forum:ethresear.ch:26292",
    "title": "FOCIL and Ethereum's PQ transition",
    "url": "https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292",
@@ -9982,6 +9996,7 @@
    "forum:ethereum-magicians.org:30500",
    "forum:ethereum-magicians.org:30502",
    "forum:ethereum-magicians.org:30516",
+   "forum:ethereum-magicians.org:30518",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
