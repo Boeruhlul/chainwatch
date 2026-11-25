@@ -13724,6 +13724,50 @@
     "register"
    ]
   },
+  "mmix": {
+   "id": "mmix",
+   "name": "MMIX",
+   "aliases": [
+    "MMIX"
+   ],
+   "keys": [
+    "d:mmix.io",
+    "id:200934",
+    "n:mmix"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 200934",
+     "url": "https://github.com/ethereum-lists/chains/pull/9162",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "200934"
+   ],
+   "website": "https://mmix.io",
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "mobilenodechain": {
    "id": "mobilenodechain",
    "name": "MobileNode Chain",
