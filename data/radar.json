@@ -9034,6 +9034,42 @@
    "date": "2026-11-25"
   },
   {
+   "key": "pr:ethereum/ercs#2215",
+   "title": "Add ERC: Post-Quantum Validator Keystore",
+   "url": "https://github.com/ethereum/ERCs/pull/2215",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
+   "key": "pr:ethereum/ercs#2216",
+   "title": "Update ERC-8495: Clarify data URI rules for metadata and media",
+   "url": "https://github.com/ethereum/ERCs/pull/2216",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
+   "key": "pr:ethereum/ercs#2217",
+   "title": "Update ERC-8495: Recognize ERC-1155 metadata update events",
+   "url": "https://github.com/ethereum/ERCs/pull/2217",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#738",
    "title": "Withdraw SIMD-0506",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/738",
@@ -10405,6 +10441,9 @@
    "pr:ethereum/ercs#2212",
    "pr:ethereum/ercs#2213",
    "pr:ethereum/ercs#2214",
+   "pr:ethereum/ercs#2215",
+   "pr:ethereum/ercs#2216",
+   "pr:ethereum/ercs#2217",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
