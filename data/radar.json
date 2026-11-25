@@ -8791,6 +8791,20 @@
    "date": "2026-11-25"
   },
   {
+   "key": "forum:ethresear.ch:26293",
+   "title": "Optimal Dynamic Fees for L2s: A Vault Approach",
+   "url": "https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-25",
+    "posts": 1,
+    "views": 21
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-25"
+  },
+  {
    "key": "forum:forum.polygon.technology:22630",
    "title": "Private Releases: Process and Access",
    "url": "https://forum.polygon.technology/t/private-releases-process-and-access/22630",
@@ -9831,6 +9845,7 @@
    "forum:ethresear.ch:26285",
    "forum:ethresear.ch:26287",
    "forum:ethresear.ch:26292",
+   "forum:ethresear.ch:26293",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
