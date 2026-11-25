@@ -1210,7 +1210,7 @@
     "n:arfi"
    ],
    "firstSeen": "2026-11-24",
-   "lastActivity": "2026-11-24",
+   "lastActivity": "2026-11-25",
    "stage": "draait",
    "stageHistory": [
     {
@@ -1249,6 +1249,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 884800",
      "url": "https://github.com/ethereum-lists/chains/pull/9150",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 884800",
+     "url": "https://github.com/ethereum-lists/chains/pull/9159",
+     "strength": "technical"
     }
    ],
    "chainIds": [
@@ -8920,15 +8929,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x9f8be11d…",
-     "url": "https://sepolia-explorer.giwa.io/address/0x9f8be11d61d1e899829279a283903a2272fc1f82",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-21",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0xec3ce46c…",
      "url": "https://sepolia-explorer.giwa.io/address/0xec3ce46ca0e3c6b14b6586c2e39320577b0a828e",
      "strength": "running"
@@ -9156,6 +9156,15 @@
      "kind": "eco",
      "what": "ecosystem: DEX (Uniswap v2-fork) 0x220863c1…",
      "url": "https://sepolia-explorer.giwa.io/address/0x220863c1fff2405b315a9381269f82ec69adcec1",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0x1c62ca0c…",
+     "url": "https://sepolia-explorer.giwa.io/address/0x1c62ca0cbd73edf5288a29dbb69e5d850cc963eb",
      "strength": "running"
     },
     {
