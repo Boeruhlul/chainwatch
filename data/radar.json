@@ -8675,6 +8675,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "chaincontract:giwasepolia:0x30992833f750256ed5366b708199840a18413b25",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "LaunchOperations op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x30992833f750256ed5366b708199840a18413b25",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x30992833f750256ed5366b708199840a18413b25"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x32f48d12da0c5355605675c01a1bc62fbf92ffde",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9108,6 +9120,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "pr:ethereum/ercs#2218",
+   "title": "Update ERC-8495: Clarify SVG charset and batch refresh guidance",
+   "url": "https://github.com/ethereum/ERCs/pull/2218",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#738",
    "title": "Withdraw SIMD-0506",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/738",
@@ -9306,6 +9330,7 @@
    "chaincontract:giwasepolia:0x2cf5563c1981b7821cd4fda73bc69756b231528a",
    "chaincontract:giwasepolia:0x2fbf8aac85626b2f77e331474522311fb83586d0",
    "chaincontract:giwasepolia:0x2fc9c1622ee33fad06e4b6dcd2d756121da7ddd7",
+   "chaincontract:giwasepolia:0x30992833f750256ed5366b708199840a18413b25",
    "chaincontract:giwasepolia:0x324da7bb31152fc25c35d200a1c84037b1291f4f",
    "chaincontract:giwasepolia:0x329fbc4f2f06d60e8c6090b9a163fbece3abf801",
    "chaincontract:giwasepolia:0x32f48d12da0c5355605675c01a1bc62fbf92ffde",
@@ -10485,6 +10510,7 @@
    "pr:ethereum/ercs#2215",
    "pr:ethereum/ercs#2216",
    "pr:ethereum/ercs#2217",
+   "pr:ethereum/ercs#2218",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
