@@ -20770,10 +20770,14 @@
    ],
    "firstSeen": "2026-11-25",
    "lastActivity": "2026-11-25",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-25"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-25"
     }
    ],
@@ -20786,6 +20790,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 778899",
      "url": "https://github.com/ethereum-lists/chains/pull/9166",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 778899",
+     "url": "https://github.com/ethereum-lists/chains/pull/9166",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -20797,13 +20810,14 @@
     "https://rpc.pulseone.top"
    ],
    "explorer": "https://explorer.pulseone.top",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 778899)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.pulseone.top"
   },
   "pushchain": {
    "id": "pushchain",
