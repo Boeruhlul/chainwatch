@@ -1258,6 +1258,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 884800",
      "url": "https://github.com/ethereum-lists/chains/pull/9159",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 884800",
+     "url": "https://github.com/ethereum-lists/chains/pull/9159",
+     "strength": "running"
     }
    ],
    "chainIds": [
