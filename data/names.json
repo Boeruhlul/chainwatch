@@ -3699,6 +3699,7 @@
   "pulsechain:main",
   "pulsechaintestnetv4:test",
   "pulsechainv4:main",
+  "pulseone:pre",
   "pumpfi:test",
   "pumpfichain:test",
   "pundiaifxomnilayer:main",

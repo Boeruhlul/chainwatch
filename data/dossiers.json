@@ -3442,10 +3442,14 @@
    ],
    "firstSeen": "2026-11-25",
    "lastActivity": "2026-11-25",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-25"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-25"
     }
    ],
@@ -3458,6 +3462,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 8819",
      "url": "https://github.com/ethereum-lists/chains/pull/9165",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 8819",
+     "url": "https://github.com/ethereum-lists/chains/pull/9165",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -3469,13 +3482,14 @@
     "https://rpc.bronkxbank.com"
    ],
    "explorer": "https://explorer.bronkxbank.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 8819)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.bronkxbank.com"
   },
   "bulk": {
    "id": "bulk",
@@ -20742,6 +20756,54 @@
     "register"
    ],
    "github": "https://github.com/psycho-v1"
+  },
+  "pulseone": {
+   "id": "pulseone",
+   "name": "PulseOne",
+   "aliases": [
+    "PulseOne"
+   ],
+   "keys": [
+    "d:pulseone.top",
+    "id:778899",
+    "n:pulseone"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 778899",
+     "url": "https://github.com/ethereum-lists/chains/pull/9166",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "778899"
+   ],
+   "website": "https://pulseone.top",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.pulseone.top"
+   ],
+   "explorer": "https://explorer.pulseone.top",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "pushchain": {
    "id": "pushchain",
