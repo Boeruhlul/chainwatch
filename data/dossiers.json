@@ -1692,10 +1692,14 @@
    ],
    "firstSeen": "2026-11-25",
    "lastActivity": "2026-11-25",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-25"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-25"
     }
    ],
@@ -1708,6 +1712,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 28662",
      "url": "https://github.com/ethereum-lists/chains/pull/9158",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 28662",
+     "url": "https://github.com/ethereum-lists/chains/pull/9158",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -1718,13 +1731,14 @@
    "rpc": [
     "https://rpc-lab.aton-chain.com/public"
    ],
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 28662)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-lab.aton-chain.com/public"
   },
   "atlantischain": {
    "id": "atlantischain",
