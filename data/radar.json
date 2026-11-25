@@ -8508,6 +8508,18 @@
    "date": "2026-11-24"
   },
   {
+   "key": "chaincontract:giwasepolia:0x261b93f7f688d8cc156fc7987de142a94bb2a363",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PumpToken op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x261b93f7f688d8cc156fc7987de142a94bb2a363",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x261b93f7f688d8cc156fc7987de142a94bb2a363"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:qms:0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -8692,6 +8704,7 @@
    "chaincontract:giwasepolia:0x242c162eef3ce4d13ae705bdb58f628629028941",
    "chaincontract:giwasepolia:0x2541a6d54618cb533ce35baabe471ddcdb59ad96",
    "chaincontract:giwasepolia:0x25a5d968d8c6b0bb6b71fe98515c551f6df07a32",
+   "chaincontract:giwasepolia:0x261b93f7f688d8cc156fc7987de142a94bb2a363",
    "chaincontract:giwasepolia:0x27f45dbd3f4087b0c745529df00a5680c60b5622",
    "chaincontract:giwasepolia:0x2869e9b3aa2783a2ced20453a4195b4e8ea48793",
    "chaincontract:giwasepolia:0x288137b1f63cff425e99bd1b3abfa94cc24f5799",
