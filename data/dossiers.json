@@ -3876,6 +3876,43 @@
     "github"
    ]
   },
+  "centralizedbitcoin": {
+   "id": "centralizedbitcoin",
+   "name": "Centralized Bitcoin",
+   "aliases": [
+    "Centralized Bitcoin"
+   ],
+   "keys": [
+    "n:centralizedbitcoin"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/dryuvrajk/official-bitcoin-wallet",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "circlearc": {
    "id": "circlearc",
    "name": "Circle Arc",
@@ -27331,6 +27368,44 @@
    ],
    "families": [
     "nieuws"
+   ]
+  },
+  "venkatapramidreddymittastatusaudit": {
+   "id": "venkatapramidreddymittastatusaudit",
+   "name": "Venkata-Pramid-Reddy-Mitta/status-audit",
+   "aliases": [
+    "Venkata-Pramid-Reddy-Mitta/status-audit"
+   ],
+   "keys": [
+    "gh:venkata-pramid-reddy-mitta"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/Venkata-Pramid-Reddy-Mitta/status-audit",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "OP rollup-config",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "verasmartchain": {
