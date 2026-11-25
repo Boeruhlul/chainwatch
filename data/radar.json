@@ -8508,6 +8508,18 @@
    "date": "2026-11-24"
   },
   {
+   "key": "chaincontract:qms:0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "job:greenhouse:stripe:8412977",
    "title": "Stripe: Account Executive, Product Crypto/Stablecoins",
    "url": "https://stripe.com/jobs/search?gh_jid=8412977",
@@ -9100,6 +9112,7 @@
    "chaincontract:qms:0x487d7051845d4fe6d6c4b2055ef7d6e2d3e142df",
    "chaincontract:qms:0x4bc0aa13d92f52175ed9e18d9f1e6bf80f331f6b",
    "chaincontract:qms:0x51aaa29f6015eba7418ad15135aa94966e887cb0",
+   "chaincontract:qms:0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
    "chaincontract:qms:0x5cef4936a15b8831027f447b18daededf8fd5817",
    "chaincontract:qms:0x60dd805d0af155dd34cbaee4cc9b9019832f83db",
    "chaincontract:qms:0x63f2f329e7d16c24a1e4c9cab5bb4fcd4a604f3a",
