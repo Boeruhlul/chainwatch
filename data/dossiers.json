@@ -11263,6 +11263,54 @@
     "code"
    ]
   },
+  "kuspinchain": {
+   "id": "kuspinchain",
+   "name": "KuSpin Chain",
+   "aliases": [
+    "KuSpin Chain"
+   ],
+   "keys": [
+    "d:kuspin.app",
+    "id:88881",
+    "n:kuspinchain"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 88881",
+     "url": "https://github.com/ethereum-lists/chains/pull/9160",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "88881"
+   ],
+   "website": "https://kuspin.app",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.kuspin.app"
+   ],
+   "explorer": "https://explorer.kuspin.app",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "kyrelisdevnet2": {
    "id": "kyrelisdevnet2",
    "name": "KYRELIS Devnet 2",
