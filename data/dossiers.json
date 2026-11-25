@@ -8272,6 +8272,43 @@
     "github"
    ]
   },
+  "floplab": {
+   "id": "floplab",
+   "name": "FLOP Lab",
+   "aliases": [
+    "FLOP Lab"
+   ],
+   "keys": [
+    "n:floplab"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/joejnr96/flop-lab-ai-agent",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "flopnetwork": {
    "id": "flopnetwork",
    "name": "FLOP Network",
