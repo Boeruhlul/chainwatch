@@ -8960,6 +8960,30 @@
    "date": "2026-11-25"
   },
   {
+   "key": "pr:bitcoin/bips#2370",
+   "title": "BIP143: specify which CHECKMULTISIG keys must be compressed",
+   "url": "https://github.com/bitcoin/bips/pull/2370",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
+   "key": "pr:ethereum/eips#12716",
+   "title": "Update EIP-8298: Defer code change, adopt only from own code",
+   "url": "https://github.com/ethereum/EIPs/pull/12716",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
    "key": "pr:solana-foundation/solana-improvement-documents#738",
    "title": "Withdraw SIMD-0506",
    "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/738",
@@ -10092,6 +10116,7 @@
    "pr:bitcoin/bips#2367",
    "pr:bitcoin/bips#2368",
    "pr:bitcoin/bips#2369",
+   "pr:bitcoin/bips#2370",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -10220,6 +10245,7 @@
    "pr:ethereum/eips#12712",
    "pr:ethereum/eips#12713",
    "pr:ethereum/eips#12714",
+   "pr:ethereum/eips#12716",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
