@@ -8808,6 +8808,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "chaincontract:nvdachain:0x23d87687659aabde4fb672ec05b20908ff5835ed",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RemoteLaunch op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x23d87687659aabde4fb672ec05b20908ff5835ed",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x23d87687659aabde4fb672ec05b20908ff5835ed"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x2123a93083f6c7bb351296d0aba33a18caefc3be",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9674,6 +9686,7 @@
    "chaincontract:nvdachain:0x0000000000000000000000000000000000000068",
    "chaincontract:nvdachain:0x0b4c41b4b4e25a9f4a5a47f079363786dac690b9",
    "chaincontract:nvdachain:0x13e9ed32155810fdbd067d4522c492d6f68e5944",
+   "chaincontract:nvdachain:0x23d87687659aabde4fb672ec05b20908ff5835ed",
    "chaincontract:nvdachain:0x3468b97f7eb194e176e33ae80ba99531e21de633",
    "chaincontract:nvdachain:0x4675281d7bf999af01243503941961ebdac3f41d",
    "chaincontract:nvdachain:0x517456b1e0582f6d8f5022a3aeacf18b88ad6d17",
