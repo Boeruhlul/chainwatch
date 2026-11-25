@@ -12100,6 +12100,43 @@
     "onderzoek"
    ]
   },
+  "litvmliteforge": {
+   "id": "litvmliteforge",
+   "name": "LitVM LiteForge",
+   "aliases": [
+    "LitVM LiteForge"
+   ],
+   "keys": [
+    "n:litvmliteforge"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/bitsmith826/litvm-testnet-auto",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "live": {
    "id": "live",
    "name": "Live",
