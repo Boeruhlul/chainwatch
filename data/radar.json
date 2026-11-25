@@ -8700,6 +8700,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "chaincontract:kuspinchain:0x8727bb27d054724fd465a2c0a905232115819488",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "KuSpinSwapFactory op KuSpin Chain",
+   "url": "https://explorer.kuspin.app/address/0x8727bb27d054724fd465a2c0a905232115819488",
+   "meta": {
+    "chain": "KuSpin Chain",
+    "addr": "0x8727bb27d054724fd465a2c0a905232115819488"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:qms:0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9357,6 +9369,7 @@
    "chaincontract:gridmind:0xa366f427d5bfe748975cd73c45706baa81c03ef8",
    "chaincontract:gridmind:0xbf1de0140e364146e171153995ed688dad3bb100",
    "chaincontract:incentiv:0x7060c22f52ac8d8e93d484cc7e93c4dbc9c02182",
+   "chaincontract:kuspinchain:0x8727bb27d054724fd465a2c0a905232115819488",
    "chaincontract:latheon:0x0000000000000000000000000000000000000068",
    "chaincontract:midas:0x3a89e725ad72659cd3134d78da1979514721b7ba",
    "chaincontract:midas:0x3d02f93e8a336def07c8abde5072ad36e8ed29aa",

@@ -11290,6 +11290,15 @@
    "evidence": [
     {
      "date": "2026-11-25",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0x8727bb27…",
+     "url": "https://explorer.kuspin.app/address/0x8727bb27d054724fd465a2c0a905232115819488",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-25",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
@@ -11318,12 +11327,24 @@
    "explorer": "https://explorer.kuspin.app",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 88881)"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v2-fork) 0x8727bb27…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
+    "onchain",
     "register"
    ],
-   "liveRpc": "https://rpc.kuspin.app"
+   "liveRpc": "https://rpc.kuspin.app",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x8727bb27d054724fd465a2c0a905232115819488",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-25"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "kyrelisdevnet2": {
    "id": "kyrelisdevnet2",
