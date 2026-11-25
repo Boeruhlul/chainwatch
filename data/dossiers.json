@@ -9669,6 +9669,44 @@
     "github"
    ]
   },
+  "hinkal": {
+   "id": "hinkal",
+   "name": "hinkal",
+   "aliases": [
+    "hinkal"
+   ],
+   "keys": [
+    "n:hinkal"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/hinkal",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "holesky": {
    "id": "holesky",
    "name": "Holesky",

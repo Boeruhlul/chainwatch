@@ -8663,6 +8663,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "chaincontract:giwasepolia:0x936297a3a19e7fdc9487af569d721030b92a5ebd",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "XTipVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x936297a3a19e7fdc9487af569d721030b92a5ebd",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x936297a3a19e7fdc9487af569d721030b92a5ebd"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xc387dba163475061b50beaa884a6a4bbc1ec0a41",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9218,6 +9230,7 @@
    "chaincontract:giwasepolia:0x9224e2e949d7d45d039a328c9a80441383ee66dc",
    "chaincontract:giwasepolia:0x92eb8a643618846646d590c42dbc2d557f2c1de0",
    "chaincontract:giwasepolia:0x9330c662b6f1d807eceb8b34363531409a6b573b",
+   "chaincontract:giwasepolia:0x936297a3a19e7fdc9487af569d721030b92a5ebd",
    "chaincontract:giwasepolia:0x9453141dd81bfd7541a50b1a74df4bf8950a7e26",
    "chaincontract:giwasepolia:0x9546d653cdc5cdf027e128ce945dd8ee326cac82",
    "chaincontract:giwasepolia:0x9560f9b324f0c9475b36f3a87a7d44a3913ad8a7",
