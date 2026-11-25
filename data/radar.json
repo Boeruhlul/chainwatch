@@ -8811,6 +8811,20 @@
    "date": "2026-11-25"
   },
   {
+   "key": "forum:delvingbitcoin.org:3123",
+   "title": "Exploiting Wallet Rebroadcast to Link Addresses to Node IPs and More",
+   "url": "https://delvingbitcoin.org/t/exploiting-wallet-rebroadcast-to-link-addresses-to-node-ips-and-more/3123",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-25",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-25"
+  },
+  {
    "key": "forum:ethereum-magicians.org:30516",
    "title": "ERC-8517: Post-Quantum Validator Seed Derivation",
    "url": "https://ethereum-magicians.org/t/erc-8517-post-quantum-validator-seed-derivation/30516",
@@ -9776,6 +9790,7 @@
    "forum:delvingbitcoin.org:3113",
    "forum:delvingbitcoin.org:3116",
    "forum:delvingbitcoin.org:3122",
+   "forum:delvingbitcoin.org:3123",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
