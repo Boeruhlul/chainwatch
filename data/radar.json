@@ -8862,6 +8862,34 @@
    "src": "verified-contracts",
    "date": "2026-11-25",
    "dossier": null
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xbcb091c4a2ba41c833d5e9260d3570d23970062e",
+   "title": "OptimismPortal2 geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xBCB091c4a2ba41C833D5e9260D3570d23970062E",
+   "meta": {
+    "name": "OptimismPortal2",
+    "chain": "eth",
+    "addr": "0xBCB091c4a2ba41C833D5e9260D3570d23970062E",
+    "verified": "2026-11-25"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-25"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xfb12a09b53dd2f5e214ffc7e90b89e356877fd94",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xFB12A09b53Dd2f5e214FFc7e90b89E356877FD94",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0xFB12A09b53Dd2f5e214FFc7e90b89E356877FD94",
+    "verified": "2026-11-25"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-25"
   }
  ],
  "seen": {
@@ -10182,11 +10210,13 @@
    "vc:eth.blockscout.com:0xb20b23af6071405c37ddda0c0640e8ebb7899645",
    "vc:eth.blockscout.com:0xb5d216b9a35d186cc9799e66e35c0ac1fbe1c6d5",
    "vc:eth.blockscout.com:0xb77dbd9ac33b722d86d53efe9053dbf1894d4fac",
+   "vc:eth.blockscout.com:0xbcb091c4a2ba41c833d5e9260d3570d23970062e",
    "vc:eth.blockscout.com:0xbdc2721147b3850c4ff2aa38611801622a05696e",
    "vc:eth.blockscout.com:0xc05272de2635ca6f7aea7657b32eef8761caafea",
    "vc:eth.blockscout.com:0xc6dda12f4c504351cfcae34c0d5de4df40569acd",
    "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc",
    "vc:eth.blockscout.com:0xf8370b53df6e16a6c4c4bba86d271355cd1930f3",
+   "vc:eth.blockscout.com:0xfb12a09b53dd2f5e214ffc7e90b89e356877fd94",
    "vc:eth.blockscout.com:0xfd452acf277ba58af290cdc9450929afb3c63cb1"
   ]
  }
