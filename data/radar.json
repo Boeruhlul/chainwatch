@@ -8749,6 +8749,20 @@
    "dossier": null
   },
   {
+   "key": "vc:eth.blockscout.com:0x127924405bea5ae0c6ac926d979712d301793aa7",
+   "title": "RollupProxy geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x127924405Bea5aE0c6aC926d979712D301793AA7",
+   "meta": {
+    "name": "RollupProxy",
+    "chain": "eth",
+    "addr": "0x127924405Bea5aE0c6aC926d979712D301793AA7",
+    "verified": "2026-11-25"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-25"
+  },
+  {
    "key": "vc:eth.blockscout.com:0x80d50324369524ade17dc149c3f39f9b970824ab",
    "title": "SystemConfig geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0x80d50324369524Ade17dc149c3f39f9b970824Ab",
@@ -10047,6 +10061,7 @@
    "vc:eth.blockscout.com:0x0721f0ea608d136de5c8eedd119120c9d13f3c72",
    "vc:eth.blockscout.com:0x09c2e7401c21177f463427775886220ac8536387",
    "vc:eth.blockscout.com:0x0f7a26b7704202caf00f57634fce89aabc79491e",
+   "vc:eth.blockscout.com:0x127924405bea5ae0c6ac926d979712d301793aa7",
    "vc:eth.blockscout.com:0x157fe938848ba6f19f0998dfd6aa23d3701baa39",
    "vc:eth.blockscout.com:0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
    "vc:eth.blockscout.com:0x24e6733438bc532b30ad7fbce14f7b6e9d210de6",
