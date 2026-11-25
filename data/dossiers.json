@@ -4683,6 +4683,53 @@
     "register"
    ]
   },
+  "ctdn": {
+   "id": "ctdn",
+   "name": "CTDN",
+   "aliases": [
+    "CTDN"
+   ],
+   "keys": [
+    "d:citidan.com",
+    "id:9871",
+    "n:ctdn"
+   ],
+   "firstSeen": "2026-11-25",
+   "lastActivity": "2026-11-25",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-25"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 9871",
+     "url": "https://github.com/ethereum-lists/chains/pull/9156",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "9871"
+   ],
+   "website": "https://node.citidan.com",
+   "architecture": "EVM",
+   "rpc": [
+    "https://rpc.citidan.com"
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "d": {
    "id": "d",
    "name": "D",
