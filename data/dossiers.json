@@ -11276,10 +11276,14 @@
    ],
    "firstSeen": "2026-11-25",
    "lastActivity": "2026-11-25",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-25"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-25"
     }
    ],
@@ -11292,6 +11296,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 88881",
      "url": "https://github.com/ethereum-lists/chains/pull/9160",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-25",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 88881",
+     "url": "https://github.com/ethereum-lists/chains/pull/9160",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -11303,13 +11316,14 @@
     "https://rpc.kuspin.app"
    ],
    "explorer": "https://explorer.kuspin.app",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 88881)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc.kuspin.app"
   },
   "kyrelisdevnet2": {
    "id": "kyrelisdevnet2",
