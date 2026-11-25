@@ -8568,6 +8568,32 @@
    "cat": "sdk",
    "src": "npm-sdk",
    "date": "2026-11-25"
+  },
+  {
+   "key": "pr:solana-foundation/solana-improvement-documents#738",
+   "title": "Withdraw SIMD-0506",
+   "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/738",
+   "meta": {
+    "repo": "solana-foundation/solana-improvement-documents",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-25"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0x80d50324369524ade17dc149c3f39f9b970824ab",
+   "title": "SystemConfig geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0x80d50324369524Ade17dc149c3f39f9b970824Ab",
+   "meta": {
+    "name": "SystemConfig",
+    "chain": "eth",
+    "addr": "0x80d50324369524Ade17dc149c3f39f9b970824Ab",
+    "verified": "2026-11-25"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
+   "date": "2026-11-25"
   }
  ],
  "seen": {
@@ -9839,7 +9865,8 @@
    "pr:solana-foundation/solana-improvement-documents#725",
    "pr:solana-foundation/solana-improvement-documents#727",
    "pr:solana-foundation/solana-improvement-documents#732",
-   "pr:solana-foundation/solana-improvement-documents#737"
+   "pr:solana-foundation/solana-improvement-documents#737",
+   "pr:solana-foundation/solana-improvement-documents#738"
   ],
   "verified-contracts": [
    "vc:eth.blockscout.com:0x028576a5e409ab729d2f0027f7d6ddd9dc158911",
@@ -9861,6 +9888,7 @@
    "vc:eth.blockscout.com:0x66b88c1303a1c2ff4af31626f59b44a3a9ee85a4",
    "vc:eth.blockscout.com:0x6779a8a56a817df8718015c1898eade453a76495",
    "vc:eth.blockscout.com:0x78e082c6a436fbae2f257dc1ac568aa11cd1ee3b",
+   "vc:eth.blockscout.com:0x80d50324369524ade17dc149c3f39f9b970824ab",
    "vc:eth.blockscout.com:0x88d4dc2cbb81f0fc5cf1e00bcfc88203d5486a02",
    "vc:eth.blockscout.com:0x895abe29144cc131744212da0f0b42cef5116454",
    "vc:eth.blockscout.com:0x93340773439b9d47e3ea4e8b805c378e7dea2e9d",
