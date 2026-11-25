@@ -8808,6 +8808,18 @@
    "date": "2026-11-25"
   },
   {
+   "key": "chaincontract:qdayaevum:0x2123a93083f6c7bb351296d0aba33a18caefc3be",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AllowanceVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x2123a93083f6c7bb351296d0aba33a18caefc3be",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x2123a93083f6c7bb351296d0aba33a18caefc3be"
+   },
+   "date": "2026-11-25"
+  },
+  {
    "key": "chaincontract:qms:0x55b2d4821f835f0f6342b36fe34fb5193a3b58e3",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9623,6 +9635,7 @@
    "chaincontract:qdayaevum:0x1402465f04cf62fb822f0e4fd0f9cd2be595ad88",
    "chaincontract:qdayaevum:0x15debe3bed0a0bf705b6800d279f038097dc1706",
    "chaincontract:qdayaevum:0x1d310b140ab308dfbd5659b1a9100bf58e3f3bd6",
+   "chaincontract:qdayaevum:0x2123a93083f6c7bb351296d0aba33a18caefc3be",
    "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
    "chaincontract:qdayaevum:0x3aa047ecde17f1ed439d3bed372a1e36efd462f9",
    "chaincontract:qdayaevum:0x3bd7ffda8504124fb7ae9e28dca0d01aa5a728ee",
