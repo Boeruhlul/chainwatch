@@ -8976,6 +8976,42 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:alpen:0x3a3bc9444e70a7a035103047912318a9acca4f4e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BlueBuyCallbackFactory op Alpen",
+   "url": "https://explorer.mainnet.alpen.org/address/0x3a3bc9444e70a7a035103047912318a9acca4f4e",
+   "meta": {
+    "chain": "Alpen",
+    "addr": "0x3a3bc9444e70a7a035103047912318a9acca4f4e"
+   },
+   "date": "2026-11-26"
+  },
+  {
+   "key": "chaincontract:alpen:0x5f75067851e085c04690daa11ffbc4c09c6009fd",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "BlueBuyCallbackFactory op Alpen",
+   "url": "https://explorer.mainnet.alpen.org/address/0x5f75067851e085c04690daa11ffbc4c09c6009fd",
+   "meta": {
+    "chain": "Alpen",
+    "addr": "0x5f75067851e085c04690daa11ffbc4c09c6009fd"
+   },
+   "date": "2026-11-26"
+  },
+  {
+   "key": "chaincontract:alpen:0xe89573812135f6aba945a63b13cd98ce761caefc",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CREATE3Factory op Alpen",
+   "url": "https://explorer.mainnet.alpen.org/address/0xe89573812135f6aba945a63b13cd98ce761caefc",
+   "meta": {
+    "chain": "Alpen",
+    "addr": "0xe89573812135f6aba945a63b13cd98ce761caefc"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x253720de39501d445bbd159fd5891226e3c6cc2c",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9403,6 +9439,9 @@
   ],
   "audit-sherlock": [],
   "chain-contracts": [
+   "chaincontract:alpen:0x3a3bc9444e70a7a035103047912318a9acca4f4e",
+   "chaincontract:alpen:0x5f75067851e085c04690daa11ffbc4c09c6009fd",
+   "chaincontract:alpen:0xe89573812135f6aba945a63b13cd98ce761caefc",
    "chaincontract:blenonetwork:0x03e74f5cf51a8c5ed87d60f2ebb1da96b66ec427",
    "chaincontract:blenonetwork:0x25e981bceb057875f050d8ccf3e053479a5d2bd6",
    "chaincontract:blenonetwork:0xdf8bf9a78e76fe08dfd96029218546b830d21ceb",
