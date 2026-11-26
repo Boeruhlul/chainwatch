@@ -9003,6 +9003,18 @@
    "date": "2026-11-26"
   },
   {
+   "key": "chaincontract:qdayaevum:0xa38a8d54406d417ecfcd884bba12e18079f74418",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GuardRailVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xa38a8d54406d417ecfcd884bba12e18079f74418",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xa38a8d54406d417ecfcd884bba12e18079f74418"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "job:greenhouse:coinbase:8396806",
    "title": "Coinbase: Product Manager II, Prime Onchain",
    "url": "https://www.coinbase.com/careers/positions/8396806?gh_jid=8396806",
@@ -9578,6 +9590,7 @@
    "chaincontract:qdayaevum:0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
    "chaincontract:qdayaevum:0xa27789f1d49640e392294873c0d4577000ee5287",
+   "chaincontract:qdayaevum:0xa38a8d54406d417ecfcd884bba12e18079f74418",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
    "chaincontract:qdayaevum:0xc12819acfea15773ce49c001f6f23842cc4480da",
    "chaincontract:qdayaevum:0xc81c215c64a5145067f56dd461cb058f05a7c898",
