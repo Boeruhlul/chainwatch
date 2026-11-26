@@ -12532,6 +12532,43 @@
     "github"
    ]
   },
+  "livebase": {
+   "id": "livebase",
+   "name": "Live Base",
+   "aliases": [
+    "Live Base"
+   ],
+   "keys": [
+    "n:livebase"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/z121245017-ai/novacraft-motion",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "livesodex": {
    "id": "livesodex",
    "name": "Live SoDEX",
@@ -29771,7 +29808,7 @@
     "n:zenithnetwork"
    ],
    "firstSeen": "2026-10-28",
-   "lastActivity": "2026-10-28",
+   "lastActivity": "2026-11-26",
    "stage": "testnet",
    "stageHistory": [
     {
@@ -29789,6 +29826,15 @@
      "url": "https://mpost.io/zenith-goes-live-as-evm-layer-for-canton-network-integrating-ethereum-developer-tools-with-institutional-blockchain-infrastructure/",
      "stage": "testnet",
      "strength": "soft"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/Cumulo-pro/cumulo-ibc-v2-zenith",
+     "strength": "technical"
     }
    ],
    "website": "https://zenith.network",
@@ -29828,11 +29874,11 @@
    "org": "Zenith (Canton Super Validator)",
    "confidence": "B",
    "reasons": [
-    "alleen onderzoek",
-    "onderzoeksoordeel B"
+    "2 onafhankelijke bronfamilies: onderzoek, github"
    ],
    "families": [
-    "onderzoek"
+    "onderzoek",
+    "github"
    ]
   },
   "zenithevm": {
