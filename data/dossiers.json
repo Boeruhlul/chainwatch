@@ -974,6 +974,44 @@
     "register"
    ]
   },
+  "ankr": {
+   "id": "ankr",
+   "name": "ankr",
+   "aliases": [
+    "ankr"
+   ],
+   "keys": [
+    "n:ankr"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/ankr",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "antchain": {
    "id": "antchain",
    "name": "ANT CHAIN",
@@ -12172,6 +12210,44 @@
     "onderzoek"
    ]
   },
+  "liquidcollective": {
+   "id": "liquidcollective",
+   "name": "liquidcollective",
+   "aliases": [
+    "liquidcollective"
+   ],
+   "keys": [
+    "n:liquidcollective"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/liquidcollective",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "litvm": {
    "id": "litvm",
    "name": "LitVM",
@@ -13259,6 +13335,44 @@
    "confidence": "A",
    "reasons": [
     "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 131071)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
+  "meth": {
+   "id": "meth",
+   "name": "meth",
+   "aliases": [
+    "meth"
+   ],
+   "keys": [
+    "n:meth"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/meth",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
    ],
    "families": [
     "register"
@@ -23199,6 +23313,44 @@
    "org": "Robinhood",
    "mainnetSince": "2026-10-28"
   },
+  "rsweth": {
+   "id": "rsweth",
+   "name": "rsweth",
+   "aliases": [
+    "rsweth"
+   ],
+   "keys": [
+    "n:rsweth"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/rsweth",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "rubianaseemgtmagentlangfusetracing": {
    "id": "rubianaseemgtmagentlangfusetracing",
    "name": "rubianaseem/gtm-agent-langfuse-tracing",
@@ -24037,6 +24189,44 @@
     "code"
    ],
    "liveRpc": "https://theseven.meme/api/seven-chain/jsonrpc"
+  },
+  "sfrxeth": {
+   "id": "sfrxeth",
+   "name": "sfrxeth",
+   "aliases": [
+    "sfrxeth"
+   ],
+   "keys": [
+    "n:sfrxeth"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/sfrxeth",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "sgachain": {
    "id": "sgachain",
@@ -25252,6 +25442,44 @@
     "onderzoek"
    ]
   },
+  "stader": {
+   "id": "stader",
+   "name": "stader",
+   "aliases": [
+    "stader"
+   ],
+   "keys": [
+    "n:stader"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/stader",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "stakewise": {
    "id": "stakewise",
    "name": "stakewise",
@@ -26007,6 +26235,44 @@
     ],
     "launchpad": []
    }
+  },
+  "sweth": {
+   "id": "sweth",
+   "name": "sweth",
+   "aliases": [
+    "sweth"
+   ],
+   "keys": [
+    "n:sweth"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "l2beat",
+     "family": "register",
+     "kind": "upcoming",
+     "what": "l2beat: nieuw in tracking",
+     "url": "https://l2beat.com/scaling/projects/sweth",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "L2 / rollup",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
   },
   "swiftsharedledger": {
    "id": "swiftsharedledger",
