@@ -9255,6 +9255,34 @@
    "date": "2026-11-26"
   },
   {
+   "key": "forum:forum.cosmos.network:17617",
+   "title": "The Hub's Governance Roadmap: Tokenomics and Product Direction",
+   "url": "https://forum.cosmos.network/t/the-hubs-governance-roadmap-tokenomics-and-product-direction/17617",
+   "meta": {
+    "forum": "forum.cosmos.network",
+    "created": "2026-11-26",
+    "posts": 1,
+    "views": 80
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "forum:forum.polygon.technology:22647",
+   "title": "9 Logistics Software Development Services Providers Building Cold Chain Temperature Records on Polygon",
+   "url": "https://forum.polygon.technology/t/9-logistics-software-development-services-providers-building-cold-chain-temperature-records-on-polygon/22647",
+   "meta": {
+    "forum": "forum.polygon.technology",
+    "created": "2026-11-26",
+    "posts": 1,
+    "views": 0
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-26"
+  },
+  {
    "key": "job:greenhouse:coinbase:8396806",
    "title": "Coinbase: Product Manager II, Prime Onchain",
    "url": "https://www.coinbase.com/careers/positions/8396806?gh_jid=8396806",
@@ -10318,6 +10346,7 @@
    "forum:forum.cosmos.network:17607",
    "forum:forum.cosmos.network:17609",
    "forum:forum.cosmos.network:17614",
+   "forum:forum.cosmos.network:17617",
    "forum:forum.polygon.technology:22425",
    "forum:forum.polygon.technology:22428",
    "forum:forum.polygon.technology:22441",
@@ -10344,6 +10373,7 @@
    "forum:forum.polygon.technology:22623",
    "forum:forum.polygon.technology:22625",
    "forum:forum.polygon.technology:22630",
+   "forum:forum.polygon.technology:22647",
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
