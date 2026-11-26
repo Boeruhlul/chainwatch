@@ -12511,6 +12511,43 @@
     "github"
    ]
   },
+  "livesodex": {
+   "id": "livesodex",
+   "name": "Live SoDEX",
+   "aliases": [
+    "Live SoDEX"
+   ],
+   "keys": [
+    "n:livesodex"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/z121245017-ai/crosstape-desk",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "longyul2longyul2": {
    "id": "longyul2longyul2",
    "name": "Longyu-L2/LongyuL2",
