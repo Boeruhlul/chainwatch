@@ -9208,6 +9208,18 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/ercs#2219",
+   "title": "Update ERC-8447: pending-evidence modules and bonded agent declarations",
+   "url": "https://github.com/ethereum/ERCs/pull/2219",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
    "key": "vc:eth.blockscout.com:0xd2acabdfc4632e2622790ef953752530a92aa1d9",
    "title": "AnchorStateRegistry geverifieerd op eth",
    "url": "https://eth.blockscout.com/address/0xD2ACABDFc4632E2622790Ef953752530A92aa1d9",
@@ -10545,6 +10557,7 @@
    "pr:ethereum/ercs#2216",
    "pr:ethereum/ercs#2217",
    "pr:ethereum/ercs#2218",
+   "pr:ethereum/ercs#2219",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
