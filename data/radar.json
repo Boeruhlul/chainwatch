@@ -9027,6 +9027,20 @@
    "date": "2026-11-26"
   },
   {
+   "key": "forum:ethereum-magicians.org:30519",
+   "title": "ERC-XXXX: Serial-Numbered Fungible Tokens",
+   "url": "https://ethereum-magicians.org/t/erc-xxxx-serial-numbered-fungible-tokens/30519",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-26",
+    "posts": 4,
+    "views": 22
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-26"
+  },
+  {
    "key": "job:greenhouse:coinbase:8396806",
    "title": "Coinbase: Product Manager II, Prime Onchain",
    "url": "https://www.coinbase.com/careers/positions/8396806?gh_jid=8396806",
@@ -9048,6 +9062,20 @@
    },
    "cat": "techniek",
    "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "vc:eth.blockscout.com:0xd2acabdfc4632e2622790ef953752530a92aa1d9",
+   "title": "AnchorStateRegistry geverifieerd op eth",
+   "url": "https://eth.blockscout.com/address/0xD2ACABDFc4632E2622790Ef953752530A92aa1d9",
+   "meta": {
+    "name": "AnchorStateRegistry",
+    "chain": "eth",
+    "addr": "0xD2ACABDFc4632E2622790Ef953752530A92aa1d9",
+    "verified": "2026-11-26"
+   },
+   "cat": "contracten",
+   "src": "verified-contracts",
    "date": "2026-11-26"
   }
  ],
@@ -9887,6 +9915,7 @@
    "forum:ethereum-magicians.org:30502",
    "forum:ethereum-magicians.org:30516",
    "forum:ethereum-magicians.org:30518",
+   "forum:ethereum-magicians.org:30519",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -10419,6 +10448,7 @@
    "vc:eth.blockscout.com:0xc05272de2635ca6f7aea7657b32eef8761caafea",
    "vc:eth.blockscout.com:0xc6dda12f4c504351cfcae34c0d5de4df40569acd",
    "vc:eth.blockscout.com:0xcd63c6beaaedaf7e354a144aa15734aa9c38fccc",
+   "vc:eth.blockscout.com:0xd2acabdfc4632e2622790ef953752530a92aa1d9",
    "vc:eth.blockscout.com:0xf8370b53df6e16a6c4c4bba86d271355cd1930f3",
    "vc:eth.blockscout.com:0xfb12a09b53dd2f5e214ffc7e90b89e356877fd94",
    "vc:eth.blockscout.com:0xfd452acf277ba58af290cdc9450929afb3c63cb1"
