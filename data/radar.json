@@ -9220,9 +9220,45 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12718",
+   "title": "Update EIP-8148: Store default sweep threshold explicitly",
+   "url": "https://github.com/ethereum/EIPs/pull/12718",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
    "key": "pr:ethereum/ercs#2219",
    "title": "Update ERC-8447: pending-evidence modules and bonded agent declarations",
    "url": "https://github.com/ethereum/ERCs/pull/2219",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/ercs#2220",
+   "title": "Add ERC: ERC-721 Composition Extension",
+   "url": "https://github.com/ethereum/ERCs/pull/2220",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/ercs#2221",
+   "title": "Update ERC-8471: evidence rule read at expiry, strict evidence window",
+   "url": "https://github.com/ethereum/ERCs/pull/2221",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-26"
@@ -10461,6 +10497,7 @@
    "pr:ethereum/eips#12714",
    "pr:ethereum/eips#12716",
    "pr:ethereum/eips#12717",
+   "pr:ethereum/eips#12718",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -10571,6 +10608,8 @@
    "pr:ethereum/ercs#2217",
    "pr:ethereum/ercs#2218",
    "pr:ethereum/ercs#2219",
+   "pr:ethereum/ercs#2220",
+   "pr:ethereum/ercs#2221",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
