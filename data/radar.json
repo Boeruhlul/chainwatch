@@ -8943,6 +8943,18 @@
    "date": "2026-11-26"
   },
   {
+   "key": "chaincontract:giwasepolia:0x2b88c474b4eef427c697aa53d2a000fc99212855",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "ArcoRedemptionVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x2b88c474b4eef427c697aa53d2a000fc99212855",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x2b88c474b4eef427c697aa53d2a000fc99212855"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x56190636a2879fe507a00d99f2e961376a9319d7",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -8999,6 +9011,18 @@
    "meta": {
     "chain": "GIWA Sepolia",
     "addr": "0xfdacbb10875652fc8961b57c966fff171d768cf0"
+   },
+   "date": "2026-11-26"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xfe51b4431b577c03fdce1c28e317ca5ab20a4a03",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PrivateVault op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xfe51b4431b577c03fdce1c28e317ca5ab20a4a03",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xfe51b4431b577c03fdce1c28e317ca5ab20a4a03"
    },
    "date": "2026-11-26"
   },
@@ -9192,6 +9216,7 @@
    "chaincontract:giwasepolia:0x2a1ae67dc7e708e9bb8d85e17f251beb52a6a7f5",
    "chaincontract:giwasepolia:0x2a1c3a9f443c64cfd0d31370cf0952a0a52a8d2c",
    "chaincontract:giwasepolia:0x2a8a2c4ebe3a938b16d2b8f0e4fe64c0648cb316",
+   "chaincontract:giwasepolia:0x2b88c474b4eef427c697aa53d2a000fc99212855",
    "chaincontract:giwasepolia:0x2ba433251e28621d835e39f3d8d5d9384e078285",
    "chaincontract:giwasepolia:0x2cf5563c1981b7821cd4fda73bc69756b231528a",
    "chaincontract:giwasepolia:0x2fbf8aac85626b2f77e331474522311fb83586d0",
@@ -9549,6 +9574,7 @@
    "chaincontract:giwasepolia:0xfd9ba2b542c30a94f541e3c739da71bb70398b5f",
    "chaincontract:giwasepolia:0xfdacbb10875652fc8961b57c966fff171d768cf0",
    "chaincontract:giwasepolia:0xfe447eae5aff1578e02215a010d1ab0f655f1744",
+   "chaincontract:giwasepolia:0xfe51b4431b577c03fdce1c28e317ca5ab20a4a03",
    "chaincontract:giwasepolia:0xfefeb981b8c9d795bb906914efb642409147895d",
    "chaincontract:gridmind:0x0492dae4d4f0608d4a8013ca57d77b505c113bb3",
    "chaincontract:gridmind:0x1452ab346d4aa3f18d4c79513ba535f3558f3a5d",
