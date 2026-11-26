@@ -13648,6 +13648,46 @@
     "register"
    ]
   },
+  "minervaquantumminervanetwork": {
+   "id": "minervaquantumminervanetwork",
+   "name": "MinervaQuantum/minerva-network",
+   "aliases": [
+    "MinervaQuantum/minerva-network"
+   ],
+   "keys": [
+    "d:minervachain.org",
+    "gh:minervaquantum"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/MinervaQuantum/minerva-network",
+     "strength": "technical"
+    }
+   ],
+   "website": "https://minervachain.org",
+   "architecture": "genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "mirasmandauat": {
    "id": "mirasmandauat",
    "name": "Mirasmanda UAT",
@@ -18341,6 +18381,43 @@
    ],
    "families": [
     "onderzoek"
+   ]
+  },
+  "open": {
+   "id": "open",
+   "name": "Open",
+   "aliases": [
+    "Open"
+   ],
+   "keys": [
+    "n:open"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/nehemiah47/winpi-pios",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
    ]
   },
   "openknowledgeprotocolokpchain": {
