@@ -8929,6 +8929,30 @@
    "cat": "contracten",
    "src": "verified-contracts",
    "date": "2026-11-25"
+  },
+  {
+   "key": "job:greenhouse:coinbase:8396806",
+   "title": "Coinbase: Product Manager II, Prime Onchain",
+   "url": "https://www.coinbase.com/careers/positions/8396806?gh_jid=8396806",
+   "meta": {
+    "company": "Coinbase",
+    "location": "Remote - USA"
+   },
+   "cat": "vacature",
+   "src": "jobs",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/eips#12717",
+   "title": "Update EIP-8037: Move to Review",
+   "url": "https://github.com/ethereum/EIPs/pull/12717",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-25"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
   }
  ],
  "seen": {
@@ -9941,6 +9965,7 @@
    "job:greenhouse:coinbase:8104873",
    "job:greenhouse:coinbase:8105437",
    "job:greenhouse:coinbase:8234278",
+   "job:greenhouse:coinbase:8396806",
    "job:greenhouse:coinbase:8397873",
    "job:greenhouse:okx:7990958003",
    "job:greenhouse:okx:8157974003",
@@ -10126,6 +10151,7 @@
    "pr:ethereum/eips#12713",
    "pr:ethereum/eips#12714",
    "pr:ethereum/eips#12716",
+   "pr:ethereum/eips#12717",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
