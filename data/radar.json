@@ -9080,6 +9080,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:nvdachain:0x84165189ef657180fc0e2e474732d7a81a4e87b3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "NvdaSwapLens op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0x84165189ef657180fc0e2e474732d7a81a4e87b3",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0x84165189ef657180fc0e2e474732d7a81a4e87b3"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xa38a8d54406d417ecfcd884bba12e18079f74418",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9694,6 +9706,7 @@
    "chaincontract:nvdachain:0x6cfa248764d021bc8b8e6f9ea2dbaf2da72b1f62",
    "chaincontract:nvdachain:0x72a6fce691b1fd33d8fa76159ce13157df19be43",
    "chaincontract:nvdachain:0x811674f1efe3423defa6694af2db04a108305a96",
+   "chaincontract:nvdachain:0x84165189ef657180fc0e2e474732d7a81a4e87b3",
    "chaincontract:nvdachain:0x887fe40b17f3f901cf4fcfc6a75988442ac885ef",
    "chaincontract:nvdachain:0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
    "chaincontract:nvdachain:0xa6c6083053e7e38472ad9a851cfc8083eaa76137",
