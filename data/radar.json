@@ -9181,6 +9181,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30522",
+   "title": "A better pipeline toward PQ and censorship resistant Ethereum",
+   "url": "https://ethereum-magicians.org/t/a-better-pipeline-toward-pq-and-censorship-resistant-ethereum/30522",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-26",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-26"
+  },
+  {
    "key": "job:greenhouse:coinbase:8396806",
    "title": "Coinbase: Product Manager II, Prime Onchain",
    "url": "https://www.coinbase.com/careers/positions/8396806?gh_jid=8396806",
@@ -9259,6 +9273,18 @@
    "key": "pr:ethereum/ercs#2221",
    "title": "Update ERC-8471: evidence rule read at expiry, strict evidence window",
    "url": "https://github.com/ethereum/ERCs/pull/2221",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/ercs#2222",
+   "title": "Update ERC-8446: clarify response encoding and client behavior",
+   "url": "https://github.com/ethereum/ERCs/pull/2222",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-26"
@@ -10127,6 +10153,7 @@
    "forum:ethereum-magicians.org:30516",
    "forum:ethereum-magicians.org:30518",
    "forum:ethereum-magicians.org:30519",
+   "forum:ethereum-magicians.org:30522",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -10610,6 +10637,7 @@
    "pr:ethereum/ercs#2219",
    "pr:ethereum/ercs#2220",
    "pr:ethereum/ercs#2221",
+   "pr:ethereum/ercs#2222",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
