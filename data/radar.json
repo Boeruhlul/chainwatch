@@ -9212,6 +9212,18 @@
    "date": "2026-11-26"
   },
   {
+   "key": "chaincontract:nvdachain:0xf756ac14db6f128482b9979e8b46518697613768",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "L2GatewayRouter op NVDA CHAIN",
+   "url": "https://explorer.nvdachain.com/address/0xf756ac14db6f128482b9979e8b46518697613768",
+   "meta": {
+    "chain": "NVDA CHAIN",
+    "addr": "0xf756ac14db6f128482b9979e8b46518697613768"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x296a2e00c0b934dfea4384572972cd4e46322afe",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9457,6 +9469,30 @@
    "key": "pr:ethereum/ercs#2223",
    "title": "Update ERC-8495: Machine-readable test vectors and printable test cases",
    "url": "https://github.com/ethereum/ERCs/pull/2223",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/ercs#2224",
+   "title": "CI: skip bot events without failing Trigger check",
+   "url": "https://github.com/ethereum/ERCs/pull/2224",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-26"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-26"
+  },
+  {
+   "key": "pr:ethereum/ercs#2225",
+   "title": "Update ERC-8506: acceptance extensions and release horizon",
+   "url": "https://github.com/ethereum/ERCs/pull/2225",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-26"
@@ -10016,6 +10052,7 @@
    "chaincontract:nvdachain:0xa6c6083053e7e38472ad9a851cfc8083eaa76137",
    "chaincontract:nvdachain:0xd4b8e9a0d38892d9bcc57f2c880e7d7d934ce4ed",
    "chaincontract:nvdachain:0xf3de6bbf58f2490674809a55312c966fb1b31251",
+   "chaincontract:nvdachain:0xf756ac14db6f128482b9979e8b46518697613768",
    "chaincontract:prana:0x24e53792b7f6609c85bd3a3179a90638c9dbc8b5",
    "chaincontract:prana:0x3fc307dea06667f5a7a640ec0abb950eacc4b8c2",
    "chaincontract:prana:0x521786d5ede921c7e8f248796aca10e5370149a3",
@@ -10824,6 +10861,8 @@
    "pr:ethereum/ercs#2221",
    "pr:ethereum/ercs#2222",
    "pr:ethereum/ercs#2223",
+   "pr:ethereum/ercs#2224",
+   "pr:ethereum/ercs#2225",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
