@@ -2042,10 +2042,14 @@
    ],
    "firstSeen": "2026-11-26",
    "lastActivity": "2026-11-26",
-   "stage": "aangekondigd",
+   "stage": "draait",
    "stageHistory": [
     {
      "stage": "aangekondigd",
+     "date": "2026-11-26"
+    },
+    {
+     "stage": "draait",
      "date": "2026-11-26"
     }
    ],
@@ -2058,6 +2062,15 @@
      "what": "ethlists-pr: chain-ID-aanvraag · ID 8800",
      "url": "https://github.com/ethereum-lists/chains/pull/9167",
      "strength": "technical"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "launched",
+     "what": "ethlists-pr: RPC antwoordt · ID 8800",
+     "url": "https://github.com/ethereum-lists/chains/pull/9167",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -2069,13 +2082,14 @@
     "https://rpc-mainnet.azore.technology"
    ],
    "explorer": "https://azorescan.com",
-   "confidence": "C",
+   "confidence": "A",
    "reasons": [
-    "één technisch signaal (register)"
+    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 8800)"
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://rpc-mainnet.azore.technology"
   },
   "aztecnetworkv6": {
    "id": "aztecnetworkv6",
