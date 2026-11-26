@@ -2194,6 +2194,15 @@
    "evidence": [
     {
      "date": "2026-11-26",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v3-fork) 0x2328cdaf…",
+     "url": "https://azorescan.com/address/0x2328cdaf890277396ce2452782b14e4ce6fd406b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-26",
      "source": "ethlists-pr",
      "family": "register",
      "kind": "proposal",
@@ -2222,12 +2231,24 @@
    "explorer": "https://azorescan.com",
    "confidence": "A",
    "reasons": [
-    "draaiend netwerk aangetoond (ethlists-pr: RPC antwoordt · ID 8800)"
+    "draaiend netwerk aangetoond (ecosystem: DEX (Uniswap v3-fork) 0x2328cdaf…)",
+    "DEX op de chain gevonden"
    ],
    "families": [
+    "onchain",
     "register"
    ],
-   "liveRpc": "https://rpc-mainnet.azore.technology"
+   "liveRpc": "https://rpc-mainnet.azore.technology",
+   "eco": {
+    "dex": [
+     {
+      "addr": "0x2328cdaf890277396ce2452782b14e4ce6fd406b",
+      "type": "Uniswap v3-fork",
+      "date": "2026-11-26"
+     }
+    ],
+    "launchpad": []
+   }
   },
   "aztecnetworkv6": {
    "id": "aztecnetworkv6",
