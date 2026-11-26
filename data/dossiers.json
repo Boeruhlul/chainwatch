@@ -1912,6 +1912,43 @@
     "register"
    ]
   },
+  "autonomouscelo": {
+   "id": "autonomouscelo",
+   "name": "Autonomous Celo",
+   "aliases": [
+    "Autonomous Celo"
+   ],
+   "keys": [
+    "n:autonomouscelo"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/ROy19012e/edgeradar-celo-corridor",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "avios": {
    "id": "avios",
    "name": "AVI OS",
