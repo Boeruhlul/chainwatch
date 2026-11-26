@@ -9236,6 +9236,18 @@
    "date": "2026-11-26"
   },
   {
+   "key": "chaincontract:qdayaevum:0x8bea68022996ba8736beda05f296d45abd6a6eef",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AgentPolicyVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x8bea68022996ba8736beda05f296d45abd6a6eef",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x8bea68022996ba8736beda05f296d45abd6a6eef"
+   },
+   "date": "2026-11-26"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xa38a8d54406d417ecfcd884bba12e18079f74418",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9260,6 +9272,18 @@
    },
    "date": "2026-11-26",
    "dossier": "qdayaevum"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0xd3da6b00a525f7093557d3ba0feebeec00099df5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AgentPolicyVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xd3da6b00a525f7093557d3ba0feebeec00099df5",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xd3da6b00a525f7093557d3ba0feebeec00099df5"
+   },
+   "date": "2026-11-26"
   },
   {
    "key": "forum:ethereum-magicians.org:30519",
@@ -10017,6 +10041,7 @@
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
    "chaincontract:qdayaevum:0x70081bed49c0b0fdd7fbc9a835c4d66cd1447234",
    "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
+   "chaincontract:qdayaevum:0x8bea68022996ba8736beda05f296d45abd6a6eef",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
    "chaincontract:qdayaevum:0x96f334ee3fc4b191740b9eab8aadf139206dcc9e",
    "chaincontract:qdayaevum:0x9a634535065ae7b3e3df523d76d0d2eed5aeb5b8",
@@ -10030,6 +10055,7 @@
    "chaincontract:qdayaevum:0xc81c215c64a5145067f56dd461cb058f05a7c898",
    "chaincontract:qdayaevum:0xca1f3bfdfc4004eef19111b8d4d2e420744198ce",
    "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
+   "chaincontract:qdayaevum:0xd3da6b00a525f7093557d3ba0feebeec00099df5",
    "chaincontract:qdayaevum:0xd408b2f3354beabcedd8490c46fa5e8acd7ae782",
    "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
    "chaincontract:qdayaevum:0xe68518a95cbbbd75f521c86688770a98140fe06f",
