@@ -833,6 +833,55 @@
     "github"
    ]
   },
+  "alpen": {
+   "id": "alpen",
+   "name": "Alpen",
+   "aliases": [
+    "Alpen"
+   ],
+   "keys": [
+    "d:alpen.org",
+    "id:29032",
+    "n:alpen"
+   ],
+   "firstSeen": "2026-11-26",
+   "lastActivity": "2026-11-26",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-26"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-26",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 29032",
+     "url": "https://github.com/ethereum-lists/chains/pull/9170",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "29032"
+   ],
+   "website": "https://alpen.org",
+   "architecture": "EVM",
+   "github": "https://github.com/alpenlabs",
+   "rpc": [
+    "https://alpen.mainnet.alpen.org"
+   ],
+   "explorer": "https://explorer.mainnet.alpen.org",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "alta": {
    "id": "alta",
    "name": "Alta",
