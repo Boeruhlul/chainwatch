@@ -9383,9 +9383,45 @@
    "date": "2026-11-27"
   },
   {
+   "key": "pr:bitcoin/bips#2373",
+   "title": "BIP380: update the expression indexes and fix typos",
+   "url": "https://github.com/bitcoin/bips/pull/2373",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
    "key": "pr:ethereum/eips#12721",
    "title": "Update EIP-8360: Clarify code opcodes, CREATE collision nonce, and state-gas table",
    "url": "https://github.com/ethereum/EIPs/pull/12721",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12722",
+   "title": "Update EIP-8425: specify seed-proof recovery",
+   "url": "https://github.com/ethereum/EIPs/pull/12722",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12723",
+   "title": "Update EIP-7805: Skip IL transactions that don't fit by size",
+   "url": "https://github.com/ethereum/EIPs/pull/12723",
    "meta": {
     "repo": "ethereum/EIPs",
     "created": "2026-11-27"
@@ -9411,6 +9447,42 @@
    "key": "pr:ethereum/ercs#2227",
    "title": "Update ERC-5007: Fix the ERC-165 identifier of IERC5007",
    "url": "https://github.com/ethereum/ERCs/pull/2227",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2228",
+   "title": "Update ERC-8439: Move assets to assets/erc-8439",
+   "url": "https://github.com/ethereum/ERCs/pull/2228",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2229",
+   "title": "Update ERC-8423: Clarify the wording of the burn record",
+   "url": "https://github.com/ethereum/ERCs/pull/2229",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2230",
+   "title": "Update ERC-8509: Clarify pool list comparison and stealth limits",
+   "url": "https://github.com/ethereum/ERCs/pull/2230",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-27"
@@ -10545,6 +10617,7 @@
    "pr:bitcoin/bips#2370",
    "pr:bitcoin/bips#2371",
    "pr:bitcoin/bips#2372",
+   "pr:bitcoin/bips#2373",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -10679,6 +10752,8 @@
    "pr:ethereum/eips#12719",
    "pr:ethereum/eips#12720",
    "pr:ethereum/eips#12721",
+   "pr:ethereum/eips#12722",
+   "pr:ethereum/eips#12723",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -10797,6 +10872,9 @@
    "pr:ethereum/ercs#2225",
    "pr:ethereum/ercs#2226",
    "pr:ethereum/ercs#2227",
+   "pr:ethereum/ercs#2228",
+   "pr:ethereum/ercs#2229",
+   "pr:ethereum/ercs#2230",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
