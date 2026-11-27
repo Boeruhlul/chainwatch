@@ -9161,6 +9161,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "pr:bitcoin/bips#2372",
+   "title": "BIP352: require the scan key path",
+   "url": "https://github.com/bitcoin/bips/pull/2372",
+   "meta": {
+    "repo": "bitcoin/bips",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
    "key": "pr:ethereum/ercs#2226",
    "title": "Update ERC-8076: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2226",
@@ -9172,6 +9184,18 @@
    "src": "proposals",
    "date": "2026-11-27",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2227",
+   "title": "Update ERC-5007: Fix the ERC-165 identifier of IERC5007",
+   "url": "https://github.com/ethereum/ERCs/pull/2227",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
   }
  ],
  "seen": {
@@ -10281,6 +10305,7 @@
    "pr:bitcoin/bips#2369",
    "pr:bitcoin/bips#2370",
    "pr:bitcoin/bips#2371",
+   "pr:bitcoin/bips#2372",
    "pr:ethereum/eips#12572",
    "pr:ethereum/eips#12573",
    "pr:ethereum/eips#12574",
@@ -10531,6 +10556,7 @@
    "pr:ethereum/ercs#2224",
    "pr:ethereum/ercs#2225",
    "pr:ethereum/ercs#2226",
+   "pr:ethereum/ercs#2227",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
