@@ -11665,6 +11665,46 @@
     "code"
    ]
   },
+  "kripton": {
+   "id": "kripton",
+   "name": "kripton",
+   "aliases": [
+    "kripton"
+   ],
+   "keys": [
+    "n:kripton"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "cosmos",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "cosmos: mainnet",
+     "url": "https://github.com/cosmos/chain-registry/tree/master/kripton",
+     "noRpc": true,
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos",
+   "mainnetSince": "2026-11-27",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "kuspinchain": {
    "id": "kuspinchain",
    "name": "KuSpin Chain",
