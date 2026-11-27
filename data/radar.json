@@ -9226,6 +9226,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qdayaevum:0x346f4479946a61b64ce6a036f438015654c65ca6",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AgentVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x346f4479946a61b64ce6a036f438015654c65ca6",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x346f4479946a61b64ce6a036f438015654c65ca6"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x4c27c984af03a71e89362683940f9d054d5d14c9",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -10057,6 +10069,7 @@
    "chaincontract:qdayaevum:0x1d310b140ab308dfbd5659b1a9100bf58e3f3bd6",
    "chaincontract:qdayaevum:0x2123a93083f6c7bb351296d0aba33a18caefc3be",
    "chaincontract:qdayaevum:0x296a2e00c0b934dfea4384572972cd4e46322afe",
+   "chaincontract:qdayaevum:0x346f4479946a61b64ce6a036f438015654c65ca6",
    "chaincontract:qdayaevum:0x363e657fc8c8df213ac35f675aeca0c3e6805a16",
    "chaincontract:qdayaevum:0x3a74a0d0847d3247b20f6782197c71b620ab0a72",
    "chaincontract:qdayaevum:0x3aa047ecde17f1ed439d3bed372a1e36efd462f9",
