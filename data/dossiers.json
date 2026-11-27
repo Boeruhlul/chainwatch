@@ -10900,33 +10900,6 @@
      "strength": "running"
     },
     {
-     "date": "2026-11-15",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v2-fork) 0x9bbfd1d6…",
-     "url": "https://testnet.elysium.kinetiq.xyz/address/0x9bbfd1d64670dbfba66005501dad2db131520bfc",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0x84be52a4…",
-     "url": "https://testnet.elysium.kinetiq.xyz/address/0x84be52a4533c245ce4898fb8f2f3fec4522f722b",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
-     "what": "ecosystem: DEX (Uniswap v4) 0xee1ec296…",
-     "url": "https://testnet.elysium.kinetiq.xyz/address/0xee1ec2963482379916fc97cca6bf553c982dede9",
-     "strength": "running"
-    },
-    {
      "date": "2026-11-16",
      "source": "ecosystem",
      "family": "onchain",
@@ -11158,6 +11131,33 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x5c7d118a…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x5c7d118ac2f2fb0276a36d96bfd73b4406a4fd5b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xaa5308fe…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xaa5308fed761f492bddb715389dd359cd82d9a7b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xe0da2a57…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xe0da2a57d6692f55f8d4eb781a497dab1b0441b5",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: launchpad-kandidaat 0xe5e96fa4…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xe5e96fa4072ebd13db5fbf26e4298717ffeb866c",
      "strength": "running"
     }
    ],
@@ -20798,6 +20798,43 @@
      "kind": "lead",
      "what": "github-discovery: aanwijzing · naam-in-repo",
      "url": "https://github.com/blueyellow1/portlg-final",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
+  "postquantum": {
+   "id": "postquantum",
+   "name": "Post-Quantum",
+   "aliases": [
+    "Post-Quantum"
+   ],
+   "keys": [
+    "n:postquantum"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/NyxSynth/nyxsynth-mcp",
      "strength": "technical"
     }
    ],
