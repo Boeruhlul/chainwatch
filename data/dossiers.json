@@ -10982,15 +10982,6 @@
      "source": "ecosystem",
      "family": "onchain",
      "kind": "eco",
-     "what": "ecosystem: launchpad-kandidaat 0x21a73a79…",
-     "url": "https://testnet.elysium.kinetiq.xyz/address/0x21a73a794be4bb08fa2af68c752c0290dba84fae",
-     "strength": "running"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "ecosystem",
-     "family": "onchain",
-     "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x2fd9d289…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x2fd9d289ca982c4437a1f5e1ff02992379d3146b",
      "strength": "running"
@@ -11209,6 +11200,15 @@
      "kind": "eco",
      "what": "ecosystem: launchpad-kandidaat 0x5c7d118a…",
      "url": "https://testnet.elysium.kinetiq.xyz/address/0x5c7d118ac2f2fb0276a36d96bfd73b4406a4fd5b",
+     "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v4) 0xdf96250e…",
+     "url": "https://testnet.elysium.kinetiq.xyz/address/0xdf96250e38f899f2382807476f086e0c9b34cf0a",
      "strength": "running"
     },
     {
