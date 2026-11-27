@@ -9235,6 +9235,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "pr:ethereum/eips#12721",
+   "title": "Update EIP-8360: Clarify code opcodes, CREATE collision nonce, and state-gas table",
+   "url": "https://github.com/ethereum/EIPs/pull/12721",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
    "key": "pr:ethereum/ercs#2226",
    "title": "Update ERC-8076: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2226",
@@ -10506,6 +10518,7 @@
    "pr:ethereum/eips#12718",
    "pr:ethereum/eips#12719",
    "pr:ethereum/eips#12720",
+   "pr:ethereum/eips#12721",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",

@@ -28087,6 +28087,54 @@
     "register"
    ]
   },
+  "unykornrecordchain": {
+   "id": "unykornrecordchain",
+   "name": "UnyKorn Record Chain",
+   "aliases": [
+    "UnyKorn Record Chain"
+   ],
+   "keys": [
+    "d:unykorn.ai",
+    "id:37332",
+    "n:unykornrecordchain"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 37332",
+     "url": "https://github.com/ethereum-lists/chains/pull/9172",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "37332"
+   ],
+   "website": "https://unykorn.ai",
+   "architecture": "EVM",
+   "rpc": [
+    "https://proof.unykorn.org/api/evm"
+   ],
+   "explorer": "https://proof.unykorn.org/explorer",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "upsidefoundationupside": {
    "id": "upsidefoundationupside",
    "name": "Upside-Foundation/upside",
