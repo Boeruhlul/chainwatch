@@ -9068,6 +9068,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x0745a9cd88bb031c983746e7ba1d90223827f1a5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RevenueRouterV2 op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x0745a9cd88bb031c983746e7ba1d90223827f1a5",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x0745a9cd88bb031c983746e7ba1d90223827f1a5"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "chaincontract:giwasepolia:0x11fd6fdd72b075d771def4beca086d62e1593909",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9092,6 +9104,18 @@
    },
    "date": "2026-11-27",
    "dossier": null
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xb4156225e9c81ce07da46db2b7e463cb3d424d5b",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "RevenueRouterProxy op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xb4156225e9c81ce07da46db2b7e463cb3d424d5b",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xb4156225e9c81ce07da46db2b7e463cb3d424d5b"
+   },
+   "date": "2026-11-27"
   },
   {
    "key": "forum:delvingbitcoin.org:3128",
@@ -9201,6 +9225,7 @@
    "chaincontract:giwasepolia:0x0654670ed51d87c9c3c36f727d158f4bfe4d0c96",
    "chaincontract:giwasepolia:0x06f042817c7bbb18c793c586e7afe2870205355d",
    "chaincontract:giwasepolia:0x06f31ed65276c83ad31281779ff5b97988b75305",
+   "chaincontract:giwasepolia:0x0745a9cd88bb031c983746e7ba1d90223827f1a5",
    "chaincontract:giwasepolia:0x07cf659a725fda790c0721a9d9533f0f6dac3c02",
    "chaincontract:giwasepolia:0x0802b645018bf2af9c2c940f8cbb437511178f59",
    "chaincontract:giwasepolia:0x08592e8c35146461aad96cb7cb892a63c3d48497",
@@ -9496,6 +9521,7 @@
    "chaincontract:giwasepolia:0xb3b3f296f74edcbb3d210dd2273e72edcea417e5",
    "chaincontract:giwasepolia:0xb3fc80ba1b02588846f5cb4ae180ce493f668611",
    "chaincontract:giwasepolia:0xb4053e58f17db86e2820a99bad10a3f4964d8f34",
+   "chaincontract:giwasepolia:0xb4156225e9c81ce07da46db2b7e463cb3d424d5b",
    "chaincontract:giwasepolia:0xb66be2ab74d1e9af56061f4d3857ee9586bd045c",
    "chaincontract:giwasepolia:0xb687b4711b163bc4c6f447a514cf6cc0dafbda56",
    "chaincontract:giwasepolia:0xb6cc4cc0f787d964e68b07b6520e396d68b2fecc",
