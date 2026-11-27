@@ -1307,6 +1307,7 @@
    ],
    "keys": [
     "d:arficoin.com",
+    "id:5452",
     "id:884800",
     "n:arfi"
    ],
@@ -1377,10 +1378,20 @@
      "what": "ecosystem: DEX (Uniswap v2-fork) 0xad815be2…",
      "url": "https://scan.arficoin.com/address/0xad815be26fd71f453c34088a3285a6f6de989265",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 5452",
+     "url": "https://github.com/ethereum-lists/chains/pull/9173",
+     "strength": "technical"
     }
    ],
    "chainIds": [
-    "884800"
+    "884800",
+    "5452"
    ],
    "website": "https://arficoin.com",
    "architecture": "EVM",
