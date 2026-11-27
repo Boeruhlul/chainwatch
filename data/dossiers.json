@@ -6671,6 +6671,50 @@
    "org": "LayerTwo Labs (Paul Sztorc)",
    "mainnetSince": "2026-11-09"
   },
+  "ecefachain": {
+   "id": "ecefachain",
+   "name": "eCEFACHAIN",
+   "aliases": [
+    "eCEFACHAIN"
+   ],
+   "keys": [
+    "d:cefa.app",
+    "id:535618",
+    "n:ecefachain"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "aangekondigd",
+   "stageHistory": [
+    {
+     "stage": "aangekondigd",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 535618",
+     "url": "https://github.com/ethereum-lists/chains/pull/9171",
+     "strength": "technical"
+    }
+   ],
+   "chainIds": [
+    "535618"
+   ],
+   "website": "https://cefa.app",
+   "architecture": "EVM",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (register)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "eezrollupx": {
    "id": "eezrollupx",
    "name": "EEZ Rollup X",
