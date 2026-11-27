@@ -9575,6 +9575,102 @@
    "date": "2026-11-27"
   },
   {
+   "key": "pr:ethereum/eips#12724",
+   "title": "Update EIP-7002: emit the request log in the pseudocode",
+   "url": "https://github.com/ethereum/EIPs/pull/12724",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12725",
+   "title": "Update EIP-7251: emit the request log in the pseudocode",
+   "url": "https://github.com/ethereum/EIPs/pull/12725",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12726",
+   "title": "Update EIP-7002: store the amount big-endian in the pseudocode",
+   "url": "https://github.com/ethereum/EIPs/pull/12726",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12727",
+   "title": "Update EIP-7002: Replace smart quotes with straight quotes",
+   "url": "https://github.com/ethereum/EIPs/pull/12727",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12728",
+   "title": "Update EIP-7251: Replace smart quotes with straight quotes",
+   "url": "https://github.com/ethereum/EIPs/pull/12728",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12729",
+   "title": "Update EIP-1186: Fix heading levels and the blank line after Copyright",
+   "url": "https://github.com/ethereum/EIPs/pull/12729",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12730",
+   "title": "Update EIP-198: Use second-level headings and indented code blocks",
+   "url": "https://github.com/ethereum/EIPs/pull/12730",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/eips#12731",
+   "title": "Update EIP-778: Fix heading levels, preamble order and code block style",
+   "url": "https://github.com/ethereum/EIPs/pull/12731",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
    "key": "pr:ethereum/ercs#2226",
    "title": "Update ERC-8076: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2226",
@@ -9627,6 +9723,42 @@
    "key": "pr:ethereum/ercs#2230",
    "title": "Update ERC-8509: Clarify pool list comparison and stealth limits",
    "url": "https://github.com/ethereum/ERCs/pull/2230",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2231",
+   "title": "Update ERC-8499: Put validator keys out of scope and link ERC-8517",
+   "url": "https://github.com/ethereum/ERCs/pull/2231",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2232",
+   "title": "Add ERC: Non-Self-Authorizing State Transitions",
+   "url": "https://github.com/ethereum/ERCs/pull/2232",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2233",
+   "title": "Update ERC-8499: Key type names and the signature limit",
+   "url": "https://github.com/ethereum/ERCs/pull/2233",
    "meta": {
     "repo": "ethereum/ERCs",
     "created": "2026-11-27"
@@ -10910,6 +11042,14 @@
    "pr:ethereum/eips#12721",
    "pr:ethereum/eips#12722",
    "pr:ethereum/eips#12723",
+   "pr:ethereum/eips#12724",
+   "pr:ethereum/eips#12725",
+   "pr:ethereum/eips#12726",
+   "pr:ethereum/eips#12727",
+   "pr:ethereum/eips#12728",
+   "pr:ethereum/eips#12729",
+   "pr:ethereum/eips#12730",
+   "pr:ethereum/eips#12731",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -11031,6 +11171,9 @@
    "pr:ethereum/ercs#2228",
    "pr:ethereum/ercs#2229",
    "pr:ethereum/ercs#2230",
+   "pr:ethereum/ercs#2231",
+   "pr:ethereum/ercs#2232",
+   "pr:ethereum/ercs#2233",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
