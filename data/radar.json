@@ -9093,6 +9093,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x46255fb04b6bbc2e12036edc8314310b970f0f8c",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CurveSale op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x46255fb04b6bbc2e12036edc8314310b970f0f8c",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x46255fb04b6bbc2e12036edc8314310b970f0f8c"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "chaincontract:giwasepolia:0xaa72ff0d454d16f522ef56f3cb082a1a97fe4ca6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9409,6 +9421,7 @@
    "chaincontract:giwasepolia:0x43bf339a5b791587a5419aa1d3f88508d5a97c9f",
    "chaincontract:giwasepolia:0x43ccda15c2fd90b887566ffbfb6157c6f63d0d6b",
    "chaincontract:giwasepolia:0x4478690027887ee73c82888e0af24285552f25b0",
+   "chaincontract:giwasepolia:0x46255fb04b6bbc2e12036edc8314310b970f0f8c",
    "chaincontract:giwasepolia:0x471887b5ac45dd8e937b7d6b3d2692ce586c8eea",
    "chaincontract:giwasepolia:0x472e95738d8caede9631320b2c461e5f084aafff",
    "chaincontract:giwasepolia:0x486bf1d851fdcab2f47619e4a62210ac4beb14ac",
