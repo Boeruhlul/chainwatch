@@ -29359,7 +29359,8 @@
    ],
    "families": [
     "register"
-   ]
+   ],
+   "liveRpc": "https://l1.avax.network/wt1127t1mp/mainnet/rpc"
   },
   "xetestnetwork": {
    "id": "xetestnetwork",
