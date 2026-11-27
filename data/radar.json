@@ -9037,6 +9037,30 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:giwasepolia:0x11fd6fdd72b075d771def4beca086d62e1593909",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GiwaV4Router op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0x11fd6fdd72b075d771def4beca086d62e1593909",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0x11fd6fdd72b075d771def4beca086d62e1593909"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "key": "chaincontract:giwasepolia:0xaa72ff0d454d16f522ef56f3cb082a1a97fe4ca6",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "GiwaRouter op GIWA Sepolia",
+   "url": "https://sepolia-explorer.giwa.io/address/0xaa72ff0d454d16f522ef56f3cb082a1a97fe4ca6",
+   "meta": {
+    "chain": "GIWA Sepolia",
+    "addr": "0xaa72ff0d454d16f522ef56f3cb082a1a97fe4ca6"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3128",
    "title": "Handling PQ signatures on the stack",
    "url": "https://delvingbitcoin.org/t/handling-pq-signatures-on-the-stack/3128",
@@ -9116,6 +9140,7 @@
    "chaincontract:giwasepolia:0x1031dfd0d2270918e3ecaba37329ecbc5286e002",
    "chaincontract:giwasepolia:0x1154297e742fc56fdb92e98cf0345f4ff7fe6b3d",
    "chaincontract:giwasepolia:0x11e53cb5591436a2e66ccdb4b9231caa9d505f79",
+   "chaincontract:giwasepolia:0x11fd6fdd72b075d771def4beca086d62e1593909",
    "chaincontract:giwasepolia:0x120a44617e9876312667970be27261d994264b79",
    "chaincontract:giwasepolia:0x12c30773aa06f305264fa5d3ffd7cf926257ea34",
    "chaincontract:giwasepolia:0x140cf30fe3c4e43ddc8f5d64a5e5119c8d418324",
@@ -9374,6 +9399,7 @@
    "chaincontract:giwasepolia:0xa873d48312092d82b07686277ef0ad253424bb70",
    "chaincontract:giwasepolia:0xa9ca0c10cd6b6398679b578dce192cb4caa5bc71",
    "chaincontract:giwasepolia:0xaa1ac19b2287b1f1fcb8217b76b365f96234786e",
+   "chaincontract:giwasepolia:0xaa72ff0d454d16f522ef56f3cb082a1a97fe4ca6",
    "chaincontract:giwasepolia:0xaa99962ca53580272bfd29402f41618718efe86d",
    "chaincontract:giwasepolia:0xaabad7232c7a2b1f78459c6d98948d6d2c6fffc0",
    "chaincontract:giwasepolia:0xaafcc3cb9b83528ae09129aa01689347754baffa",
