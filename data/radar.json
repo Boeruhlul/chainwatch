@@ -9035,6 +9035,20 @@
    "src": "verified-contracts",
    "date": "2026-11-26",
    "dossier": null
+  },
+  {
+   "key": "forum:delvingbitcoin.org:3128",
+   "title": "Handling PQ signatures on the stack",
+   "url": "https://delvingbitcoin.org/t/handling-pq-signatures-on-the-stack/3128",
+   "meta": {
+    "forum": "delvingbitcoin.org",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
   }
  ],
  "seen": {
@@ -9789,6 +9803,7 @@
    "forum:delvingbitcoin.org:3116",
    "forum:delvingbitcoin.org:3122",
    "forum:delvingbitcoin.org:3123",
+   "forum:delvingbitcoin.org:3128",
    "forum:ethereum-magicians.org:30038",
    "forum:ethereum-magicians.org:30039",
    "forum:ethereum-magicians.org:30040",
