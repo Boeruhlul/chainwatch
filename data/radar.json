@@ -9301,6 +9301,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30525",
+   "title": "ERC-8519: Post-Quantum Validator and Builder Keystore",
+   "url": "https://ethereum-magicians.org/t/erc-8519-post-quantum-validator-and-builder-keystore/30525",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
+  },
+  {
    "key": "forum:ethresear.ch:26300",
    "title": "A state-backed validation of SETCODEFROM",
    "url": "https://ethresear.ch/t/a-state-backed-validation-of-setcodefrom/26300",
@@ -9323,6 +9337,20 @@
     "created": "2026-11-27",
     "posts": 1,
     "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "forum:ethresear.ch:26305",
+   "title": "Stealth addresses after secp256k1 falls: payer clawback, signature-derived keys, and a recovery statement for ERC-8441 outputs",
+   "url": "https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 32
    },
    "cat": "techniek",
    "src": "forums",
@@ -10269,6 +10297,7 @@
    "forum:ethereum-magicians.org:30518",
    "forum:ethereum-magicians.org:30519",
    "forum:ethereum-magicians.org:30522",
+   "forum:ethereum-magicians.org:30525",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
@@ -10314,6 +10343,7 @@
    "forum:ethresear.ch:26293",
    "forum:ethresear.ch:26300",
    "forum:ethresear.ch:26304",
+   "forum:ethresear.ch:26305",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
