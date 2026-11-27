@@ -29314,6 +29314,53 @@
     "register"
    ]
   },
+  "wt1127t1mp": {
+   "id": "wt1127t1mp",
+   "name": "WT1127T1MP",
+   "aliases": [
+    "WT1127T1MP"
+   ],
+   "keys": [
+    "id:85672",
+    "n:wt1127t1mp"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "mainnet",
+   "stageHistory": [
+    {
+     "stage": "mainnet",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "glacier",
+     "family": "register",
+     "kind": "mainnet",
+     "what": "glacier: mainnet · ID 85672",
+     "url": "https://explorer.avax.network/wt1127t1mp",
+     "strength": "running"
+    }
+   ],
+   "chainIds": [
+    "85672"
+   ],
+   "architecture": "Avalanche",
+   "rpc": [
+    "https://l1.avax.network/wt1127t1mp/mainnet/rpc"
+   ],
+   "explorer": "https://explorer.avax.network/wt1127t1mp",
+   "mainnetSince": "2026-11-27",
+   "confidence": "A",
+   "reasons": [
+    "draaiend netwerk aangetoond (glacier: mainnet · ID 85672)"
+   ],
+   "families": [
+    "register"
+   ]
+  },
   "xetestnetwork": {
    "id": "xetestnetwork",
    "name": "XE (test.network)",
