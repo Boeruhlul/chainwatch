@@ -9430,6 +9430,30 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qom:0xc6a414f7541868da9098f48ca82c553c9d2be8df",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QSWAPFarm op QOM",
+   "url": "https://scan.qomx.io/address/0xc6a414f7541868da9098f48ca82c553c9d2be8df",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0xc6a414f7541868da9098f48ca82c553c9d2be8df"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "key": "chaincontract:qom:0xeb50ef7d5f15c4e2601893f3a6390e08166bb90f",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "QSWAPFarm op QOM",
+   "url": "https://scan.qomx.io/address/0xeb50ef7d5f15c4e2601893f3a6390e08166bb90f",
+   "meta": {
+    "chain": "QOM",
+    "addr": "0xeb50ef7d5f15c4e2601893f3a6390e08166bb90f"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3128",
    "title": "Handling PQ signatures on the stack",
    "url": "https://delvingbitcoin.org/t/handling-pq-signatures-on-the-stack/3128",
@@ -10436,7 +10460,9 @@
    "chaincontract:qom:0x35e759b084d97919138ac8cbc8182fe68dcf69c3",
    "chaincontract:qom:0x69d5f5cd1dc0479e8aa3e6e6cd1fc47346a45d1d",
    "chaincontract:qom:0x6d114d36f04941dcf5dd26445ab975bf7a4f1a34",
+   "chaincontract:qom:0xc6a414f7541868da9098f48ca82c553c9d2be8df",
    "chaincontract:qom:0xc990d86012dc21e4a5438a12881f97a2966732d8",
+   "chaincontract:qom:0xeb50ef7d5f15c4e2601893f3a6390e08166bb90f",
    "chaincontract:rabbitchain:0x3455ff1c81b8fc1d8229019766495cd2a9a6c577",
    "chaincontract:rabbitchain:0x3724097d57e00d8b7bb38ee49404f03968465569",
    "chaincontract:rabbitchain:0x4a75ae20142c3b6426a35d6e74e938c666ece0ac",
