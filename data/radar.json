@@ -9073,6 +9073,18 @@
    "cat": "techniek",
    "src": "forums",
    "date": "2026-11-27"
+  },
+  {
+   "key": "pr:ethereum/ercs#2226",
+   "title": "Update ERC-8076: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2226",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-27"
   }
  ],
  "seen": {
@@ -10427,6 +10439,7 @@
    "pr:ethereum/ercs#2223",
    "pr:ethereum/ercs#2224",
    "pr:ethereum/ercs#2225",
+   "pr:ethereum/ercs#2226",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
