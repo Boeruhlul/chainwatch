@@ -29169,6 +29169,44 @@
     "register"
    ]
   },
+  "webolegsettled": {
+   "id": "webolegsettled",
+   "name": "WebOleg/settled",
+   "aliases": [
+    "WebOleg/settled"
+   ],
+   "keys": [
+    "gh:weboleg"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/WebOleg/settled",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "Cosmos chain.json",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "whitechain": {
    "id": "whitechain",
    "name": "whitechain",
