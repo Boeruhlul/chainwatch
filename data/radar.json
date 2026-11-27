@@ -9142,6 +9142,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qdayaevum:0x624c478779ccc80299baa2a22833bab88e18198e",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PayrollVaultFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x624c478779ccc80299baa2a22833bab88e18198e",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x624c478779ccc80299baa2a22833bab88e18198e"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x6ad5470827e371edcb0344bb5ea88333fecb9bf6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9150,6 +9162,18 @@
    "meta": {
     "chain": "QDAY Aevum",
     "addr": "0x6ad5470827e371edcb0344bb5ea88333fecb9bf6"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "key": "chaincontract:qdayaevum:0x7bb9850513160677aa85542759d732b45fe9a679",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CustosVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x7bb9850513160677aa85542759d732b45fe9a679",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x7bb9850513160677aa85542759d732b45fe9a679"
    },
    "date": "2026-11-27"
   },
@@ -9838,10 +9862,12 @@
    "chaincontract:qdayaevum:0x4122869db62e124ecdc5a958ace83059f8818cbd",
    "chaincontract:qdayaevum:0x4c27c984af03a71e89362683940f9d054d5d14c9",
    "chaincontract:qdayaevum:0x4cd19a15a37dc241938b9b0bee67e007556554ce",
+   "chaincontract:qdayaevum:0x624c478779ccc80299baa2a22833bab88e18198e",
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
    "chaincontract:qdayaevum:0x6ad5470827e371edcb0344bb5ea88333fecb9bf6",
    "chaincontract:qdayaevum:0x70081bed49c0b0fdd7fbc9a835c4d66cd1447234",
    "chaincontract:qdayaevum:0x73117fda8e0c804eb3facbfefcd08cf6164f1f87",
+   "chaincontract:qdayaevum:0x7bb9850513160677aa85542759d732b45fe9a679",
    "chaincontract:qdayaevum:0x8bea68022996ba8736beda05f296d45abd6a6eef",
    "chaincontract:qdayaevum:0x927d8b1030e90d94039b3281a3e4b415e11c6aba",
    "chaincontract:qdayaevum:0x96f334ee3fc4b191740b9eab8aadf139206dcc9e",
