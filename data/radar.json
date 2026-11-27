@@ -9159,6 +9159,20 @@
    "date": "2026-11-27"
   },
   {
+   "key": "forum:ethresear.ch:26304",
+   "title": "Paths to post-quantum execution in Hegotá: an experimental comparison",
+   "url": "https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 20
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
+  },
+  {
    "key": "forum:forum.zknation.io:1396",
    "title": "Casa Crypto x KOL Capital: VIP Opening Cocktail at Tulum Innovation Fest (sponsorship request, $10,000)",
    "url": "https://forum.zknation.io/t/casa-crypto-x-kol-capital-vip-opening-cocktail-at-tulum-innovation-fest-sponsorship-request-10-000/1396",
@@ -10118,6 +10132,7 @@
    "forum:ethresear.ch:26292",
    "forum:ethresear.ch:26293",
    "forum:ethresear.ch:26300",
+   "forum:ethresear.ch:26304",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
