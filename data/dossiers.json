@@ -18827,6 +18827,43 @@
     "onderzoek"
    ]
   },
+  "onyx": {
+   "id": "onyx",
+   "name": "Onyx",
+   "aliases": [
+    "Onyx"
+   ],
+   "keys": [
+    "n:onyx"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/keenfolk1-lgtm/latch",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "open": {
    "id": "open",
    "name": "Open",

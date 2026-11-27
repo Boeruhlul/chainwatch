@@ -9118,6 +9118,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qdayaevum:0x4c27c984af03a71e89362683940f9d054d5d14c9",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "CustosFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x4c27c984af03a71e89362683940f9d054d5d14c9",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x4c27c984af03a71e89362683940f9d054d5d14c9"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "chaincontract:qdayaevum:0x6ad5470827e371edcb0344bb5ea88333fecb9bf6",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -9799,6 +9811,7 @@
    "chaincontract:qdayaevum:0x3cda49a81b763e87b8ad7f085850ad0feb86e260",
    "chaincontract:qdayaevum:0x4079f1a0f75458997dcd1a768170b96086276b47",
    "chaincontract:qdayaevum:0x4122869db62e124ecdc5a958ace83059f8818cbd",
+   "chaincontract:qdayaevum:0x4c27c984af03a71e89362683940f9d054d5d14c9",
    "chaincontract:qdayaevum:0x4cd19a15a37dc241938b9b0bee67e007556554ce",
    "chaincontract:qdayaevum:0x66687369d9c683aaaadae98b747b63ee7e0662e3",
    "chaincontract:qdayaevum:0x6ad5470827e371edcb0344bb5ea88333fecb9bf6",
