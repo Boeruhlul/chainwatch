@@ -9109,6 +9109,34 @@
    "dossier": null
   },
   {
+   "key": "forum:ethresear.ch:26300",
+   "title": "A state-backed validation of SETCODEFROM",
+   "url": "https://ethresear.ch/t/a-state-backed-validation-of-setcodefrom/26300",
+   "meta": {
+    "forum": "ethresear.ch",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 3
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
+  },
+  {
+   "key": "forum:forum.zknation.io:1396",
+   "title": "Casa Crypto x KOL Capital: VIP Opening Cocktail at Tulum Innovation Fest (sponsorship request, $10,000)",
+   "url": "https://forum.zknation.io/t/casa-crypto-x-kol-capital-vip-opening-cocktail-at-tulum-innovation-fest-sponsorship-request-10-000/1396",
+   "meta": {
+    "forum": "forum.zknation.io",
+    "created": "2026-11-27",
+    "posts": 1,
+    "views": 1
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-27"
+  },
+  {
    "key": "pr:ethereum/ercs#2226",
    "title": "Update ERC-8076: Move to Review",
    "url": "https://github.com/ethereum/ERCs/pull/2226",
@@ -10026,6 +10054,7 @@
    "forum:ethresear.ch:26287",
    "forum:ethresear.ch:26292",
    "forum:ethresear.ch:26293",
+   "forum:ethresear.ch:26300",
    "forum:forum.arbitrum.foundation:31604",
    "forum:forum.arbitrum.foundation:31605",
    "forum:forum.arbitrum.foundation:31606",
@@ -10135,6 +10164,7 @@
    "forum:forum.zknation.io:1354",
    "forum:forum.zknation.io:1369",
    "forum:forum.zknation.io:1384",
+   "forum:forum.zknation.io:1396",
    "forum:gov.optimism.io:10919",
    "forum:gov.optimism.io:10921",
    "forum:gov.optimism.io:10939",
