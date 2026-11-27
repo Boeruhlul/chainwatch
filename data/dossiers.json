@@ -1932,6 +1932,43 @@
     "markt"
    ]
   },
+  "atomicsolana": {
+   "id": "atomicsolana",
+   "name": "Atomic Solana",
+   "aliases": [
+    "Atomic Solana"
+   ],
+   "keys": [
+    "n:atomicsolana"
+   ],
+   "firstSeen": "2026-11-27",
+   "lastActivity": "2026-11-27",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-27"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-27",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · naam-in-repo",
+     "url": "https://github.com/jeffrey-graham/basisguard-solana",
+     "strength": "technical"
+    }
+   ],
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "atoshioriginal": {
    "id": "atoshioriginal",
    "name": "Atoshi Original",
