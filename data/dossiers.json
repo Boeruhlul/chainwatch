@@ -1311,7 +1311,7 @@
     "n:arfi"
    ],
    "firstSeen": "2026-11-24",
-   "lastActivity": "2026-11-25",
+   "lastActivity": "2026-11-27",
    "stage": "draait",
    "stageHistory": [
     {
@@ -1368,6 +1368,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 884800",
      "url": "https://github.com/ethereum-lists/chains/pull/9159",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "ecosystem",
+     "family": "onchain",
+     "kind": "eco",
+     "what": "ecosystem: DEX (Uniswap v2-fork) 0xad815be2…",
+     "url": "https://scan.arficoin.com/address/0xad815be26fd71f453c34088a3285a6f6de989265",
+     "strength": "running"
     }
    ],
    "chainIds": [
@@ -1395,6 +1404,11 @@
       "addr": "0x48ebc40e40e228ad2bc0ef1e74174c534d27a459",
       "type": "Uniswap v2-fork",
       "date": "2026-11-24"
+     },
+     {
+      "addr": "0xad815be26fd71f453c34088a3285a6f6de989265",
+      "type": "Uniswap v2-fork",
+      "date": "2026-11-27"
      }
     ],
     "launchpad": []
