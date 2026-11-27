@@ -9130,6 +9130,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qdayaevum:0xd50a9e7b9f6e4ce334960b22dcad80362de57369",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "PreAuthVault op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0xd50a9e7b9f6e4ce334960b22dcad80362de57369",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0xd50a9e7b9f6e4ce334960b22dcad80362de57369"
+   },
+   "date": "2026-11-27"
+  },
+  {
    "key": "forum:delvingbitcoin.org:3128",
    "title": "Handling PQ signatures on the stack",
    "url": "https://delvingbitcoin.org/t/handling-pq-signatures-on-the-stack/3128",
@@ -9808,6 +9820,7 @@
    "chaincontract:qdayaevum:0xd17e08cd03b074a9f2e1f6a69ccd239fa7c24e2e",
    "chaincontract:qdayaevum:0xd3da6b00a525f7093557d3ba0feebeec00099df5",
    "chaincontract:qdayaevum:0xd408b2f3354beabcedd8490c46fa5e8acd7ae782",
+   "chaincontract:qdayaevum:0xd50a9e7b9f6e4ce334960b22dcad80362de57369",
    "chaincontract:qdayaevum:0xdd39a0b8020c8c18480a068d15bf18b3e9ef39ea",
    "chaincontract:qdayaevum:0xe68518a95cbbbd75f521c86688770a98140fe06f",
    "chaincontract:qdayaevum:0xec74b3999870d8f1790b7e5cbf50ae98e084f865",
