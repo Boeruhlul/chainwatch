@@ -9723,6 +9723,18 @@
    "date": "2026-11-28"
   },
   {
+   "key": "pr:ethereum/eips#12744",
+   "title": "Update EIP-8455: add co-author",
+   "url": "https://github.com/ethereum/EIPs/pull/12744",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
    "key": "pr:ethereum/ercs#2234",
    "title": "Update ERC-8515: Revise author contact details",
    "url": "https://github.com/ethereum/ERCs/pull/2234",
@@ -11073,6 +11085,7 @@
    "pr:ethereum/eips#12741",
    "pr:ethereum/eips#12742",
    "pr:ethereum/eips#12743",
+   "pr:ethereum/eips#12744",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
