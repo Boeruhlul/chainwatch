@@ -9542,6 +9542,20 @@
    "date": "2026-11-28"
   },
   {
+   "key": "forum:forum.solana.com:5369",
+   "title": "Why Solana blockchain keep tokens",
+   "url": "https://forum.solana.com/t/why-solana-blockchain-keep-tokens/5369",
+   "meta": {
+    "forum": "forum.solana.com",
+    "created": "2026-11-28",
+    "posts": 1,
+    "views": 2
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-28"
+  },
+  {
    "key": "immunefi:lido-lend",
    "title": "Lido Lend",
    "url": "https://immunefi.com/bug-bounty/lido-lend/",
@@ -9685,6 +9699,30 @@
    "date": "2026-11-28"
   },
   {
+   "key": "pr:ethereum/eips#12742",
+   "title": "Update EIP-7928: Name EIP-4788 as the omitted pre-execution call",
+   "url": "https://github.com/ethereum/EIPs/pull/12742",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12743",
+   "title": "Update EIP-8024: Say exceptional halt in the two invalid-immediate tests",
+   "url": "https://github.com/ethereum/EIPs/pull/12743",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
    "key": "pr:ethereum/ercs#2234",
    "title": "Update ERC-8515: Revise author contact details",
    "url": "https://github.com/ethereum/ERCs/pull/2234",
@@ -9696,6 +9734,30 @@
    "src": "proposals",
    "date": "2026-11-28",
    "dossier": null
+  },
+  {
+   "key": "pr:ethereum/ercs#2235",
+   "title": "Update ERC-8348: scope servicing attestations and asset condition",
+   "url": "https://github.com/ethereum/ERCs/pull/2235",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/ercs#2236",
+   "title": "Update ERC-8423: Move to Review",
+   "url": "https://github.com/ethereum/ERCs/pull/2236",
+   "meta": {
+    "repo": "ethereum/ERCs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
   }
  ],
  "seen": {
@@ -10738,6 +10800,7 @@
    "forum:forum.solana.com:5268",
    "forum:forum.solana.com:5320",
    "forum:forum.solana.com:5329",
+   "forum:forum.solana.com:5369",
    "forum:forum.zknation.io:1224",
    "forum:forum.zknation.io:1225",
    "forum:forum.zknation.io:1231",
@@ -11008,6 +11071,8 @@
    "pr:ethereum/eips#12739",
    "pr:ethereum/eips#12740",
    "pr:ethereum/eips#12741",
+   "pr:ethereum/eips#12742",
+   "pr:ethereum/eips#12743",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
@@ -11133,6 +11198,8 @@
    "pr:ethereum/ercs#2232",
    "pr:ethereum/ercs#2233",
    "pr:ethereum/ercs#2234",
+   "pr:ethereum/ercs#2235",
+   "pr:ethereum/ercs#2236",
    "pr:solana-foundation/solana-improvement-documents#706",
    "pr:solana-foundation/solana-improvement-documents#707",
    "pr:solana-foundation/solana-improvement-documents#709",
