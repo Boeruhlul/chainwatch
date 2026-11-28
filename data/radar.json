@@ -9302,6 +9302,69 @@
    "cat": "techniek",
    "src": "proposals",
    "date": "2026-11-27"
+  },
+  {
+   "key": "immunefi:lido-lend",
+   "title": "Lido Lend",
+   "url": "https://immunefi.com/bug-bounty/lido-lend/",
+   "meta": {
+    "launched": "2026-11-27",
+    "ecosystem": "ETH",
+    "type": "Lending",
+    "max": 2000000,
+    "website": "https://lend.lido.fi"
+   },
+   "cat": "bounty",
+   "src": "immunefi",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12732",
+   "title": "Update EIP-8037: drop the EIP-7610 storage collision",
+   "url": "https://github.com/ethereum/EIPs/pull/12732",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12733",
+   "title": "Update EIP-7883: Read iteration count from exponent head",
+   "url": "https://github.com/ethereum/EIPs/pull/12733",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12734",
+   "title": "Update EIP-2565: Read iteration count from exponent head",
+   "url": "https://github.com/ethereum/EIPs/pull/12734",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12735",
+   "title": "Update EIP-8425: update the Ethereum Magicians discussion link",
+   "url": "https://github.com/ethereum/EIPs/pull/12735",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-27"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
   }
  ],
  "seen": {
@@ -10369,6 +10432,7 @@
   ],
   "immunefi": [
    "immunefi:audit-comp-base-everest",
+   "immunefi:lido-lend",
    "immunefi:metric",
    "immunefi:paxos-labs",
    "immunefi:plether"
@@ -10588,6 +10652,10 @@
    "pr:ethereum/eips#12729",
    "pr:ethereum/eips#12730",
    "pr:ethereum/eips#12731",
+   "pr:ethereum/eips#12732",
+   "pr:ethereum/eips#12733",
+   "pr:ethereum/eips#12734",
+   "pr:ethereum/eips#12735",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
