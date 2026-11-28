@@ -9,7 +9,9 @@
     "ok": true
   },
   "ct-hostnames": {
-    "ok": true,
+    "ok": false,
+    "error": "crt.sh onbereikbaar — rpc.chain.%: fetch failed; rpc.mainnet.%: fetch failed",
+    "failingSince": "2026-11-28T07:05:44.704Z",
     "lastNotifiedAt": "2026-11-23T12:45:50.151Z"
   },
   "blob-submitters": {
