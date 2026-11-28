@@ -4442,6 +4442,44 @@
     "github"
    ]
   },
+  "cluster1900leak": {
+   "id": "cluster1900leak",
+   "name": "cluster1900/leak",
+   "aliases": [
+    "cluster1900/leak"
+   ],
+   "keys": [
+    "gh:cluster1900"
+   ],
+   "firstSeen": "2026-11-28",
+   "lastActivity": "2026-11-28",
+   "stage": "lead",
+   "stageHistory": [
+    {
+     "stage": "lead",
+     "date": "2026-11-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-28",
+     "source": "github-discovery",
+     "family": "github",
+     "kind": "lead",
+     "what": "github-discovery: aanwijzing · github-config",
+     "url": "https://github.com/cluster1900/leak",
+     "strength": "technical"
+    }
+   ],
+   "architecture": "ZK Stack, genesis",
+   "confidence": "C",
+   "reasons": [
+    "één technisch signaal (github)"
+   ],
+   "families": [
+    "github"
+   ]
+  },
   "clutch": {
    "id": "clutch",
    "name": "Clutch",
