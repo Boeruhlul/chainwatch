@@ -9623,6 +9623,42 @@
    "dossier": null
   },
   {
+   "key": "pr:ethereum/eips#12739",
+   "title": "Update EIP-8252: require processing the reorg, consider finality",
+   "url": "https://github.com/ethereum/EIPs/pull/12739",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12740",
+   "title": "Update EIP-8369: Use EIP-8141's fee check for Profile 2",
+   "url": "https://github.com/ethereum/EIPs/pull/12740",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12741",
+   "title": "Update EIP-8250: Use EIP-8141's fee fields in the payload example",
+   "url": "https://github.com/ethereum/EIPs/pull/12741",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
    "key": "pr:ethereum/ercs#2234",
    "title": "Update ERC-8515: Revise author contact details",
    "url": "https://github.com/ethereum/ERCs/pull/2234",
@@ -10941,6 +10977,9 @@
    "pr:ethereum/eips#12736",
    "pr:ethereum/eips#12737",
    "pr:ethereum/eips#12738",
+   "pr:ethereum/eips#12739",
+   "pr:ethereum/eips#12740",
+   "pr:ethereum/eips#12741",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
