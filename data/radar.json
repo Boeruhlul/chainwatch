@@ -9359,6 +9359,18 @@
    "dossier": null
   },
   {
+   "key": "chaincontract:qdayaevum:0x05ccde845230a0e749138452e9460929033eccc3",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "TreasuryFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x05ccde845230a0e749138452e9460929033eccc3",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x05ccde845230a0e749138452e9460929033eccc3"
+   },
+   "date": "2026-11-28"
+  },
+  {
    "key": "chaincontract:qms:0x9f3a527312402f84aa866f8bacfb385ee68c0070",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -10060,6 +10072,7 @@
    "chaincontract:prana:0xa88cb17efeeeaf68b2eb970dcabd26a60b3feb3b",
    "chaincontract:prana:0xe3e01d327bc2bee7a5754c1e7ff23158e017688e",
    "chaincontract:prana:0xfb5b83ed7f54e5fa45ed528dbe2167bb0b93b1e6",
+   "chaincontract:qdayaevum:0x05ccde845230a0e749138452e9460929033eccc3",
    "chaincontract:qdayaevum:0x0d93a398de615c92b04961dd042471fea4b7eac6",
    "chaincontract:qdayaevum:0x1402465f04cf62fb822f0e4fd0f9cd2be595ad88",
    "chaincontract:qdayaevum:0x15debe3bed0a0bf705b6800d279f038097dc1706",
