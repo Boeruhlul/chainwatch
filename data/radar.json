@@ -9391,6 +9391,30 @@
    "date": "2026-11-28"
   },
   {
+   "key": "pr:ethereum/eips#12737",
+   "title": "Website: show titles of cross-referenced EIPs on hover",
+   "url": "https://github.com/ethereum/EIPs/pull/12737",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
+   "key": "pr:ethereum/eips#12738",
+   "title": "Update EIP-2565: Fix Markdown lint and smart quotes",
+   "url": "https://github.com/ethereum/EIPs/pull/12738",
+   "meta": {
+    "repo": "ethereum/EIPs",
+    "created": "2026-11-28"
+   },
+   "cat": "techniek",
+   "src": "proposals",
+   "date": "2026-11-28"
+  },
+  {
    "key": "pr:ethereum/ercs#2234",
    "title": "Update ERC-8515: Revise author contact details",
    "url": "https://github.com/ethereum/ERCs/pull/2234",
@@ -10694,6 +10718,8 @@
    "pr:ethereum/eips#12734",
    "pr:ethereum/eips#12735",
    "pr:ethereum/eips#12736",
+   "pr:ethereum/eips#12737",
+   "pr:ethereum/eips#12738",
    "pr:ethereum/ercs#2103",
    "pr:ethereum/ercs#2104",
    "pr:ethereum/ercs#2105",
