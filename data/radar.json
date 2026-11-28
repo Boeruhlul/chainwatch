@@ -9503,6 +9503,18 @@
    "date": "2026-11-28"
   },
   {
+   "key": "chaincontract:qdayaevum:0x9f59524dd9002e4a96fafdd11c0f1a9a7b5809a5",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "AgentAccountFactory op QDAY Aevum",
+   "url": "https://explorer-test.qday.info/address/0x9f59524dd9002e4a96fafdd11c0f1a9a7b5809a5",
+   "meta": {
+    "chain": "QDAY Aevum",
+    "addr": "0x9f59524dd9002e4a96fafdd11c0f1a9a7b5809a5"
+   },
+   "date": "2026-11-28"
+  },
+  {
    "key": "chaincontract:qdayaevum:0xfac8ebb7d8f494618068b7ef86ff9a0767b34209",
    "src": "chain-contracts",
    "cat": "contracten",
@@ -10380,6 +10392,7 @@
    "chaincontract:qdayaevum:0x9a634535065ae7b3e3df523d76d0d2eed5aeb5b8",
    "chaincontract:qdayaevum:0x9ce6f91fcd725a4f54083469fbe170ae1930ce41",
    "chaincontract:qdayaevum:0x9d2cf5776359fd502a1a09862d8ef03f41446442",
+   "chaincontract:qdayaevum:0x9f59524dd9002e4a96fafdd11c0f1a9a7b5809a5",
    "chaincontract:qdayaevum:0xa27789f1d49640e392294873c0d4577000ee5287",
    "chaincontract:qdayaevum:0xa38a8d54406d417ecfcd884bba12e18079f74418",
    "chaincontract:qdayaevum:0xaeca0beb9ecedbe45dbb2fe74524de31ddf0aa89",
