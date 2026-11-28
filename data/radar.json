@@ -9516,6 +9516,20 @@
    "dossier": null
   },
   {
+   "key": "forum:ethereum-magicians.org:30538",
+   "title": "All Core Devs - Consensus (ACDC) #193, December 10, 2026",
+   "url": "https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-193-december-10-2026/30538",
+   "meta": {
+    "forum": "ethereum-magicians.org",
+    "created": "2026-11-28",
+    "posts": 1,
+    "views": 4
+   },
+   "cat": "techniek",
+   "src": "forums",
+   "date": "2026-11-28"
+  },
+  {
    "key": "immunefi:lido-lend",
    "title": "Lido Lend",
    "url": "https://immunefi.com/bug-bounty/lido-lend/",
@@ -10577,6 +10591,7 @@
    "forum:ethereum-magicians.org:30519",
    "forum:ethereum-magicians.org:30522",
    "forum:ethereum-magicians.org:30525",
+   "forum:ethereum-magicians.org:30538",
    "forum:ethresear.ch:26167",
    "forum:ethresear.ch:26169",
    "forum:ethresear.ch:26170",
