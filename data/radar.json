@@ -9304,6 +9304,18 @@
    "date": "2026-11-27"
   },
   {
+   "key": "chaincontract:qms:0x9f3a527312402f84aa866f8bacfb385ee68c0070",
+   "src": "chain-contracts",
+   "cat": "contracten",
+   "title": "SimpleVault op QMS",
+   "url": "https://testnet.qmsscan.io/address/0x9f3a527312402f84aa866f8bacfb385ee68c0070",
+   "meta": {
+    "chain": "QMS",
+    "addr": "0x9f3a527312402f84aa866f8bacfb385ee68c0070"
+   },
+   "date": "2026-11-28"
+  },
+  {
    "key": "immunefi:lido-lend",
    "title": "Lido Lend",
    "url": "https://immunefi.com/bug-bounty/lido-lend/",
@@ -10008,6 +10020,7 @@
    "chaincontract:qms:0x9415135c0f7ad76d0f5a7206984cfd0bfa8a16bc",
    "chaincontract:qms:0x97c305119f5d98afd11bcd19a1ba8c27d68f3546",
    "chaincontract:qms:0x9d7bb79d9c0e79949c1e98c1f5ef35f58439b4a8",
+   "chaincontract:qms:0x9f3a527312402f84aa866f8bacfb385ee68c0070",
    "chaincontract:qms:0xa6186794795b6de28f41d4017c253d6ce21e1d8c",
    "chaincontract:qms:0xa722df97d8e542ff57a6aefc0ee7f2394183f084",
    "chaincontract:qms:0xab77cb90d04eaa49c945bff4b4fd6d744a37a513",
