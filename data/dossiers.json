@@ -17582,6 +17582,43 @@
     "onchain"
    ]
   },
+  "naamlozerollup0xf511ce7e": {
+   "id": "naamlozerollup0xf511ce7e",
+   "name": "Naamloze rollup 0xf511ce7e…",
+   "aliases": [],
+   "keys": [
+    "a:0xf511ce7e8976d4309ef2940a36aebb0004d968ba"
+   ],
+   "firstSeen": "2026-11-28",
+   "lastActivity": "2026-11-28",
+   "stage": "draait",
+   "stageHistory": [
+    {
+     "stage": "draait",
+     "date": "2026-11-28"
+    }
+   ],
+   "evidence": [
+    {
+     "date": "2026-11-28",
+     "source": "blob-submitters",
+     "family": "onchain",
+     "kind": "stealth",
+     "what": "blob-submitters: onaangekondigd · blob",
+     "url": "https://blobscan.com/address/0xf511ce7e8976d4309ef2940a36aebb0004d968ba",
+     "stealthKind": "blob",
+     "strength": "onchain"
+    }
+   ],
+   "architecture": "EVM (rollup op Ethereum)",
+   "confidence": "B",
+   "reasons": [
+    "on-chain activiteit zonder bekende naam"
+   ],
+   "families": [
+    "onchain"
+   ]
+  },
   "neutronx": {
    "id": "neutronx",
    "name": "NeutronX",
