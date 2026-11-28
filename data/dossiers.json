@@ -5250,7 +5250,7 @@
     "n:ctdn"
    ],
    "firstSeen": "2026-11-25",
-   "lastActivity": "2026-11-25",
+   "lastActivity": "2026-11-28",
    "stage": "draait",
    "stageHistory": [
     {
@@ -5280,6 +5280,15 @@
      "what": "ethlists-pr: RPC antwoordt · ID 9871",
      "url": "https://github.com/ethereum-lists/chains/pull/9156",
      "strength": "running"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "ethlists-pr",
+     "family": "register",
+     "kind": "proposal",
+     "what": "ethlists-pr: chain-ID-aanvraag · ID 9871",
+     "url": "https://github.com/ethereum-lists/chains/pull/9175",
+     "strength": "technical"
     }
    ],
    "chainIds": [
